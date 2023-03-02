@@ -46,7 +46,7 @@
   fhir:StructureDefinition.name [ fhir:value "CLS_L0_VitalSigns"]; # 
   fhir:StructureDefinition.title [ fhir:value "CLS L0 Vital Signs"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T23:17:06+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T00:07:18+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

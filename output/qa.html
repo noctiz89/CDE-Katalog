@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 10, warn = 87, info = 13-->
+<!-- broken links = 0, errors = 11, warn = 87, info = 13-->
 <head>
   <title>CDEKatalog : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,13 +36,13 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CDEKatalog</h1>
- <p>Generated Thu Mar 02 23:27:45 CET 2023, FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = <a href="http://somewhere.org/fhir/uv/myig">http://somewhere.org/fhir/uv/myig</a> (<a href="http://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Fri Mar 03 00:17:46 CET 2023, FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = <a href="http://somewhere.org/fhir/uv/myig">http://somewhere.org/fhir/uv/myig</a> (<a href="http://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.38</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.cde-catalog, Canonical = http://somewhere.org/fhir/uv/myig</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><ul><li>The file package-list.json should not exist in the root folder <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li><span title="Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1677796065189 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li><span title="Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1677799065868 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>This IG has never been published, so the version should start with '0.' or include a patch version e.g. '-ballot' <img src="icon-warning.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
@@ -57,16 +57,16 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at http://somewhere.org/fhir/uv/myig: Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1677795418595 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at http://somewhere.org/fhir/uv/myig: Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1677798429879 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 10, warn = 87, info = 13, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 11, warn = 87, info = 13, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>2</b></td><td><b>4</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>3</b></td><td><b>4</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cde-age"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -332,6 +332,9 @@
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>input\cql\ChlamydiaScreening_Common.cql</b></td><td><b>error</b></td><td title=""><b>CQL source was not associated with a library resource in the IG.</b></td>
+   </tr>
    <tr style="background-color: #ffcccc">
      <td><b>input\cql\ChlamydiaScreening_CDS_UsingCommon.cql</b></td><td><b>error</b></td><td title=""><b>CQL source was not associated with a library resource in the IG.</b></td>
    </tr>
@@ -1380,10 +1383,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.name[0] (l16/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl99" class="flip" onclick="flip('l99')">Show Reasoning</span><div id="l99" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[0]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
+     <td><b><a href="">Patient.name[0] (l16/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl100" class="flip" onclick="flip('l100')">Show Reasoning</span><div id="l100" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[0]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.name[1] (l21/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl100" class="flip" onclick="flip('l100')">Show Reasoning</span><div id="l100" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[1]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
+     <td><b><a href="">Patient.name[1] (l21/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl101" class="flip" onclick="flip('l101')">Show Reasoning</span><div id="l101" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[1]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -1436,7 +1439,7 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.snapshot (l1/c11941)</b></td><td><b>error</b></td><td title="Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed"><b>Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed</b></td>
+     <td><b>StructureDefinition.snapshot (l1/c11833)</b></td><td><b>error</b></td><td title="Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed"><b>Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed</b></td>
    </tr>
 </table>
 <hr/>

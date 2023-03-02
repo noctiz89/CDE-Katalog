@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 10, warn = 87, info = 13
+err = 11, warn = 87, info = 13
 IG Publisher Version: 1.2.38
-Generated Thu Mar 02 23:27:47 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 2 / 4 / 0
+Generated Fri Mar 03 00:17:48 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 3 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
@@ -93,6 +93,7 @@ Generated Thu Mar 02 23:27:47 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  not relevant : 0 / 1 / 6
 </table>
 == n/a ==
+ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_Common.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_CDS_UsingCommon.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
