@@ -68,5 +68,8 @@
     <li>
       <a href="spec.html">Spezifikationen</a>: Beschreibung...
     </li>
-  </ul>
+    <li>
+      <a href="qa.html">Validierungsergebnisse</a>: Hier sind die automatisch generierten Validierungsergebnisse  dieses CDE Katalogs zu finden.
+    </li>
+      </ul>
 </div>

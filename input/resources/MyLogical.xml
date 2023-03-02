@@ -18,8 +18,6 @@
   <differential>
     <element id="MyLogical">
       <path value="MyLogical"/>
-      <min value="0"/>
-      <max value="1"/>
     </element>
     <element id="MyLogical.element1">
       <path value="MyLogical.element1"/>

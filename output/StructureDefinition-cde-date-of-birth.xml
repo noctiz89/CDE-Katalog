@@ -8,21 +8,40 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-cde-date-of-birth-definitions.html#Observation.valueDateTime" title="Angabe des Geburtsdatum im Format YYYY-MM-DD">valueDateTime</a><a name="Observation.valueDateTime"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Geburtsdatum</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+      </extension>
+    </valueCode>
+  </extension>
   <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="CDE_DateOfBirth"/>
   <title value="CDE Date Of Birth"/>
   <status value="active"/>
-  <date value="2023-03-02T21:55:41+01:00"/>
-  <publisher value="Nils Haendly"/>
+  <date value="2023-03-02T22:37:28+01:00"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
-    <name value="Nils Haendly"/>
     <telecom>
       <system value="url"/>
-      <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
   <description value="Dieses CDE enthält das 'Geburtsdatum' einer Person."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

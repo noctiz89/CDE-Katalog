@@ -52,20 +52,25 @@
     <valueCode value="trial-use"/>
   </extension>
   <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="CDE_Age"/>
   <title value="CDE Age"/>
   <status value="active"/>
-  <date value="2023-03-02T21:55:41+01:00"/>
-  <publisher value="Nils Haendly"/>
+  <date value="2023-03-02T22:37:28+01:00"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
-    <name value="Nils Haendly"/>
     <telecom>
       <system value="url"/>
-      <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
   <description value="Dieses CDE enthält das 'Alter'."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

@@ -30,22 +30,29 @@
      fhir:Extension.valueCode [ fhir:value "trial-use" ]
   ]; # 
   fhir:StructureDefinition.url [ fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age"]; # 
-  fhir:StructureDefinition.version [ fhir:value "0.1.0"]; # 
+  fhir:StructureDefinition.version [ fhir:value "0.2.0"]; # 
   fhir:StructureDefinition.name [ fhir:value "CDE_Age"]; # 
   fhir:StructureDefinition.title [ fhir:value "CDE Age"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
-  fhir:StructureDefinition.publisher [ fhir:value "Nils Haendly"]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-02T22:37:28+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "Nils Haendly" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://noctiz89.github.io/CDE-Katalog/index.html" ]
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
      ]
   ]; # 
   fhir:StructureDefinition.description [ fhir:value "Dieses CDE enthält das 'Alter'."]; # 
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ]; # 
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"]; # 
   fhir:StructureDefinition.mapping [
      fhir:index 0;

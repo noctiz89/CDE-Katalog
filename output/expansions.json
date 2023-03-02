@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "70b60b7e-63a3-478c-98f5-a6b62696d5fc",
+  "id" : "e40417b6-ea46-4819-a743-89ea2111447c",
   "meta" : {
-    "lastUpdated" : "2023-03-02T21:55:41.543+01:00"
+    "lastUpdated" : "2023-03-02T22:37:28.510+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -12,27 +12,42 @@
       "id" : "valueset-fake",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01\"> </a>  <a href=\"CodeSystem-cs-fake.html#cs-fake-01\">01</a></td><td>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</td><td>VS1</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake v0.2.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01\"> </a>  <a href=\"CodeSystem-cs-fake.html#cs-fake-01\">01</a></td><td>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</td><td>VS1</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "ValueSetFake",
       "title" : "ValueSet fake",
       "status" : "draft",
       "experimental" : true,
       "date" : "2015-06-22",
-      "publisher" : "Nils Haendly",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "A fake value",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:355589da-eff7-4f4a-afd9-2a2c9c14f538",
-        "timestamp" : "2023-03-02T21:57:51+01:00",
+        "identifier" : "urn:uuid:1e40b2bf-8156-443e-9fc2-a01c3ce10a97",
+        "timestamp" : "2023-03-02T22:40:03+01:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -40,7 +55,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.1.0"
+          "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"
         }],
         "contains" : [{
           "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
@@ -59,24 +74,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender v4.0.1 (CodeSystem)</a></li><li><a href=\"http://hl7.org/fhir/R4/valueset-administrative-gender.html\">AdministrativeGender v4.0.1 (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-male\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Male</td><td><div><p>Male.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-female\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Female</td><td><div><p>Female.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-other\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other\">other</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Other</td><td><div><p>Other.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-administrative-gender-unknown\"> </a>  <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown\">unknown</a></td><td>http://hl7.org/fhir/administrative-gender</td><td>Unknown</td><td><div><p>Unknown.</p>\n</div></td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_AdministrativeGender",
       "title" : "VS AdministrativeGender",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält Codes für das administrative Geschlecht.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:c5a09077-b6ee-45ed-ab97-acb03c99d6fc",
-        "timestamp" : "2023-03-02T22:00:37+01:00",
+        "identifier" : "urn:uuid:b3f7160b-42d4-4f93-aef6-9cfe24ed8033",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -122,24 +162,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a>  <a href=\"http://snomed.info/id/260385009\">260385009</a></td><td>http://snomed.info/sct</td><td>Nein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-10828004\"> </a>  <a href=\"http://snomed.info/id/10828004\">10828004</a></td><td>http://snomed.info/sct</td><td>Ja</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_BinaryDecisionYesOrNoAsSnomed",
       "title" : "VS Binary Decision Yes Or No as Snomed",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:83e762d5-1544-407c-9565-789d1774341e",
-        "timestamp" : "2023-03-02T22:00:37+01:00",
+        "identifier" : "urn:uuid:d645fe77-c164-44a8-8305-dc7dd7b6751f",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -175,24 +240,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248153007\"> </a>  <a href=\"http://snomed.info/id/248153007\">248153007</a></td><td>http://snomed.info/sct</td><td>Männlich</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-248152002\"> </a>  <a href=\"http://snomed.info/id/248152002\">248152002</a></td><td>http://snomed.info/sct</td><td>Weiblich</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_BinaryGenderAsSnomed",
       "title" : "VS Binary Gender as Snomed",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:7eb4b3f8-fa6e-47f7-964c-586ab7dfd3e2",
-        "timestamp" : "2023-03-02T22:00:37+01:00",
+        "identifier" : "urn:uuid:482e42f3-d0a5-48f8-a151-1d634428910c",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -228,24 +318,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_GlasgowComaScaleForAdults",
       "title" : "VS Glasgow Coma Scale For Adults",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:3bf4a3e3-8b86-4d22-ac0c-c68885f8e0c2",
-        "timestamp" : "2023-03-02T22:00:39+01:00",
+        "identifier" : "urn:uuid:ea8918cb-04b3-4412-bc6d-06aeeedce783",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -262,24 +377,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 9 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-fm\"> </a>  fm</td><td>http://unitsofmeasure.org</td><td>fm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pm\"> </a>  pm</td><td>http://unitsofmeasure.org</td><td>pm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-nm\"> </a>  nm</td><td>http://unitsofmeasure.org</td><td>nm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-um\"> </a>  um</td><td>http://unitsofmeasure.org</td><td>um</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mm\"> </a>  mm</td><td>http://unitsofmeasure.org</td><td>mm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-cm\"> </a>  cm</td><td>http://unitsofmeasure.org</td><td>cm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-dm\"> </a>  dm</td><td>http://unitsofmeasure.org</td><td>dm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-m\"> </a>  m</td><td>http://unitsofmeasure.org</td><td>m</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-km\"> </a>  km</td><td>http://unitsofmeasure.org</td><td>km</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_LengthUnits",
       "title" : "VS Length Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für 'Länge'",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:d6735957-1f5e-49b9-9fbc-c3c69147cb7b",
-        "timestamp" : "2023-03-02T22:00:39+01:00",
+        "identifier" : "urn:uuid:d3698d9b-d3f7-447c-be75-0fb0bf4779c5",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -350,24 +490,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 21 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg-mL\"> </a>  pg/mL</td><td>http://unitsofmeasure.org</td><td>pg/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng-mL\"> </a>  ng/mL</td><td>http://unitsofmeasure.org</td><td>ng/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng-mL-rbc-\"> </a>  ng/mL{rbc}</td><td>http://unitsofmeasure.org</td><td>ng/mL{rbc}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug-mL\"> </a>  ug/mL</td><td>http://unitsofmeasure.org</td><td>ug/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg-mL\"> </a>  mg/mL</td><td>http://unitsofmeasure.org</td><td>mg/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g-mL\"> </a>  g/mL</td><td>http://unitsofmeasure.org</td><td>g/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg-dL\"> </a>  pg/dL</td><td>http://unitsofmeasure.org</td><td>pg/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng-dL\"> </a>  ng/dL</td><td>http://unitsofmeasure.org</td><td>ng/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug-dL\"> </a>  ug/dL</td><td>http://unitsofmeasure.org</td><td>ug/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug-dL-rbc-\"> </a>  ug/dL{rbc}</td><td>http://unitsofmeasure.org</td><td>ug/dL{rbc}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg-dL\"> </a>  mg/dL</td><td>http://unitsofmeasure.org</td><td>mg/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg-Phenylketones--dL\"> </a>  mg{Phenylketones}/dL</td><td>http://unitsofmeasure.org</td><td>mg{Phenylketones}/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g-dL\"> </a>  g/dL</td><td>http://unitsofmeasure.org</td><td>g/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng-L\"> </a>  ng/L</td><td>http://unitsofmeasure.org</td><td>ng/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg-L\"> </a>  pg/L</td><td>http://unitsofmeasure.org</td><td>pg/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug-L\"> </a>  ug/L</td><td>http://unitsofmeasure.org</td><td>ug/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg-L\"> </a>  mg/L</td><td>http://unitsofmeasure.org</td><td>mg/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g-L\"> </a>  g/L</td><td>http://unitsofmeasure.org</td><td>g/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-kg-L\"> </a>  kg/L</td><td>http://unitsofmeasure.org</td><td>kg/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg-m3\"> </a>  mg/m3</td><td>http://unitsofmeasure.org</td><td>mg/m3</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-kg-m3\"> </a>  kg/m3</td><td>http://unitsofmeasure.org</td><td>kg/m3</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_MassConcentrationUnits",
       "title" : "VS Mass Concentration Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für Massenkonzentration",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:cc850634-f7f7-4dcb-b074-4639aaa67640",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:7a5c6033-1c86-4126-baec-456a9672f329",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -498,24 +663,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-fg\"> </a>  fg</td><td>http://unitsofmeasure.org</td><td>fg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg\"> </a>  pg</td><td>http://unitsofmeasure.org</td><td>pg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng\"> </a>  ng</td><td>http://unitsofmeasure.org</td><td>ng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug\"> </a>  ug</td><td>http://unitsofmeasure.org</td><td>ug</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug--TotalVolume-\"> </a>  ug/{TotalVolume}</td><td>http://unitsofmeasure.org</td><td>ug/{TotalVolume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug--Specimen-\"> </a>  ug/{Specimen}</td><td>http://unitsofmeasure.org</td><td>ug/{Specimen}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg\"> </a>  mg</td><td>http://unitsofmeasure.org</td><td>mg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg--Volume-\"> </a>  mg/{Volume}</td><td>http://unitsofmeasure.org</td><td>mg/{Volume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg--TotalVolume-\"> </a>  mg/{TotalVolume}</td><td>http://unitsofmeasure.org</td><td>mg/{TotalVolume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g\"> </a>  g</td><td>http://unitsofmeasure.org</td><td>g</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g--TotalWeight-\"> </a>  g/{TotalWeight}</td><td>http://unitsofmeasure.org</td><td>g/{TotalWeight}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-dg\"> </a>  dg</td><td>http://unitsofmeasure.org</td><td>dg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-cg\"> </a>  cg</td><td>http://unitsofmeasure.org</td><td>cg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-kg\"> </a>  kg</td><td>http://unitsofmeasure.org</td><td>kg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-t\"> </a>  t</td><td>http://unitsofmeasure.org</td><td>t</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_MassUnits",
       "title" : "VS Mass Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für 'Masse'",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:f992b8cf-5bba-4e07-a724-d603baba8b32",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:26d49b01-4dc6-4b4a-b559-163057c23575",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -616,24 +806,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1631000175102\"> </a>  <a href=\"http://snomed.info/id/1631000175102\">1631000175102</a></td><td>http://snomed.info/sct</td><td>Der Patient wurde nicht gefragt.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-261665006\"> </a>  <a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>http://snomed.info/sct</td><td>Unbekannt</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1220561009\"> </a>  <a href=\"http://snomed.info/id/1220561009\">1220561009</a></td><td>http://snomed.info/sct</td><td>Wird nicht aufgezeichnet/erfasst.</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_MissingValuesAsSnomed",
       "title" : "VS Missing Values As Snomed",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält Snomed-Codes für fehlende Werte.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:d9c22ed6-ec73-4f25-bcc7-4f230d8c8e87",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:4abc984c-b847-4070-80e3-e8cdf5bd8b27",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -674,24 +889,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-umol-L\"> </a>  umol/L</td><td>http://unitsofmeasure.org</td><td>umol/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mmol-L\"> </a>  mmol/L</td><td>http://unitsofmeasure.org</td><td>mmol/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-fmol-mL\"> </a>  fmol/mL</td><td>http://unitsofmeasure.org</td><td>fmol/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pmol-mL\"> </a>  pmol/mL</td><td>http://unitsofmeasure.org</td><td>pmol/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-nmol-mL\"> </a>  nmol/mL</td><td>http://unitsofmeasure.org</td><td>nmol/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-umol-mL\"> </a>  umol/mL</td><td>http://unitsofmeasure.org</td><td>umol/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mol-mL\"> </a>  mol/mL</td><td>http://unitsofmeasure.org</td><td>mol/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pmol-dL\"> </a>  pmol/dL</td><td>http://unitsofmeasure.org</td><td>pmol/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-nmol-dL\"> </a>  nmol/dL</td><td>http://unitsofmeasure.org</td><td>nmol/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-umol-dL\"> </a>  umol/dL</td><td>http://unitsofmeasure.org</td><td>umol/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mmol-dL\"> </a>  mmol/dL</td><td>http://unitsofmeasure.org</td><td>mmol/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pmol-L\"> </a>  pmol/L</td><td>http://unitsofmeasure.org</td><td>pmol/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-nmol-L\"> </a>  nmol/L</td><td>http://unitsofmeasure.org</td><td>nmol/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mol-L\"> </a>  mol/L</td><td>http://unitsofmeasure.org</td><td>mol/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mol-m3\"> </a>  mol/m3</td><td>http://unitsofmeasure.org</td><td>mol/m3</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_MolarConcentrationUnits",
       "title" : "VS Molar Concentration Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für Stoffmengenkonzentration",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:e8b3fe48-092b-4bb7-a2b9-c93f4dc4e004",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:325de37c-3569-4eac-b571-0533a6e122ba",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -792,24 +1032,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 20 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-uL\"> </a>  uL</td><td>http://unitsofmeasure.org</td><td>uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--Cells--uL\"> </a>  {Cells}/uL</td><td>http://unitsofmeasure.org</td><td>{Cells}/uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--rbc--uL\"> </a>  {rbc}/uL</td><td>http://unitsofmeasure.org</td><td>{rbc}/uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3-uL\"> </a>  10*3/uL</td><td>http://unitsofmeasure.org</td><td>10*3/uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-6-uL\"> </a>  10*6/uL</td><td>http://unitsofmeasure.org</td><td>10*6/uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-9-uL\"> </a>  10*9/uL</td><td>http://unitsofmeasure.org</td><td>10*9/uL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--mL\"> </a>  /mL</td><td>http://unitsofmeasure.org</td><td>/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--Spermatozoa--mL\"> </a>  {Spermatozoa}/mL</td><td>http://unitsofmeasure.org</td><td>{Spermatozoa}/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--Copies--mL\"> </a>  {Copies}/mL</td><td>http://unitsofmeasure.org</td><td>{Copies}/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3-mL\"> </a>  10*3/mL</td><td>http://unitsofmeasure.org</td><td>10*3/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3-Copies--mL\"> </a>  10*3{Copies}/mL</td><td>http://unitsofmeasure.org</td><td>10*3{Copies}/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-6-mL\"> </a>  10*6/mL</td><td>http://unitsofmeasure.org</td><td>10*6/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-9-mL\"> </a>  10*9/mL</td><td>http://unitsofmeasure.org</td><td>10*9/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--cfu--mL\"> </a>  {cfu}/mL</td><td>http://unitsofmeasure.org</td><td>{cfu}/mL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--dL\"> </a>  /dL</td><td>http://unitsofmeasure.org</td><td>/dL</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org--L\"> </a>  /L</td><td>http://unitsofmeasure.org</td><td>/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3-L\"> </a>  10*3/L</td><td>http://unitsofmeasure.org</td><td>10*3/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-6-L\"> </a>  10*6/L</td><td>http://unitsofmeasure.org</td><td>10*6/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-12-L\"> </a>  10*12/L</td><td>http://unitsofmeasure.org</td><td>10*12/L</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-9-L\"> </a>  10*9/L</td><td>http://unitsofmeasure.org</td><td>10*9/L</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_NumberConcentrationUnits",
       "title" : "VS Number Concentration Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für 'Anzahl pro Volumen'.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:732d8a8c-dc77-4184-928b-25b5bf4429a7",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:f0665fe3-9912-492b-83c2-e5f89dd1a8a4",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
@@ -935,24 +1200,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-449868002\"> </a>  <a href=\"http://snomed.info/id/449868002\">449868002</a></td><td>http://snomed.info/sct</td><td>Alltagsraucher</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-428041000124106\"> </a>  <a href=\"http://snomed.info/id/428041000124106\">428041000124106</a></td><td>http://snomed.info/sct</td><td>Gelegenheitsraucher</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8517006\"> </a>  <a href=\"http://snomed.info/id/8517006\">8517006</a></td><td>http://snomed.info/sct</td><td>Ehemaliger Raucher</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-8392000\"> </a>  <a href=\"http://snomed.info/id/8392000\">8392000</a></td><td>http://snomed.info/sct</td><td>Nichtraucher</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_SmokingStatusAsSnomed",
       "title" : "VS Smoking Status as Loinc",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:6a00b640-aead-447f-9ff1-7490f733e6be",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:8690e130-d27c-4afe-9897-ba0a56af8733",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -998,24 +1288,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_SpecimenTypes",
       "title" : "VS Specimen Types",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "LOINC Codes für 'Probenmaterial'",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:029975a3-2ad5-47ab-9382-01a46e855759",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:5f88cd0f-1695-454d-843f-3fe1e00f2598",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1036,24 +1351,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 13 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ps\"> </a>  ps</td><td>http://unitsofmeasure.org</td><td>ps</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ns\"> </a>  ns</td><td>http://unitsofmeasure.org</td><td>ns</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-us\"> </a>  us</td><td>http://unitsofmeasure.org</td><td>us</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ms\"> </a>  ms</td><td>http://unitsofmeasure.org</td><td>ms</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-s\"> </a>  s</td><td>http://unitsofmeasure.org</td><td>s</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ks\"> </a>  ks</td><td>http://unitsofmeasure.org</td><td>ks</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-Ms\"> </a>  Ms</td><td>http://unitsofmeasure.org</td><td>Ms</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-min\"> </a>  min</td><td>http://unitsofmeasure.org</td><td>min</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-h\"> </a>  h</td><td>http://unitsofmeasure.org</td><td>h</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-d\"> </a>  d</td><td>http://unitsofmeasure.org</td><td>d</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-wk\"> </a>  wk</td><td>http://unitsofmeasure.org</td><td>wk</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mo\"> </a>  mo</td><td>http://unitsofmeasure.org</td><td>mo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-a\"> </a>  a</td><td>http://unitsofmeasure.org</td><td>a</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_TimeUnits",
       "title" : "VS Time Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für 'Zeit'",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:f92509b5-af0b-48ad-8419-b48b9e87a96b",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:0f3a0253-a1c4-41cb-9f20-e03b703d97e0",
+        "timestamp" : "2023-03-02T22:43:03+01:00",
         "total" : 13,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1144,24 +1484,49 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-6--Specimen-\"> </a>  10*6/{Specimen}</td><td>http://unitsofmeasure.org</td><td>10*6/{Specimen}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org---tot-\"> </a>  /{tot}</td><td>http://unitsofmeasure.org</td><td>/{tot}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3\"> </a>  10*3</td><td>http://unitsofmeasure.org</td><td>10*3</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-3.-RBC-\"> </a>  10*3.{RBC}</td><td>http://unitsofmeasure.org</td><td>10*3.{RBC}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-5\"> </a>  10*5</td><td>http://unitsofmeasure.org</td><td>10*5</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-6\"> </a>  10*6</td><td>http://unitsofmeasure.org</td><td>10*6</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-10-8\"> </a>  10*8</td><td>http://unitsofmeasure.org</td><td>10*8</td></tr></table></div>"
       },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+          }]
+        }
+      }],
       "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "name" : "VS_UnityUnits",
       "title" : "VS Unity Units",
       "status" : "active",
-      "date" : "2023-03-02T21:55:41+01:00",
-      "publisher" : "Nils Haendly",
+      "date" : "2023-03-02T22:37:28+01:00",
+      "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
-        "name" : "Nils Haendly",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+          "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
       "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element').",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:829efb7a-5528-4a44-b6d5-81335397fb12",
-        "timestamp" : "2023-03-02T22:00:40+01:00",
+        "identifier" : "urn:uuid:e12baa8b-fd43-478e-afd4-637a52e1fade",
+        "timestamp" : "2023-03-02T22:43:04+01:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

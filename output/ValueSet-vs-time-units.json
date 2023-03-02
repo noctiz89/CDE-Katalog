@@ -5,21 +5,46 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ps</td><td>ps</td></tr><tr><td>ns</td><td>ns</td></tr><tr><td>us</td><td>us</td></tr><tr><td>ms</td><td>ms</td></tr><tr><td>s</td><td>s</td></tr><tr><td>ks</td><td>ks</td></tr><tr><td>Ms</td><td>Ms</td></tr><tr><td>min</td><td>min</td></tr><tr><td>h</td><td>h</td></tr><tr><td>d</td><td>d</td></tr><tr><td>wk</td><td>wk</td></tr><tr><td>mo</td><td>mo</td></tr><tr><td>a</td><td>a</td></tr></table></li></ul></div>"
   },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+      }]
+    }
+  }],
   "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "VS_TimeUnits",
   "title" : "VS Time Units",
   "status" : "active",
-  "date" : "2023-03-02T21:55:41+01:00",
-  "publisher" : "Nils Haendly",
+  "date" : "2023-03-02T22:37:28+01:00",
+  "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
-    "name" : "Nils Haendly",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
+      "value" : "http://hl7.org/Special/committees/[something]"
     }]
   }],
   "description" : "UCUM Codes für 'Zeit'",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "http://unitsofmeasure.org",
