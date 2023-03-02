@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="CDEKatalog"/>
   <status value="draft"/>
-  <date value="2023-03-02T21:18:11+01:00"/>
+  <date value="2023-03-02T21:55:41+01:00"/>
   <publisher value="Nils Haendly"/>
   <contact>
     <name value="Nils Haendly"/>
@@ -701,6 +701,17 @@
       </reference>
       <name value="CDE Smoking Status"/>
       <description value="Dieses CDE enthält den Raucherstatus einer Person"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-birth-date"/>
+      </reference>
+      <name value="CDE birth Date"/>
+      <description value="Dieses CDE enthält das 'Geburtsdatum'."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -26,6 +26,10 @@
         "title": "CDE Age At Stopped Smoking"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
+        "title": "CDE birth Date"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
         "title": "CDE Body Height"
       },
@@ -279,6 +283,9 @@
       "StructureDefinition.differential.element.type.targetProfile",
       "StructureDefinition.snapshot.element.type",
       "StructureDefinition.snapshot.element.type.targetProfile"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"

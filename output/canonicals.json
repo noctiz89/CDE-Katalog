@@ -42,6 +42,13 @@
     "name" : "CDE_AgeAtStoppedSmoking"
   },
   {
+    "id" : "cde-birth-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
+    "version" : "0.1.0",
+    "name" : "CDE_birthDate"
+  },
+  {
     "id" : "cde-body-height",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",

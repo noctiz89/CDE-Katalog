@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "VS_MassUnits"]; # 
   fhir:ValueSet.title [ fhir:value "VS Mass Units"]; # 
   fhir:ValueSet.status [ fhir:value "active"]; # 
-  fhir:ValueSet.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
   fhir:ValueSet.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;

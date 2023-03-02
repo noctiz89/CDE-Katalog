@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "CLS_L1_SubstanceLevel"]; # 
   fhir:StructureDefinition.title [ fhir:value "CLS L1 Substance Level"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

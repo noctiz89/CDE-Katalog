@@ -1,14 +1,15 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 1, warn = 89, info = 13
+err = 1, warn = 90, info = 13
 IG Publisher Version: 1.2.38
-Generated Thu Mar 02 21:28:31 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.1.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu Mar 02 22:05:14 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.1.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 0 / 6 / 0
  D:\CDE-Katalog\fsh-generated\resources\ImplementationGuide-fhir.cde-catalog : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-height : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-mass-index : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-weight : 0 / 1 / 1
@@ -100,6 +101,8 @@ WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: Str
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-height.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-mass-index.json ==

@@ -14,8 +14,15 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung e
 * insert RS_CreateDataElementConcept(age, $LOINC, 29553-5) // Current Age - calculated
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Length("wk | a")
+// Klinisch relevanter Zeitraum ~ Lebenszeit, d.h. Geburtsdatum (start) bis klinisch-relevanter Zeitpunkt(end)
+* effective[x] 1..1 MS
+* effectivePeriod only Period
+* effectivePeriod.start 1..1 MS
+* effectivePeriod.start only CDE_birthDate.valueDateTime
+* effectivePeriod.end 1..1 MS
+* effectivePeriod.end only dateTime
 
-//* derivedFrom Reference(Patient)
+* derivedFrom only Reference(CDE_birthDate)
 /*
 * id MS
 * meta MS
@@ -30,14 +37,9 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung e
 * code 1..1 MS
 * code only CodeableConcept
 * code = $LOINC|2.73#29553-5
-*/
-* effective[x] 1..1 MS
-* effectivePeriod only period
-* effectivePeriod.start 1..1 MS
-* effectivePeriod.start only Reference(Patient.birthDate)
-* effectivePeriod.end 1..1 MS
-* effectivePeriod.end only dateTime
-/*
+
+
+
 * value[x] 1..1 MS
 * valueQuantity only Quantity
 * valueQuantity = $UCUM|2.1#year

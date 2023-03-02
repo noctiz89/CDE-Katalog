@@ -72,7 +72,7 @@
   fhir:StructureDefinition.title [ fhir:value "My Observation Profile"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

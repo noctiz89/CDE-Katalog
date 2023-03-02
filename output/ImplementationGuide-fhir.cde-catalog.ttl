@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"]; # 
   fhir:ImplementationGuide.name [ fhir:value "CDEKatalog"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1000,6 +1000,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-birth-date" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE birth Date" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Geburtsdatum'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1010,7 +1024,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1024,7 +1038,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1038,7 +1052,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 29;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1052,7 +1066,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 30;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1066,7 +1080,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 31;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1080,7 +1094,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 32;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1094,7 +1108,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 33;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1108,7 +1122,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 34;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1122,7 +1136,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 35;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1136,7 +1150,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 36;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1150,7 +1164,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 37;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1164,7 +1178,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 38;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1178,7 +1192,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 39;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1192,7 +1206,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 40;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1206,7 +1220,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten & Lebensstil'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 41;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1220,7 +1234,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 42;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1234,7 +1248,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 43;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1248,7 +1262,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 44;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1262,7 +1276,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 45;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1276,7 +1290,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 46;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1290,7 +1304,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 47;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1304,7 +1318,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 48;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1318,7 +1332,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Blut'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 49;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1332,7 +1346,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 50;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1346,7 +1360,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 51;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1360,7 +1374,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1374,7 +1388,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 53;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1388,7 +1402,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Person." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 54;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1402,7 +1416,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 55;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1416,7 +1430,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Codes für das administrative Geschlecht." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 56;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1430,7 +1444,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 57;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1444,7 +1458,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 58;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1458,7 +1472,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 59;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1472,7 +1486,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Länge'" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 60;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1486,7 +1500,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Massenkonzentration" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 61;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1500,7 +1514,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Masse'" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 62;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1514,7 +1528,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für fehlende Werte." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 63;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1528,7 +1542,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Stoffmengenkonzentration" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 64;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1542,7 +1556,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Anzahl pro Volumen'." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1556,7 +1570,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 66;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1570,7 +1584,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "LOINC Codes für 'Probenmaterial'" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 67;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1584,7 +1598,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Zeit'" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 68;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1598,7 +1612,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Gesamtheit (auch 'Eins-Element')." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 69;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1612,7 +1626,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake code system" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 70;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1626,7 +1640,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile showing the use of Logical Models to author profiles" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 71;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1640,7 +1654,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile showing the use of XML to author profiles" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 72;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1654,7 +1668,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake value" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 73;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1668,7 +1682,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A sample value set where there's no known code system" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 74;
+       fhir:index 75;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1684,7 +1698,7 @@
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
        ]
      ], [
-       fhir:index 75;
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1697,7 +1711,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "example" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 76;
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1708,7 +1722,7 @@
          fhir:Reference.reference [ fhir:value "Bundle/h1" ]
        ]
      ], [
-       fhir:index 77;
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1722,7 +1736,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "What this extension means." ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "resources-spreadsheet.xml" ]
      ], [
-       fhir:index 78;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1736,7 +1750,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This will be the description for the patient profile within the profile page" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "resources-spreadsheet.xml" ]
      ], [
-       fhir:index 79;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

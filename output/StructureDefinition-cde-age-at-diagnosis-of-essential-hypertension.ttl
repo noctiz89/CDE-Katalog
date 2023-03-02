@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "CDE_AgeAtDiagnosisOfEssentialHypertension"]; # 
   fhir:StructureDefinition.title [ fhir:value "CDE age at diagnosis of essential hypertension"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-02T21:55:41+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
