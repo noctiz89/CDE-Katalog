@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/Library/example-sql> a fhir:Library;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-sql"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Contents</h2><p><code>text/x-sql</code></p><pre><code class=\"language-sql\">SELECT Customers.CustomerName, Orders.OrderID\r\nFROM Customers\r\nLEFT JOIN Orders\r\nON Customers.CustomerID=Orders.CustomerID\r\nORDER BY Customers.CustomerName;\r\n</code></pre></div>"
+  ]; # 
+  fhir:Library.url [ fhir:value "http://somewhere.org/fhir/uv/myig/Library/example-sql"]; # 
+  fhir:Library.version [ fhir:value "0.2.0"]; # 
+  fhir:Library.name [ fhir:value "ExampleLibrary"]; # 
+  fhir:Library.title [ fhir:value "Example Library"]; # 
+  fhir:Library.status [ fhir:value "draft"]; # 
+  fhir:Library.experimental [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:Library.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/library-type" ];
+       fhir:Coding.code [ fhir:value "asset-collection" ]
+     ]
+  ]; # 
+  fhir:Library.date [ fhir:value "2020-05-15T00:00:00.000+10:00"^^xsd:dateTime]; # 
+  fhir:Library.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
+  fhir:Library.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ]; # 
+  fhir:Library.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ]; # 
+  fhir:Library.content [
+     fhir:index 0;
+     fhir:Attachment.contentType [ fhir:value "text/x-sql" ];
+     fhir:Attachment.data [ fhir:value "U0VMRUNUIEN1c3RvbWVycy5DdXN0b21lck5hbWUsIE9yZGVycy5PcmRlcklEDQpGUk9NIEN1c3RvbWVycw0KTEVGVCBKT0lOIE9yZGVycw0KT04gQ3VzdG9tZXJzLkN1c3RvbWVySUQ9T3JkZXJzLkN1c3RvbWVySUQNCk9SREVSIEJZIEN1c3RvbWVycy5DdXN0b21lck5hbWU7DQo="^^xsd:base64Binary ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/Library/example-sql.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

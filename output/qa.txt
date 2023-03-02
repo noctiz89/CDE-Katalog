@@ -1,0 +1,294 @@
+﻿YourComputableMyIGNameHere : Validation Results
+=========================================
+
+err = 14, warn = 86, info = 14
+IG Publisher Version: 1.2.38
+Generated Thu Mar 02 17:48:34 CET 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 2 / 4 / 0
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-height : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-mass-index : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-weight : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-creatinine-in-ser-or-plas : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 2 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 2 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-birth : 0 / 4 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-activity : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-exam : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-imaging : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-laboratory : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-procedure : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-social-history : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-survey : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-therapy : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-vital-signs : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-administrative-information : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-clinical-chemistry : 0 / 0 / 3
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-clinical-immunology : 0 / 0 / 3
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-clinical-microbiology : 0 / 0 / 3
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-diseases-and-related-health-problems : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-health-related-behavior-and-lifestyle : 0 / 4 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-physical-measurements-and-assessment : 0 / 4 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-social-personal-details : 0 / 2 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l1-substance-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l2-age-and-birth-date : 0 / 5 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l2-gender : 0 / 3 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l2-specimen-type : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-age-at-diagnosis : 0 / 5 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-blood : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-urine : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-generic-observation : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-missing-values-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-molar-concentration-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-number-concentration-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 10 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 2 / 1
+ D:\CDE-Katalog\input\examples\Binary-example : 0 / 0 / 1
+ D:\CDE-Katalog\input\examples\Binary-image-example : 0 / 0 / 1
+ D:\CDE-Katalog\input\examples\Library-example : 5 / 0 / 2
+ D:\CDE-Katalog\input\examples\Observation-example : 0 / 0 / 1
+ D:\CDE-Katalog\input\examples\Patient-example : 0 / 0 / 3
+ D:\CDE-Katalog\input\examples\binary-logical-example : 3 / 0 / 0
+ D:\CDE-Katalog\input\history\h1 : 0 / 1 / 2
+ D:\CDE-Katalog\input\myig : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\MyLogical : 1 / 0 / 1
+ D:\CDE-Katalog\input\resources\codesystem-fake : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\library-example-image : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\library-example-sql : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\myObservation : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\valueset-fake : 0 / 0 / 1
+ D:\CDE-Katalog\input\resources\valueset-no-codesystem : 0 / 2 / 1
+ not relevant : 0 / 1 / 6
+</table>
+== n/a ==
+ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+ERROR: D:\CDE-Katalog\output\index.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 292, column 8: The link 'development.html' for "Entwicklung" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\StructureDefinition-cde-age.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
+WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[147].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-height.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-mass-index.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-mass-index'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-weight.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-creatinine-in-ser-or-plas.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-ser-or-plas'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-current-age-calculated.json ==
+ERROR: StructureDefinition/cde-current-age-calculated: StructureDefinition.snapshot.element[31].pattern.ofType(Quantity): Ungültige System URI: http://unitsofmeasure.org|2.1
+ERROR: StructureDefinition/cde-current-age-calculated: StructureDefinition.differential.element[11].pattern.ofType(Quantity): Ungültige System URI: http://unitsofmeasure.org|2.1
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-current-age-reported.json ==
+ERROR: StructureDefinition/cde-current-age-reported: StructureDefinition.snapshot.element[31].pattern.ofType(Quantity): Ungültige System URI: http://unitsofmeasure.org|2.1
+ERROR: StructureDefinition/cde-current-age-reported: StructureDefinition.differential.element[11].pattern.ofType(Quantity): Ungültige System URI: http://unitsofmeasure.org|2.1
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-date-of-birth.json ==
+WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[28].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cls-l0-activity.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-exam.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-imaging.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-laboratory.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-procedure.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-social-history.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-survey.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-therapy.json ==
+== fsh-generated\resources\StructureDefinition-cls-l0-vital-signs.json ==
+== fsh-generated\resources\StructureDefinition-cls-l1-administrative-information.json ==
+== fsh-generated\resources\StructureDefinition-cls-l1-clinical-chemistry.json ==
+INFORMATION: StructureDefinition/cls-l1-clinical-chemistry: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: StructureDefinition/cls-l1-clinical-chemistry: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+== fsh-generated\resources\StructureDefinition-cls-l1-clinical-immunology.json ==
+INFORMATION: StructureDefinition/cls-l1-clinical-immunology: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: StructureDefinition/cls-l1-clinical-immunology: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+== fsh-generated\resources\StructureDefinition-cls-l1-clinical-microbiology.json ==
+INFORMATION: StructureDefinition/cls-l1-clinical-microbiology: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: StructureDefinition/cls-l1-clinical-microbiology: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: Code System URI "http://purl.obolibrary.org/obo" ist unbekannt, so dass der Code nicht validiert werden kann
+== fsh-generated\resources\StructureDefinition-cls-l1-diseases-and-related-health-problems.json ==
+== fsh-generated\resources\StructureDefinition-cls-l1-health-related-behavior-and-lifestyle.json ==
+WARNING: StructureDefinition/cls-l1-health-related-behavior-and-lifestyle: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Gesundheitsbezogenes Verhalten" is not a valid display for the code {http://snomed.info/sct}228272008 - should be one of ['Health-related behavior', 'Health-related behavior (observable entity)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#228272008"
+WARNING: StructureDefinition/cls-l1-health-related-behavior-and-lifestyle: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Gesundheitsbezogener Lebensstil" is not a valid display for the code {http://snomed.info/sct}134436002 - should be one of ['Lifestyle', 'Lifestyle (finding)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#134436002"
+WARNING: StructureDefinition/cls-l1-health-related-behavior-and-lifestyle: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The display "Gesundheitsbezogenes Verhalten" is not a valid display for the code {http://snomed.info/sct}228272008 - should be one of ['Health-related behavior', 'Health-related behavior (observable entity)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#228272008"
+WARNING: StructureDefinition/cls-l1-health-related-behavior-and-lifestyle: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Gesundheitsbezogener Lebensstil" is not a valid display for the code {http://snomed.info/sct}134436002 - should be one of ['Lifestyle', 'Lifestyle (finding)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#134436002"
+== fsh-generated\resources\StructureDefinition-cls-l1-physical-measurements-and-assessment.json ==
+WARNING: StructureDefinition/cls-l1-physical-measurements-and-assessment: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l1-physical-measurements-and-assessment: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l1-physical-measurements-and-assessment: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l1-physical-measurements-and-assessment: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+== fsh-generated\resources\StructureDefinition-cls-l1-social-personal-details.json ==
+WARNING: StructureDefinition/cls-l1-social-personal-details: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l1-social-personal-details: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+== fsh-generated\resources\StructureDefinition-cls-l1-substance-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-l2-age-and-birth-date.json ==
+WARNING: StructureDefinition/cls-l2-age-and-birth-date: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l2-age-and-birth-date: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+WARNING: StructureDefinition/cls-l2-age-and-birth-date: StructureDefinition.snapshot.element[28].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
+WARNING: StructureDefinition/cls-l2-age-and-birth-date: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+WARNING: StructureDefinition/cls-l2-age-and-birth-date: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
+== fsh-generated\resources\StructureDefinition-cls-l2-gender.json ==
+WARNING: StructureDefinition/cls-l2-gender: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l2-gender: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Geschlecht" is not a valid display for the code {http://snomed.info/sct}263495000 - should be one of ['Gender', 'Gender (observable entity)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#263495000"
+WARNING: StructureDefinition/cls-l2-gender: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Geschlecht" is not a valid display for the code {http://snomed.info/sct}263495000 - should be one of ['Gender', 'Gender (observable entity)'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#263495000"
+== fsh-generated\resources\StructureDefinition-cls-l2-specimen-type.json ==
+== fsh-generated\resources\StructureDefinition-cls-l3-age-at-diagnosis.json ==
+WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
+WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.snapshot.element[28].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
+WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.snapshot.element[29].pattern.ofType(CodeableConcept).coding[0]: The display "Diagnose" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The display "Diagnose" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
+== fsh-generated\resources\StructureDefinition-cls-l3-blood.json ==
+== fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid.json ==
+== fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma.json ==
+== fsh-generated\resources\StructureDefinition-cls-l3-urine.json ==
+== fsh-generated\resources\StructureDefinition-generic-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-poi-patient.json ==
+INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-poi-person.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
+INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
+WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed.json ==
+WARNING: ValueSet/vs-binary-decision-yes-or-no-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed.json ==
+WARNING: ValueSet/vs-binary-gender-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
+WARNING: ValueSet/vs-glasgow-coma-scale-for-adults: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-length-units.json ==
+WARNING: ValueSet/vs-length-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-mass-concentration-units.json ==
+WARNING: ValueSet/vs-mass-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-mass-units.json ==
+WARNING: ValueSet/vs-mass-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-missing-values-as-snomed.json ==
+WARNING: ValueSet/vs-missing-values-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-molar-concentration-units.json ==
+WARNING: ValueSet/vs-molar-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-number-concentration-units.json ==
+WARNING: ValueSet/vs-number-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-smoking-status-as-snomed.json ==
+WARNING: ValueSet/vs-smoking-status-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-specimen-types.json ==
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[0]: The code LP7057-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[1]: The code LP7067-4 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[2]: The code LP7567-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[3]: The code LP7479-1 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[4]: The code LP7536-8 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[5]: The code LP7494-0 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[6]: The code LP7690-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[7]: The code LP7156-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[8]: The code LP7238-1 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-time-units.json ==
+WARNING: ValueSet/vs-time-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-unity-units.json ==
+WARNING: ValueSet/vs-unity-units: ValueSet.compose[0].include[0].concept[0]: The code [lg] is not valid in the system http://unitsofmeasure.org
+WARNING: ValueSet/vs-unity-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== input\examples\Binary-example.json ==
+== input\examples\Binary-image-example.jpg ==
+== input\examples\Library-example.json ==
+ERROR: Library/example: Library.subject.ofType(CodeableConcept).coding[0]: Coding.system muss eine absolute Referenz sein, nicht eine lokale Referenz
+INFORMATION: Library/example: Library.subject.ofType(CodeableConcept).coding[0]: Code System URI "hl7.org/fhir/resource-types" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Library/example: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/example: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
+ERROR: Library/example: Library.relatedArtifact[7].resource: Canonical URLs must be absolute URLs if they are not fragment references (TBD)
+ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canonical URLs must be absolute URLs if they are not fragment references (TBD)
+== input\examples\Observation-example.xml ==
+== input\examples\Patient-example.xml ==
+INFORMATION: Patient/example: Patient.name[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.
+INFORMATION: Patient/example: Patient.name[1]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.
+== input\examples\Binary-logical-example.xml ==
+ERROR: Binary: Example Logical Model http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical not found
+ERROR: Binary/logical-example: /?:MyLogical/?:element2: Text sollte nicht vorhanden sein
+ERROR: Binary/logical-example: MyLogical: Angegebener Profiltyp war "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical", aber gefundener Typ "MyLogical".
+== input\history\h1.json ==
+WARNING: Bundle/h1: Bundle.entry[0].resource/*Provenance/h1-1*/.reason[0]: Kein Code gesetzt, und es sollte ein Code aus ValueSet'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|2.0.0) ({1}) gesetzt werden
+== input\myig.xml ==
+== input\resources\MyLogical.xml ==
+ERROR: StructureDefinition/MyLogical: StructureDefinition.snapshot: Rule sdf-3: 'Each element definition in a snapshot must have a formal definition and cardinalities' Failed
+== input\resources\codesystem-fake.xml ==
+== input\resources\library-example-image.xml ==
+== input\resources\library-example-sql.xml ==
+== input\resources\myObservation.xml ==
+== input\resources\valueset-fake.xml ==
+== input\resources\valueset-no-codesystem.xml ==
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version 'http://not-a-known-code-system#2.36' specified, so Concepts and Filters can't be checked (Details: The code system 'http://not-a-known-code-system' is not known (encountered paired with code = 'not-known-code'); The code provided (http://not-a-known-code-system#not-known-code) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+== input\resources\resources-spreadsheet.xml ==
+INFORMATION: StructureDefinition/mypatient: StructureDefinition.snapshot.element[22].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/mypatient: StructureDefinition.snapshot.element[45].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/mypractitioner: StructureDefinition.snapshot.element[23].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

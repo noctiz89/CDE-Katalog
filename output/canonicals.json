@@ -1,0 +1,569 @@
+[
+  {
+    "id" : "cs-fake",
+    "type" : "CodeSystem",
+    "url" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+    "version" : "0.2.0",
+    "name" : "CodeSystemFake"
+  },
+  {
+    "id" : "example.fhir.uv.myig",
+    "type" : "ImplementationGuide",
+    "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+    "version" : "0.2.0",
+    "name" : "YourComputableMyIGNameHere"
+  },
+  {
+    "id" : "example",
+    "type" : "Library",
+    "url" : "http://somewhere.org/fhir/uv/myig/Library/example",
+    "version" : "0.2.0",
+    "name" : "Example"
+  },
+  {
+    "id" : "example-image",
+    "type" : "Library",
+    "url" : "http://somewhere.org/fhir/uv/myig/Library/example-image",
+    "version" : "0.2.0",
+    "name" : "ExampleLibraryImage"
+  },
+  {
+    "id" : "example-sql",
+    "type" : "Library",
+    "url" : "http://somewhere.org/fhir/uv/myig/Library/example-sql",
+    "version" : "0.2.0",
+    "name" : "ExampleLibrary"
+  },
+  {
+    "id" : "MyLogical",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical",
+    "version" : "0.2.0",
+    "name" : "MyLogical"
+  },
+  {
+    "id" : "cde-age",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
+    "version" : "0.2.0",
+    "name" : "CDE_Age"
+  },
+  {
+    "id" : "cde-age-at-diagnosis-of-essential-hypertension",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
+    "version" : "0.2.0",
+    "name" : "CDE_AgeAtDiagnosisOfEssentialHypertension"
+  },
+  {
+    "id" : "cde-age-at-stopped-smoking",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
+    "version" : "0.2.0",
+    "name" : "CDE_AgeAtStoppedSmoking"
+  },
+  {
+    "id" : "cde-body-height",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
+    "version" : "0.2.0",
+    "name" : "CDE_BodyHeight"
+  },
+  {
+    "id" : "cde-body-mass-index",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-mass-index",
+    "version" : "0.2.0",
+    "name" : "CDE_BodyMassIndex"
+  },
+  {
+    "id" : "cde-body-weight",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-weight",
+    "version" : "0.2.0",
+    "name" : "CDE_BodyWeight"
+  },
+  {
+    "id" : "cde-calcium-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_CalciumInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-chloride-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_ChlorideInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-creatinine-in-ser-or-plas",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-ser-or-plas",
+    "version" : "0.2.0",
+    "name" : "CDE_CreatinineInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-current-age-calculated",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated",
+    "version" : "0.2.0",
+    "name" : "CDE_CurrentAgeCalculated"
+  },
+  {
+    "id" : "cde-current-age-reported",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported",
+    "version" : "0.2.0",
+    "name" : "CDE_CurrentAgeReported"
+  },
+  {
+    "id" : "cde-date-of-birth",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth",
+    "version" : "0.2.0",
+    "name" : "CDE_DateOfBirth"
+  },
+  {
+    "id" : "cde-erythrocytes-in-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood",
+    "version" : "0.2.0",
+    "name" : "CDE_ErythrocytesInBlood"
+  },
+  {
+    "id" : "cde-glasgow-coma-score",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score",
+    "version" : "0.2.0",
+    "name" : "CDE_GlasgowComaScore"
+  },
+  {
+    "id" : "cde-glucose-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_GlucoseInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-hematocrit-of-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood",
+    "version" : "0.2.0",
+    "name" : "CDE_HematocritOfBlood"
+  },
+  {
+    "id" : "cde-hemoglobin-in-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood",
+    "version" : "0.2.0",
+    "name" : "CDE_HemoglobinInBlood"
+  },
+  {
+    "id" : "cde-leukocytes-in-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood",
+    "version" : "0.2.0",
+    "name" : "CDE_LeukocytesInBlood"
+  },
+  {
+    "id" : "cde-magnesium-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_MagnesiumInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-phosphate-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_PhosphateInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-potassium-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_PotassiumInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-sex-assigned-at-birth",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth",
+    "version" : "0.2.0",
+    "name" : "CDE_SexAssignedAtBirth"
+  },
+  {
+    "id" : "cde-sodium-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CDE_SodiumInSerumOrPlasma"
+  },
+  {
+    "id" : "cde-thrombocytes-in-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood",
+    "version" : "0.2.0",
+    "name" : "CDE_ThrombocytesInBlood"
+  },
+  {
+    "id" : "cde-tobacco-smoking-status",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
+    "version" : "0.2.0",
+    "name" : "CDE_TobaccoSmokingStatus"
+  },
+  {
+    "id" : "cls-l0-activity",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-activity",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Activity"
+  },
+  {
+    "id" : "cls-l0-exam",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-exam",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Exam"
+  },
+  {
+    "id" : "cls-l0-imaging",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-imaging",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Imaging"
+  },
+  {
+    "id" : "cls-l0-laboratory",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-laboratory",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Laboratory"
+  },
+  {
+    "id" : "cls-l0-procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-procedure",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Procedure"
+  },
+  {
+    "id" : "cls-l0-social-history",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-social-history",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_SocialHistory"
+  },
+  {
+    "id" : "cls-l0-survey",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-survey",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Survey"
+  },
+  {
+    "id" : "cls-l0-therapy",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-therapy",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_Therapy"
+  },
+  {
+    "id" : "cls-l0-vital-signs",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-vital-signs",
+    "version" : "0.2.0",
+    "name" : "CLS_L0_VitalSigns"
+  },
+  {
+    "id" : "cls-l1-administrative-information",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-administrative-information",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_AdministrativeInformation"
+  },
+  {
+    "id" : "cls-l1-clinical-chemistry",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-chemistry",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_ClinicalChemistry"
+  },
+  {
+    "id" : "cls-l1-clinical-immunology",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-immunology",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_ClinicalImmunology"
+  },
+  {
+    "id" : "cls-l1-clinical-microbiology",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-microbiology",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_ClinicalMicrobiology"
+  },
+  {
+    "id" : "cls-l1-diseases-and-related-health-problems",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-diseases-and-related-health-problems",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_DiseasesAndRelatedHealthProblems"
+  },
+  {
+    "id" : "cls-l1-health-related-behavior-and-lifestyle",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-health-related-behavior-and-lifestyle",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_HealthRelatedBehaviorAndLifestyle"
+  },
+  {
+    "id" : "cls-l1-physical-measurements-and-assessment",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-physical-measurements-and-assessment",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_PhysicalMeasurementsAndAssessment"
+  },
+  {
+    "id" : "cls-l1-social-personal-details",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-social-personal-details",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_SocialPersonalDetails"
+  },
+  {
+    "id" : "cls-l1-substance-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-substance-level",
+    "version" : "0.2.0",
+    "name" : "CLS_L1_SubstanceLevel"
+  },
+  {
+    "id" : "cls-l2-age-and-birth-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-age-and-birth-date",
+    "version" : "0.2.0",
+    "name" : "CLS_L2_AgeAndBirthDate"
+  },
+  {
+    "id" : "cls-l2-gender",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-gender",
+    "version" : "0.2.0",
+    "name" : "CLS_L2_Gender"
+  },
+  {
+    "id" : "cls-l2-specimen-type",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-specimen-type",
+    "version" : "0.2.0",
+    "name" : "CLS_L2_SpecimenType"
+  },
+  {
+    "id" : "cls-l3-age-at-diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-age-at-diagnosis",
+    "version" : "0.2.0",
+    "name" : "CLS_L3_AgeAtDiagnosis"
+  },
+  {
+    "id" : "cls-l3-blood",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-blood",
+    "version" : "0.2.0",
+    "name" : "CLS_L3_Blood"
+  },
+  {
+    "id" : "cls-l3-cerebrospinal-fluid",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-cerebrospinal-fluid",
+    "version" : "0.2.0",
+    "name" : "CLS_L3_CerebrospinalFluid"
+  },
+  {
+    "id" : "cls-l3-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "CLS_L3_SerumOrPlasma"
+  },
+  {
+    "id" : "cls-l3-urine",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-urine",
+    "version" : "0.2.0",
+    "name" : "CLS_L3_Urine"
+  },
+  {
+    "id" : "ext-myExtension",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
+    "version" : "0.2.0",
+    "name" : "MyExtension"
+  },
+  {
+    "id" : "generic-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation",
+    "version" : "0.2.0",
+    "name" : "CDE_GenericObservation"
+  },
+  {
+    "id" : "myObservation",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
+    "version" : "0.2.0",
+    "name" : "MyObservation"
+  },
+  {
+    "id" : "mypatient",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient",
+    "version" : "0.2.0",
+    "name" : "MyPatientName"
+  },
+  {
+    "id" : "mypractitioner",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
+    "version" : "0.2.0",
+    "name" : "MyPractitionerName"
+  },
+  {
+    "id" : "poi-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient",
+    "version" : "0.2.0",
+    "name" : "POI_Patient"
+  },
+  {
+    "id" : "poi-person",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person",
+    "version" : "0.2.0",
+    "name" : "POI_Person"
+  },
+  {
+    "id" : "poi-research-subject",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject",
+    "version" : "0.2.0",
+    "name" : "POI_ResearchSubject"
+  },
+  {
+    "id" : "valueset-fake",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
+    "version" : "0.2.0",
+    "name" : "ValueSetFake"
+  },
+  {
+    "id" : "valueset-no-codesystem",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
+    "version" : "0.2.0",
+    "name" : "ValueSetWithNoCodeSystem"
+  },
+  {
+    "id" : "vs-administrative-gender",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender",
+    "version" : "0.2.0",
+    "name" : "VS_AdministrativeGender"
+  },
+  {
+    "id" : "vs-binary-decision-yes-or-no-as-snomed",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed",
+    "version" : "0.2.0",
+    "name" : "VS_BinaryDecisionYesOrNoAsSnomed"
+  },
+  {
+    "id" : "vs-binary-gender-as-snomed",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed",
+    "version" : "0.2.0",
+    "name" : "VS_BinaryGenderAsSnomed"
+  },
+  {
+    "id" : "vs-glasgow-coma-scale-for-adults",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults",
+    "version" : "0.2.0",
+    "name" : "VS_GlasgowComaScaleForAdults"
+  },
+  {
+    "id" : "vs-length-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units",
+    "version" : "0.2.0",
+    "name" : "VS_LengthUnits"
+  },
+  {
+    "id" : "vs-mass-concentration-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units",
+    "version" : "0.2.0",
+    "name" : "VS_MassConcentrationUnits"
+  },
+  {
+    "id" : "vs-mass-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units",
+    "version" : "0.2.0",
+    "name" : "VS_MassUnits"
+  },
+  {
+    "id" : "vs-missing-values-as-snomed",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed",
+    "version" : "0.2.0",
+    "name" : "VS_MissingValuesAsSnomed"
+  },
+  {
+    "id" : "vs-molar-concentration-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units",
+    "version" : "0.2.0",
+    "name" : "VS_MolarConcentrationUnits"
+  },
+  {
+    "id" : "vs-number-concentration-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units",
+    "version" : "0.2.0",
+    "name" : "VS_NumberConcentrationUnits"
+  },
+  {
+    "id" : "vs-smoking-status-as-snomed",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed",
+    "version" : "0.2.0",
+    "name" : "VS_SmokingStatusAsSnomed"
+  },
+  {
+    "id" : "vs-specimen-types",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types",
+    "version" : "0.2.0",
+    "name" : "VS_SpecimenTypes"
+  },
+  {
+    "id" : "vs-time-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units",
+    "version" : "0.2.0",
+    "name" : "VS_TimeUnits"
+  },
+  {
+    "id" : "vs-unity-units",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units",
+    "version" : "0.2.0",
+    "name" : "VS_UnityUnits"
+  }
+]

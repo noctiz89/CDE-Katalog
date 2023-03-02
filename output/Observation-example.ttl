@@ -1,0 +1,96 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+#  
+
+test comment for display
+
+
+
+<http://somewhere.org/fhir/uv/myig/Observation/example> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation";
+       fhir:index 0;
+       fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-myObservation.html\">My Observation Profile</a></p></div><p><b>status</b>: final</p><p><b>code</b>: CS1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-cs-fake.html\">CodeSystem fake</a>#01; <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake</a>#01 &quot;CS2&quot;; <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake</a>#01 &quot;VS1&quot;; <a href=\"https://loinc.org/\">LOINC</a>#85354-9; <a href=\"CodeSystem-cs-fake.html\">CodeSystem fake</a>#01 &quot;VS2&quot;)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8480-6)</span></p><p><b>value</b>: 1 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8462-4)</span></p><p><b>value</b>: 1 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"
+  ]; # 
+  fhir:Observation.status [ fhir:value "final"]; # 
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake" ];
+       fhir:Coding.code [ fhir:value "01" ];
+       fhir:Coding.display [ fhir:value "CS1" ]
+     ], [
+       fhir:index 1;
+       fhir:Coding.system [ fhir:value "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake" ];
+       fhir:Coding.code [ fhir:value "01" ];
+       fhir:Coding.display [ fhir:value "CS2" ]
+     ], [
+       fhir:index 2;
+       fhir:Coding.system [ fhir:value "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake" ];
+       fhir:Coding.code [ fhir:value "01" ];
+       fhir:Coding.display [ fhir:value "VS1" ]
+     ], [
+       fhir:index 3;
+       a loinc:85354-9;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "85354-9" ]
+     ], [
+       fhir:index 4;
+       fhir:Coding.system [ fhir:value "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake" ];
+       fhir:Coding.code [ fhir:value "01" ];
+       fhir:Coding.display [ fhir:value "VS2" ]
+     ]
+  ]; # 
+  fhir:Observation.component [
+     fhir:index 0;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:8480-6;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "8480-6" ]
+       ]
+     ];
+     fhir:Observation.component.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Observation.component.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:8462-4;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "8462-4" ]
+       ]
+     ];
+     fhir:Observation.component.valueQuantity [
+       fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/Observation/example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

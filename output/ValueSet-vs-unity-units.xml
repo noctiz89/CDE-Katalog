@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-unity-units"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://unitsofmeasure.org"><code>http://unitsofmeasure.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>[lg]</td><td/></tr><tr><td>10*6/{Specimen}</td><td>10*6/{Specimen}</td></tr><tr><td>/{tot}</td><td>/{tot}</td></tr><tr><td>10*3</td><td>10*3</td></tr><tr><td>10*3.{RBC}</td><td>10*3.{RBC}</td></tr><tr><td>10*5</td><td>10*5</td></tr><tr><td>10*6</td><td>10*6</td></tr><tr><td>10*8</td><td>10*8</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units"/>
+  <version value="0.2.0"/>
+  <name value="VS_UnityUnits"/>
+  <title value="VS Unity Units"/>
+  <status value="active"/>
+  <date value="2023-03-02T17:38:01+01:00"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://unitsofmeasure.org"/>
+      <concept>
+        <code value="[lg]"/>
+      </concept>
+      <concept>
+        <code value="10*6/{Specimen}"/>
+      </concept>
+      <concept>
+        <code value="/{tot}"/>
+      </concept>
+      <concept>
+        <code value="10*3"/>
+      </concept>
+      <concept>
+        <code value="10*3.{RBC}"/>
+      </concept>
+      <concept>
+        <code value="10*5"/>
+      </concept>
+      <concept>
+        <code value="10*6"/>
+      </concept>
+      <concept>
+        <code value="10*8"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

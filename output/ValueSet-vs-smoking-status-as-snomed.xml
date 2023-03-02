@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-smoking-status-as-snomed"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/449868002">449868002</a></td><td>Alltagsraucher</td></tr><tr><td><a href="http://snomed.info/id/428041000124106">428041000124106</a></td><td>Gelegenheitsraucher</td></tr><tr><td><a href="http://snomed.info/id/8517006">8517006</a></td><td>Ehemaliger Raucher</td></tr><tr><td><a href="http://snomed.info/id/8392000">8392000</a></td><td>Nichtraucher</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed"/>
+  <version value="0.2.0"/>
+  <name value="VS_SmokingStatusAsSnomed"/>
+  <title value="VS Smoking Status as Loinc"/>
+  <status value="active"/>
+  <date value="2023-03-02T17:38:01+01:00"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="449868002"/>
+        <display value="Alltagsraucher"/>
+      </concept>
+      <concept>
+        <code value="428041000124106"/>
+        <display value="Gelegenheitsraucher"/>
+      </concept>
+      <concept>
+        <code value="8517006"/>
+        <display value="Ehemaliger Raucher"/>
+      </concept>
+      <concept>
+        <code value="8392000"/>
+        <display value="Nichtraucher"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

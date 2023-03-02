@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="valueset-no-codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>http://not-a-known-code-system</code> version <code>2.36</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>not-known-code</td><td/></tr><tr><td>not-known-code2</td><td/></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem"/>
+  <version value="0.2.0"/>
+  <name value="ValueSetWithNoCodeSystem"/>
+  <title value="ValueSet with no code-system"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2015-06-22"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A sample value set where there's no known code system"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://not-a-known-code-system"/>
+      <version value="2.36"/>
+      <concept>
+        <code value="not-known-code"/>
+      </concept>
+      <concept>
+        <code value="not-known-code2"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

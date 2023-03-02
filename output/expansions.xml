@@ -1,0 +1,2615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="9b0ab27d-5087-4db7-a518-deb971835dee"/>
+  <meta>
+    <lastUpdated value="2023-03-02T17:38:01.910+01:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
+    <resource>
+      <ValueSet>
+        <id value="valueset-fake"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-cs-fake.html">CodeSystem fake v0.2.0 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01"> </a>  
+                  <a href="CodeSystem-cs-fake.html#cs-fake-01">01</a>
+                </td>
+                <td>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</td>
+                <td>VS1</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
+        <version value="0.2.0"/>
+        <name value="ValueSetFake"/>
+        <title value="ValueSet fake"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2015-06-22"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="A fake value"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:716073a4-9e25-4c52-b131-646f87060a0c"/>
+          <timestamp value="2023-03-02T17:40:31+01:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"/>
+          </parameter>
+          <contains>
+            <system value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
+            <code value="01"/>
+            <display value="VS1"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-administrative-gender"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">AdministrativeGender v4.0.1 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/valueset-administrative-gender.html">AdministrativeGender v4.0.1 (ValueSet)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-male"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Male</td>
+                <td>
+                  <div>
+                    <p>Male.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-female"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Female</td>
+                <td>
+                  <div>
+                    <p>Female.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-other"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Other</td>
+                <td>
+                  <div>
+                    <p>Other.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-unknown"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a>
+                </td>
+                <td>http://hl7.org/fhir/administrative-gender</td>
+                <td>Unknown</td>
+                <td>
+                  <div>
+                    <p>Unknown.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender"/>
+        <version value="0.2.0"/>
+        <name value="VS_AdministrativeGender"/>
+        <title value="VS AdministrativeGender"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält Codes für das administrative Geschlecht."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:cd19deed-4d63-4f45-8dcd-198cbcef0178"/>
+          <timestamp value="2023-03-02T17:43:41+01:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-binary-decision-yes-or-no-as-snomed"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-260385009"> </a>  
+                  <a href="http://snomed.info/id/260385009">260385009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nein</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-10828004"> </a>  
+                  <a href="http://snomed.info/id/10828004">10828004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ja</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed"/>
+        <version value="0.2.0"/>
+        <name value="VS_BinaryDecisionYesOrNoAsSnomed"/>
+        <title value="VS Binary Decision Yes Or No as Snomed"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:012f7b28-22f3-492e-b0ea-52dc83652e35"/>
+          <timestamp value="2023-03-02T17:43:41+01:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="260385009"/>
+            <display value="Nein"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="10828004"/>
+            <display value="Ja"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-binary-gender-as-snomed"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248153007"> </a>  
+                  <a href="http://snomed.info/id/248153007">248153007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Männlich</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-248152002"> </a>  
+                  <a href="http://snomed.info/id/248152002">248152002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Weiblich</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed"/>
+        <version value="0.2.0"/>
+        <name value="VS_BinaryGenderAsSnomed"/>
+        <title value="VS Binary Gender as Snomed"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f0071d9e-9518-421f-912e-9fc0cb137a60"/>
+          <timestamp value="2023-03-02T17:43:42+01:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248153007"/>
+            <display value="Männlich"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="248152002"/>
+            <display value="Weiblich"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-glasgow-coma-scale-for-adults"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults"/>
+        <version value="0.2.0"/>
+        <name value="VS_GlasgowComaScaleForAdults"/>
+        <title value="VS Glasgow Coma Scale For Adults"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:319fd210-a4f1-4eab-9836-890b9d881ce3"/>
+          <timestamp value="2023-03-02T17:43:42+01:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-length-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 9 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-fm"> </a>  fm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>fm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pm"> </a>  pm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-nm"> </a>  nm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>nm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-um"> </a>  um
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>um</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mm"> </a>  mm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-cm"> </a>  cm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>cm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-dm"> </a>  dm
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>dm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-m"> </a>  m
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>m</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-km"> </a>  km
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>km</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_LengthUnits"/>
+        <title value="VS Length Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für 'Länge'"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:0f7eef5a-3494-45e1-a29e-a68a858fbdd6"/>
+          <timestamp value="2023-03-02T17:43:42+01:00"/>
+          <total value="9"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="fm"/>
+            <display value="fm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pm"/>
+            <display value="pm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="nm"/>
+            <display value="nm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="um"/>
+            <display value="um"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mm"/>
+            <display value="mm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="cm"/>
+            <display value="cm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="dm"/>
+            <display value="dm"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="m"/>
+            <display value="m"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="km"/>
+            <display value="km"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-mass-concentration-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 21 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pg-mL"> </a>  pg/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pg/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ng-mL"> </a>  ng/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ng/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ng-mL-rbc-"> </a>  ng/mL{rbc}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ng/mL{rbc}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug-mL"> </a>  ug/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg-mL"> </a>  mg/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-g-mL"> </a>  g/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>g/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pg-dL"> </a>  pg/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pg/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ng-dL"> </a>  ng/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ng/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug-dL"> </a>  ug/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug-dL-rbc-"> </a>  ug/dL{rbc}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/dL{rbc}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg-dL"> </a>  mg/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg-Phenylketones--dL"> </a>  mg{Phenylketones}/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg{Phenylketones}/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-g-dL"> </a>  g/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>g/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ng-L"> </a>  ng/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ng/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pg-L"> </a>  pg/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pg/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug-L"> </a>  ug/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg-L"> </a>  mg/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-g-L"> </a>  g/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>g/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-kg-L"> </a>  kg/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>kg/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg-m3"> </a>  mg/m3
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/m3</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-kg-m3"> </a>  kg/m3
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>kg/m3</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_MassConcentrationUnits"/>
+        <title value="VS Mass Concentration Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für Massenkonzentration"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d00fb685-9944-4406-9b5d-ae28b732a738"/>
+          <timestamp value="2023-03-02T17:43:42+01:00"/>
+          <total value="21"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/mL"/>
+            <display value="pg/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/mL"/>
+            <display value="ng/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/mL{rbc}"/>
+            <display value="ng/mL{rbc}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/mL"/>
+            <display value="ug/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/mL"/>
+            <display value="mg/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/mL"/>
+            <display value="g/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/dL"/>
+            <display value="pg/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/dL"/>
+            <display value="ng/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/dL"/>
+            <display value="ug/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/dL{rbc}"/>
+            <display value="ug/dL{rbc}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/dL"/>
+            <display value="mg/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg{Phenylketones}/dL"/>
+            <display value="mg{Phenylketones}/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/dL"/>
+            <display value="g/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/L"/>
+            <display value="ng/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/L"/>
+            <display value="pg/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/L"/>
+            <display value="ug/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/L"/>
+            <display value="mg/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/L"/>
+            <display value="g/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="kg/L"/>
+            <display value="kg/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/m3"/>
+            <display value="mg/m3"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="kg/m3"/>
+            <display value="kg/m3"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-mass-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 15 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-fg"> </a>  fg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>fg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pg"> </a>  pg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ng"> </a>  ng
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ng</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug"> </a>  ug
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug--TotalVolume-"> </a>  ug/{TotalVolume}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/{TotalVolume}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ug--Specimen-"> </a>  ug/{Specimen}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ug/{Specimen}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg"> </a>  mg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg--Volume-"> </a>  mg/{Volume}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/{Volume}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mg--TotalVolume-"> </a>  mg/{TotalVolume}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mg/{TotalVolume}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-g"> </a>  g
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>g</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-g--TotalWeight-"> </a>  g/{TotalWeight}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>g/{TotalWeight}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-dg"> </a>  dg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>dg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-cg"> </a>  cg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>cg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-kg"> </a>  kg
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>kg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-t"> </a>  t
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>t</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_MassUnits"/>
+        <title value="VS Mass Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für 'Masse'"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:48b0f3c8-9760-45f7-bef1-bcaf8a691a7a"/>
+          <timestamp value="2023-03-02T17:43:43+01:00"/>
+          <total value="15"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="fg"/>
+            <display value="fg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg"/>
+            <display value="pg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng"/>
+            <display value="ng"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug"/>
+            <display value="ug"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/{TotalVolume}"/>
+            <display value="ug/{TotalVolume}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ug/{Specimen}"/>
+            <display value="ug/{Specimen}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg"/>
+            <display value="mg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/{Volume}"/>
+            <display value="mg/{Volume}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/{TotalVolume}"/>
+            <display value="mg/{TotalVolume}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g"/>
+            <display value="g"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g/{TotalWeight}"/>
+            <display value="g/{TotalWeight}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="dg"/>
+            <display value="dg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="cg"/>
+            <display value="cg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="kg"/>
+            <display value="kg"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="t"/>
+            <display value="t"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-missing-values-as-snomed"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1631000175102"> </a>  
+                  <a href="http://snomed.info/id/1631000175102">1631000175102</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Der Patient wurde nicht gefragt.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-261665006"> </a>  
+                  <a href="http://snomed.info/id/261665006">261665006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Unbekannt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-1220561009"> </a>  
+                  <a href="http://snomed.info/id/1220561009">1220561009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Wird nicht aufgezeichnet/erfasst.</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed"/>
+        <version value="0.2.0"/>
+        <name value="VS_MissingValuesAsSnomed"/>
+        <title value="VS Missing Values As Snomed"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält Snomed-Codes für fehlende Werte."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:96a80fa5-02d2-4698-b6ab-5b63cbc00b4b"/>
+          <timestamp value="2023-03-02T17:43:43+01:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1631000175102"/>
+            <display value="Der Patient wurde nicht gefragt."/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="261665006"/>
+            <display value="Unbekannt"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1220561009"/>
+            <display value="Wird nicht aufgezeichnet/erfasst."/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-molar-concentration-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 15 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-umol-L"> </a>  umol/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>umol/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mmol-L"> </a>  mmol/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mmol/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-fmol-mL"> </a>  fmol/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>fmol/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pmol-mL"> </a>  pmol/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pmol/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-nmol-mL"> </a>  nmol/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>nmol/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-umol-mL"> </a>  umol/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>umol/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mol-mL"> </a>  mol/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mol/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pmol-dL"> </a>  pmol/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pmol/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-nmol-dL"> </a>  nmol/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>nmol/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-umol-dL"> </a>  umol/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>umol/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mmol-dL"> </a>  mmol/dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mmol/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-pmol-L"> </a>  pmol/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>pmol/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-nmol-L"> </a>  nmol/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>nmol/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mol-L"> </a>  mol/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mol/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mol-m3"> </a>  mol/m3
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mol/m3</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_MolarConcentrationUnits"/>
+        <title value="VS Molar Concentration Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für Stoffmengenkonzentration"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:319a7b80-54e7-40fc-ab94-97bc7c2a92e5"/>
+          <timestamp value="2023-03-02T17:43:43+01:00"/>
+          <total value="15"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="umol/L"/>
+            <display value="umol/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mmol/L"/>
+            <display value="mmol/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="fmol/mL"/>
+            <display value="fmol/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pmol/mL"/>
+            <display value="pmol/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="nmol/mL"/>
+            <display value="nmol/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="umol/mL"/>
+            <display value="umol/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mol/mL"/>
+            <display value="mol/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pmol/dL"/>
+            <display value="pmol/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="nmol/dL"/>
+            <display value="nmol/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="umol/dL"/>
+            <display value="umol/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mmol/dL"/>
+            <display value="mmol/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pmol/L"/>
+            <display value="pmol/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="nmol/L"/>
+            <display value="nmol/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mol/L"/>
+            <display value="mol/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mol/m3"/>
+            <display value="mol/m3"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-number-concentration-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 20 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-uL"> </a>  uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--Cells--uL"> </a>  {Cells}/uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>{Cells}/uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--rbc--uL"> </a>  {rbc}/uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>{rbc}/uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3-uL"> </a>  10*3/uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3/uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-6-uL"> </a>  10*6/uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*6/uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-9-uL"> </a>  10*9/uL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*9/uL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--mL"> </a>  /mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--Spermatozoa--mL"> </a>  {Spermatozoa}/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>{Spermatozoa}/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--Copies--mL"> </a>  {Copies}/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>{Copies}/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3-mL"> </a>  10*3/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3-Copies--mL"> </a>  10*3{Copies}/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3{Copies}/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-6-mL"> </a>  10*6/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*6/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-9-mL"> </a>  10*9/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*9/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--cfu--mL"> </a>  {cfu}/mL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>{cfu}/mL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--dL"> </a>  /dL
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>/dL</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org--L"> </a>  /L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3-L"> </a>  10*3/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-6-L"> </a>  10*6/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*6/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-12-L"> </a>  10*12/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*12/L</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-9-L"> </a>  10*9/L
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*9/L</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_NumberConcentrationUnits"/>
+        <title value="VS Number Concentration Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:a954504b-e56f-4bbe-bb14-7cc6cb50a7ea"/>
+          <timestamp value="2023-03-02T17:43:44+01:00"/>
+          <total value="20"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="uL"/>
+            <display value="uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{Cells}/uL"/>
+            <display value="{Cells}/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{rbc}/uL"/>
+            <display value="{rbc}/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3/uL"/>
+            <display value="10*3/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*6/uL"/>
+            <display value="10*6/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*9/uL"/>
+            <display value="10*9/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="/mL"/>
+            <display value="/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{Spermatozoa}/mL"/>
+            <display value="{Spermatozoa}/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{Copies}/mL"/>
+            <display value="{Copies}/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3/mL"/>
+            <display value="10*3/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3{Copies}/mL"/>
+            <display value="10*3{Copies}/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*6/mL"/>
+            <display value="10*6/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*9/mL"/>
+            <display value="10*9/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="{cfu}/mL"/>
+            <display value="{cfu}/mL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="/dL"/>
+            <display value="/dL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="/L"/>
+            <display value="/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3/L"/>
+            <display value="10*3/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*6/L"/>
+            <display value="10*6/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*12/L"/>
+            <display value="10*12/L"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*9/L"/>
+            <display value="10*9/L"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-smoking-status-as-snomed"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-449868002"> </a>  
+                  <a href="http://snomed.info/id/449868002">449868002</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Alltagsraucher</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-428041000124106"> </a>  
+                  <a href="http://snomed.info/id/428041000124106">428041000124106</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Gelegenheitsraucher</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8517006"> </a>  
+                  <a href="http://snomed.info/id/8517006">8517006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ehemaliger Raucher</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-8392000"> </a>  
+                  <a href="http://snomed.info/id/8392000">8392000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Nichtraucher</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed"/>
+        <version value="0.2.0"/>
+        <name value="VS_SmokingStatusAsSnomed"/>
+        <title value="VS Smoking Status as Loinc"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5bfb9cf4-3386-4818-b800-e56ccbb35440"/>
+          <timestamp value="2023-03-02T17:43:44+01:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="449868002"/>
+            <display value="Alltagsraucher"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="428041000124106"/>
+            <display value="Gelegenheitsraucher"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8517006"/>
+            <display value="Ehemaliger Raucher"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="8392000"/>
+            <display value="Nichtraucher"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-specimen-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types"/>
+        <version value="0.2.0"/>
+        <name value="VS_SpecimenTypes"/>
+        <title value="VS Specimen Types"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="LOINC Codes für 'Probenmaterial'"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:2f69b695-5339-4597-a083-9dd6d3f1fa51"/>
+          <timestamp value="2023-03-02T17:43:44+01:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-time-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 13 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ps"> </a>  ps
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ps</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ns"> </a>  ns
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ns</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-us"> </a>  us
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>us</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ms"> </a>  ms
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ms</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-s"> </a>  s
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>s</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-ks"> </a>  ks
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>ks</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-Ms"> </a>  Ms
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>Ms</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-min"> </a>  min
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>min</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-h"> </a>  h
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>h</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-d"> </a>  d
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>d</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-wk"> </a>  wk
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>wk</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-mo"> </a>  mo
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>mo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-a"> </a>  a
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>a</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_TimeUnits"/>
+        <title value="VS Time Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für 'Zeit'"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:b1863a38-b614-4d30-8b10-329506382562"/>
+          <timestamp value="2023-03-02T17:43:45+01:00"/>
+          <total value="13"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ps"/>
+            <display value="ps"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ns"/>
+            <display value="ns"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="us"/>
+            <display value="us"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ms"/>
+            <display value="ms"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="s"/>
+            <display value="s"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ks"/>
+            <display value="ks"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="Ms"/>
+            <display value="Ms"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="min"/>
+            <display value="min"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="h"/>
+            <display value="h"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="d"/>
+            <display value="d"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="wk"/>
+            <display value="wk"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mo"/>
+            <display value="mo"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="a"/>
+            <display value="a"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units"/>
+    <resource>
+      <ValueSet>
+        <id value="vs-unity-units"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-6--Specimen-"> </a>  10*6/{Specimen}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*6/{Specimen}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org---tot-"> </a>  /{tot}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>/{tot}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3"> </a>  10*3
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-3.-RBC-"> </a>  10*3.{RBC}
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*3.{RBC}</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-5"> </a>  10*5
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*5</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-6"> </a>  10*6
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*6</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---unitsofmeasure.org-10-8"> </a>  10*8
+                </td>
+                <td>http://unitsofmeasure.org</td>
+                <td>10*8</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units"/>
+        <version value="0.2.0"/>
+        <name value="VS_UnityUnits"/>
+        <title value="VS Unity Units"/>
+        <status value="active"/>
+        <date value="2023-03-02T17:38:01+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c158815f-f262-491c-b552-8ee6e1041975"/>
+          <timestamp value="2023-03-02T17:43:45+01:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://unitsofmeasure.org|2.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*6/{Specimen}"/>
+            <display value="10*6/{Specimen}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="/{tot}"/>
+            <display value="/{tot}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3"/>
+            <display value="10*3"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*3.{RBC}"/>
+            <display value="10*3.{RBC}"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*5"/>
+            <display value="10*5"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*6"/>
+            <display value="10*6"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="10*8"/>
+            <display value="10*8"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

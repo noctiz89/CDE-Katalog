@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "vs-unity-units"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>[lg]</td><td/></tr><tr><td>10*6/{Specimen}</td><td>10*6/{Specimen}</td></tr><tr><td>/{tot}</td><td>/{tot}</td></tr><tr><td>10*3</td><td>10*3</td></tr><tr><td>10*3.{RBC}</td><td>10*3.{RBC}</td></tr><tr><td>10*5</td><td>10*5</td></tr><tr><td>10*6</td><td>10*6</td></tr><tr><td>10*8</td><td>10*8</td></tr></table></li></ul></div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ];
+         fhir:Extension.valueCanonical [
+           fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig";
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig>
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
+     fhir:Extension.valueCode [
+       fhir:value "informative";
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ];
+         fhir:Extension.valueCanonical [
+           fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig";
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig>
+         ]
+       ]
+     ]
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units"]; # 
+  fhir:ValueSet.version [ fhir:value "0.2.0"]; # 
+  fhir:ValueSet.name [ fhir:value "VS_UnityUnits"]; # 
+  fhir:ValueSet.title [ fhir:value "VS Unity Units"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-02T17:38:01+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "UCUM Codes für Gesamtheit (auch 'Eins-Element')."]; # 
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ]; # 
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://unitsofmeasure.org" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "[lg]" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*6/{Specimen}" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "/{tot}" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*3" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*3.{RBC}" ]
+       ], [
+         fhir:index 5;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*5" ]
+       ], [
+         fhir:index 6;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*6" ]
+       ], [
+         fhir:index 7;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "10*8" ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

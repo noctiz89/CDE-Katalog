@@ -1,0 +1,12 @@
+{
+  "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+  "name" : "YourComputableMyIGNameHere",
+  "package-id" : "example.fhir.uv.myig",
+  "ig-ver" : "0.2.0",
+  "date" : "Thu, 02 Mar, 2023 17:38:01 +0100",
+  "errs" : 14,
+  "warnings" : 86,
+  "hints" : 14,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-snapshot2 (3)"
+}
