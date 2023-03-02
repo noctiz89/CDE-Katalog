@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+      "concept" : [{
+        "code" : "01",
+        "display" : "VS1",
+        "designation" : [{
+          "value" : "VS2"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:733452c0-d252-4ec4-9e71-85b9445542e3",
+    "timestamp" : "2023-03-02T16:38:23.003Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"
+    }],
+    "contains" : [{
+      "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
+      "code" : "01",
+      "display" : "VS2"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
