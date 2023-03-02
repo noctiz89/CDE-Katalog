@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
   <id value="example.fhir.uv.myig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-    <valueCode value="informative"/> 
+    <valueCode value="trial-use"/> 
   </extension> 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/> 
@@ -14,9 +14,9 @@
   <url value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
-  <name value="YourComputableMyIGNameHere"/>
-  <title value="Your User Friendly Name for MyIG Here"/>
-  <status value="draft"/>
+  <name value="CDEKatalog"/>
+  <title value="Common Data Element Katalog"/>
+  <status value="informative"/>
   <experimental value="false"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
@@ -137,16 +137,16 @@
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
-      <title value="Table of Contents"/>
+      <title value="Inhaltsverzeichnis"/>
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="MyIG Home Page"/>
+        <title value="CDE-Katalog"/>
         <generation value="html"/>
       </page>
       <page>
         <nameUrl value="background.html"/>
-        <title value="Background"/>
+        <title value="Hintergrund"/>
         <generation value="html"/>
       </page>
       <page>
@@ -154,10 +154,10 @@
           <valueCode value="trial-use"/> 
         </extension> 
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="3"/> 
+          <valueInteger value="1"/> 
         </extension>
         <nameUrl value="spec.html"/>
-        <title value="Detailed Specification"/>
+        <title value="Detaillierte Spezifikation"/>
         <generation value="markdown"/>
         <page>
           <nameUrl value="spec2.html"/>
@@ -167,7 +167,7 @@
       </page>
       <page>
         <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
+        <title value="Hilfreiche Downloads"/>
         <generation value="html"/>
       </page>
       <page>
@@ -179,7 +179,7 @@
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear"/>
-      <value value="2019+"/>
+      <value value="2023+"/>
     </parameter>
     <!-- releaselabel should be the ballot status for HL7-published IGs. -->
     <parameter>

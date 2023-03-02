@@ -60,13 +60,13 @@
   </p>
   <ul>
     <li>
-      <a href="background.html">Hintergrund</a> Beschreibung...
+      <a href="background.html">Hintergrund</a>: Beschreibung...
     </li>
     <li>
-      <a href="artifacts.html">FHIR Artefakte</a>Diese Seite enthält eine Liste der FHIR-Artefakte, die als Teil dieses Implementierungsleitfadens definiert sind.
+      <a href="artifacts.html">FHIR Artefakte</a>: Diese Seite enthält eine Liste der FHIR-Artefakte, die als Teil dieses Implementierungsleitfadens definiert sind.
     </li>
     <li>
-      <a href="development.html">Entwicklung</a> Beschreibung...
+      <a href="development.html">Entwicklung</a>: Beschreibung...
     </li>
   </ul>
 </div>
