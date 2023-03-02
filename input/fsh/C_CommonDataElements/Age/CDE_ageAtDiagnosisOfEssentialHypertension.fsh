@@ -1,7 +1,7 @@
 Profile: CDE_AgeAtDiagnosisOfEssentialHypertension
 Parent: Observation
 Id: cde-age-at-diagnosis-of-essential-hypertension
-Title: "CDE age at diagnosis of essential hypertension"
+Title: "CDE Age At Diagnosis Of Essential Hypertension"
 Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'."
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules

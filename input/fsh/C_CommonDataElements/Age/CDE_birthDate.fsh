@@ -1,7 +1,7 @@
-Profile: CDE_birthDate
+Profile: CDE_BirthDate
 Parent: Observation
 Id: cde-birth-date
-Title: "CDE birth Date"
+Title: "CDE Birth Date"
 Description: "Dieses CDE enthält das 'Geburtsdatum'."
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules

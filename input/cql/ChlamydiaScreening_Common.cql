@@ -1,5 +1,9 @@
 library ChlamydiaScreening_Common version '2'
 
+using FHIR version '4.0.1'
+
+include FHIRHelpers version '4.0.1'
+
 using QUICK
 
 valueset "Female Administrative Sex": '2.16.840.1.113883.3.560.100.2'

@@ -1,5 +1,9 @@
 library ChlamydiaScreening_CDS_UsingCommon version '2'
 
+using FHIR version '4.0.1'
+
+include FHIRHelpers version '4.0.1'
+
 using QUICK
 
 include ChlamydiaScreening_Common version '2' called Common

@@ -3,7 +3,7 @@
     "type" : "Library",
     "identifier" : {
       "type" : "VersionedIdentifier",
-      "id" : "example",
+      "id" : "Common",
       "system" : "http://somewhere.org/fhir/uv/myig",
       "version" : "1.0.0"
     },
@@ -86,7 +86,7 @@
         "localId" : "2",
         "locator" : "5:1-5:35",
         "localIdentifier" : "FHIRHelpers",
-        "path" : "http://hl7.org/fhir/FHIRHelpers",
+        "path" : "http://somewhere.org/fhir/uv/myig/FHIRHelpers",
         "version" : "4.0.1"
       } ]
     },
