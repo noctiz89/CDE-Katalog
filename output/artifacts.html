@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>EXAMPLE.FHIR.UV.MYIG\Artifacts Summary - FHIR v4.0.1</title>
+    <title>FHIR.CDE-CATALOG\Artifacts Summary - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,21 +39,17 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6"}
-    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"8"}
+    h3,h4,h5,h6{--heading-prefix:"8.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Common Data Element Katalog</span>
+          <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.2.0 - CI Build
-
-
-
-  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+            <span style="display:inline-block;">0.1.0 - ci-build
 
 
             </span>
@@ -127,17 +123,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><b>Artifacts Summary</b></li>
-
-          <span style="float:right;">
-
-            <a href="changes.html">&lt;prev</a> | 
-
-            <a href="#bottom">bottom</a>
-
-          | <a href="Library-example-sql.html">next&gt;</a>
-
-          </span>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -157,7 +143,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">CDEKatalog - Local Development build (v0.1.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -169,31 +155,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Knowledge Artifacts: Libraries</a>
+         <a href="#1">Structures: Logical Models</a>
       </li>
       <li>
-         <a href="#2">Structures: Logical Models</a>
+         <a href="#2">Structures: Abstract Profiles</a>
       </li>
       <li>
-         <a href="#3">Structures: Abstract Profiles</a>
+         <a href="#3">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#4">Structures: Resource Profiles</a>
+         <a href="#4">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#5">Structures: Extension Definitions</a>
+         <a href="#5">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#6">Terminology: Value Sets</a>
+         <a href="#6">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#7">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#8">Example: Example Instances</a>
-      </li>
-      <li>
-         <a href="#9">Other</a>
+         <a href="#7">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -202,42 +182,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Knowledge Artifacts: Libraries </h3>
-   <p>
-    <p>These define logic, asset collections and other libraries as part of content in this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example-sql.html" title="Library/example-sql">Example Library</a>
-               </td>
-               <td>
-<p>A test example</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example-image.html" title="Library/example-image">Example Library Image</a>
-               </td>
-               <td>
-<p>A test image example</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example.html" title="Library/example">Example CQL Library</a>
-               </td>
-               <td>
-<p>Some example library</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="2"> </a>
    <h3>Structures: Logical Models </h3>
    <p>
     <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
@@ -252,13 +196,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/MyLogical">My Logical Model</a>
                </td>
                <td>
-<p>Logical Model</p>
+<p>A profile showing the use of Logical Models to author profiles</p>
 </td>
             </tr>
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="2"> </a>
    <h3>Structures: Abstract Profiles </h3>
    <p>
     <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
@@ -504,7 +448,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="3"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
@@ -515,20 +459,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-mypatient.html"
-                     title="StructureDefinition/mypatient">My Favorite Patient Profile</a>
+                  <a href="StructureDefinition-cde-age.html"
+                     title="StructureDefinition/cde-age">CDE Age</a>
                </td>
                <td>
-<p>Overriding description because we can</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-myObservation.html"
-                     title="StructureDefinition/myObservation">My Observation Profile</a>
-               </td>
-               <td>
-<p>A profile showing the use of XML to author profiles</p>
+<p>Dieses CDE enthält das ‘Alter’.</p>
 </td>
             </tr>
             <tr>
@@ -547,15 +482,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Dieses CDE enthält das ‘Alter’ in dem eine Person mit dem Rauchen aufgehört hat.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-cde-age.html"
-                     title="StructureDefinition/cde-age">CDE Age</a>
-               </td>
-               <td>
-<p>Dieses CDE enthält das ‘Alter’.</p>
 </td>
             </tr>
             <tr>
@@ -646,6 +572,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Dieses CDE enthält den Messparameter ‘Erytrhozyten in Blut</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-generic-observation.html"
+                     title="StructureDefinition/generic-observation">Generic Observation</a>
+               </td>
+               <td>
+<p>Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung.</p>
 </td>
             </tr>
             <tr>
@@ -758,15 +693,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-generic-observation.html"
-                     title="StructureDefinition/generic-observation">Generic Observation</a>
-               </td>
-               <td>
-<p>Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-poi-patient.html"
                      title="StructureDefinition/poi-patient">POI Patient</a>
                </td>
@@ -794,6 +720,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-myObservation.html"
+                     title="StructureDefinition/myObservation">My Observation Profile</a>
+               </td>
+               <td>
+<p>A profile showing the use of XML to author profiles</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mypatient.html"
+                     title="StructureDefinition/mypatient">MyPatientName</a>
+               </td>
+               <td>
+<p>This will be the description for the patient profile within the profile page</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-mypractitioner.html"
                      title="StructureDefinition/mypractitioner">MyPractitionerName</a>
                </td>
@@ -804,7 +748,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="4"> </a>
    <h3>Structures: Extension Definitions </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
@@ -825,7 +769,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="6"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
@@ -834,23 +778,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-valueset-no-codesystem.html"
-                     title="ValueSet/valueset-no-codesystem">Value set for no code system</a>
-               </td>
-               <td>
-<p>A sample value set where there’s no known code system</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-valueset-fake.html" title="ValueSet/valueset-fake">ValueSet fake</a>
-               </td>
-               <td>
-<p>A fake value</p>
-</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-vs-administrative-gender.html"
@@ -973,10 +900,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>UCUM Codes für Gesamtheit (auch ‘Eins-Element’).</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-valueset-fake.html" title="ValueSet/valueset-fake">ValueSet fake</a>
+               </td>
+               <td>
+<p>A fake value</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-valueset-no-codesystem.html"
+                     title="ValueSet/valueset-no-codesystem">ValueSet with no code-system</a>
+               </td>
+               <td>
+<p>A sample value set where there’s no known code system</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
-   <a name="7"> </a>
+   <a name="6"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
@@ -996,7 +940,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="8"> </a>
+   <a name="7"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
@@ -1007,55 +951,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-example.html" title="Patient/example">Simple patient example</a>
+                  <a href="Observation-example.html" title="Observation/example">example</a>
                </td>
-               <td>
-<p>A simple example showing how examples are defined and referenced</p>
-</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-example.html" title="Observation/example">Observation patient example</a>
+                  <a href="Patient-example.html" title="Patient/example">example</a>
                </td>
-               <td>
-<p>Example showing slicing</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Binary-logical-example.html" title="Binary/logical-example">Example of Logical Model</a>
-               </td>
-               <td>
-<p>Example showing example content for a logical model</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="9"> </a>
-   <h3>Other </h3>
-   <p>
-    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Binary-example.html" title="Binary/example">Example binary</a>
-               </td>
-               <td>
-<p>Example showing binary content</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Binary-image-example.html" title="Binary/image-example">Example of Binary Image</a>
-               </td>
-               <td>
-<p>Example showing example content for an image</p>
-</td>
             </tr>
          </tbody>
       </table>
@@ -1082,31 +984,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
-      <div style="background-color:var(--footer-nav-bg-color)">
-        <table style="width:100%">
-          <tbody>
-            <tr>
-              <td style="text-align:left">&#xA0;
-
-                <a href="changes.html">&lt;prev</a>
-
-              </td>
-              <td style="text-align:center">
-                <a href="#top">top</a>
-              </td>
-              <td style="text-align:right">&#xA0;
-
-                <a href="Library-example-sql.html">next&gt;</a>
-
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package example.fhir.uv.myig#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 2, 2023 19:45+0100">2023-03-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://noctiz89.github.io/CDE-Katalog/index.html">Nils Haendly</a>.  Package fhir.cde-catalog#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 2, 2023 21:18+0100">2023-03-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

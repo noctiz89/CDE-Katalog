@@ -5,48 +5,29 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig> a fhir:ImplementationGuide;
+<http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "example.fhir.uv.myig"]; # 
+  fhir:Resource.id [ fhir:value "fhir.cde-catalog"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog</pre></div>"
   ]; # 
-  fhir:DomainResource.extension [
-     fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-     fhir:Extension.valueCode [ fhir:value "informative" ]
-  ], [
-     fhir:index 1;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
-     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
-  ]; # 
-  fhir:ImplementationGuide.url [ fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"]; # 
-  fhir:ImplementationGuide.version [ fhir:value "0.2.0"]; # 
+  fhir:ImplementationGuide.url [ fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"]; # 
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"]; # 
   fhir:ImplementationGuide.name [ fhir:value "CDEKatalog"]; # 
-  fhir:ImplementationGuide.title [ fhir:value "Common Data Element Katalog"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
-  fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-03-02T19:45:00+01:00"^^xsd:dateTime]; # 
-  fhir:ImplementationGuide.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-03-02T21:18:11+01:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.publisher [ fhir:value "Nils Haendly"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Nils Haendly" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "http://noctiz89.github.io/CDE-Katalog/index.html" ]
      ]
   ]; # 
-  fhir:ImplementationGuide.description [ fhir:value "A brief description of what MyIG is about (probably the same text as in your readme)"]; # 
-  fhir:ImplementationGuide.jurisdiction [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
-     ]
-  ]; # 
-  fhir:ImplementationGuide.packageId [ fhir:value "example.fhir.uv.myig"]; # 
+  fhir:ImplementationGuide.packageId [ fhir:value "fhir.cde-catalog"]; # 
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"]; # 
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -89,7 +70,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "CI Build" ]
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -97,11 +78,11 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "path-binary" ]
+         fhir:Extension.valueString [ fhir:value "autoload-resources" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "input\\cql" ]
+         fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -113,59 +94,11 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "templates\\liquid" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "shownav" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "showsource" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "autoload-resources" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "path-liquid" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
          fhir:Extension.valueString [ fhir:value "template/liquid" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 8;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -177,7 +110,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 9;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -189,7 +122,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 10;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -201,7 +134,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 11;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -213,7 +146,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 12;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -225,7 +158,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 13;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -237,7 +170,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 14;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -249,7 +182,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 15;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -261,11 +194,59 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 16;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
          fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -277,7 +258,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-context" ]
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -289,7 +270,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -301,7 +282,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -313,11 +294,11 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-license" ]
+         fhir:Extension.valueString [ fhir:value "fmm-definition" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -325,7 +306,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+         fhir:Extension.valueString [ fhir:value "propagate-status" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -337,7 +318,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "apply-version" ]
+         fhir:Extension.valueString [ fhir:value "excludelogbinaryformat" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -349,7 +330,7 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "active-tables" ]
+         fhir:Extension.valueString [ fhir:value "tabbed-snapshots" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
@@ -361,54 +342,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "fmm-definition" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 25;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "propagate-status" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 26;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "excludelogbinaryformat" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 27;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "tabbed-snapshots" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 28;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
          fhir:Extension.valueString [ fhir:value "copyrightyear" ]
        ], [
          fhir:index 1;
@@ -417,7 +350,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 29;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -425,59 +358,11 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "CI Build" ]
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 30;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "path-binary" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "input\\cql" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 31;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "path-liquid" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "templates\\liquid" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 32;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "shownav" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 33;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "showsource" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 34;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -489,7 +374,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 35;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -501,7 +386,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 36;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -513,7 +398,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 37;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -525,7 +410,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 38;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -537,7 +422,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 39;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -549,7 +434,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 40;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -561,7 +446,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 41;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -573,7 +458,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 42;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -585,7 +470,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 43;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -597,7 +482,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 44;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -609,7 +494,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 45;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -621,7 +506,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 46;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -633,7 +518,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 47;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -645,7 +530,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 48;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -657,7 +542,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 49;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -669,7 +554,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 50;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -681,7 +566,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 51;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -693,7 +578,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 52;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -705,7 +590,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 53;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -717,7 +602,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 54;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -729,7 +614,7 @@
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
-       fhir:index 55;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "code" ];
@@ -754,213 +639,14 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/mypatient" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-age" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "My Favorite Patient Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Overriding description because we can" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Age" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Alter'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/MyLogical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "My Logical Model" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Logical Model" ]
-     ], [
-       fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Library" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-sql>;
-         fhir:Reference.reference [ fhir:value "Library/example-sql" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Library" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A test example" ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Library" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-image>;
-         fhir:Reference.reference [ fhir:value "Library/example-image" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example Library Image" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A test image example" ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Patient/example>;
-         fhir:Reference.reference [ fhir:value "Patient/example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Simple patient example" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A simple example showing how examples are defined and referenced" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient";
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient>
-       ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Observation/example>;
-         fhir:Reference.reference [ fhir:value "Observation/example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation patient example" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example showing slicing" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation";
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
-       ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Binary" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Binary/example>;
-         fhir:Reference.reference [ fhir:value "Binary/example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example binary" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example showing binary content" ]
-     ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format" ];
-         fhir:Extension.valueCode [ fhir:value "application/xml" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Binary" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Binary/logical-example>;
-         fhir:Reference.reference [ fhir:value "Binary/logical-example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example of Logical Model" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example showing example content for a logical model" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical";
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical>
-       ]
-     ], [
-       fhir:index 8;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format" ];
-         fhir:Extension.valueCode [ fhir:value "image/jpeg" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Binary" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Binary/image-example>;
-         fhir:Reference.reference [ fhir:value "Binary/image-example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example of Binary Image" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example showing example content for an image" ]
-     ], [
-       fhir:index 9;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem>;
-         fhir:Reference.reference [ fhir:value "ValueSet/valueset-no-codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Value set for no code system" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A sample value set where there's no known code system" ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1>;
-         fhir:Reference.reference [ fhir:value "Bundle/h1" ]
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Library" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example>;
-         fhir:Reference.reference [ fhir:value "Library/example" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example CQL Library" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Some example library" ]
-     ], [
-       fhir:index 12;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/cs-fake" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CodeSystem fake" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake code system" ]
-     ], [
-       fhir:index 13;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/myObservation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "My Observation Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile showing the use of XML to author profiles" ]
-     ], [
-       fhir:index 14;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake>;
-         fhir:Reference.reference [ fhir:value "ValueSet/valueset-fake" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet fake" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake value" ]
-     ], [
-       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -971,9 +657,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE age at diagnosis of essential hypertension" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -984,22 +671,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-age-at-stopped-smoking" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Age At Stopped Smoking" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-age" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Age" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Alter'." ]
-     ], [
-       fhir:index 18;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1010,9 +685,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-body-height" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Body Height" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält die 'Körpergröße'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält die 'Körpergröße'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1023,9 +699,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-body-mass-index" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Body Mass Index" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den 'Body Mass Index (BMI)'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den 'Body Mass Index (BMI)'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1036,9 +713,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-body-weight" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Body Weight" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Körpergewicht'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Körpergewicht'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1049,9 +727,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-calcium-in-serum-or-plasma" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Calcium In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1062,9 +741,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-chloride-in-serum-or-plasma" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Chloride In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Chlorid in Serum oder Plasma'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Chlorid in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1075,9 +755,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-creatinine-in-ser-or-plas" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Creatinine In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Plasma'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 24;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1088,9 +769,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-current-age-calculated" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Current Age Calculated" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1101,9 +783,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-current-age-reported" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Current Age Reported" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1114,9 +797,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-date-of-birth" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Date Of Birth" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Geburtsdatum' einer Person." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Geburtsdatum' einer Person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1127,503 +811,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-erythrocytes-in-blood" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Erythrocytes In Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-glasgow-coma-score" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Glasgow Coma Score" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Glasgow Coma Score (GCS)" ]
-     ], [
-       fhir:index 29;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-glucose-in-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Glucose In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasma'." ]
-     ], [
-       fhir:index 30;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-hematocrit-of-blood" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Hematocrit Of Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'." ]
-     ], [
-       fhir:index 31;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-hemoglobin-in-blood" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Hemoglobin In Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'." ]
-     ], [
-       fhir:index 32;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-leukocytes-in-blood" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Leukocytes In Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'." ]
-     ], [
-       fhir:index 33;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-magnesium-in-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Magnesium In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Plasma'." ]
-     ], [
-       fhir:index 34;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-phosphate-in-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Phosphate In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'." ]
-     ], [
-       fhir:index 35;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-potassium-in-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Potassium In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Kalium in Serum oder Plasma'." ]
-     ], [
-       fhir:index 36;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-sex-assigned-at-birth" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Sex Assigned At Birth" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person." ]
-     ], [
-       fhir:index 37;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-sodium-in-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Sodium In Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'." ]
-     ], [
-       fhir:index 38;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-thrombocytes-in-blood" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Thrombocytes In Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'." ]
-     ], [
-       fhir:index 39;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-tobacco-smoking-status" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Smoking Status" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Raucherstatus einer Person" ]
-     ], [
-       fhir:index 40;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-activity>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-activity" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Social History" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ]
-     ], [
-       fhir:index 41;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-exam>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-exam" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Exam" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'." ]
-     ], [
-       fhir:index 42;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-imaging>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-imaging" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Imaging" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'." ]
-     ], [
-       fhir:index 43;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-laboratory>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-laboratory" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Laboratory" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'." ]
-     ], [
-       fhir:index 44;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-procedure>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-procedure" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Procedure" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'." ]
-     ], [
-       fhir:index 45;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-social-history>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-social-history" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Social History" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ]
-     ], [
-       fhir:index 46;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-survey>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-survey" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Survey" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'." ]
-     ], [
-       fhir:index 47;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-therapy>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-therapy" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Therapy" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'." ]
-     ], [
-       fhir:index 48;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-vital-signs>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-vital-signs" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Vital Signs" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'." ]
-     ], [
-       fhir:index 49;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-administrative-information>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-administrative-information" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Administrative Information" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen" ]
-     ], [
-       fhir:index 50;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-chemistry>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-chemistry" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Chemistry" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'." ]
-     ], [
-       fhir:index 51;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-immunology>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-immunology" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Immunology" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'." ]
-     ], [
-       fhir:index 52;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-microbiology>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-microbiology" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Microbiology" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'." ]
-     ], [
-       fhir:index 53;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-diseases-and-related-health-problems>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-diseases-and-related-health-problems" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Diseases And Related Health Problems" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme." ]
-     ], [
-       fhir:index 54;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-health-related-behavior-and-lifestyle>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-health-related-behavior-and-lifestyle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Heatlh-related Behavior and Lifesytle" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten & Lebensstil'." ]
-     ], [
-       fhir:index 55;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-physical-measurements-and-assessment>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-physical-measurements-and-assessment" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Physical Measurements And Assessment" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen." ]
-     ], [
-       fhir:index 56;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-social-personal-details>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-social-personal-details" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Social Personal Details" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'." ]
-     ], [
-       fhir:index 57;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-substance-level>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-substance-level" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Substance Level" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'." ]
-     ], [
-       fhir:index 58;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-age-and-birth-date>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-age-and-birth-date" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Age And Birth Date" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'." ]
-     ], [
-       fhir:index 59;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-gender>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-gender" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Gender" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'." ]
-     ], [
-       fhir:index 60;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-specimen-type>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-specimen-type" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Specimen" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'." ]
-     ], [
-       fhir:index 61;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-age-at-diagnosis>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-age-at-diagnosis" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Age At Diagnosis" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'" ]
-     ], [
-       fhir:index 62;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-blood>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-blood" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Blood" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Blut'." ]
-     ], [
-       fhir:index 63;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-cerebrospinal-fluid>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-cerebrospinal-fluid" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Cerebrospinal Fluid" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'." ]
-     ], [
-       fhir:index 64;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-serum-or-plasma>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-serum-or-plasma" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Serum Or Plasma" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'." ]
-     ], [
-       fhir:index 65;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-urine>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-urine" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Urine" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'." ]
-     ], [
-       fhir:index 66;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1634,9 +825,542 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/generic-observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Generic Observation" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 67;
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-glasgow-coma-score" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Glasgow Coma Score" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Glasgow Coma Score (GCS)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-glucose-in-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Glucose In Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-hematocrit-of-blood" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Hematocrit Of Blood" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-hemoglobin-in-blood" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Hemoglobin In Blood" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-leukocytes-in-blood" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Leukocytes In Blood" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-magnesium-in-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Magnesium In Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-phosphate-in-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Phosphate In Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-potassium-in-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Potassium In Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Kalium in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-sex-assigned-at-birth" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Sex Assigned At Birth" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-sodium-in-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Sodium In Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-thrombocytes-in-blood" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Thrombocytes In Blood" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cde-tobacco-smoking-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Smoking Status" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält den Raucherstatus einer Person" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-activity>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-activity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Social History" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-exam>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-exam" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Exam" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-imaging>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-imaging" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Imaging" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-laboratory>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-laboratory" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Laboratory" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-procedure>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-procedure" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Procedure" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-social-history>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-social-history" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Social History" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-survey>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-survey" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Survey" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-therapy>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-therapy" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Therapy" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-vital-signs>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l0-vital-signs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L0 Vital Signs" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-administrative-information>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-administrative-information" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Administrative Information" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-chemistry>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-chemistry" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Chemistry" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-immunology>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-immunology" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Immunology" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-microbiology>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-clinical-microbiology" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Clincial Microbiology" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-diseases-and-related-health-problems>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-diseases-and-related-health-problems" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Diseases And Related Health Problems" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-health-related-behavior-and-lifestyle>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-health-related-behavior-and-lifestyle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Heatlh-related Behavior and Lifesytle" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten & Lebensstil'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-physical-measurements-and-assessment>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-physical-measurements-and-assessment" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Physical Measurements And Assessment" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-social-personal-details>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-social-personal-details" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Social Personal Details" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-substance-level>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l1-substance-level" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L1 Substance Level" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-age-and-birth-date>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-age-and-birth-date" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Age And Birth Date" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-gender>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-gender" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Gender" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-specimen-type>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l2-specimen-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L2 Specimen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-age-at-diagnosis>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-age-at-diagnosis" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Age At Diagnosis" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-blood>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-blood" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Blood" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Blut'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-cerebrospinal-fluid>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-cerebrospinal-fluid" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Cerebrospinal Fluid" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-serum-or-plasma>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-serum-or-plasma" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Serum Or Plasma" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource:abstract" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-urine>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cls-l3-urine" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CLS L3 Urine" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1647,9 +1371,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/poi-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Patient" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 68;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1660,9 +1385,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/poi-person" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Person" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Person." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Person." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 69;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1673,9 +1399,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/poi-research-subject" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Research Subject" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 70;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1686,9 +1413,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-administrative-gender" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS AdministrativeGender" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Codes für das administrative Geschlecht." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Codes für das administrative Geschlecht." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 71;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1699,9 +1427,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-binary-decision-yes-or-no-as-snomed" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Binary Decision Yes Or No as Snomed" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 72;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1712,9 +1441,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-binary-gender-as-snomed" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Binary Gender as Snomed" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 73;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1725,9 +1455,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-glasgow-coma-scale-for-adults" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Glasgow Coma Scale For Adults" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 74;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1738,9 +1469,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-length-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Length Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Länge'" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Länge'" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 75;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1751,9 +1483,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-mass-concentration-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Mass Concentration Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Massenkonzentration" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Massenkonzentration" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 76;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1764,9 +1497,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-mass-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Mass Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Masse'" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Masse'" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 77;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1777,9 +1511,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-missing-values-as-snomed" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Missing Values As Snomed" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für fehlende Werte." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für fehlende Werte." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 78;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1790,9 +1525,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-molar-concentration-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Molar Concentration Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Stoffmengenkonzentration" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Stoffmengenkonzentration" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 79;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1803,9 +1539,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-number-concentration-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Number Concentration Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Anzahl pro Volumen'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Anzahl pro Volumen'." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 80;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1816,9 +1553,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-smoking-status-as-snomed" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Smoking Status as Loinc" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 81;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1829,9 +1567,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-specimen-types" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Specimen Types" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "LOINC Codes für 'Probenmaterial'" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "LOINC Codes für 'Probenmaterial'" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 82;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1842,9 +1581,10 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-time-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Time Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Zeit'" ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Zeit'" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 83;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1855,9 +1595,120 @@
          fhir:Reference.reference [ fhir:value "ValueSet/vs-unity-units" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Unity Units" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Gesamtheit (auch 'Eins-Element')." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Gesamtheit (auch 'Eins-Element')." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 84;
+       fhir:index 69;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-fake" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CodeSystem fake" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake code system" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 70;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MyLogical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "My Logical Model" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile showing the use of Logical Models to author profiles" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 71;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/myObservation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "My Observation Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A profile showing the use of XML to author profiles" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 72;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake>;
+         fhir:Reference.reference [ fhir:value "ValueSet/valueset-fake" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet fake" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A fake value" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 73;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem>;
+         fhir:Reference.reference [ fhir:value "ValueSet/valueset-no-codesystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ValueSet with no code-system" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "A sample value set where there's no known code system" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 74;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Observation/example>;
+         fhir:Reference.reference [ fhir:value "Observation/example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "example" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation";
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
+       ]
+     ], [
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Patient/example>;
+         fhir:Reference.reference [ fhir:value "Patient/example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "example" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 76;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1>;
+         fhir:Reference.reference [ fhir:value "Bundle/h1" ]
+       ]
+     ], [
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1871,7 +1722,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "What this extension means." ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "resources-spreadsheet.xml" ]
      ], [
-       fhir:index 85;
+       fhir:index 78;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/mypatient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MyPatientName" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This will be the description for the patient profile within the profile page" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "resources-spreadsheet.xml" ]
+     ], [
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1888,147 +1753,120 @@
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-         fhir:Extension.valueCode [ fhir:value "informative" ]
-       ], [
-         fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
          fhir:Extension.valueUrl [ fhir:value "toc.html" ]
        ];
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
-       fhir:ImplementationGuide.definition.page.title [ fhir:value "Inhaltsverzeichnis" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
        fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:Element.extension [
            fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-           fhir:Extension.valueCode [ fhir:value "informative" ]
-         ], [
-           fhir:index 1;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
            fhir:Extension.valueUrl [ fhir:value "index.html" ]
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "CDE-Katalog" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 1;
          fhir:Element.extension [
            fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-           fhir:Extension.valueCode [ fhir:value "informative" ]
-         ], [
-           fhir:index 1;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
            fhir:Extension.valueUrl [ fhir:value "background.html" ]
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "background.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Hintergrund" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Background" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 2;
          fhir:Element.extension [
            fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-           fhir:Extension.valueCode [ fhir:value "trial-use" ]
-         ], [
-           fhir:index 1;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
-           fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
-         ], [
-           fhir:index 2;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "spec.html" ]
+           fhir:Extension.valueUrl [ fhir:value "changes.html" ]
          ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Detaillierte Spezifikation" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
-         fhir:ImplementationGuide.definition.page.page [
-           fhir:index 0;
-           fhir:Element.extension [
-             fhir:index 0;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-             fhir:Extension.valueCode [ fhir:value "trial-use" ]
-           ], [
-             fhir:index 1;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
-             fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
-           ], [
-             fhir:index 2;
-             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-             fhir:Extension.valueUrl [ fhir:value "spec2.html" ]
-           ];
-           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec2.html" ];
-           fhir:ImplementationGuide.definition.page.title [ fhir:value "Spec sub-page" ];
-           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
-         ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Changes" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 3;
          fhir:Element.extension [
            fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-           fhir:Extension.valueCode [ fhir:value "informative" ]
-         ], [
-           fhir:index 1;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
            fhir:Extension.valueUrl [ fhir:value "downloads.html" ]
          ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Hilfreiche Downloads" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 4;
          fhir:Element.extension [
            fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
-           fhir:Extension.valueCode [ fhir:value "informative" ]
-         ], [
-           fhir:index 1;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
-           fhir:Extension.valueUrl [ fhir:value "changes.html" ]
+           fhir:Extension.valueUrl [ fhir:value "spec.html" ]
          ];
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "IG Change History" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Spec" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 5;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "spec2.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "spec2.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Spec 2" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 6;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "StructureDefinition-ext-myExtension-note.html" ]
+         ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-ext-myExtension-note.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Structure Definition Ext My Extension Note" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];
      fhir:ImplementationGuide.definition.parameter [
        fhir:index 0;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input\\history" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
      ], [
        fhir:index 1;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
      ], [
        fhir:index 2;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
      ], [
        fhir:index 3;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
      ], [
        fhir:index 4;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
      ], [
        fhir:index 5;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
      ], [
        fhir:index 6;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
      ], [
        fhir:index 7;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
      ], [
        fhir:index 8;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
      ], [
        fhir:index 9;
        fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
@@ -2058,7 +1896,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig.ttl> a owl:Ontology;
+<http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

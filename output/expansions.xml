@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f9cc5ece-31ee-40e5-b3c1-fdb5c13b7159"/>
+  <id value="4a719199-2545-4b78-8eee-ca196d248b47"/>
   <meta>
-    <lastUpdated value="2023-03-02T19:45:00.854+01:00"/>
+    <lastUpdated value="2023-03-02T21:18:11.497+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,7 +16,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cs-fake.html">CodeSystem fake v0.2.0 (CodeSystem)</a>
+              <a href="CodeSystem-cs-fake.html">CodeSystem fake v0.1.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -41,37 +41,25 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="ValueSetFake"/>
         <title value="ValueSet fake"/>
         <status value="draft"/>
         <experimental value="true"/>
         <date value="2015-06-22"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="A fake value"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d5278311-ec4e-4072-9116-6c972e1ed057"/>
-          <timestamp value="2023-03-02T19:48:04+01:00"/>
+          <identifier value="urn:uuid:8191aa77-723b-4774-940d-1ad68d97cc8e"/>
+          <timestamp value="2023-03-02T21:20:28+01:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -79,7 +67,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"/>
+            <valueUri value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.1.0"/>
           </parameter>
           <contains>
             <system value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
@@ -184,43 +172,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_AdministrativeGender"/>
         <title value="VS AdministrativeGender"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält Codes für das administrative Geschlecht."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:86042de1-aed9-449b-895c-6ca3d9ab8af4"/>
-          <timestamp value="2023-03-02T19:52:25+01:00"/>
+          <identifier value="urn:uuid:3f14e491-02e9-410e-94ed-8baad9dc8429"/>
+          <timestamp value="2023-03-02T21:23:44+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -299,43 +268,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_BinaryDecisionYesOrNoAsSnomed"/>
         <title value="VS Binary Decision Yes Or No as Snomed"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d8a64c2b-8811-4a80-809c-9713daf5994a"/>
-          <timestamp value="2023-03-02T19:52:25+01:00"/>
+          <identifier value="urn:uuid:a1e85b54-3fc0-4c07-8d77-d87917b4450e"/>
+          <timestamp value="2023-03-02T21:23:44+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -404,43 +354,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_BinaryGenderAsSnomed"/>
         <title value="VS Binary Gender as Snomed"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:285daf4a-9564-4e9f-8f66-a8aa0902fcd3"/>
-          <timestamp value="2023-03-02T19:52:26+01:00"/>
+          <identifier value="urn:uuid:e4710f71-9685-4810-8974-c2bce87e586d"/>
+          <timestamp value="2023-03-02T21:23:44+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -492,43 +423,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_GlasgowComaScaleForAdults"/>
         <title value="VS Glasgow Coma Scale For Adults"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d8aff43a-1714-4c6e-917c-21f9927546ab"/>
-          <timestamp value="2023-03-02T19:52:26+01:00"/>
+          <identifier value="urn:uuid:d612506c-5b51-4291-9402-c960e9122d93"/>
+          <timestamp value="2023-03-02T21:23:44+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -625,43 +537,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_LengthUnits"/>
         <title value="VS Length Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für 'Länge'"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ddd53689-908b-4287-9dc0-d8bd6ae805e1"/>
-          <timestamp value="2023-03-02T19:52:27+01:00"/>
+          <identifier value="urn:uuid:54056927-5fc6-43f2-8541-ace9512fb65a"/>
+          <timestamp value="2023-03-02T21:23:44+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -896,43 +789,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_MassConcentrationUnits"/>
         <title value="VS Mass Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für Massenkonzentration"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e97a837f-60c9-4000-bb76-fe26d4bcaed2"/>
-          <timestamp value="2023-03-02T19:52:27+01:00"/>
+          <identifier value="urn:uuid:df21b898-266b-441e-81fb-eec398054e98"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1185,43 +1059,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_MassUnits"/>
         <title value="VS Mass Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für 'Masse'"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4d41bd95-aec8-4556-b567-0d7c3d620601"/>
-          <timestamp value="2023-03-02T19:52:28+01:00"/>
+          <identifier value="urn:uuid:9867934e-0e28-4d4b-836e-97e431aadc16"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1363,43 +1218,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_MissingValuesAsSnomed"/>
         <title value="VS Missing Values As Snomed"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält Snomed-Codes für fehlende Werte."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:07e47bfb-a399-4a35-b2d1-e0c5a13c0490"/>
-          <timestamp value="2023-03-02T19:52:28+01:00"/>
+          <identifier value="urn:uuid:48fd0e07-5a1d-49a7-9ebc-b8a8655912e6"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1562,43 +1398,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_MolarConcentrationUnits"/>
         <title value="VS Molar Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für Stoffmengenkonzentration"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2479ba32-1bd3-4fbc-96e9-d628b7bde27a"/>
-          <timestamp value="2023-03-02T19:52:29+01:00"/>
+          <identifier value="urn:uuid:8fbee4a8-4273-4e74-9194-42841e814237"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1856,43 +1673,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_NumberConcentrationUnits"/>
         <title value="VS Number Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b29bc9fa-07f8-4ef5-8b7d-19ce1a296242"/>
-          <timestamp value="2023-03-02T19:52:29+01:00"/>
+          <identifier value="urn:uuid:c0809d29-6bdd-4135-a880-00fa624eb38c"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2067,43 +1865,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_SmokingStatusAsSnomed"/>
         <title value="VS Smoking Status as Loinc"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:24f04591-886e-4dd2-a2e5-7c164f3c6610"/>
-          <timestamp value="2023-03-02T19:52:29+01:00"/>
+          <identifier value="urn:uuid:7bc120b2-68d1-4042-b558-790a82c70752"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2165,43 +1944,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_SpecimenTypes"/>
         <title value="VS Specimen Types"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="LOINC Codes für 'Probenmaterial'"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9c1edaff-36cd-4555-b367-bcafbbf847c3"/>
-          <timestamp value="2023-03-02T19:52:29+01:00"/>
+          <identifier value="urn:uuid:91d0cfde-f1bd-4ea2-8210-3de7cb3a7289"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -2330,43 +2090,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_TimeUnits"/>
         <title value="VS Time Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für 'Zeit'"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f85229e4-ef44-4952-b9da-d68f0dcc8df6"/>
-          <timestamp value="2023-03-02T19:52:30+01:00"/>
+          <identifier value="urn:uuid:e4aefaa7-ddc5-4dd2-9768-48566c851567"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2523,43 +2264,24 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-            </extension>
-          </valueCode>
-        </extension>
         <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units"/>
-        <version value="0.2.0"/>
+        <version value="0.1.0"/>
         <name value="VS_UnityUnits"/>
         <title value="VS Unity Units"/>
         <status value="active"/>
-        <date value="2023-03-02T19:45:00+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <date value="2023-03-02T21:18:11+01:00"/>
+        <publisher value="Nils Haendly"/>
         <contact>
+          <name value="Nils Haendly"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
+            <value value="http://noctiz89.github.io/CDE-Katalog/index.html"/>
           </telecom>
         </contact>
         <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9befe340-5e90-4a5d-9e49-c8aa77a40d16"/>
-          <timestamp value="2023-03-02T19:52:31+01:00"/>
+          <identifier value="urn:uuid:4b4381cd-b567-4948-8d5f-5a1fe983490e"/>
+          <timestamp value="2023-03-02T21:23:45+01:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

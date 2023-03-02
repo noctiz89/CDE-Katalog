@@ -21,8 +21,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:52407034-4a37-4361-a958-d98d3c0d3f99",
-    "timestamp" : "2023-03-02T18:45:17.897Z",
+    "identifier" : "urn:uuid:6024518b-ac08-46ef-8acc-df13082ab6d3",
+    "timestamp" : "2023-03-02T20:18:28.628Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -33,7 +33,7 @@ e: {
     },
     {
       "name" : "version",
-      "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"
+      "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.1.0"
     }],
     "contains" : [{
       "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",

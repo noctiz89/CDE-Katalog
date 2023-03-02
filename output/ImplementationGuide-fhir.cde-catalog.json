@@ -1,40 +1,24 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "example.fhir.uv.myig",
+  "id" : "fhir.cde-catalog",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog</pre></div>"
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "informative"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1
-  }],
-  "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-  "version" : "0.2.0",
+  "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog",
+  "version" : "0.1.0",
   "name" : "CDEKatalog",
-  "title" : "Common Data Element Katalog",
   "status" : "draft",
-  "experimental" : false,
-  "date" : "2023-03-02T19:45:00+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "date" : "2023-03-02T21:18:11+01:00",
+  "publisher" : "Nils Haendly",
   "contact" : [{
+    "name" : "Nils Haendly",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://hl7.org/Special/committees/[something]"
+      "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
     }]
   }],
-  "description" : "A brief description of what MyIG is about (probably the same text as in your readme)",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
-    }]
-  }],
-  "packageId" : "example.fhir.uv.myig",
+  "packageId" : "fhir.cde-catalog",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -66,51 +50,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "showsource"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -374,51 +314,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "CI Build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "templates\\liquid"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "showsource"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -674,173 +570,11 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mypatient"
+        "reference" : "StructureDefinition/cde-age"
       },
-      "name" : "My Favorite Patient Profile",
-      "description" : "Overriding description because we can"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MyLogical"
-      },
-      "name" : "My Logical Model",
-      "description" : "Logical Model"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-sql"
-      },
-      "name" : "Example Library",
-      "description" : "A test example"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-image"
-      },
-      "name" : "Example Library Image",
-      "description" : "A test image example"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/example"
-      },
-      "name" : "Simple patient example",
-      "description" : "A simple example showing how examples are defined and referenced",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/example"
-      },
-      "name" : "Observation patient example",
-      "description" : "Example showing slicing",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/example"
-      },
-      "name" : "Example binary",
-      "description" : "Example showing binary content"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format",
-        "valueCode" : "application/xml"
-      },
-      {
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/logical-example"
-      },
-      "name" : "Example of Logical Model",
-      "description" : "Example showing example content for a logical model",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format",
-        "valueCode" : "image/jpeg"
-      },
-      {
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/image-example"
-      },
-      "name" : "Example of Binary Image",
-      "description" : "Example showing example content for an image"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/valueset-no-codesystem"
-      },
-      "name" : "Value set for no code system",
-      "description" : "A sample value set where there's no known code system"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/h1"
-      }
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example"
-      },
-      "name" : "Example CQL Library",
-      "description" : "Some example library"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/cs-fake"
-      },
-      "name" : "CodeSystem fake",
-      "description" : "A fake code system"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/myObservation"
-      },
-      "name" : "My Observation Profile",
-      "description" : "A profile showing the use of XML to author profiles"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/valueset-fake"
-      },
-      "name" : "ValueSet fake",
-      "description" : "A fake value"
+      "name" : "CDE Age",
+      "description" : "Dieses CDE enthält das 'Alter'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -851,7 +585,8 @@
         "reference" : "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"
       },
       "name" : "CDE age at diagnosis of essential hypertension",
-      "description" : "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'."
+      "description" : "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -862,18 +597,8 @@
         "reference" : "StructureDefinition/cde-age-at-stopped-smoking"
       },
       "name" : "CDE Age At Stopped Smoking",
-      "description" : "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-age"
-      },
-      "name" : "CDE Age",
-      "description" : "Dieses CDE enthält das 'Alter'."
+      "description" : "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -884,7 +609,8 @@
         "reference" : "StructureDefinition/cde-body-height"
       },
       "name" : "CDE Body Height",
-      "description" : "Dieses CDE enthält die 'Körpergröße'."
+      "description" : "Dieses CDE enthält die 'Körpergröße'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -895,7 +621,8 @@
         "reference" : "StructureDefinition/cde-body-mass-index"
       },
       "name" : "CDE Body Mass Index",
-      "description" : "Dieses CDE enthält den 'Body Mass Index (BMI)'."
+      "description" : "Dieses CDE enthält den 'Body Mass Index (BMI)'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -906,7 +633,8 @@
         "reference" : "StructureDefinition/cde-body-weight"
       },
       "name" : "CDE Body Weight",
-      "description" : "Dieses CDE enthält das 'Körpergewicht'."
+      "description" : "Dieses CDE enthält das 'Körpergewicht'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -917,7 +645,8 @@
         "reference" : "StructureDefinition/cde-calcium-in-serum-or-plasma"
       },
       "name" : "CDE Calcium In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'."
+      "description" : "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -928,7 +657,8 @@
         "reference" : "StructureDefinition/cde-chloride-in-serum-or-plasma"
       },
       "name" : "CDE Chloride In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Chlorid in Serum oder Plasma'."
+      "description" : "Dieses CDE enthält den Messparameter 'Chlorid in Serum oder Plasma'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -939,7 +669,8 @@
         "reference" : "StructureDefinition/cde-creatinine-in-ser-or-plas"
       },
       "name" : "CDE Creatinine In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Plasma'."
+      "description" : "Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Plasma'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -950,7 +681,8 @@
         "reference" : "StructureDefinition/cde-current-age-calculated"
       },
       "name" : "CDE Current Age Calculated",
-      "description" : "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis."
+      "description" : "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -961,7 +693,8 @@
         "reference" : "StructureDefinition/cde-current-age-reported"
       },
       "name" : "CDE Current Age Reported",
-      "description" : "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung."
+      "description" : "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -972,7 +705,8 @@
         "reference" : "StructureDefinition/cde-date-of-birth"
       },
       "name" : "CDE Date Of Birth",
-      "description" : "Dieses CDE enthält das 'Geburtsdatum' einer Person."
+      "description" : "Dieses CDE enthält das 'Geburtsdatum' einer Person.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -983,425 +717,8 @@
         "reference" : "StructureDefinition/cde-erythrocytes-in-blood"
       },
       "name" : "CDE Erythrocytes In Blood",
-      "description" : "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-glasgow-coma-score"
-      },
-      "name" : "CDE Glasgow Coma Score",
-      "description" : "Dieses CDE enthält den Glasgow Coma Score (GCS)"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-glucose-in-serum-or-plasma"
-      },
-      "name" : "CDE Glucose In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-hematocrit-of-blood"
-      },
-      "name" : "CDE Hematocrit Of Blood",
-      "description" : "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-hemoglobin-in-blood"
-      },
-      "name" : "CDE Hemoglobin In Blood",
-      "description" : "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-leukocytes-in-blood"
-      },
-      "name" : "CDE Leukocytes In Blood",
-      "description" : "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-magnesium-in-serum-or-plasma"
-      },
-      "name" : "CDE Magnesium In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-phosphate-in-serum-or-plasma"
-      },
-      "name" : "CDE Phosphate In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-potassium-in-serum-or-plasma"
-      },
-      "name" : "CDE Potassium In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Kalium in Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-sex-assigned-at-birth"
-      },
-      "name" : "CDE Sex Assigned At Birth",
-      "description" : "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-sodium-in-serum-or-plasma"
-      },
-      "name" : "CDE Sodium In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-thrombocytes-in-blood"
-      },
-      "name" : "CDE Thrombocytes In Blood",
-      "description" : "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cde-tobacco-smoking-status"
-      },
-      "name" : "CDE Smoking Status",
-      "description" : "Dieses CDE enthält den Raucherstatus einer Person"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-activity"
-      },
-      "name" : "CLS L0 Social History",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-exam"
-      },
-      "name" : "CLS L0 Exam",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-imaging"
-      },
-      "name" : "CLS L0 Imaging",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-laboratory"
-      },
-      "name" : "CLS L0 Laboratory",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-procedure"
-      },
-      "name" : "CLS L0 Procedure",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-social-history"
-      },
-      "name" : "CLS L0 Social History",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-survey"
-      },
-      "name" : "CLS L0 Survey",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-therapy"
-      },
-      "name" : "CLS L0 Therapy",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l0-vital-signs"
-      },
-      "name" : "CLS L0 Vital Signs",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-administrative-information"
-      },
-      "name" : "CLS L1 Administrative Information",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-clinical-chemistry"
-      },
-      "name" : "CLS L1 Clincial Chemistry",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-clinical-immunology"
-      },
-      "name" : "CLS L1 Clincial Immunology",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-clinical-microbiology"
-      },
-      "name" : "CLS L1 Clincial Microbiology",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-diseases-and-related-health-problems"
-      },
-      "name" : "CLS L1 Diseases And Related Health Problems",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-health-related-behavior-and-lifestyle"
-      },
-      "name" : "CLS L1 Heatlh-related Behavior and Lifesytle",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten & Lebensstil'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-physical-measurements-and-assessment"
-      },
-      "name" : "CLS L1 Physical Measurements And Assessment",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-social-personal-details"
-      },
-      "name" : "CLS L1 Social Personal Details",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l1-substance-level"
-      },
-      "name" : "CLS L1 Substance Level",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l2-age-and-birth-date"
-      },
-      "name" : "CLS L2 Age And Birth Date",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l2-gender"
-      },
-      "name" : "CLS L2 Gender",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l2-specimen-type"
-      },
-      "name" : "CLS L2 Specimen",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l3-age-at-diagnosis"
-      },
-      "name" : "CLS L3 Age At Diagnosis",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l3-blood"
-      },
-      "name" : "CLS L3 Blood",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Blut'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l3-cerebrospinal-fluid"
-      },
-      "name" : "CLS L3 Cerebrospinal Fluid",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l3-serum-or-plasma"
-      },
-      "name" : "CLS L3 Serum Or Plasma",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-l3-urine"
-      },
-      "name" : "CLS L3 Urine",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'."
+      "description" : "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1412,7 +729,464 @@
         "reference" : "StructureDefinition/generic-observation"
       },
       "name" : "Generic Observation",
-      "description" : "Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung."
+      "description" : "Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-glasgow-coma-score"
+      },
+      "name" : "CDE Glasgow Coma Score",
+      "description" : "Dieses CDE enthält den Glasgow Coma Score (GCS)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-glucose-in-serum-or-plasma"
+      },
+      "name" : "CDE Glucose In Serum Or Plasma",
+      "description" : "Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-hematocrit-of-blood"
+      },
+      "name" : "CDE Hematocrit Of Blood",
+      "description" : "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-hemoglobin-in-blood"
+      },
+      "name" : "CDE Hemoglobin In Blood",
+      "description" : "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-leukocytes-in-blood"
+      },
+      "name" : "CDE Leukocytes In Blood",
+      "description" : "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-magnesium-in-serum-or-plasma"
+      },
+      "name" : "CDE Magnesium In Serum Or Plasma",
+      "description" : "Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-phosphate-in-serum-or-plasma"
+      },
+      "name" : "CDE Phosphate In Serum Or Plasma",
+      "description" : "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-potassium-in-serum-or-plasma"
+      },
+      "name" : "CDE Potassium In Serum Or Plasma",
+      "description" : "Dieses CDE enthält den Messparameter 'Kalium in Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-sex-assigned-at-birth"
+      },
+      "name" : "CDE Sex Assigned At Birth",
+      "description" : "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-sodium-in-serum-or-plasma"
+      },
+      "name" : "CDE Sodium In Serum Or Plasma",
+      "description" : "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-thrombocytes-in-blood"
+      },
+      "name" : "CDE Thrombocytes In Blood",
+      "description" : "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-tobacco-smoking-status"
+      },
+      "name" : "CDE Smoking Status",
+      "description" : "Dieses CDE enthält den Raucherstatus einer Person",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-activity"
+      },
+      "name" : "CLS L0 Social History",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-exam"
+      },
+      "name" : "CLS L0 Exam",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-imaging"
+      },
+      "name" : "CLS L0 Imaging",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-laboratory"
+      },
+      "name" : "CLS L0 Laboratory",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-procedure"
+      },
+      "name" : "CLS L0 Procedure",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-social-history"
+      },
+      "name" : "CLS L0 Social History",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-survey"
+      },
+      "name" : "CLS L0 Survey",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-therapy"
+      },
+      "name" : "CLS L0 Therapy",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l0-vital-signs"
+      },
+      "name" : "CLS L0 Vital Signs",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-administrative-information"
+      },
+      "name" : "CLS L1 Administrative Information",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-clinical-chemistry"
+      },
+      "name" : "CLS L1 Clincial Chemistry",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-clinical-immunology"
+      },
+      "name" : "CLS L1 Clincial Immunology",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-clinical-microbiology"
+      },
+      "name" : "CLS L1 Clincial Microbiology",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-diseases-and-related-health-problems"
+      },
+      "name" : "CLS L1 Diseases And Related Health Problems",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-health-related-behavior-and-lifestyle"
+      },
+      "name" : "CLS L1 Heatlh-related Behavior and Lifesytle",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten & Lebensstil'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-physical-measurements-and-assessment"
+      },
+      "name" : "CLS L1 Physical Measurements And Assessment",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-social-personal-details"
+      },
+      "name" : "CLS L1 Social Personal Details",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l1-substance-level"
+      },
+      "name" : "CLS L1 Substance Level",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l2-age-and-birth-date"
+      },
+      "name" : "CLS L2 Age And Birth Date",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l2-gender"
+      },
+      "name" : "CLS L2 Gender",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l2-specimen-type"
+      },
+      "name" : "CLS L2 Specimen",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l3-age-at-diagnosis"
+      },
+      "name" : "CLS L3 Age At Diagnosis",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l3-blood"
+      },
+      "name" : "CLS L3 Blood",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Blut'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l3-cerebrospinal-fluid"
+      },
+      "name" : "CLS L3 Cerebrospinal Fluid",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l3-serum-or-plasma"
+      },
+      "name" : "CLS L3 Serum Or Plasma",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-l3-urine"
+      },
+      "name" : "CLS L3 Urine",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1423,7 +1197,8 @@
         "reference" : "StructureDefinition/poi-patient"
       },
       "name" : "POI Patient",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin."
+      "description" : "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1434,7 +1209,8 @@
         "reference" : "StructureDefinition/poi-person"
       },
       "name" : "POI Person",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Person."
+      "description" : "Dieses Profil beschreibt eine Person von Interesse als Person.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1445,7 +1221,8 @@
         "reference" : "StructureDefinition/poi-research-subject"
       },
       "name" : "POI Research Subject",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."
+      "description" : "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1456,7 +1233,8 @@
         "reference" : "ValueSet/vs-administrative-gender"
       },
       "name" : "VS AdministrativeGender",
-      "description" : "Dieses ValueSet enthält Codes für das administrative Geschlecht."
+      "description" : "Dieses ValueSet enthält Codes für das administrative Geschlecht.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1467,7 +1245,8 @@
         "reference" : "ValueSet/vs-binary-decision-yes-or-no-as-snomed"
       },
       "name" : "VS Binary Decision Yes Or No as Snomed",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
+      "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1478,7 +1257,8 @@
         "reference" : "ValueSet/vs-binary-gender-as-snomed"
       },
       "name" : "VS Binary Gender as Snomed",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."
+      "description" : "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1489,7 +1269,8 @@
         "reference" : "ValueSet/vs-glasgow-coma-scale-for-adults"
       },
       "name" : "VS Glasgow Coma Scale For Adults",
-      "description" : "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"
+      "description" : "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1500,7 +1281,8 @@
         "reference" : "ValueSet/vs-length-units"
       },
       "name" : "VS Length Units",
-      "description" : "UCUM Codes für 'Länge'"
+      "description" : "UCUM Codes für 'Länge'",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1511,7 +1293,8 @@
         "reference" : "ValueSet/vs-mass-concentration-units"
       },
       "name" : "VS Mass Concentration Units",
-      "description" : "UCUM Codes für Massenkonzentration"
+      "description" : "UCUM Codes für Massenkonzentration",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1522,7 +1305,8 @@
         "reference" : "ValueSet/vs-mass-units"
       },
       "name" : "VS Mass Units",
-      "description" : "UCUM Codes für 'Masse'"
+      "description" : "UCUM Codes für 'Masse'",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1533,7 +1317,8 @@
         "reference" : "ValueSet/vs-missing-values-as-snomed"
       },
       "name" : "VS Missing Values As Snomed",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für fehlende Werte."
+      "description" : "Dieses ValueSet enthält Snomed-Codes für fehlende Werte.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1544,7 +1329,8 @@
         "reference" : "ValueSet/vs-molar-concentration-units"
       },
       "name" : "VS Molar Concentration Units",
-      "description" : "UCUM Codes für Stoffmengenkonzentration"
+      "description" : "UCUM Codes für Stoffmengenkonzentration",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1555,7 +1341,8 @@
         "reference" : "ValueSet/vs-number-concentration-units"
       },
       "name" : "VS Number Concentration Units",
-      "description" : "UCUM Codes für 'Anzahl pro Volumen'."
+      "description" : "UCUM Codes für 'Anzahl pro Volumen'.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1566,7 +1353,8 @@
         "reference" : "ValueSet/vs-smoking-status-as-snomed"
       },
       "name" : "VS Smoking Status as Loinc",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."
+      "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1577,7 +1365,8 @@
         "reference" : "ValueSet/vs-specimen-types"
       },
       "name" : "VS Specimen Types",
-      "description" : "LOINC Codes für 'Probenmaterial'"
+      "description" : "LOINC Codes für 'Probenmaterial'",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1588,7 +1377,8 @@
         "reference" : "ValueSet/vs-time-units"
       },
       "name" : "VS Time Units",
-      "description" : "UCUM Codes für 'Zeit'"
+      "description" : "UCUM Codes für 'Zeit'",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1599,7 +1389,99 @@
         "reference" : "ValueSet/vs-unity-units"
       },
       "name" : "VS Unity Units",
-      "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
+      "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element').",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/cs-fake"
+      },
+      "name" : "CodeSystem fake",
+      "description" : "A fake code system",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/MyLogical"
+      },
+      "name" : "My Logical Model",
+      "description" : "A profile showing the use of Logical Models to author profiles",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/myObservation"
+      },
+      "name" : "My Observation Profile",
+      "description" : "A profile showing the use of XML to author profiles",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/valueset-fake"
+      },
+      "name" : "ValueSet fake",
+      "description" : "A fake value",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/valueset-no-codesystem"
+      },
+      "name" : "ValueSet with no code-system",
+      "description" : "A sample value set where there's no known code system",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example"
+      },
+      "name" : "example",
+      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example"
+      },
+      "name" : "example",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/h1"
+      }
     },
     {
       "extension" : [{
@@ -1619,6 +1501,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/mypatient"
+      },
+      "name" : "MyPatientName",
+      "description" : "This will be the description for the patient profile within the profile page",
+      "groupingId" : "resources-spreadsheet.xml"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/mypractitioner"
       },
       "name" : "MyPractitionerName",
@@ -1627,108 +1521,77 @@
     }],
     "page" : {
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "informative"
-      },
-      {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
         "valueUrl" : "toc.html"
       }],
       "nameUrl" : "toc.html",
-      "title" : "Inhaltsverzeichnis",
+      "title" : "Table of Contents",
       "generation" : "html",
       "page" : [{
         "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "index.html"
         }],
         "nameUrl" : "index.html",
-        "title" : "CDE-Katalog",
+        "title" : "Home",
         "generation" : "html"
       },
       {
         "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "background.html"
         }],
         "nameUrl" : "background.html",
-        "title" : "Hintergrund",
+        "title" : "Background",
         "generation" : "html"
       },
       {
         "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "trial-use"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-          "valueInteger" : 1
-        },
-        {
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "spec.html"
-        }],
-        "nameUrl" : "spec.html",
-        "title" : "Detaillierte Spezifikation",
-        "generation" : "markdown",
-        "page" : [{
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-            "valueCode" : "trial-use"
-          },
-          {
-            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-            "valueInteger" : 1
-          },
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "spec2.html"
-          }],
-          "nameUrl" : "spec2.html",
-          "title" : "Spec sub-page",
-          "generation" : "markdown"
-        }]
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "downloads.html"
-        }],
-        "nameUrl" : "downloads.html",
-        "title" : "Hilfreiche Downloads",
-        "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "changes.html"
         }],
         "nameUrl" : "changes.html",
-        "title" : "IG Change History",
+        "title" : "Changes",
         "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "html"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "spec.html"
+        }],
+        "nameUrl" : "spec.html",
+        "title" : "Spec",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "spec2.html"
+        }],
+        "nameUrl" : "spec2.html",
+        "title" : "Spec 2",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "StructureDefinition-ext-myExtension-note.html"
+        }],
+        "nameUrl" : "StructureDefinition-ext-myExtension-note.html",
+        "title" : "Structure Definition Ext My Extension Note",
+        "generation" : "markdown"
       }]
     },
     "parameter" : [{
-      "code" : "path-resource",
-      "value" : "input\\history"
-    },
-    {
       "code" : "path-resource",
       "value" : "input/capabilities"
     },
@@ -1759,6 +1622,10 @@
     {
       "code" : "path-resource",
       "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
     },
     {
       "code" : "path-resource",

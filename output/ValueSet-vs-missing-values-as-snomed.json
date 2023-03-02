@@ -5,46 +5,21 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1631000175102\">1631000175102</a></td><td>Der Patient wurde nicht gefragt.</td></tr><tr><td><a href=\"http://snomed.info/id/261665006\">261665006</a></td><td>Unbekannt</td></tr><tr><td><a href=\"http://snomed.info/id/1220561009\">1220561009</a></td><td>Wird nicht aufgezeichnet/erfasst.</td></tr></table></li></ul></div>"
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
-      }]
-    }
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "informative",
-    "_valueCode" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"
-      }]
-    }
-  }],
   "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed",
-  "version" : "0.2.0",
+  "version" : "0.1.0",
   "name" : "VS_MissingValuesAsSnomed",
   "title" : "VS Missing Values As Snomed",
   "status" : "active",
-  "date" : "2023-03-02T19:45:00+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "date" : "2023-03-02T21:18:11+01:00",
+  "publisher" : "Nils Haendly",
   "contact" : [{
+    "name" : "Nils Haendly",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://hl7.org/Special/committees/[something]"
+      "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
     }]
   }],
   "description" : "Dieses ValueSet enthält Snomed-Codes für fehlende Werte.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",

@@ -22,25 +22,20 @@
     "valueCode" : "trial-use"
   }],
   "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
-  "version" : "0.2.0",
+  "version" : "0.1.0",
   "name" : "CDE_Age",
   "title" : "CDE Age",
   "status" : "active",
-  "date" : "2023-03-02T19:45:00+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "date" : "2023-03-02T21:18:11+01:00",
+  "publisher" : "Nils Haendly",
   "contact" : [{
+    "name" : "Nils Haendly",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://hl7.org/Special/committees/[something]"
+      "value" : "http://noctiz89.github.io/CDE-Katalog/index.html"
     }]
   }],
   "description" : "Dieses CDE enthält das 'Alter'.",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-      "code" : "001"
-    }]
-  }],
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",
