@@ -46,7 +46,7 @@
   fhir:ValueSet.name [ fhir:value "VS_BinaryGenderAsSnomed"]; # 
   fhir:ValueSet.title [ fhir:value "VS Binary Gender as Snomed"]; # 
   fhir:ValueSet.status [ fhir:value "active"]; # 
-  fhir:ValueSet.date [ fhir:value "2023-03-02T22:37:28+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-02T23:17:06+01:00"^^xsd:dateTime]; # 
   fhir:ValueSet.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;

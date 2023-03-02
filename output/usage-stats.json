@@ -1,5 +1,5 @@
 {
-  "package": "example.fhir.uv.myig",
+  "package": "fhir.cde-catalog",
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",

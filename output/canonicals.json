@@ -7,7 +7,7 @@
     "name" : "CodeSystemFake"
   },
   {
-    "id" : "example.fhir.uv.myig",
+    "id" : "fhir.cde-catalog",
     "type" : "ImplementationGuide",
     "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog",
     "version" : "0.2.0",

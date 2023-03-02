@@ -1,6 +1,6 @@
 {
   "version" : "0.2.0",
-  "date" : "20230302223623",
+  "date" : "20230302231427",
   "notForPublication" : true,
-  "name" : "example.fhir.uv.myig.r4"
+  "name" : "fhir.cde-catalog.r4"
 }

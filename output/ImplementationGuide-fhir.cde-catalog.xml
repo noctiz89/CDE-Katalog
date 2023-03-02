@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="example.fhir.uv.myig"/>
+  <id value="fhir.cde-catalog"/>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
 </div></div>
@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-02T22:37:28+01:00"/>
+  <date value="2023-03-02T23:17:06+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -33,7 +33,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="example.fhir.uv.myig"/>
+  <packageId value="fhir.cde-catalog"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
