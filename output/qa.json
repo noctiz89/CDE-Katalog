@@ -1,9 +1,9 @@
 {
   "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-  "name" : "YourComputableMyIGNameHere",
+  "name" : "CDEKatalog",
   "package-id" : "example.fhir.uv.myig",
   "ig-ver" : "0.2.0",
-  "date" : "Thu, 02 Mar, 2023 17:38:01 +0100",
+  "date" : "Thu, 02 Mar, 2023 19:45:00 +0100",
   "errs" : 14,
   "warnings" : 86,
   "hints" : 14,

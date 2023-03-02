@@ -1,9 +1,9 @@
-﻿YourComputableMyIGNameHere : Validation Results
+﻿CDEKatalog : Validation Results
 =========================================
 
 err = 14, warn = 86, info = 14
 IG Publisher Version: 1.2.38
-Generated Thu Mar 02 17:48:34 CET 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Thu Mar 02 19:58:25 CET 2023. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 2 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1

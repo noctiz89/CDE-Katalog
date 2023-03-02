@@ -16,7 +16,7 @@
   <version value="0.2.0"/>
   <name value="CDEKatalog"/>
   <title value="Common Data Element Katalog"/>
-  <status value="informative"/>
+  <status value="draft"/>
   <experimental value="false"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
@@ -151,7 +151,7 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/> 
+          <valueCode value="trial-use"/> 
         </extension> 
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/> 

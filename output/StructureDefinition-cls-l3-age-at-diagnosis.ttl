@@ -47,7 +47,7 @@
   fhir:StructureDefinition.name [ fhir:value "CLS_L3_AgeAtDiagnosis"]; # 
   fhir:StructureDefinition.title [ fhir:value "CLS L3 Age At Diagnosis"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-02T17:38:01+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-02T19:45:00+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
