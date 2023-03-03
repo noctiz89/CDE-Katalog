@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="logical-example"/>
+  <contentType value="application/xml"/>
+  <data value="PE15TG9naWNhbCB4bWxucz0iaHR0cDovL2V4YW1wbGUub3JnL2xvZ2ljYWwiPg0KICA8ZWxlbWVudDEgdmFsdWU9IjEiLz4NCiAgPGVsZW1lbnQyIHZhbHVlPSJUaGlzIGlzIGEgc3RyaW5nIj5UZXh0PC9lbGVtZW50Mj4NCjwvTXlMb2dpY2FsPg=="/>
+</Binary>

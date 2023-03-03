@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="vs-time-units"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://unitsofmeasure.org"><code>http://unitsofmeasure.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ps</td><td>ps</td></tr><tr><td>ns</td><td>ns</td></tr><tr><td>us</td><td>us</td></tr><tr><td>ms</td><td>ms</td></tr><tr><td>s</td><td>s</td></tr><tr><td>ks</td><td>ks</td></tr><tr><td>Ms</td><td>Ms</td></tr><tr><td>min</td><td>min</td></tr><tr><td>h</td><td>h</td></tr><tr><td>d</td><td>d</td></tr><tr><td>wk</td><td>wk</td></tr><tr><td>mo</td><td>mo</td></tr><tr><td>a</td><td>a</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+  <version value="0.2.0"/>
+  <name value="VS_TimeUnits"/>
+  <title value="VS Time Units"/>
+  <status value="active"/>
+  <date value="2023-03-03T18:31:25+01:00"/>
+  <publisher value="HL7 International - [Some] Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="UCUM Codes für 'Zeit'"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://unitsofmeasure.org"/>
+      <concept>
+        <code value="ps"/>
+      </concept>
+      <concept>
+        <code value="ns"/>
+      </concept>
+      <concept>
+        <code value="us"/>
+      </concept>
+      <concept>
+        <code value="ms"/>
+      </concept>
+      <concept>
+        <code value="s"/>
+      </concept>
+      <concept>
+        <code value="ks"/>
+      </concept>
+      <concept>
+        <code value="Ms"/>
+      </concept>
+      <concept>
+        <code value="min"/>
+      </concept>
+      <concept>
+        <code value="h"/>
+      </concept>
+      <concept>
+        <code value="d"/>
+      </concept>
+      <concept>
+        <code value="wk"/>
+      </concept>
+      <concept>
+        <code value="mo"/>
+      </concept>
+      <concept>
+        <code value="a"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,20 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/Binary/logical-example> a fhir:Binary;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "logical-example"]; # 
+  fhir:Binary.contentType [ fhir:value "application/xml"]; # 
+  fhir:Binary.data [ fhir:value "PE15TG9naWNhbCB4bWxucz0iaHR0cDovL2V4YW1wbGUub3JnL2xvZ2ljYWwiPg0KICA8ZWxlbWVudDEgdmFsdWU9IjEiLz4NCiAgPGVsZW1lbnQyIHZhbHVlPSJUaGlzIGlzIGEgc3RyaW5nIj5UZXh0PC9lbGVtZW50Mj4NCjwvTXlMb2dpY2FsPg=="^^xsd:base64Binary] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/Binary/logical-example.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
