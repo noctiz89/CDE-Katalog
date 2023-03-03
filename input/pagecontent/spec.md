@@ -1,12 +1,25 @@
 # Notizen zu einzelnen CDEs
 
 ### [CDE Ethnicity](StructureDefinition-cde-ethnicity.html)
-a. mögliche konzeptuelle Kategorien für "ethnische Gruppen" sind durch SNOMED-Codes vorgegeben
+a. Allgemeines zu qualitativen / kategorialen CDEs
+    - enumeratedValueDomain ~ einer Auswahl an häufigen Qualifiern/Kategorien (= Konzepte)
+    - z.B. Ethnizität [Kaukasisch (1), Mediterran (2) Schwarzafrikanisch (3), Asiatisch (4) Lateinamerikanisch (5) Andere (6)]]
+        - wobei die "internen" Codes (1-6) nicht im CDE verwendet werden, sondern stattdessen:
+        - aus einer Terminologie (SNOMED) wird der entsprechende Code + dem bevorzugtem Displayname verwendet
+        - praktisch sieht das so aus:
+        Observation.valueCodeableConcept.coding = $SCT#
+
+
+b. Observation.code.coding mit LOINC-Code festgelegt und entspricht dem Data_Element_Concept (DEC)
+
+
+
+c. mögliche konzeptuelle Kategorien für "ethnische Gruppen" sind durch SNOMED-Codes vorgegeben
 - alle Codes die laut SNOMED zum Konzept ("is-a") #372148003 Ethnic Group gehören sind zulässig [EthnicGroups](StructureDefinition-vs-ethnic-groups.html)
-- entspricht der 
 
 
-b. An welcher Stelle können "interne Codes" als Value für die Kategorien definiert werden?
+
+d. An welcher Stelle können "interne Codes" als Value für die Kategorien definiert werden?
     - eventuell über QuestionnaireResponse ?
 
 ### [CDE Age At Diagnosis Of Essential Hypertension](StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html)
