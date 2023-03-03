@@ -13,7 +13,7 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung e
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept(age, $LOINC, 29553-5) // Current Age - calculated
 // Value_Domain (VD) via Observation.valueQuantity
-* insert RS_CreateValueQuantity_Length("wk | a")
+* insert RS_CreateValueQuantity_Time("wk | a")
 // Klinisch relevanter Zeitraum ~ Lebenszeit, d.h. Geburtsdatum (start) bis klinisch-relevanter Zeitpunkt(end)
 * effective[x] 1..1 MS
 * effectivePeriod only Period
