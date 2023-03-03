@@ -47,7 +47,7 @@
   fhir:StructureDefinition.name [ fhir:value "CDE_DateOfBirth"]; # 
   fhir:StructureDefinition.title [ fhir:value "CDE Date Of Birth"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-03T03:09:30+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T12:59:12+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
