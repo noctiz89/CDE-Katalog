@@ -1,5 +1,13 @@
 # Notizen zu einzelnen CDEs
-Hier
+
+### [CDE Ethnicity](StructureDefinition-cde-ethnicity.html)
+a. mögliche konzeptuelle Kategorien für "ethnische Gruppen" sind durch SNOMED-Codes vorgegeben
+- alle Codes die laut SNOMED zum Konzept ("is-a") #372148003 Ethnic Group gehören sind zulässig [EthnicGroups](StructureDefinition-vs-ethnic-groups.html)
+- entspricht der 
+
+
+b. An welcher Stelle können "interne Codes" als ValueDomain für die Kategorien definiert werden?
+    - eventuell über QuestionnaireResponse ?
 
 ### [CDE Age At Diagnosis Of Essential Hypertension](StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html)
 a. Dieses CDE wurde erstellt, weil der Schlüssel ICD-10 I10 für Essenzielle (primäre) Hypertonie zu den 100 häufigsten Diagnosen im Jahr 2020 gehörte. Quelle: https://www.kvno.de/fileadmin/shared/pdf/online/verordnungen/morbiditaetsstatistik/100icd_20-3.pdf

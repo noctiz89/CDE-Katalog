@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-03T15:59:45+01:00"/>
+  <date value="2023-03-03T16:34:34+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -701,6 +701,7 @@
         <reference value="StructureDefinition/cde-blood-pressure-diastolic"/>
       </reference>
       <name value="CDE Blood Pressure Diastolic"/>
+      <description value="Dieses CDE enthät den 'systolischen Blutdruck'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -710,6 +711,7 @@
         <reference value="StructureDefinition/cde-blood-pressure-systolic"/>
       </reference>
       <name value="CDE Blood Pressure Systolic"/>
+      <description value="Dieses CDE enthät den 'systolischen Blutdruck'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -829,7 +831,7 @@
         <reference value="StructureDefinition/cde-ethnicity"/>
       </reference>
       <name value="CDE Ethnicity"/>
-      <description value="Dieses CDE enthält die 'Ethnizität einer Person'."/>
+      <description value="Dieses CDE enthält die 'Ethnizität'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1296,7 +1298,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-binary-gender-as-snomed"/>
+        <reference value="ValueSet/vs-binary-gender"/>
       </reference>
       <name value="VS Binary Gender as Snomed"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."/>

@@ -47,7 +47,7 @@
   fhir:StructureDefinition.name [ fhir:value "CLS_L3_Urine"]; # 
   fhir:StructureDefinition.title [ fhir:value "CLS L3 Urine"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-03T15:59:45+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T16:34:34+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

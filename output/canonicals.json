@@ -532,11 +532,11 @@
     "name" : "VS_BinaryDecisionYesOrNoAsSnomed"
   },
   {
-    "id" : "vs-binary-gender-as-snomed",
+    "id" : "vs-binary-gender",
     "type" : "ValueSet",
-    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender",
     "version" : "0.2.0",
-    "name" : "VS_BinaryGenderAsSnomed"
+    "name" : "VS_BinaryGender"
   },
   {
     "id" : "vs-ethnic-groups",

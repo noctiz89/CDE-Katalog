@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.CDE-CATALOG\VS Binary Gender as Snomed - Testing - FHIR v4.0.1</title>
+    <title>FHIR.CDE-CATALOG\VS Binary Gender as Snomed - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -131,11 +131,11 @@
 
           <span style="float:right;">
 
-            <a href="ValueSet-vs-binary-gender-as-snomed.html">&lt;prev</a> | 
+            <a href="ValueSet-vs-binary-decision-yes-or-no-as-snomed.ttl.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="ValueSet-vs-binary-gender-as-snomed.xml.html">next&gt;</a>
+          | <a href="ValueSet-vs-binary-gender-testing.html">next&gt;</a>
 
           </span>
 
@@ -162,29 +162,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="ValueSet-vs-binary-gender-as-snomed.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="ValueSet-vs-binary-gender-as-snomed.xml.html">XML</a>
+      <a href="ValueSet-vs-binary-gender.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="ValueSet-vs-binary-gender-as-snomed.json.html">JSON</a>
+      <a href="ValueSet-vs-binary-gender.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="ValueSet-vs-binary-gender-as-snomed.ttl.html">TTL</a>
+      <a href="ValueSet-vs-binary-gender.ttl.html">TTL</a>
     </li>
   
 
@@ -193,16 +193,33 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">ValueSet: VS Binary Gender as Snomed - Testing
+  <h2 id="root">ValueSet: VS Binary Gender as Snomed
 
   </h2>
-
   <table class="colstu">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender|0.2.0"/></span>
+      </td>
+    </tr>
+
     <tr>
 
-      <td colspan="1">
+
+
+
+
+
+
+      <td colspan="3">
         
-          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
           
         
       </td>
@@ -212,21 +229,88 @@
         
       </td>
 
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">VS_BinaryGender</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich.</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-cde-sex-assigned-at-birth.html">CDE Sex Assigned At Birth</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/248153007">248153007</a></td><td>Männlich</td></tr><tr><td><a href="http://snomed.info/id/248152002">248152002</a></td><td>Weiblich</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 2 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-248153007"> </a>  <a href="http://snomed.info/id/248153007">248153007</a></td><td>http://snomed.info/sct</td><td>Männlich</td></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-248152002"> </a>  <a href="http://snomed.info/id/248152002">248152002</a></td><td>http://snomed.info/sct</td><td>Weiblich</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
     </tr>
   </table>
 
+  
+
+  <!-- insert notes if present -->
+  
 
 
 
-  <p><b>No TestScripts are currently available for the  ValueSet.</b></p>
-
-
-<!-- insert notes if present -->
-
-
-
-
-
+  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -254,7 +338,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="ValueSet-vs-binary-gender-as-snomed.html">&lt;prev</a>
+                <a href="ValueSet-vs-binary-decision-yes-or-no-as-snomed.ttl.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -262,7 +346,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="ValueSet-vs-binary-gender-as-snomed.xml.html">next&gt;</a>
+                <a href="ValueSet-vs-binary-gender-testing.html">next&gt;</a>
 
               </td>
             </tr>
@@ -272,7 +356,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 3, 2023 15:59+0100">2023-03-03</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 3, 2023 16:34+0100">2023-03-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

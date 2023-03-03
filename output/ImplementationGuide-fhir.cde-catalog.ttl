@@ -27,7 +27,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Common Data Element Katalog"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-03-03T15:59:45+01:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-03-03T16:34:34+01:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1022,7 +1022,8 @@
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-blood-pressure-diastolic" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Blood Pressure Diastolic" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Blood Pressure Diastolic" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthät den 'systolischen Blutdruck'." ]
      ], [
        fhir:index 20;
        fhir:Element.extension [
@@ -1034,7 +1035,8 @@
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-blood-pressure-systolic" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Blood Pressure Systolic" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Blood Pressure Systolic" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthät den 'systolischen Blutdruck'." ]
      ], [
        fhir:index 21;
        fhir:Element.extension [
@@ -1190,7 +1192,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-ethnicity" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Ethnicity" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält die 'Ethnizität einer Person'." ]
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält die 'Ethnizität'." ]
      ], [
        fhir:index 33;
        fhir:Element.extension [
@@ -1797,8 +1799,8 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed>;
-         fhir:Reference.reference [ fhir:value "ValueSet/vs-binary-gender-as-snomed" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vs-binary-gender" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Binary Gender as Snomed" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich." ]

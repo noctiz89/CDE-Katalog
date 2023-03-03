@@ -46,7 +46,7 @@
   fhir:StructureDefinition.name [ fhir:value "CDE_ThrombocytesInBlood"]; # 
   fhir:StructureDefinition.title [ fhir:value "CDE Thrombocytes In Blood"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-03T15:59:45+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T16:34:34+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;

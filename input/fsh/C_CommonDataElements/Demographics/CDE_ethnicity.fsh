@@ -13,8 +13,10 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * insert RS_CreateOneFurtherCategory(EthnicGroup, $SCT, 364699009)
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept(ethnicBackground, $LOINC, LP72553-8) // Ethnicity
+
 //"Ethnizität ist ein Fachbegriff aus der Ethnologie zur Einordnung kultureller Identitäten. Nach Max Weber ist Ethnizität ein Konzept einer Gruppe von Menschen, die sich durch den subjektiven Glauben an eine gemeinsame Abstammung und Kultur konstituiert und so eine homogene Gruppenidentität bildet"
 // Value_Domain (VD) via Observation.valueCodeableConcept
     // irgendwie muss die Ethnizität "gemessen werden" - d.h. einen entsprechenden Wert
+* value[x] 1..* MS
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from VS_EthnicGroups (extensible)

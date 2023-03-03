@@ -57,7 +57,7 @@
   <name value="CDE_Ethnicity"/>
   <title value="CDE Ethnicity"/>
   <status value="active"/>
-  <date value="2023-03-03T15:59:45+01:00"/>
+  <date value="2023-03-03T16:34:34+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -65,7 +65,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="Dieses CDE enthält die 'Ethnizität einer Person'."/>
+  <description value="Dieses CDE enthält die 'Ethnizität'."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

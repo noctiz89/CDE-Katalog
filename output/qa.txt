@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 96, info = 13
+err = 12, warn = 94, info = 13
 IG Publisher Version: 1.2.38 Out of date - current version is 1.2.39
-Generated Fri Mar 03 16:10:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 4 / 6 / 0
+Generated Fri Mar 03 16:45:55 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 4 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
@@ -69,7 +69,7 @@ Generated Fri Mar 03 16:10:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-gender : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
@@ -104,8 +104,6 @@ ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_Common.cql: CQL source was no
 ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_CDS_UsingCommon.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\Common.cql: CQL source was not associated with a library resource in the IG.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cde-blood-pressure-diastolic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cde-blood-pressure-systolic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -247,8 +245,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed.json ==
 WARNING: ValueSet/vs-binary-decision-yes-or-no-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-== fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed.json ==
-WARNING: ValueSet/vs-binary-gender-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-binary-gender.json ==
+WARNING: ValueSet/vs-binary-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
 WARNING: ValueSet/vs-ethnic-groups: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
