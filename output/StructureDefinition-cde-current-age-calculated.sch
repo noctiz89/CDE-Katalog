@@ -10,6 +10,13 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
+    <sch:title>f:Observation</sch:title>
+    <sch:rule context="f:Observation">
+      <sch:assert test="count(f:derivedFrom) &gt;= 1">derivedFrom: minimum cardinality of 'derivedFrom' is 1</sch:assert>
+      <sch:assert test="count(f:derivedFrom) &lt;= 1">derivedFrom: maximum cardinality of 'derivedFrom' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Observation/f:category</sch:title>
     <sch:rule context="f:Observation/f:category">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>

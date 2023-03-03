@@ -20,7 +20,7 @@
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
-        "title": "CDE age at diagnosis of essential hypertension"
+        "title": "CDE Age At Diagnosis Of Essential Hypertension"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
@@ -28,7 +28,7 @@
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
-        "title": "CDE birth Date"
+        "title": "CDE Birth Date"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
@@ -221,10 +221,6 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-urine",
         "title": "CLS L3 Urine"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation",
-        "title": "Generic Observation"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",

@@ -19,11 +19,34 @@ Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagn
 * insert RS_ObservationComponentSlicingRules
 // * insert RS_CreateOneFurtherComponent(componentName, system, code) //erstmal manuell erstellen:
 * component contains
-    DiagnosisICD10 1..1 MS //and
-    //DateofDiagnosis 1..1 MS
-* component[DiagnosisICD10].code = $LOINC#29308-4
-* component[DiagnosisICD10].valueCodeableConcept = $ICD10CM#I10 (exactly) 
-* component[DiagnosisICD10] ^short = "Essenzielle (primäre) Hypertonie"
+    Diagnosis 1..1 MS SU and
+    DateOfDiagnosis 1..1 MS SU
+* component[Diagnosis].code.coding.system 1..1
+* component[Diagnosis].code.coding.system only uri
+* component[Diagnosis].code.coding.system = $LOINC (exactly) //e.g. "http://loinc.org" or "http://snomed.info/sct"
+* component[Diagnosis].code.coding.code 1..1
+* component[Diagnosis].code.coding.code only code
+* component[Diagnosis].code.coding.code = #29308-4 (exactly)
+* component[Diagnosis].code.coding.code ^short = "Diagnose"
+* component[Diagnosis].valueCodeableConcept = $ICD10CM#I10 (exactly)
+* component[Diagnosis].valueCodeableConcept ^short = "Essenzielle (primäre) Hypertonie"
+
+* component[DateOfDiagnosis].code.coding.system 1..1
+* component[DateOfDiagnosis].code.coding.system only uri
+* component[DateOfDiagnosis].code.coding.system = $SCT (exactly) //e.g. "http://loinc.org" or "http://snomed.info/sct"
+* component[DateOfDiagnosis].code.coding.code 1..1
+* component[DateOfDiagnosis].code.coding.code only code
+* component[DateOfDiagnosis].code.coding.code = #432213005 (exactly)
+* component[DateOfDiagnosis].valueDateTime.value 1..1 MS
+* component[DateOfDiagnosis].valueDateTime.value only dateTime
+* component[DateOfDiagnosis].valueDateTime.value ^short = "Datum der Diagnosestellung"
+
+
+/*
+* component[Diagnosis] only CodeableConcept
+* component[Diagnosis].code = $LOINC#29308-4
+* component[Diagnosis].valueCodeableConcept = $ICD10CM#I10 (exactly) 
+* component[Diagnosis] ^short = "Essenzielle (primäre) Hypertonie"
 /* component[DateofDiagnosis].code = $SCT#432213005
 * component[DateofDiagnosis] only valueDateTime
 * component[DateofDiagnosis] ^short = "Datum an dem Diagnose gestellt wurde."

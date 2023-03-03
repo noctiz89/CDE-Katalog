@@ -1,4 +1,17 @@
-### A Heading
-You can also use markdown if that's your thing
+# Notizen zu einzelnen CDEs
+Hier
 
-And an icon: ![resource](icon-resource.png)
+### [CDE Age At Diagnosis Of Essential Hypertension](StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html)
+a. Dieses CDE wurde erstellt, weil der Schlüssel ICD-10 I10 für Essenzielle (primäre) Hypertonie zu den 100 häufigsten Diagnosen im Jahr 2020 gehörte. Quelle: https://www.kvno.de/fileadmin/shared/pdf/online/verordnungen/morbiditaetsstatistik/100icd_20-3.pdf
+
+b. Erweiterung um weitere Componenten denkbar, z.B.:
+- "Diagnosesicherheit"
+- wenn Diagnosedatum fehlt, muss angegeben werden warum. ("Diagnose liegt/lag vor, aber Datum unbekannt", "Es liegt/lag keine  entsprechende Diagnose", "Nicht erfragt/erfasst")
+
+c. "Datum der Diagnose" und andere möglichen Components könnte man auch als eigenes CDEs umsetzen und hier nur als "Datentyp" verwenden. (siehe ![CDE])
+
+### [CDE Current Age Calculated](StructureDefinition-cde-current-age-calculated.html)
+a. erste Verknüpfung zwischen zwei CDEs erstellt
+- derivedFrom Reference(CDE_BirthDate)
+- schöner wäre es, wenn man festlegen könnte, dass der Value für effectivePeriod ein "CDE-BirthDate" sein muss
+

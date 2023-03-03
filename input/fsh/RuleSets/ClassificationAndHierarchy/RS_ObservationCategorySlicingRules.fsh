@@ -5,7 +5,7 @@ RuleSet: RS_ObservationCategorySlicingRules
 * category ^slicing.discriminator.path = "coding" //{FHIRPath string}
 * category ^slicing.rules = #openAtEnd // {#open/#closed/#openAtEnd}
 * category ^slicing.ordered = true // {true/false}
-* category ^slicing.description = "Slice based on the coding value for classificiation of data elements."
+* category ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
 
 // besser: #value, "coding" ...
 //e.g. #exists, "$this", #openAtEnd, true, "Slice based on the category exists for classificiation of dataelements."

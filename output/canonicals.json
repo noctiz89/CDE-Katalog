@@ -67,7 +67,7 @@
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
     "version" : "0.2.0",
-    "name" : "CDE_birthDate"
+    "name" : "CDE_BirthDate"
   },
   {
     "id" : "cde-body-height",
@@ -411,13 +411,6 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
     "version" : "0.2.0",
     "name" : "MyExtension"
-  },
-  {
-    "id" : "generic-observation",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation",
-    "version" : "0.2.0",
-    "name" : "CDE_GenericObservation"
   },
   {
     "id" : "myObservation",

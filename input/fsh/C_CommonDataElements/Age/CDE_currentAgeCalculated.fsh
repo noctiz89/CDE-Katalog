@@ -22,7 +22,8 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung e
 * effectivePeriod.end 1..1 MS
 * effectivePeriod.end only dateTime
 
-* derivedFrom only Reference(CDE_birthDate)
+* derivedFrom 1..1 MS
+* derivedFrom only Reference(CDE_BirthDate)
 /*
 * id MS
 * meta MS

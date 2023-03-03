@@ -1,5 +1,7 @@
 RuleSet: RS_ObservationComponentSlicingRules
-* component ^slicing.discriminator.type = #pattern
-* component ^slicing.discriminator.path = "$this"
+* component 1..* MS
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "coding"
 * component ^slicing.rules = #open //??
-* component ^slicing.description = "Slice based on the component.code value"
+* category ^slicing.ordered = false // {true/false}
+* category ^slicing.description = "Slice based on the component.coding value for add a further value."

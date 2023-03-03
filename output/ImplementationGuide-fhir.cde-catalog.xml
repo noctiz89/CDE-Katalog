@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-03T00:29:20+01:00"/>
+  <date value="2023-03-03T03:09:30+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -660,7 +660,7 @@
       <reference>
         <reference value="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"/>
       </reference>
-      <name value="CDE age at diagnosis of essential hypertension"/>
+      <name value="CDE Age At Diagnosis Of Essential Hypertension"/>
       <description value="Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'."/>
     </resource>
     <resource>
@@ -690,7 +690,7 @@
       <reference>
         <reference value="StructureDefinition/cde-birth-date"/>
       </reference>
-      <name value="CDE birth Date"/>
+      <name value="CDE Birth Date"/>
       <description value="Dieses CDE enthält das 'Geburtsdatum'."/>
     </resource>
     <resource>
@@ -1172,16 +1172,6 @@
       </reference>
       <name value="CLS L3 Urine"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/generic-observation"/>
-      </reference>
-      <name value="Generic Observation"/>
-      <description value="Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

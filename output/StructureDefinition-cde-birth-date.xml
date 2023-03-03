@@ -54,10 +54,10 @@
   </extension>
   <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date"/>
   <version value="0.2.0"/>
-  <name value="CDE_birthDate"/>
-  <title value="CDE birth Date"/>
+  <name value="CDE_BirthDate"/>
+  <title value="CDE Birth Date"/>
   <status value="active"/>
-  <date value="2023-03-03T00:29:20+01:00"/>
+  <date value="2023-03-03T03:09:30+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -821,7 +821,7 @@
           <type value="value"/>
           <path value="coding"/>
         </discriminator>
-        <description value="Slice based on the coding value for classificiation of data elements."/>
+        <description value="Slice based on the category.coding value for classificiation of data elements."/>
         <ordered value="true"/>
         <rules value="openAtEnd"/>
       </slicing>
@@ -7226,7 +7226,7 @@
           <type value="value"/>
           <path value="coding"/>
         </discriminator>
-        <description value="Slice based on the coding value for classificiation of data elements."/>
+        <description value="Slice based on the category.coding value for classificiation of data elements."/>
         <ordered value="true"/>
         <rules value="openAtEnd"/>
       </slicing>

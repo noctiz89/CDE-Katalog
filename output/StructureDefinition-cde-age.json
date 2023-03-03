@@ -26,7 +26,7 @@
   "name" : "CDE_Age",
   "title" : "CDE Age",
   "status" : "active",
-  "date" : "2023-03-03T00:29:20+01:00",
+  "date" : "2023-03-03T03:09:30+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -832,7 +832,7 @@
           "type" : "value",
           "path" : "coding"
         }],
-        "description" : "Slice based on the coding value for classificiation of data elements.",
+        "description" : "Slice based on the category.coding value for classificiation of data elements.",
         "ordered" : true,
         "rules" : "openAtEnd"
       },
@@ -7163,7 +7163,7 @@
           "type" : "value",
           "path" : "coding"
         }],
-        "description" : "Slice based on the coding value for classificiation of data elements.",
+        "description" : "Slice based on the category.coding value for classificiation of data elements.",
         "ordered" : true,
         "rules" : "openAtEnd"
       },

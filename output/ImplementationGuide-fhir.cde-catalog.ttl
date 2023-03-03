@@ -27,7 +27,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Common Data Element Katalog"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-03-03T00:29:20+01:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-03-03T03:09:30+01:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -970,7 +970,7 @@
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE age at diagnosis of essential hypertension" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Age At Diagnosis Of Essential Hypertension" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'." ]
      ], [
        fhir:index 16;
@@ -1009,7 +1009,7 @@
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/cde-birth-date" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE birth Date" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CDE Birth Date" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses CDE enthält das 'Geburtsdatum'." ]
      ], [
        fhir:index 19;
@@ -1643,26 +1643,13 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/generic-observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Generic Observation" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Generische Observation als Common Data Element mit minimalen Anforderungen für jede Beobachtung." ]
-     ], [
-       fhir:index 68;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/poi-patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin." ]
      ], [
-       fhir:index 69;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1675,7 +1662,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Person" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Person." ]
      ], [
-       fhir:index 70;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1688,7 +1675,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "POI Research Subject" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ]
      ], [
-       fhir:index 71;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1701,7 +1688,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS AdministrativeGender" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Codes für das administrative Geschlecht." ]
      ], [
-       fhir:index 72;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1714,7 +1701,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Binary Decision Yes Or No as Snomed" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ]
      ], [
-       fhir:index 73;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1727,7 +1714,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Binary Gender as Snomed" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich." ]
      ], [
-       fhir:index 74;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1740,7 +1727,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Glasgow Coma Scale For Adults" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene" ]
      ], [
-       fhir:index 75;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1753,7 +1740,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Length Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Länge'" ]
      ], [
-       fhir:index 76;
+       fhir:index 75;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1766,7 +1753,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Mass Concentration Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Massenkonzentration" ]
      ], [
-       fhir:index 77;
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1779,7 +1766,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Mass Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Masse'" ]
      ], [
-       fhir:index 78;
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1792,7 +1779,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Missing Values As Snomed" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für fehlende Werte." ]
      ], [
-       fhir:index 79;
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1805,7 +1792,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Molar Concentration Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Stoffmengenkonzentration" ]
      ], [
-       fhir:index 80;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1818,7 +1805,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Number Concentration Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Anzahl pro Volumen'." ]
      ], [
-       fhir:index 81;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1831,7 +1818,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Smoking Status as Loinc" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ]
      ], [
-       fhir:index 82;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1844,7 +1831,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Specimen Types" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "LOINC Codes für 'Probenmaterial'" ]
      ], [
-       fhir:index 83;
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1857,7 +1844,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Time Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für 'Zeit'" ]
      ], [
-       fhir:index 84;
+       fhir:index 83;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1870,7 +1857,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VS Unity Units" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "UCUM Codes für Gesamtheit (auch 'Eins-Element')." ]
      ], [
-       fhir:index 85;
+       fhir:index 84;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1884,7 +1871,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "What this extension means." ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "resources-spreadsheet.xml" ]
      ], [
-       fhir:index 86;
+       fhir:index 85;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

@@ -46,7 +46,7 @@
   fhir:StructureDefinition.name [ fhir:value "CLS_L1_DiseasesAndRelatedHealthProblems"]; # 
   fhir:StructureDefinition.title [ fhir:value "CLS L1 Diseases And Related Health Problems"]; # 
   fhir:StructureDefinition.status [ fhir:value "draft"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-03T00:29:20+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T03:09:30+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -1094,7 +1094,7 @@
            fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
            fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "coding" ]
          ];
-         fhir:ElementDefinition.slicing.description [ fhir:value "Slice based on the coding value for classificiation of data elements." ];
+         fhir:ElementDefinition.slicing.description [ fhir:value "Slice based on the category.coding value for classificiation of data elements." ];
          fhir:ElementDefinition.slicing.ordered [ fhir:value "true"^^xsd:boolean ];
          fhir:ElementDefinition.slicing.rules [ fhir:value "openAtEnd" ]
        ];

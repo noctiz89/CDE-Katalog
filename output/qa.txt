@@ -1,9 +1,9 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 87, info = 13
+err = 12, warn = 86, info = 13
 IG Publisher Version: 1.2.38
-Generated Fri Mar 03 00:40:13 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Fri Mar 03 03:20:15 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 4 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -57,7 +57,6 @@ Generated Fri Mar 03 00:40:13 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-urine : 0 / 0 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-generic-observation : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
@@ -104,7 +103,7 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
-WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[147].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[158].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
@@ -212,8 +211,6 @@ WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.differ
 == fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-urine.json ==
-== fsh-generated\resources\StructureDefinition-generic-observation.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/generic-observation'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-poi-patient.json ==
 INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
