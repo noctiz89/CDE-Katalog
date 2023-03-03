@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-03T18:31:25+01:00"/>
+  <date value="2023-03-04T00:41:34+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -798,16 +798,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-date-of-birth"/>
-      </reference>
-      <name value="CDE Date Of Birth"/>
-      <description value="Dieses CDE enthält das 'Geburtsdatum' einer Person."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cde-date-of-diagnosis"/>
       </reference>
       <name value="CDE Date Of Diagnosis"/>
@@ -1501,7 +1491,7 @@
             <valueUrl value="spec2.html"/>
           </extension>
           <nameUrl value="spec2.html"/>
-          <title value="Spec sub-page"/>
+          <title value="Anmerkungen zu CDEs"/>
           <generation value="markdown"/>
         </page>
       </page>

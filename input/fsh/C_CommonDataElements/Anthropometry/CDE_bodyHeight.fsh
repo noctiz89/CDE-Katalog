@@ -11,7 +11,7 @@ Description: "Dieses CDE enthält die 'Körpergröße'."
 * insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
 * insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(bodyHeight, $LOINC, 2000-8) // Body Height
+* insert RS_CreateDataElementConcept($LOINC, 8302-2, "Body height") // Body Height
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Length("cm | m")
 

@@ -10,6 +10,6 @@ Description: "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut"
 * insert RS_CreateOneFurtherCategory(BloodCellMeasurement, $OBO, CMO_0000036)
 * insert RS_CreateOneFurtherCategory(RedBloodCellMeasurement, $OBO, CMO_0001356)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(erythrocytesInBlood, $LOINC, 26453-1) // #/Volume
+* insert RS_CreateDataElementConcept($LOINC, 26453-1, "Erythrocytes [#/volume] in Blood") // #/Volume
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_NumberConcentration("10*6/uL")

@@ -11,7 +11,7 @@ Description: "Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasm
 * insert RS_CreateOneFurtherCategory(BloodChemistryMeasurement, $OBO, CMO_0000023)
 * insert RS_CreateOneFurtherCategory(BloodGlucoseLevel, $OBO, CMO_0000046)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(glucoseInSerOrPlas, $LOINC, 14749-6) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 14749-6, "Glucose [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")
 

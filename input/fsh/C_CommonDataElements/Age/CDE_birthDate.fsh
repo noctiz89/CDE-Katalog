@@ -12,7 +12,7 @@ Description: "Dieses CDE enthält das 'Geburtsdatum'."
 * insert RS_CreateOneFurtherCategory(Date, $OBO, NCIT_C25164)
 * insert RS_CreateOneFurtherCategory(BirthDate, $OBO, NCIT_C68615)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(age, $LOINC, 21112-8) // Geburtsdatum
+* insert RS_CreateDataElementConcept($LOINC, 21112-8, "Birth date") // Geburtsdatum
 // Value_Domain (VD) via Observation.value
 * valueDateTime.value 1..1 MS
 * valueDateTime.value only dateTime

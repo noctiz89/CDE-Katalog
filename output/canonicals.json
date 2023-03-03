@@ -140,13 +140,6 @@
     "name" : "CDE_CurrentAgeReported"
   },
   {
-    "id" : "cde-date-of-birth",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth",
-    "version" : "0.2.0",
-    "name" : "CDE_DateOfBirth"
-  },
-  {
     "id" : "cde-date-of-diagnosis",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis",

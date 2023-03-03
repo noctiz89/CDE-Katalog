@@ -46,7 +46,7 @@
   fhir:ValueSet.name [ fhir:value "VS_GlasgowComaScaleForAdults"]; # 
   fhir:ValueSet.title [ fhir:value "VS Glasgow Coma Scale For Adults"]; # 
   fhir:ValueSet.status [ fhir:value "active"]; # 
-  fhir:ValueSet.date [ fhir:value "2023-03-03T18:31:25+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-04T00:41:34+01:00"^^xsd:dateTime]; # 
   fhir:ValueSet.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;

@@ -11,7 +11,7 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Ze
 * insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
 * insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(age, $LOINC, 21612-7) // Current Age - reported
+* insert RS_CreateDataElementConcept($LOINC, 21612-7, "Age - Reported") // Age - reported
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Length("wk | a")
 /*

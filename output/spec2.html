@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.CDE-CATALOG\Spec sub-page - FHIR v4.0.1</title>
+    <title>FHIR.CDE-CATALOG\Anmerkungen zu CDEs - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -98,6 +98,9 @@
       <li>
         <a href="spec.html">Detaillierte Spezifikation</a>
       </li>
+      <li>
+        <a href="spec2.html">Anmerkungen zu CDEs</a>
+      </li>
     </ul>
   </li>
   <li><a href="artifacts.html">FHIR Artefakte</a></li>
@@ -127,7 +130,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><a href='spec.html'><b>Detaillierte Spezifikation</b></a></li><li><b>Spec sub-page</b></li>
+          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><a href='spec.html'><b>Detaillierte Spezifikation</b></a></li><li><b>Anmerkungen zu CDEs</b></li>
 
           <span style="float:right;">
 
@@ -158,7 +161,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Spec sub-page</h2>
+  <h2>Anmerkungen zu CDEs</h2>
   
 
 
@@ -189,11 +192,56 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#anmerkungen-zu-cdes" id="markdown-toc-anmerkungen-zu-cdes">Anmerkungen zu CDEs</a>    <ul>
+      <li><a href="#cde-ethnicity" id="markdown-toc-cde-ethnicity">CDE Ethnicity</a></li>
+      <li><a href="#cde-age-at-diagnosis-of-essential-hypertension" id="markdown-toc-cde-age-at-diagnosis-of-essential-hypertension">CDE Age At Diagnosis Of Essential Hypertension</a></li>
+      <li><a href="#cde-current-age-calculated" id="markdown-toc-cde-current-age-calculated">CDE Current Age Calculated</a></li>
+    </ul>
+  </li>
+</ul>
+
 </div>
-<h3 id="a-heading">A Heading</h3>
-<p>A child specification page with more detail</p>
+<h1 id="anmerkungen-zu-cdes">Anmerkungen zu CDEs</h1>
+
+<h3 id="cde-ethnicity"><a href="StructureDefinition-cde-ethnicity.html">CDE Ethnicity</a></h3>
+<p>a. Allgemeines zu qualitativen / kategorialen CDEs
+    - enumeratedValueDomain ~ einer Auswahl an häufigen Qualifiern/Kategorien (= Konzepte)
+    - z.B. Ethnizität [Kaukasisch (1), Mediterran (2) Schwarzafrikanisch (3), Asiatisch (4) Lateinamerikanisch (5) Andere (6)]]
+        - wobei die “internen” Codes (1-6) nicht im CDE verwendet werden, sondern stattdessen:
+        - aus einer Terminologie (SNOMED) wird der entsprechende Code + dem bevorzugtem Displayname verwendet
+        - praktisch sieht das so aus:
+        Observation.valueCodeableConcept.coding = $SCT#</p>
+
+<p>b. Observation.code.coding mit LOINC-Code festgelegt und entspricht dem Data_Element_Concept (DEC)</p>
+
+<p>c. mögliche konzeptuelle Kategorien für “ethnische Gruppen” sind durch SNOMED-Codes vorgegeben</p>
+<ul>
+  <li>alle Codes die laut SNOMED zum Konzept (“is-a”) #372148003 Ethnic Group gehören sind zulässig <a href="ValueSet-vs-ethnic-groups.html">VS_EthnicGroups</a></li>
+</ul>
+
+<p>d. An welcher Stelle können “interne Codes” als Value für die Kategorien definiert werden?
+    - eventuell über QuestionnaireResponse ?</p>
+
+<h3 id="cde-age-at-diagnosis-of-essential-hypertension"><a href="StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html">CDE Age At Diagnosis Of Essential Hypertension</a></h3>
+<p>a. Dieses CDE wurde erstellt, weil der Schlüssel ICD-10 I10 für Essenzielle (primäre) Hypertonie zu den 100 häufigsten Diagnosen im Jahr 2020 gehörte. Quelle: https://www.kvno.de/fileadmin/shared/pdf/online/verordnungen/morbiditaetsstatistik/100icd_20-3.pdf</p>
+
+<p>b. Erweiterung um weitere Componenten denkbar, z.B.:</p>
+<ul>
+  <li>“Diagnosesicherheit”</li>
+  <li>wenn Diagnosedatum fehlt, muss angegeben werden warum. (“Diagnose liegt/lag vor, aber Datum unbekannt”, “Es liegt/lag keine  entsprechende Diagnose”, “Nicht erfragt/erfasst”)</li>
+</ul>
+
+<p>c. “Datum der Diagnose” und andere möglichen Components könnte man auch als eigenes CDEs umsetzen und hier nur als “Datentyp” verwenden. (siehe ![CDE])</p>
+
+<h3 id="cde-current-age-calculated"><a href="StructureDefinition-cde-current-age-calculated.html">CDE Current Age Calculated</a></h3>
+<p>a. erste Verknüpfung zwischen zwei CDEs erstellt</p>
+<ul>
+  <li>derivedFrom Reference(CDE_BirthDate)</li>
+  <li>schöner wäre es, wenn man festlegen könnte, dass der Value für effectivePeriod ein “CDE-BirthDate” sein muss</li>
+</ul>
+
 
 
 
@@ -241,7 +289,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 3, 2023 18:31+0100">2023-03-03</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Mar 4, 2023 00:41+0100">2023-03-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

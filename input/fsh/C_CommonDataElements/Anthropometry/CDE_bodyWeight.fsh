@@ -11,7 +11,7 @@ Description: "Dieses CDE enthält das 'Körpergewicht'."
 * insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
 * insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(bodyWeight, $LOINC, 29463-7) //Body Weight
+* insert RS_CreateDataElementConcept($LOINC, 29463-7, "Body weight") //Body Weight
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_SingleUnit(kg)
 

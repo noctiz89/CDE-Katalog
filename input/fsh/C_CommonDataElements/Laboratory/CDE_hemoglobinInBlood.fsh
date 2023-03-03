@@ -10,6 +10,6 @@ Description: "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'."
 * insert RS_CreateOneFurtherCategory(BloodCellMeasurement, $OBO, CMO_0000036)
 * insert RS_CreateOneFurtherCategory(HemoglobinMeasurement, $OBO, CMO_0000508)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(hemoglobinInBlood, $LOINC, 59260-0) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 59260-0, "Hemoglobin [Moles/volume] in Blood") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")

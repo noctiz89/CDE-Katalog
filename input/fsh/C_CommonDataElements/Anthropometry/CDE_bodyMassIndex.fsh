@@ -12,7 +12,7 @@ Description: "Dieses CDE enthält den 'Body Mass Index (BMI)'."
 * insert RS_CreateOneFurtherCategory(CalculatedBodyWeightMeasurement, $OBO, CMO_0001196) //könnte man auch weg lassen?
 * insert RS_CreateOneFurtherCategory(BodyMassIndex, $OBO, CMO_0000105)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(bodyMassIndex, $LOINC, 39156-5) //Body Mass Index [Verhältnis]
+* insert RS_CreateDataElementConcept($LOINC, 39156-5, "Body mass index BMI [Ratio]")
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_SingleUnit(kg/m2)
 /*

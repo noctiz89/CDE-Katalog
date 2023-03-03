@@ -12,7 +12,7 @@ Description: "Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Pla
 * insert RS_CreateOneFurtherCategory(BloodCreatinineMeasurement, $OBO, CMO_0000767)
 * insert RS_CreateOneFurtherCategory(BloodCreatinineLevel, $OBO, CMO_0000538)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(creatinineInSerOrPlas, $LOINC, 14682-9) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 14682-9, "Creatinine [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")
 

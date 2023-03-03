@@ -71,10 +71,6 @@
         "title": "CDE Current Age Reported"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth",
-        "title": "CDE Date Of Birth"
-      },
-      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis",
         "title": "CDE Date Of Diagnosis"
       },

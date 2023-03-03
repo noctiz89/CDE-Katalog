@@ -12,7 +12,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
 * insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(SexAssignedAtBirth, $LOINC, 76689-9) //Geschlecht bei Geburt
+* insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
 // Value_Domain (VD) via Observation.valueCodeableConcept
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from VS_BinaryGender (extensible)

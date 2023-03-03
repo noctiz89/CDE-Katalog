@@ -12,6 +12,6 @@ Description: "Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Pla
 * insert RS_CreateOneFurtherCategory(BloodElectrolyteMeasurement, $OBO, CMO_0000063)
 * insert RS_CreateOneFurtherCategory(BloodMagnesiumLevel, $OBO, CMO_0000505)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(magnesiumInSerOrPlas, $LOINC, 2601-3) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 2601-3, "Magnesium [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")

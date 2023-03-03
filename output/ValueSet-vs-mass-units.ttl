@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "vs-mass-units"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>fg</td><td>fg</td></tr><tr><td>pg</td><td>pg</td></tr><tr><td>ng</td><td>ng</td></tr><tr><td>ug</td><td>ug</td></tr><tr><td>ug/{TotalVolume}</td><td>ug/{TotalVolume}</td></tr><tr><td>ug/{Specimen}</td><td>ug/{Specimen}</td></tr><tr><td>mg</td><td>mg</td></tr><tr><td>mg/{Volume}</td><td>mg/{Volume}</td></tr><tr><td>mg/{TotalVolume}</td><td>mg/{TotalVolume}</td></tr><tr><td>g</td><td>g</td></tr><tr><td>g/{TotalWeight}</td><td>g/{TotalWeight}</td></tr><tr><td>dg</td><td>dg</td></tr><tr><td>cg</td><td>cg</td></tr><tr><td>kg</td><td>kg</td></tr><tr><td>t</td><td>t</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>fg</td><td>fg</td></tr><tr><td>pg</td><td>pg</td></tr><tr><td>ng</td><td>ng</td></tr><tr><td>ug</td><td>ug</td></tr><tr><td>mg</td><td>mg</td></tr><tr><td>g</td><td>g</td></tr><tr><td>dg</td><td>dg</td></tr><tr><td>cg</td><td>cg</td></tr><tr><td>kg</td><td>kg</td></tr><tr><td>t</td><td>t</td></tr></table></li></ul></div>"
   ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -46,7 +46,7 @@
   fhir:ValueSet.name [ fhir:value "VS_MassUnits"]; # 
   fhir:ValueSet.title [ fhir:value "VS Mass Units"]; # 
   fhir:ValueSet.status [ fhir:value "active"]; # 
-  fhir:ValueSet.date [ fhir:value "2023-03-03T18:31:25+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-04T00:41:34+01:00"^^xsd:dateTime]; # 
   fhir:ValueSet.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -83,36 +83,21 @@
          fhir:ValueSet.compose.include.concept.code [ fhir:value "ug" ]
        ], [
          fhir:index 4;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "ug/{TotalVolume}" ]
-       ], [
-         fhir:index 5;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "ug/{Specimen}" ]
-       ], [
-         fhir:index 6;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "mg" ]
        ], [
-         fhir:index 7;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "mg/{Volume}" ]
-       ], [
-         fhir:index 8;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "mg/{TotalVolume}" ]
-       ], [
-         fhir:index 9;
+         fhir:index 5;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "g" ]
        ], [
-         fhir:index 10;
-         fhir:ValueSet.compose.include.concept.code [ fhir:value "g/{TotalWeight}" ]
-       ], [
-         fhir:index 11;
+         fhir:index 6;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "dg" ]
        ], [
-         fhir:index 12;
+         fhir:index 7;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "cg" ]
        ], [
-         fhir:index 13;
+         fhir:index 8;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "kg" ]
        ], [
-         fhir:index 14;
+         fhir:index 9;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "t" ]
        ]
      ]

@@ -10,7 +10,7 @@ Description: "Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'."
 * insert RS_CreateOneFurtherCategory(BloodCellMeasurement, $OBO, CMO_0000036)
 * insert RS_CreateOneFurtherCategory(PlateletMeasurement, $OBO, CMO_0000921)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(thrombocytesInBlood, $LOINC, 26515-7) // #/Volume
+* insert RS_CreateDataElementConcept($LOINC, 26515-7, "Platelets [#/volume] in Blood") // #/Volume "Platelets ~ umgangspr. Blutplättchen"
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_NumberConcentration("10*6/uL")
 

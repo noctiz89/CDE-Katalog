@@ -12,7 +12,7 @@ Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagn
 * insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
 * insert RS_CreateOneFurtherCategory(AgeAtDiagnosis, $OBO, NCIT_C156420)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(age, $LOINC, 30525-0) // Age
+* insert RS_CreateDataElementConcept($LOINC, 30525-0, "Age") // Age
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Length("wk | a")
 // Add further Component (Kind of Diagnosis)

@@ -12,6 +12,6 @@ Description: "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasm
 * insert RS_CreateOneFurtherCategory(BloodElectrolyteMeasurement, $OBO, CMO_0000063)
 * insert RS_CreateOneFurtherCategory(BloodCalciumLevel, $OBO, CMO_0000502)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(calciumInSerOrPlas, $LOINC, 2000-8) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 2000-8, "Calcium [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")

@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 94, info = 13
+err = 12, warn = 90, info = 13
 IG Publisher Version: 1.2.38 Out of date - current version is 1.2.39
-Generated Fri Mar 03 18:42:57 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 5 / 4 / 0
+Generated Sat Mar 04 00:52:20 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 4 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
@@ -19,7 +19,6 @@ Generated Fri Mar 03 18:42:57 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-creatinine-in-ser-or-plas : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-birth : 0 / 4 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
@@ -104,7 +103,6 @@ ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_Common.cql: CQL source was no
 ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_CDS_UsingCommon.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\Common.cql: CQL source was not associated with a library resource in the IG.
-ERROR: D:\CDE-Katalog\output\spec.html#/html/body/div/div/div/div/div/ul/li/a at Line 214, column 102: The link 'StructureDefinition-vs-ethnic-groups.html' for "EthnicGroups" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -112,7 +110,7 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
-WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[158].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[157].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
@@ -138,11 +136,6 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-current-age-reported.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-date-of-birth.json ==
-WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[26].pattern.ofType(CodeableConcept).coding[0]: The display "Soziale / Persönliche Details" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#160476009"
-WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
-WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[28].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==

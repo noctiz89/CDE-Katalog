@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "7d873a70-18e1-4763-b95a-a14ddf2b88f7",
+  "id" : "77c6168c-c2a1-4d1c-bcc5-62b2c9156957",
   "meta" : {
-    "lastUpdated" : "2023-03-03T18:31:25.890+01:00"
+    "lastUpdated" : "2023-03-04T00:41:34.462+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -46,8 +46,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f4432239-e1f1-48be-86ce-89059270c639",
-        "timestamp" : "2023-03-03T18:33:51+01:00",
+        "identifier" : "urn:uuid:5f136200-bf29-4fd4-b423-f13323309130",
+        "timestamp" : "2023-03-04T00:43:53+01:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -99,7 +99,7 @@
       "name" : "VS_AdministrativeGender",
       "title" : "VS AdministrativeGender",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -115,8 +115,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9d5f928b-1563-437a-9c21-f36968452965",
-        "timestamp" : "2023-03-03T18:37:40+01:00",
+        "identifier" : "urn:uuid:c9a23320-0b96-4ad2-8589-d45773e579d0",
+        "timestamp" : "2023-03-04T00:47:05+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -187,7 +187,7 @@
       "name" : "VS_BinaryDecisionYesOrNoAsSnomed",
       "title" : "VS Binary Decision Yes Or No as Snomed",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -203,8 +203,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:77e353d7-9a6a-48ac-a018-68174fb3b844",
-        "timestamp" : "2023-03-03T18:37:40+01:00",
+        "identifier" : "urn:uuid:d3a627a9-190e-4a8c-aaed-996ac5e79296",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -265,7 +265,7 @@
       "name" : "VS_BinaryGender",
       "title" : "VS Binary Gender as Snomed",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -281,8 +281,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:23723bb2-50c3-404e-953f-b78daa03fe06",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:49fb5fb5-a9f9-48bf-a9b5-0dddb10354a1",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -343,7 +343,7 @@
       "name" : "VS_EthnicGroups",
       "title" : "VS Ethnic Groups",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -363,8 +363,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:3cf21ea4-9afc-4c6f-b8db-65541fc2fced",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:b87775b6-7b6d-485a-bf2b-d4c2c0c8e311",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 240,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1615,7 +1615,7 @@
       "name" : "VS_GlasgowComaScaleForAdults",
       "title" : "VS Glasgow Coma Scale For Adults",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -1631,8 +1631,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:47d3e04b-a80d-4982-94f0-615bd5611450",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:ea7554da-4247-4e46-99c4-2d93e85e1034",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1674,7 +1674,7 @@
       "name" : "VS_LengthUnits",
       "title" : "VS Length Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -1690,8 +1690,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d27f8bd1-174d-4560-9224-0fbf14a666f1",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:33a2e262-4df3-49f4-bea8-a6bbac0aec8d",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1787,7 +1787,7 @@
       "name" : "VS_MassConcentrationUnits",
       "title" : "VS Mass Concentration Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -1803,8 +1803,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:de78cc16-0680-4e5b-b588-a1b1b78912b9",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:da5658fe-59ca-4595-9c37-3c4c1e9c5c47",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1933,7 +1933,7 @@
       "id" : "vs-mass-units",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-fg\"> </a>  fg</td><td>http://unitsofmeasure.org</td><td>fg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg\"> </a>  pg</td><td>http://unitsofmeasure.org</td><td>pg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng\"> </a>  ng</td><td>http://unitsofmeasure.org</td><td>ng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug\"> </a>  ug</td><td>http://unitsofmeasure.org</td><td>ug</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug--TotalVolume-\"> </a>  ug/{TotalVolume}</td><td>http://unitsofmeasure.org</td><td>ug/{TotalVolume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug--Specimen-\"> </a>  ug/{Specimen}</td><td>http://unitsofmeasure.org</td><td>ug/{Specimen}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg\"> </a>  mg</td><td>http://unitsofmeasure.org</td><td>mg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg--Volume-\"> </a>  mg/{Volume}</td><td>http://unitsofmeasure.org</td><td>mg/{Volume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg--TotalVolume-\"> </a>  mg/{TotalVolume}</td><td>http://unitsofmeasure.org</td><td>mg/{TotalVolume}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g\"> </a>  g</td><td>http://unitsofmeasure.org</td><td>g</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g--TotalWeight-\"> </a>  g/{TotalWeight}</td><td>http://unitsofmeasure.org</td><td>g/{TotalWeight}</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-dg\"> </a>  dg</td><td>http://unitsofmeasure.org</td><td>dg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-cg\"> </a>  cg</td><td>http://unitsofmeasure.org</td><td>cg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-kg\"> </a>  kg</td><td>http://unitsofmeasure.org</td><td>kg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-t\"> </a>  t</td><td>http://unitsofmeasure.org</td><td>t</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 10 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on UCUM version 2.0.1</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-fg\"> </a>  fg</td><td>http://unitsofmeasure.org</td><td>fg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-pg\"> </a>  pg</td><td>http://unitsofmeasure.org</td><td>pg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ng\"> </a>  ng</td><td>http://unitsofmeasure.org</td><td>ng</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-ug\"> </a>  ug</td><td>http://unitsofmeasure.org</td><td>ug</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-mg\"> </a>  mg</td><td>http://unitsofmeasure.org</td><td>mg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-g\"> </a>  g</td><td>http://unitsofmeasure.org</td><td>g</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-dg\"> </a>  dg</td><td>http://unitsofmeasure.org</td><td>dg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-cg\"> </a>  cg</td><td>http://unitsofmeasure.org</td><td>cg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-kg\"> </a>  kg</td><td>http://unitsofmeasure.org</td><td>kg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---unitsofmeasure.org-t\"> </a>  t</td><td>http://unitsofmeasure.org</td><td>t</td></tr></table></div>"
       },
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -1960,7 +1960,7 @@
       "name" : "VS_MassUnits",
       "title" : "VS Mass Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -1976,9 +1976,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2b29b427-96b2-4351-b51f-92db01b1b16c",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
-        "total" : 15,
+        "identifier" : "urn:uuid:5162adf0-3275-4366-9d40-f1dda774669f",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
+        "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -2013,38 +2013,13 @@
         },
         {
           "system" : "http://unitsofmeasure.org",
-          "code" : "ug/{TotalVolume}",
-          "display" : "ug/{TotalVolume}"
-        },
-        {
-          "system" : "http://unitsofmeasure.org",
-          "code" : "ug/{Specimen}",
-          "display" : "ug/{Specimen}"
-        },
-        {
-          "system" : "http://unitsofmeasure.org",
           "code" : "mg",
           "display" : "mg"
         },
         {
           "system" : "http://unitsofmeasure.org",
-          "code" : "mg/{Volume}",
-          "display" : "mg/{Volume}"
-        },
-        {
-          "system" : "http://unitsofmeasure.org",
-          "code" : "mg/{TotalVolume}",
-          "display" : "mg/{TotalVolume}"
-        },
-        {
-          "system" : "http://unitsofmeasure.org",
           "code" : "g",
           "display" : "g"
-        },
-        {
-          "system" : "http://unitsofmeasure.org",
-          "code" : "g/{TotalWeight}",
-          "display" : "g/{TotalWeight}"
         },
         {
           "system" : "http://unitsofmeasure.org",
@@ -2103,7 +2078,7 @@
       "name" : "VS_MissingValuesAsSnomed",
       "title" : "VS Missing Values As Snomed",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2119,8 +2094,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:44dc734f-cdd4-42e9-bafb-8b1cec347160",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:062bd25b-3525-4dfd-8c8c-bad79aa3eb1d",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2186,7 +2161,7 @@
       "name" : "VS_MolarConcentrationUnits",
       "title" : "VS Molar Concentration Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2202,8 +2177,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:271c34fe-0749-4e42-b1fe-24eba32b3630",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:e55b71f8-6db8-4db2-bee7-ec76f967704a",
+        "timestamp" : "2023-03-04T00:47:06+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2329,7 +2304,7 @@
       "name" : "VS_NumberConcentrationUnits",
       "title" : "VS Number Concentration Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2345,8 +2320,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7ebcaab8-5bb0-4f55-a22a-3649136da65f",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:494492c6-327b-40d6-8f4f-6feb26c7cbee",
+        "timestamp" : "2023-03-04T00:47:07+01:00",
         "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2497,7 +2472,7 @@
       "name" : "VS_SmokingStatusAsSnomed",
       "title" : "VS Smoking Status as Loinc",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2513,8 +2488,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9dcffd69-a119-4f93-aa5c-5bb56d8fc4f7",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:b2263513-5f45-4254-b053-c0760da0882a",
+        "timestamp" : "2023-03-04T00:47:07+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2585,7 +2560,7 @@
       "name" : "VS_SpecimenTypes",
       "title" : "VS Specimen Types",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2601,8 +2576,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c1a004cc-3aae-4a5d-b210-c1e23a776818",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:d0607ba9-aee0-43a5-9a24-cbb6b5ce753c",
+        "timestamp" : "2023-03-04T00:47:07+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -2648,7 +2623,7 @@
       "name" : "VS_TimeUnits",
       "title" : "VS Time Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2664,8 +2639,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ee2e49d7-4584-406b-8fd7-b32a38312d2e",
-        "timestamp" : "2023-03-03T18:37:41+01:00",
+        "identifier" : "urn:uuid:5f0a74aa-c7f6-4739-a24a-1eb653683285",
+        "timestamp" : "2023-03-04T00:47:07+01:00",
         "total" : 13,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2781,7 +2756,7 @@
       "name" : "VS_UnityUnits",
       "title" : "VS Unity Units",
       "status" : "active",
-      "date" : "2023-03-03T18:31:25+01:00",
+      "date" : "2023-03-04T00:41:34+01:00",
       "publisher" : "HL7 International - [Some] Work Group",
       "contact" : [{
         "telecom" : [{
@@ -2797,8 +2772,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ae26f987-2e38-468f-82e4-9da15cef75d0",
-        "timestamp" : "2023-03-03T18:37:42+01:00",
+        "identifier" : "urn:uuid:1fa838b1-9628-4240-9e53-ce6dff09902d",
+        "timestamp" : "2023-03-04T00:47:07+01:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

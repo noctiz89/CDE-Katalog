@@ -10,6 +10,6 @@ Description: "Dieses CDE enhält den 'Hüftumfang'."
 * insert RS_CreateOneFurtherCategory(BodyMorphologicalMeasurement, $OBO, CMO_0000021)
 * insert RS_CreateOneFurtherCategory(HipCircumference, $OBO, CMO_0000014)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(hipCircumference, $SCT, 284472007) // Hip Circumference
+* insert RS_CreateDataElementConcept($SCT, 284472007, "Hip circumference") // Hip Circumference
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Length("cm")

@@ -12,6 +12,6 @@ Description: "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasm
 * insert RS_CreateOneFurtherCategory(BloodElectrolyteMeasurement, $OBO, CMO_0000063)
 * insert RS_CreateOneFurtherCategory(BloodPhosphateLevel, $OBO, CMO_0000504)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(phosphateInSerOrPlas, $LOINC, 14879-1) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 14879-1, "Phosphate [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")

@@ -3092,3 +3092,227 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "fg"
+      },
+      {
+        "code" : "pg"
+      },
+      {
+        "code" : "ng"
+      },
+      {
+        "code" : "ug"
+      },
+      {
+        "code" : "mg"
+      },
+      {
+        "code" : "g"
+      },
+      {
+        "code" : "dg"
+      },
+      {
+        "code" : "cg"
+      },
+      {
+        "code" : "kg"
+      },
+      {
+        "code" : "t"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:761e3d49-aeb6-4b4e-8bd0-2042f96349e1",
+    "timestamp" : "2023-03-03T23:42:07.955Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "fg",
+      "display" : "fg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg",
+      "display" : "pg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng",
+      "display" : "ng"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug",
+      "display" : "ug"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg",
+      "display" : "mg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g",
+      "display" : "g"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "dg",
+      "display" : "dg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "cg",
+      "display" : "cg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg",
+      "display" : "kg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "t",
+      "display" : "t"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "fg"
+      },
+      {
+        "code" : "pg"
+      },
+      {
+        "code" : "ng"
+      },
+      {
+        "code" : "ug"
+      },
+      {
+        "code" : "mg"
+      },
+      {
+        "code" : "g"
+      },
+      {
+        "code" : "dg"
+      },
+      {
+        "code" : "cg"
+      },
+      {
+        "code" : "kg"
+      },
+      {
+        "code" : "t"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ec0702bd-bdda-45c0-867c-406ef9b8e18b",
+    "timestamp" : "2023-03-03T23:47:06.987Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "fg",
+      "display" : "fg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg",
+      "display" : "pg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng",
+      "display" : "ng"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug",
+      "display" : "ug"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg",
+      "display" : "mg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g",
+      "display" : "g"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "dg",
+      "display" : "dg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "cg",
+      "display" : "cg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg",
+      "display" : "kg"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "t",
+      "display" : "t"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

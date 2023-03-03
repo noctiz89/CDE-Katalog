@@ -12,6 +12,6 @@ Description: "Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasm
 * insert RS_CreateOneFurtherCategory(BloodElectrolyteMeasurement, $OBO, CMO_0000063)
 * insert RS_CreateOneFurtherCategory(BloodSodiumLevel, $OBO, CMO_0000499)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(sodiumInSerOrPlas, $LOINC, 2075-0) //Stoffmengenkonzentration
+* insert RS_CreateDataElementConcept($LOINC, 2951-2, "Sodium [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_MolarConcentration("umol/L | mmol/L")

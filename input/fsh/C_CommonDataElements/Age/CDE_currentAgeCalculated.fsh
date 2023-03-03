@@ -11,7 +11,7 @@ Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung e
 * insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
 * insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept(age, $LOINC, 29553-5) // Current Age - calculated
+* insert RS_CreateDataElementConcept($LOINC, 29553-5, "Age calculated") // Age - calculated
 // Value_Domain (VD) via Observation.valueQuantity
 * insert RS_CreateValueQuantity_Time("wk | a")
 // Klinisch relevanter Zeitraum ~ Lebenszeit, d.h. Geburtsdatum (start) bis klinisch-relevanter Zeitpunkt(end)

@@ -19,6 +19,9 @@
       <li>
         <a href="spec.html">Detaillierte Spezifikation</a>
       </li>
+      <li>
+        <a href="spec2.html">Anmerkungen zu CDEs</a>
+      </li>
     </ul>
   </li>
   <li><a href="artifacts.html">FHIR Artefakte</a></li>
