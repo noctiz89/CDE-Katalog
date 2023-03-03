@@ -1,14 +1,16 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 86, info = 13
+err = 12, warn = 96, info = 13
 IG Publisher Version: 1.2.38 Out of date - current version is 1.2.39
-Generated Fri Mar 03 13:10:02 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 4 / 4 / 0
+Generated Fri Mar 03 16:10:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 4 / 6 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-height : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-mass-index : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-weight : 0 / 1 / 1
@@ -18,11 +20,14 @@ Generated Fri Mar 03 13:10:02 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-birth : 0 / 4 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hip-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma : 0 / 1 / 1
@@ -31,6 +36,8 @@ Generated Fri Mar 03 13:10:02 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-visit-date : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-activity : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-exam : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-imaging : 0 / 0 / 1
@@ -63,6 +70,7 @@ Generated Fri Mar 03 13:10:02 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 1 / 1
@@ -96,6 +104,8 @@ ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_Common.cql: CQL source was no
 ERROR: D:\CDE-Katalog\input\cql\ChlamydiaScreening_CDS_UsingCommon.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
 ERROR: D:\CDE-Katalog\input\cql\Common.cql: CQL source was not associated with a library resource in the IG.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cde-blood-pressure-diastolic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cde-blood-pressure-systolic.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -109,6 +119,10 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-height.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-mass-index.json ==
@@ -130,8 +144,12 @@ WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.ele
 WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: The display "Alter" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#424144002"
 WARNING: StructureDefinition/cde-date-of-birth: StructureDefinition.snapshot.element[28].pattern.ofType(CodeableConcept).coding[0]: The display "Geburtsdatum" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4) für "http://snomed.info/sct#184099003"
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma.json ==
@@ -140,6 +158,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hip-circumference.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma.json ==
@@ -156,6 +176,10 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-waist-circumference.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-l0-activity.json ==
 == fsh-generated\resources\StructureDefinition-cls-l0-exam.json ==
 == fsh-generated\resources\StructureDefinition-cls-l0-imaging.json ==
@@ -225,6 +249,8 @@ WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet prof
 WARNING: ValueSet/vs-binary-decision-yes-or-no-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-binary-gender-as-snomed.json ==
 WARNING: ValueSet/vs-binary-gender-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
+WARNING: ValueSet/vs-ethnic-groups: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
 WARNING: ValueSet/vs-glasgow-coma-scale-for-adults: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-length-units.json ==

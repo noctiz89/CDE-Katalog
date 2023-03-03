@@ -70,6 +70,20 @@
     "name" : "CDE_BirthDate"
   },
   {
+    "id" : "cde-blood-pressure-diastolic",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic",
+    "version" : "0.2.0",
+    "name" : "CDE_BloodPressureDiastolic"
+  },
+  {
+    "id" : "cde-blood-pressure-systolic",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic",
+    "version" : "0.2.0",
+    "name" : "CDE_BloodPressureSystolic"
+  },
+  {
     "id" : "cde-body-height",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
@@ -133,11 +147,25 @@
     "name" : "CDE_DateOfBirth"
   },
   {
+    "id" : "cde-date-of-diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis",
+    "version" : "0.2.0",
+    "name" : "CDE_DateOfDiagnosis"
+  },
+  {
     "id" : "cde-erythrocytes-in-blood",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood",
     "version" : "0.2.0",
     "name" : "CDE_ErythrocytesInBlood"
+  },
+  {
+    "id" : "cde-ethnicity",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity",
+    "version" : "0.2.0",
+    "name" : "CDE_Ethnicity"
   },
   {
     "id" : "cde-glasgow-coma-score",
@@ -166,6 +194,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood",
     "version" : "0.2.0",
     "name" : "CDE_HemoglobinInBlood"
+  },
+  {
+    "id" : "cde-hip-circumference",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference",
+    "version" : "0.2.0",
+    "name" : "CDE_HipCircumference"
   },
   {
     "id" : "cde-leukocytes-in-blood",
@@ -222,6 +257,20 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
     "version" : "0.2.0",
     "name" : "CDE_TobaccoSmokingStatus"
+  },
+  {
+    "id" : "cde-visit-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
+    "version" : "0.2.0",
+    "name" : "CDE_VisitDate"
+  },
+  {
+    "id" : "cde-waist-circumference",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference",
+    "version" : "0.2.0",
+    "name" : "CDE_WaistCircumference"
   },
   {
     "id" : "cls-l0-activity",
@@ -488,6 +537,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-gender-as-snomed",
     "version" : "0.2.0",
     "name" : "VS_BinaryGenderAsSnomed"
+  },
+  {
+    "id" : "vs-ethnic-groups",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups",
+    "version" : "0.2.0",
+    "name" : "VS_EthnicGroups"
   },
   {
     "id" : "vs-glasgow-coma-scale-for-adults",

@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-03T12:59:12+01:00",
+  "date" : "2023-03-03T15:59:45+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -892,6 +892,26 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-blood-pressure-diastolic"
+      },
+      "name" : "CDE Blood Pressure Diastolic"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-blood-pressure-systolic"
+      },
+      "name" : "CDE Blood Pressure Systolic"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-body-height"
       },
       "name" : "CDE Body Height",
@@ -991,10 +1011,32 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-date-of-diagnosis"
+      },
+      "name" : "CDE Date Of Diagnosis",
+      "description" : "Dieses CDE enthält das 'Datum der Diagnose'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-erythrocytes-in-blood"
       },
       "name" : "CDE Erythrocytes In Blood",
       "description" : "Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-ethnicity"
+      },
+      "name" : "CDE Ethnicity",
+      "description" : "Dieses CDE enthält die 'Ethnizität einer Person'."
     },
     {
       "extension" : [{
@@ -1039,6 +1081,17 @@
       },
       "name" : "CDE Hemoglobin In Blood",
       "description" : "Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-hip-circumference"
+      },
+      "name" : "CDE Hip Circumference",
+      "description" : "Dieses CDE enhält den 'Hüftumfang'."
     },
     {
       "extension" : [{
@@ -1093,7 +1146,7 @@
         "reference" : "StructureDefinition/cde-sex-assigned-at-birth"
       },
       "name" : "CDE Sex Assigned At Birth",
-      "description" : "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person."
+      "description" : "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     },
     {
       "extension" : [{
@@ -1127,6 +1180,28 @@
       },
       "name" : "CDE Smoking Status",
       "description" : "Dieses CDE enthält den Raucherstatus einer Person"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-visit-date"
+      },
+      "name" : "CDE Visit Date",
+      "description" : "Dieses CDE enhält das 'Datum der Untersuchung'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-waist-circumference"
+      },
+      "name" : "CDE Waist Circumference",
+      "description" : "Dieses CDE enhält den 'Taillenumfang'."
     },
     {
       "extension" : [{
@@ -1479,6 +1554,17 @@
       },
       "name" : "VS Binary Gender as Snomed",
       "description" : "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-ethnic-groups"
+      },
+      "name" : "VS Ethnic Groups",
+      "description" : "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."
     },
     {
       "extension" : [{

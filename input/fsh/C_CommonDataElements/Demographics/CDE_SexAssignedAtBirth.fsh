@@ -2,7 +2,7 @@ Profile: CDE_SexAssignedAtBirth
 Parent: Observation
 Id: cde-sex-assigned-at-birth
 Title: "CDE Sex Assigned At Birth"
-Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person."
+Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
 * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
@@ -14,7 +14,8 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer 
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept(SexAssignedAtBirth, $LOINC, 76689-9) //Geschlecht bei Geburt
 // Value_Domain (VD) via Observation.valueCodeableConcept
-/* insert RS_CreateValueCodeableConcept($LOINC, )
+* valueCodeableConcept 1..1 MS
+* valueCodeableConcept from VS_BinaryGender (extensible)
 
 
 

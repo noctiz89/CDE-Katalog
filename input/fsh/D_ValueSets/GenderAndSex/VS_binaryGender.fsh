@@ -1,5 +1,5 @@
-ValueSet: VS_BinaryGenderAsSnomed
-Id: vs-binary-gender-as-snomed
+ValueSet: VS_BinaryGender
+Id: vs-binary-gender
 Title: "VS Binary Gender as Snomed"
 Description: "Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."
 * $SCT#248153007 "Männlich"

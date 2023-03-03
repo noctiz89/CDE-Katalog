@@ -31,6 +31,14 @@
         "title": "CDE Birth Date"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic",
+        "title": "CDE Blood Pressure Diastolic"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic",
+        "title": "CDE Blood Pressure Systolic"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
         "title": "CDE Body Height"
       },
@@ -67,8 +75,16 @@
         "title": "CDE Date Of Birth"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis",
+        "title": "CDE Date Of Diagnosis"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood",
         "title": "CDE Erythrocytes In Blood"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity",
+        "title": "CDE Ethnicity"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score",
@@ -85,6 +101,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood",
         "title": "CDE Hemoglobin In Blood"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference",
+        "title": "CDE Hip Circumference"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood",
@@ -117,6 +137,14 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
         "title": "CDE Smoking Status"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
+        "title": "CDE Visit Date"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference",
+        "title": "CDE Waist Circumference"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-activity",

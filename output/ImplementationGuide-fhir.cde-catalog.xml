@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-03T12:59:12+01:00"/>
+  <date value="2023-03-03T15:59:45+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -698,6 +698,24 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-blood-pressure-diastolic"/>
+      </reference>
+      <name value="CDE Blood Pressure Diastolic"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-blood-pressure-systolic"/>
+      </reference>
+      <name value="CDE Blood Pressure Systolic"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-body-height"/>
       </reference>
       <name value="CDE Body Height"/>
@@ -788,10 +806,30 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-date-of-diagnosis"/>
+      </reference>
+      <name value="CDE Date Of Diagnosis"/>
+      <description value="Dieses CDE enthält das 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-erythrocytes-in-blood"/>
       </reference>
       <name value="CDE Erythrocytes In Blood"/>
       <description value="Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-ethnicity"/>
+      </reference>
+      <name value="CDE Ethnicity"/>
+      <description value="Dieses CDE enthält die 'Ethnizität einer Person'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -832,6 +870,16 @@
       </reference>
       <name value="CDE Hemoglobin In Blood"/>
       <description value="Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-hip-circumference"/>
+      </reference>
+      <name value="CDE Hip Circumference"/>
+      <description value="Dieses CDE enhält den 'Hüftumfang'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -881,7 +929,7 @@
         <reference value="StructureDefinition/cde-sex-assigned-at-birth"/>
       </reference>
       <name value="CDE Sex Assigned At Birth"/>
-      <description value="Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht' einer Person."/>
+      <description value="Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -912,6 +960,26 @@
       </reference>
       <name value="CDE Smoking Status"/>
       <description value="Dieses CDE enthält den Raucherstatus einer Person"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-visit-date"/>
+      </reference>
+      <name value="CDE Visit Date"/>
+      <description value="Dieses CDE enhält das 'Datum der Untersuchung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-waist-circumference"/>
+      </reference>
+      <name value="CDE Waist Circumference"/>
+      <description value="Dieses CDE enhält den 'Taillenumfang'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1232,6 +1300,16 @@
       </reference>
       <name value="VS Binary Gender as Snomed"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für Männlich und Weiblich."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-ethnic-groups"/>
+      </reference>
+      <name value="VS Ethnic Groups"/>
+      <description value="Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

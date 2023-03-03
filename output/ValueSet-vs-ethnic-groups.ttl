@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "vs-ethnic-groups"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  372148003 (Ethnic group (ethnic group))</li></ul></div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ];
+         fhir:Extension.valueCanonical [
+           fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog";
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
+     fhir:Extension.valueCode [
+       fhir:value "informative";
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ];
+         fhir:Extension.valueCanonical [
+           fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog";
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+         ]
+       ]
+     ]
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups"]; # 
+  fhir:ValueSet.version [ fhir:value "0.2.0"]; # 
+  fhir:ValueSet.name [ fhir:value "VS_EthnicGroups"]; # 
+  fhir:ValueSet.title [ fhir:value "VS Ethnic Groups"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.date [ fhir:value "2023-03-03T15:59:45+01:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."]; # 
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ]; # 
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "is-a" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "372148003" ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

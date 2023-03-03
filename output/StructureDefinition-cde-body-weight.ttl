@@ -46,7 +46,7 @@
   fhir:StructureDefinition.name [ fhir:value "CDE_BodyWeight"]; # 
   fhir:StructureDefinition.title [ fhir:value "CDE Body Weight"]; # 
   fhir:StructureDefinition.status [ fhir:value "active"]; # 
-  fhir:StructureDefinition.date [ fhir:value "2023-03-03T12:59:12+01:00"^^xsd:dateTime]; # 
+  fhir:StructureDefinition.date [ fhir:value "2023-03-03T15:59:45+01:00"^^xsd:dateTime]; # 
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"]; # 
   fhir:StructureDefinition.contact [
      fhir:index 0;
