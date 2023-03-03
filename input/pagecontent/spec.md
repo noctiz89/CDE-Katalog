@@ -6,7 +6,7 @@ a. mögliche konzeptuelle Kategorien für "ethnische Gruppen" sind durch SNOMED-
 - entspricht der 
 
 
-b. An welcher Stelle können "interne Codes" als ValueDomain für die Kategorien definiert werden?
+b. An welcher Stelle können "interne Codes" als Value für die Kategorien definiert werden?
     - eventuell über QuestionnaireResponse ?
 
 ### [CDE Age At Diagnosis Of Essential Hypertension](StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html)
