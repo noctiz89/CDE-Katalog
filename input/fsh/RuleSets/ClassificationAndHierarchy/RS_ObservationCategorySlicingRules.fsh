@@ -1,5 +1,5 @@
 RuleSet: RS_ObservationCategorySlicingRules
-* category 1..* MS
+/* * category 1..* MS
 * category only CodeableConcept 
 * category ^slicing.discriminator.type = #value // {#pattern/#value/#type/#profile/#exists}
 * category ^slicing.discriminator.path = "coding" //{FHIRPath string}
@@ -9,3 +9,24 @@ RuleSet: RS_ObservationCategorySlicingRules
 
 // besser: #value, "coding" ...
 //e.g. #exists, "$this", #openAtEnd, true, "Slice based on the category exists for classificiation of dataelements."
+*/
+// Alternative Slicing Rule zur mehrfachen Klassifizierungen zuzulassen, Quelle: HL7 FHIR VitalSigns Profil:
+* category ..* MS
+* category only CodeableConcept
+* category ^slicing.discriminator[0].type = #value // {#pattern/#value/#type/#profile/#exists}
+* category ^slicing.discriminator[=].path = "coding.code" //{FHIRPath string}
+* category ^slicing.discriminator[+].type = #value
+* category ^slicing.discriminator[0].path = "coding.system" //{FHIRPath string}
+* category ^slicing.rules = #open // {#open/#closed/#openAtEnd}
+* category ^slicing.ordered = false // {true/false}
+* category ^slicing.description = "Slice based on the coding.code & coding.system to allow multiple classifications of data elements."
+
+
+* category ..* MS
+* category only CodeableConcept
+* category ^slicing.discriminator[0].type = #value  // {#pattern/#value/#type/#profile/#exists}
+* category ^slicing.discriminator[=].path = "$this.code" //{FHIRPath string}
+* category ^slicing.discriminator[+].type = #value
+* category ^slicing.discriminator[=].path = "$this.system" //{FHIRPath string}
+* category ^slicing.ordered = false // {true/false}
+* category ^slicing.rules = #open // {#open/#closed/#openAtEnd}

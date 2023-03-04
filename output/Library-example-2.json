@@ -3,7 +3,7 @@
     "type" : "Library",
     "identifier" : {
       "type" : "VersionedIdentifier",
-      "id" : "Common",
+      "id" : "example",
       "system" : "http://somewhere.org/fhir/uv/myig",
       "version" : "1.0.0"
     },

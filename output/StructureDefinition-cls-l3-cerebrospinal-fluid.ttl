@@ -43,7 +43,7 @@
   fhir:name [ fhir:v "CLS_L3_CerebrospinalFluid"] ; # 
   fhir:title [ fhir:v "CLS L3 Cerebrospinal Fluid"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-04T04:05:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-04T20:22:12+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -866,11 +866,14 @@
        fhir:slicing [
          fhir:discriminator ( [
            fhir:type [ fhir:v "value" ] ;
-           fhir:path [ fhir:v "coding" ]
+           fhir:path [ fhir:v "$this.code" ]
+         ] [
+           fhir:type [ fhir:v "value" ] ;
+           fhir:path [ fhir:v "$this.system" ]
          ] ) ;
-         fhir:description [ fhir:v "Slice based on the category.coding value for classificiation of data elements." ] ;
-         fhir:ordered [ fhir:v "true"^^xsd:boolean ] ;
-         fhir:rules [ fhir:v "openAtEnd" ]
+         fhir:description [ fhir:v "Slice based on the coding.code & coding.system to allow multiple classifications of data elements." ] ;
+         fhir:ordered [ fhir:v "false"^^xsd:boolean ] ;
+         fhir:rules [ fhir:v "open" ]
        ] ;
        fhir:short [ fhir:v "Classification of  type of observation" ] ;
        fhir:definition [ fhir:v "A code that classifies the general type of observation being made." ] ;

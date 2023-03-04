@@ -12,27 +12,30 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
 * insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
+// * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
 // Value_Domain (VD) via Observation.valueCodeableConcept
-* value[x] 1..1 MS
-* value[x] only CodeableConcept
-* value[x] ^slicing.discriminator.type = #type // d.h. Die Slices werden nach Typ des nominierten Elements unterschieden. 
-* value[x] ^slicing.discriminator.path = "$this"
-/*
-EXC: Caused by: org.hl7.fhir.exceptions.FHIRException: Unable to generate snapshot for http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth in D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth because Range [8, 4) out of bounds for length 4 
 
-EXC: Ein anderer discriminator.type oder discriminator.path führen hier zu einer Reihe von Exceptions bei der Generierung des Snapshot durch publisher.jar)
-Caused by: org.hl7.fhir.exceptions.FHIRException: Fehler bei Pfad Observation.value[x] in http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth: Typ-Slicing mit slicing.discriminator.path != '$this'
-*/
-* value[x] ^slicing.rules = #open // {#open/#closed/#openAtEnd}
-* value[x] ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
-* value[x] ^slicing.ordered = false
-/** value[x] contains
+
+/** value[x] 1..1 MS
+* value[x] only CodeableConcept
+* valueCodeableConcept 
+* value[x].coding ^slicing.discriminator.type = #pattern
+* value[x].coding ^slicing.discriminator.path = "code"
+* value[x].coding ^slicing.rules = #closed // {#open/#closed/#openAtEnd}
+* value[x].coding ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
+* value[x].coding ^slicing.ordered = false
+* value[x].coding contains
     male 0..1 MS and
     female 0..1 MS and
     intersex 0..1 MS
 * valueCodeableConcept[male].text = "Male"
 * valueCodeableConcept[male].coding 1..* MS
+* valueCodeableConcept[male].coding.system 1..1 MS
+* valueCodeableConcept[male].coding.code 1..1 MS
+* valueCodeableConcept[male].coding.display only string
+
+
+/*
 * valueCodeableConcept[male].coding.system = $SCT (exactly)
 * valueCodeableConcept[male].coding.code = #248153007 (exactly)
 * valueCodeableConcept[male].coding.display only string

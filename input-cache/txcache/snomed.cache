@@ -2291,3 +2291,121 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:78ff7fd5-d657-44d2-bb0b-3b57109f445d",
+    "timestamp" : "2023-03-04T14:52:19.597Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "248153007",
+      "display" : "Male"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "248152002",
+      "display" : "Female"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32570691000036108",
+      "display" : "Intersex"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:c59e640f-f063-4c90-a0ba-f9ca7cd1b3e1",
+    "timestamp" : "2023-03-04T14:57:18.582Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "248153007",
+      "display" : "Male"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "248152002",
+      "display" : "Female"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "32570691000036108",
+      "display" : "Intersex"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
