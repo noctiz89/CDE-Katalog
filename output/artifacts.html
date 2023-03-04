@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>FHIR.CDE-CATALOG\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Common Data Element Katalog</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - CI Build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Startseite</a></li>
+  <li><a href="toc.html">Inhaltsverzeichnis</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">IG Hintergrund<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="background.html">Hintergrund</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Spezifikation<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="spec.html">Detaillierte Spezifikation</a>
+      </li>
+      <li>
+        <a href="spec2.html">Anmerkungen zu CDEs</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="artifacts.html">FHIR Artefakte</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+</ul>      
+
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><b>Artifacts Summary</b></li>
+
+          <span style="float:right;">
+
+            <a href="changes.html">&lt;prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="Library-example-sql.html">next&gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Knowledge Artifacts: Libraries</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Logical Models</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Abstract Profiles</a>
+      </li>
+      <li>
+         <a href="#4">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#5">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#7">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#8">Example: Example Instances</a>
+      </li>
+      <li>
+         <a href="#9">Other</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Knowledge Artifacts: Libraries </h3>
+   <p>
+    <p>These define logic, asset collections and other libraries as part of content in this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Library-example-sql.html" title="Library/example-sql">Example Library</a>
+               </td>
+               <td>
+<p>A test example</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Library-example-image.html" title="Library/example-image">Example Library Image</a>
+               </td>
+               <td>
+<p>A test image example</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Library-example.html" title="Library/example">Example CQL Library</a>
+               </td>
+               <td>
+<p>Some example library</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Logical Models </h3>
+   <p>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MyLogical.html"
+                     title="StructureDefinition/MyLogical">My Logical Model</a>
+               </td>
+               <td>
+<p>Logical Model</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Abstract Profiles </h3>
+   <p>
+    <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-activity.html"
+                     title="StructureDefinition/cls-l0-activity">CLS L0 Social History</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Sozialanamnese’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-exam.html"
+                     title="StructureDefinition/cls-l0-exam">CLS L0 Exam</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-imaging.html"
+                     title="StructureDefinition/cls-l0-imaging">CLS L0 Imaging</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Bildgebung und bildgebende Verfahren’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-laboratory.html"
+                     title="StructureDefinition/cls-l0-laboratory">CLS L0 Laboratory</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Laboruntersuchungen’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-procedure.html"
+                     title="StructureDefinition/cls-l0-procedure">CLS L0 Procedure</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Prozeduren’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-social-history.html"
+                     title="StructureDefinition/cls-l0-social-history">CLS L0 Social History</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Sozialanamnese’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-survey.html"
+                     title="StructureDefinition/cls-l0-survey">CLS L0 Survey</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Beurteilungs- und Befragungsinstrumente’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-therapy.html"
+                     title="StructureDefinition/cls-l0-therapy">CLS L0 Therapy</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘nicht-interventionelle Behandlungsprotokolle’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l0-vital-signs.html"
+                     title="StructureDefinition/cls-l0-vital-signs">CLS L0 Vital Signs</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Vitalfunktionen’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-administrative-information.html"
+                     title="StructureDefinition/cls-l1-administrative-information">CLS L1 Administrative Information</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Administrative Informationen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-clinical-chemistry.html"
+                     title="StructureDefinition/cls-l1-clinical-chemistry">CLS L1 Clincial Chemistry</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Klinische Chemie’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-clinical-immunology.html"
+                     title="StructureDefinition/cls-l1-clinical-immunology">CLS L1 Clincial Immunology</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Klinische Immunologie’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-clinical-microbiology.html"
+                     title="StructureDefinition/cls-l1-clinical-microbiology">CLS L1 Clincial Microbiology</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Klinische Mikrobiologie’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-diseases-and-related-health-problems.html"
+                     title="StructureDefinition/cls-l1-diseases-and-related-health-problems">CLS L1 Diseases And Related Health Problems</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Krankheiten und krankheitsbezogene Probleme.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-health-related-behavior-and-lifestyle.html"
+                     title="StructureDefinition/cls-l1-health-related-behavior-and-lifestyle">CLS L1 Heatlh-related Behavior and Lifesytle</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Gesundheitsbezogenes Verhalten &amp; Lebensstil’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-physical-measurements-and-assessment.html"
+                     title="StructureDefinition/cls-l1-physical-measurements-and-assessment">CLS L1 Physical Measurements And Assessment</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Physikalische Messungen und Bewertungen.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-social-personal-details.html"
+                     title="StructureDefinition/cls-l1-social-personal-details">CLS L1 Social Personal Details</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Soziale / Persönliche Details’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l1-substance-level.html"
+                     title="StructureDefinition/cls-l1-substance-level">CLS L1 Substance Level</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Substanzspiegel’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l2-age-and-birth-date.html"
+                     title="StructureDefinition/cls-l2-age-and-birth-date">CLS L2 Age And Birth Date</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Alter und Geburtsdatum’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l2-gender.html"
+                     title="StructureDefinition/cls-l2-gender">CLS L2 Gender</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Geschlecht’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l2-specimen-type.html"
+                     title="StructureDefinition/cls-l2-specimen-type">CLS L2 Specimen</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Probentyp’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l3-age-at-diagnosis.html"
+                     title="StructureDefinition/cls-l3-age-at-diagnosis">CLS L3 Age At Diagnosis</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Alter bei Diagnose’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l3-blood.html"
+                     title="StructureDefinition/cls-l3-blood">CLS L3 Blood</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Blut’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l3-cerebrospinal-fluid.html"
+                     title="StructureDefinition/cls-l3-cerebrospinal-fluid">CLS L3 Cerebrospinal Fluid</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Cerebrospinal Flüssigkeit (CSF)’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l3-serum-or-plasma.html"
+                     title="StructureDefinition/cls-l3-serum-or-plasma">CLS L3 Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-l3-urine.html"
+                     title="StructureDefinition/cls-l3-urine">CLS L3 Urine</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Urin’.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mypatient.html"
+                     title="StructureDefinition/mypatient">My Favorite Patient Profile</a>
+               </td>
+               <td>
+<p>Overriding description because we can</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-myObservation.html"
+                     title="StructureDefinition/myObservation">My Observation Profile</a>
+               </td>
+               <td>
+<p>A profile showing the use of XML to author profiles</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html"
+                     title="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension">CDE Age At Diagnosis Of Essential Hypertension</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose ‘Essenzielle (primäre) Hypertonie’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-age-at-stopped-smoking.html"
+                     title="StructureDefinition/cde-age-at-stopped-smoking">CDE Age At Stopped Smoking</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘Alter’ in dem eine Person mit dem Rauchen aufgehört hat.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-age.html"
+                     title="StructureDefinition/cde-age">CDE Age</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘Alter’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-birth-date.html"
+                     title="StructureDefinition/cde-birth-date">CDE Birth Date</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘Geburtsdatum’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-blood-pressure-diastolic.html"
+                     title="StructureDefinition/cde-blood-pressure-diastolic">CDE Blood Pressure Diastolic</a>
+               </td>
+               <td>
+<p>Dieses CDE enthät den ‘systolischen Blutdruck’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-blood-pressure-systolic.html"
+                     title="StructureDefinition/cde-blood-pressure-systolic">CDE Blood Pressure Systolic</a>
+               </td>
+               <td>
+<p>Dieses CDE enthät den ‘systolischen Blutdruck’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-body-height.html"
+                     title="StructureDefinition/cde-body-height">CDE Body Height</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält die ‘Körpergröße’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-body-mass-index.html"
+                     title="StructureDefinition/cde-body-mass-index">CDE Body Mass Index</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den ‘Body Mass Index (BMI)’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-body-weight.html"
+                     title="StructureDefinition/cde-body-weight">CDE Body Weight</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘Körpergewicht’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-calcium-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-calcium-in-serum-or-plasma">CDE Calcium In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Calcium in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-chloride-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-chloride-in-serum-or-plasma">CDE Chloride In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Chlorid in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-creatinine-in-ser-or-plas.html"
+                     title="StructureDefinition/cde-creatinine-in-ser-or-plas">CDE Creatinine In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Kreatinin in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-current-age-calculated.html"
+                     title="StructureDefinition/cde-current-age-calculated">CDE Current Age Calculated</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘aktuelle Alter - berechnet’. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-current-age-reported.html"
+                     title="StructureDefinition/cde-current-age-reported">CDE Current Age Reported</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘aktuelle Alter - berichtet’. Alter zum Zeitpunkt der Befragung.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-date-of-diagnosis.html"
+                     title="StructureDefinition/cde-date-of-diagnosis">CDE Date Of Diagnosis</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘Datum der Diagnose’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-erythrocytes-in-blood.html"
+                     title="StructureDefinition/cde-erythrocytes-in-blood">CDE Erythrocytes In Blood</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Erytrhozyten in Blut</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-ethnicity.html"
+                     title="StructureDefinition/cde-ethnicity">CDE Ethnicity</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält die ‘Ethnizität’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-glasgow-coma-score.html"
+                     title="StructureDefinition/cde-glasgow-coma-score">CDE Glasgow Coma Score</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Glasgow Coma Score (GCS)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-glucose-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-glucose-in-serum-or-plasma">CDE Glucose In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Glukose in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-hematocrit-of-blood.html"
+                     title="StructureDefinition/cde-hematocrit-of-blood">CDE Hematocrit Of Blood</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Hämoglobin von Blut’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-hemoglobin-in-blood.html"
+                     title="StructureDefinition/cde-hemoglobin-in-blood">CDE Hemoglobin In Blood</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Hämoglobin in Blut’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-hip-circumference.html"
+                     title="StructureDefinition/cde-hip-circumference">CDE Hip Circumference</a>
+               </td>
+               <td>
+<p>Dieses CDE enhält den ‘Hüftumfang’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-leukocytes-in-blood.html"
+                     title="StructureDefinition/cde-leukocytes-in-blood">CDE Leukocytes In Blood</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Thrombozyten in Blut’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-magnesium-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-magnesium-in-serum-or-plasma">CDE Magnesium In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Magnesium in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-phosphate-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-phosphate-in-serum-or-plasma">CDE Phosphate In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Natrium in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-potassium-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-potassium-in-serum-or-plasma">CDE Potassium In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Kalium in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-sex-assigned-at-birth.html"
+                     title="StructureDefinition/cde-sex-assigned-at-birth">CDE Sex Assigned At Birth</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält das ‘bei Geburt zugewiesene Geschlecht’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-sodium-in-serum-or-plasma.html"
+                     title="StructureDefinition/cde-sodium-in-serum-or-plasma">CDE Sodium In Serum Or Plasma</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Natrium in Serum oder Plasma’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-thrombocytes-in-blood.html"
+                     title="StructureDefinition/cde-thrombocytes-in-blood">CDE Thrombocytes In Blood</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Messparameter ‘Thrombozyten in Blut’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-tobacco-smoking-status.html"
+                     title="StructureDefinition/cde-tobacco-smoking-status">CDE Smoking Status</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält den Raucherstatus einer Person</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-visit-date.html"
+                     title="StructureDefinition/cde-visit-date">CDE Visit Date</a>
+               </td>
+               <td>
+<p>Dieses CDE enhält das ‘Datum der Untersuchung’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-waist-circumference.html"
+                     title="StructureDefinition/cde-waist-circumference">CDE Waist Circumference</a>
+               </td>
+               <td>
+<p>Dieses CDE enhält den ‘Taillenumfang’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-poi-patient.html"
+                     title="StructureDefinition/poi-patient">POI Patient</a>
+               </td>
+               <td>
+<p>Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-poi-person.html"
+                     title="StructureDefinition/poi-person">POI Person</a>
+               </td>
+               <td>
+<p>Dieses Profil beschreibt eine Person von Interesse als Person.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-poi-research-subject.html"
+                     title="StructureDefinition/poi-research-subject">POI Research Subject</a>
+               </td>
+               <td>
+<p>Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-mypractitioner.html"
+                     title="StructureDefinition/mypractitioner">MyPractitionerName</a>
+               </td>
+               <td>
+<p>Description for the profile page</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ext-myExtension.html"
+                     title="StructureDefinition/ext-myExtension">MyExtension</a>
+               </td>
+               <td>
+<p>What this extension means.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-valueset-no-codesystem.html"
+                     title="ValueSet/valueset-no-codesystem">Value set for no code system</a>
+               </td>
+               <td>
+<p>A sample value set where there’s no known code system</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-valueset-fake.html" title="ValueSet/valueset-fake">ValueSet fake</a>
+               </td>
+               <td>
+<p>A fake value</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-administrative-gender.html"
+                     title="ValueSet/vs-administrative-gender">VS AdministrativeGender</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält Codes für das administrative Geschlecht.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-binary-decision-yes-or-no-as-snomed.html"
+                     title="ValueSet/vs-binary-decision-yes-or-no-as-snomed">VS Binary Decision Yes Or No as Snomed</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält Snomed-Codes für Ja oder Nein.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-biological-gender.html"
+                     title="ValueSet/vs-biological-gender">VS Biological Gender</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält Snomed-Codes für das ‘biologische Geschlecht’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-ethnic-groups.html" title="ValueSet/vs-ethnic-groups">VS Ethnic Groups</a>
+               </td>
+               <td>
+<p>Diese ValueSet enhält SNOMED-Codes für ‘ethnische Gruppen’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-glasgow-coma-scale-for-adults.html"
+                     title="ValueSet/vs-glasgow-coma-scale-for-adults">VS Glasgow Coma Scale For Adults</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-length-units.html" title="ValueSet/vs-length-units">VS Length Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für ‘Länge’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-mass-concentration-units.html"
+                     title="ValueSet/vs-mass-concentration-units">VS Mass Concentration Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für Massenkonzentration</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-mass-units.html" title="ValueSet/vs-mass-units">VS Mass Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für ‘Masse’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-missing-values-as-snomed.html"
+                     title="ValueSet/vs-missing-values-as-snomed">VS Missing Values As Snomed</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält Snomed-Codes für fehlende Werte.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-molar-concentration-units.html"
+                     title="ValueSet/vs-molar-concentration-units">VS Molar Concentration Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für Stoffmengenkonzentration</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-number-concentration-units.html"
+                     title="ValueSet/vs-number-concentration-units">VS Number Concentration Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für ‘Anzahl pro Volumen’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-smoking-status-as-snomed.html"
+                     title="ValueSet/vs-smoking-status-as-snomed">VS Smoking Status as Loinc</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält Snomed-Codes für den Raucherstatus.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-specimen-types.html"
+                     title="ValueSet/vs-specimen-types">VS Specimen Types</a>
+               </td>
+               <td>
+<p>LOINC Codes für ‘Probenmaterial’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-time-units.html" title="ValueSet/vs-time-units">VS Time Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für ‘Zeit’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-unity-units.html" title="ValueSet/vs-unity-units">VS Unity Units</a>
+               </td>
+               <td>
+<p>UCUM Codes für Gesamtheit (auch ‘Eins-Element’).</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="7"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-cs-fake.html" title="CodeSystem/cs-fake">CodeSystem fake</a>
+               </td>
+               <td>
+<p>A fake code system</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="8"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-example.html" title="Patient/example">Simple patient example</a>
+               </td>
+               <td>
+<p>A simple example showing how examples are defined and referenced</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-example.html" title="Observation/example">Observation patient example</a>
+               </td>
+               <td>
+<p>Example showing slicing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Binary-logical-example.html" title="Binary/logical-example">Example of Logical Model</a>
+               </td>
+               <td>
+<p>Example showing example content for a logical model</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="9"> </a>
+   <h3>Other </h3>
+   <p>
+    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Binary-example.html" title="Binary/example">Example binary</a>
+               </td>
+               <td>
+<p>Example showing binary content</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Binary-image-example.html" title="Binary/image-example">Example of Binary Image</a>
+               </td>
+               <td>
+<p>Example showing example content for an image</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:left">&#xA0;
+
+                <a href="changes.html">&lt;prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:right">&#xA0;
+
+                <a href="Library-example-sql.html">next&gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Mar 4, 2023 03:06+0100">2023-03-04</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,98 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-molar-concentration-units"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>umol/L</td><td>umol/L</td></tr><tr><td>mmol/L</td><td>mmol/L</td></tr><tr><td>fmol/mL</td><td>fmol/mL</td></tr><tr><td>pmol/mL</td><td>pmol/mL</td></tr><tr><td>nmol/mL</td><td>nmol/mL</td></tr><tr><td>umol/mL</td><td>umol/mL</td></tr><tr><td>mol/mL</td><td>mol/mL</td></tr><tr><td>pmol/dL</td><td>pmol/dL</td></tr><tr><td>nmol/dL</td><td>nmol/dL</td></tr><tr><td>umol/dL</td><td>umol/dL</td></tr><tr><td>mmol/dL</td><td>mmol/dL</td></tr><tr><td>pmol/L</td><td>pmol/L</td></tr><tr><td>nmol/L</td><td>nmol/L</td></tr><tr><td>mol/L</td><td>mol/L</td></tr><tr><td>mol/m3</td><td>mol/m3</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_MolarConcentrationUnits"] ; # 
+  fhir:title [ fhir:v "VS Molar Concentration Units"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-03-04T03:06:34+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "UCUM Codes für Stoffmengenkonzentration"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "umol/L" ]
+       ] [
+         fhir:code [ fhir:v "mmol/L" ]
+       ] [
+         fhir:code [ fhir:v "fmol/mL" ]
+       ] [
+         fhir:code [ fhir:v "pmol/mL" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mL" ]
+       ] [
+         fhir:code [ fhir:v "umol/mL" ]
+       ] [
+         fhir:code [ fhir:v "mol/mL" ]
+       ] [
+         fhir:code [ fhir:v "pmol/dL" ]
+       ] [
+         fhir:code [ fhir:v "nmol/dL" ]
+       ] [
+         fhir:code [ fhir:v "umol/dL" ]
+       ] [
+         fhir:code [ fhir:v "mmol/dL" ]
+       ] [
+         fhir:code [ fhir:v "pmol/L" ]
+       ] [
+         fhir:code [ fhir:v "nmol/L" ]
+       ] [
+         fhir:code [ fhir:v "mol/L" ]
+       ] [
+         fhir:code [ fhir:v "mol/m3" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

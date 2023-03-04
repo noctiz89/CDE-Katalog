@@ -17,7 +17,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * value[x] ^slicing.discriminator.type = #value
-* value[x] ^slicing.discriminator.path = "valueCodeableConcept"
+* value[x] ^slicing.discriminator.path = "valueCodeableConcept.coding"
 * value[x] ^slicing.rules = #closed // {#open/#closed/#openAtEnd}
 * value[x] ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
 * value[x] ^slicing.ordered = false
