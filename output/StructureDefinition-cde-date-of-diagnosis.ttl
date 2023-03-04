@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_DateOfDiagnosis"] ; # 
   fhir:title [ fhir:v "CDE Date Of Diagnosis"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-04T03:06:34+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-04T04:05:22+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

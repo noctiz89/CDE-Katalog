@@ -16,12 +16,18 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Value_Domain (VD) via Observation.valueCodeableConcept
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* value[x] ^slicing.discriminator.type = #value
-* value[x] ^slicing.discriminator.path = "valueCodeableConcept.coding"
-* value[x] ^slicing.rules = #closed // {#open/#closed/#openAtEnd}
+* value[x] ^slicing.discriminator.type = #type // d.h. Die Slices werden nach Typ des nominierten Elements unterschieden. 
+* value[x] ^slicing.discriminator.path = "$this"
+/*
+EXC: Caused by: org.hl7.fhir.exceptions.FHIRException: Unable to generate snapshot for http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth in D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth because Range [8, 4) out of bounds for length 4 
+
+EXC: Ein anderer discriminator.type oder discriminator.path führen hier zu einer Reihe von Exceptions bei der Generierung des Snapshot durch publisher.jar)
+Caused by: org.hl7.fhir.exceptions.FHIRException: Fehler bei Pfad Observation.value[x] in http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth: Typ-Slicing mit slicing.discriminator.path != '$this'
+*/
+* value[x] ^slicing.rules = #open // {#open/#closed/#openAtEnd}
 * value[x] ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
 * value[x] ^slicing.ordered = false
-* value[x] contains
+/** value[x] contains
     male 0..1 MS and
     female 0..1 MS and
     intersex 0..1 MS
