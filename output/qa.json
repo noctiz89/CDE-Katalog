@@ -3,10 +3,8 @@
   "name" : "CDEKatalog",
   "package-id" : "fhir.cde-catalog",
   "ig-ver" : "0.2.0",
-  "date" : "Sat, 04 Mar, 2023 00:41:34 +0100",
-  "errs" : 12,
-  "warnings" : 90,
-  "hints" : 13,
+  "date" : "Sat, 04 Mar, 2023 02:47:58 +0100",
+  "exception" : "Error generating snapshot for D:\\CDE-Katalog\\fsh-generated\\resources\\StructureDefinition-cde-sex-assigned-at-birth(cde-sex-assigned-at-birth): Unable to generate snapshot for http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth in D:\\CDE-Katalog\\fsh-generated\\resources\\StructureDefinition-cde-sex-assigned-at-birth because Range [8, 4) out of bounds for length 4",
   "version" : "4.0.1",
-  "tool" : "5.0.0-snapshot2 (3)"
+  "tool" : "5.0.0-draft-final (3)"
 }

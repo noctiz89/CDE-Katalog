@@ -14,12 +14,50 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
 // Value_Domain (VD) via Observation.valueCodeableConcept
+* value[x] 1..1 MS
+* value[x] only CodeableConcept
+* value[x] ^slicing.discriminator.type = #value
+* value[x] ^slicing.discriminator.path = "valueCodeableConcept"
+* value[x] ^slicing.rules = #closed // {#open/#closed/#openAtEnd}
+* value[x] ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
+* value[x] ^slicing.ordered = false
+* value[x] contains
+    male 0..1 MS and
+    female 0..1 MS and
+    intersex 0..1 MS
+* valueCodeableConcept[male].text = "Male"
+* valueCodeableConcept[male].coding 1..* MS
+* valueCodeableConcept[male].coding.system = $SCT (exactly)
+* valueCodeableConcept[male].coding.code = #248153007 (exactly)
+* valueCodeableConcept[male].coding.display only string
+* valueCodeableConcept[female].text = "Female"
+* valueCodeableConcept[female].coding 1..* MS
+* valueCodeableConcept[female].coding.system = $SCT (exactly)
+* valueCodeableConcept[female].coding.code = #248152002 (exactly)
+* valueCodeableConcept[female].coding.display only string
+* valueCodeableConcept[intersex].text = "Intersex"
+* valueCodeableConcept[intersex].coding 1..* MS
+* valueCodeableConcept[intersex].coding.system = $SCT (exactly)
+* valueCodeableConcept[intersex].coding.code = #32570691000036108 (exactly)
+* valueCodeableConcept[intersex].coding.display only string
+
+/* * valueCodeableConcept 1..* MS
+* valueCodeableConcept ^slicing.discriminator.type = #value
+* valueCodeableConcept ^slicing.discriminator.path = "coding"
+* valueCodeableConcept ^slicing.rules = #closed // {#open/#closed/#openAtEnd}
+* valueCodeableConcept ^slicing.description = "Slice based on the category.coding value for classificiation of data elements."
+* valueCodeableConcept ^slicing.ordered = false
+* valueCodeableConcept contains
+    male 0..* MS and
+    female 0..* MS and
+    non-binary 0..* MS
+
 * valueCodeableConcept 1..1 MS
 * valueCodeableConcept from VS_BinaryGender (extensible)
+*/
 
 
-
-//* insert RS_ObservationComponentSlicingRules
+// insert RS_ObservationComponentSlicingRules
 /* !!! mit hasMember und derivedFrom kann eine Reference zu einer anderen Observation und QuestionnaireResponse hergestellt werden.
     - hasMember "Zugehörige Ressource, die zur Beobachtungsgruppe gehört"
     - derivedFrom "Verwandte Messungen, aus denen die Beobachtung gemacht wird"
