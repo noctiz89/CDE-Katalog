@@ -1,47 +1,60 @@
-# Anmerkungen zu CDEs
+# Notizen und konzeptuelles Vorgehen
 
-### [CDE Ethnicity](StructureDefinition-cde-sex-assigned-at-birth.html)
+## Conceptual_Domain (CD) = Observation.category
+    * Slicing von Observation.category
+        * Discriminator-Typ = #value
+        * Diskriminator-Pfad = "coding"
+        * Slicing Regel = #openAtEnd
+        * Slicing Ordnung = true
+    * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
+    * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet, z.B.:
+        * für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
+        ![Hierarchy of Data Element Concept Age](hierarchy-of-DEC-Age.png)
 
-* EXC: Caused by: org.hl7.fhir.exceptions.FHIRException: Unable to generate snapshot for http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth in D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth because Range [8, 4) out of bounds for length 4 
+        * für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
+        ![Hierarchy of Data Element Concept Body Mass Index](hierarchy-of-DEC-BodyMassIndex.png)
+    * ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute
 
-* EXC: Ein anderer discriminator.type oder discriminator.path führen hier zu einer Reihe von Exceptions bei der Generierung des Snapshot durch publisher.jar)
-Caused by: org.hl7.fhir.exceptions.FHIRException: Fehler bei Pfad Observation.value[x] in http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth: Typ-Slicing mit slicing.discriminator.path != '$this'
+## Data_Element_Concept (DEC) = Observation.code
+    * Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe
+    * Observation.code.coding.code ~ entsprechender Code aus verwendeter Terminolgie
+    * Observation.code.text ~ bevorzugter Text für Terminologie-Code
+        * z.B. DEC "Body mass Index (BMI)"
+        system = http://loinc.org
+        code = 39156-5
+        text = "Body mass index BMI [Ratio]"
 
+## Value_Domain (VD) mit value[x]
+    * Unterscheidung von quantitativer (messbar / zählbar) und qualitativer (nominal / ordinal) VD
 
+### valueQuantity (Typ Quantity) ~ quantitativ, messbare Value_Domain
+    * Quantity.value ~ ist der eigentliche Wert den das Datenelement misst
+    * Quantity.system, Quantity.code ~ stellen die Einheit des Messwerts dar (maschinenlesbar)
+    * z.B. das Data_Element_Concept "Größe"
+        * im Allgemeinen ist mit "Größe" die Körpergröße einer Person, also die Länge von Kopf bis Fuß gemeint, jedoch kann die VD natürlich für alles verwendet werden, was man physikalisch messen kann
+        * daher wurden hier die üblichen Längenmaßeinheiten des metrischen Systems (Kilometer, Meter, Zentimeter, Millimeter usw.) mit [UCUM-Codes](http://unitsofmeasure.org) definiert und in einem ValueSet zusammengefasst und mit FHIR auf "required" gesetzt
+        * dabei werden bei dem CDE_BodyHeight die Maßeinheiten 'cm' oder 'm' (aus dem ValueSet) empfohlen 
+        * in anderen Fällen, wie z.B. CDE_BodyWeight ist nur die Maßeinheit "kg" zulässig
+    * Quantity.unit ~ menschenlesbare Einheit als string. Es ist fixer Wert vorgegeben, aber muss angegben werden (Kardinalität 1..1). 
+        z.B. "Kilogramm", "kg", "kilogramo" (spanisch) oder auch "公斤" (chinesisch, traditionell)
 
+### valueInteger (Typ integer) ~ quantitativ, zählbare Value_Domain
+    * es ist fraglich, ob eine solche Unterscheidung notwendig ist 
+    * die Idee: 
+        * der Unterschied zur "messbaren VD" ist, dass es keine übliche Maßeinheiten gibt, sondern die Anzahl von 'Dingen' eine Rolle spielt, wie z.B. die "Anzahl der Grippefälle" in einem Zeitraum
+        * der Unterschied zur "ordinalen VD" ist, dass hier die Berechnung von statistischen Größen, wie Mittelwert, Standardabweichung etc. sinnvoll sein kann
+    * TODO: ein Beispiel 
 
-### [CDE Ethnicity](StructureDefinition-cde-ethnicity.html)
-a. Allgemeines zu qualitativen / kategorialen CDEs
-    * enumeratedValueDomain ~ einer Auswahl an häufigen Qualifiern/Kategorien (= Konzepte)
-    * z.B. Ethnizität [Kaukasisch (1), Mediterran (2) Schwarzafrikanisch (3), Asiatisch (4) Lateinamerikanisch (5) Andere (6)]]
-        * wobei die "internen" Codes (1-6) nicht im CDE verwendet werden, sondern stattdessen:
-        * aus einer Terminologie (SNOMED) wird der entsprechende Code + dem bevorzugtem Displayname verwendet
-        * praktisch sieht das so aus:
-        Observation.valueCodeableConcept.coding = $SCT#
+### valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain
+    * Idee anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"
+        * maximal 1 von 3 Ausprägungen möglich: männlich | weiblich | intersexuell
+        * die Konzepte werden mit SNOMED codiert und sind zwingend erforderlich (required),
+        * Text entspricht dem bevorzugten Term von SNOMED und bleibt unverändert (da englisch und deshalb allgemein verständlich)
+            
+        * bisher folgende Festlegungen in FHIR:
+            * Observation.value[x] only CodeableConcept [0..1] (Kardinalität 0, da für fehlende Werte stets ein dataAbsentReason möglich sein soll)
+            * ValueSet mit den 3 Ausprägungen SNOMED-Code + Text
 
-
-b. Observation.code.coding mit LOINC-Code festgelegt und entspricht dem Data_Element_Concept (DEC)
-
-
-
-c. mögliche konzeptuelle Kategorien für "ethnische Gruppen" sind durch SNOMED-Codes vorgegeben
-* alle Codes die laut SNOMED zum Konzept ("is-a") #372148003 Ethnic Group gehören sind zulässig [VS_EthnicGroups](ValueSet-vs-ethnic-groups.html)
-
-
-
-d. An welcher Stelle können "interne Codes" als Value für die Kategorien definiert werden?
-    * eventuell über QuestionnaireResponse ?
-
-### [CDE Age At Diagnosis Of Essential Hypertension](StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html)
-a. Dieses CDE wurde erstellt, weil der Schlüssel ICD-10 I10 für Essenzielle (primäre) Hypertonie zu den 100 häufigsten Diagnosen im Jahr 2020 gehörte. Quelle: https://www.kvno.de/fileadmin/shared/pdf/online/verordnungen/morbiditaetsstatistik/100icd_20-3.pdf
-
-b. Erweiterung um weitere Componenten denkbar, z.B.:
-* "Diagnosesicherheit"
-* wenn Diagnosedatum fehlt, muss angegeben werden warum. ("Diagnose liegt/lag vor, aber Datum unbekannt", "Es liegt/lag keine  entsprechende Diagnose", "Nicht erfragt/erfasst")
-
-c. "Datum der Diagnose" und andere möglichen Components könnte man auch als eigenes CDEs umsetzen und hier nur als "Datentyp" verwenden. (siehe ![CDE])
-
-### [CDE Current Age Calculated](StructureDefinition-cde-current-age-calculated.html)
-a. erste Verknüpfung zwischen zwei CDEs erstellt
-* derivedFrom Reference(CDE_BirthDate)
-* schöner wäre es, wenn man festlegen könnte, dass der Value für effectivePeriod ein "CDE-BirthDate" sein muss
+        * es soll aber möglich sein an die jeweilige Kategorie, z.B. männlich - weitere Codierungen, wie z.B. LOINC anzuhängen
+    Für die Unterscheidung von  soll der gegebene Snomed-Codes erforderlich sein! Es soll aber möglich sein, die entsprechenden Konzepte zu erweitern. 
+z.B. "

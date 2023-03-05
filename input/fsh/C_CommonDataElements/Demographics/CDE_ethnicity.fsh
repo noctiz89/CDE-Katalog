@@ -47,6 +47,10 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[caucasian].code.coding[caucasianUMLSCode].code = #C0043157 (exactly)
 * component[caucasian].code.coding[caucasianUMLSCode].system = $UMLS (exactly)
 * component[caucasian].code.coding[caucasianUMLSCode] ^sliceName = "CaucasianUMLSCode"
+// TEST: valueInteger (1) für Caucasian
+* component[caucasian].valueInteger 0..1 MS
+* component[caucasian].valueInteger.value = 1
+* component[caucasian].valueInteger ^definition = "German Center for Diabetes Research (DZD)"
 // Categorial Concept: "Mediterranean"
 * component[mediterranean].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[mediterranean].code ^alias[0] = "South European People"
@@ -69,9 +73,9 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[mediterranean].code.coding[mediterraneanUMLSCode] ^sliceName = "mediterraneanUMLSCode"
 // Categorial Concept: "Black African"
 * component[blackAfrican].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
-* component[blackAfrican].code ^alias[0] = "Black or Arfrican American"
+* component[blackAfrican].code ^alias[0] = "Black or African American"
 * component[blackAfrican].code ^alias[+] = "Schwarzafrikanisch"
-* component[blackAfrican].code ^short = "Intersex"
+* component[blackAfrican].code ^short = "African"
 * component[blackAfrican].code ^definition = "Black african ethic group"
 * component[blackAfrican].code.coding ^slicing.discriminator.type = #value
 * component[blackAfrican].code.coding ^slicing.discriminator.path = "code"
@@ -87,3 +91,30 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[blackAfrican].code.coding[blackAfricanUMLSCode].code = #C0085756 (exactly)
 * component[blackAfrican].code.coding[blackAfricanUMLSCode].system = $UMLS (exactly)
 * component[blackAfrican].code.coding[blackAfricanUMLSCode] ^sliceName = "BlackAfricanUMLSCode"
+// Categorial Concept: "Asian"
+* component[asian].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
+* component[asian].code ^alias[0] = "Asian"
+* component[asian].code ^alias[+] = "Asiatisch"
+* component[asian].code ^short = "East or Southeast Asian"
+* component[asian].code ^definition = "Asian ethic group"
+* component[asian].code.coding ^slicing.discriminator.type = #value
+* component[asian].code.coding ^slicing.discriminator.path = "code"
+* component[asian].code.coding ^slicing.rules = #open
+* component[asian].code.coding ^slicing.ordered = false
+* component[asian].code.coding contains
+    asianSNOMEDCode 1..1 and
+    asianUMLSCode 1..1 MS and
+    asianLOINCCode 1..1
+* component[asian].code.coding[asianSNOMEDCode].code = #315280000 (exactly)
+* component[asian].code.coding[asianSNOMEDCode].system = $SCT (exactly)
+* component[asian].code.coding[asianSNOMEDCode] ^sliceName = "AsianSNOMEDCode"
+* component[asian].code.coding[asianUMLSCode].code = #C0078988 (exactly)
+* component[asian].code.coding[asianUMLSCode].system = $UMLS (exactly)
+* component[asian].code.coding[asianUMLSCode] ^sliceName = "AsianUMLSCode"
+// Categorial Concept: "Other"
+* component[other].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
+* component[other].code ^alias[0] = "Other"
+* component[other].code ^alias[+] = "Andere"
+* component[other].code ^short = ""
+* component[other].code ^definition = "Other ethic group"
+* component[other].code.coding from VS_EthnicGroups (required)

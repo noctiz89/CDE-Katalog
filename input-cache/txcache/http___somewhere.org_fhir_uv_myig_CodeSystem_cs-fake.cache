@@ -16,32 +16,6 @@
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:5e75d8bb-fa32-4a4c-bcde-900616b1db5e",
-    "timestamp" : "2023-03-05T01:27:25.003Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"
-    }],
-    "contains" : [{
-      "system" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
-      "code" : "01",
-      "display" : "VS2"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Range check error"
 }
 -------------------------------------------------------------------------------------

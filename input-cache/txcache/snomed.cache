@@ -2429,3 +2429,35 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "372148003",
+        "display" : "Ethnic group (ethnic group)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Range check error"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Range check error"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "315280000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Error from server: Range check error",
+  "class" : "SERVER_ERROR"
+}
+-------------------------------------------------------------------------------------

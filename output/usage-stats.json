@@ -15,10 +15,6 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/StructureDefinition/vitalsigns",
-        "title": "Vital Signs Profile"
-      },
-      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
         "title": "CDE Age"
       },
@@ -351,13 +347,6 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
-      "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/build/StructureDefinition/definition": [
-      "StructureDefinition.differential.element.binding",
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/build/StructureDefinition/summary": [
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [

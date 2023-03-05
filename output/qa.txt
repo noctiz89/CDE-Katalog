@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 91, info = 13
+err = 11, warn = 90, info = 13
 IG Publisher Version: 1.2.39
-Generated Sun Mar 05 02:39:36 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 21 / 4 / 0
+Generated Sun Mar 05 18:07:07 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
@@ -66,11 +66,10 @@ Generated Sun Mar 05 02:39:36 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-vitalsigns : 2 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 1 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 1 / 1
@@ -101,26 +100,6 @@ Generated Sun Mar 05 02:39:36 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
 </table>
 == n/a ==
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 788, column 6: The link 'valueset-observation-status.html' for "ObservationStatus" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 804, column 6: The link 'valueset-observation-vitalsignresult.html' for "Vital Signs" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 820, column 19: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 820, column 89: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 823, column 47: The link 'valueset-data-absent-reason.html' for "Observation Value Absent Reason" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 835, column 77: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/ul/li/a at Line 837, column 6: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 850, column 19: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 850, column 89: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 853, column 57: The link 'valueset-data-absent-reason.html' for "Observation Value Absent Reason" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 1335, column 6: The link 'valueset-observation-status.html' for "ObservationStatus" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1351, column 6: The link 'valueset-observation-vitalsignresult.html' for "Vital Signs" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1367, column 19: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1367, column 89: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 1370, column 47: The link 'valueset-data-absent-reason.html' for "Observation Value Absent Reason" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1382, column 77: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/ul/li/a at Line 1384, column 6: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1397, column 19: The link 'terminologies.html#extensible' for "extensible" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/ul/li/a at Line 1397, column 89: The link 'valueset-ucum-vitals-common.html' for "Vital Signs Units" cannot be resolved
-ERROR: D:\CDE-Katalog\output\StructureDefinition-vitalsigns.html#/html/body/div/div/div/div/div/div/div/div/div/ol/li/ul/li/a at Line 1400, column 57: The link 'valueset-data-absent-reason.html' for "Observation Value Absent Reason" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -159,7 +138,7 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
-ERROR: StructureDefinition/cde-ethnicity: StructureDefinition.differential.element[62]: Rule eld-18: 'Must have a modifier reason if isModifier = true' Failed
+ERROR: StructureDefinition/cde-ethnicity: StructureDefinition.differential.element[73]: Rule eld-18: 'Must have a modifier reason if isModifier = true' Failed
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
@@ -254,10 +233,6 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
 INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-vitalsigns.json ==
-ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/vitalsigns'): Conformance resource D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-vitalsigns.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/vitalsigns) does not match the URL (http://hl7.org/fhir/StructureDefinition/vitalsigns)
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/vitalsigns'): The Implementation Guide contains no examples for this profile
-ERROR: D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-vitalsigns: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/vitalsigns vs http://hl7.org/fhir/StructureDefinition/vitalsigns
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed.json ==
@@ -266,6 +241,7 @@ WARNING: ValueSet/vs-binary-decision-yes-or-no-as-snomed: ValueSet: The Shareabl
 WARNING: ValueSet/vs-biological-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
 WARNING: ValueSet/vs-ethnic-groups: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: ValueSet.where(id = 'vs-ethnic-groups'): Error from server: Range check error
 == fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
 WARNING: ValueSet/vs-glasgow-coma-scale-for-adults: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-length-units.json ==
