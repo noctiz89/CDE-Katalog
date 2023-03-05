@@ -1,5 +1,12 @@
 [
   {
+    "id" : "vitalsigns",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/StructureDefinition/vitalsigns",
+    "version" : "0.2.0",
+    "name" : "ObservationVitalSigns"
+  },
+  {
     "id" : "cs-fake",
     "type" : "CodeSystem",
     "url" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",

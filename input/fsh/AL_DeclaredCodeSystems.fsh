@@ -1,6 +1,6 @@
 // CDE Semantic Model Implementation
 Alias:  $EFO =  http://www.ebi.ac.uk/efo
-Alias:  $NCIT = https://ontobee.org/ontology/NCIT
+Alias:  $NCIT = http://terminology.hl7.org/NamingSystem/v3-nciThesaurus
 Alias:  $OBO = http://purl.obolibrary.org/obo
 
 // External Code Systems

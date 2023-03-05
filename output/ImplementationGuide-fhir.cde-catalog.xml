@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-04T20:22:12+01:00"/>
+  <date value="2023-03-05T01:48:17+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -1262,6 +1262,16 @@
       </reference>
       <name value="POI Research Subject"/>
       <description value="Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vitalsigns"/>
+      </reference>
+      <name value="Vital Signs Profile"/>
+      <description value="FHIR Vital Signs Profile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

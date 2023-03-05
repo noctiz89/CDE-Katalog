@@ -12,7 +12,7 @@ RuleSet: RS_CreateDataElementConcept(codeSystem, code, displayText)
 //* code.coding[{conceptName}Code].code 1..1
 //* code.coding[{conceptName}Code].code only code
 //* code.coding[{conceptName}Code].code = #{code} (exactly)
-
+//
 //WARUM SLICING??!! macht eigentlich keinen Sinn
 * code 1..1 MS SU
 * code only CodeableConcept

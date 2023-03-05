@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-04T20:22:12+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-05T01:48:17+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1418,6 +1418,17 @@
        ] ;
        fhir:name [ fhir:v "POI Research Subject" ] ;
        fhir:description [ fhir:v "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/vitalsigns> ;
+         fhir:reference [ fhir:v "StructureDefinition/vitalsigns" ]
+       ] ;
+       fhir:name [ fhir:v "Vital Signs Profile" ] ;
+       fhir:description [ fhir:v "FHIR Vital Signs Profile" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

@@ -1,6 +1,6 @@
 Alias: $vitalsigns = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
-Profile: observation-vitalsigns
+Profile: ObservationVitalSigns
 Parent: Observation
 Id: vitalsigns
 Title: "Vital Signs Profile"

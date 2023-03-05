@@ -6,14 +6,86 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
 * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(SnomedCTConcept_RT_CTV3, $SCT, 138875005)
+* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
 * insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
 * insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
 * insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
 * insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
 // Data_Element_Concept (DEC) via Observation.code
-// * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
-// Value_Domain (VD) via Observation.valueCodeableConcept
+* insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
+// Value_Domain (VD) via Observation.component
+* valueCodeableConcept 0..0 // value[x].CodeableConcept not allowed!
+* component ^slicing.discriminator.type = #value
+* component ^slicing.discriminator.path = "code.coding.code"
+* component ^slicing.rules = #open
+* component ^slicing.description = "Slice basiert auf component.code.coding.code #value"
+* component ^slicing.ordered = false
+* component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "valueCodeableConcept"
+* component contains
+    male 0..* and
+    female 0..* and
+    intersex 0..*
+// Categorial Concept: "Male"
+* component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
+* component[male].code ^alias[0] = "masculine"
+* component[male].code ^alias[+] = "männlich"
+* component[male].code ^short = "Male sex"
+* component[male].code ^definition = "Biological male sex"
+* component[male].code.coding ^slicing.discriminator.type = #value
+* component[male].code.coding ^slicing.discriminator.path = "code"
+* component[male].code.coding ^slicing.rules = #open
+* component[male].code.coding ^slicing.ordered = false
+* component[male].code.coding contains
+    maleSNOMEDCode 1..1 MS and
+    maleUMLSCode 1..1 MS and
+    maleLOINCCode 1..1
+* component[male].code.coding[maleSNOMEDCode].code = #248153007 (exactly)
+* component[male].code.coding[maleSNOMEDCode].system = $SCT (exactly)
+* component[male].code.coding[maleSNOMEDCode] ^sliceName = "MaleSNOMEDCode"
+* component[male].code.coding[maleUMLSCode].code = #C1706180 (exactly)
+* component[male].code.coding[maleUMLSCode].system = $UMLS (exactly)
+* component[male].code.coding[maleUMLSCode] ^sliceName = "MaleUMLSCode"
+// Categorial Concept: "Female"
+* component[female].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
+* component[female].code ^alias[0] = "feminine"
+* component[female].code ^alias[+] = "weiblich"
+* component[female].code ^short = "Female sex"
+* component[female].code ^definition = "Biological female sex"
+* component[female].code.coding ^slicing.discriminator.type = #value
+* component[female].code.coding ^slicing.discriminator.path = "code"
+* component[female].code.coding ^slicing.rules = #open
+* component[female].code.coding ^slicing.ordered = false
+* component[female].code.coding contains
+    femaleSNOMEDCode 1..1 MS and
+    femaleUMLSCode 1..1 MS and
+    femaleLOINCCode 1..1
+* component[female].code.coding[femaleSNOMEDCode].code = #248152002 (exactly)
+* component[female].code.coding[femaleSNOMEDCode].system = $SCT (exactly)
+* component[female].code.coding[femaleSNOMEDCode] ^sliceName = "FemaleSNOMEDCode"
+* component[female].code.coding[femaleUMLSCode].code = #C0015780 (exactly)
+* component[female].code.coding[femaleUMLSCode].system = $UMLS (exactly)
+* component[female].code.coding[femaleUMLSCode] ^sliceName = "FemaleUMLSCode"
+// Categorial Concept: "Intersex"
+* component[intersex].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
+* component[intersex].code ^alias[0] = "non-binary"
+* component[intersex].code ^alias[+] = "divers"
+* component[intersex].code ^short = "Intersex"
+* component[intersex].code ^definition = "Biological intersexuality"
+* component[intersex].code.coding ^slicing.discriminator.type = #value
+* component[intersex].code.coding ^slicing.discriminator.path = "code"
+* component[intersex].code.coding ^slicing.rules = #open
+* component[intersex].code.coding ^slicing.ordered = false
+* component[intersex].code.coding contains
+    intersexSNOMEDCode 1..1 and
+    intersexUMLSCode 1..1 MS and
+    intersexLOINCCode 1..1
+* component[intersex].code.coding[intersexSNOMEDCode].code = #32570691000036108 (exactly)
+* component[intersex].code.coding[intersexSNOMEDCode].system = $SCT (exactly)
+* component[intersex].code.coding[intersexSNOMEDCode] ^sliceName = "IntersexSNOMEDCode"
+* component[intersex].code.coding[intersexUMLSCode].code = #C1704620 (exactly)
+* component[intersex].code.coding[intersexUMLSCode].system = $UMLS (exactly)
+* component[intersex].code.coding[intersexUMLSCode] ^sliceName = "IntersexUMLSCode"
+
 
 
 /** value[x] 1..1 MS

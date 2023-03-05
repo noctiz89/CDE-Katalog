@@ -30,7 +30,7 @@
   "name" : "CLS_L1_SocialPersonalDetails",
   "title" : "CLS L1 Social Personal Details",
   "status" : "draft",
-  "date" : "2023-03-04T20:22:12+01:00",
+  "date" : "2023-03-05T01:48:17+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -834,15 +834,11 @@
       "slicing" : {
         "discriminator" : [{
           "type" : "value",
-          "path" : "$this.code"
-        },
-        {
-          "type" : "value",
-          "path" : "$this.system"
+          "path" : "coding.code"
         }],
         "description" : "Slice based on the coding.code & coding.system to allow multiple classifications of data elements.",
-        "ordered" : false,
-        "rules" : "open"
+        "ordered" : true,
+        "rules" : "openAtEnd"
       },
       "short" : "Classification of  type of observation",
       "definition" : "A code that classifies the general type of observation being made.",
@@ -1051,20 +1047,12 @@
     },
     {
       "id" : "Observation.category:SocialHistory.coding",
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "normative"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-        "valueCode" : "4.0.0"
-      }],
       "path" : "Observation.category.coding",
       "short" : "Code defined by a terminology system",
       "definition" : "A reference to a code defined by a terminology system.",
       "comment" : "Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.",
       "requirements" : "Allows for alternative encodings within a code system, and translations to other code systems.",
-      "min" : 0,
+      "min" : 1,
       "max" : "*",
       "base" : {
         "path" : "CodeableConcept.coding",
@@ -1083,6 +1071,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1205,7 +1194,7 @@
       "definition" : "The identification of the code system that defines the meaning of the symbol in the code.",
       "comment" : "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.",
       "requirements" : "Need to be unambiguous about the source of the definition of the symbol.",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "base" : {
         "path" : "Coding.system",
@@ -1225,6 +1214,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1301,7 +1291,7 @@
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
       "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size",
       "requirements" : "Need to refer to a particular code in the system.",
-      "min" : 0,
+      "min" : 1,
       "max" : "1",
       "base" : {
         "path" : "Coding.code",
@@ -1321,6 +1311,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",

@@ -34,7 +34,7 @@
   <name value="CLS_L3_SerumOrPlasma"/>
   <title value="CLS L3 Serum Or Plasma"/>
   <status value="draft"/>
-  <date value="2023-03-04T20:22:12+01:00"/>
+  <date value="2023-03-05T01:48:17+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -796,15 +796,11 @@
       <slicing>
         <discriminator>
           <type value="value"/>
-          <path value="$this.code"/>
-        </discriminator>
-        <discriminator>
-          <type value="value"/>
-          <path value="$this.system"/>
+          <path value="coding.code"/>
         </discriminator>
         <description value="Slice based on the coding.code &amp; coding.system to allow multiple classifications of data elements."/>
-        <ordered value="false"/>
-        <rules value="open"/>
+        <ordered value="true"/>
+        <rules value="openAtEnd"/>
       </slicing>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
@@ -1004,18 +1000,12 @@
       </mapping>
     </element>
     <element id="Observation.category:Laboratory.coding">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0"/>
-      </extension>
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
       <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
       <requirements value="Allows for alternative encodings within a code system, and translations to other code systems."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="CodeableConcept.coding"/>
@@ -1034,6 +1024,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="rim"/>
@@ -1150,7 +1141,7 @@
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
       <comment value="The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously."/>
       <requirements value="Need to be unambiguous about the source of the definition of the symbol."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="Coding.system"/>
@@ -1170,6 +1161,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="rim"/>
@@ -1242,7 +1234,7 @@
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
       <comment value="Note that FHIR strings SHALL NOT exceed 1MB in size"/>
       <requirements value="Need to refer to a particular code in the system."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="Coding.code"/>
@@ -1262,6 +1254,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="rim"/>
