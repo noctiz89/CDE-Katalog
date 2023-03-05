@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "vs-ethnic-groups"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  372148003 (Ethnic group (ethnic group))</li></ul><p>This value set excludes codes based on the following rules:</p><ul><li>Exclude these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/372148003\">372148003</a></td><td>Ethnic group (ethnic group)</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  372148003 (Ethnic group (ethnic group))</li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "VS_EthnicGroups"] ; # 
   fhir:title [ fhir:v "VS Ethnic Groups"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-05T17:53:57+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-05T18:57:32+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -64,13 +64,6 @@
          fhir:property [ fhir:v "concept" ] ;
          fhir:op [ fhir:v "is-a" ] ;
          fhir:value [ fhir:v "372148003" ]
-       ] )
-     ] ) ;
-     fhir:exclude ( [
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "372148003" ] ;
-         fhir:display [ fhir:v "Ethnic group (ethnic group)" ]
        ] )
      ] )
   ] . # 

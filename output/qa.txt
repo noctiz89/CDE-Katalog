@@ -1,9 +1,9 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 11, warn = 90, info = 13
+err = 10, warn = 90, info = 13
 IG Publisher Version: 1.2.39
-Generated Sun Mar 05 18:07:07 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Sun Mar 05 19:11:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -21,7 +21,7 @@ Generated Sun Mar 05 18:07:07 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 1 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
@@ -138,7 +138,6 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
-ERROR: StructureDefinition/cde-ethnicity: StructureDefinition.differential.element[73]: Rule eld-18: 'Must have a modifier reason if isModifier = true' Failed
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile

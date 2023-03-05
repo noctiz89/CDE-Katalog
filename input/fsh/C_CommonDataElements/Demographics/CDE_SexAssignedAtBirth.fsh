@@ -13,8 +13,12 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
+
+
+// Observation.value[x].CodeableConcept not allowed!
+* valueCodeableConcept 0..0 
+
 // Value_Domain (VD) via Observation.component
-* valueCodeableConcept 0..0 // value[x].CodeableConcept not allowed!
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
 * component ^slicing.rules = #open
@@ -28,8 +32,8 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Categorial Concept: "Male"
 * component.valueCodeableConcept from VS_BiologicalGender (required)
 * component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
-* component[male].code ^alias[0] = "masculine"
-* component[male].code ^alias[+] = "männlich"
+* component[male].code ^alias[0] = "Masculine"
+* component[male].code ^alias[+] = "Männlich"
 * component[male].code ^short = "Male sex"
 * component[male].code ^definition = "Biological male sex"
 * component[male].code.coding ^slicing.discriminator.type = #value
@@ -46,10 +50,15 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[male].code.coding[maleUMLSCode].code = #C1706180 (exactly)
 * component[male].code.coding[maleUMLSCode].system = $UMLS (exactly)
 * component[male].code.coding[maleUMLSCode] ^sliceName = "MaleUMLSCode"
+// TEST: valueInteger (1) für Male
+* component[male].valueInteger 0..1 MS
+* component[male].valueInteger.value = 1
+* component[male].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
+
 // Categorial Concept: "Female"
 * component[female].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
-* component[female].code ^alias[0] = "feminine"
-* component[female].code ^alias[+] = "weiblich"
+* component[female].code ^alias[0] = "Feminine"
+* component[female].code ^alias[+] = "Weiblich"
 * component[female].code ^short = "Female sex"
 * component[female].code ^definition = "Biological female sex"
 * component[female].code.coding ^slicing.discriminator.type = #value
@@ -66,10 +75,15 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[female].code.coding[femaleUMLSCode].code = #C0015780 (exactly)
 * component[female].code.coding[femaleUMLSCode].system = $UMLS (exactly)
 * component[female].code.coding[femaleUMLSCode] ^sliceName = "FemaleUMLSCode"
+// TEST: valueInteger (2) für Female
+* component[female].valueInteger 0..1 MS
+* component[female].valueInteger.value = 2
+* component[female].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
+
 // Categorial Concept: "Intersex"
 * component[intersex].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
-* component[intersex].code ^alias[0] = "non-binary"
-* component[intersex].code ^alias[+] = "divers"
+* component[intersex].code ^alias[0] = "Non-binary"
+* component[intersex].code ^alias[+] = "Divers"
 * component[intersex].code ^short = "Intersex"
 * component[intersex].code ^definition = "Biological intersexuality"
 * component[intersex].code.coding ^slicing.discriminator.type = #value
@@ -86,6 +100,10 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[intersex].code.coding[intersexUMLSCode].code = #C1704620 (exactly)
 * component[intersex].code.coding[intersexUMLSCode].system = $UMLS (exactly)
 * component[intersex].code.coding[intersexUMLSCode] ^sliceName = "IntersexUMLSCode"
+// TEST: valueInteger (3) für Intersex
+* component[intersex].valueInteger 0..1 MS
+* component[intersex].valueInteger.value = 3
+* component[intersex].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
 
 
