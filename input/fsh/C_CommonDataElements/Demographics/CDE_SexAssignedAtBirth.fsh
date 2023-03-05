@@ -26,6 +26,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     female 0..* and
     intersex 0..*
 // Categorial Concept: "Male"
+* component.valueCodeableConcept from VS_BiologicalGender (required)
 * component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[male].code ^alias[0] = "masculine"
 * component[male].code ^alias[+] = "männlich"
