@@ -159,6 +159,10 @@
         "title": "CLS OBO CMO Blood Chloride Level"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
+        "title": "CLS OBO CMO Blood Electrolyte Measurement"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level",
         "title": "CLS OBO CMO Blood Glucose Level"
       },
@@ -175,6 +179,10 @@
         "title": "CLS OBO CMO Blood Potassium Level"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement",
+        "title": "CLS OBO CMO Blood Pressure Measurement"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level",
         "title": "CLS OBO CMO Blood Sodium Level"
       },
@@ -185,6 +193,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
         "title": "CLS OBO CMO Body Weight"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure",
+        "title": "CLS OBO CMO Diastolic Blood Pressure"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
@@ -205,6 +217,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
         "title": "CLS OBO CMO Red Blood Cell Measurement"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
+        "title": "CLS OBO CMO Systolic Blood Pressure"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",

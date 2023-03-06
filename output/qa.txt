@@ -3,7 +3,7 @@
 
 err = 9, warn = 71, info = 7
 IG Publisher Version: 1.2.39
-Generated Mon Mar 06 16:54:25 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 17:35:34 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -41,18 +41,22 @@ Generated Mon Mar 06 16:54:25 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-chloride-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-electrolyte-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-glucose-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-magnesium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-phosphate-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-pressure-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index : 0 / 0 / 1
@@ -180,18 +184,22 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-chloride-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-electrolyte-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-glucose-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-magnesium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-phosphate-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-pressure-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index.json ==

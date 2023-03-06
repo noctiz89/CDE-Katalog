@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-06T16:38:28+01:00",
+  "date" : "2023-03-06T17:18:53+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -895,7 +895,7 @@
         "reference" : "StructureDefinition/cde-blood-pressure-diastolic"
       },
       "name" : "CDE Blood Pressure Diastolic",
-      "description" : "Dieses CDE enthät den 'systolischen Blutdruck'."
+      "description" : "Dieses CDE enthät den 'diastolischen Blutdruck'."
     },
     {
       "extension" : [{
@@ -1244,6 +1244,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"
+      },
+      "name" : "CLS OBO CMO Blood Electrolyte Measurement",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Elektrolyt Messungen im Blut'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-blood-glucose-level"
       },
       "name" : "CLS OBO CMO Blood Glucose Level",
@@ -1288,6 +1299,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-blood-pressure-measurement"
+      },
+      "name" : "CLS OBO CMO Blood Pressure Measurement",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-blood-sodium-level"
       },
       "name" : "CLS OBO CMO Blood Sodium Level",
@@ -1314,6 +1336,17 @@
       },
       "name" : "CLS OBO CMO Body Weight",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-diastolic-blood-pressure"
+      },
+      "name" : "CLS OBO CMO Diastolic Blood Pressure",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."
     },
     {
       "extension" : [{
@@ -1369,6 +1402,17 @@
       },
       "name" : "CLS OBO CMO Red Blood Cell Measurement",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-systolic-blood-pressure"
+      },
+      "name" : "CLS OBO CMO Systolic Blood Pressure",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."
     },
     {
       "extension" : [{

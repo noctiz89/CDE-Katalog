@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T16:38:28+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T17:18:53+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -801,7 +801,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-blood-pressure-diastolic" ]
        ] ;
        fhir:name [ fhir:v "CDE Blood Pressure Diastolic" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthät den 'systolischen Blutdruck'." ]
+       fhir:description [ fhir:v "Dieses CDE enthät den 'diastolischen Blutdruck'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1149,6 +1149,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Blood Electrolyte Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Elektrolyt Messungen im Blut'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-glucose-level" ]
        ] ;
@@ -1193,6 +1204,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-pressure-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Blood Pressure Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-sodium-level" ]
        ] ;
@@ -1220,6 +1242,17 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Body Weight" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-diastolic-blood-pressure" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Diastolic Blood Pressure" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1275,6 +1308,17 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Red Blood Cell Measurement" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-systolic-blood-pressure" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Systolic Blood Pressure" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

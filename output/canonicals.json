@@ -294,6 +294,13 @@
     "name" : "CLS_OBO_CMO_BloodChlorideLevel"
   },
   {
+    "id" : "cls-obo-cmo-blood-electrolyte-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodElectrolyteMeasurement"
+  },
+  {
     "id" : "cls-obo-cmo-blood-glucose-level",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level",
@@ -322,6 +329,13 @@
     "name" : "CLS_OBO_CMO_BloodPotassiumLevel"
   },
   {
+    "id" : "cls-obo-cmo-blood-pressure-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodPressureMeasurement"
+  },
+  {
     "id" : "cls-obo-cmo-blood-sodium-level",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level",
@@ -341,6 +355,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BodyWeight"
+  },
+  {
+    "id" : "cls-obo-cmo-diastolic-blood-pressure",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_DiastolicBloodPressure"
   },
   {
     "id" : "cls-obo-cmo-hematocrit-measurement",
@@ -376,6 +397,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_RedBloodCellMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-systolic-blood-pressure",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_SystolicBloodPressure"
   },
   {
     "id" : "cls-obo-cmo-waist-circumference",

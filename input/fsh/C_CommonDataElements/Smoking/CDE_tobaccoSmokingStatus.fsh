@@ -2,7 +2,7 @@ Profile: CDE_TobaccoSmokingStatus
 Parent: cls-snomed-finding-of-tobacco-use-and-exposure
 Id: cde-tobacco-smoking-status
 Title: "CDE Smoking Status"
-Description: "Dieses CDE enthält den Raucherstatus einer Person"
+Description: "Dieses CDE enthält den 'Raucherstatus'."
 // // Hierarchy and Classification
 // * insert RS_ObservationCategorySlicingRules
 // * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
