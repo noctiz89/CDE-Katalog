@@ -9,10 +9,12 @@
     * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
     * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet, z.B.:
         * für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
-        ![Hierarchy of Data Element Concept Age](hierarchy-of-DEC-Age.png)
+        <!--- ![Hierarchy of Data Element Concept Age](hierarchy-of-DEC-Age.png)-->
+        <p style="text-align:center"><img height="100" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></a></p>
 
         * für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
-        ![Hierarchy of Data Element Concept Body Mass Index](hierarchy-of-DEC-BodyMassIndex.png)
+        <!--- ![Hierarchy of Data Element Concept Body Mass Index](hierarchy-of-DEC-BodyMassIndex.png) --->
+        <p style="text-align:center"><img height="100" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></a></p>
     * ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute
 
 ## Data_Element_Concept (DEC) = Observation.code

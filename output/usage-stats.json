@@ -51,8 +51,12 @@
         "title": "CDE Body Weight"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma",
-        "title": "CDE Calcium In Serum Or Plasma"
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
+        "title": "CDE Calcium In Serum Or Plasma Mass Concentration"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Calcium In Serum Or Plasma Mole Concentration"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma",
@@ -251,8 +255,24 @@
         "title": "CLS L3 Urine"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level",
+        "title": "CLS CMO Blood Calcium Level"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date",
+        "title": "CLS OBO NCIT Year Date"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail",
+        "title": "CLS SNOMED Demographic History Detail"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
         "title": "CLS SNOMED Finding Of Tobacco Use And Exposure"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex",
+        "title": "CLS SNOMED Patient Sex"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",

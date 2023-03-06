@@ -1,4 +1,5 @@
 RuleSet: RS_CreateOneFurtherCategory(categoryName, system, code)
+//* category 1..* MS
 * category contains
     {categoryName} 1..1 MS
 * category[{categoryName}] only CodeableConcept

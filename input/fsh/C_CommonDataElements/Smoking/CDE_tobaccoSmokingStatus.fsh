@@ -48,7 +48,9 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[smokesDaily].code.coding contains
     smokesDailySNOMEDCode 0..1 MS and
     smokesDailyLOINCCode 0..1
+* component[smokesDaily].code.coding[smokesDailySNOMEDCode].code 1..1
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode].code = #449868002 (exactly)
+* component[smokesDaily].code.coding[smokesDailySNOMEDCode].system 1..1
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode].system = $SCT (exactly)
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode] ^sliceName = "smokesDailySNOMEDCode"
 //* component[smokesDaily].code.coding[smokesDailyLOINCCode].code = #LA18976-3 (exactly)
@@ -66,9 +68,11 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[occasionalSmoker].code.coding ^slicing.rules = #open
 * component[occasionalSmoker].code.coding ^slicing.ordered = false
 * component[occasionalSmoker].code.coding contains
-    occasionalSmokerSNOMEDCode 1..1 MS and
-    occasionalSmokerLOINCCode 1..1
+    occasionalSmokerSNOMEDCode 0..1 MS and
+    occasionalSmokerLOINCCode 0..1
+* component[occasionalSmoker].code.coding[occasionalSmokerSNOMEDCode].code 1..1
 * component[occasionalSmoker].code.coding[occasionalSmokerSNOMEDCode].code = #428041000124106 (exactly)
+* component[occasionalSmoker].code.coding[occasionalSmokerSNOMEDCode].system 1..1
 * component[occasionalSmoker].code.coding[occasionalSmokerSNOMEDCode].system = $SCT (exactly)
 * component[occasionalSmoker].code.coding[occasionalSmokerSNOMEDCode] ^sliceName = "occasionalSmokerSNOMEDCode"
 
@@ -83,14 +87,18 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[exSmoker].code.coding ^slicing.rules = #open
 * component[exSmoker].code.coding ^slicing.ordered = false
 * component[exSmoker].code.coding contains
-    exSmokerSNOMEDCode 1..1 MS and
-    exSmokerLOINCCode 1..1
+    exSmokerSNOMEDCode 0..1 MS and
+    exSmokerLOINCCode 0..1
+* component[exSmoker].code.coding[exSmokerSNOMEDCode].code 1..1
 * component[exSmoker].code.coding[exSmokerSNOMEDCode].code = #8517006 (exactly)
+* component[exSmoker].code.coding[exSmokerSNOMEDCode].system 1..1
 * component[exSmoker].code.coding[exSmokerSNOMEDCode].system = $SCT (exactly)
 * component[exSmoker].code.coding[exSmokerSNOMEDCode] ^sliceName = "exSmokerSNOMEDCode"
-//* component[exSmoker].code.coding[exSmokerLOINCCode].code = #LA15920-4 (exactly)
-//* component[exSmoker].code.coding[exSmokerLOINCCode].system = $LOINC (exactly)
-//* component[exSmoker].code.coding[exSmokerLOINCCode] ^sliceName = "exSmokerLOINCCode"
+* component[exSmoker].code.coding[exSmokerLOINCCode].code 1..1
+* component[exSmoker].code.coding[exSmokerLOINCCode].code = #LA15920-4 (exactly)
+* component[exSmoker].code.coding[exSmokerLOINCCode].system 1..1
+* component[exSmoker].code.coding[exSmokerLOINCCode].system = $LOINC (exactly)
+* component[exSmoker].code.coding[exSmokerLOINCCode] ^sliceName = "exSmokerLOINCCode"
 
 // Categorial Concept: "Non-Smoker"
 * component[nonSmoker].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -103,14 +111,16 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[nonSmoker].code.coding ^slicing.rules = #open
 * component[nonSmoker].code.coding ^slicing.ordered = false
 * component[nonSmoker].code.coding contains
-    nonSmokerSNOMEDCode 1..1 MS and
-    nonSmokerLOINCCode 1..1 MS    
+    nonSmokerSNOMEDCode 0..1 MS and
+    nonSmokerLOINCCode 0..1 MS    
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code 1..1
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code = #8392000 (exactly)
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system 1..1
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system = $SCT (exactly)
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode] ^sliceName = "nonSmokerSNOMEDCode"
+* component[nonSmoker].code.coding[nonSmokerLOINCCode].code 1..1
 * component[nonSmoker].code.coding[nonSmokerLOINCCode].code = #LA18978-9 (exactly)
+* component[nonSmoker].code.coding[nonSmokerLOINCCode].system 1..1
 * component[nonSmoker].code.coding[nonSmokerLOINCCode].system = $LOINC (exactly)
 * component[nonSmoker].code.coding[nonSmokerLOINCCode] ^sliceName = "nonSmokerLOINCCode"
 

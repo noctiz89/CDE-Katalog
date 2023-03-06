@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T11:31:12+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T13:11:54+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -852,11 +852,22 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-calcium-in-serum-or-plasma" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration" ]
        ] ;
-       fhir:name [ fhir:v "CDE Calcium In Serum Or Plasma" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'." ]
+       fhir:name [ fhir:v "CDE Calcium In Serum Or Plasma Mass Concentration" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Kalzium [Mass/Volumen] in Serum oder Plasma'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Calcium In Serum Or Plasma Mole Concentration" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Serum oder Plasma'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1402,11 +1413,55 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-calcium-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS CMO Blood Calcium Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-year-date" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO NCIT Year Date" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Jahr (Temporal Qualifier)'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-demographic-history-detail" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Demographic History Detail" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Finding Of Tobacco Use And Exposure" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-patient-sex" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Patient Sex" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Patientengeschlecht'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

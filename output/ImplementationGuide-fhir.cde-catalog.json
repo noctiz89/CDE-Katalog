@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-06T11:31:12+01:00",
+  "date" : "2023-03-06T13:11:54+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -947,10 +947,21 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/cde-calcium-in-serum-or-plasma"
+        "reference" : "StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration"
       },
-      "name" : "CDE Calcium In Serum Or Plasma",
-      "description" : "Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'."
+      "name" : "CDE Calcium In Serum Or Plasma Mass Concentration",
+      "description" : "Dieses CDE enthält den Messparameter 'Kalzium [Mass/Volumen] in Serum oder Plasma'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration"
+      },
+      "name" : "CDE Calcium In Serum Or Plasma Mole Concentration",
+      "description" : "Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Serum oder Plasma'."
     },
     {
       "extension" : [{
@@ -1497,10 +1508,54 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-blood-calcium-level"
+      },
+      "name" : "CLS CMO Blood Calcium Level",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-ncit-year-date"
+      },
+      "name" : "CLS OBO NCIT Year Date",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Jahr (Temporal Qualifier)'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-snomed-demographic-history-detail"
+      },
+      "name" : "CLS SNOMED Demographic History Detail",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"
       },
       "name" : "CLS SNOMED Finding Of Tobacco Use And Exposure",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-snomed-patient-sex"
+      },
+      "name" : "CLS SNOMED Patient Sex",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Patientengeschlecht'."
     },
     {
       "extension" : [{

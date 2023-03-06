@@ -105,11 +105,18 @@
     "name" : "CDE_BodyWeight"
   },
   {
-    "id" : "cde-calcium-in-serum-or-plasma",
+    "id" : "cde-calcium-in-serum-or-plasma-mass-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_CalciumInSerumOrPlasma"
+    "name" : "CDE_CalciumInSerumOrPlasmaMassConcentration"
+  },
+  {
+    "id" : "cde-calcium-in-serum-or-plasma-mole-concentration",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
+    "version" : "0.2.0",
+    "name" : "CDE_CalciumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-chloride-in-serum-or-plasma",
@@ -455,11 +462,39 @@
     "name" : "CLS_L3_Urine"
   },
   {
+    "id" : "cls-obo-cmo-blood-calcium-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodCalciumLevel"
+  },
+  {
+    "id" : "cls-obo-ncit-year-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_YearDate"
+  },
+  {
+    "id" : "cls-snomed-demographic-history-detail",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail",
+    "version" : "0.2.0",
+    "name" : "CLS_SNOMED_DemographicHistoryDetail"
+  },
+  {
     "id" : "cls-snomed-finding-of-tobacco-use-and-exposure",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_FindingOfTobaccoUseAndExposure"
+  },
+  {
+    "id" : "cls-snomed-patient-sex",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex",
+    "version" : "0.2.0",
+    "name" : "CLS_SNOMED_PatientSex"
   },
   {
     "id" : "ext-myExtension",

@@ -1,16 +1,16 @@
 Profile: CDE_SexAssignedAtBirth
-Parent: Observation
+Parent: cls-snomed-patient-sex
 Id: cde-sex-assigned-at-birth
 Title: "CDE Sex Assigned At Birth"
 Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
-* insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
-* insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
-* insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
-* insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
+//// Hierarchy and Classification
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+//* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
+//* insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
+//* insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
+//* insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
+//* insert RS_CreateOneFurtherCategory(PatientSex, $SCT, 184100006)
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
 

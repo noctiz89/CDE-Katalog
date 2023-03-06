@@ -11,7 +11,7 @@ RuleSet: RS_ObservationCategorySlicingRules
 //e.g. #exists, "$this", #openAtEnd, true, "Slice based on the category exists for classificiation of dataelements."
 */
 // Alternative Slicing Rule zur mehrfachen Klassifizierungen zuzulassen, Quelle: HL7 FHIR VitalSigns Profil:
-* category ..* MS
+* category 1..* MS
 * category only CodeableConcept
 * category ^slicing.discriminator[0].type = #value
 * category ^slicing.discriminator[=].path = "coding.system"

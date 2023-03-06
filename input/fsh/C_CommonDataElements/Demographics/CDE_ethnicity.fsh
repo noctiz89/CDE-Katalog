@@ -1,15 +1,15 @@
 Profile: CDE_Ethnicity
-Parent: Observation
+Parent: cls-snomed-demographic-history-detail
 Id: cde-ethnicity
 Title: "CDE Ethnicity"
 Description: "Dieses CDE enthält die 'Ethnizität'."
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
-* insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
-* insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
-* insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
+//// Hierarchy and Classification
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+//* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
+//* insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
+//* insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
+//* insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 364699009, "Ethnic group") // Ethnicity
 

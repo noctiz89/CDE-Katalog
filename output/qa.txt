@@ -1,9 +1,9 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 9, warn = 93, info = 13
+err = 9, warn = 94, info = 13
 IG Publisher Version: 1.2.39
-Generated Mon Mar 06 11:45:19 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 13:26:46 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -14,7 +14,8 @@ Generated Mon Mar 06 11:45:19 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-height : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-mass-index : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-weight : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-creatinine-in-ser-or-plas : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
@@ -64,7 +65,11 @@ Generated Mon Mar 06 11:45:19 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-urine : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
@@ -125,8 +130,10 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-mass-index'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-weight.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-weight'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-creatinine-in-ser-or-plas.json ==
@@ -230,7 +237,11 @@ WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.differ
 == fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-urine.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail.json ==
 == fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex.json ==
 == fsh-generated\resources\StructureDefinition-poi-patient.json ==
 INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile

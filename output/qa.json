@@ -3,9 +3,9 @@
   "name" : "CDEKatalog",
   "package-id" : "fhir.cde-catalog",
   "ig-ver" : "0.2.0",
-  "date" : "Mon, 06 Mar, 2023 11:31:12 +0100",
+  "date" : "Mon, 06 Mar, 2023 13:11:54 +0100",
   "errs" : 9,
-  "warnings" : 93,
+  "warnings" : 94,
   "hints" : 13,
   "version" : "4.0.1",
   "tool" : "5.0.0-draft-final (3)"

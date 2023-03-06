@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-06T11:31:12+01:00"/>
+  <date value="2023-03-06T13:11:54+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -748,10 +748,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-calcium-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration"/>
       </reference>
-      <name value="CDE Calcium In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Calcium in Serum oder Plasma'."/>
+      <name value="CDE Calcium In Serum Or Plasma Mass Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalzium [Mass/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Calcium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1248,10 +1258,50 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-calcium-level"/>
+      </reference>
+      <name value="CLS CMO Blood Calcium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-year-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Year Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Jahr (Temporal Qualifier)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-demographic-history-detail"/>
+      </reference>
+      <name value="CLS SNOMED Demographic History Detail"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"/>
       </reference>
       <name value="CLS SNOMED Finding Of Tobacco Use And Exposure"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-patient-sex"/>
+      </reference>
+      <name value="CLS SNOMED Patient Sex"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Patientengeschlecht'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
