@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-05T18:57:32+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T10:30:47+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1072,6 +1072,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-year" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Tobacco Smoking Cessation Year" ] ;
+       fhir:description [ fhir:v "Dieses CDE enhält das 'Jahr seit dem der Konsum von Tabakrauch eingestellt wurde'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-status" ]
        ] ;
@@ -1435,10 +1446,10 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed> ;
-         fhir:reference [ fhir:v "ValueSet/vs-binary-decision-yes-or-no-as-snomed" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no> ;
+         fhir:reference [ fhir:v "ValueSet/vs-binary-decision-yes-or-no" ]
        ] ;
-       fhir:name [ fhir:v "VS Binary Decision Yes Or No as Snomed" ] ;
+       fhir:name [ fhir:v "VS Binary Decision Yes Or No" ] ;
        fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ]
      ] [
        fhir:extension ( [
@@ -1545,10 +1556,10 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed> ;
-         fhir:reference [ fhir:v "ValueSet/vs-smoking-status-as-snomed" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status> ;
+         fhir:reference [ fhir:v "ValueSet/vs-smoking-status" ]
        ] ;
-       fhir:name [ fhir:v "VS Smoking Status as Loinc" ] ;
+       fhir:name [ fhir:v "VS Smoking Status" ] ;
        fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ]
      ] [
        fhir:extension ( [

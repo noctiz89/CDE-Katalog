@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-05T18:57:32+01:00",
+  "date" : "2023-03-06T10:30:47+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -1167,6 +1167,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-tobacco-smoking-cessation-year"
+      },
+      "name" : "CDE Tobacco Smoking Cessation Year",
+      "description" : "Dieses CDE enhält das 'Jahr seit dem der Konsum von Tabakrauch eingestellt wurde'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-tobacco-smoking-status"
       },
       "name" : "CDE Smoking Status",
@@ -1530,9 +1541,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-binary-decision-yes-or-no-as-snomed"
+        "reference" : "ValueSet/vs-binary-decision-yes-or-no"
       },
-      "name" : "VS Binary Decision Yes Or No as Snomed",
+      "name" : "VS Binary Decision Yes Or No",
       "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
     },
     {
@@ -1640,9 +1651,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-smoking-status-as-snomed"
+        "reference" : "ValueSet/vs-smoking-status"
       },
-      "name" : "VS Smoking Status as Loinc",
+      "name" : "VS Smoking Status",
       "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."
     },
     {

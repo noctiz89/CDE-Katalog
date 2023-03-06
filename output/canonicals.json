@@ -245,6 +245,13 @@
     "name" : "CDE_ThrombocytesInBlood"
   },
   {
+    "id" : "cde-tobacco-smoking-cessation-year",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year",
+    "version" : "0.2.0",
+    "name" : "CDE_TobaccoSmokingCessationYear"
+  },
+  {
     "id" : "cde-tobacco-smoking-status",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
@@ -518,11 +525,11 @@
     "name" : "VS_AdministrativeGender"
   },
   {
-    "id" : "vs-binary-decision-yes-or-no-as-snomed",
+    "id" : "vs-binary-decision-yes-or-no",
     "type" : "ValueSet",
-    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no-as-snomed",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no",
     "version" : "0.2.0",
-    "name" : "VS_BinaryDecisionYesOrNoAsSnomed"
+    "name" : "VS_BinaryDecisionYesOrNo"
   },
   {
     "id" : "vs-biological-gender",
@@ -588,11 +595,11 @@
     "name" : "VS_NumberConcentrationUnits"
   },
   {
-    "id" : "vs-smoking-status-as-snomed",
+    "id" : "vs-smoking-status",
     "type" : "ValueSet",
-    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status-as-snomed",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status",
     "version" : "0.2.0",
-    "name" : "VS_SmokingStatusAsSnomed"
+    "name" : "VS_SmokingStatus"
   },
   {
     "id" : "vs-specimen-types",

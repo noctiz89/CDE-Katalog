@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-05T18:57:32+01:00"/>
+  <date value="2023-03-06T10:30:47+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -948,6 +948,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-cessation-year"/>
+      </reference>
+      <name value="CDE Tobacco Smoking Cessation Year"/>
+      <description value="Dieses CDE enhält das 'Jahr seit dem der Konsum von Tabakrauch eingestellt wurde'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-tobacco-smoking-status"/>
       </reference>
       <name value="CDE Smoking Status"/>
@@ -1278,9 +1288,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-binary-decision-yes-or-no-as-snomed"/>
+        <reference value="ValueSet/vs-binary-decision-yes-or-no"/>
       </reference>
-      <name value="VS Binary Decision Yes Or No as Snomed"/>
+      <name value="VS Binary Decision Yes Or No"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
     </resource>
     <resource>
@@ -1378,9 +1388,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-smoking-status-as-snomed"/>
+        <reference value="ValueSet/vs-smoking-status"/>
       </reference>
-      <name value="VS Smoking Status as Loinc"/>
+      <name value="VS Smoking Status"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
     </resource>
     <resource>

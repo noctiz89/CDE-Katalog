@@ -1,9 +1,9 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 10, warn = 90, info = 13
+err = 9, warn = 93, info = 13
 IG Publisher Version: 1.2.39
-Generated Sun Mar 05 19:11:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 10:44:48 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -34,7 +34,8 @@ Generated Sun Mar 05 19:11:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 3 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-visit-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l0-activity : 0 / 0 / 1
@@ -67,9 +68,9 @@ Generated Sun Mar 05 19:11:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 1 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 1 / 1
@@ -77,7 +78,7 @@ Generated Sun Mar 05 19:11:51 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-missing-values-as-snomed : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-molar-concentration-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-number-concentration-units : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 10 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 2 / 1
@@ -163,7 +164,11 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
+WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.snapshot.element[160].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
+WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[42].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
@@ -234,13 +239,12 @@ INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snaps
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-== fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no-as-snomed.json ==
-WARNING: ValueSet/vs-binary-decision-yes-or-no-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
+WARNING: ValueSet/vs-binary-decision-yes-or-no: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
 WARNING: ValueSet/vs-biological-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
 WARNING: ValueSet/vs-ethnic-groups: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-ERROR: ValueSet.where(id = 'vs-ethnic-groups'): Error from server: Range check error
 == fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
 WARNING: ValueSet/vs-glasgow-coma-scale-for-adults: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-length-units.json ==
@@ -255,8 +259,8 @@ WARNING: ValueSet/vs-missing-values-as-snomed: ValueSet: The ShareableValueSet p
 WARNING: ValueSet/vs-molar-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-number-concentration-units.json ==
 WARNING: ValueSet/vs-number-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-== fsh-generated\resources\ValueSet-vs-smoking-status-as-snomed.json ==
-WARNING: ValueSet/vs-smoking-status-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-smoking-status.json ==
+WARNING: ValueSet/vs-smoking-status: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-specimen-types.json ==
 WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[0]: The code LP7057-5 is not valid in the system http://loinc.org
 WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[1]: The code LP7067-4 is not valid in the system http://loinc.org
@@ -299,7 +303,7 @@ ERROR: StructureDefinition/MyLogical: StructureDefinition.snapshot: Rule sdf-3: 
 == input\resources\myObservation.xml ==
 == input\resources\valueset-fake.xml ==
 == input\resources\valueset-no-codesystem.xml ==
-WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version 'http://not-a-known-code-system#2.36' specified, so Concepts and Filters can't be checked (Details: The code system 'http://not-a-known-code-system' is not known (encountered paired with code = 'not-known-code'); The code provided (http://not-a-known-code-system#not-known-code) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version 'http://not-a-known-code-system#2.36' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://not-a-known-code-system. Server Error: The code system 'http://not-a-known-code-system' is not known (encountered paired with code = 'not-known-code'); The code provided (http://not-a-known-code-system#not-known-code) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
 == input\resources\resources-spreadsheet.xml ==
 INFORMATION: StructureDefinition/mypatient: StructureDefinition.snapshot.element[22].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/mypatient: StructureDefinition.snapshot.element[45].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

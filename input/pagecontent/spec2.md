@@ -1,6 +1,9 @@
 # Anmerkungen zu CDEs
 
 ### [CDE Ethnicity](StructureDefinition-cde-sex-assigned-at-birth.html)
+    * * component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes" *
+
+* EXC: führt zur einer Range-Exception beim Build/Publishing des Implementation Guides
 
 * EXC: Caused by: org.hl7.fhir.exceptions.FHIRException: Unable to generate snapshot for http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth in D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth because Range [8, 4) out of bounds for length 4 
 

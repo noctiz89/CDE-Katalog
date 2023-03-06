@@ -16,6 +16,11 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 // Observatiion.value[x].CodeableConcept not allowed!
 * valueCodeableConcept 0..0
 
+// Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
+* component.valueCodeableConcept from VS_EthnicGroups (required)
+* component.valueCodeableConcept.coding 1..1 MS // ??? wenn das im IG gut aussieht für die andere übernehmen!
+//* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes" FÜHRT ZU EXCEPTION!! eigentlich sollte hier bloß eine Info für die Verwendung erscheinen
+
 // Value_Domain (VD) via Observation.component
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"

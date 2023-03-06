@@ -14,9 +14,13 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 76689-9, "Sex assigned at birth") //Geschlecht bei Geburt
 
-
 // Observation.value[x].CodeableConcept not allowed!
 * valueCodeableConcept 0..0 
+
+// Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
+* component.valueCodeableConcept 0..1 MS
+* component.valueCodeableConcept from VS_EthnicGroups (required)
+//* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes"
 
 // Value_Domain (VD) via Observation.component
 * component ^slicing.discriminator.type = #value
@@ -30,7 +34,6 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     female 0..* and
     intersex 0..*
 // Categorial Concept: "Male"
-* component.valueCodeableConcept from VS_BiologicalGender (required)
 * component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[male].code ^alias[0] = "Masculine"
 * component[male].code ^alias[+] = "Männlich"

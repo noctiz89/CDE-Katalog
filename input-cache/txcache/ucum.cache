@@ -1,28 +1,8 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "mo"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "mo",
-  "code" : "mo",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
   "code" : "mm[Hg]"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "mm[Hg]",
-  "code" : "mm[Hg]",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "mm[Hg]"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "mm[Hg]",
   "code" : "mm[Hg]",
@@ -71,8 +51,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:bf3a96b6-b7ca-4611-8073-0099c168b653",
-    "timestamp" : "2023-03-02T16:38:37.472Z",
+    "identifier" : "urn:uuid:922d1029-1150-4760-bd34-45828064818e",
+    "timestamp" : "2023-03-06T08:44:04.164Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -213,8 +193,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:3abcc63c-0fc3-4813-8788-9906d0f193eb",
-    "timestamp" : "2023-03-02T16:38:37.894Z",
+    "identifier" : "urn:uuid:b8280563-a2a8-422e-9f32-5929d3c0ebb4",
+    "timestamp" : "2023-03-06T08:44:04.336Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -356,25 +336,10 @@ e: {
         "code" : "ug"
       },
       {
-        "code" : "ug/{TotalVolume}"
-      },
-      {
-        "code" : "ug/{Specimen}"
-      },
-      {
         "code" : "mg"
       },
       {
-        "code" : "mg/{Volume}"
-      },
-      {
-        "code" : "mg/{TotalVolume}"
-      },
-      {
         "code" : "g"
-      },
-      {
-        "code" : "g/{TotalWeight}"
       },
       {
         "code" : "dg"
@@ -397,8 +362,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:ae6fdf5c-784d-44d8-98d9-aaeb70870a95",
-    "timestamp" : "2023-03-02T16:38:38.207Z",
+    "identifier" : "urn:uuid:fc142688-828c-40a6-9ced-e1a3e33c26ed",
+    "timestamp" : "2023-03-06T08:44:04.492Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -433,38 +398,13 @@ e: {
     },
     {
       "system" : "http://unitsofmeasure.org",
-      "code" : "ug/{TotalVolume}",
-      "display" : "ug/{TotalVolume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ug/{Specimen}",
-      "display" : "ug/{Specimen}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
       "code" : "mg",
       "display" : "mg"
     },
     {
       "system" : "http://unitsofmeasure.org",
-      "code" : "mg/{Volume}",
-      "display" : "mg/{Volume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "mg/{TotalVolume}",
-      "display" : "mg/{TotalVolume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
       "code" : "g",
       "display" : "g"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "g/{TotalWeight}",
-      "display" : "g/{TotalWeight}"
     },
     {
       "system" : "http://unitsofmeasure.org",
@@ -551,8 +491,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:4c548ab6-c847-47d2-915a-470138f9a681",
-    "timestamp" : "2023-03-02T16:38:38.832Z",
+    "identifier" : "urn:uuid:e2d1f00a-eb17-40b3-8425-b700bd941da5",
+    "timestamp" : "2023-03-06T08:44:04.883Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -720,8 +660,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d7775043-4188-47ad-ad4c-13481de283be",
-    "timestamp" : "2023-03-02T16:38:39.050Z",
+    "identifier" : "urn:uuid:ab6e705c-d674-451b-82f9-241d7d28d070",
+    "timestamp" : "2023-03-06T08:44:05.039Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -893,8 +833,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:6c9c7cc3-94a1-4e69-ac20-e8a1586dced1",
-    "timestamp" : "2023-03-02T16:38:40.113Z",
+    "identifier" : "urn:uuid:16cd2827-1d2b-49e2-a3e0-fbca6ab51ad5",
+    "timestamp" : "2023-03-06T08:44:05.773Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1016,8 +956,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:04ac86a3-016f-4a12-aeef-6b22f28ea470",
-    "timestamp" : "2023-03-02T16:38:40.425Z",
+    "identifier" : "urn:uuid:8eb41f0a-c8bc-45b7-8291-4c5d68045081",
+    "timestamp" : "2023-03-06T08:44:05.929Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1421,26 +1361,6 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "ug/{TotalVolume}"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "ug/{TotalVolume}",
-  "code" : "ug/{TotalVolume}",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "ug/{Specimen}"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "ug/{Specimen}",
-  "code" : "ug/{Specimen}",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
   "code" : "mg"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
@@ -1451,41 +1371,11 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://unitsofmeasure.org",
-  "code" : "mg/{Volume}"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "mg/{Volume}",
-  "code" : "mg/{Volume}",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "mg/{TotalVolume}"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "mg/{TotalVolume}",
-  "code" : "mg/{TotalVolume}",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
   "code" : "g"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "g",
   "code" : "g",
-  "system" : "http://unitsofmeasure.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://unitsofmeasure.org",
-  "code" : "g/{TotalWeight}"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "g/{TotalWeight}",
-  "code" : "g/{TotalWeight}",
   "system" : "http://unitsofmeasure.org"
 }
 -------------------------------------------------------------------------------------
@@ -2079,6 +1969,26 @@ v: {
   "system" : "http://unitsofmeasure.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mo"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "mo",
+  "code" : "mo",
+  "system" : "http://unitsofmeasure.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://unitsofmeasure.org",
+  "code" : "mm[Hg]"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "mm[Hg]",
+  "code" : "mm[Hg]",
+  "system" : "http://unitsofmeasure.org"
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -2121,8 +2031,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:f8585cb3-dcc3-4d61-aa3f-bff734b0d543",
-    "timestamp" : "2023-03-02T16:43:45.363Z",
+    "identifier" : "urn:uuid:0ac8c8a4-8d8a-4b00-820c-b44c90a8bb07",
+    "timestamp" : "2023-03-06T08:49:42.601Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2259,8 +2169,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b6fe7a93-b4f9-488c-9ccd-5c3d48b60a94",
-    "timestamp" : "2023-03-02T16:43:45.691Z",
+    "identifier" : "urn:uuid:1c1a0312-0b82-495d-827b-1c87a172ac69",
+    "timestamp" : "2023-03-06T08:49:42.945Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2398,25 +2308,10 @@ e: {
         "code" : "ug"
       },
       {
-        "code" : "ug/{TotalVolume}"
-      },
-      {
-        "code" : "ug/{Specimen}"
-      },
-      {
         "code" : "mg"
       },
       {
-        "code" : "mg/{Volume}"
-      },
-      {
-        "code" : "mg/{TotalVolume}"
-      },
-      {
         "code" : "g"
-      },
-      {
-        "code" : "g/{TotalWeight}"
       },
       {
         "code" : "dg"
@@ -2439,8 +2334,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b9f23678-13c6-4d72-964b-bfd6d4903915",
-    "timestamp" : "2023-03-02T16:43:46.051Z",
+    "identifier" : "urn:uuid:20e1b104-b772-471b-b841-7520d6517315",
+    "timestamp" : "2023-03-06T08:49:43.304Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2471,38 +2366,13 @@ e: {
     },
     {
       "system" : "http://unitsofmeasure.org",
-      "code" : "ug/{TotalVolume}",
-      "display" : "ug/{TotalVolume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ug/{Specimen}",
-      "display" : "ug/{Specimen}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
       "code" : "mg",
       "display" : "mg"
     },
     {
       "system" : "http://unitsofmeasure.org",
-      "code" : "mg/{Volume}",
-      "display" : "mg/{Volume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "mg/{TotalVolume}",
-      "display" : "mg/{TotalVolume}"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
       "code" : "g",
       "display" : "g"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "g/{TotalWeight}",
-      "display" : "g/{TotalWeight}"
     },
     {
       "system" : "http://unitsofmeasure.org",
@@ -2589,8 +2459,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b3a934d1-0ae3-4d05-a5ab-aea87ca8824f",
-    "timestamp" : "2023-03-02T16:43:46.770Z",
+    "identifier" : "urn:uuid:0b52ce09-27a7-4c7b-90a7-06025a162b5d",
+    "timestamp" : "2023-03-06T08:49:43.789Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2754,8 +2624,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:784c6b33-8578-4b53-bd71-da4f85b1d59b",
-    "timestamp" : "2023-03-02T16:43:47.145Z",
+    "identifier" : "urn:uuid:fef1641d-1f25-4afc-819c-755043b741cd",
+    "timestamp" : "2023-03-06T08:49:44.007Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2923,8 +2793,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:16bbee85-3bd8-4f37-9f80-e3ea7e81c99b",
-    "timestamp" : "2023-03-02T16:43:48.223Z",
+    "identifier" : "urn:uuid:a5b7f08c-1a41-477f-94c8-32fe3805d5d0",
+    "timestamp" : "2023-03-06T08:49:44.664Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3042,8 +2912,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:51305351-52fd-45a1-bc7a-56d8e12c29e2",
-    "timestamp" : "2023-03-02T16:43:48.660Z",
+    "identifier" : "urn:uuid:ac978478-5dab-4f97-ab22-f2d1da3fe834",
+    "timestamp" : "2023-03-06T08:49:44.882Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3086,230 +2956,6 @@ e: {
       "system" : "http://unitsofmeasure.org",
       "code" : "10*8",
       "display" : "10*8"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://unitsofmeasure.org",
-      "concept" : [{
-        "code" : "fg"
-      },
-      {
-        "code" : "pg"
-      },
-      {
-        "code" : "ng"
-      },
-      {
-        "code" : "ug"
-      },
-      {
-        "code" : "mg"
-      },
-      {
-        "code" : "g"
-      },
-      {
-        "code" : "dg"
-      },
-      {
-        "code" : "cg"
-      },
-      {
-        "code" : "kg"
-      },
-      {
-        "code" : "t"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:761e3d49-aeb6-4b4e-8bd0-2042f96349e1",
-    "timestamp" : "2023-03-03T23:42:07.955Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.0.1"
-    }],
-    "contains" : [{
-      "system" : "http://unitsofmeasure.org",
-      "code" : "fg",
-      "display" : "fg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "pg",
-      "display" : "pg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ng",
-      "display" : "ng"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ug",
-      "display" : "ug"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "mg",
-      "display" : "mg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "g",
-      "display" : "g"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "dg",
-      "display" : "dg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "cg",
-      "display" : "cg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "kg",
-      "display" : "kg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "t",
-      "display" : "t"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://unitsofmeasure.org",
-      "concept" : [{
-        "code" : "fg"
-      },
-      {
-        "code" : "pg"
-      },
-      {
-        "code" : "ng"
-      },
-      {
-        "code" : "ug"
-      },
-      {
-        "code" : "mg"
-      },
-      {
-        "code" : "g"
-      },
-      {
-        "code" : "dg"
-      },
-      {
-        "code" : "cg"
-      },
-      {
-        "code" : "kg"
-      },
-      {
-        "code" : "t"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:ec0702bd-bdda-45c0-867c-406ef9b8e18b",
-    "timestamp" : "2023-03-03T23:47:06.987Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://unitsofmeasure.org|2.0.1"
-    }],
-    "contains" : [{
-      "system" : "http://unitsofmeasure.org",
-      "code" : "fg",
-      "display" : "fg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "pg",
-      "display" : "pg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ng",
-      "display" : "ng"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "ug",
-      "display" : "ug"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "mg",
-      "display" : "mg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "g",
-      "display" : "g"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "dg",
-      "display" : "dg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "cg",
-      "display" : "cg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "kg",
-      "display" : "kg"
-    },
-    {
-      "system" : "http://unitsofmeasure.org",
-      "code" : "t",
-      "display" : "t"
     }]
   }
 },

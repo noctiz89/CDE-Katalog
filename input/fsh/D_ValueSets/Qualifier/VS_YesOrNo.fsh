@@ -1,6 +1,6 @@
-ValueSet: VS_BinaryDecisionYesOrNoAsSnomed
-Id: vs-binary-decision-yes-or-no-as-snomed
-Title: "VS Binary Decision Yes Or No as Snomed"
+ValueSet: VS_BinaryDecisionYesOrNo
+Id: vs-binary-decision-yes-or-no
+Title: "VS Binary Decision Yes Or No"
 Description: "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
-* include $SCT#260385009 "Nein"
-* include $SCT#10828004 "Ja"
+* include $SCT#373067005 "No"
+* include $SCT#373066001 "Yes"

@@ -1,36 +1,6 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "85354-9"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood pressure panel with all children optional",
-  "code" : "85354-9",
-  "system" : "http://loinc.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8480-6"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Systolic blood pressure",
-  "code" : "8480-6",
-  "system" : "http://loinc.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "8462-4"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Diastolic blood pressure",
-  "code" : "8462-4",
-  "system" : "http://loinc.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
   "code" : "8480-6"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
@@ -46,16 +16,6 @@ v: {
 v: {
   "display" : "Diastolic blood pressure",
   "code" : "8462-4",
-  "system" : "http://loinc.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "code" : "85354-9"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood pressure panel with all children optional",
-  "code" : "85354-9",
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
@@ -101,8 +61,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:0bff69d3-e80b-4337-bdf1-8421226000d5",
-    "timestamp" : "2023-03-02T16:38:39.582Z",
+    "identifier" : "urn:uuid:15a51285-1b18-4cb8-8367-b53ad1b63168",
+    "timestamp" : "2023-03-06T08:44:05.367Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -199,33 +159,31 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "code" : "29308-4"
+  "code" : "85354-9"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Diagnosis",
-  "code" : "29308-4",
+  "display" : "Blood pressure panel with all children optional",
+  "code" : "85354-9",
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "version" : "2.73",
-  "code" : "29553-5"
+  "code" : "8480-6"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Age calculated",
-  "code" : "29553-5",
+  "display" : "Systolic blood pressure",
+  "code" : "8480-6",
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "version" : "2.73",
-  "code" : "21612-7"
+  "code" : "8462-4"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Age - Reported",
-  "code" : "21612-7",
+  "display" : "Diastolic blood pressure",
+  "code" : "8462-4",
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
@@ -271,8 +229,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:02d0cc53-95cb-456f-9925-beb145150f69",
-    "timestamp" : "2023-03-02T16:43:47.895Z",
+    "identifier" : "urn:uuid:4ee047d3-ccce-4901-ad2c-610e2e2d336d",
+    "timestamp" : "2023-03-06T08:49:44.445Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -294,23 +252,11 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://loinc.org",
-  "version" : "2.73",
-  "code" : "29553-5"
+  "code" : "85354-9"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Age calculated",
-  "code" : "29553-5",
-  "system" : "http://loinc.org"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://loinc.org",
-  "version" : "2.73",
-  "code" : "21612-7"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Age - Reported",
-  "code" : "21612-7",
+  "display" : "Blood pressure panel with all children optional",
+  "code" : "85354-9",
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------

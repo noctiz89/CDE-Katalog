@@ -131,6 +131,10 @@
         "title": "CDE Thrombocytes In Blood"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year",
+        "title": "CDE Tobacco Smoking Cessation Year"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
         "title": "CDE Smoking Status"
       },
