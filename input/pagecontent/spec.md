@@ -8,15 +8,28 @@
        * Slicing Ordnung = true
     * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
     * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet
+<br>
+
+
 * Beispiel für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
-        
-<p style="text-align:center"><img height="280" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></a><p>
+<body>
+<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></p>
+</body>
+<br>
+
 
 * Beispiel für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
 
-<p style="text-align:center"><img height="280" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></a></p>
+
+<body>
+<p style="text-align:right"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></p>
+</body>
+<br>
+
 
 * Ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute, da dort mehrere Ontologien auf einen Blick vergleichbar sind
+<br>
+
 
 ## Data_Element_Concept (DEC) = Observation.code
 * Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe
@@ -27,9 +40,11 @@
         code = 39156-5
         text = "Body mass index BMI [Ratio]"
 
+
 ## Value_Domain (VD) mit value[x]
 
    * Unterscheidung von quantitativer (messbar / zählbar) und qualitativer (nominal / ordinal) VD
+
 
 ### valueQuantity (Typ Quantity) ~ quantitativ, messbare Value_Domain
    * Quantity.value ~ ist der eigentliche Wert den das Datenelement misst
@@ -42,12 +57,14 @@
     * Quantity.unit ~ menschenlesbare Einheit als string. Es ist fixer Wert vorgegeben, aber muss angegben werden (Kardinalität 1..1). 
         z.B. "Kilogramm", "kg", "kilogramo" (spanisch) oder auch "公斤" (chinesisch, traditionell)
 
+
 ### valueInteger (Typ integer) ~ quantitativ, zählbare Value_Domain
    * es ist fraglich, ob eine solche Unterscheidung notwendig ist 
    * die Idee: 
        * der Unterschied zur "messbaren VD" ist, dass es keine übliche Maßeinheiten gibt, sondern die Anzahl von 'Dingen' eine Rolle spielt, wie z.B. die "Anzahl der Grippefälle" in einem Zeitraum
        * der Unterschied zur "ordinalen VD" ist, dass hier die Berechnung von statistischen Größen, wie Mittelwert, Standardabweichung etc. sinnvoll sein kann
     * TODO: ein Beispiel 
+
 
 ### valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain
 * Idee erklärt, anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"

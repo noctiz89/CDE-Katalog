@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_ErythrocytesInBlood"] ; # 
   fhir:title [ fhir:v "CDE Erythrocytes In Blood"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-06T15:09:59+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T16:00:54+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

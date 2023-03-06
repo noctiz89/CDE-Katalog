@@ -1,5 +1,5 @@
 Profile: CDE_AgeAtStoppedSmoking
-Parent: Observation
+Parent: cls-obo-ncit-age
 Id: cde-age-at-stopped-smoking
 Title: "CDE Age At Stopped Smoking"
 Description: "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."

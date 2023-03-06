@@ -1,15 +1,16 @@
 Profile: CDE_CurrentAgeReported
-Parent: Observation
+Parent: cls-obo-ncit-age
 Id: cde-current-age-reported
 Title: "CDE Current Age Reported"
-Description: "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung."
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(PropertyOrAttribute, $OBO, NCIT_C20189)
-* insert RS_CreateOneFurtherCategory(PersonOrIndividualAttribute, $OBO, NCIT_C171087)
-* insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
-* insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
+Description: "Dieses CDE enthält das 'aktuelle Alter - berichtet'."
+//// Hierarchy and Classification
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+//* insert RS_CreateOneFurtherCategory(PropertyOrAttribute, $OBO, NCIT_C20189)
+//* insert RS_CreateOneFurtherCategory(PersonOrIndividualAttribute, $OBO, NCIT_C171087)
+//* insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
+//* insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 21612-7, "Age - Reported") // Age - reported
 // Value_Domain (VD) via Observation.valueQuantity

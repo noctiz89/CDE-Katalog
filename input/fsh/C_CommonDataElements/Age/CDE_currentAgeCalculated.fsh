@@ -1,15 +1,16 @@
 Profile: CDE_CurrentAgeCalculated
-Parent: Observation
+Parent: cls-obo-ncit-age
 Id: cde-current-age-calculated
 Title: "CDE Current Age Calculated"
-Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis."
+Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'."
 // Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(PropertyOrAttribute, $OBO, NCIT_C20189)
-* insert RS_CreateOneFurtherCategory(PersonOrIndividualAttribute, $OBO, NCIT_C171087)
-* insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
-* insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+//* insert RS_CreateOneFurtherCategory(PropertyOrAttribute, $OBO, NCIT_C20189)
+//* insert RS_CreateOneFurtherCategory(PersonOrIndividualAttribute, $OBO, NCIT_C171087)
+//* insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
+//* insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 29553-5, "Age calculated") // Age - calculated
 // Value_Domain (VD) via Observation.valueQuantity

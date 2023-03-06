@@ -1,15 +1,16 @@
 Profile: CDE_BodyHeight
-Parent: Observation
+Parent: cls-obo-cmo-body-height
 Id: cde-body-height
 Title: "CDE Body Height"
 Description: "Dieses CDE enthält die 'Körpergröße'."
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)
-* insert RS_CreateOneFurtherCategory(ClinicalMeasurement, $OBO, CMO_0000000)
-* insert RS_CreateOneFurtherCategory(BodyMorphologicalMeasurement, $OBO, CMO_0000021)
-* insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
-* insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
+//// Hierarchy and Classification
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)
+//* insert RS_CreateOneFurtherCategory(ClinicalMeasurement, $OBO, CMO_0000000)
+//* insert RS_CreateOneFurtherCategory(BodyMorphologicalMeasurement, $OBO, CMO_0000021)
+//* insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
+//* insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 8302-2, "Body height") // Body Height
 // Value_Domain (VD) via Observation.valueQuantity
