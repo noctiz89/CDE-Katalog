@@ -1,8 +1,8 @@
 <p align="center"> 
-<img height="160" alt="Visit Github-Repository" src="https://github.com/noctiz89/CDE-Katalog/blob/main/input/images/cde-katalog_logo.svg"/></p>
+<img height="200" alt="Visit Github-Repository" src="https://github.com/noctiz89/CDE-Katalog/blob/main/input/images/cde-katalog_logo_slim.png"/></p>
+</center>
 
 # CDE-Katalog
-</center>
 Hier entsteht ein prototypischer Datenkatalog mit Common Data Elements (CDEs) für die medizinische Forschung. Als Forscher oder Einrichtung in der medizinischen Forschung kennen Sie sicherlich das Problem der unterschiedlichen Datenstandards und -definitionen. Um die Vergleichbarkeit und Integrität von Forschungsergebnissen zu erhöhen, haben wir uns dazu entschieden, einen Datenkatalog mit CDEs zu entwickeln.
 
 Link: [Implementation Guide](https://noctiz89.github.io/CDE-Katalog/output/index.html)
