@@ -7,15 +7,16 @@
        * Slicing Regel = #openAtEnd
        * Slicing Ordnung = true
     * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
-    * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet, z.B.:
-        * für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
-        <!--- ![Hierarchy of Data Element Concept Age](hierarchy-of-DEC-Age.png)-->
-        <p style="text-align:center"><img height="100" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></a></p>
+    * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet
+* Beispiel für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
+        
+<p style="text-align:center"><img height="280" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></a><p>
 
-        * für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
-        <!--- ![Hierarchy of Data Element Concept Body Mass Index](hierarchy-of-DEC-BodyMassIndex.png) --->
-        <p style="text-align:center"><img height="100" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></a></p>
-    * ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute
+* Beispiel für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
+
+<p style="text-align:center"><img height="280" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></a></p>
+
+* Ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute, da dort mehrere Ontologien auf einen Blick vergleichbar sind
 
 ## Data_Element_Concept (DEC) = Observation.code
 * Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe
@@ -49,8 +50,8 @@
     * TODO: ein Beispiel 
 
 ### valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain
-* Idee anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"
-       * maximal 1 von 3 Ausprägungen möglich: männlich | weiblich | intersexuell
+* Idee erklärt, anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"
+       * maximal 1 von 3 Ausprägungen möglich: *männlich | weiblich | intersexuell*
        * die Konzepte werden mit SNOMED codiert und sind zwingend erforderlich (required),
        * Text entspricht dem bevorzugten Term von SNOMED und bleibt unverändert (da englisch und deshalb allgemein verständlich)
             
