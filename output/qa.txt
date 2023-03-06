@@ -3,7 +3,7 @@
 
 err = 9, warn = 93, info = 13
 IG Publisher Version: 1.2.39
-Generated Mon Mar 06 10:44:48 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 11:23:24 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1

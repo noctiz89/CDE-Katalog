@@ -30,10 +30,10 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component ^slicing.ordered = false
 * component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "valueCodeableConcept"
 * component contains
-    smokesDaily 0..* and
-    occasionalSmoker 0..* and
-    exSmoker 0..* and
-    nonSmoker 0..*
+    smokesDaily 0..1 MS and
+    occasionalSmoker 0..1 MS and
+    exSmoker 0..1 MS and
+    nonSmoker 0..1 MS
 
 // Categorial Concept: "Smokes Tobacco Daily"
 * component[smokesDaily].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -105,7 +105,9 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[nonSmoker].code.coding contains
     nonSmokerSNOMEDCode 1..1 MS and
     nonSmokerLOINCCode 1..1 MS    
+* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code 1..1 MS
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code = #8392000 (exactly)
+* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system 1..1 MS
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system = $SCT (exactly)
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode] ^sliceName = "nonSmokerSNOMEDCode"
 //* component[nonSmoker].code.coding[nonSmokerLOINCCode].code = #LA18978-9 (exactly)
