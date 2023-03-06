@@ -1,5 +1,5 @@
 <p align="center"> 
-<a id="cde-catalog-logo" no-external="false" href="https://noctiz89.github.io/CDE-Katalog/output/index.html" target="_blank"><img height="200" alt="Visit our Implementation Guide" src="https://github.com/noctiz89/CDE-Katalog/blob/main/input/images/cde-katalog_logo_slim.png"/></a></p>
+<a id="cde-catalog-logo" no-external="false" href="https://noctiz89.github.io/CDE-Katalog/output/index.html" target="_blank" rel="noopener noreferrer"><img height="200" alt="Visit our Implementation Guide" src="https://github.com/noctiz89/CDE-Katalog/blob/main/input/images/cde-katalog_logo_slim.png"/></a></p>
 </center>
 
 # CDE-Katalog
