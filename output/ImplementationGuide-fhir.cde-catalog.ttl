@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T17:18:53+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T21:43:48+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1087,7 +1087,18 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-year" ]
        ] ;
        fhir:name [ fhir:v "CDE Tobacco Smoking Cessation Year" ] ;
-       fhir:description [ fhir:v "Dieses CDE enhält das 'Jahr seit dem der Konsum von Tabakrauch eingestellt wurde'." ]
+       fhir:description [ fhir:v "Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-pack-year" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Tobacco Smoking Pack Year" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den 'Packungsjahr'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1098,7 +1109,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-status" ]
        ] ;
        fhir:name [ fhir:v "CDE Smoking Status" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält den Raucherstatus einer Person" ]
+       fhir:description [ fhir:v "Dieses CDE enthält den 'Raucherstatus'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1454,6 +1465,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-pack-years" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Pack Years" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Packungsjahre'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
@@ -1731,7 +1753,7 @@
          ] ) ;
          fhir:name [ fhir:v "spec.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Detaillierte Spezifikation" ] ;
-         fhir:generation [ fhir:v "markdown" ] ;
+         fhir:generation [ fhir:v "html" ] ;
          fhir:page ( [
            fhir:extension ( [
              fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;

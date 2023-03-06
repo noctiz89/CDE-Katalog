@@ -259,6 +259,13 @@
     "name" : "CDE_TobaccoSmokingCessationYear"
   },
   {
+    "id" : "cde-tobacco-smoking-pack-year",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year",
+    "version" : "0.2.0",
+    "name" : "CDE_TobaccoSmokingPackYear"
+  },
+  {
     "id" : "cde-tobacco-smoking-status",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
@@ -488,6 +495,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_FindingOfTobaccoUseAndExposure"
+  },
+  {
+    "id" : "cls-snomed-pack-years",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years",
+    "version" : "0.2.0",
+    "name" : "CLS_SNOMED_PackYears"
   },
   {
     "id" : "cls-snomed-patient-sex",

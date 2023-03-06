@@ -6,8 +6,7 @@ Description: "Dieses CDE enthält den 'Packungsjahr'."
 //DEF: Zahl der pro Tag gerauchten Zigaretten mit der Zahl der Raucherjahre multipliziert.
 
 // Data_Element_Concept (DEC) via Observation.code
-* insert RS_CreateDataElementConcept($LOINC, LP76295-2, "Cigarettes smoked total (pack per year)")
+* insert RS_CreateDataElementConcept($SCT, 401201003, "Cigarette pack-years")
 
 // Value_Domain (VD) via Observation.valueQuantity
-* insert RS_CreateValueQuantity_SingleUnit("{PackYears}")
-// Unit {PackYears}
+* insert RS_CreateValueQuantity_SingleUnit({PackYears})

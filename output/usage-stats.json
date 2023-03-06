@@ -139,6 +139,10 @@
         "title": "CDE Tobacco Smoking Cessation Year"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year",
+        "title": "CDE Tobacco Smoking Pack Year"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
         "title": "CDE Smoking Status"
       },
@@ -269,6 +273,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
         "title": "CLS SNOMED Finding Of Tobacco Use And Exposure"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years",
+        "title": "CLS SNOMED Pack Years"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex",

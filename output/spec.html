@@ -166,11 +166,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Detaillierte Spezifikation</h2>
   
-
-
-
-
-
+  
   <table class="colstu">
     <tr>
   
@@ -187,116 +183,107 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
   </table>
 
+  
+  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+
+<h3>Notizen und konzeptionelles Vorgehen</h3>
+
+<h4>Conceptual_Domain (CD) = Observation.category</h4>
+
+<p><ul><li>
+    Slicing von Observation.category
+    <li>
+        Discriminator-Typ = #value
+    </li>
+    <li>
+        Diskriminator-Pfad = "coding"
+    </li>
+    <li>
+        Slicing Regel = #openAtEnd
+    </li>
+    <li>
+        Slicing Ordnung = true
+    </li>
+</li></ul>
+
+So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann. Die Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet.
 
 
+<p style="center">Beispiel für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition<br></br><img height="450" alt="Hierarchy of Data Element Concept Age" src="hierarchy-of-DEC-Age.png"/></p><br></br>
 
+<!-- <div>Beispiel für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)<br><p style="center"></br><img height="450" alt="Hierarchy of Data Element Concept Body Mass Index" src="hierarchy-of-DEC-BodyMassIndex.png"/></p>
+</div>-->
 
-
-
-
-    <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#notizen-und-konzeptuelles-vorgehen" id="markdown-toc-notizen-und-konzeptuelles-vorgehen">Notizen und konzeptuelles Vorgehen</a>    <ul>
-      <li><a href="#conceptual_domain-cd--observationcategory" id="markdown-toc-conceptual_domain-cd--observationcategory">Conceptual_Domain (CD) = Observation.category</a></li>
-      <li><a href="#data_element_concept-dec--observationcode" id="markdown-toc-data_element_concept-dec--observationcode">Data_Element_Concept (DEC) = Observation.code</a></li>
-      <li><a href="#value_domain-vd-mit-valuex" id="markdown-toc-value_domain-vd-mit-valuex">Value_Domain (VD) mit value[x]</a>        <ul>
-          <li><a href="#valuequantity-typ-quantity--quantitativ-messbare-value_domain" id="markdown-toc-valuequantity-typ-quantity--quantitativ-messbare-value_domain">valueQuantity (Typ Quantity) ~ quantitativ, messbare Value_Domain</a></li>
-          <li><a href="#valueinteger-typ-integer--quantitativ-zählbare-value_domain" id="markdown-toc-valueinteger-typ-integer--quantitativ-zählbare-value_domain">valueInteger (Typ integer) ~ quantitativ, zählbare Value_Domain</a></li>
-          <li><a href="#valuecodeableconcept-typ-codeableconcept--qualitativ-kategorial-value_domain" id="markdown-toc-valuecodeableconcept-typ-codeableconcept--qualitativ-kategorial-value_domain">valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain</a></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-</div>
-<h1 id="notizen-und-konzeptuelles-vorgehen">Notizen und konzeptuelles Vorgehen</h1>
-
-<h2 id="conceptual_domain-cd--observationcategory">Conceptual_Domain (CD) = Observation.category</h2>
-<p>
-* Slicing von Observation.category
-    * Discriminator-Typ = #value
-    * Diskriminator-Pfad = "coding"
-    * Slicing Regel = #openAtEnd
-    * Slicing Ordnung = true
-        * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
-        * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet
-<br /></p>
-
-<p>
-* Beispiel für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition</p>
-<body>
-<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png" /></p><br /><br />
-</body>
-<p><br /><br /></p>
-<p>
-* Beispiel für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)</p>
-<body>
-<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png" /></p><br /><br />
-</body>
-<p><br /><br /></p>
-
-<p>
-* Ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute, da dort mehrere Ontologien auf einen Blick vergleichbar sind</p>
-<p><br /><br /></p>
-
-<h2 id="data_element_concept-dec--observationcode">Data_Element_Concept (DEC) = Observation.code</h2>
-<p>
-
-* Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe
-* Observation.code.coding.code ~ entsprechender Code aus verwendeter Terminolgie
-* Observation.code.text ~ bevorzugter Text für Terminologie-Code
-    * z.B. DEC "Body mass Index (BMI)"
-        system = http://loinc.org
-        code = 39156-5
-        text = "Body mass index BMI [Ratio]"</p>
-
-<h2 id="value_domain-vd-mit-valuex">Value_Domain (VD) mit value[x]</h2>
-<p>
-
-* Unterscheidung von quantitativer (messbar / zählbar) und qualitativer (nominal / ordinal) VD
+Ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute, da dort mehrere Ontologien auf einen Blick vergleichbar sind
 </p>
 
-<h3 id="valuequantity-typ-quantity--quantitativ-messbare-value_domain">valueQuantity (Typ Quantity) ~ quantitativ, messbare Value_Domain</h3>
+
+<h4>Data_Element_Concept (DEC) = Observation.code</h4>
+<p><ul>
+    <li>Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe</li>
+        <li>Observation.code.coding.code ~ entsprechender Code aus verwendeter Terminolgie</li>
+        <li>Observation.code.text ~ bevorzugter Text für Terminologie-Code</li>
+        <ul>
+            <li>z.B. DEC "Body mass Index (BMI)"</li>
+                <ul>
+                    <li>system = http://loinc.org</li>
+                    <li>code = 39156-5</li>
+                    <li>text = "Body mass index BMI [Ratio]"</li>
+    </ul>
+</ul>
+</ul>
+</p>
+
+
+<h4>Value_Domain (VD) mit value[x]</h4>
 <p>
-* Quantity.value ~ ist der eigentliche Wert den das Datenelement misst
-* Quantity.system, Quantity.code ~ stellen die Einheit des Messwerts dar (maschinenlesbar)
-* z.B. das Data_Element_Concept "Größe"
-     * im Allgemeinen ist mit "Größe" die Körpergröße einer Person, also die Länge von Kopf bis Fuß gemeint, jedoch kann die VD natürlich für alles verwendet werden, was man physikalisch messen kann
-     * daher wurden hier die üblichen Längenmaßeinheiten des metrischen Systems (Kilometer, Meter, Zentimeter, Millimeter usw.) mit [UCUM-Codes](http://unitsofmeasure.org) definiert und in einem ValueSet zusammengefasst und mit FHIR auf "required" gesetzt
-     * dabei werden bei dem CDE_BodyHeight die Maßeinheiten 'cm' oder 'm' (aus dem ValueSet) empfohlen 
-     * in anderen Fällen, wie z.B. CDE_BodyWeight ist nur die Maßeinheit "kg" zulässig
- * Quantity.unit ~ menschenlesbare Einheit als string. Es ist fixer Wert vorgegeben, aber muss angegben werden (Kardinalität 1..1). 
-     z.B. "Kilogramm", "kg", "kilogramo" (spanisch) oder auch "公斤" (chinesisch, traditionell)</p>
+    <li>Unterscheidung von quantitativer (messbar / zählbar) und qualitativer (nominal / ordinal) VD</li>
+</p><br>
 
-<h3 id="valueinteger-typ-integer--quantitativ-zählbare-value_domain">valueInteger (Typ integer) ~ quantitativ, zählbare Value_Domain</h3>
+<h4>valueQuantity (Typ Quantity) ~ quantitativ, messbare Value_Domain</h4>
 <p>
-   * es ist fraglich, ob eine solche Unterscheidung notwendig ist 
-   * die Idee: 
-       * der Unterschied zur "messbaren VD" ist, dass es keine übliche Maßeinheiten gibt, sondern die Anzahl von 'Dingen' eine Rolle spielt, wie z.B. die "Anzahl der Grippefälle" in einem Zeitraum
-       * der Unterschied zur "ordinalen VD" ist, dass hier die Berechnung von statistischen Größen, wie Mittelwert, Standardabweichung etc. sinnvoll sein kann
-    * TODO: ein Beispiel </p>
+    <li>Quantity.value ~ ist der eigentliche Wert den das Datenelement misst</li>
+    <li>Quantity.system, Quantity.code ~ stellen die Einheit des Messwerts dar (maschinenlesbar)</li>
+    <li>* z.B. das Data_Element_Concept "Größe"</li>
+    <ul>
+        <li>im Allgemeinen ist mit "Größe" die Körpergröße einer Person, also die Länge von Kopf bis Fuß gemeint, jedoch kann die VD natürlich für alles verwendet werden, was man physikalisch messen kann</li>
+        <li>daher wurden hier die üblichen Längenmaßeinheiten des metrischen Systems (Kilometer, Meter, Zentimeter, Millimeter usw.) mit [UCUM-Codes](http://unitsofmeasure.org) definiert und in einem ValueSet zusammengefasst und mit FHIR auf "required" gesetzt</li>
+        <li>dabei werden bei dem CDE_BodyHeight die Maßeinheiten 'cm' oder 'm' (aus dem ValueSet) empfohlen </li>
+        <li>in anderen Fällen, wie z.B. CDE_BodyWeight ist nur die Maßeinheit "kg" zulässig</li>
+        </ul>
+    <li>Quantity.unit ~ menschenlesbare Einheit als string. Es ist fixer Wert vorgegeben, aber muss angegben werden (Kardinalität 1..1).</li>
+    <li>z.B. "Kilogramm", "kg", "kilogramo" (spanisch) oder auch "公斤" (chinesisch, traditionell)</li>
+</p>
+</br>
 
-<h3 id="valuecodeableconcept-typ-codeableconcept--qualitativ-kategorial-value_domain">valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain</h3>
+<h4>valueInteger (Typ integer) ~ quantitativ, zählbare Value_Domain</h4>
+<p><ul>
+    <li>es ist fraglich, ob eine solche Unterscheidung notwendig ist, die Idee ist jedoch:</li>
+        <ul>
+        <li>der Unterschied zur "messbaren VD" ist, dass es keine übliche Maßeinheiten gibt, sondern die Anzahl von 'Dingen' eine Rolle spielt, wie z.B. die "Anzahl der Grippefälle" in einem Zeitraum</li>
+        <li>der Unterschied zur "ordinalen VD" ist, dass hier die Berechnung von statistischen Größen, wie Mittelwert, Standardabweichung etc. sinnvoll sein kann</li>
+        <li>TODO: ein Beispiel</li>
+    </ul>
+</ul>
+</p>
+
+<h4>valueCodeableConcept (Typ CodeableConcept) ~ qualitativ, kategorial Value_Domain</h4>
 <p>
-
-* Idee erklärt, anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"
-       * maximal 1 von 3 Ausprägungen möglich: *männlich | weiblich | intersexuell*
-       * die Konzepte werden mit SNOMED codiert und sind zwingend erforderlich (required),
-       * Text entspricht dem bevorzugten Term von SNOMED und bleibt unverändert (da englisch und deshalb allgemein verständlich)
-            
-       * bisher folgende Festlegungen in FHIR:
-           * Observation.value[x] only CodeableConcept [0..1] (Kardinalität 0, da für fehlende Werte stets ein dataAbsentReason möglich sein soll)
-           * ValueSet mit den 3 Ausprägungen SNOMED-Code + Text
-
-        * es soll aber möglich sein an die jeweilige Kategorie, z.B. männlich - weitere Codierungen, wie z.B. LOINC anzuhängen
-    
-    Für die Unterscheidung von  soll der gegebene Snomed-Codes erforderlich sein! Es soll aber möglich sein, die entsprechenden Konzepte zu erweitern. z.B. "</p>
-
-
-
-
+    <li>Idee erklärt, anhand der kategorialen Unterscheidung von "Geschlecht, zugewiesen bei Geburt"</li>
+    <ul>
+        <li>maximal 1 von 3 Ausprägungen möglich: *männlich | weiblich | intersexuell*</li>
+        <li>die Konzepte werden mit SNOMED codiert und sind zwingend erforderlich (required)</li>
+        <li>Text entspricht dem bevorzugten Term von SNOMED und bleibt unverändert (da englisch und deshalb allgemein verständlich)</li>
+    </ul>
+        <li>bisher folgende Festlegungen in FHIR:</li>
+    <ul>
+        <li>Observation.value[x] only CodeableConcept [0..1] (Kardinalität 0, da für fehlende Werte stets ein dataAbsentReason möglich sein soll)</li>
+        <li>ValueSet mit den 3 Ausprägungen SNOMED-Code + Text</li>
+        <li>es soll aber möglich sein an die jeweilige Kategorie, z.B. männlich - weitere Codierungen, wie z.B. LOINC anzuhängen</li>
+    </ul>
+    Für die Unterscheidung von  soll der gegebene Snomed-Codes erforderlich sein! Es soll aber möglich sein, die entsprechenden Konzepte zu erweitern. z.B. "
+</p>
+</div> 
 </div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
@@ -341,7 +328,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 6, 2023 17:18+0100">2023-03-06</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 6, 2023 21:43+0100">2023-03-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

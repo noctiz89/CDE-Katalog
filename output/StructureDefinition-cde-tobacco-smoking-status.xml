@@ -66,7 +66,7 @@
   <name value="CDE_TobaccoSmokingStatus"/>
   <title value="CDE Smoking Status"/>
   <status value="active"/>
-  <date value="2023-03-06T17:18:53+01:00"/>
+  <date value="2023-03-06T21:43:48+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -74,7 +74,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="Dieses CDE enthält den Raucherstatus einer Person"/>
+  <description value="Dieses CDE enthält den 'Raucherstatus'."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

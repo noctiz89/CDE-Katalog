@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-06T17:18:53+01:00"/>
+  <date value="2023-03-06T21:43:48+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -961,7 +961,17 @@
         <reference value="StructureDefinition/cde-tobacco-smoking-cessation-year"/>
       </reference>
       <name value="CDE Tobacco Smoking Cessation Year"/>
-      <description value="Dieses CDE enhält das 'Jahr seit dem der Konsum von Tabakrauch eingestellt wurde'."/>
+      <description value="Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-pack-year"/>
+      </reference>
+      <name value="CDE Tobacco Smoking Pack Year"/>
+      <description value="Dieses CDE enthält den 'Packungsjahr'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -971,7 +981,7 @@
         <reference value="StructureDefinition/cde-tobacco-smoking-status"/>
       </reference>
       <name value="CDE Smoking Status"/>
-      <description value="Dieses CDE enthält den Raucherstatus einer Person"/>
+      <description value="Dieses CDE enthält den 'Raucherstatus'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1295,6 +1305,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-pack-years"/>
+      </reference>
+      <name value="CLS SNOMED Pack Years"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Packungsjahre'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
@@ -1549,7 +1569,7 @@
         </extension>
         <nameUrl value="spec.html"/>
         <title value="Detaillierte Spezifikation"/>
-        <generation value="markdown"/>
+        <generation value="html"/>
         <page>
           <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
             <valueCode value="trial-use"/>
