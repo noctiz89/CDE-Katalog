@@ -30,7 +30,7 @@
   "name" : "CDE_VisitDate",
   "title" : "CDE Visit Date",
   "status" : "active",
-  "date" : "2023-03-06T16:00:54+01:00",
+  "date" : "2023-03-06T16:38:28+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -899,9 +899,9 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory",
+      "id" : "Observation.category:SocialHistory",
       "path" : "Observation.category",
-      "sliceName" : "Laboratory",
+      "sliceName" : "SocialHistory",
       "short" : "Classification of  type of observation",
       "definition" : "A code that classifies the general type of observation being made.",
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
@@ -961,7 +961,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.id",
+      "id" : "Observation.category:SocialHistory.id",
       "path" : "Observation.category.id",
       "representation" : ["xmlAttr"],
       "short" : "Unique id for inter-element referencing",
@@ -986,7 +986,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.extension",
+      "id" : "Observation.category:SocialHistory.extension",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"
@@ -1046,7 +1046,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding",
+      "id" : "Observation.category:SocialHistory.coding",
       "path" : "Observation.category.coding",
       "short" : "Code defined by a terminology system",
       "definition" : "A reference to a code defined by a terminology system.",
@@ -1103,7 +1103,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.id",
+      "id" : "Observation.category:SocialHistory.coding.id",
       "path" : "Observation.category.coding.id",
       "representation" : ["xmlAttr"],
       "short" : "Unique id for inter-element referencing",
@@ -1128,7 +1128,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.extension",
+      "id" : "Observation.category:SocialHistory.coding.extension",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"
@@ -1188,7 +1188,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.system",
+      "id" : "Observation.category:SocialHistory.coding.system",
       "path" : "Observation.category.coding.system",
       "short" : "Identity of the terminology system",
       "definition" : "The identification of the code system that defines the meaning of the symbol in the code.",
@@ -1234,7 +1234,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.version",
+      "id" : "Observation.category:SocialHistory.coding.version",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"
@@ -1285,7 +1285,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.code",
+      "id" : "Observation.category:SocialHistory.coding.code",
       "path" : "Observation.category.coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
@@ -1301,7 +1301,7 @@
       "type" : [{
         "code" : "code"
       }],
-      "fixedCode" : "laboratory",
+      "fixedCode" : "social-history",
       "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
@@ -1331,7 +1331,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.display",
+      "id" : "Observation.category:SocialHistory.coding.display",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"
@@ -1387,7 +1387,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.coding.userSelected",
+      "id" : "Observation.category:SocialHistory.coding.userSelected",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"
@@ -1439,7 +1439,7 @@
       }]
     },
     {
-      "id" : "Observation.category:Laboratory.text",
+      "id" : "Observation.category:SocialHistory.text",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "normative"

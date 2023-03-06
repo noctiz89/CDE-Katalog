@@ -329,6 +329,20 @@
     "name" : "CLS_OBO_CMO_BloodSodiumLevel"
   },
   {
+    "id" : "cls-obo-cmo-body-height",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BodyHeight"
+  },
+  {
+    "id" : "cls-obo-cmo-body-weight",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BodyWeight"
+  },
+  {
     "id" : "cls-obo-cmo-hematocrit-measurement",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
@@ -341,6 +355,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HemoglobinMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-hip-circumference",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_HipCircumference"
   },
   {
     "id" : "cls-obo-cmo-platelet-measurement",
@@ -357,11 +378,46 @@
     "name" : "CLS_OBO_CMO_RedBloodCellMeasurement"
   },
   {
+    "id" : "cls-obo-cmo-waist-circumference",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_WaistCircumference"
+  },
+  {
     "id" : "cls-obo-cmo-white-blood-cell-measurement",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_WhiteBloodCellMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmobody-mass-index",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMOBodyMassIndex"
+  },
+  {
+    "id" : "cls-obo-ncit-age",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_Age"
+  },
+  {
+    "id" : "cls-obo-ncit-birth-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_BirthDate"
+  },
+  {
+    "id" : "cls-obo-ncit-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_Date"
   },
   {
     "id" : "cls-obo-ncit-date-of-diagnosis",

@@ -1,15 +1,16 @@
 Profile: CDE_BodyWeight
-Parent: Observation
+Parent: cls-obo-cmo-body-weight
 Id: cde-body-weight
 Title: "CDE Body Weight"
 Description: "Dieses CDE enthält das 'Körpergewicht'."
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)
-* insert RS_CreateOneFurtherCategory(ClinicalMeasurement, $OBO, CMO_0000000)
-* insert RS_CreateOneFurtherCategory(BodyMorphologicalMeasurement, $OBO, CMO_0000021)
-* insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
-* insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
+//// Hierarchy and Classification
+//* insert RS_ObservationCategorySlicingRules
+//* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)
+//* insert RS_CreateOneFurtherCategory(ClinicalMeasurement, $OBO, CMO_0000000)
+//* insert RS_CreateOneFurtherCategory(BodyMorphologicalMeasurement, $OBO, CMO_0000021)
+//* insert RS_CreateOneFurtherCategory(WholeBodyMorphologicalMeasurement, $OBO, CMO_0000011)
+//* insert RS_CreateOneFurtherCategory(BodyHeight, $OBO, CMO_0000106)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 29463-7, "Body weight") //Body Weight
 // Value_Domain (VD) via Observation.valueQuantity

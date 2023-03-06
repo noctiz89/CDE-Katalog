@@ -32,7 +32,7 @@
   <name value="CDE_VisitDate"/>
   <title value="CDE Visit Date"/>
   <status value="active"/>
-  <date value="2023-03-06T16:00:54+01:00"/>
+  <date value="2023-03-06T16:38:28+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -857,9 +857,9 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory">
+    <element id="Observation.category:SocialHistory">
       <path value="Observation.category"/>
-      <sliceName value="Laboratory"/>
+      <sliceName value="SocialHistory"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
@@ -917,7 +917,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.id">
+    <element id="Observation.category:SocialHistory.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -940,7 +940,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.extension">
+    <element id="Observation.category:SocialHistory.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -997,7 +997,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding">
+    <element id="Observation.category:SocialHistory.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -1053,7 +1053,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.id">
+    <element id="Observation.category:SocialHistory.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1076,7 +1076,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.extension">
+    <element id="Observation.category:SocialHistory.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1133,7 +1133,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.system">
+    <element id="Observation.category:SocialHistory.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -1178,7 +1178,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.version">
+    <element id="Observation.category:SocialHistory.coding.version">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1226,7 +1226,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.code">
+    <element id="Observation.category:SocialHistory.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -1242,7 +1242,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="laboratory"/>
+      <fixedCode value="social-history"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1271,7 +1271,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.display">
+    <element id="Observation.category:SocialHistory.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1323,7 +1323,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.userSelected">
+    <element id="Observation.category:SocialHistory.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1372,7 +1372,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.text">
+    <element id="Observation.category:SocialHistory.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>

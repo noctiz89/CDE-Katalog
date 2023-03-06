@@ -11,6 +11,7 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 // * insert RS_CreateOneFurtherCategory(MentalStateBehavior, $SCT, 384821006)
 // * insert RS_CreateOneFurtherCategory(HealthRelatedBehaviorFinding, $SCT, 365949003)
 // * insert RS_CreateOneFurtherCategory(FindingOfTobaccoUseAndExposure, $SCT, 365980008)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 72166-2, "Tobacco smoking status") //
 // Value_Domain (VD) via Observation.value*

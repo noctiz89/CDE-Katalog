@@ -1,37 +1,35 @@
 # Notizen und konzeptuelles Vorgehen
 
 ## Conceptual_Domain (CD) = Observation.category
+
 * Slicing von Observation.category
-       * Discriminator-Typ = #value
-       * Diskriminator-Pfad = "coding"
-       * Slicing Regel = #openAtEnd
-       * Slicing Ordnung = true
-    * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
-    * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet
+    * Discriminator-Typ = #value
+    * Diskriminator-Pfad = "coding"
+    * Slicing Regel = #openAtEnd
+    * Slicing Ordnung = true
+        * So ergibt sich eine geordnete Liste/Kette mit Konzepten, die nur am Ende erweitert werden kann
+        * Verwendung einer geeigneten Terminologie/Ontologie/Taxonomie, die das Data_Element_Concept (Zielkonzept) am 'besten' abbildet
 <br>
 
 
 * Beispiel für das Daten_Element_Concept "Age" mit dem NCI Thesaurus OBO Edition
 <body>
-<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></p>
-</body>
-<br>
-
+<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-Age.png"/></p><br><br>
+</body><br><br>
 
 * Beispiel für das Daten_Element_Concept "Body Mass Index" mit der Clinical Measurement Ontologie (CMO)
-
-
 <body>
-<p style="text-align:right"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></p>
-</body>
-<br>
+<p style="text-align:left"><img height="350" alt="Visit Github-Repository" src="hierarchy-of-DEC-BodyMassIndex.png"/></p><br><br>
+</body><br><br>
 
 
 * Ein praktisches Werkzeug dafür, ist die (OLS Ontologie Search)[https://www.ebi.ac.uk/ols/index] des European Bioinformatics Institute, da dort mehrere Ontologien auf einen Blick vergleichbar sind
-<br>
+<br><br>
+
 
 
 ## Data_Element_Concept (DEC) = Observation.code
+
 * Observation.code.coding.system ~ eine zugängliche und domänen-übliche Terminologie verwenden, z.B. LOINC für Labormessungen oder SNOMED für medizinische Begriffe
 * Observation.code.coding.code ~ entsprechender Code aus verwendeter Terminolgie
 * Observation.code.text ~ bevorzugter Text für Terminologie-Code

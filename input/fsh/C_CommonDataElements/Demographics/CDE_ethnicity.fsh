@@ -10,6 +10,7 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 //* insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
 //* insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)
 //* insert RS_CreateOneFurtherCategory(DemographicHistoryDetail, $SCT, 302147001)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 364699009, "Ethnic group") // Ethnicity
 

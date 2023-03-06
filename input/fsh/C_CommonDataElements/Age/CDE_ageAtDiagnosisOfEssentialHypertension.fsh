@@ -2,7 +2,7 @@ Profile: CDE_AgeAtDiagnosisOfEssentialHypertension
 Parent: cls-obo-ncit-age
 Id: cde-age-at-diagnosis-of-essential-hypertension
 Title: "CDE Age At Diagnosis Of Essential Hypertension"
-Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'."
+Description: "Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
@@ -19,6 +19,7 @@ Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagn
 // Add further Component (Kind of Diagnosis)
 * insert RS_ObservationComponentSlicingRules
 // * insert RS_CreateOneFurtherComponent(componentName, system, code) //erstmal manuell erstellen:
+
 * component contains
     Diagnosis 1..1 MS SU and
     DateOfDiagnosis 1..1 MS SU
@@ -41,7 +42,6 @@ Description: "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagn
 * component[DateOfDiagnosis].valueDateTime.value 1..1 MS
 * component[DateOfDiagnosis].valueDateTime.value only dateTime
 * component[DateOfDiagnosis].valueDateTime.value ^short = "Datum der Diagnosestellung"
-
 
 /*
 * component[Diagnosis] only CodeableConcept

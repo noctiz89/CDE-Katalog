@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-06T16:00:54+01:00"/>
+  <date value="2023-03-06T16:38:28+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -661,7 +661,7 @@
         <reference value="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"/>
       </reference>
       <name value="CDE Age At Diagnosis Of Essential Hypertension"/>
-      <description value="Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'."/>
+      <description value="Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -731,7 +731,7 @@
         <reference value="StructureDefinition/cde-body-mass-index"/>
       </reference>
       <name value="CDE Body Mass Index"/>
-      <description value="Dieses CDE enthält den 'Body Mass Index (BMI)'."/>
+      <description value="Dieses CDE enthält den 'Body Mass Index (BMI) [Verhältnis]'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -791,7 +791,7 @@
         <reference value="StructureDefinition/cde-current-age-calculated"/>
       </reference>
       <name value="CDE Current Age Calculated"/>
-      <description value="Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis."/>
+      <description value="Dieses CDE enthält das 'aktuelle Alter - berechnet'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -801,7 +801,7 @@
         <reference value="StructureDefinition/cde-current-age-reported"/>
       </reference>
       <name value="CDE Current Age Reported"/>
-      <description value="Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung."/>
+      <description value="Dieses CDE enthält das 'aktuelle Alter - berichtet'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1068,6 +1068,26 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-body-height"/>
+      </reference>
+      <name value="CLS OBO CMO Body Height"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-body-weight"/>
+      </reference>
+      <name value="CLS OBO CMO Body Weight"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-cmo-hematocrit-measurement"/>
       </reference>
       <name value="CLS OBO CMO Hematocrit Measurement"/>
@@ -1082,6 +1102,16 @@
       </reference>
       <name value="CLS OBO CMO Hemoglobin Measurement"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-hip-circumference"/>
+      </reference>
+      <name value="CLS OBO CMO Hip Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1108,6 +1138,16 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-waist-circumference"/>
+      </reference>
+      <name value="CLS OBO CMO Waist Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-cmo-white-blood-cell-measurement"/>
       </reference>
       <name value="CLS OBO CMO White Blood Cell Measurement"/>
@@ -1118,10 +1158,50 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmobody-mass-index"/>
+      </reference>
+      <name value="CLS OBO CMO Body Mass Index"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-age"/>
+      </reference>
+      <name value="CLS OBO NCIT Age"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-birth-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Birth Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Geburtsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-ncit-date-of-diagnosis"/>
       </reference>
       <name value="CLS OBO NCIT Date Of Diagnosis"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T16:00:54+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T16:38:28+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -757,7 +757,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension" ]
        ] ;
        fhir:name [ fhir:v "CDE Age At Diagnosis Of Essential Hypertension" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält das Alter einer Person zum Zeitpunkt der Diagnose 'Essenzielle (primäre) Hypertonie'." ]
+       fhir:description [ fhir:v "Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -834,7 +834,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-body-mass-index" ]
        ] ;
        fhir:name [ fhir:v "CDE Body Mass Index" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält den 'Body Mass Index (BMI)'." ]
+       fhir:description [ fhir:v "Dieses CDE enthält den 'Body Mass Index (BMI) [Verhältnis]'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -900,7 +900,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-current-age-calculated" ]
        ] ;
        fhir:name [ fhir:v "CDE Current Age Calculated" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält das 'aktuelle Alter - berechnet'. Berechnung erfolgt aus dem bekannten Geburtsdatum und Zeitpunkt eines bestimmten Ereignis." ]
+       fhir:description [ fhir:v "Dieses CDE enthält das 'aktuelle Alter - berechnet'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -911,7 +911,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cde-current-age-reported" ]
        ] ;
        fhir:name [ fhir:v "CDE Current Age Reported" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält das 'aktuelle Alter - berichtet'. Alter zum Zeitpunkt der Befragung." ]
+       fhir:description [ fhir:v "Dieses CDE enthält das 'aktuelle Alter - berichtet'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1204,6 +1204,28 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-height" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Body Height" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-weight" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Body Weight" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hematocrit-measurement" ]
        ] ;
@@ -1220,6 +1242,17 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Hemoglobin Measurement" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hip-circumference" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Hip Circumference" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1248,6 +1281,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-waist-circumference" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Waist Circumference" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-white-blood-cell-measurement" ]
        ] ;
@@ -1259,11 +1303,55 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmobody-mass-index" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Body Mass Index" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-age" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO NCIT Age" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Alter'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-birth-date" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO NCIT Birth Date" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Geburtsdatum'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date-of-diagnosis" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Date Of Diagnosis" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO NCIT Date" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

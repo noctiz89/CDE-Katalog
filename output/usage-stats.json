@@ -179,12 +179,24 @@
         "title": "CLS OBO CMO Blood Sodium Level"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height",
+        "title": "CLS OBO CMO Body Height"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
+        "title": "CLS OBO CMO Body Weight"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
         "title": "CLS OBO CMO Hematocrit Measurement"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
         "title": "CLS OBO CMO Hemoglobin Measurement"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference",
+        "title": "CLS OBO CMO Hip Circumference"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-platelet-measurement",
@@ -195,8 +207,28 @@
         "title": "CLS OBO CMO Red Blood Cell Measurement"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
+        "title": "CLS OBO CMO Waist Circumference"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
         "title": "CLS OBO CMO White Blood Cell Measurement"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index",
+        "title": "CLS OBO CMO Body Mass Index"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age",
+        "title": "CLS OBO NCIT Age"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date",
+        "title": "CLS OBO NCIT Birth Date"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date",
+        "title": "CLS OBO NCIT Date"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis",

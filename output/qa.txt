@@ -3,7 +3,7 @@
 
 err = 9, warn = 71, info = 7
 IG Publisher Version: 1.2.39
-Generated Mon Mar 06 16:15:32 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 16:54:25 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -46,11 +46,19 @@ Generated Mon Mar 06 16:15:32 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-phosphate-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-age : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-date : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-date-of-diagnosis : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-visit-date : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date : 0 / 0 / 1
@@ -102,7 +110,7 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
-WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[157].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[145].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
@@ -177,11 +185,19 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-phosphate-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-age.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-date.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-date-of-diagnosis.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-visit-date.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date.json ==

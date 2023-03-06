@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_VisitDate"] ; # 
   fhir:title [ fhir:v "CDE Visit Date"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-06T16:00:54+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T16:38:28+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -930,9 +930,9 @@
          fhir:map [ fhir:v ".outboundRelationship[typeCode=\"COMP].target[classCode=\"LIST\", moodCode=\"EVN\"].code" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory" ] ;
        fhir:path [ fhir:v "Observation.category" ] ;
-       fhir:sliceName [ fhir:v "Laboratory" ] ;
+       fhir:sliceName [ fhir:v "SocialHistory" ] ;
        fhir:short [ fhir:v "Classification of  type of observation" ] ;
        fhir:definition [ fhir:v "A code that classifies the general type of observation being made." ] ;
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
@@ -992,7 +992,7 @@
          fhir:map [ fhir:v ".outboundRelationship[typeCode=\"COMP].target[classCode=\"LIST\", moodCode=\"EVN\"].code" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.id" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.id" ] ;
        fhir:path [ fhir:v "Observation.category.id" ] ;
        fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
        fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
@@ -1016,7 +1016,7 @@
          fhir:map [ fhir:v "n/a" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.extension" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.extension" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
@@ -1077,7 +1077,7 @@
          fhir:map [ fhir:v "N/A" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding" ] ;
        fhir:path [ fhir:v "Observation.category.coding" ] ;
        fhir:short [ fhir:v "Code defined by a terminology system" ] ;
        fhir:definition [ fhir:v "A reference to a code defined by a terminology system." ] ;
@@ -1130,7 +1130,7 @@
          fhir:map [ fhir:v "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.id" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.id" ] ;
        fhir:path [ fhir:v "Observation.category.coding.id" ] ;
        fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
        fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
@@ -1154,7 +1154,7 @@
          fhir:map [ fhir:v "n/a" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.extension" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.extension" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
@@ -1215,7 +1215,7 @@
          fhir:map [ fhir:v "N/A" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.system" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.system" ] ;
        fhir:path [ fhir:v "Observation.category.coding.system" ] ;
        fhir:short [ fhir:v "Identity of the terminology system" ] ;
        fhir:definition [ fhir:v "The identification of the code system that defines the meaning of the symbol in the code." ] ;
@@ -1260,7 +1260,7 @@
          fhir:map [ fhir:v "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.version" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.version" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
@@ -1309,7 +1309,7 @@
          fhir:map [ fhir:v "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.code" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.code" ] ;
        fhir:path [ fhir:v "Observation.category.coding.code" ] ;
        fhir:short [ fhir:v "Symbol in syntax defined by the system" ] ;
        fhir:definition [ fhir:v "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)." ] ;
@@ -1325,7 +1325,7 @@
        fhir:type ( [
          fhir:code [ fhir:v "code"^^xsd:anyURI ]
        ] ) ;
-       fhir:fixed [ fhir:v "laboratory" ] ;
+       fhir:fixed [ fhir:v "social-history" ] ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
@@ -1354,7 +1354,7 @@
          fhir:map [ fhir:v "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.display" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.display" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
@@ -1407,7 +1407,7 @@
          fhir:map [ fhir:v "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.coding.userSelected" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.coding.userSelected" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
@@ -1457,7 +1457,7 @@
          fhir:map [ fhir:v "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]" ]
        ] )
      ] [
-       fhir:id [ fhir:v "Observation.category:Laboratory.text" ] ;
+       fhir:id [ fhir:v "Observation.category:SocialHistory.text" ] ;
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "normative" ]
