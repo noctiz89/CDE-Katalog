@@ -455,6 +455,13 @@
     "name" : "CLS_L3_Urine"
   },
   {
+    "id" : "cls-snomed-finding-of-tobacco-use-and-exposure",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
+    "version" : "0.2.0",
+    "name" : "CLS_SNOMED_FindingOfTobaccoUseAndExposure"
+  },
+  {
     "id" : "ext-myExtension",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",

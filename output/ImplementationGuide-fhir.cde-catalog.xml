@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-06T11:09:37+01:00"/>
+  <date value="2023-03-06T11:31:12+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -1242,6 +1242,16 @@
       </reference>
       <name value="CLS L3 Urine"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"/>
+      </reference>
+      <name value="CLS SNOMED Finding Of Tobacco Use And Exposure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -251,6 +251,10 @@
         "title": "CLS L3 Urine"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
+        "title": "CLS SNOMED Finding Of Tobacco Use And Exposure"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
         "title": "My Observation Profile"
       }

@@ -3,7 +3,7 @@
 
 err = 9, warn = 93, info = 13
 IG Publisher Version: 1.2.39
-Generated Mon Mar 06 11:23:24 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Mar 06 11:45:19 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 1 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
@@ -64,6 +64,7 @@ Generated Mon Mar 06 11:23:24 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-l3-urine : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
@@ -168,7 +169,7 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.snapshot.element[160].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
-WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[42].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
+WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[17].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
@@ -229,6 +230,7 @@ WARNING: StructureDefinition/cls-l3-age-at-diagnosis: StructureDefinition.differ
 == fsh-generated\resources\StructureDefinition-cls-l3-cerebrospinal-fluid.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-serum-or-plasma.json ==
 == fsh-generated\resources\StructureDefinition-cls-l3-urine.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure.json ==
 == fsh-generated\resources\StructureDefinition-poi-patient.json ==
 INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile

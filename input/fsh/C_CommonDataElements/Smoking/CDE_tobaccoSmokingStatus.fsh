@@ -1,16 +1,16 @@
 Profile: CDE_TobaccoSmokingStatus
-Parent: Observation
+Parent: cls-snomed-finding-of-tobacco-use-and-exposure
 Id: cde-tobacco-smoking-status
 Title: "CDE Smoking Status"
 Description: "Dieses CDE enthält den Raucherstatus einer Person"
-// Hierarchy and Classification
-* insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-* insert RS_CreateOneFurtherCategory(SNOMEDCTConcept, $SCT, 138875005)
-* insert RS_CreateOneFurtherCategory(ClinicalFinding, $SCT, 404684003)
-* insert RS_CreateOneFurtherCategory(MentalStateBehavior, $SCT, 384821006)
-* insert RS_CreateOneFurtherCategory(HealthRelatedBehaviorFinding, $SCT, 365949003)
-* insert RS_CreateOneFurtherCategory(FindingOfTobaccoUseAndExposure, $SCT, 365980008)
+// // Hierarchy and Classification
+// * insert RS_ObservationCategorySlicingRules
+// * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+// * insert RS_CreateOneFurtherCategory(SNOMEDCTConcept, $SCT, 138875005)
+// * insert RS_CreateOneFurtherCategory(ClinicalFinding, $SCT, 404684003)
+// * insert RS_CreateOneFurtherCategory(MentalStateBehavior, $SCT, 384821006)
+// * insert RS_CreateOneFurtherCategory(HealthRelatedBehaviorFinding, $SCT, 365949003)
+// * insert RS_CreateOneFurtherCategory(FindingOfTobaccoUseAndExposure, $SCT, 365980008)
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 72166-2, "Tobacco smoking status") //
 // Value_Domain (VD) via Observation.value*
@@ -46,8 +46,8 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[smokesDaily].code.coding ^slicing.rules = #open
 * component[smokesDaily].code.coding ^slicing.ordered = false
 * component[smokesDaily].code.coding contains
-    smokesDailySNOMEDCode 1..1 MS and
-    smokesDailyLOINCCode 1..1
+    smokesDailySNOMEDCode 0..1 MS and
+    smokesDailyLOINCCode 0..1
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode].code = #449868002 (exactly)
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode].system = $SCT (exactly)
 * component[smokesDaily].code.coding[smokesDailySNOMEDCode] ^sliceName = "smokesDailySNOMEDCode"
@@ -105,14 +105,14 @@ Description: "Dieses CDE enthält den Raucherstatus einer Person"
 * component[nonSmoker].code.coding contains
     nonSmokerSNOMEDCode 1..1 MS and
     nonSmokerLOINCCode 1..1 MS    
-* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code 1..1 MS
+* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code 1..1
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].code = #8392000 (exactly)
-* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system 1..1 MS
+* component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system 1..1
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode].system = $SCT (exactly)
 * component[nonSmoker].code.coding[nonSmokerSNOMEDCode] ^sliceName = "nonSmokerSNOMEDCode"
-//* component[nonSmoker].code.coding[nonSmokerLOINCCode].code = #LA18978-9 (exactly)
-//* component[nonSmoker].code.coding[nonSmokerLOINCCode].system = $LOINC (exactly)
-//* component[nonSmoker].code.coding[nonSmokerLOINCCode] ^sliceName = "nonSmokerLOINCCode"
+* component[nonSmoker].code.coding[nonSmokerLOINCCode].code = #LA18978-9 (exactly)
+* component[nonSmoker].code.coding[nonSmokerLOINCCode].system = $LOINC (exactly)
+* component[nonSmoker].code.coding[nonSmokerLOINCCode] ^sliceName = "nonSmokerLOINCCode"
 
 
 /* component contains

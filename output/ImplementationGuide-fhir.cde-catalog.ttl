@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T11:09:37+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-06T11:31:12+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1396,6 +1396,17 @@
        ] ;
        fhir:name [ fhir:v "CLS L3 Urine" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Urin'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Finding Of Tobacco Use And Exposure" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
