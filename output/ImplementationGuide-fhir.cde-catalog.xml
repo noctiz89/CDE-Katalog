@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-06T13:11:54+01:00"/>
+  <date value="2023-03-06T14:45:09+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -768,20 +768,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-chloride-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Chloride In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Chlorid in Serum oder Plasma'."/>
+      <name value="CDE Chloride In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Chlorid [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-creatinine-in-ser-or-plas"/>
+        <reference value="StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Creatinine In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Kreatinin in Serum oder Plasma'."/>
+      <name value="CDE Creatinine In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kreatinin [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -821,7 +821,7 @@
         <reference value="StructureDefinition/cde-erythrocytes-in-blood"/>
       </reference>
       <name value="CDE Erythrocytes In Blood"/>
-      <description value="Dieses CDE enthält den Messparameter 'Erytrhozyten in Blut"/>
+      <description value="Dieses CDE enthält den Messparameter 'Erytrhozyten [Anzahl/Volumen] in Blut"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -848,10 +848,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-glucose-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Glucose In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Glukose in Serum oder Plasma'."/>
+      <name value="CDE Glucose In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Glukose [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -868,10 +868,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-hemoglobin-in-blood"/>
+        <reference value="StructureDefinition/cde-hemoglobin-in-blood-mole-concentration"/>
       </reference>
-      <name value="CDE Hemoglobin In Blood"/>
-      <description value="Dieses CDE enthält den Messparameter 'Hämoglobin in Blut'."/>
+      <name value="CDE Hemoglobin In Blood Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Hämoglobin [Mol/Volumen] in Blut'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -891,37 +891,37 @@
         <reference value="StructureDefinition/cde-leukocytes-in-blood"/>
       </reference>
       <name value="CDE Leukocytes In Blood"/>
-      <description value="Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'."/>
+      <description value="Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-magnesium-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Magnesium In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Magnesium in Serum oder Plasma'."/>
+      <name value="CDE Magnesium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-phosphate-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Phosphate In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'."/>
+      <name value="CDE Phosphate In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-potassium-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Potassium In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Kalium in Serum oder Plasma'."/>
+      <name value="CDE Potassium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalium [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -938,10 +938,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-sodium-in-serum-or-plasma"/>
+        <reference value="StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration"/>
       </reference>
-      <name value="CDE Sodium In Serum Or Plasma"/>
-      <description value="Dieses CDE enthält den Messparameter 'Natrium in Serum oder Plasma'."/>
+      <name value="CDE Sodium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -951,7 +951,7 @@
         <reference value="StructureDefinition/cde-thrombocytes-in-blood"/>
       </reference>
       <name value="CDE Thrombocytes In Blood"/>
-      <description value="Dieses CDE enthält den Messparameter 'Thrombozyten in Blut'."/>
+      <description value="Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -998,266 +998,6 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cls-l0-activity"/>
-      </reference>
-      <name value="CLS L0 Social History"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-exam"/>
-      </reference>
-      <name value="CLS L0 Exam"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körperliche Untersuchung und direkte Beobachtungen durch medizinisches Personal'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-imaging"/>
-      </reference>
-      <name value="CLS L0 Imaging"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Bildgebung und bildgebende Verfahren'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-laboratory"/>
-      </reference>
-      <name value="CLS L0 Laboratory"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Laboruntersuchungen'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-procedure"/>
-      </reference>
-      <name value="CLS L0 Procedure"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Prozeduren'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-social-history"/>
-      </reference>
-      <name value="CLS L0 Social History"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Sozialanamnese'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-survey"/>
-      </reference>
-      <name value="CLS L0 Survey"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Beurteilungs- und Befragungsinstrumente'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-therapy"/>
-      </reference>
-      <name value="CLS L0 Therapy"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'nicht-interventionelle Behandlungsprotokolle'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l0-vital-signs"/>
-      </reference>
-      <name value="CLS L0 Vital Signs"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Vitalfunktionen'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-administrative-information"/>
-      </reference>
-      <name value="CLS L1 Administrative Information"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Administrative Informationen"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-clinical-chemistry"/>
-      </reference>
-      <name value="CLS L1 Clincial Chemistry"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Chemie'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-clinical-immunology"/>
-      </reference>
-      <name value="CLS L1 Clincial Immunology"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Immunologie'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-clinical-microbiology"/>
-      </reference>
-      <name value="CLS L1 Clincial Microbiology"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Klinische Mikrobiologie'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-diseases-and-related-health-problems"/>
-      </reference>
-      <name value="CLS L1 Diseases And Related Health Problems"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Krankheiten und krankheitsbezogene Probleme."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-health-related-behavior-and-lifestyle"/>
-      </reference>
-      <name value="CLS L1 Heatlh-related Behavior and Lifesytle"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Gesundheitsbezogenes Verhalten &amp; Lebensstil'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-physical-measurements-and-assessment"/>
-      </reference>
-      <name value="CLS L1 Physical Measurements And Assessment"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Physikalische Messungen und Bewertungen."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-social-personal-details"/>
-      </reference>
-      <name value="CLS L1 Social Personal Details"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Soziale / Persönliche Details'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l1-substance-level"/>
-      </reference>
-      <name value="CLS L1 Substance Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Substanzspiegel'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l2-age-and-birth-date"/>
-      </reference>
-      <name value="CLS L2 Age And Birth Date"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter und Geburtsdatum'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l2-gender"/>
-      </reference>
-      <name value="CLS L2 Gender"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Geschlecht'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l2-specimen-type"/>
-      </reference>
-      <name value="CLS L2 Specimen"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Probentyp'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l3-age-at-diagnosis"/>
-      </reference>
-      <name value="CLS L3 Age At Diagnosis"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l3-blood"/>
-      </reference>
-      <name value="CLS L3 Blood"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l3-cerebrospinal-fluid"/>
-      </reference>
-      <name value="CLS L3 Cerebrospinal Fluid"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Cerebrospinal Flüssigkeit (CSF)'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l3-serum-or-plasma"/>
-      </reference>
-      <name value="CLS L3 Serum Or Plasma"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Serum oder Plasma'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-l3-urine"/>
-      </reference>
-      <name value="CLS L3 Urine"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cls-obo-cmo-blood-calcium-level"/>
       </reference>
       <name value="CLS CMO Blood Calcium Level"/>
@@ -1268,10 +1008,150 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-chloride-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Chloride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-glucose-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Glucose Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-magnesium-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Magnesium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-phosphate-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Phosphate Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-potassium-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Potassium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-sodium-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Sodium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-hematocrit-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO Hematocrit Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-hemoglobin-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO Hemoglobin Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-platelet-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO Platelet Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-red-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO Red Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-white-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO White Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-date-of-diagnosis"/>
+      </reference>
+      <name value="CLS OBO NCIT Date Of Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-visit-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Visit Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Besuchsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-ncit-year-date"/>
       </reference>
       <name value="CLS OBO NCIT Year Date"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Jahr (Temporal Qualifier)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-snomed-blood-creatinine-level"/>
+      </reference>
+      <name value="CLS OBO SNOMED Blood Creatinine Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel im Blut'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -1,5 +1,13 @@
 # Anmerkungen zu CDEs
 
+### [CDE Age](StructureDefinition-cde-age.html)
+* CDE_age.fsh enthält eine tolle Extension, die auf der Content-Seite eine Tabelle mit folgendem Inhalt erstellt:
+    Official URL
+    Standards status
+    Maturity Level
+    Version 
+    Computable_Name
+
 ### [CDE Ethnicity](StructureDefinition-cde-sex-assigned-at-birth.html)
     * * component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes" *
 

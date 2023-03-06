@@ -11,6 +11,7 @@ Description: "Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Se
 //* insert RS_CreateOneFurtherCategory(BloodChemistryMeasurement, $OBO, CMO_0000023)
 //* insert RS_CreateOneFurtherCategory(BloodElectrolyteMeasurement, $OBO, CMO_0000063)
 //* insert RS_CreateOneFurtherCategory(BloodCalciumLevel, $OBO, CMO_0000502)
+
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 2000-8, "Calcium [Moles/volume] in Serum or Plasma") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity

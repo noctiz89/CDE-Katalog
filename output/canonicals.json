@@ -119,18 +119,18 @@
     "name" : "CDE_CalciumInSerumOrPlasmaMoleConcentration"
   },
   {
-    "id" : "cde-chloride-in-serum-or-plasma",
+    "id" : "cde-chloride-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_ChlorideInSerumOrPlasma"
+    "name" : "CDE_ChlorideInSerumOrPlasmaMoleConcentration"
   },
   {
-    "id" : "cde-creatinine-in-ser-or-plas",
+    "id" : "cde-creatinine-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-ser-or-plas",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_CreatinineInSerumOrPlasma"
+    "name" : "CDE_CreatinineInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-current-age-calculated",
@@ -175,11 +175,11 @@
     "name" : "CDE_GlasgowComaScore"
   },
   {
-    "id" : "cde-glucose-in-serum-or-plasma",
+    "id" : "cde-glucose-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_GlucoseInSerumOrPlasma"
+    "name" : "CDE_GlucoseInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-hematocrit-of-blood",
@@ -189,11 +189,11 @@
     "name" : "CDE_HematocritOfBlood"
   },
   {
-    "id" : "cde-hemoglobin-in-blood",
+    "id" : "cde-hemoglobin-in-blood-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_HemoglobinInBlood"
+    "name" : "CDE_HemoglobinInBloodMoleConcentration"
   },
   {
     "id" : "cde-hip-circumference",
@@ -210,25 +210,25 @@
     "name" : "CDE_LeukocytesInBlood"
   },
   {
-    "id" : "cde-magnesium-in-serum-or-plasma",
+    "id" : "cde-magnesium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_MagnesiumInSerumOrPlasma"
+    "name" : "CDE_MagnesiumInSerumOrPlasmaMoleConcentration"
   },
   {
-    "id" : "cde-phosphate-in-serum-or-plasma",
+    "id" : "cde-phosphate-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_PhosphateInSerumOrPlasma"
+    "name" : "CDE_PhosphateInSerumOrPlasmaMoleConcentration"
   },
   {
-    "id" : "cde-potassium-in-serum-or-plasma",
+    "id" : "cde-potassium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_PotassiumInSerumOrPlasma"
+    "name" : "CDE_PotassiumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-sex-assigned-at-birth",
@@ -238,11 +238,11 @@
     "name" : "CDE_SexAssignedAtBirth"
   },
   {
-    "id" : "cde-sodium-in-serum-or-plasma",
+    "id" : "cde-sodium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
-    "name" : "CDE_SodiumInSerumOrPlasma"
+    "name" : "CDE_SodiumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-thrombocytes-in-blood",
@@ -280,188 +280,6 @@
     "name" : "CDE_WaistCircumference"
   },
   {
-    "id" : "cls-l0-activity",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-activity",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Activity"
-  },
-  {
-    "id" : "cls-l0-exam",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-exam",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Exam"
-  },
-  {
-    "id" : "cls-l0-imaging",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-imaging",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Imaging"
-  },
-  {
-    "id" : "cls-l0-laboratory",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-laboratory",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Laboratory"
-  },
-  {
-    "id" : "cls-l0-procedure",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-procedure",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Procedure"
-  },
-  {
-    "id" : "cls-l0-social-history",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-social-history",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_SocialHistory"
-  },
-  {
-    "id" : "cls-l0-survey",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-survey",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Survey"
-  },
-  {
-    "id" : "cls-l0-therapy",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-therapy",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_Therapy"
-  },
-  {
-    "id" : "cls-l0-vital-signs",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l0-vital-signs",
-    "version" : "0.2.0",
-    "name" : "CLS_L0_VitalSigns"
-  },
-  {
-    "id" : "cls-l1-administrative-information",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-administrative-information",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_AdministrativeInformation"
-  },
-  {
-    "id" : "cls-l1-clinical-chemistry",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-chemistry",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_ClinicalChemistry"
-  },
-  {
-    "id" : "cls-l1-clinical-immunology",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-immunology",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_ClinicalImmunology"
-  },
-  {
-    "id" : "cls-l1-clinical-microbiology",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-clinical-microbiology",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_ClinicalMicrobiology"
-  },
-  {
-    "id" : "cls-l1-diseases-and-related-health-problems",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-diseases-and-related-health-problems",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_DiseasesAndRelatedHealthProblems"
-  },
-  {
-    "id" : "cls-l1-health-related-behavior-and-lifestyle",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-health-related-behavior-and-lifestyle",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_HealthRelatedBehaviorAndLifestyle"
-  },
-  {
-    "id" : "cls-l1-physical-measurements-and-assessment",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-physical-measurements-and-assessment",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_PhysicalMeasurementsAndAssessment"
-  },
-  {
-    "id" : "cls-l1-social-personal-details",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-social-personal-details",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_SocialPersonalDetails"
-  },
-  {
-    "id" : "cls-l1-substance-level",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l1-substance-level",
-    "version" : "0.2.0",
-    "name" : "CLS_L1_SubstanceLevel"
-  },
-  {
-    "id" : "cls-l2-age-and-birth-date",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-age-and-birth-date",
-    "version" : "0.2.0",
-    "name" : "CLS_L2_AgeAndBirthDate"
-  },
-  {
-    "id" : "cls-l2-gender",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-gender",
-    "version" : "0.2.0",
-    "name" : "CLS_L2_Gender"
-  },
-  {
-    "id" : "cls-l2-specimen-type",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l2-specimen-type",
-    "version" : "0.2.0",
-    "name" : "CLS_L2_SpecimenType"
-  },
-  {
-    "id" : "cls-l3-age-at-diagnosis",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-age-at-diagnosis",
-    "version" : "0.2.0",
-    "name" : "CLS_L3_AgeAtDiagnosis"
-  },
-  {
-    "id" : "cls-l3-blood",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-blood",
-    "version" : "0.2.0",
-    "name" : "CLS_L3_Blood"
-  },
-  {
-    "id" : "cls-l3-cerebrospinal-fluid",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-cerebrospinal-fluid",
-    "version" : "0.2.0",
-    "name" : "CLS_L3_CerebrospinalFluid"
-  },
-  {
-    "id" : "cls-l3-serum-or-plasma",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-serum-or-plasma",
-    "version" : "0.2.0",
-    "name" : "CLS_L3_SerumOrPlasma"
-  },
-  {
-    "id" : "cls-l3-urine",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-l3-urine",
-    "version" : "0.2.0",
-    "name" : "CLS_L3_Urine"
-  },
-  {
     "id" : "cls-obo-cmo-blood-calcium-level",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level",
@@ -469,11 +287,109 @@
     "name" : "CLS_OBO_CMO_BloodCalciumLevel"
   },
   {
+    "id" : "cls-obo-cmo-blood-chloride-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodChlorideLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-glucose-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodGlucoseLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-magnesium-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-magnesium-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodMagnesiumLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-phosphate-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-phosphate-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodPhosphateLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-potassium-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-potassium-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodPotassiumLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-sodium-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodSodiumLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-hematocrit-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_HematocritMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-hemoglobin-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_HemoglobinMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-platelet-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-platelet-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_PlateletMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-red-blood-cell-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_RedBloodCellMeasurement"
+  },
+  {
+    "id" : "cls-obo-cmo-white-blood-cell-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_WhiteBloodCellMeasurement"
+  },
+  {
+    "id" : "cls-obo-ncit-date-of-diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_DateOfDiagnosis"
+  },
+  {
+    "id" : "cls-obo-ncit-visit-date",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-visit-date",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_VisitDate"
+  },
+  {
     "id" : "cls-obo-ncit-year-date",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_YearDate"
+  },
+  {
+    "id" : "cls-obo-snomed-blood-creatinine-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_SNOMED_BloodCreatinineLevel"
   },
   {
     "id" : "cls-snomed-demographic-history-detail",
