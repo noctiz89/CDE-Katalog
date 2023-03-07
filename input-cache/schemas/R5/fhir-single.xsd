@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Sun, Mar 5, 2023 23:43+0000 for FHIR v5.0.0-cibuild 
+  Generated on Tue, Mar 7, 2023 17:06+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -14962,7 +14962,7 @@
   </xs:complexType>
   <xs:simpleType name="base64Binary-primitive">
     <xs:restriction base="xs:base64Binary">
-      <xs:pattern value="(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?"/>
+      <xs:pattern value="([A-Za-z0-9+/]{4})*([A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?"/>
     </xs:restriction>
   </xs:simpleType>
   <xs:complexType name="base64Binary">
@@ -58207,7 +58207,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:choice>
           <xs:element name="performer" type="Procedure.Performer" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Limited to &quot;real&quot; people rather than equipment.</xs:documentation>
+              <xs:documentation xml:lang="en">Indicates who or what performed the procedure and how they were involved.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="location" minOccurs="0" maxOccurs="1" type="Reference">

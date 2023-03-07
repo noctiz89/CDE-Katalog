@@ -26,7 +26,7 @@
   "name" : "CDE_Age",
   "title" : "CDE Age",
   "status" : "active",
-  "date" : "2023-03-06T21:43:48+01:00",
+  "date" : "2023-03-07T20:03:22+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -1067,7 +1067,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1210,7 +1209,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1307,7 +1305,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1663,7 +1660,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1806,7 +1802,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1903,7 +1898,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2259,7 +2253,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2402,7 +2395,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2499,7 +2491,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2855,7 +2846,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2998,7 +2988,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -3095,7 +3084,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -3451,7 +3439,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -3594,7 +3581,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -3691,7 +3677,6 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",

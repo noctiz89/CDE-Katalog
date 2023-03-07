@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-06T21:43:48+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-07T20:03:22+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1753,7 +1753,7 @@
          ] ) ;
          fhir:name [ fhir:v "spec.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Detaillierte Spezifikation" ] ;
-         fhir:generation [ fhir:v "html" ] ;
+         fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
            fhir:extension ( [
              fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
