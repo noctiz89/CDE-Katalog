@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Tue, Mar 7, 2023 17:06+0000 for FHIR v5.0.0-cibuild 
+  Generated on Wed, Mar 8, 2023 06:56+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -54050,7 +54050,7 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
             </xs:annotation>
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueCodeableConcept" type="CodeableConcept"/>
-            <xs:element name="valueMarkdown" type="markdown"/>
+            <xs:element name="valueString" type="string"/>
             <xs:element name="valueBoolean" type="boolean"/>
             <xs:element name="valueInteger" type="integer"/>
             <xs:element name="valueRange" type="Range"/>
@@ -54061,7 +54061,6 @@ The MedicationStatement resource was previously called MedicationStatement.</xs:
             <xs:element name="valuePeriod" type="Period"/>
             <xs:element name="valueAttachment" type="Attachment"/>
             <xs:element name="valueReference" type="Reference"/>
-            <xs:element name="valueCanonical" type="canonical"/>
           </xs:choice>
           <xs:element name="dataAbsentReason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
@@ -54218,7 +54217,7 @@ Reflex | Repeat | Re-run.</xs:documentation>
             </xs:annotation>
             <xs:element name="valueQuantity" type="Quantity"/>
             <xs:element name="valueCodeableConcept" type="CodeableConcept"/>
-            <xs:element name="valueMarkdown" type="markdown"/>
+            <xs:element name="valueString" type="string"/>
             <xs:element name="valueBoolean" type="boolean"/>
             <xs:element name="valueInteger" type="integer"/>
             <xs:element name="valueRange" type="Range"/>
@@ -54229,7 +54228,6 @@ Reflex | Repeat | Re-run.</xs:documentation>
             <xs:element name="valuePeriod" type="Period"/>
             <xs:element name="valueAttachment" type="Attachment"/>
             <xs:element name="valueReference" type="Reference"/>
-            <xs:element name="valueCanonical" type="canonical"/>
           </xs:choice>
           <xs:element name="dataAbsentReason" minOccurs="0" maxOccurs="1" type="CodeableConcept">
             <xs:annotation>
@@ -66903,7 +66901,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The required criteria to execute the test case - e.g. preconditions, previous tests.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="testRun" minOccurs="0" maxOccurs="unbounded" type="Reference">
+          <xs:element name="testRun" type="TestPlan.TestRun" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">The actual test to be executed.</xs:documentation>
            </xs:annotation>
@@ -66939,6 +66937,50 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">Link to predecessor test plans.</xs:documentation>
            </xs:annotation>
           </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TestPlan.TestRun">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A plan for executing testing on an artifact or specifications.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="narrative" minOccurs="0" maxOccurs="1" type="markdown">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The narrative description of the tests.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="script" type="TestPlan.Script" minOccurs="0" maxOccurs="1">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The test cases in a structured language e.g. gherkin, Postman, or FHIR TestScript.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TestPlan.Script">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">A plan for executing testing on an artifact or specifications.</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="BackboneElement">
+        <xs:sequence>
+          <xs:element name="language" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The language for the test cases e.g. 'gherkin', 'testscript'.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:choice minOccurs="0" maxOccurs="1" >
+            <xs:annotation>
+              <xs:documentation xml:lang="en">The actual content of the cases - references to TestScripts or externally defined content.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="sourceString" type="string"/>
+            <xs:element name="sourceReference" type="Reference"/>
+          </xs:choice>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
