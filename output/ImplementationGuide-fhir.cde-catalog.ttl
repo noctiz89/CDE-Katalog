@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-08T09:48:37+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-09T13:29:22+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -753,17 +753,6 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension" ]
-       ] ;
-       fhir:name [ fhir:v "CDE Age At Diagnosis Of Essential Hypertension" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-age-at-stopped-smoking" ]
        ] ;
@@ -1099,6 +1088,17 @@
        ] ;
        fhir:name [ fhir:v "CDE Tobacco Smoking Pack Year" ] ;
        fhir:description [ fhir:v "Dieses CDE enthält den 'Packungsjahr'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-status-yes-or-no" ]
+       ] ;
+       fhir:name [ fhir:v "CDE tobacco Smoking Status Yes Or No" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den 'Raucherstatus'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1517,6 +1517,17 @@
        ] ;
        fhir:name [ fhir:v "POI Research Subject" ] ;
        fhir:description [ fhir:v "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509> ;
+         fhir:reference [ fhir:v "ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509" ]
+       ] ;
+       fhir:name [ fhir:v "valueSet_YesNoQualifier" ] ;
+       fhir:description [ fhir:v "valueSet_YesNoQualifier" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

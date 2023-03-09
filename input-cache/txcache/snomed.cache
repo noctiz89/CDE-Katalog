@@ -2281,3 +2281,203 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes (qualifier value)"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No (qualifier value)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b7b2eab5-5434-4869-a54f-9f3ff213330e",
+    "timestamp" : "2023-03-09T11:12:40.544Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "373066001",
+      "display" : "Yes (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373067005",
+      "display" : "No (qualifier value)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:64d578a2-55f2-4268-9014-abf476ad2eb7",
+    "timestamp" : "2023-03-09T11:12:40.732Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "373066001",
+      "display" : "Yes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373067005",
+      "display" : "No"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes (qualifier value)"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No (qualifier value)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:75717787-2bcb-4c11-973f-6b5c0d4cccc7",
+    "timestamp" : "2023-03-09T12:08:57.059Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "373066001",
+      "display" : "Yes (qualifier value)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373067005",
+      "display" : "No (qualifier value)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:82015a9d-9ba2-45c1-80df-14b7487318c6",
+    "timestamp" : "2023-03-09T12:08:57.449Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "373066001",
+      "display" : "Yes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "373067005",
+      "display" : "No"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

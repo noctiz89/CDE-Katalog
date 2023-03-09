@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5a0ddeda-be5e-4d9d-8b52-c711a4cfb88e"/>
+  <id value="a9431ad8-08fd-48a7-8257-df29071a65b0"/>
   <meta>
-    <lastUpdated value="2023-03-08T09:48:37.922+01:00"/>
+    <lastUpdated value="2023-03-09T13:29:22.377+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,8 +70,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f274db02-ef08-4a1c-918c-d9cf66f5c3c0"/>
-          <timestamp value="2023-03-08T09:53:13+01:00"/>
+          <identifier value="urn:uuid:8b9f71fb-32cf-408c-85cb-d98d7c5ac70c"/>
+          <timestamp value="2023-03-09T13:34:10+01:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -85,6 +85,127 @@
             <system value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
             <code value="01"/>
             <display value="VS1"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"/>
+    <resource>
+      <ValueSet>
+        <id value="2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-373066001"> </a>  
+                  <a href="http://snomed.info/id/373066001">373066001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Yes (qualifier value)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-373067005"> </a>  
+                  <a href="http://snomed.info/id/373067005">373067005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>No (qualifier value)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+          <valuePeriod>
+            <start value="2022-11-03T13:35:09+01:00"/>
+          </valuePeriod>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+            </extension>
+          </valueInteger>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative">
+            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+            </extension>
+          </valueCode>
+        </extension>
+        <url value="https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"/>
+        <identifier>
+          <use value="official"/>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.3.1937.99.61.76.11.2"/>
+        </identifier>
+        <version value="0.2.0"/>
+        <name value="ValueSet_YesNoQualfier"/>
+        <title value="valueSet_YesNoQualifier"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
+        <publisher value="HL7 International - [Some] Work Group"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="valueSet_YesNoQualifier"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
+        <expansion>
+          <identifier value="urn:uuid:c7030bf3-3c1e-4956-bfdd-c0f3be047200"/>
+          <timestamp value="2023-03-09T13:40:00+01:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373066001"/>
+            <display value="Yes (qualifier value)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="373067005"/>
+            <display value="No (qualifier value)"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -203,7 +324,7 @@
         <name value="VS_AdministrativeGender"/>
         <title value="VS AdministrativeGender"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -219,8 +340,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae2f4fb0-1bc4-43be-bc61-7a113b923520"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:6282bf81-b84b-442b-9c45-9c54f87e232b"/>
+          <timestamp value="2023-03-09T13:40:00+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -282,19 +403,19 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-373067005"> </a>  
-                  <a href="http://snomed.info/id/373067005">373067005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---snomed.info-sct-373066001"> </a>  
                   <a href="http://snomed.info/id/373066001">373066001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
                 <td>Yes</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-373067005"> </a>  
+                  <a href="http://snomed.info/id/373067005">373067005</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>No</td>
               </tr>
             </table>
           </div>
@@ -318,7 +439,7 @@
         <name value="VS_BinaryDecisionYesOrNo"/>
         <title value="VS Binary Decision Yes Or No"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -334,8 +455,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:59b8f2ea-ee5c-4215-a2bf-11005c3efe3f"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:de5ab8c1-c761-4972-a70e-b85952a3b81c"/>
+          <timestamp value="2023-03-09T13:40:00+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -351,13 +472,13 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="373067005"/>
-            <display value="No"/>
+            <code value="373066001"/>
+            <display value="Yes"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="373066001"/>
-            <display value="Yes"/>
+            <code value="373067005"/>
+            <display value="No"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -431,7 +552,7 @@
         <name value="VS_BiologicalGender"/>
         <title value="VS Biological Gender"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -447,8 +568,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b6c28a57-4e3a-4314-88d7-7037b0a63628"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:680c77cd-27c7-4f71-8471-a1b068453c0f"/>
+          <timestamp value="2023-03-09T13:40:00+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2445,7 +2566,7 @@
         <name value="VS_EthnicGroups"/>
         <title value="VS Ethnic Groups"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -2464,8 +2585,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:197193be-a29b-43b3-85c9-bf133551935c"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:6f50bff1-cfb1-4075-a9fc-38b9955ea29f"/>
+          <timestamp value="2023-03-09T13:40:00+01:00"/>
           <total value="240"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3726,7 +3847,7 @@
         <name value="VS_GlasgowComaScaleForAdults"/>
         <title value="VS Glasgow Coma Scale For Adults"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -3742,8 +3863,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e102c66f-32ee-4d7c-b727-9b0905edea42"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:97a2b7c0-2a3c-48fb-ac92-5796cb1cb5e9"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -3859,7 +3980,7 @@
         <name value="VS_LengthUnits"/>
         <title value="VS Length Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -3875,8 +3996,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3e23e683-d0b3-4c3b-9220-099da1e8c9c7"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:80298d26-e91f-49ee-81e6-bac81d0ac720"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4130,7 +4251,7 @@
         <name value="VS_MassConcentrationUnits"/>
         <title value="VS Mass Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -4146,8 +4267,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5771f655-f676-4533-a5ea-ddd10a6847a2"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:ee7643c9-bfe6-42c4-9cc0-3e3a61891421"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4384,7 +4505,7 @@
         <name value="VS_MassUnits"/>
         <title value="VS Mass Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -4400,8 +4521,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5fe4736e-f833-498f-8516-c970bf039f87"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:3292e8d7-2188-44f0-9bee-9a1da04099fe"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4537,7 +4658,7 @@
         <name value="VS_MissingValuesAsSnomed"/>
         <title value="VS Missing Values As Snomed"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -4553,8 +4674,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f0012390-141c-48ee-9fe4-ef85ca9e4260"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:cc52e25f-1031-4d2f-95a9-998dde2259b3"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4736,7 +4857,7 @@
         <name value="VS_MolarConcentrationUnits"/>
         <title value="VS Molar Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -4752,8 +4873,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:73b7b0b7-8276-44a2-82fc-4e0b5f1adc21"/>
-          <timestamp value="2023-03-08T09:58:33+01:00"/>
+          <identifier value="urn:uuid:390e2e26-7d6c-4bed-83a0-b1f2a278ecd2"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5030,7 +5151,7 @@
         <name value="VS_NumberConcentrationUnits"/>
         <title value="VS Number Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -5046,8 +5167,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ed77e0ef-8a91-47b6-ba13-5af4a6774644"/>
-          <timestamp value="2023-03-08T09:58:34+01:00"/>
+          <identifier value="urn:uuid:23be4e0f-64bd-4dfe-82c0-285554f6cb29"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5241,7 +5362,7 @@
         <name value="VS_SmokingStatus"/>
         <title value="VS Smoking Status"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -5257,8 +5378,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:042485c7-644a-4348-985d-f2c10b91b54a"/>
-          <timestamp value="2023-03-08T09:58:34+01:00"/>
+          <identifier value="urn:uuid:c9b7907f-bbfb-4717-905f-8bc55b03a874"/>
+          <timestamp value="2023-03-09T13:40:01+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5339,7 +5460,7 @@
         <name value="VS_SpecimenTypes"/>
         <title value="VS Specimen Types"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -5355,8 +5476,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f9416ae9-f726-4f4a-ae12-b18719ed0b97"/>
-          <timestamp value="2023-03-08T09:58:34+01:00"/>
+          <identifier value="urn:uuid:4895e1f0-5601-4837-bbe5-3dc72742f656"/>
+          <timestamp value="2023-03-09T13:40:02+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -5504,7 +5625,7 @@
         <name value="VS_TimeUnits"/>
         <title value="VS Time Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -5520,8 +5641,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:860768f3-01a2-41b4-84da-efd01b7ec538"/>
-          <timestamp value="2023-03-08T09:58:34+01:00"/>
+          <identifier value="urn:uuid:49c6e426-3835-4771-878a-ea7ba955bab0"/>
+          <timestamp value="2023-03-09T13:40:02+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5697,7 +5818,7 @@
         <name value="VS_UnityUnits"/>
         <title value="VS Unity Units"/>
         <status value="active"/>
-        <date value="2023-03-08T09:48:37+01:00"/>
+        <date value="2023-03-09T13:29:22+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -5713,8 +5834,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a3a3c8a9-7083-4be8-87a1-b72616d38334"/>
-          <timestamp value="2023-03-08T09:58:34+01:00"/>
+          <identifier value="urn:uuid:92381405-d93e-476c-b261-1d9881004580"/>
+          <timestamp value="2023-03-09T13:40:02+01:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

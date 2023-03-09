@@ -20,7 +20,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 
 // Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
 * component.valueCodeableConcept 0..1 MS
-* component.valueCodeableConcept from VS_EthnicGroups (required)
+* component.valueCodeableConcept from VS_BiologicalGender (required)
 //* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes"
 
 // Value_Domain (VD) via Observation.component
@@ -48,14 +48,19 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     maleSNOMEDCode 1..1 MS and
     maleUMLSCode 1..1 MS and
     maleLOINCCode 1..1
+* component[male].code.coding[maleSNOMEDCode].code 1..1
 * component[male].code.coding[maleSNOMEDCode].code = #248153007 (exactly)
+* component[male].code.coding[maleSNOMEDCode].system 1..1
 * component[male].code.coding[maleSNOMEDCode].system = $SCT (exactly)
 * component[male].code.coding[maleSNOMEDCode] ^sliceName = "MaleSNOMEDCode"
+* component[male].code.coding[maleUMLSCode].code 1..1
 * component[male].code.coding[maleUMLSCode].code = #C1706180 (exactly)
+* component[male].code.coding[maleUMLSCode].system 1..1
 * component[male].code.coding[maleUMLSCode].system = $UMLS (exactly)
 * component[male].code.coding[maleUMLSCode] ^sliceName = "MaleUMLSCode"
 // TEST: valueInteger (1) für Male
-* component[male].valueInteger 0..1 MS
+* component[male].valueInteger 0..1 MS // 
+* component[male].valueInteger.value 1..1
 * component[male].valueInteger.value = 1
 * component[male].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
@@ -73,14 +78,19 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     femaleSNOMEDCode 1..1 MS and
     femaleUMLSCode 1..1 MS and
     femaleLOINCCode 1..1
+* component[female].code.coding[femaleSNOMEDCode].code 1..1
 * component[female].code.coding[femaleSNOMEDCode].code = #248152002 (exactly)
+* component[female].code.coding[femaleSNOMEDCode].system 1..1
 * component[female].code.coding[femaleSNOMEDCode].system = $SCT (exactly)
 * component[female].code.coding[femaleSNOMEDCode] ^sliceName = "FemaleSNOMEDCode"
+* component[female].code.coding[femaleUMLSCode].code 1..1
 * component[female].code.coding[femaleUMLSCode].code = #C0015780 (exactly)
+* component[female].code.coding[femaleUMLSCode].system 1..1
 * component[female].code.coding[femaleUMLSCode].system = $UMLS (exactly)
 * component[female].code.coding[femaleUMLSCode] ^sliceName = "FemaleUMLSCode"
 // TEST: valueInteger (2) für Female
-* component[female].valueInteger 0..1 MS
+* component[female].valueInteger 0..1 MS // 
+* component[female].valueInteger.value 1..1
 * component[female].valueInteger.value = 2
 * component[female].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
@@ -98,14 +108,19 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     intersexSNOMEDCode 1..1 and
     intersexUMLSCode 1..1 MS and
     intersexLOINCCode 1..1
+* component[intersex].code.coding[intersexSNOMEDCode].code 1..1
 * component[intersex].code.coding[intersexSNOMEDCode].code = #32570691000036108 (exactly)
+* component[intersex].code.coding[intersexSNOMEDCode].system 1..1
 * component[intersex].code.coding[intersexSNOMEDCode].system = $SCT (exactly)
 * component[intersex].code.coding[intersexSNOMEDCode] ^sliceName = "IntersexSNOMEDCode"
+* component[intersex].code.coding[intersexUMLSCode].code 1..1
 * component[intersex].code.coding[intersexUMLSCode].code = #C1704620 (exactly)
+* component[intersex].code.coding[intersexUMLSCode].system 1..1
 * component[intersex].code.coding[intersexUMLSCode].system = $UMLS (exactly)
 * component[intersex].code.coding[intersexUMLSCode] ^sliceName = "IntersexUMLSCode"
 // TEST: valueInteger (3) für Intersex
-* component[intersex].valueInteger 0..1 MS
+* component[intersex].valueInteger 0..1 MS // 
+* component[intersex].valueInteger.value 1..1
 * component[intersex].valueInteger.value = 3
 * component[intersex].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 

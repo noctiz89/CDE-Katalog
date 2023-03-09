@@ -1,12 +1,11 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 9, warn = 73, info = 7
+err = 11, warn = 72, info = 7
 IG Publisher Version: 1.2.39 Out of date - current version is 1.2.40
-Generated Wed Mar 08 10:05:43 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 1 / 4 / 0
+Generated Thu Mar 09 13:46:44 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 2 / 4 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic : 0 / 1 / 1
@@ -38,6 +37,7 @@ Generated Wed Mar 08 10:05:43 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 3 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-visit-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level : 0 / 0 / 1
@@ -75,6 +75,7 @@ Generated Wed Mar 08 10:05:43 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509 : 2 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 1 / 1
@@ -109,15 +110,13 @@ Generated Wed Mar 08 10:05:43 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
 </table>
 == n/a ==
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+ERROR: D:\CDE-Katalog\output\spec2.html#/html/body/div/div/div/div/div/h3/a at Line 259, column 58: The link 'StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html' for "CDE Age At Diagnosis Of Essential Hypertension" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
-WARNING: StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension: StructureDefinition.snapshot.element[145].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
@@ -182,6 +181,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.snapshot.element[160].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[17].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-waist-circumference.json ==
@@ -227,6 +228,9 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
 INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509.json ==
+ERROR: ValueSet.where(url = 'https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509'): Conformance resource D:\CDE-Katalog\fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509.json - the canonical URL (http://somewhere.org/fhir/uv/myig/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509) does not match the URL (https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509)
+ERROR: D:\CDE-Katalog\fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509: URL Mismatch http://somewhere.org/fhir/uv/myig/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509 vs https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==

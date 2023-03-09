@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Wed, Mar 8, 2023 06:56+0000 for FHIR v5.0.0-cibuild 
+  Generated on Thu, Mar 9, 2023 09:26+0000 for FHIR v5.0.0-cibuild 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="5.0.0-cibuild">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -66761,67 +66761,67 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="url" minOccurs="0" maxOccurs="1" type="uri">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Canonical identifier URL.</xs:documentation>
+              <xs:documentation xml:lang="en">An absolute URI that is used to identify this test plan when it is referenced in a specification, model, design or an instance; also called its canonical identifier. This SHOULD be globally unique and SHOULD be a literal address at which an authoritative instance of this test plan is (or will be) published. This URL can be the target of a canonical reference. It SHALL remain the same when the test plan is stored on different servers.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="identifier" minOccurs="0" maxOccurs="unbounded" type="Identifier">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Business identifier for the Test Plan.</xs:documentation>
+              <xs:documentation xml:lang="en">A formal identifier that is used to identify this test plan when it is referenced in a specification, model, design or an instance.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="version" minOccurs="0" maxOccurs="unbounded" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Version of the test plan.</xs:documentation>
+              <xs:documentation xml:lang="en">The identifier that is used to identify this version of the test plan when it is referenced in a specification, model, design or instance.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="name" minOccurs="0" maxOccurs="unbounded" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Name.</xs:documentation>
+              <xs:documentation xml:lang="en">A natural language name identifying the test plan. This name should be usable as an identifier for the module by machine processing applications such as code generation.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="title" minOccurs="0" maxOccurs="unbounded" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Human-readable title.</xs:documentation>
+              <xs:documentation xml:lang="en">A short, descriptive, user-friendly title for the test plan.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="status" minOccurs="0" maxOccurs="unbounded" type="PublicationStatus">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Status.</xs:documentation>
+              <xs:documentation xml:lang="en">The status of this test plan. Enables tracking the life-cycle of the content.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="date" minOccurs="0" maxOccurs="unbounded" type="dateTime">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Date.</xs:documentation>
+              <xs:documentation xml:lang="en">The date  (and optionally time) when the test plan was last significantly changed. The date must change when the business version changes and it must change if the status code changes. In addition, it should change when the substantive content of the test plan changes.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="publisher" minOccurs="0" maxOccurs="unbounded" type="string">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Publisher.</xs:documentation>
+              <xs:documentation xml:lang="en">The name of the organization or individual responsible for the release and ongoing maintenance of the test plan.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="contact" minOccurs="0" maxOccurs="unbounded" type="ContactDetail">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Contact.</xs:documentation>
+              <xs:documentation xml:lang="en">Contact details to assist a user in finding and communicating with the publisher.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Description of the test plan.</xs:documentation>
+              <xs:documentation xml:lang="en">A free text natural language description of the test plan from a consumer's perspective.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="jurisdiction" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Jurisdiction.</xs:documentation>
+              <xs:documentation xml:lang="en">A legal or geographic region in which the test plan is intended to be used.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="purpose" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Purpose.</xs:documentation>
+              <xs:documentation xml:lang="en">Explanation of why this test plan is needed and why it has been designed as it has.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="copyright" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Copyright.</xs:documentation>
+              <xs:documentation xml:lang="en">A copyright statement relating to the test plan and/or its contents. Copyright statements are generally legal restrictions on the use and publishing of the test plan.  The short copyright declaration (e.g. (c) '2015+ xyz organization' should be sent in the copyrightLabel element.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="category" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
@@ -66839,7 +66839,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">A description of test tools to be used in the test plan.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="dependencies" type="TestPlan.Dependencies" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dependency" type="TestPlan.Dependency" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">The required criteria to execute the test plan - e.g. preconditions, previous tests...</xs:documentation>
            </xs:annotation>
@@ -66851,14 +66851,14 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
           </xs:element>
           <xs:element name="testCase" type="TestPlan.TestCase" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The test cases that are part of this plan.</xs:documentation>
+              <xs:documentation xml:lang="en">The individual test cases that are part of this plan, when they they are made explicit.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="TestPlan.Dependencies">
+  <xs:complexType name="TestPlan.Dependency">
     <xs:annotation>
       <xs:documentation xml:lang="en">A plan for executing testing on an artifact or specifications.</xs:documentation>
     </xs:annotation>
@@ -66867,12 +66867,12 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Description of the criteria.</xs:documentation>
+              <xs:documentation xml:lang="en">A textual description of the criterium - what is needed for the dependency to be considered met.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="predecessor" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Link to predecessor test plans.</xs:documentation>
+              <xs:documentation xml:lang="en">Predecessor test plans - those that are expected to be successfully performed as a dependency for the execution of this test plan.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
@@ -66888,15 +66888,15 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="sequence" minOccurs="0" maxOccurs="1" type="integer">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Sequence of testing.</xs:documentation>
+              <xs:documentation xml:lang="en">Sequence of test case - an ordinal number that indicates the order for the present test case in the test plan.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="scope" minOccurs="0" maxOccurs="unbounded" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Specific test scope for one test case.</xs:documentation>
+              <xs:documentation xml:lang="en">The scope or artifact covered by the case, when the individual test case is associated with a testable artifact.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="dependencies" type="TestPlan.Dependencies1" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dependency" type="TestPlan.Dependency1" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation xml:lang="en">The required criteria to execute the test case - e.g. preconditions, previous tests.</xs:documentation>
            </xs:annotation>
@@ -66911,16 +66911,16 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
               <xs:documentation xml:lang="en">The test data used in the test case.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="assertions" type="TestPlan.Assertions" minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="assertion" type="TestPlan.Assertion" minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The test assertions.</xs:documentation>
+              <xs:documentation xml:lang="en">The test assertions - the expectations of test results from the execution of the test case.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="TestPlan.Dependencies1">
+  <xs:complexType name="TestPlan.Dependency1">
     <xs:annotation>
       <xs:documentation xml:lang="en">A plan for executing testing on an artifact or specifications.</xs:documentation>
     </xs:annotation>
@@ -67013,7 +67013,7 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="TestPlan.Assertions">
+  <xs:complexType name="TestPlan.Assertion">
     <xs:annotation>
       <xs:documentation xml:lang="en">A plan for executing testing on an artifact or specifications.</xs:documentation>
     </xs:annotation>
@@ -67022,17 +67022,17 @@ Deceased patients may also be marked as inactive for the same reasons, but may b
         <xs:sequence>
           <xs:element name="type" minOccurs="0" maxOccurs="unbounded" type="CodeableConcept">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The test assertion type.</xs:documentation>
+              <xs:documentation xml:lang="en">The test assertion type - this can be used to group assertions as 'required' or 'optional', or can be used for other classification of the assertion.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="object" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The focus or object of the assertion.</xs:documentation>
+              <xs:documentation xml:lang="en">The focus or object of the assertion i.e. a resource.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="result" minOccurs="0" maxOccurs="unbounded" type="CodeableReference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">The test assertions.</xs:documentation>
+              <xs:documentation xml:lang="en">The test assertion - the expected outcome from the test case execution.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

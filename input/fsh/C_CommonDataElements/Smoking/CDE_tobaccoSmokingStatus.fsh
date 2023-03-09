@@ -3,17 +3,10 @@ Parent: cls-snomed-finding-of-tobacco-use-and-exposure
 Id: cde-tobacco-smoking-status
 Title: "CDE Smoking Status"
 Description: "Dieses CDE enthält den 'Raucherstatus'."
-// // Hierarchy and Classification
-// * insert RS_ObservationCategorySlicingRules
-// * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-// * insert RS_CreateOneFurtherCategory(SNOMEDCTConcept, $SCT, 138875005)
-// * insert RS_CreateOneFurtherCategory(ClinicalFinding, $SCT, 404684003)
-// * insert RS_CreateOneFurtherCategory(MentalStateBehavior, $SCT, 384821006)
-// * insert RS_CreateOneFurtherCategory(HealthRelatedBehaviorFinding, $SCT, 365949003)
-// * insert RS_CreateOneFurtherCategory(FindingOfTobaccoUseAndExposure, $SCT, 365980008)
 
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 72166-2, "Tobacco smoking status") //
+
 // Value_Domain (VD) via Observation.value*
 
 // Observation.value[x].CodeableConcept not allowed!  
@@ -21,7 +14,6 @@ Description: "Dieses CDE enthält den 'Raucherstatus'."
 
 // Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
 * component.valueCodeableConcept from VS_SmokingStatus
-//* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes"
 
 // Value_Domain (VD) via Observation.component
 * component ^slicing.discriminator.type = #value
@@ -105,8 +97,8 @@ Description: "Dieses CDE enthält den 'Raucherstatus'."
 * component[nonSmoker].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[nonSmoker].code ^alias[0] = "Never smoker"
 * component[nonSmoker].code ^alias[+] = "Nichtraucher"
-* component[nonSmoker].code ^short = "Male sex"
-* component[nonSmoker].code ^definition = "Biological nonSmoker sex"
+* component[nonSmoker].code ^short = "Non-Smoker"
+* component[nonSmoker].code ^definition = "Non-smoker"
 * component[nonSmoker].code.coding ^slicing.discriminator.type = #value
 * component[nonSmoker].code.coding ^slicing.discriminator.path = "code"
 * component[nonSmoker].code.coding ^slicing.rules = #open

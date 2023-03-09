@@ -541,7 +541,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 363787002 |Observable entity| OR < 386053000 |Evaluation procedure|","CE/CNE/CWE","OBX-3","n/a","CD","code","FiveWs.what[x]"
 "Observation.component.value[x]","Observation.component.value[x]","","","",0,1,"Y","","Y","CodeableConcept {[]} {[]}
-","Actual component result","The information determined as a result of making the observation, if the information has a simple value.","Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](http://hl7.org/fhir/R4/observation.html#notes) below.","An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.","","","","","","","",,"required","","http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups","",,,,"Observation.component.value[x]",0,1,"ele-1
+","Actual component result","The information determined as a result of making the observation, if the information has a simple value.","Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](http://hl7.org/fhir/R4/observation.html#notes) below.","An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations.","","","","","","","",,"required","","http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender","",,,,"Observation.component.value[x]",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","363714003 |Interprets| < 441742003 |Evaluation finding|","OBX.2, OBX.5, OBX.6","n/a","value","363714003 |Interprets|"
 "Observation.component.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
@@ -604,7 +604,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:male.code.coding:MaleSNOMEDCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:male.code.coding:MaleSNOMEDCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -636,7 +636,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:male.code.coding:MaleUMLSCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:male.code.coding:MaleUMLSCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://terminology.hl7.org/CodeSystem/umls""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -676,7 +676,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:male.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:male.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Primitive value for integer","Internal coding of German Center for Diabetes Research (DZD)","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""1""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:male.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -738,7 +738,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:female.code.coding:FemaleSNOMEDCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:female.code.coding:FemaleSNOMEDCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -770,7 +770,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:female.code.coding:FemaleUMLSCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:female.code.coding:FemaleUMLSCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://terminology.hl7.org/CodeSystem/umls""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -810,7 +810,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:female.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:female.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Primitive value for integer","Internal coding of German Center for Diabetes Research (DZD)","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:female.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -872,7 +872,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:intersex.code.coding:IntersexSNOMEDCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:intersex.code.coding:IntersexSNOMEDCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -904,7 +904,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:intersex.code.coding:IntersexUMLSCode.system","Observation.component.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+"Observation.component:intersex.code.coding:IntersexUMLSCode.system","Observation.component.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://terminology.hl7.org/CodeSystem/umls""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.3","n/a","./codeSystem"
@@ -944,7 +944,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:intersex.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:intersex.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Primitive value for integer","Internal coding of German Center for Diabetes Research (DZD)","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""3""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:intersex.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 

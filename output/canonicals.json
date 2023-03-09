@@ -49,13 +49,6 @@
     "name" : "CDE_Age"
   },
   {
-    "id" : "cde-age-at-diagnosis-of-essential-hypertension",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
-    "version" : "0.2.0",
-    "name" : "CDE_AgeAtDiagnosisOfEssentialHypertension"
-  },
-  {
     "id" : "cde-age-at-stopped-smoking",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
@@ -271,6 +264,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
     "version" : "0.2.0",
     "name" : "CDE_TobaccoSmokingStatus"
+  },
+  {
+    "id" : "cde-tobacco-smoking-status-yes-or-no",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
+    "version" : "0.2.0",
+    "name" : "CDE_tobaccoSmokingStatusYesOrNo"
   },
   {
     "id" : "cde-visit-date",
@@ -677,5 +677,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units",
     "version" : "0.2.0",
     "name" : "VS_UnityUnits"
+  },
+  {
+    "id" : "2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509",
+    "type" : "ValueSet",
+    "url" : "https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509",
+    "version" : "0.2.0",
+    "name" : "ValueSet_YesNoQualfier",
+    "oids" : ["2.16.840.1.113883.3.1937.99.61.76.11.2"]
   }
 ]

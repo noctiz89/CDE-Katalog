@@ -644,7 +644,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:caucasian.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:caucasian.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""1""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:caucasian.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -779,7 +779,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:mediterranean.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:mediterranean.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:mediterranean.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -914,7 +914,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:blackAfrican.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:blackAfrican.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""3""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:blackAfrican.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -1049,7 +1049,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:asian.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:asian.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""4""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:asian.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -1184,7 +1184,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:latinAmerican.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:latinAmerican.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""5""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:latinAmerican.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 
@@ -1220,7 +1220,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "Observation.component:other.code","Observation.component.code","","Other
 Andere","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Type of component observation (code / type)","Other ethic group","Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"example","Codes identifying names of simple observations.","http://hl7.org/fhir/ValueSet/observation-codes","",,,,"Observation.component.code",1,1,"ele-1
+","Other","Other ethic group","Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","","","","",,"example","Codes identifying names of simple observations.","http://hl7.org/fhir/ValueSet/observation-codes","",,,,"Observation.component.code",1,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 363787002 |Observable entity| OR < 386053000 |Evaluation procedure|","CE/CNE/CWE","OBX-3","n/a","CD","code","FiveWs.what[x]"
 "Observation.component:other.code.id","Observation.component.code.id","","","",0,1,"","","","string {[]} {[]}
@@ -1251,7 +1251,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Observation.component:other.value[x].value","Observation.component.value[x].value","","","",0,1,"","","","integer {[]} {[]}
+"Observation.component:other.value[x].value","Observation.component.value[x].value","","","",1,1,"","","","integer {[]} {[]}
 ","Internal coding of German Center for Diabetes Research (DZD)","Primitive value for integer","","","","","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""6""/>","","<valueInteger xmlns=""http://hl7.org/fhir"" value=""-2147483648""/>","<valueInteger xmlns=""http://hl7.org/fhir"" value=""2147483647""/>",,,,,"",,,,"integer.value",0,1,"",""
 "Observation.component:other.dataAbsentReason","Observation.component.dataAbsentReason","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Why the component result is missing","Provides a reason why the expected value in the element Observation.component.value[x] is missing.","""Null"" or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  ""detected"", ""not detected"", ""inconclusive"", or  ""test not done"". 

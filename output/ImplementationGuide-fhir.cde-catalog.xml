@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-08T09:48:37+01:00"/>
+  <date value="2023-03-09T13:29:22+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -658,16 +658,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"/>
-      </reference>
-      <name value="CDE Age At Diagnosis Of Essential Hypertension"/>
-      <description value="Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cde-age-at-stopped-smoking"/>
       </reference>
       <name value="CDE Age At Stopped Smoking"/>
@@ -972,6 +962,16 @@
       </reference>
       <name value="CDE Tobacco Smoking Pack Year"/>
       <description value="Dieses CDE enthält den 'Packungsjahr'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-status-yes-or-no"/>
+      </reference>
+      <name value="CDE tobacco Smoking Status Yes Or No"/>
+      <description value="Dieses CDE enthält den 'Raucherstatus'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1352,6 +1352,16 @@
       </reference>
       <name value="POI Research Subject"/>
       <description value="Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"/>
+      </reference>
+      <name value="valueSet_YesNoQualifier"/>
+      <description value="valueSet_YesNoQualifier"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

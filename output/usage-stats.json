@@ -19,10 +19,6 @@
         "title": "CDE Age"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
-        "title": "CDE Age At Diagnosis Of Essential Hypertension"
-      },
-      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
         "title": "CDE Age At Stopped Smoking"
       },
@@ -145,6 +141,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
         "title": "CDE Smoking Status"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
+        "title": "CDE tobacco Smoking Status Yes Or No"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
@@ -345,6 +345,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod": [
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
