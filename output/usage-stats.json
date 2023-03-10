@@ -59,6 +59,10 @@
         "title": "CDE Chloride In Serum Or Plasma Mole Concentration"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
+        "title": "CDE cholesterol Inserum Or Plasma Mole Conentration"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
         "title": "CDE Creatinine In Serum Or Plasma Mole Concentration"
       },
@@ -75,8 +79,8 @@
         "title": "CDE Date Of Diagnosis"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood",
-        "title": "CDE Erythrocytes In Blood"
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
+        "title": "CDE Erythrocytes In Blood Count Per Volume"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity",
@@ -91,6 +95,10 @@
         "title": "CDE Glucose In Serum Or Plasma Mole Concentration"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute",
+        "title": "CDE heart Rate Beats Per Minute"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood",
         "title": "CDE Hematocrit Of Blood"
       },
@@ -103,12 +111,20 @@
         "title": "CDE Hip Circumference"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood",
-        "title": "CDE Leukocytes In Blood"
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
+        "title": "CDE Leukocytes In Blood Count Per Volume"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
         "title": "CDE Magnesium In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
+        "title": "CDE Mean Corpuscular Hemoglobin Level Entitic Mass"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
+        "title": "CDE Mean Corpuscular Volume Entitic Volume"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
@@ -127,8 +143,8 @@
         "title": "CDE Sodium In Serum Or Plasma Mole Concentration"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood",
-        "title": "CDE Thrombocytes In Blood"
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
+        "title": "CDE Thrombocytes In Blood Count Per Volume"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year",
@@ -147,6 +163,10 @@
         "title": "CDE tobacco Smoking Status Yes Or No"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Triglyceride In Serum Or Plasma Mole Concentration"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
         "title": "CDE Visit Date"
       },
@@ -161,6 +181,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level",
         "title": "CLS OBO CMO Blood Chloride Level"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level",
+        "title": "CLS OBO CMO Blood Cholesterol Level"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
@@ -191,6 +215,10 @@
         "title": "CLS OBO CMO Blood Sodium Level"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level",
+        "title": "CLS OBO CMO Blood Triglyceride Level"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height",
         "title": "CLS OBO CMO Body Height"
       },
@@ -203,6 +231,10 @@
         "title": "CLS OBO CMO Diastolic Blood Pressure"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-heart-rate",
+        "title": "CLS OBO CMO Heart Rate"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
         "title": "CLS OBO CMO Hematocrit Measurement"
       },
@@ -213,6 +245,18 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference",
         "title": "CLS OBO CMO Hip Circumference"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
+        "title": "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level",
+        "title": "CLS OBO CMO Mean Corpuscular Hemoglobin Level"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume",
+        "title": "CLS OBO CMO Mean Corpuscular Volume"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-platelet-measurement",

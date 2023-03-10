@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-09T13:29:22+01:00",
+  "date" : "2023-03-10T10:38:26+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -969,6 +969,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration"
+      },
+      "name" : "CDE cholesterol Inserum Or Plasma Mole Conentration",
+      "description" : "Dieses CDE enthält den Messparameter 'Cholsterin [Mol/Volumen] in Serum oder Plasma'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration"
       },
       "name" : "CDE Creatinine In Serum Or Plasma Mole Concentration",
@@ -1013,9 +1024,9 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/cde-erythrocytes-in-blood"
+        "reference" : "StructureDefinition/cde-erythrocytes-in-blood-count-per-volume"
       },
-      "name" : "CDE Erythrocytes In Blood",
+      "name" : "CDE Erythrocytes In Blood Count Per Volume",
       "description" : "Dieses CDE enthält den Messparameter 'Erytrhozyten [Anzahl/Volumen] in Blut"
     },
     {
@@ -1057,6 +1068,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-heart-rate-beats-per-minute"
+      },
+      "name" : "CDE heart Rate Beats Per Minute",
+      "description" : "Dieses CDE enthät die 'Herzfrequenz'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-hematocrit-of-blood"
       },
       "name" : "CDE Hematocrit Of Blood",
@@ -1090,9 +1112,9 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/cde-leukocytes-in-blood"
+        "reference" : "StructureDefinition/cde-leukocytes-in-blood-count-per-volume"
       },
-      "name" : "CDE Leukocytes In Blood",
+      "name" : "CDE Leukocytes In Blood Count Per Volume",
       "description" : "Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."
     },
     {
@@ -1105,6 +1127,28 @@
       },
       "name" : "CDE Magnesium In Serum Or Plasma Mole Concentration",
       "description" : "Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass"
+      },
+      "name" : "CDE Mean Corpuscular Hemoglobin Level Entitic Mass",
+      "description" : "Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-mean-corpuscular-volume-entitic-volume"
+      },
+      "name" : "CDE Mean Corpuscular Volume Entitic Volume",
+      "description" : "Dieses CDE enthält den Messparameter 'Mittleres korpuskuläre Volumen [Entitische Volume]'."
     },
     {
       "extension" : [{
@@ -1156,9 +1200,9 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/cde-thrombocytes-in-blood"
+        "reference" : "StructureDefinition/cde-thrombocytes-in-blood-count-per-volume"
       },
-      "name" : "CDE Thrombocytes In Blood",
+      "name" : "CDE Thrombocytes In Blood Count Per Volume",
       "description" : "Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'."
     },
     {
@@ -1211,6 +1255,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration"
+      },
+      "name" : "CDE Triglyceride In Serum Or Plasma Mole Concentration",
+      "description" : "Dieses CDE enthält den Messparameter 'Triglyceride [Mol/Volumen] in Serum oder Plasma'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-visit-date"
       },
       "name" : "CDE Visit Date",
@@ -1248,6 +1303,17 @@
       },
       "name" : "CLS OBO CMO Blood Chloride Level",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-blood-cholesterol-level"
+      },
+      "name" : "CLS OBO CMO Blood Cholesterol Level",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel im Blut'."
     },
     {
       "extension" : [{
@@ -1332,6 +1398,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-blood-triglyceride-level"
+      },
+      "name" : "CLS OBO CMO Blood Triglyceride Level",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel im Blut'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-body-height"
       },
       "name" : "CLS OBO CMO Body Height",
@@ -1365,6 +1442,16 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-heart-rate"
+      },
+      "name" : "CLS OBO CMO Heart Rate"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-hematocrit-measurement"
       },
       "name" : "CLS OBO CMO Hematocrit Measurement",
@@ -1391,6 +1478,39 @@
       },
       "name" : "CLS OBO CMO Hip Circumference",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"
+      },
+      "name" : "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level"
+      },
+      "name" : "CLS OBO CMO Mean Corpuscular Hemoglobin Level",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-mean-corpuscular-volume"
+      },
+      "name" : "CLS OBO CMO Mean Corpuscular Volume",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'."
     },
     {
       "extension" : [{
@@ -1445,7 +1565,7 @@
         "reference" : "StructureDefinition/cls-obo-cmo-white-blood-cell-measurement"
       },
       "name" : "CLS OBO CMO White Blood Cell Measurement",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."
     },
     {
       "extension" : [{

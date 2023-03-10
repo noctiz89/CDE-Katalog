@@ -31,9 +31,9 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component ^slicing.ordered = false
 * component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "valueCodeableConcept"
 * component contains
-    male 0..* and
-    female 0..* and
-    intersex 0..*
+    male 0..1 and
+    female 0..1 and
+    intersex 0..1
 // Categorial Concept: "Male"
 * component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[male].code ^alias[0] = "Masculine"
@@ -50,13 +50,16 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     maleLOINCCode 1..1
 * component[male].code.coding[maleSNOMEDCode].code 1..1
 * component[male].code.coding[maleSNOMEDCode].code = #248153007 (exactly)
-* component[male].code.coding[maleSNOMEDCode].system 1..1
+* component[male].code.coding[maleSNOMEDCode].system 1..1 // .version 1..1
 * component[male].code.coding[maleSNOMEDCode].system = $SCT (exactly)
+* component[male].code.coding[maleSNOMEDCode].version 1..1
 * component[male].code.coding[maleSNOMEDCode] ^sliceName = "MaleSNOMEDCode"
+
 * component[male].code.coding[maleUMLSCode].code 1..1
 * component[male].code.coding[maleUMLSCode].code = #C1706180 (exactly)
-* component[male].code.coding[maleUMLSCode].system 1..1
+* component[male].code.coding[maleUMLSCode].system 1..1 // 
 * component[male].code.coding[maleUMLSCode].system = $UMLS (exactly)
+* component[male].code.coding[maleUMLSCode].version 1..1
 * component[male].code.coding[maleUMLSCode] ^sliceName = "MaleUMLSCode"
 // TEST: valueInteger (1) für Male
 * component[male].valueInteger 0..1 MS // 
@@ -80,13 +83,16 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     femaleLOINCCode 1..1
 * component[female].code.coding[femaleSNOMEDCode].code 1..1
 * component[female].code.coding[femaleSNOMEDCode].code = #248152002 (exactly)
-* component[female].code.coding[femaleSNOMEDCode].system 1..1
+* component[female].code.coding[femaleSNOMEDCode].system 1..1 // 
 * component[female].code.coding[femaleSNOMEDCode].system = $SCT (exactly)
+* component[female].code.coding[femaleSNOMEDCode].version 1..1
 * component[female].code.coding[femaleSNOMEDCode] ^sliceName = "FemaleSNOMEDCode"
+
 * component[female].code.coding[femaleUMLSCode].code 1..1
 * component[female].code.coding[femaleUMLSCode].code = #C0015780 (exactly)
-* component[female].code.coding[femaleUMLSCode].system 1..1
+* component[female].code.coding[femaleUMLSCode].system 1..1 //
 * component[female].code.coding[femaleUMLSCode].system = $UMLS (exactly)
+* component[female].code.coding[femaleUMLSCode].version 1..1
 * component[female].code.coding[femaleUMLSCode] ^sliceName = "FemaleUMLSCode"
 // TEST: valueInteger (2) für Female
 * component[female].valueInteger 0..1 MS // 
@@ -110,13 +116,15 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     intersexLOINCCode 1..1
 * component[intersex].code.coding[intersexSNOMEDCode].code 1..1
 * component[intersex].code.coding[intersexSNOMEDCode].code = #32570691000036108 (exactly)
-* component[intersex].code.coding[intersexSNOMEDCode].system 1..1
+* component[intersex].code.coding[intersexSNOMEDCode].system 1..1 // 
 * component[intersex].code.coding[intersexSNOMEDCode].system = $SCT (exactly)
+* component[intersex].code.coding[intersexSNOMEDCode].version 1..1
 * component[intersex].code.coding[intersexSNOMEDCode] ^sliceName = "IntersexSNOMEDCode"
 * component[intersex].code.coding[intersexUMLSCode].code 1..1
 * component[intersex].code.coding[intersexUMLSCode].code = #C1704620 (exactly)
-* component[intersex].code.coding[intersexUMLSCode].system 1..1
+* component[intersex].code.coding[intersexUMLSCode].system 1..1 // 
 * component[intersex].code.coding[intersexUMLSCode].system = $UMLS (exactly)
+* component[intersex].code.coding[intersexUMLSCode].version 1..1
 * component[intersex].code.coding[intersexUMLSCode] ^sliceName = "IntersexUMLSCode"
 // TEST: valueInteger (3) für Intersex
 * component[intersex].valueInteger 0..1 MS // 
@@ -140,7 +148,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
     intersex 0..1 MS
 * valueCodeableConcept[male].text = "Male"
 * valueCodeableConcept[male].coding 1..* MS
-* valueCodeableConcept[male].coding.system 1..1 MS
+* valueCodeableConcept[male].coding.system 1..1 // .version 1..1 MS
 * valueCodeableConcept[male].coding.code 1..1 MS
 * valueCodeableConcept[male].coding.display only string
 

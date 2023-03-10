@@ -9,5 +9,6 @@ Description: "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thro
 * insert RS_ObservationCategorySlicingRules
 * insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)
 * insert RS_CreateOneFurtherCategory(ClinicalMeasurement, $OBO, CMO_0000000)
+* insert RS_CreateOneFurtherCategory(BloodMeasurement, $OBO, CMO_0000035)
 * insert RS_CreateOneFurtherCategory(BloodCellMeasurement, $OBO, CMO_0000036)
 * insert RS_CreateOneFurtherCategory(PlateletMeasurement, $OBO, CMO_0000921)

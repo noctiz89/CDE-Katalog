@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-09T13:29:22+01:00"/>
+  <date value="2023-03-10T10:38:26+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -768,6 +768,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration"/>
+      </reference>
+      <name value="CDE cholesterol Inserum Or Plasma Mole Conentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Cholsterin [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration"/>
       </reference>
       <name value="CDE Creatinine In Serum Or Plasma Mole Concentration"/>
@@ -808,9 +818,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-erythrocytes-in-blood"/>
+        <reference value="StructureDefinition/cde-erythrocytes-in-blood-count-per-volume"/>
       </reference>
-      <name value="CDE Erythrocytes In Blood"/>
+      <name value="CDE Erythrocytes In Blood Count Per Volume"/>
       <description value="Dieses CDE enthält den Messparameter 'Erytrhozyten [Anzahl/Volumen] in Blut"/>
     </resource>
     <resource>
@@ -848,6 +858,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-heart-rate-beats-per-minute"/>
+      </reference>
+      <name value="CDE heart Rate Beats Per Minute"/>
+      <description value="Dieses CDE enthät die 'Herzfrequenz'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-hematocrit-of-blood"/>
       </reference>
       <name value="CDE Hematocrit Of Blood"/>
@@ -878,9 +898,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-leukocytes-in-blood"/>
+        <reference value="StructureDefinition/cde-leukocytes-in-blood-count-per-volume"/>
       </reference>
-      <name value="CDE Leukocytes In Blood"/>
+      <name value="CDE Leukocytes In Blood Count Per Volume"/>
       <description value="Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."/>
     </resource>
     <resource>
@@ -892,6 +912,26 @@
       </reference>
       <name value="CDE Magnesium In Serum Or Plasma Mole Concentration"/>
       <description value="Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass"/>
+      </reference>
+      <name value="CDE Mean Corpuscular Hemoglobin Level Entitic Mass"/>
+      <description value="Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-mean-corpuscular-volume-entitic-volume"/>
+      </reference>
+      <name value="CDE Mean Corpuscular Volume Entitic Volume"/>
+      <description value="Dieses CDE enthält den Messparameter 'Mittleres korpuskuläre Volumen [Entitische Volume]'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -938,9 +978,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-thrombocytes-in-blood"/>
+        <reference value="StructureDefinition/cde-thrombocytes-in-blood-count-per-volume"/>
       </reference>
-      <name value="CDE Thrombocytes In Blood"/>
+      <name value="CDE Thrombocytes In Blood Count Per Volume"/>
       <description value="Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'."/>
     </resource>
     <resource>
@@ -988,6 +1028,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Triglyceride In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Triglyceride [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-visit-date"/>
       </reference>
       <name value="CDE Visit Date"/>
@@ -1022,6 +1072,16 @@
       </reference>
       <name value="CLS OBO CMO Blood Chloride Level"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-cholesterol-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Cholesterol Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel im Blut'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1098,6 +1158,16 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-blood-triglyceride-level"/>
+      </reference>
+      <name value="CLS OBO CMO Blood Triglyceride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel im Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-cmo-body-height"/>
       </reference>
       <name value="CLS OBO CMO Body Height"/>
@@ -1128,6 +1198,15 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-heart-rate"/>
+      </reference>
+      <name value="CLS OBO CMO Heart Rate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-cmo-hematocrit-measurement"/>
       </reference>
       <name value="CLS OBO CMO Hematocrit Measurement"/>
@@ -1152,6 +1231,36 @@
       </reference>
       <name value="CLS OBO CMO Hip Circumference"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"/>
+      </reference>
+      <name value="CLS OBO CMO Mean Corpuscular Hemoglobin Concentration"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level"/>
+      </reference>
+      <name value="CLS OBO CMO Mean Corpuscular Hemoglobin Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-volume"/>
+      </reference>
+      <name value="CLS OBO CMO Mean Corpuscular Volume"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1201,7 +1310,7 @@
         <reference value="StructureDefinition/cls-obo-cmo-white-blood-cell-measurement"/>
       </reference>
       <name value="CLS OBO CMO White Blood Cell Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

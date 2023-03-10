@@ -119,6 +119,13 @@
     "name" : "CDE_ChlorideInSerumOrPlasmaMoleConcentration"
   },
   {
+    "id" : "cde-cholesterol-inserum-or-plasma-mole-conentration",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
+    "version" : "0.2.0",
+    "name" : "CDE_cholesterolInserumOrPlasmaMoleConentration"
+  },
+  {
     "id" : "cde-creatinine-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
@@ -147,11 +154,11 @@
     "name" : "CDE_DateOfDiagnosis"
   },
   {
-    "id" : "cde-erythrocytes-in-blood",
+    "id" : "cde-erythrocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
-    "name" : "CDE_ErythrocytesInBlood"
+    "name" : "CDE_ErythrocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-ethnicity",
@@ -175,6 +182,13 @@
     "name" : "CDE_GlucoseInSerumOrPlasmaMoleConcentration"
   },
   {
+    "id" : "cde-heart-rate-beats-per-minute",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute",
+    "version" : "0.2.0",
+    "name" : "CDE_heartRateBeatsPerMinute"
+  },
+  {
     "id" : "cde-hematocrit-of-blood",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood",
@@ -196,11 +210,11 @@
     "name" : "CDE_HipCircumference"
   },
   {
-    "id" : "cde-leukocytes-in-blood",
+    "id" : "cde-leukocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
-    "name" : "CDE_LeukocytesInBlood"
+    "name" : "CDE_LeukocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-magnesium-in-serum-or-plasma-mole-concentration",
@@ -208,6 +222,20 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_MagnesiumInSerumOrPlasmaMoleConcentration"
+  },
+  {
+    "id" : "cde-mean-corpuscular-hemoglobin-level-entitic-mass",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
+    "version" : "0.2.0",
+    "name" : "CDE_MeanCorpuscularHemoglobinLevelEntiticMass"
+  },
+  {
+    "id" : "cde-mean-corpuscular-volume-entitic-volume",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
+    "version" : "0.2.0",
+    "name" : "CDE_MeanCorpuscularVolumeEntiticVolume"
   },
   {
     "id" : "cde-phosphate-in-serum-or-plasma-mole-concentration",
@@ -238,11 +266,11 @@
     "name" : "CDE_SodiumInSerumOrPlasmaMoleConcentration"
   },
   {
-    "id" : "cde-thrombocytes-in-blood",
+    "id" : "cde-thrombocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
-    "name" : "CDE_ThrombocytesInBlood"
+    "name" : "CDE_ThrombocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-tobacco-smoking-cessation-year",
@@ -273,6 +301,13 @@
     "name" : "CDE_tobaccoSmokingStatusYesOrNo"
   },
   {
+    "id" : "cde-triglyceride-in-serum-or-plasma-mole-concentration",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
+    "version" : "0.2.0",
+    "name" : "CDE_TriglycerideInSerumOrPlasmaMoleConcentration"
+  },
+  {
     "id" : "cde-visit-date",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
@@ -299,6 +334,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodChlorideLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-blood-cholesterol-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodCholesterolLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-electrolyte-measurement",
@@ -350,6 +392,13 @@
     "name" : "CLS_OBO_CMO_BloodSodiumLevel"
   },
   {
+    "id" : "cls-obo-cmo-blood-triglyceride-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BloodTriglycerideLevel"
+  },
+  {
     "id" : "cls-obo-cmo-body-height",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height",
@@ -371,6 +420,13 @@
     "name" : "CLS_OBO_CMO_DiastolicBloodPressure"
   },
   {
+    "id" : "cls-obo-cmo-heart-rate",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-heart-rate",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_HeartRate"
+  },
+  {
     "id" : "cls-obo-cmo-hematocrit-measurement",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
@@ -390,6 +446,27 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HipCircumference"
+  },
+  {
+    "id" : "cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_MeanCorpuscularHemoglobinConcentration"
+  },
+  {
+    "id" : "cls-obo-cmo-mean-corpuscular-hemoglobin-level",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_MeanCorpuscularHemoglobinLevel"
+  },
+  {
+    "id" : "cls-obo-cmo-mean-corpuscular-volume",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_MeanCorpuscularVolume"
   },
   {
     "id" : "cls-obo-cmo-platelet-measurement",

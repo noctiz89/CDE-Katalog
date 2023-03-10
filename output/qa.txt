@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 11, warn = 72, info = 7
-IG Publisher Version: 1.2.39 Out of date - current version is 1.2.40
-Generated Thu Mar 09 13:46:44 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 2 / 4 / 0
+err = 11, warn = 79, info = 7
+IG Publisher Version: 1.2.39 Out of date - current version is 1.2.41
+Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 2 / 5 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
@@ -16,32 +16,38 @@ Generated Thu Mar 09 13:46:44 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-cholesterol-inserum-or-plasma-mole-conentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-creatinine-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-heart-rate-beats-per-minute : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hip-circumference : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-volume-entitic-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 3 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-triglyceride-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-visit-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-chloride-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-cholesterol-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-electrolyte-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-glucose-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-magnesium-level : 0 / 0 / 1
@@ -49,12 +55,17 @@ Generated Thu Mar 09 13:46:44 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-pressure-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-triglyceride-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure : 0 / 0 / 1
@@ -110,6 +121,7 @@ Generated Thu Mar 09 13:46:44 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
 </table>
 == n/a ==
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-obo-cmo-heart-rate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: D:\CDE-Katalog\output\spec2.html#/html/body/div/div/div/div/div/h3/a at Line 259, column 58: The link 'StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html' for "CDE Age At Diagnosis Of Essential Hypertension" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
@@ -137,6 +149,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-cholesterol-inserum-or-plasma-mole-conentration.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-creatinine-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-current-age-calculated.json ==
@@ -145,24 +159,30 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-heart-rate-beats-per-minute.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hip-circumference.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-volume-entitic-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma-mole-concentration.json ==
@@ -171,24 +191,27 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.snapshot.element[160].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
-WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[17].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
+WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[18].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-triglyceride-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-waist-circumference.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-chloride-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-cholesterol-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-electrolyte-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-glucose-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-magnesium-level.json ==
@@ -196,12 +219,18 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-potassium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-pressure-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-triglyceride-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure.json ==

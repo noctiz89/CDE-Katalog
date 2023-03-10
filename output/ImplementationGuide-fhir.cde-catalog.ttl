@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-09T13:29:22+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-10T10:38:26+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -874,6 +874,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration" ]
+       ] ;
+       fhir:name [ fhir:v "CDE cholesterol Inserum Or Plasma Mole Conentration" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Cholsterin [Mol/Volumen] in Serum oder Plasma'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration" ]
        ] ;
@@ -918,10 +929,10 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-erythrocytes-in-blood" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-erythrocytes-in-blood-count-per-volume" ]
        ] ;
-       fhir:name [ fhir:v "CDE Erythrocytes In Blood" ] ;
+       fhir:name [ fhir:v "CDE Erythrocytes In Blood Count Per Volume" ] ;
        fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Erytrhozyten [Anzahl/Volumen] in Blut" ]
      ] [
        fhir:extension ( [
@@ -962,6 +973,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-heart-rate-beats-per-minute" ]
+       ] ;
+       fhir:name [ fhir:v "CDE heart Rate Beats Per Minute" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthät die 'Herzfrequenz'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-hematocrit-of-blood" ]
        ] ;
@@ -995,10 +1017,10 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-leukocytes-in-blood" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-leukocytes-in-blood-count-per-volume" ]
        ] ;
-       fhir:name [ fhir:v "CDE Leukocytes In Blood" ] ;
+       fhir:name [ fhir:v "CDE Leukocytes In Blood Count Per Volume" ] ;
        fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'." ]
      ] [
        fhir:extension ( [
@@ -1011,6 +1033,28 @@
        ] ;
        fhir:name [ fhir:v "CDE Magnesium In Serum Or Plasma Mole Concentration" ] ;
        fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Mean Corpuscular Hemoglobin Level Entitic Mass" ] ;
+       fhir:description [ fhir:v "Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-mean-corpuscular-volume-entitic-volume" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Mean Corpuscular Volume Entitic Volume" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Mittleres korpuskuläre Volumen [Entitische Volume]'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1061,10 +1105,10 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-thrombocytes-in-blood" ]
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-thrombocytes-in-blood-count-per-volume" ]
        ] ;
-       fhir:name [ fhir:v "CDE Thrombocytes In Blood" ] ;
+       fhir:name [ fhir:v "CDE Thrombocytes In Blood Count Per Volume" ] ;
        fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'." ]
      ] [
        fhir:extension ( [
@@ -1116,6 +1160,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Triglyceride In Serum Or Plasma Mole Concentration" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Triglyceride [Mol/Volumen] in Serum oder Plasma'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-visit-date" ]
        ] ;
@@ -1154,6 +1209,17 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Chloride Level" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-cholesterol-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Blood Cholesterol Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel im Blut'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1237,6 +1303,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-triglyceride-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Blood Triglyceride Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel im Blut'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-height" ]
        ] ;
@@ -1270,6 +1347,16 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-heart-rate> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-heart-rate" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Heart Rate" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hematocrit-measurement" ]
        ] ;
@@ -1297,6 +1384,39 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Hip Circumference" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-volume" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Volume" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1351,7 +1471,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-white-blood-cell-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO White Blood Cell Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'." ]
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
