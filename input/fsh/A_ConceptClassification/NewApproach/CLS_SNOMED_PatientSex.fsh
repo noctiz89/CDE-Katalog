@@ -7,7 +7,7 @@ Description: "Dieses abstrakte Profil beschreibt die Kategorie 'Patientengeschle
 * ^abstract = true
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
-* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
+* insert RS_CreateOneFurtherCategory(Exam, $ObsCat, exam)
 * insert RS_CreateOneFurtherCategory(SNOMEDCTConcept_RT_CTV3, $SCT, 138875005)
 * insert RS_CreateOneFurtherCategory(ObservableEntity, $SCT, 363787002)
 * insert RS_CreateOneFurtherCategory(SocialOrPersonalHistory, $SCT, 160476009)

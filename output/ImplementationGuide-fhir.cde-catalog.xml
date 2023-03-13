@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-10T10:38:26+01:00"/>
+  <date value="2023-03-13T12:04:54+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -658,16 +658,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cde-age-at-stopped-smoking"/>
-      </reference>
-      <name value="CDE Age At Stopped Smoking"/>
-      <description value="Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cde-age"/>
       </reference>
       <name value="CDE Age"/>
@@ -818,6 +808,16 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-diabetes-mellitus-status-yes-or-no"/>
+      </reference>
+      <name value="CDE diabetes Mellitus Status Yes Or No"/>
+      <description value="Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-erythrocytes-in-blood-count-per-volume"/>
       </reference>
       <name value="CDE Erythrocytes In Blood Count Per Volume"/>
@@ -892,6 +892,16 @@
       </reference>
       <name value="CDE Hip Circumference"/>
       <description value="Dieses CDE enhält den 'Hüftumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-leucocyctes-in-urine-dipstick-test"/>
+      </reference>
+      <name value="CDE Leucocyctes In Urine Dipstick Test"/>
+      <description value="Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -988,10 +998,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-cessation-age"/>
+      </reference>
+      <name value="CDE tobacco Smoking Cessation Age"/>
+      <description value="Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cde-tobacco-smoking-cessation-year"/>
       </reference>
       <name value="CDE Tobacco Smoking Cessation Year"/>
-      <description value="Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'."/>
+      <description value="Dieses CDE enhält das 'Jahr in dem mit Rauchen aufgehört wurde'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1234,7 +1254,7 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"/>
@@ -1291,6 +1311,16 @@
       </reference>
       <name value="CLS OBO CMO Systolic Blood Pressure"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-cmo-urine-measurement"/>
+      </reference>
+      <name value="CLS OBO CMO Urine Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1397,6 +1427,16 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-snomed-age-at-smoking-cessation"/>
+      </reference>
+      <name value="CLS SNOMED Age At Smoking Cessation"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter beim Rauchstopp'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-snomed-demographic-history-detail"/>
       </reference>
       <name value="CLS SNOMED Demographic History Detail"/>
@@ -1414,7 +1454,7 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/cls-snomed-pack-years"/>
@@ -1537,6 +1577,16 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-leucocytes-diptest-finding"/>
+      </reference>
+      <name value="VS Leucocytes Diptest Finding"/>
+      <description value="Dieses ValueSet enthält Snomed-Codes für"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-mass-concentration-units"/>
       </reference>
       <name value="VS Mass Concentration Units"/>
@@ -1581,6 +1631,16 @@
       </reference>
       <name value="VS Number Concentration Units"/>
       <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-qualifier-for-presence"/>
+      </reference>
+      <name value="VS Qualifier For Presence"/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

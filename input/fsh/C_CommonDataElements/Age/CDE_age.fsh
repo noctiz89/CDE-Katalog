@@ -12,6 +12,7 @@ Description: "Dieses CDE enthält das 'Alter'."
 * ^extension[=].valueCode = #oo
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * ^extension[=].valueCode = #trial-use
+* ^extension[+].valueMarkdown = "TEST <h3>Test</h3>"
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
@@ -23,14 +24,15 @@ Description: "Dieses CDE enthält das 'Alter'."
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 30525-0, "Age") // Age
 // Value_Domain (VD) via Observation.valueQuantity
-* insert RS_CreateValueQuantity_Length("wk | a")
+* insert RS_CreateValueQuantity_Time("wk | a")
+/*
 // Woher stammen die Daten / Informationen? mit derivedFrom
 * derivedFrom 1..* MS 
 * derivedFrom only Reference(DocumentReference or QuestionnaireResponse or Observation)
 //Auf wen / was beziehen sich die Daten /Informationen? mit subject
 * subject 1..1 MS
 * subject only Reference(Patient)
-
+*/
 /* * id MS
 * meta MS
 * meta.source 0..1 MS

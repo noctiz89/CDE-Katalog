@@ -19,10 +19,6 @@
         "title": "CDE Age"
       },
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
-        "title": "CDE Age At Stopped Smoking"
-      },
-      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
         "title": "CDE Birth Date"
       },
@@ -79,6 +75,10 @@
         "title": "CDE Date Of Diagnosis"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
+        "title": "CDE diabetes Mellitus Status Yes Or No"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
         "title": "CDE Erythrocytes In Blood Count Per Volume"
       },
@@ -109,6 +109,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference",
         "title": "CDE Hip Circumference"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
+        "title": "CDE Leucocyctes In Urine Dipstick Test"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
@@ -145,6 +149,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
         "title": "CDE Thrombocytes In Blood Count Per Volume"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age",
+        "title": "CDE tobacco Smoking Cessation Age"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year",
@@ -271,6 +279,10 @@
         "title": "CLS OBO CMO Systolic Blood Pressure"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement",
+        "title": "CLS OBO CMO Urine Measurement"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
         "title": "CLS OBO CMO Waist Circumference"
       },
@@ -309,6 +321,10 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
         "title": "CLS OBO SNOMED Blood Creatinine Level"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation",
+        "title": "CLS SNOMED Age At Smoking Cessation"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail",

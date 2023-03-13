@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-10T10:38:26+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-13T12:04:54+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -753,17 +753,6 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking> ;
-         fhir:reference [ fhir:v "StructureDefinition/cde-age-at-stopped-smoking" ]
-       ] ;
-       fhir:name [ fhir:v "CDE Age At Stopped Smoking" ] ;
-       fhir:description [ fhir:v "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-age" ]
        ] ;
@@ -929,6 +918,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-diabetes-mellitus-status-yes-or-no" ]
+       ] ;
+       fhir:name [ fhir:v "CDE diabetes Mellitus Status Yes Or No" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-erythrocytes-in-blood-count-per-volume" ]
        ] ;
@@ -1011,6 +1011,17 @@
        ] ;
        fhir:name [ fhir:v "CDE Hip Circumference" ] ;
        fhir:description [ fhir:v "Dieses CDE enhält den 'Hüftumfang'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-leucocyctes-in-urine-dipstick-test" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Leucocyctes In Urine Dipstick Test" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1116,11 +1127,22 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-age" ]
+       ] ;
+       fhir:name [ fhir:v "CDE tobacco Smoking Cessation Age" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-year" ]
        ] ;
        fhir:name [ fhir:v "CDE Tobacco Smoking Cessation Year" ] ;
-       fhir:description [ fhir:v "Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'." ]
+       fhir:description [ fhir:v "Dieses CDE enhält das 'Jahr in dem mit Rauchen aufgehört wurde'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1387,7 +1409,7 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> ;
@@ -1450,6 +1472,17 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Systolic Blood Pressure" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-urine-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Urine Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1566,6 +1599,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-age-at-smoking-cessation" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Age At Smoking Cessation" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Alter beim Rauchstopp'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-demographic-history-detail" ]
        ] ;
@@ -1585,7 +1629,7 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years> ;
@@ -1720,6 +1764,17 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding> ;
+         fhir:reference [ fhir:v "ValueSet/vs-leucocytes-diptest-finding" ]
+       ] ;
+       fhir:name [ fhir:v "VS Leucocytes Diptest Finding" ] ;
+       fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-mass-concentration-units" ]
        ] ;
@@ -1769,6 +1824,17 @@
        ] ;
        fhir:name [ fhir:v "VS Number Concentration Units" ] ;
        fhir:description [ fhir:v "UCUM Codes für 'Anzahl pro Volumen'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence> ;
+         fhir:reference [ fhir:v "ValueSet/vs-qualifier-for-presence" ]
+       ] ;
+       fhir:name [ fhir:v "VS Qualifier For Presence" ] ;
+       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

@@ -24,6 +24,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 //* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes"
 
 // Value_Domain (VD) via Observation.component
+* component 1..1 MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
 * component ^slicing.rules = #open
@@ -42,6 +43,7 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[male].code ^definition = "Biological male sex"
 * component[male].code.coding ^slicing.discriminator.type = #value
 * component[male].code.coding ^slicing.discriminator.path = "code"
+* component[male].code.coding ^slicing.discriminator.path = "system"
 * component[male].code.coding ^slicing.rules = #open
 * component[male].code.coding ^slicing.ordered = false
 * component[male].code.coding contains
@@ -61,11 +63,11 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[male].code.coding[maleUMLSCode].system = $UMLS (exactly)
 * component[male].code.coding[maleUMLSCode].version 1..1
 * component[male].code.coding[maleUMLSCode] ^sliceName = "MaleUMLSCode"
-// TEST: valueInteger (1) für Male
-* component[male].valueInteger 0..1 MS // 
-* component[male].valueInteger.value 1..1
-* component[male].valueInteger.value = 1
-* component[male].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (1) für Male
+//* component[male].valueInteger 0..1 MS // 
+//* component[male].valueInteger.value 1..1
+//* component[male].valueInteger.value = 1
+//* component[male].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Female"
 * component[female].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -94,11 +96,11 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[female].code.coding[femaleUMLSCode].system = $UMLS (exactly)
 * component[female].code.coding[femaleUMLSCode].version 1..1
 * component[female].code.coding[femaleUMLSCode] ^sliceName = "FemaleUMLSCode"
-// TEST: valueInteger (2) für Female
-* component[female].valueInteger 0..1 MS // 
-* component[female].valueInteger.value 1..1
-* component[female].valueInteger.value = 2
-* component[female].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (2) für Female
+//* component[female].valueInteger 0..1 MS // 
+//* component[female].valueInteger.value 1..1
+//* component[female].valueInteger.value = 2
+//* component[female].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Intersex"
 * component[intersex].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -126,11 +128,11 @@ Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
 * component[intersex].code.coding[intersexUMLSCode].system = $UMLS (exactly)
 * component[intersex].code.coding[intersexUMLSCode].version 1..1
 * component[intersex].code.coding[intersexUMLSCode] ^sliceName = "IntersexUMLSCode"
-// TEST: valueInteger (3) für Intersex
-* component[intersex].valueInteger 0..1 MS // 
-* component[intersex].valueInteger.value 1..1
-* component[intersex].valueInteger.value = 3
-* component[intersex].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (3) für Intersex
+//* component[intersex].valueInteger 0..1 MS // 
+//* component[intersex].valueInteger.value 1..1
+//* component[intersex].valueInteger.value = 3
+//* component[intersex].valueInteger.value ^definition = "Internal coding of German Center for Diabetes Research (DZD)"
 
 
 

@@ -23,6 +23,7 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 //* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes" FÜHRT ZU EXCEPTION!! eigentlich sollte hier bloß eine Info für die Verwendung erscheinen
 
 // Value_Domain (VD) via Observation.component
+* component 1..1 MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
 * component ^slicing.rules = #open
@@ -30,12 +31,12 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component ^slicing.ordered = false
 * component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "valueCodeableConcept"
 * component contains
-    caucasian 0..* MS and
-    mediterranean 0..* MS and
-    blackAfrican 0..* MS and
-    asian 0..* MS and
-    latinAmerican 0..* MS and
-    other 0..* MS
+    caucasian 0..1 MS and
+    mediterranean 0..1 MS and
+    blackAfrican 0..1 MS and
+    asian 0..1 MS and
+    latinAmerican 0..1 MS and
+    other 0..1 MS
 // Categorial Concept: "Caucasian"
 * component[caucasian].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[caucasian].code ^alias[0] = "White People"
@@ -57,10 +58,10 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[caucasian].code.coding[caucasianUMLSCode].system = $UMLS (exactly)
 * component[caucasian].code.coding[caucasianUMLSCode] ^sliceName = "CaucasianUMLSCode"
 // TEST: valueInteger (1) für Caucasian
-* component[caucasian].valueInteger 0..1 MS // 
-* component[caucasian].valueInteger.value 1..1
-* component[caucasian].valueInteger.value = 1
-* component[caucasian].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//* component[caucasian].valueInteger 0..1 MS // 
+//* component[caucasian].valueInteger.value 1..1
+//* component[caucasian].valueInteger.value = 1
+//* component[caucasian].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Mediterranean"
 * component[mediterranean].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -83,10 +84,10 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[mediterranean].code.coding[mediterraneanUMLSCode].system = $UMLS (exactly)
 * component[mediterranean].code.coding[mediterraneanUMLSCode] ^sliceName = "mediterraneanUMLSCode"
 // TEST: valueInteger (2) für Mediterranean
-* component[mediterranean].valueInteger 0..1 MS // 
-* component[mediterranean].valueInteger.value 1..1
-* component[mediterranean].valueInteger.value = 2
-* component[mediterranean].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//* component[mediterranean].valueInteger 0..1 MS // 
+//* component[mediterranean].valueInteger.value 1..1
+//* component[mediterranean].valueInteger.value = 2
+//* component[mediterranean].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Black African"
 * component[blackAfrican].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -108,11 +109,11 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[blackAfrican].code.coding[blackAfricanUMLSCode].code = #C0085756 (exactly)
 * component[blackAfrican].code.coding[blackAfricanUMLSCode].system = $UMLS (exactly)
 * component[blackAfrican].code.coding[blackAfricanUMLSCode] ^sliceName = "BlackAfricanUMLSCode"
-// TEST: valueInteger (3) für Black African
-* component[blackAfrican].valueInteger 0..1 MS // 
-* component[blackAfrican].valueInteger.value 1..1
-* component[blackAfrican].valueInteger.value = 3
-* component[blackAfrican].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (3) für Black African
+//* component[blackAfrican].valueInteger 0..1 MS // 
+//* component[blackAfrican].valueInteger.value 1..1
+//* component[blackAfrican].valueInteger.value = 3
+//* component[blackAfrican].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Asian"
 * component[asian].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -134,11 +135,11 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[asian].code.coding[asianUMLSCode].code = #C0078988 (exactly)
 * component[asian].code.coding[asianUMLSCode].system = $UMLS (exactly)
 * component[asian].code.coding[asianUMLSCode] ^sliceName = "AsianUMLSCode"
-// TEST: valueInteger (4) für Asian
-* component[asian].valueInteger 0..1 MS // 
-* component[asian].valueInteger.value 1..1
-* component[asian].valueInteger.value = 4
-* component[asian].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (4) für Asian
+//* component[asian].valueInteger 0..1 MS // 
+//* component[asian].valueInteger.value 1..1
+//* component[asian].valueInteger.value = 4
+//* component[asian].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Latin American"
 * component[latinAmerican].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -160,11 +161,11 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[latinAmerican].code.coding[latinAmericanUMLSCode].code = #C0078988 (exactly)
 * component[latinAmerican].code.coding[latinAmericanUMLSCode].system = $UMLS (exactly)
 * component[latinAmerican].code.coding[latinAmericanUMLSCode] ^sliceName = "LatinAmericanUMLSCode"
-// TEST: valueInteger (5) für Latin American
-* component[latinAmerican].valueInteger 0..1 MS // 
-* component[latinAmerican].valueInteger.value 1..1
-* component[latinAmerican].valueInteger.value = 5
-* component[latinAmerican].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (5) für Latin American
+//* component[latinAmerican].valueInteger 0..1 MS // 
+//* component[latinAmerican].valueInteger.value 1..1
+//* component[latinAmerican].valueInteger.value = 5
+//* component[latinAmerican].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
 
 // Categorial Concept: "Other"
 * component[other].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
@@ -173,8 +174,8 @@ Description: "Dieses CDE enthält die 'Ethnizität'."
 * component[other].code ^short = "Other"
 * component[other].code ^definition = "Other ethic group"
 * component[other].code.coding from VS_EthnicGroups (required)
-// TEST: valueInteger (6) für Other
-* component[other].valueInteger 0..1 MS // 
-* component[other].valueInteger.value 1..1
-* component[other].valueInteger.value = 6
-* component[other].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"
+//// TEST: valueInteger (6) für Other
+//* component[other].valueInteger 0..1 MS // 
+//* component[other].valueInteger.value 1..1
+//* component[other].valueInteger.value = 6
+//* component[other].valueInteger.value ^short = "Internal coding of German Center for Diabetes Research (DZD)"

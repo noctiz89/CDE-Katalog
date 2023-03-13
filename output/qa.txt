@@ -1,12 +1,11 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 11, warn = 79, info = 7
-IG Publisher Version: 1.2.39 Out of date - current version is 1.2.41
-Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+err = 12, warn = 89, info = 7
+IG Publisher Version: 1.2.39 Out of date - current version is 1.2.43
+Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
  Build Errors : 2 / 5 / 0
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 1 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic : 0 / 1 / 1
@@ -21,6 +20,7 @@ Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-diabetes-mellitus-status-yes-or-no : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
@@ -29,6 +29,7 @@ Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hip-circumference : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leucocyctes-in-urine-dipstick-test : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass : 0 / 1 / 1
@@ -38,6 +39,7 @@ Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-age : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 3 / 1
@@ -63,12 +65,13 @@ Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference : 0 / 0 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index : 0 / 0 / 1
@@ -79,26 +82,29 @@ Generated Fri Mar 10 10:58:56 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-visit-date : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-snomed-blood-creatinine-level : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-age-at-smoking-cessation : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure : 0 / 0 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-pack-years : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-pack-years : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509 : 2 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 2 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 2 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-leucocytes-diptest-finding : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-units : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-missing-values-as-snomed : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-missing-values-as-snomed : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-molar-concentration-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-number-concentration-units : 0 / 1 / 1
- D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 1 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-qualifier-for-presence : 0 / 2 / 1
+ D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 10 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 2 / 1
@@ -128,9 +134,9 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
+ERROR: StructureDefinition/cde-age: StructureDefinition.extension[4]: Extension.url ist erforderlich 
+WARNING: StructureDefinition/cde-age: StructureDefinition.extension[4].value.ofType(markdown): The markdown contains content that appears to be an embedded HTML tag starting at 'TE'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-cde-age-at-stopped-smoking.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic.json ==
@@ -159,6 +165,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-diabetes-mellitus-status-yes-or-no.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
@@ -175,6 +183,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hip-circumference.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-leucocyctes-in-urine-dipstick-test.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration.json ==
@@ -193,6 +203,8 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-age.json ==
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year.json ==
 WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year.json ==
@@ -228,12 +240,12 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index.json ==
@@ -244,10 +256,10 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-visit-date.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-snomed-blood-creatinine-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-age-at-smoking-cessation.json ==
 == fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail.json ==
 == fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure.json ==
 == fsh-generated\resources\StructureDefinition-cls-snomed-pack-years.json ==
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex.json ==
 == fsh-generated\resources\StructureDefinition-poi-patient.json ==
 INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -264,26 +276,37 @@ ERROR: D:\CDE-Katalog\fsh-generated\resources\ValueSet-2.16.840.1.113883.3.1937.
 WARNING: ValueSet/vs-administrative-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
 WARNING: ValueSet/vs-binary-decision-yes-or-no: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-binary-decision-yes-or-no'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
 WARNING: ValueSet/vs-biological-gender: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-biological-gender'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
 WARNING: ValueSet/vs-ethnic-groups: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-ethnic-groups'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
 WARNING: ValueSet/vs-glasgow-coma-scale-for-adults: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-length-units.json ==
 WARNING: ValueSet/vs-length-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-leucocytes-diptest-finding.json ==
+WARNING: ValueSet/vs-leucocytes-diptest-finding: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-leucocytes-diptest-finding'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-mass-concentration-units.json ==
 WARNING: ValueSet/vs-mass-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-mass-units.json ==
 WARNING: ValueSet/vs-mass-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-missing-values-as-snomed.json ==
 WARNING: ValueSet/vs-missing-values-as-snomed: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-missing-values-as-snomed'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-molar-concentration-units.json ==
 WARNING: ValueSet/vs-molar-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == fsh-generated\resources\ValueSet-vs-number-concentration-units.json ==
 WARNING: ValueSet/vs-number-concentration-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+== fsh-generated\resources\ValueSet-vs-qualifier-for-presence.json ==
+WARNING: ValueSet/vs-qualifier-for-presence: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-qualifier-for-presence'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-smoking-status.json ==
 WARNING: ValueSet/vs-smoking-status: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet.where(id = 'vs-smoking-status'): Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)
 == fsh-generated\resources\ValueSet-vs-specimen-types.json ==
 WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[0]: The code LP7057-5 is not valid in the system http://loinc.org
 WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[1]: The code LP7067-4 is not valid in the system http://loinc.org

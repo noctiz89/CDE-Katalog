@@ -2,7 +2,7 @@ Profile: CDE_TobaccoSmokingCessationYear
 Parent: cls-obo-ncit-year-date
 Id: cde-tobacco-smoking-cessation-year
 Title: "CDE Tobacco Smoking Cessation Year"
-Description: "Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'."
+Description: "Dieses CDE enhält das 'Jahr in dem mit Rauchen aufgehört wurde'."
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

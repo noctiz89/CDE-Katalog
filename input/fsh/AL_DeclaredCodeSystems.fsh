@@ -4,7 +4,7 @@ Alias:  $NCIT = http://terminology.hl7.org/NamingSystem/v3-nciThesaurus
 Alias:  $OBO = http://purl.obolibrary.org/obo
 
 // External Code Systems
-Alias:  $LOINC = http://loinc.org
+Alias:  $LOINC = https://fhir.loinc.org
 //Alias:  $SCT = http://snomed.info/sct/900000000000207008 // (ist eigentlich der URI für Internatinale Version, aber schmeeißt java exceptions fehler)
 //Alias:  $SCT = http://snomed.info/sct/900000000000207008/version/20230131
 Alias:  $SCT = http://snomed.info/sct

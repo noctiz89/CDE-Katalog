@@ -1,0 +1,370 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "1631000175102",
+        "display" : "Der Patient wurde nicht gefragt."
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unbekannt"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Wird nicht aufgezeichnet/erfasst."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Smokes tobacco daily"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Occasional tobacco smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Ex-smoker"
+      },
+      {
+        "code" : "8392000",
+        "display" : "Non-smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "372148003"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "1631000175102",
+        "display" : "Der Patient wurde nicht gefragt."
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unbekannt"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Wird nicht aufgezeichnet/erfasst."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct/900000000000207008/version/20230131",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Smokes tobacco daily"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Occasional tobacco smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Ex-smoker"
+      },
+      {
+        "code" : "8392000",
+        "display" : "Non-smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------

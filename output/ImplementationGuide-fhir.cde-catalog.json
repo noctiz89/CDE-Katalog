@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-10T10:38:26+01:00",
+  "date" : "2023-03-13T12:04:54+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -848,17 +848,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/cde-age-at-stopped-smoking"
-      },
-      "name" : "CDE Age At Stopped Smoking",
-      "description" : "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/cde-age"
       },
       "name" : "CDE Age",
@@ -1024,6 +1013,17 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-diabetes-mellitus-status-yes-or-no"
+      },
+      "name" : "CDE diabetes Mellitus Status Yes Or No",
+      "description" : "Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-erythrocytes-in-blood-count-per-volume"
       },
       "name" : "CDE Erythrocytes In Blood Count Per Volume",
@@ -1105,6 +1105,17 @@
       },
       "name" : "CDE Hip Circumference",
       "description" : "Dieses CDE enhält den 'Hüftumfang'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-leucocyctes-in-urine-dipstick-test"
+      },
+      "name" : "CDE Leucocyctes In Urine Dipstick Test",
+      "description" : "Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'."
     },
     {
       "extension" : [{
@@ -1211,10 +1222,21 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cde-tobacco-smoking-cessation-age"
+      },
+      "name" : "CDE tobacco Smoking Cessation Age",
+      "description" : "Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cde-tobacco-smoking-cessation-year"
       },
       "name" : "CDE Tobacco Smoking Cessation Year",
-      "description" : "Dieses CDE enhält das 'Jahr seit dem mit dem Rauchen aufgehört wurde'."
+      "description" : "Dieses CDE enhält das 'Jahr in dem mit Rauchen aufgehört wurde'."
     },
     {
       "extension" : [{
@@ -1482,7 +1504,7 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"
@@ -1544,6 +1566,17 @@
       },
       "name" : "CLS OBO CMO Systolic Blood Pressure",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-urine-measurement"
+      },
+      "name" : "CLS OBO CMO Urine Measurement",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'."
     },
     {
       "extension" : [{
@@ -1661,6 +1694,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-snomed-age-at-smoking-cessation"
+      },
+      "name" : "CLS SNOMED Age At Smoking Cessation",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter beim Rauchstopp'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-snomed-demographic-history-detail"
       },
       "name" : "CLS SNOMED Demographic History Detail",
@@ -1680,7 +1724,7 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
         "reference" : "StructureDefinition/cls-snomed-pack-years"
@@ -1815,6 +1859,17 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-leucocytes-diptest-finding"
+      },
+      "name" : "VS Leucocytes Diptest Finding",
+      "description" : "Dieses ValueSet enthält Snomed-Codes für"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-mass-concentration-units"
       },
       "name" : "VS Mass Concentration Units",
@@ -1863,6 +1918,17 @@
       },
       "name" : "VS Number Concentration Units",
       "description" : "UCUM Codes für 'Anzahl pro Volumen'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-qualifier-for-presence"
+      },
+      "name" : "VS Qualifier For Presence",
+      "description" : "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."
     },
     {
       "extension" : [{

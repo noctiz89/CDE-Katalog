@@ -2481,3 +2481,803 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f2a9ae5c-f926-4ace-a32a-1915b658b24a",
+    "timestamp" : "2023-03-10T19:44:14.764Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394712000",
+      "display" : "+"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394713005",
+      "display" : "++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394714004",
+      "display" : "+++"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7e815ae2-1a0d-45b9-a49e-33cea6f05d7e",
+    "timestamp" : "2023-03-10T19:44:15.045Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negativ"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441614007",
+      "display" : "Present one plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441517005",
+      "display" : "Present two plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441521003",
+      "display" : "Present three plus out of three plus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260385009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Negative",
+  "code" : "260385009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "394712000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urine leukocyte test = +",
+  "code" : "394712000",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "394713005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urine leukocyte test = ++",
+  "code" : "394713005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "394714004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urine leukocyte test = +++",
+  "code" : "394714004",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441614007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Present + out of +++",
+  "code" : "441614007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441517005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Present ++ out of +++",
+  "code" : "441517005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441521003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Present three plus out of three plus",
+  "code" : "441521003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f5aa8347-c501-498b-a2fd-e587867b9b5d",
+    "timestamp" : "2023-03-10T19:55:14.466Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394712000",
+      "display" : "+"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394713005",
+      "display" : "++"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394714004",
+      "display" : "+++"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:370adf3e-f6c0-4aa7-a17e-bc7acbbae20e",
+    "timestamp" : "2023-03-10T19:55:15.201Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260385009",
+      "display" : "Negativ"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441614007",
+      "display" : "Present one plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441517005",
+      "display" : "Present two plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441521003",
+      "display" : "Present three plus out of three plus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1221000175102"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Age at smoking cessation (observable entity)",
+  "code" : "1221000175102",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "372148003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '372148003'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#372148003) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "1631000175102",
+        "display" : "Der Patient wurde nicht gefragt."
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unbekannt"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Wird nicht aufgezeichnet/erfasst."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Smokes tobacco daily"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Occasional tobacco smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Ex-smoker"
+      },
+      {
+        "code" : "8392000",
+        "display" : "Non-smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "373066001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '373066001'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#373066001) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "248153007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '248153007'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#248153007) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "260385009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '260385009'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#260385009) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "1631000175102"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '1631000175102'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#1631000175102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "version" : "2023-01-31",
+  "code" : "449868002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '449868002'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#449868002) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
+  "class" : "CODESYSTEM_UNSUPPORTED"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "248153007",
+        "display" : "Male"
+      },
+      {
+        "code" : "248152002",
+        "display" : "Female"
+      },
+      {
+        "code" : "32570691000036108",
+        "display" : "Intersex"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "372148003"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "394712000",
+        "display" : "+"
+      },
+      {
+        "code" : "394713005",
+        "display" : "++"
+      },
+      {
+        "code" : "394714004",
+        "display" : "+++"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "1631000175102",
+        "display" : "Der Patient wurde nicht gefragt."
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unbekannt"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Wird nicht aufgezeichnet/erfasst."
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "Negativ"
+      },
+      {
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "2023-01-31",
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "Smokes tobacco daily"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "Occasional tobacco smoker"
+      },
+      {
+        "code" : "8517006",
+        "display" : "Ex-smoker"
+      },
+      {
+        "code" : "8392000",
+        "display" : "Non-smoker"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
+}
+-------------------------------------------------------------------------------------

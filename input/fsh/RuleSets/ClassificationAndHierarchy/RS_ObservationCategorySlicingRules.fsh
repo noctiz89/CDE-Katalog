@@ -18,7 +18,7 @@ RuleSet: RS_ObservationCategorySlicingRules
 * category ^slicing.discriminator[=].path = "coding.code"
 * category ^slicing.rules = #openAtEnd
 * category ^slicing.description = "Slice based on the coding.code & coding.system to allow multiple classifications of data elements."
-* category ^slicing.ordered = true
+* category ^slicing.ordered = false
 
 /*
 * category ^slicing.discriminator[0].type = #value // {#pattern/#value/#type/#profile/#exists}

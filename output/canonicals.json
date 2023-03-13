@@ -49,13 +49,6 @@
     "name" : "CDE_Age"
   },
   {
-    "id" : "cde-age-at-stopped-smoking",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-stopped-smoking",
-    "version" : "0.2.0",
-    "name" : "CDE_AgeAtStoppedSmoking"
-  },
-  {
     "id" : "cde-birth-date",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
@@ -154,6 +147,13 @@
     "name" : "CDE_DateOfDiagnosis"
   },
   {
+    "id" : "cde-diabetes-mellitus-status-yes-or-no",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
+    "version" : "0.2.0",
+    "name" : "CDE_diabetesMellitusStatusYesOrNo"
+  },
+  {
     "id" : "cde-erythrocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
@@ -208,6 +208,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference",
     "version" : "0.2.0",
     "name" : "CDE_HipCircumference"
+  },
+  {
+    "id" : "cde-leucocyctes-in-urine-dipstick-test",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
+    "version" : "0.2.0",
+    "name" : "CDE_LeucocyctesInUrineDipstickTest"
   },
   {
     "id" : "cde-leukocytes-in-blood-count-per-volume",
@@ -271,6 +278,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
     "name" : "CDE_ThrombocytesInBloodCountPerVolume"
+  },
+  {
+    "id" : "cde-tobacco-smoking-cessation-age",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age",
+    "version" : "0.2.0",
+    "name" : "CDE_tobaccoSmokingCessationAge"
   },
   {
     "id" : "cde-tobacco-smoking-cessation-year",
@@ -490,6 +504,13 @@
     "name" : "CLS_OBO_CMO_SystolicBloodPressure"
   },
   {
+    "id" : "cls-obo-cmo-urine-measurement",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_UrineMeasurement"
+  },
+  {
     "id" : "cls-obo-cmo-waist-circumference",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
@@ -558,6 +579,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_SNOMED_BloodCreatinineLevel"
+  },
+  {
+    "id" : "cls-snomed-age-at-smoking-cessation",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation",
+    "version" : "0.2.0",
+    "name" : "CLS_SNOMED_AgeAtSmokingCessation"
   },
   {
     "id" : "cls-snomed-demographic-history-detail",
@@ -693,6 +721,13 @@
     "name" : "VS_LengthUnits"
   },
   {
+    "id" : "vs-leucocytes-diptest-finding",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding",
+    "version" : "0.2.0",
+    "name" : "VS_LeucocytesDiptestFinding"
+  },
+  {
     "id" : "vs-mass-concentration-units",
     "type" : "ValueSet",
     "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units",
@@ -726,6 +761,13 @@
     "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units",
     "version" : "0.2.0",
     "name" : "VS_NumberConcentrationUnits"
+  },
+  {
+    "id" : "vs-qualifier-for-presence",
+    "type" : "ValueSet",
+    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence",
+    "version" : "0.2.0",
+    "name" : "VS_QualifierForPresence"
   },
   {
     "id" : "vs-smoking-status",

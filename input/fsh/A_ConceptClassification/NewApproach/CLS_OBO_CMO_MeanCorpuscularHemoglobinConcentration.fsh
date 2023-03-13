@@ -3,6 +3,8 @@ Parent: Observation
 Id: cls-obo-cmo-mean-corpuscular-hemoglobin-concentration
 Title: "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration"
 Description: "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."
+* ^status = #draft
+* ^abstract = true
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
 * insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

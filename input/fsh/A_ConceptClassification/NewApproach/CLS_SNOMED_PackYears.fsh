@@ -3,6 +3,8 @@ Parent: Observation
 Id: cls-snomed-pack-years
 Title: "CLS SNOMED Pack Years"
 Description: "Dieses abstrakte Profil beschreibt die Kategorie 'Packungsjahre'."
+* ^status = #draft
+* ^abstract = true
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
 * insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

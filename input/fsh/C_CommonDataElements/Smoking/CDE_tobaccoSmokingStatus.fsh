@@ -16,6 +16,7 @@ Description: "Dieses CDE enthält den 'Raucherstatus'."
 * component.valueCodeableConcept from VS_SmokingStatus
 
 // Value_Domain (VD) via Observation.component
+* component 1..1 MS
 * component ^slicing.discriminator.type = #value
 * component ^slicing.discriminator.path = "code.coding.code"
 * component ^slicing.rules = #open

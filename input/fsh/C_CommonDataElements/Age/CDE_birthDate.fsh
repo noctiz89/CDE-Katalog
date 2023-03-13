@@ -17,3 +17,4 @@ Description: "Dieses CDE enthält das 'Geburtsdatum'."
 // Value_Domain (VD) via Observation.value
 * valueDateTime.value 1..1 MS
 * valueDateTime.value only dateTime
+* valueDateTime.value ^short = "Birth date"
