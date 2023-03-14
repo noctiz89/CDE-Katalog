@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-14T13:58:26+01:00",
+  "date" : "2023-03-14T20:28:45+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -73,17 +73,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "path-liquid"
       },
       {
@@ -381,17 +370,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input\\cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "path-liquid"
       },
       {
@@ -664,10 +642,6 @@
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
-    "grouping" : [{
-      "id" : "resources-spreadsheet.xml",
-      "name" : "not relevant"
-    }],
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
@@ -680,119 +654,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/example"
-      }
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example"
-      },
-      "name" : "Example CQL Library",
-      "description" : "Some example library"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/example"
-      },
-      "name" : "Example Observation - example",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/example"
-      },
-      "name" : "Example Patient - example",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/cs-fake"
-      },
-      "name" : "CodeSystem fake",
-      "description" : "A fake code system"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-image"
-      },
-      "name" : "Example Library Image"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-sql"
-      },
-      "name" : "Example Library"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MyLogical"
-      },
-      "name" : "My Logical Model",
-      "description" : "A profile showing the use of Logical Models to author profiles"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/myObservation"
+        "reference" : "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"
       },
-      "name" : "My Observation Profile",
-      "description" : "A profile showing the use of XML to author profiles"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/valueset-fake"
-      },
-      "name" : "ValueSet fake",
-      "description" : "A fake value"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/valueset-no-codesystem"
-      },
-      "name" : "ValueSet with no code-system",
-      "description" : "A sample value set where there's no known code system"
+      "name" : "CDE Age At Diagnosis Of Essential Hypertension",
+      "description" : "Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."
     },
     {
       "extension" : [{
@@ -1569,6 +1437,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-ncit-age-at-diagnosis"
+      },
+      "name" : "CLS OBO CMO Age At Diagnosis",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-ncit-age"
       },
       "name" : "CLS OBO NCIT Age",
@@ -1925,42 +1804,6 @@
       },
       "name" : "VS Unity Units",
       "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ext-myExtension"
-      },
-      "name" : "MyExtension",
-      "description" : "What this extension means.",
-      "groupingId" : "resources-spreadsheet.xml"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/mypatient"
-      },
-      "name" : "MyPatientName",
-      "description" : "This will be the description for the patient profile within the profile page",
-      "groupingId" : "resources-spreadsheet.xml"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/mypractitioner"
-      },
-      "name" : "MyPractitionerName",
-      "description" : "Description for the profile page",
-      "groupingId" : "resources-spreadsheet.xml"
     }],
     "page" : {
       "extension" : [{

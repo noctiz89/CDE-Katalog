@@ -3,6 +3,7 @@ Parent: cls-snomed-finding-of-tobacco-use-and-exposure
 Id: cde-tobacco-smoking-status-yes-or-no
 Title: "CDE tobacco Smoking Status Yes Or No"
 Description: "Dieses CDE enthält den 'Raucherstatus'."
+* status = #experimental
 /*
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 110483000, "Tobacco user") //

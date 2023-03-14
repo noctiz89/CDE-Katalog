@@ -12,6 +12,7 @@ Description: "Dieses CDE enthält das 'Alter'."
 * ^extension[=].valueCode = #oo
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * ^extension[=].valueCode = #trial-use
+* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/markdown"
 * ^extension[+].valueMarkdown = "TEST <h3>Test</h3>"
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules

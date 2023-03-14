@@ -3,20 +3,16 @@
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
-  "extensions": [
-    {
-      "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
-      "title": "My awesome extension",
-      "types": [
-        "boolean"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {
     "Observation": [
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
         "title": "CDE Age"
+      },
+      {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
+        "title": "CDE Age At Diagnosis Of Essential Hypertension"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
@@ -299,6 +295,10 @@
         "title": "CLS OBO NCIT Age"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
+        "title": "CLS OBO CMO Age At Diagnosis"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date",
         "title": "CLS OBO NCIT Birth Date"
       },
@@ -341,22 +341,12 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex",
         "title": "CLS SNOMED Patient Sex"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
-        "title": "My Observation Profile"
       }
     ],
     "Patient": [
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient",
         "title": "POI Patient"
-      }
-    ],
-    "Practitioner": [
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
-        "title": "Some Practitioner profile"
       }
     ],
     "Person": [
@@ -388,17 +378,8 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace": [
-      "StructureDefinition"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support": [
-      "StructureDefinition.differential.element.type",
-      "StructureDefinition.differential.element.type.targetProfile",
-      "StructureDefinition.snapshot.element.type",
-      "StructureDefinition.snapshot.element.type.targetProfile"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
@@ -429,7 +410,6 @@
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "CodeSystem",
       "ImplementationGuide",
       "ImplementationGuide.definition.page",
       "ImplementationGuide.definition.page.page",
@@ -457,9 +437,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension": [
-      "Patient"
     ]
   }
 }

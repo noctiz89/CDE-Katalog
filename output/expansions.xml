@@ -1,95 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4b28cacc-beae-4348-acce-6cafe52dfd9b"/>
+  <id value="a82125a2-c4e1-4b10-a49f-863f4e1f8fd3"/>
   <meta>
-    <lastUpdated value="2023-03-14T13:58:26.533+01:00"/>
+    <lastUpdated value="2023-03-14T20:28:45.336+01:00"/>
   </meta>
   <type value="collection"/>
-  <entry>
-    <fullUrl value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
-    <resource>
-      <ValueSet>
-        <id value="valueset-fake"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-cs-fake.html">CodeSystem fake v0.2.0 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---somewhere.org-fhir-uv-myig-CodeSystem-cs-fake-01"> </a>  
-                  <a href="CodeSystem-cs-fake.html#cs-fake-01">01</a>
-                </td>
-                <td>http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake</td>
-                <td>VS1</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
-            </extension>
-          </valueCode>
-        </extension>
-        <url value="http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake"/>
-        <version value="0.2.0"/>
-        <name value="ValueSetFake"/>
-        <title value="ValueSet fake"/>
-        <status value="draft"/>
-        <experimental value="true"/>
-        <date value="2015-06-22"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
-          </telecom>
-        </contact>
-        <description value="A fake value"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:0c522c00-d6be-43f0-8ffe-c686cfcc670c"/>
-          <timestamp value="2023-03-14T14:04:26+01:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake|0.2.0"/>
-          </parameter>
-          <contains>
-            <system value="http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake"/>
-            <code value="01"/>
-            <display value="VS1"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
   <entry>
     <fullUrl value="https://develop.art-decor.org/fhir/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"/>
     <resource>
@@ -164,7 +80,7 @@
         <title value="valueSet_YesNoQualifier"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -182,8 +98,8 @@
         <immutable value="false"/>
         <copyright value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."/>
         <expansion>
-          <identifier value="urn:uuid:a8cb6b82-1b2d-4575-9ec3-30d82223a6b7"/>
-          <timestamp value="2023-03-14T14:10:46+01:00"/>
+          <identifier value="urn:uuid:0aaa12e1-1085-44d6-9bea-3baab7cc78f9"/>
+          <timestamp value="2023-03-14T20:41:02+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -324,7 +240,7 @@
         <name value="VS_AdministrativeGender"/>
         <title value="VS AdministrativeGender"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -340,8 +256,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8bee8a10-2e39-4a29-9bfd-b70738dbd20a"/>
-          <timestamp value="2023-03-14T14:10:46+01:00"/>
+          <identifier value="urn:uuid:7851f10d-d17e-4ecf-9030-db4b999061bd"/>
+          <timestamp value="2023-03-14T20:41:02+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -422,7 +338,7 @@
         <name value="VS_GlasgowComaScaleForAdults"/>
         <title value="VS Glasgow Coma Scale For Adults"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -438,8 +354,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ca27a9f6-5efe-4860-8749-d07510513737"/>
-          <timestamp value="2023-03-14T14:10:46+01:00"/>
+          <identifier value="urn:uuid:9d927413-f6a1-4e55-9423-e4e88f7b1a75"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -555,7 +471,7 @@
         <name value="VS_LengthUnits"/>
         <title value="VS Length Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -571,8 +487,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7607c63b-c467-40f7-8f42-f08bf3c6ca97"/>
-          <timestamp value="2023-03-14T14:10:46+01:00"/>
+          <identifier value="urn:uuid:0b6f9ffd-a287-4301-baef-8e29d8f9218a"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -826,7 +742,7 @@
         <name value="VS_MassConcentrationUnits"/>
         <title value="VS Mass Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -842,8 +758,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3aafb0de-cd3e-4afb-94a4-8cdea74748c0"/>
-          <timestamp value="2023-03-14T14:10:46+01:00"/>
+          <identifier value="urn:uuid:ae8d240f-e21f-4fce-a627-ff73e5d0420d"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1080,7 +996,7 @@
         <name value="VS_MassUnits"/>
         <title value="VS Mass Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -1096,8 +1012,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f27b7d23-856d-435c-bbbd-71dac54738f6"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:1611aa06-a966-4879-baae-c789c124a177"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1314,7 +1230,7 @@
         <name value="VS_MolarConcentrationUnits"/>
         <title value="VS Molar Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -1330,8 +1246,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1ccbe69e-2507-4dec-b472-76f0da93f718"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:023861f3-0130-4eaf-89f8-7672af5fdc20"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1608,7 +1524,7 @@
         <name value="VS_NumberConcentrationUnits"/>
         <title value="VS Number Concentration Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -1624,8 +1540,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:85102400-25a3-40ad-8c06-53cc8bf7941b"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:f63b9213-cddc-4831-9c8d-3d6fb9ca2f41"/>
+          <timestamp value="2023-03-14T20:41:03+01:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1786,7 +1702,7 @@
         <name value="VS_SpecimenTypes"/>
         <title value="VS Specimen Types"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -1802,8 +1718,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ffa7aa1b-00d9-4592-97aa-aff9979f1005"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:a30cd8ce-7bef-48b6-91f5-f7da84e3199a"/>
+          <timestamp value="2023-03-14T20:41:04+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -1951,7 +1867,7 @@
         <name value="VS_TimeUnits"/>
         <title value="VS Time Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -1967,8 +1883,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:914fede9-332a-42a2-a663-53dfa6a9ebea"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:9e65c293-e0c9-4c88-92a5-dbb84e416e9c"/>
+          <timestamp value="2023-03-14T20:41:04+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2144,7 +2060,7 @@
         <name value="VS_UnityUnits"/>
         <title value="VS Unity Units"/>
         <status value="active"/>
-        <date value="2023-03-14T13:58:26+01:00"/>
+        <date value="2023-03-14T20:28:45+01:00"/>
         <publisher value="HL7 International - [Some] Work Group"/>
         <contact>
           <telecom>
@@ -2160,8 +2076,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8f66d325-b1fc-4178-9d27-6fdd6330af51"/>
-          <timestamp value="2023-03-14T14:10:47+01:00"/>
+          <identifier value="urn:uuid:22c9959b-4e17-4ab2-9bcd-0e3786dba7d1"/>
+          <timestamp value="2023-03-14T20:41:04+01:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

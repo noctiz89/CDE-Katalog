@@ -141,7 +141,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="Library-example.html">next&gt;</a>
+          | <a href="StructureDefinition-cls-obo-cmo-blood-calcium-level.html">next&gt;</a>
 
           </span>
 
@@ -175,31 +175,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Knowledge Artifacts: Libraries</a>
+         <a href="#1">Structures: Abstract Profiles</a>
       </li>
       <li>
-         <a href="#2">Structures: Logical Models</a>
+         <a href="#2">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#3">Structures: Abstract Profiles</a>
+         <a href="#3">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#4">Structures: Resource Profiles</a>
-      </li>
-      <li>
-         <a href="#5">Structures: Extension Definitions</a>
-      </li>
-      <li>
-         <a href="#6">Terminology: Value Sets</a>
-      </li>
-      <li>
-         <a href="#7">Terminology: Code Systems</a>
-      </li>
-      <li>
-         <a href="#8">Example: Example Instances</a>
-      </li>
-      <li>
-         <a href="#9">Other</a>
+         <a href="#4">Other</a>
       </li>
    </ul>
 </div>
@@ -208,63 +193,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Knowledge Artifacts: Libraries </h3>
-   <p>
-    <p>These define logic, asset collections and other libraries as part of content in this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example.html" title="Library/example">Example CQL Library</a>
-               </td>
-               <td>
-<p>Some example library</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example-image.html" title="Library/example-image">Example Library Image</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Library-example-sql.html" title="Library/example-sql">Example Library</a>
-               </td>
-               <td>
-
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="2"> </a>
-   <h3>Structures: Logical Models </h3>
-   <p>
-    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-MyLogical.html"
-                     title="StructureDefinition/MyLogical">My Logical Model</a>
-               </td>
-               <td>
-<p>A profile showing the use of Logical Models to author profiles</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
    <h3>Structures: Abstract Profiles </h3>
    <p>
     <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
@@ -527,6 +455,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-obo-ncit-age-at-diagnosis.html"
+                     title="StructureDefinition/cls-obo-ncit-age-at-diagnosis">CLS OBO CMO Age At Diagnosis</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Alter bei Diagnose’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-cls-obo-ncit-age.html"
                      title="StructureDefinition/cls-obo-ncit-age">CLS OBO NCIT Age</a>
                </td>
@@ -636,7 +573,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="2"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
@@ -647,11 +584,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-myObservation.html"
-                     title="StructureDefinition/myObservation">My Observation Profile</a>
+                  <a href="StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html"
+                     title="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension">CDE Age At Diagnosis Of Essential Hypertension</a>
                </td>
                <td>
-<p>A profile showing the use of XML to author profiles</p>
+<p>Dieses CDE enthält das ‘Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie’.</p>
 </td>
             </tr>
             <tr>
@@ -1059,49 +996,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin.</p>
 </td>
             </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-mypatient.html"
-                     title="StructureDefinition/mypatient">MyPatientName</a>
-               </td>
-               <td>
-<p>This will be the description for the patient profile within the profile page</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-mypractitioner.html"
-                     title="StructureDefinition/mypractitioner">MyPractitionerName</a>
-               </td>
-               <td>
-<p>Description for the profile page</p>
-</td>
-            </tr>
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
-   <h3>Structures: Extension Definitions </h3>
-   <p>
-    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-ext-myExtension.html"
-                     title="StructureDefinition/ext-myExtension">MyExtension</a>
-               </td>
-               <td>
-<p>What this extension means.</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="6"> </a>
+   <a name="3"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
@@ -1110,23 +1008,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-valueset-fake.html" title="ValueSet/valueset-fake">ValueSet fake</a>
-               </td>
-               <td>
-<p>A fake value</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-valueset-no-codesystem.html"
-                     title="ValueSet/valueset-no-codesystem">ValueSet with no code-system</a>
-               </td>
-               <td>
-<p>A sample value set where there’s no known code system</p>
-</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509.html"
@@ -1287,49 +1168,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="7"> </a>
-   <h3>Terminology: Code Systems </h3>
-   <p>
-    <p>These define new code systems used by systems conforming to this implementation guide.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="CodeSystem-cs-fake.html" title="CodeSystem/cs-fake">CodeSystem fake</a>
-               </td>
-               <td>
-<p>A fake code system</p>
-</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="8"> </a>
-   <h3>Example: Example Instances </h3>
-   <p>
-    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Observation-example.html" title="Observation/example">Example Observation - example</a>
-               </td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-example.html" title="Patient/example">Example Patient - example</a>
-               </td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="9"> </a>
+   <a name="4"> </a>
    <h3>Other </h3>
    <p>
     <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
@@ -1340,7 +1179,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Binary-example.html" title="Binary/example">Binary/example</a>
+                  <a href="Bundle-h1.html" title="Bundle/h1">Bundle/h1</a>
                </td>
             </tr>
          </tbody>
@@ -1382,7 +1221,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="Library-example.html">next&gt;</a>
+                <a href="StructureDefinition-cls-obo-cmo-blood-calcium-level.html">next&gt;</a>
 
               </td>
             </tr>
@@ -1392,7 +1231,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 13:58+0100">2023-03-14</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 20:28+0100">2023-03-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

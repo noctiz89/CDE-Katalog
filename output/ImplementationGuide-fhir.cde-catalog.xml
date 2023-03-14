@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-14T13:58:26+01:00"/>
+  <date value="2023-03-14T20:28:45+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -63,14 +63,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-binary"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input\cql"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="path-liquid"/>
       </extension>
       <extension url="value">
@@ -287,14 +279,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-binary"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input\cql"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="path-liquid"/>
       </extension>
       <extension url="value">
@@ -493,9 +477,6 @@
         <valueString value="true"/>
       </extension>
     </extension>
-    <grouping id="resources-spreadsheet.xml">
-      <name value="not relevant"/>
-    </grouping>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
@@ -506,109 +487,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Binary"/>
-      </extension>
-      <reference>
-        <reference value="Binary/example"/>
-      </reference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example"/>
-      </reference>
-      <name value="Example CQL Library"/>
-      <description value="Some example library"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/example"/>
-      </reference>
-      <name value="Example Observation - example"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/example"/>
-      </reference>
-      <name value="Example Patient - example"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/cs-fake"/>
-      </reference>
-      <name value="CodeSystem fake"/>
-      <description value="A fake code system"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example-image"/>
-      </reference>
-      <name value="Example Library Image"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example-sql"/>
-      </reference>
-      <name value="Example Library"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/MyLogical"/>
-      </reference>
-      <name value="My Logical Model"/>
-      <description value="A profile showing the use of Logical Models to author profiles"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/myObservation"/>
+        <reference value="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"/>
       </reference>
-      <name value="My Observation Profile"/>
-      <description value="A profile showing the use of XML to author profiles"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/valueset-fake"/>
-      </reference>
-      <name value="ValueSet fake"/>
-      <description value="A fake value"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/valueset-no-codesystem"/>
-      </reference>
-      <name value="ValueSet with no code-system"/>
-      <description value="A sample value set where there's no known code system"/>
+      <name value="CDE Age At Diagnosis Of Essential Hypertension"/>
+      <description value="Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1314,6 +1199,16 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-age-at-diagnosis"/>
+      </reference>
+      <name value="CLS OBO CMO Age At Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/cls-obo-ncit-age"/>
       </reference>
       <name value="CLS OBO NCIT Age"/>
@@ -1638,39 +1533,6 @@
       </reference>
       <name value="VS Unity Units"/>
       <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ext-myExtension"/>
-      </reference>
-      <name value="MyExtension"/>
-      <description value="What this extension means."/>
-      <groupingId value="resources-spreadsheet.xml"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/mypatient"/>
-      </reference>
-      <name value="MyPatientName"/>
-      <description value="This will be the description for the patient profile within the profile page"/>
-      <groupingId value="resources-spreadsheet.xml"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/mypractitioner"/>
-      </reference>
-      <name value="MyPractitionerName"/>
-      <description value="Description for the profile page"/>
-      <groupingId value="resources-spreadsheet.xml"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

@@ -1,12 +1,5 @@
 [
   {
-    "id" : "cs-fake",
-    "type" : "CodeSystem",
-    "url" : "http://somewhere.org/fhir/uv/myig/CodeSystem/cs-fake",
-    "version" : "0.2.0",
-    "name" : "CodeSystemFake"
-  },
-  {
     "id" : "fhir.cde-catalog",
     "type" : "ImplementationGuide",
     "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog",
@@ -14,39 +7,18 @@
     "name" : "CDEKatalog"
   },
   {
-    "id" : "example",
-    "type" : "Library",
-    "url" : "http://somewhere.org/fhir/uv/myig/Library/example",
-    "version" : "0.2.0",
-    "name" : "Example"
-  },
-  {
-    "id" : "example-image",
-    "type" : "Library",
-    "url" : "http://somewhere.org/fhir/uv/myig/Library/example-image",
-    "version" : "0.2.0",
-    "name" : "ExampleLibraryImage"
-  },
-  {
-    "id" : "example-sql",
-    "type" : "Library",
-    "url" : "http://somewhere.org/fhir/uv/myig/Library/example-sql",
-    "version" : "0.2.0",
-    "name" : "ExampleLibrary"
-  },
-  {
-    "id" : "MyLogical",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical",
-    "version" : "0.2.0",
-    "name" : "MyLogical"
-  },
-  {
     "id" : "cde-age",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
     "version" : "0.2.0",
     "name" : "CDE_Age"
+  },
+  {
+    "id" : "cde-age-at-diagnosis-of-essential-hypertension",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
+    "version" : "0.2.0",
+    "name" : "CDE_AgeAtDiagnosisOfEssentialHypertension"
   },
   {
     "id" : "cde-birth-date",
@@ -539,6 +511,13 @@
     "name" : "CLS_OBO_NCIT_Age"
   },
   {
+    "id" : "cls-obo-ncit-age-at-diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_NCIT_AgeAtDiagnosis"
+  },
+  {
     "id" : "cls-obo-ncit-birth-date",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date",
@@ -616,34 +595,6 @@
     "name" : "CLS_SNOMED_PatientSex"
   },
   {
-    "id" : "ext-myExtension",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
-    "version" : "0.2.0",
-    "name" : "MyExtension"
-  },
-  {
-    "id" : "myObservation",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
-    "version" : "0.2.0",
-    "name" : "MyObservation"
-  },
-  {
-    "id" : "mypatient",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient",
-    "version" : "0.2.0",
-    "name" : "MyPatientName"
-  },
-  {
-    "id" : "mypractitioner",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
-    "version" : "0.2.0",
-    "name" : "MyPractitionerName"
-  },
-  {
     "id" : "poi-patient",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient",
@@ -663,20 +614,6 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject",
     "version" : "0.2.0",
     "name" : "POI_ResearchSubject"
-  },
-  {
-    "id" : "valueset-fake",
-    "type" : "ValueSet",
-    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-fake",
-    "version" : "0.2.0",
-    "name" : "ValueSetFake"
-  },
-  {
-    "id" : "valueset-no-codesystem",
-    "type" : "ValueSet",
-    "url" : "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
-    "version" : "0.2.0",
-    "name" : "ValueSetWithNoCodeSystem"
   },
   {
     "id" : "vs-administrative-gender",
