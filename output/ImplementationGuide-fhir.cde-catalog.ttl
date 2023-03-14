@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-13T12:04:54+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-14T13:58:26+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -569,76 +569,11 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/mypatient" ]
-       ] ;
-       fhir:name [ fhir:v "My Favorite Patient Profile" ] ;
-       fhir:description [ fhir:v "Overriding description because we can" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:logical" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical> ;
-         fhir:reference [ fhir:v "StructureDefinition/MyLogical" ]
-       ] ;
-       fhir:name [ fhir:v "My Logical Model" ] ;
-       fhir:description [ fhir:v "Logical Model" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Library" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-sql> ;
-         fhir:reference [ fhir:v "Library/example-sql" ]
-       ] ;
-       fhir:name [ fhir:v "Example Library" ] ;
-       fhir:description [ fhir:v "A test example" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Library" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-image> ;
-         fhir:reference [ fhir:v "Library/example-image" ]
-       ] ;
-       fhir:name [ fhir:v "Example Library Image" ] ;
-       fhir:description [ fhir:v "A test image example" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Patient" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Patient/example> ;
-         fhir:reference [ fhir:v "Patient/example" ]
-       ] ;
-       fhir:name [ fhir:v "Simple patient example" ] ;
-       fhir:description [ fhir:v "A simple example showing how examples are defined and referenced" ] ;
-       fhir:example [
-         fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"^^xsd:anyURI ;
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Observation" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Observation/example> ;
-         fhir:reference [ fhir:v "Observation/example" ]
-       ] ;
-       fhir:name [ fhir:v "Observation patient example" ] ;
-       fhir:description [ fhir:v "Example showing slicing" ] ;
-       fhir:example [
-         fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"^^xsd:anyURI ;
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
+         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1> ;
+         fhir:reference [ fhir:v "Bundle/h1" ]
        ]
      ] [
        fhir:extension ( [
@@ -648,60 +583,6 @@
        fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/Binary/example> ;
          fhir:reference [ fhir:v "Binary/example" ]
-       ] ;
-       fhir:name [ fhir:v "Example binary" ] ;
-       fhir:description [ fhir:v "Example showing binary content" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "application/xml" ]
-       ] [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Binary" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Binary/logical-example> ;
-         fhir:reference [ fhir:v "Binary/logical-example" ]
-       ] ;
-       fhir:name [ fhir:v "Example of Logical Model" ] ;
-       fhir:description [ fhir:v "Example showing example content for a logical model" ] ;
-       fhir:example [
-         fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical"^^xsd:anyURI ;
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "image/jpeg" ]
-       ] [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Binary" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Binary/image-example> ;
-         fhir:reference [ fhir:v "Binary/image-example" ]
-       ] ;
-       fhir:name [ fhir:v "Example of Binary Image" ] ;
-       fhir:description [ fhir:v "Example showing example content for an image" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem> ;
-         fhir:reference [ fhir:v "ValueSet/valueset-no-codesystem" ]
-       ] ;
-       fhir:name [ fhir:v "Value set for no code system" ] ;
-       fhir:description [ fhir:v "A sample value set where there's no known code system" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Bundle" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1> ;
-         fhir:reference [ fhir:v "Bundle/h1" ]
        ]
      ] [
        fhir:extension ( [
@@ -717,6 +598,34 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Observation/example> ;
+         fhir:reference [ fhir:v "Observation/example" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - example" ] ;
+       fhir:example [
+         fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"^^xsd:anyURI ;
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Patient/example> ;
+         fhir:reference [ fhir:v "Patient/example" ]
+       ] ;
+       fhir:name [ fhir:v "Example Patient - example" ] ;
+       fhir:example [
+         fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"^^xsd:anyURI ;
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -725,6 +634,37 @@
        ] ;
        fhir:name [ fhir:v "CodeSystem fake" ] ;
        fhir:description [ fhir:v "A fake code system" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Library" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-image> ;
+         fhir:reference [ fhir:v "Library/example-image" ]
+       ] ;
+       fhir:name [ fhir:v "Example Library Image" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Library" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/Library/example-sql> ;
+         fhir:reference [ fhir:v "Library/example-sql" ]
+       ] ;
+       fhir:name [ fhir:v "Example Library" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical> ;
+         fhir:reference [ fhir:v "StructureDefinition/MyLogical" ]
+       ] ;
+       fhir:name [ fhir:v "My Logical Model" ] ;
+       fhir:description [ fhir:v "A profile showing the use of Logical Models to author profiles" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -747,6 +687,17 @@
        ] ;
        fhir:name [ fhir:v "ValueSet fake" ] ;
        fhir:description [ fhir:v "A fake value" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem> ;
+         fhir:reference [ fhir:v "ValueSet/valueset-no-codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet with no code-system" ] ;
+       fhir:description [ fhir:v "A sample value set where there's no known code system" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1347,6 +1298,17 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-mass-index> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-mass-index" ]
+       ] ;
+       fhir:name [ fhir:v "CLS OBO CMO Body Mass Index" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-weight" ]
        ] ;
@@ -1505,17 +1467,6 @@
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO White Blood Cell Measurement" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmobody-mass-index" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Body Mass Index" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1890,6 +1841,18 @@
        ] ;
        fhir:name [ fhir:v "MyExtension" ] ;
        fhir:description [ fhir:v "What this extension means." ] ;
+       fhir:groupingId [ fhir:v "resources-spreadsheet.xml" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/mypatient" ]
+       ] ;
+       fhir:name [ fhir:v "MyPatientName" ] ;
+       fhir:description [ fhir:v "This will be the description for the patient profile within the profile page" ] ;
        fhir:groupingId [ fhir:v "resources-spreadsheet.xml" ]
      ] [
        fhir:extension ( [

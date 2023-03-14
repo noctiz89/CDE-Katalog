@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 12, warn = 89, info = 7-->
+<!-- broken links = 1, errors = 10, warn = 94, info = 7-->
 <head>
   <title>CDEKatalog : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,13 +36,13 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CDEKatalog</h1>
- <p>Generated Mon Mar 13 12:27:51 CET 2023, FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = <a href="http://somewhere.org/fhir/uv/myig">http://somewhere.org/fhir/uv/myig</a> (<a href="http://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Tue Mar 14 14:19:13 CET 2023, FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = <a href="http://somewhere.org/fhir/uv/myig">http://somewhere.org/fhir/uv/myig</a> (<a href="http://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.2.39, which is out of date. The current version is v1.2.43 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.2.39, which is out of date. The current version is v1.2.46 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.cde-catalog, Canonical = http://somewhere.org/fhir/uv/myig</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><ul><li>The file package-list.json should not exist in the root folder <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li><span title="Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1678706870733 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li><span title="Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1678799953146 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>This IG has never been published, so the version should start with '0.' or include a patch version e.g. '-ballot' <img src="icon-warning.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
@@ -57,16 +57,16 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at http://somewhere.org/fhir/uv/myig: Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1678705482048 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at http://somewhere.org/fhir/uv/myig: Invalid HTTP response 404 from http://somewhere.org/fhir/uv/myig/package-list.json?nocache=1678798693322 (Not Found) (content in C:\Users\noctiz\AppData\Local\Temp\fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 12, warn = 89, info = 7, broken links = 1</td></tr>
+ <tr><td>Summary:</td><td> errors = 10, warn = 94, info = 7, broken links = 1</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>2</b></td><td><b>5</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>3</b></td><td><b>10</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cde-age"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -231,6 +231,9 @@
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-height"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
+     <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-mass-index"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-mass-index</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-weight"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
@@ -274,9 +277,6 @@
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-white-blood-cell-measurement"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmobody-mass-index"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-ncit-age"><b>D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-age</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -380,9 +380,6 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_input_examples_Binary-example"><b>D:\CDE-Katalog\input\examples\Binary-example</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#D__CDE-Katalog_input_examples_Binary-image-example"><b>D:\CDE-Katalog\input\examples\Binary-image-example</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#D__CDE-Katalog_input_examples_Library-example"><b>D:\CDE-Katalog\input\examples\Library-example</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
@@ -391,9 +388,6 @@
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_input_examples_Patient-example"><b>D:\CDE-Katalog\input\examples\Patient-example</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>2</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#D__CDE-Katalog_input_examples_binary-logical-example"><b>D:\CDE-Katalog\input\examples\binary-logical-example</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#D__CDE-Katalog_input_history_h1"><b>D:\CDE-Katalog\input\history\h1</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -433,6 +427,24 @@
  <table class="grid">
    <tr style="background-color: #ffcccc">
      <td><b>input\cql\notincluded.cql</b></td><td><b>error</b></td><td title=""><b>CQL source was not associated with a library resource in the IG.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.name for the resource Binary/example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Binary/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Patient/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Library/example-image.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Library/example-sql.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-obo-cmo-heart-rate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
@@ -1132,8 +1144,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-weight"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-body-weight.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json</a> <span id="svi55" class="toggle" onclick="toggle('vi55')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi55')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-mass-index"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-body-mass-index.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-mass-index.json</a> <span id="svi55" class="toggle" onclick="toggle('vi55')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi55')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi55"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1142,8 +1154,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-diastolic-blood-pressure"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-body-weight"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-body-weight.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1152,8 +1164,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-heart-rate"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-heart-rate.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-diastolic-blood-pressure"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1162,8 +1174,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hematocrit-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-hematocrit-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-heart-rate"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-heart-rate.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1172,8 +1184,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hemoglobin-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-hemoglobin-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hematocrit-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-hematocrit-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hematocrit-measurement.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1182,8 +1194,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hip-circumference"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-hip-circumference.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hemoglobin-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-hemoglobin-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hemoglobin-measurement.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1192,8 +1204,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-hip-circumference"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-hip-circumference.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-hip-circumference.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1202,8 +1214,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-concentration.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1212,8 +1224,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-volume"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-hemoglobin-level.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1222,8 +1234,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-platelet-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-platelet-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-mean-corpuscular-volume"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-mean-corpuscular-volume.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1232,8 +1244,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-red-blood-cell-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-platelet-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-platelet-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-platelet-measurement.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1242,8 +1254,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-systolic-blood-pressure"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-systolic-blood-pressure.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-red-blood-cell-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-red-blood-cell-measurement.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1252,8 +1264,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-urine-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-urine-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-systolic-blood-pressure"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-systolic-blood-pressure.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-systolic-blood-pressure.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1262,8 +1274,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-waist-circumference"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-waist-circumference.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-urine-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-urine-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1272,8 +1284,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-white-blood-cell-measurement"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-waist-circumference"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-waist-circumference.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1282,8 +1294,8 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmobody-mass-index"> </a>
-<h2><a href="StructureDefinition-cls-obo-cmobody-mass-index.html">fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
+<a name="D__CDE-Katalog_fsh-generated_resources_StructureDefinition-cls-obo-cmo-white-blood-cell-measurement"> </a>
+<h2><a href="StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.html">fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
@@ -1755,19 +1767,9 @@
    </tr>
 </table>
 <hr/>
-<a name="D__CDE-Katalog_input_examples_Binary-image-example"> </a>
-<h2><a href="Binary-image-example.html">input\examples\Binary-image-example.jpg</a> <span id="svi105" class="toggle" onclick="toggle('vi105')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi105')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi105"><ul style="font-size: 7px"><li>Binary: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/binary.html">Binary</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td>&check;</td>
-   </tr>
-</table>
-<hr/>
 <a name="D__CDE-Katalog_input_examples_Library-example"> </a>
-<h2><a href="Library-example.html">input\examples\Library-example.json</a> <span id="svi106" class="toggle" onclick="toggle('vi106')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi106')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi106"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
+<h2><a href="Library-example.html">input\examples\Library-example.json</a> <span id="svi105" class="toggle" onclick="toggle('vi105')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi105')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi105"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1788,8 +1790,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_examples_Observation-example"> </a>
-<h2><a href="Observation-example.html">input\examples\Observation-example.xml</a> <span id="svi107" class="toggle" onclick="toggle('vi107')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi107')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi107"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-myObservation.html">My Observation Profile</a></li></ul>
+<h2><a href="Observation-example.html">input\examples\Observation-example.xml</a> <span id="svi106" class="toggle" onclick="toggle('vi106')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi106')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi106"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-myObservation.html">My Observation Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1798,42 +1800,24 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_examples_Patient-example"> </a>
-<h2><a href="Patient-example.html">input\examples\Patient-example.xml</a> <span id="svi108" class="toggle" onclick="toggle('vi108')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi108')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi108"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-mypatient.html">My Favorite Patient Profile</a></li></ul>
+<h2><a href="Patient-example.html">input\examples\Patient-example.xml</a> <span id="svi107" class="toggle" onclick="toggle('vi107')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi107')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi107"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-mypatient.html">My Favorite Patient Profile</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.name[0] (l16/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl98" class="flip" onclick="flip('l98')">Show Reasoning</span><div id="l98" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[0]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
+     <td><b><a href="">Patient.name[0] (l16/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl104" class="flip" onclick="flip('l104')">Show Reasoning</span><div id="l104" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[0]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Patient.name[1] (l21/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl99" class="flip" onclick="flip('l99')">Show Reasoning</span><div id="l99" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[1]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
-   </tr>
-</table>
-<hr/>
-<a name="D__CDE-Katalog_input_examples_binary-logical-example"> </a>
-<h2><a href="Binary-logical-example.html">input\examples\Binary-logical-example.xml</a> <span id="svi109" class="toggle" onclick="toggle('vi109')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi109')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi109"></div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Binary</b></td><td><b>error</b></td><td title=""><b>Example Logical Model http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical not found</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/?:MyLogical/?:element2</b></td><td><b>error</b></td><td title=""><b>Text sollte nicht vorhanden sein</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>MyLogical (l1/c47)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_WrongType"><b>Angegebener Profiltyp war &quot;http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical&quot;, aber gefundener Typ &quot;MyLogical&quot;.</b></td>
+     <td><b><a href="">Patient.name[1] (l21/c9)</a></b></td><td><b>Slicing Information</b></td><td><b>Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.</b> <span id="sl105" class="flip" onclick="flip('l105')">Show Reasoning</span><div id="l105" style="display: none"><p>&nbsp;</p>Dieses Element stimmt mit keinem bekannten Sliceim Profil definiert  http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.<ul><li>Patient.name[1]: discriminator = true and ('official' in use) and period.end.empty()</li></ul></div></td>
    </tr>
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_history_h1"> </a>
-<h2><a href="Bundle-h1.html">input\history\h1.json</a> <span id="svi110" class="toggle" onclick="toggle('vi110')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi110')">(2)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi110"><ul style="font-size: 7px"><li>Bundle: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a></li></ul>
+<h2><a href="Bundle-h1.html">input\history\h1.json</a> <span id="svi108" class="toggle" onclick="toggle('vi108')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi108')">(2)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi108"><ul style="font-size: 7px"><li>Bundle: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/bundle.html">Bundle</a></li><li>Bundle.entry[0].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1845,8 +1829,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_myig"> </a>
-<h2><a href="ImplementationGuide-fhir.cde-catalog.html">input\myig.xml</a> <span id="svi111" class="toggle" onclick="toggle('vi111')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi111')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi111"></div>
+<h2><a href="ImplementationGuide-fhir.cde-catalog.html">input\myig.xml</a> <span id="svi109" class="toggle" onclick="toggle('vi109')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi109')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi109"></div>
  <table class="grid">
    <tr>
      <td>&check;</td>
@@ -1854,8 +1838,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_MyLogical"> </a>
-<h2><a href="StructureDefinition-MyLogical.html">input\resources\MyLogical.xml</a> <span id="svi112" class="toggle" onclick="toggle('vi112')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi112')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi112"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MyLogical.html">input\resources\MyLogical.xml</a> <span id="svi110" class="toggle" onclick="toggle('vi110')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi110')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi110"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1867,8 +1851,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_codesystem-fake"> </a>
-<h2><a href="CodeSystem-cs-fake.html">input\resources\codesystem-fake.xml</a> <span id="svi113" class="toggle" onclick="toggle('vi113')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi113')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi113"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-cs-fake.html">input\resources\codesystem-fake.xml</a> <span id="svi111" class="toggle" onclick="toggle('vi111')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi111')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi111"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1877,8 +1861,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_library-example-image"> </a>
-<h2><a href="Library-example-image.html">input\resources\library-example-image.xml</a> <span id="svi114" class="toggle" onclick="toggle('vi114')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi114')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi114"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
+<h2><a href="Library-example-image.html">input\resources\library-example-image.xml</a> <span id="svi112" class="toggle" onclick="toggle('vi112')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi112')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi112"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1887,8 +1871,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_library-example-sql"> </a>
-<h2><a href="Library-example-sql.html">input\resources\library-example-sql.xml</a> <span id="svi115" class="toggle" onclick="toggle('vi115')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi115')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi115"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
+<h2><a href="Library-example-sql.html">input\resources\library-example-sql.xml</a> <span id="svi113" class="toggle" onclick="toggle('vi113')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi113')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi113"><ul style="font-size: 7px"><li>Library: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/library.html">Library</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1897,8 +1881,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_myObservation"> </a>
-<h2><a href="StructureDefinition-myObservation.html">input\resources\myObservation.xml</a> <span id="svi116" class="toggle" onclick="toggle('vi116')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi116')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi116"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-myObservation.html">input\resources\myObservation.xml</a> <span id="svi114" class="toggle" onclick="toggle('vi114')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi114')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi114"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1907,8 +1891,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_valueset-fake"> </a>
-<h2><a href="ValueSet-valueset-fake.html">input\resources\valueset-fake.xml</a> <span id="svi117" class="toggle" onclick="toggle('vi117')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi117')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi117"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-valueset-fake.html">input\resources\valueset-fake.xml</a> <span id="svi115" class="toggle" onclick="toggle('vi115')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi115')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi115"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1917,8 +1901,8 @@
 </table>
 <hr/>
 <a name="D__CDE-Katalog_input_resources_valueset-no-codesystem"> </a>
-<h2><a href="ValueSet-valueset-no-codesystem.html">input\resources\valueset-no-codesystem.xml</a> <span id="svi118" class="toggle" onclick="toggle('vi118')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi118')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi118"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-valueset-no-codesystem.html">input\resources\valueset-no-codesystem.xml</a> <span id="svi116" class="toggle" onclick="toggle('vi116')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi116')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi116"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1930,8 +1914,8 @@
 </table>
 <hr/>
 <a name="not relevant"> </a>
-<h2><a href="StructureDefinition-ext-myExtension.html">input\resources\resources-spreadsheet.xml</a> <span id="svi119" class="toggle" onclick="toggle('vi119')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi119')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi119"><ul style="font-size: 7px"><li>StructureDefinition/ext-myExtension: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li><li>StructureDefinition/mypatient: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li><li>StructureDefinition/mypractitioner: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-ext-myExtension.html">input\resources\resources-spreadsheet.xml</a> <span id="svi117" class="toggle" onclick="toggle('vi117')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi117')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi117"><ul style="font-size: 7px"><li>StructureDefinition/ext-myExtension: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li><li>StructureDefinition/mypatient: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li><li>StructureDefinition/mypractitioner: StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2125,14 +2109,6 @@
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="ValueSet-vs-unity-units.html">fsh-generated\resources\ValueSet-vs-unity-units.json</a></td><td><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Validation_VAL_Profile_WrongType"> </a>
-<h2>Validation_VAL_Profile_WrongType</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Binary-logical-example.html">input\examples\Binary-logical-example.xml</a></td><td><b>Angegebener Profiltyp war &quot;http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical&quot;, aber gefundener Typ &quot;MyLogical&quot;.</b></td>
    </tr>
 </table>
 </body>

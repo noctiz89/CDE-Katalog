@@ -1,10 +1,10 @@
 ﻿CDEKatalog : Validation Results
 =========================================
 
-err = 12, warn = 89, info = 7
-IG Publisher Version: 1.2.39 Out of date - current version is 1.2.43
-Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
- Build Errors : 2 / 5 / 0
+err = 10, warn = 94, info = 7
+IG Publisher Version: 1.2.39 Out of date - current version is 1.2.46
+Generated Tue Mar 14 14:19:15 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+ Build Errors : 3 / 10 / 0
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 1 / 2 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic : 0 / 1 / 1
@@ -59,6 +59,7 @@ Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-triglyceride-level : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-mass-index : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate : 0 / 0 / 1
@@ -74,7 +75,6 @@ Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement : 0 / 0 / 1
- D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-age : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-date : 0 / 0 / 1
@@ -109,11 +109,9 @@ Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 1 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 2 / 1
  D:\CDE-Katalog\input\examples\Binary-example : 0 / 0 / 1
- D:\CDE-Katalog\input\examples\Binary-image-example : 0 / 0 / 1
  D:\CDE-Katalog\input\examples\Library-example : 4 / 0 / 1
  D:\CDE-Katalog\input\examples\Observation-example : 0 / 0 / 1
  D:\CDE-Katalog\input\examples\Patient-example : 0 / 0 / 3
- D:\CDE-Katalog\input\examples\binary-logical-example : 3 / 0 / 0
  D:\CDE-Katalog\input\history\h1 : 0 / 1 / 2
  D:\CDE-Katalog\input\myig : 0 / 0 / 1
  D:\CDE-Katalog\input\resources\MyLogical : 1 / 0 / 1
@@ -127,6 +125,12 @@ Generated Mon Mar 13 12:27:53 CET 2023. FHIR version 4.0.1 for fhir.cde-catalog#
 </table>
 == n/a ==
 ERROR: D:\CDE-Katalog\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Binary/example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/example-image.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/example-sql.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-obo-cmo-heart-rate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: D:\CDE-Katalog\output\spec2.html#/html/body/div/div/div/div/div/h3/a at Line 259, column 58: The link 'StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.html' for "CDE Age At Diagnosis Of Essential Hypertension" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -233,6 +237,7 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-sodium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-triglyceride-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-height.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-mass-index.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-body-weight.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-diastolic-blood-pressure.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-heart-rate.json ==
@@ -248,7 +253,6 @@ WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/Stru
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-urine-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-waist-circumference.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-white-blood-cell-measurement.json ==
-== fsh-generated\resources\StructureDefinition-cls-obo-cmobody-mass-index.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-age.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-ncit-date.json ==
@@ -324,7 +328,6 @@ WARNING: ValueSet/vs-time-units: ValueSet: The ShareableValueSet profile says th
 WARNING: ValueSet/vs-unity-units: ValueSet.compose[0].include[0].concept[0]: The code [lg] is not valid in the system http://unitsofmeasure.org
 WARNING: ValueSet/vs-unity-units: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 == input\examples\Binary-example.json ==
-== input\examples\Binary-image-example.jpg ==
 == input\examples\Library-example.json ==
 ERROR: Library/example: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
 ERROR: Library/example: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
@@ -334,10 +337,6 @@ ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canon
 == input\examples\Patient-example.xml ==
 INFORMATION: Patient/example: Patient.name[0]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.
 INFORMATION: Patient/example: Patient.name[1]: Dieses Element stimmt mit keinem bekannten Slicedefined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient|0.2.0 überein.
-== input\examples\Binary-logical-example.xml ==
-ERROR: Binary: Example Logical Model http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical not found
-ERROR: Binary/logical-example: /?:MyLogical/?:element2: Text sollte nicht vorhanden sein
-ERROR: Binary/logical-example: MyLogical: Angegebener Profiltyp war "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical", aber gefundener Typ "MyLogical".
 == input\history\h1.json ==
 WARNING: Bundle/h1: Bundle.entry[0].resource/*Provenance/h1-1*/.reason[0]: Kein Code gesetzt, und es sollte ein Code aus ValueSet'PurposeOfUse' (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|2.0.0) ({1}) gesetzt werden
 == input\myig.xml ==

@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-13T12:04:54+01:00",
+  "date" : "2023-03-14T13:58:26+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -671,70 +671,11 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mypatient"
-      },
-      "name" : "My Favorite Patient Profile",
-      "description" : "Overriding description because we can"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/MyLogical"
-      },
-      "name" : "My Logical Model",
-      "description" : "Logical Model"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-sql"
-      },
-      "name" : "Example Library",
-      "description" : "A test example"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/example-image"
-      },
-      "name" : "Example Library Image",
-      "description" : "A test image example"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/example"
-      },
-      "name" : "Simple patient example",
-      "description" : "A simple example showing how examples are defined and referenced",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/example"
-      },
-      "name" : "Observation patient example",
-      "description" : "Example showing slicing",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"
+        "reference" : "Bundle/h1"
+      }
     },
     {
       "extension" : [{
@@ -743,59 +684,6 @@
       }],
       "reference" : {
         "reference" : "Binary/example"
-      },
-      "name" : "Example binary",
-      "description" : "Example showing binary content"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format",
-        "valueCode" : "application/xml"
-      },
-      {
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/logical-example"
-      },
-      "name" : "Example of Logical Model",
-      "description" : "Example showing example content for a logical model",
-      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/MyLogical"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format",
-        "valueCode" : "image/jpeg"
-      },
-      {
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Binary"
-      }],
-      "reference" : {
-        "reference" : "Binary/image-example"
-      },
-      "name" : "Example of Binary Image",
-      "description" : "Example showing example content for an image"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/valueset-no-codesystem"
-      },
-      "name" : "Value set for no code system",
-      "description" : "A sample value set where there's no known code system"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/h1"
       }
     },
     {
@@ -812,6 +700,28 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example"
+      },
+      "name" : "Example Observation - example",
+      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example"
+      },
+      "name" : "Example Patient - example",
+      "exampleCanonical" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -819,6 +729,37 @@
       },
       "name" : "CodeSystem fake",
       "description" : "A fake code system"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Library"
+      }],
+      "reference" : {
+        "reference" : "Library/example-image"
+      },
+      "name" : "Example Library Image"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Library"
+      }],
+      "reference" : {
+        "reference" : "Library/example-sql"
+      },
+      "name" : "Example Library"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/MyLogical"
+      },
+      "name" : "My Logical Model",
+      "description" : "A profile showing the use of Logical Models to author profiles"
     },
     {
       "extension" : [{
@@ -841,6 +782,17 @@
       },
       "name" : "ValueSet fake",
       "description" : "A fake value"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/valueset-no-codesystem"
+      },
+      "name" : "ValueSet with no code-system",
+      "description" : "A sample value set where there's no known code system"
     },
     {
       "extension" : [{
@@ -1442,6 +1394,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-obo-cmo-body-mass-index"
+      },
+      "name" : "CLS OBO CMO Body Mass Index",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-obo-cmo-body-weight"
       },
       "name" : "CLS OBO CMO Body Weight",
@@ -1599,17 +1562,6 @@
       },
       "name" : "CLS OBO CMO White Blood Cell Measurement",
       "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource:abstract"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/cls-obo-cmobody-mass-index"
-      },
-      "name" : "CLS OBO CMO Body Mass Index",
-      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."
     },
     {
       "extension" : [{
@@ -1984,6 +1936,18 @@
       },
       "name" : "MyExtension",
       "description" : "What this extension means.",
+      "groupingId" : "resources-spreadsheet.xml"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mypatient"
+      },
+      "name" : "MyPatientName",
+      "description" : "This will be the description for the patient profile within the profile page",
       "groupingId" : "resources-spreadsheet.xml"
     },
     {

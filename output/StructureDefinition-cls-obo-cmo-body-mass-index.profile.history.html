@@ -1,9 +1,13 @@
+<!-- get modelType -->
+
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.CDE-CATALOG\Example of Binary Image - FHIR v4.0.1</title>
+    <title>FHIR.CDE-CATALOG\ - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.119"}
-    h3,h4,h5,h6{--heading-prefix:"6.119"}</style>
+    <style type="text/css">h2{--heading-prefix:""}
+    h3,h4,h5,h6{--heading-prefix:""}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -133,15 +137,11 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Inhaltsverzeichnis</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Example of Binary Image</b></li>
+          
 
           <span style="float:right;">
 
-            <a href="Binary-example.ttl.html">&lt;prev</a> | 
-
             <a href="#bottom">bottom</a>
-
-          | <a href="Binary-image-example.xml.html">next&gt;</a>
 
           </span>
 
@@ -155,10 +155,13 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
+<div style="counter-reset: section 10" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
+
+
+
 
 
 
@@ -169,77 +172,80 @@
 
 <ul class="nav nav-tabs">
 
-  <li class="active">
-    <a href="#">Narrative Content</a>
+  <li>
+    <a href="StructureDefinition-cls-obo-cmo-body-mass-index.html">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-cls-obo-cmo-body-mass-index-definitions.html">Detailed Descriptions</a>
   </li>
 
 
 
   
     <li>
-      <a href="Binary-image-example.xml.html">XML</a>
+      <a href="StructureDefinition-cls-obo-cmo-body-mass-index-mappings.html">Mappings</a>
+    </li>
+  
+
+
+
+
+
+
+
+  
+    <li>
+      <a href="StructureDefinition-cls-obo-cmo-body-mass-index.profile.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Binary-image-example.json.html">JSON</a>
+      <a href="StructureDefinition-cls-obo-cmo-body-mass-index.profile.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Binary-image-example.ttl.html">TTL</a>
+      <a href="StructureDefinition-cls-obo-cmo-body-mass-index.profile.ttl.html">TTL</a>
     </li>
   
-
 
 
 </ul>
 
 
   <a name="root"> </a>
-
-
-  <h2 id="root">Binary: Example of Binary Image</h2>
-
-  <table class="">
+  <h2 id="root">Resource Profile: CLS_OBO_CMO_BodyMassIndex - Change History</h2>
+  <table class="colstu">
     <tr>
 
-      <td colspan="2">
+      <td colspan="1">
         
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standard Status">Informative</a>
           
-          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 1
         
       </td>
 
     </tr>
   </table>
 
+  <p>Changes in the cls-obo-cmo-body-mass-index resource profile.</p>
 
   
 
-
-  <!-- insert intro if present -->
-  
-
-
-
-  <div>
-  <img src="Binary-Native-image-example.jpg" alt="binary"/>
 </div>
 
-
-  
-
-  <!-- insert notes if present -->
-  
-
-
-
-</div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -247,6 +253,29 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    try {
+      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
+    } catch(exception) {
+    }
+
+    if (!currentTabIndex)
+      currentTabIndex = '0';
+
+    $( '#tabs' ).tabs({
+      active: currentTabIndex,
+      activate: function( event, ui ) {
+        var active = $('.selector').tabs('option', 'active');
+        currentTabIndex = ui.newTab.index();
+        document.activeElement.blur();
+        try {
+          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
+        } catch(exception) {
+        }
+      }
+    });
+  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -265,7 +294,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="Binary-example.ttl.html">&lt;prev</a>
+                <span style="visibility:hidden">&lt;prev</span>
 
               </td>
               <td style="text-align:center">
@@ -273,7 +302,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="Binary-image-example.xml.html">next&gt;</a>
+                <span style="visibility:hidden">next&gt;</span>
 
               </td>
             </tr>
@@ -283,7 +312,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 13, 2023 12:04+0100">2023-03-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 13:58+0100">2023-03-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

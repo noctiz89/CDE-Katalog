@@ -420,6 +420,13 @@
     "name" : "CLS_OBO_CMO_BodyHeight"
   },
   {
+    "id" : "cls-obo-cmo-body-mass-index",
+    "type" : "StructureDefinition",
+    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-mass-index",
+    "version" : "0.2.0",
+    "name" : "CLS_OBO_CMO_BodyMassIndex"
+  },
+  {
     "id" : "cls-obo-cmo-body-weight",
     "type" : "StructureDefinition",
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
@@ -523,13 +530,6 @@
     "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_WhiteBloodCellMeasurement"
-  },
-  {
-    "id" : "cls-obo-cmobody-mass-index",
-    "type" : "StructureDefinition",
-    "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index",
-    "version" : "0.2.0",
-    "name" : "CLS_OBO_CMOBodyMassIndex"
   },
   {
     "id" : "cls-obo-ncit-age",

@@ -48,7 +48,7 @@
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-    <resource>
+    <!-- DELETE? <resource>
       <reference>
         <reference value="StructureDefinition/mypatient"/>
       </reference>
@@ -72,12 +72,12 @@
       </reference>
       <description value="A test image example"/>
     </resource>
-<!--<resource>
+<resource>
 <reference>
 <reference value="MyLogicalModel/AS"/>
 </reference>
 </resource> -->
-    <resource>
+    <!-- DELETE <resource>
       <reference>
         <reference value="Patient/example"/>
       </reference>
@@ -126,14 +126,14 @@
         <reference value="ValueSet/valueset-no-codesystem"/>
       </reference>
       <name value="Value set for no code system"/>
-    </resource>
+    </resource> DELETE-->
 <!--    <resource>
       <reference>
         <reference value="Library/example"/>
       </reference>
       <name value="Simple library example"/>
       <description value="A simple example showing how library is pre-loaded"/>
-    </resource> -->
+    </resource> DELETE -->
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

@@ -231,6 +231,10 @@
         "title": "CLS OBO CMO Body Height"
       },
       {
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-mass-index",
+        "title": "CLS OBO CMO Body Mass Index"
+      },
+      {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
         "title": "CLS OBO CMO Body Weight"
       },
@@ -289,10 +293,6 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
         "title": "CLS OBO CMO White Blood Cell Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmobody-mass-index",
-        "title": "CLS OBO CMO Body Mass Index"
       },
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age",
@@ -399,9 +399,6 @@
       "StructureDefinition.differential.element.type.targetProfile",
       "StructureDefinition.snapshot.element.type",
       "StructureDefinition.snapshot.element.type.targetProfile"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format": [
-      "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
