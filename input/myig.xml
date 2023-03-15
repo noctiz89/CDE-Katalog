@@ -11,7 +11,8 @@
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+  <url value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+  <!-- default Canonical url: http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog -->
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
   <name value="CDEKatalog"/>

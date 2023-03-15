@@ -28,15 +28,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use"/>
   </extension>
-  <extension>
-    <valueMarkdown value="TEST &lt;h3&gt;Test&lt;/h3&gt;"/>
-  </extension>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age"/>
+  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cde-age"/>
   <version value="0.2.0"/>
   <name value="CDE_Age"/>
   <title value="CDE Age"/>
   <status value="active"/>
-  <date value="2023-03-14T20:28:45+01:00"/>
+  <date value="2023-03-15T20:18:50+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -85,7 +82,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age"/>
+  <baseDefinition value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -5042,7 +5039,7 @@
       <binding>
         <strength value="required"/>
         <description value="wk | a"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -6752,7 +6749,7 @@
       <binding>
         <strength value="required"/>
         <description value="wk | a"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
       </binding>
     </element>
   </differential>

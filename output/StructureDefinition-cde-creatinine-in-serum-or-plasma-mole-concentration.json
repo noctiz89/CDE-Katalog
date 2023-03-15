@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
       }]
     }
   },
@@ -21,16 +21,16 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
       }]
     }
   }],
-  "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
+  "url" : "http://hl7.org/fhir/de/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
   "version" : "0.2.0",
   "name" : "CDE_CreatinineInSerumOrPlasmaMoleConcentration",
   "title" : "CDE Creatinine In Serum Or Plasma Mole Concentration",
   "status" : "active",
-  "date" : "2023-03-14T20:28:45+01:00",
+  "date" : "2023-03-15T20:18:50+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -79,7 +79,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
+  "baseDefinition" : "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{
@@ -5860,7 +5860,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "umol/L | mmol/L",
-        "valueSet" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"
+        "valueSet" : "http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -7670,7 +7670,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "umol/L | mmol/L",
-        "valueSet" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units"
+        "valueSet" : "http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units"
       }
     }]
   }

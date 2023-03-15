@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.55"}
-    h3,h4,h5,h6{--heading-prefix:"6.55"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.59"}
+    h3,h4,h5,h6{--heading-prefix:"6.59"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -160,7 +160,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://hl7.org/fhir/de/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -237,10 +237,10 @@
   <table class="colstu">
 
     <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated"/></span>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated|0.2.0"/></span>
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated|0.2.0"/></span>
       </td>
     </tr>
 
@@ -878,7 +878,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.referenceRange.text" title="Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of &quot;Negative&quot; or a list or table of &quot;normals&quot;" class="dict"><span style="text-decoration: underline">text</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Text based reference range in an observation</span>
     }],
     "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.hasMember" title="This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group" class="dict"><span style="text-decoration: underline">hasMember</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></span>)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Related resource that belongs to the Observation group</span>
-    "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.derivedFrom" title="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image (this element must be supported)" class="dict"><span style="text-decoration: underline">derivedFrom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>([CanonicalType[http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span>  <span style="color: navy; opacity: 0.8">Related measurements the observation is made from</span>
+    "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.derivedFrom" title="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image (this element must be supported)" class="dict"><span style="text-decoration: underline">derivedFrom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>([CanonicalType[http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span>  <span style="color: navy; opacity: 0.8">Related measurements the observation is made from</span>
     "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.component" title="Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations" class="dict"><span style="text-decoration: underline">component</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Component results</span>
       "extension": [
       ],
@@ -930,7 +930,7 @@ Summary
 <p>Mandatory: 6 elements (6 nested mandatory elements)<br/> Must-Support: 11 elements<br/> Fixed Value: 3 elements</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="StructureDefinition-cde-birth-date.html">CDE Birth Date <span style="font-size: 8px">(http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date)</span></a></li>
+<li><a href="StructureDefinition-cde-birth-date.html">CDE Birth Date <span style="font-size: 8px">(http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date)</span></a></li>
 
 </ul>
 
@@ -1492,7 +1492,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.referenceRange.text" title="Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of &quot;Negative&quot; or a list or table of &quot;normals&quot;" class="dict"><span style="text-decoration: underline">text</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Text based reference range in an observation</span>
     }],
     "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.hasMember" title="This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group" class="dict"><span style="text-decoration: underline">hasMember</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>(<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/observation.html">Observation</a></span>)}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Related resource that belongs to the Observation group</span>
-    "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.derivedFrom" title="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image (this element must be supported)" class="dict"><span style="text-decoration: underline">derivedFrom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>([CanonicalType[http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span>  <span style="color: navy; opacity: 0.8">Related measurements the observation is made from</span>
+    "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.derivedFrom" title="The target resource that represents a measurement from which this observation value is derived. For example, a calculated anion gap or a fetal measurement based on an ultrasound image (this element must be supported)" class="dict"><span style="text-decoration: underline">derivedFrom</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a></span>([CanonicalType[http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date]])}], <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children; ref-1: SHALL have a contained resource if a local reference is provided"><b>C?</b></span> <span style="color: brown" title="This element is required"><b>R!</b></span> <span style="color: brown" title="This element is an array in the base standard, but the profile only allows on element"><b>Only One!</b></span>  <span style="color: navy; opacity: 0.8">Related measurements the observation is made from</span>
     "<a href="StructureDefinition-cde-current-age-calculated.html#Observation.component" title="Some observations have multiple component observations.  These component observations are expressed as separate code value pairs that share the same attributes.  Examples include systolic and diastolic component observations for blood pressure measurement and multiple component observations for genetics observations" class="dict"><span style="text-decoration: underline">component</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Component results</span>
       "extension": [
       ],
@@ -1540,7 +1540,7 @@ Summary
 <p>Mandatory: 6 elements (6 nested mandatory elements)<br/> Must-Support: 11 elements<br/> Fixed Value: 3 elements</p><p><b>Structures</b></p>
 <p>This structure refers to these other structures:</p>
 <ul>
-<li><a href="StructureDefinition-cde-birth-date.html">CDE Birth Date <span style="font-size: 8px">(http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date)</span></a></li>
+<li><a href="StructureDefinition-cde-birth-date.html">CDE Birth Date <span style="font-size: 8px">(http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date)</span></a></li>
 
 </ul>
 
@@ -1637,7 +1637,7 @@ Summary
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 20:28+0100">2023-03-14</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 15, 2023 20:18+0100">2023-03-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

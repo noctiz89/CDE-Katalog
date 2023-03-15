@@ -46,23 +46,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test"/>
+  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test"/>
   <version value="0.2.0"/>
   <name value="CDE_LeucocyctesInUrineDipstickTest"/>
   <title value="CDE Leucocyctes In Urine Dipstick Test"/>
   <status value="active"/>
-  <date value="2023-03-14T20:28:45+01:00"/>
+  <date value="2023-03-15T20:18:50+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -111,7 +111,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement"/>
+  <baseDefinition value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-urine-measurement"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -5639,7 +5639,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -10089,7 +10089,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence"/>
       </binding>
     </element>
     <element id="Observation.component:Negativ">

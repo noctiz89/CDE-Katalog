@@ -24,23 +24,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated"/>
+  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated"/>
   <version value="0.2.0"/>
   <name value="CDE_CurrentAgeCalculated"/>
   <title value="CDE Current Age Calculated"/>
   <status value="active"/>
-  <date value="2023-03-14T20:28:45+01:00"/>
+  <date value="2023-03-15T20:18:50+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -89,7 +89,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age"/>
+  <baseDefinition value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -5259,7 +5259,7 @@
       <binding>
         <strength value="required"/>
         <description value="wk | a"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -6362,7 +6362,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date"/>
+        <targetProfile value="http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -6990,7 +6990,7 @@
       <binding>
         <strength value="required"/>
         <description value="wk | a"/>
-        <valueSet value="http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"/>
+        <valueSet value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
       </binding>
     </element>
     <element id="Observation.derivedFrom">
@@ -6999,7 +6999,7 @@
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date"/>
+        <targetProfile value="http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date"/>
       </type>
       <mustSupport value="true"/>
     </element>

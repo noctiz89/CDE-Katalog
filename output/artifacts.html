@@ -141,7 +141,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="StructureDefinition-cls-obo-cmo-blood-calcium-level.html">next&gt;</a>
+          | <a href="Questionnaire-Top300Loinc.html">next&gt;</a>
 
           </span>
 
@@ -163,7 +163,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://hl7.org/fhir/de/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -175,16 +175,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Abstract Profiles</a>
+         <a href="#1">Structures: Questionnaires</a>
       </li>
       <li>
-         <a href="#2">Structures: Resource Profiles</a>
+         <a href="#2">Structures: Abstract Profiles</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#4">Other</a>
+         <a href="#4">Terminology: Value Sets</a>
       </li>
    </ul>
 </div>
@@ -193,6 +193,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Questionnaires </h3>
+   <p>
+    <p>These define forms used by systems conforming to this implementation guide to capture or expose data to end users.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Questionnaire-Top300Loinc.html" title="Questionnaire/Top300Loinc">Top 300 Laboratory Value Dataset of the Medical Informatics Initiative Germany (MII) (Extended Version);</a>
+               </td>
+               <td>
+<p>The Top 300 Dataset (Kerndatensatz Labor) was developed by the Medical Informatics Initiative Germany (MII) and contains frequency-sorted, LOINC-coded analyses of the university clinics in Göttingen, Gießen, Munich, Greifswald and Erlangen. This form shows a detailed description containing primary and secondary LOINC codes of the 300 most common laboratory parameters. For each of the 300 laboratory parameters an itemgroup was created with all accepted variants of the laboratory parameters as items (secondary LOINC codes), the first item being the preferred LOINC variant of the MII (primary LOINC code). The itemgroup title is based on the primary LOINC code. The list is divided into subforms by the associated classes of laboratory parameters. If more than one class, the parameters can be found in the MIXED subform. An overview of the preferred presentation can also be found in the MDM portal (Laboratory Tests (Overview)). https://www.medizininformatik-initiative.de/de/labordaten-in-der-medizininformatik-initiative Explanation of abbreviations for types of specimen and classes/subforms: Type of specimen: Bld &amp;amp;#61; Blood BldA &amp;amp;#61; arterial blood Ser &amp;amp;#61; Serum Plas &amp;amp;#61; Plasma RBC &amp;amp;#61; Red blood cells PPP &amp;amp;#61; Platelet poor plasma Urine sed &amp;amp;#61; Urine sediment CSF &amp;amp;#61; Cerebral spinal fluid Body fld &amp;amp;#61; Body fluid Classes (Subforms): CHEM &amp;amp;#61; Chemistry HEM/BC &amp;amp;#61; Hematology/Blood Cell Count COAG &amp;amp;#61; Coagulation study UA &amp;amp;#61; Urinalysis CELLMARK &amp;amp;#61; Cell markers CLIN &amp;amp;#61; clinical not elsewhere classified DRUG/TOX &amp;amp;#61; drug levels &amp;amp; toxicology SERO &amp;amp;#61; serology MICRO &amp;amp;#61; Microbiology SPEC &amp;amp;#61; Specimen characteristics</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
    <h3>Structures: Abstract Profiles </h3>
    <p>
     <p>These are profiles on resources or data types that describe patterns used by other profiles, but cannot be instantiated directly.  I.e. instances can conform to profiles <em>based</em> on these abstract profiles, but do not declare conformance to the abstract profiles themselves.</p>
@@ -201,6 +221,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-c-chronological-age.html"
+                     title="StructureDefinition/c-chronological-age">C Chronological Age</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Detail der demografischen Geschichte’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cd-age-of-person.html"
+                     title="StructureDefinition/cd-age-of-person">CD Age Of Person</a>
+               </td>
+               <td>
+<p>Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt.</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-cls-obo-cmo-blood-calcium-level.html"
@@ -545,6 +583,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-cls-snomed-diagnosis.html"
+                     title="StructureDefinition/cls-snomed-diagnosis">CLS SNOMED Diagnosis</a>
+               </td>
+               <td>
+<p>Dieses abstrakte Profil beschreibt die Kategorie ‘Diagnose’.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure.html"
                      title="StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure">CLS SNOMED Finding Of Tobacco Use And Exposure</a>
                </td>
@@ -573,7 +620,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
-   <a name="2"> </a>
+   <a name="3"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
@@ -733,6 +780,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Dieses CDE enthält den ‘Status für eine Diabetes Mellitus Erkrankung’</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-cde-diagnosis.html"
+                     title="StructureDefinition/cde-diagnosis">CDE Diagnosis</a>
+               </td>
+               <td>
+<p>Dieses CDE enthält eine ‘Diagnose’</p>
 </td>
             </tr>
             <tr>
@@ -996,10 +1052,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin.</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-rv-age.html"
+                     title="StructureDefinition/rv-age">RV Age</a>
+               </td>
+               <td>
+<p>Das Alter einer Person in Jahren.</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide.</p>
@@ -1008,15 +1073,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ValueSet-2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509.html"
-                     title="ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509">valueSet_YesNoQualifier</a>
-               </td>
-               <td>
-<p>valueSet_YesNoQualifier</p>
-</td>
-            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-vs-administrative-gender.html"
@@ -1097,15 +1153,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-vs-missing-values-as-snomed.html"
-                     title="ValueSet/vs-missing-values-as-snomed">VS Missing Values As Snomed</a>
-               </td>
-               <td>
-<p>Dieses ValueSet enthält Snomed-Codes für fehlende Werte.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-vs-molar-concentration-units.html"
                      title="ValueSet/vs-molar-concentration-units">VS Molar Concentration Units</a>
                </td>
@@ -1129,6 +1176,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-vs-sentinel-conceptual-domain.html"
+                     title="ValueSet/vs-sentinel-conceptual-domain">VS Sentinel Conceptual Domain</a>
+               </td>
+               <td>
+<p>Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien.</p>
 </td>
             </tr>
             <tr>
@@ -1164,23 +1220,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <td>
 <p>UCUM Codes für Gesamtheit (auch ‘Eins-Element’).</p>
 </td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="4"> </a>
-   <h3>Other </h3>
-   <p>
-    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
-</p>
-   <p>
-      <table class="grid">
-         <col style="width:20%"/>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Bundle-h1.html" title="Bundle/h1">Bundle/h1</a>
-               </td>
             </tr>
          </tbody>
       </table>
@@ -1221,7 +1260,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="StructureDefinition-cls-obo-cmo-blood-calcium-level.html">next&gt;</a>
+                <a href="Questionnaire-Top300Loinc.html">next&gt;</a>
 
               </td>
             </tr>
@@ -1231,7 +1270,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 20:28+0100">2023-03-14</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - [Some] Work Group</a>.  Package fhir.cde-catalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 15, 2023 20:18+0100">2023-03-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

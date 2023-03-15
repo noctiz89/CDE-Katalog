@@ -40,23 +40,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"/>
+  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"/>
   <version value="0.2.0"/>
   <name value="CLS_SNOMED_FindingOfTobaccoUseAndExposure"/>
   <title value="CLS SNOMED Finding Of Tobacco Use And Exposure"/>
   <status value="draft"/>
-  <date value="2023-03-14T20:28:45+01:00"/>
+  <date value="2023-03-15T20:18:50+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>

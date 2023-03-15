@@ -7,357 +7,25 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age",
-        "title": "CDE Age"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
-        "title": "CDE Age At Diagnosis Of Essential Hypertension"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date",
-        "title": "CDE Birth Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic",
-        "title": "CDE Blood Pressure Diastolic"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic",
-        "title": "CDE Blood Pressure Systolic"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height",
-        "title": "CDE Body Height"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-mass-index",
-        "title": "CDE Body Mass Index"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-weight",
-        "title": "CDE Body Weight"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
-        "title": "CDE Calcium In Serum Or Plasma Mass Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Calcium In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Chloride In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
-        "title": "CDE cholesterol Inserum Or Plasma Mole Conentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Creatinine In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated",
-        "title": "CDE Current Age Calculated"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported",
-        "title": "CDE Current Age Reported"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis",
-        "title": "CDE Date Of Diagnosis"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
-        "title": "CDE diabetes Mellitus Status Yes Or No"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
-        "title": "CDE Erythrocytes In Blood Count Per Volume"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity",
-        "title": "CDE Ethnicity"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score",
-        "title": "CDE Glasgow Coma Score"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Glucose In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute",
-        "title": "CDE heart Rate Beats Per Minute"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood",
-        "title": "CDE Hematocrit Of Blood"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration",
-        "title": "CDE Hemoglobin In Blood Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference",
-        "title": "CDE Hip Circumference"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
-        "title": "CDE Leucocyctes In Urine Dipstick Test"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
-        "title": "CDE Leukocytes In Blood Count Per Volume"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Magnesium In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
-        "title": "CDE Mean Corpuscular Hemoglobin Level Entitic Mass"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
-        "title": "CDE Mean Corpuscular Volume Entitic Volume"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Phosphate In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Potassium In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth",
-        "title": "CDE Sex Assigned At Birth"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Sodium In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
-        "title": "CDE Thrombocytes In Blood Count Per Volume"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age",
-        "title": "CDE tobacco Smoking Cessation Age"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year",
-        "title": "CDE Tobacco Smoking Cessation Year"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year",
-        "title": "CDE Tobacco Smoking Pack Year"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status",
-        "title": "CDE Smoking Status"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
-        "title": "CDE tobacco Smoking Status Yes Or No"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
-        "title": "CDE Triglyceride In Serum Or Plasma Mole Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date",
-        "title": "CDE Visit Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference",
-        "title": "CDE Waist Circumference"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level",
-        "title": "CLS CMO Blood Calcium Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level",
-        "title": "CLS OBO CMO Blood Chloride Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level",
-        "title": "CLS OBO CMO Blood Cholesterol Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
-        "title": "CLS OBO CMO Blood Electrolyte Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level",
-        "title": "CLS OBO CMO Blood Glucose Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-magnesium-level",
-        "title": "CLS OBO CMO Blood Magnesium Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-phosphate-level",
-        "title": "CLS OBO CMO Blood Phosphate Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-potassium-level",
-        "title": "CLS OBO CMO Blood Potassium Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement",
-        "title": "CLS OBO CMO Blood Pressure Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level",
-        "title": "CLS OBO CMO Blood Sodium Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level",
-        "title": "CLS OBO CMO Blood Triglyceride Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height",
-        "title": "CLS OBO CMO Body Height"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-mass-index",
-        "title": "CLS OBO CMO Body Mass Index"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight",
-        "title": "CLS OBO CMO Body Weight"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure",
-        "title": "CLS OBO CMO Diastolic Blood Pressure"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-heart-rate",
-        "title": "CLS OBO CMO Heart Rate"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
-        "title": "CLS OBO CMO Hematocrit Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
-        "title": "CLS OBO CMO Hemoglobin Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference",
-        "title": "CLS OBO CMO Hip Circumference"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
-        "title": "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level",
-        "title": "CLS OBO CMO Mean Corpuscular Hemoglobin Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume",
-        "title": "CLS OBO CMO Mean Corpuscular Volume"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-platelet-measurement",
-        "title": "CLS OBO CMO Platelet Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
-        "title": "CLS OBO CMO Red Blood Cell Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
-        "title": "CLS OBO CMO Systolic Blood Pressure"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement",
-        "title": "CLS OBO CMO Urine Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
-        "title": "CLS OBO CMO Waist Circumference"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
-        "title": "CLS OBO CMO White Blood Cell Measurement"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age",
-        "title": "CLS OBO NCIT Age"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
-        "title": "CLS OBO CMO Age At Diagnosis"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date",
-        "title": "CLS OBO NCIT Birth Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date",
-        "title": "CLS OBO NCIT Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis",
-        "title": "CLS OBO NCIT Date Of Diagnosis"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-visit-date",
-        "title": "CLS OBO NCIT Visit Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date",
-        "title": "CLS OBO NCIT Year Date"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
-        "title": "CLS OBO SNOMED Blood Creatinine Level"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation",
-        "title": "CLS SNOMED Age At Smoking Cessation"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail",
-        "title": "CLS SNOMED Demographic History Detail"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
-        "title": "CLS SNOMED Finding Of Tobacco Use And Exposure"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years",
-        "title": "CLS SNOMED Pack Years"
-      },
-      {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex",
-        "title": "CLS SNOMED Patient Sex"
+        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/rv-age",
+        "title": "RV Age"
       }
     ],
     "Patient": [
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient",
+        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-patient",
         "title": "POI Patient"
       }
     ],
     "Person": [
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person",
+        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-person",
         "title": "POI Person"
       }
     ],
     "ResearchSubject": [
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject",
+        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-research-subject",
         "title": "POI Research Subject"
       }
     ]
@@ -384,9 +52,6 @@
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
     ],
-    "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod": [
-      "ValueSet"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
@@ -400,6 +65,7 @@
       "ImplementationGuide",
       "ImplementationGuide.definition.page.page",
       "ImplementationGuide.definition.page.page.page",
+      "Questionnaire",
       "StructureDefinition",
       "ValueSet"
     ],
@@ -414,6 +80,7 @@
       "ImplementationGuide.definition.page",
       "ImplementationGuide.definition.page.page",
       "ImplementationGuide.definition.page.page.page",
+      "Questionnaire",
       "StructureDefinition",
       "StructureDefinition.snapshot.element",
       "ValueSet"
@@ -423,6 +90,10 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog": [
+      "Questionnaire.item.item.item.item.text",
+      "Questionnaire.item.item.item.text"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",

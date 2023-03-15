@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person> a fhir:StructureDefinition ;
+<http://hl7.org/fhir/de/myig/StructureDefinition/poi-person> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "poi-person"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
@@ -31,18 +31,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/poi-person"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "POI_Person"] ; # 
   fhir:title [ fhir:v "POI Person"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-14T20:28:45+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

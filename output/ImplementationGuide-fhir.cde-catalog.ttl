@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog> a fhir:ImplementationGuide ;
+<http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fhir.cde-catalog"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
@@ -19,13 +19,13 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "1"^^xsd:integer ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CDEKatalog"] ; # 
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-14T20:28:45+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -171,7 +171,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://somewhere.org/fhir/uv/myig/history.html" ]
+         fhir:value [ fhir:v "http://hl7.org/fhir/de/myig/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -414,7 +414,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://somewhere.org/fhir/uv/myig/history.html" ]
+         fhir:value [ fhir:v "http://hl7.org/fhir/de/myig/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -547,19 +547,43 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Bundle" ]
+         fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1> ;
-         fhir:reference [ fhir:v "Bundle/h1" ]
-       ]
+         fhir:link <http://hl7.org/fhir/de/myig/Questionnaire/Top300Loinc> ;
+         fhir:reference [ fhir:v "Questionnaire/Top300Loinc" ]
+       ] ;
+       fhir:name [ fhir:v "Top 300 Laboratory Value Dataset of the Medical Informatics Initiative Germany (MII) (Extended Version);" ] ;
+       fhir:description [ fhir:v "The Top 300 Dataset (Kerndatensatz Labor) was developed by the Medical Informatics Initiative Germany (MII) and contains frequency-sorted, LOINC-coded analyses of the university clinics in Göttingen, Gießen, Munich, Greifswald and Erlangen. This form shows a detailed description containing primary and secondary LOINC codes of the 300 most common laboratory parameters. For each of the 300 laboratory parameters an itemgroup was created with all accepted variants of the laboratory parameters as items (secondary LOINC codes), the first item being the preferred LOINC variant of the MII (primary LOINC code). The itemgroup title is based on the primary LOINC code. The list is divided into subforms by the associated classes of laboratory parameters. If more than one class, the parameters can be found in the MIXED subform. An overview of the preferred presentation can also be found in the MDM portal (Laboratory Tests (Overview)). https://www.medizininformatik-initiative.de/de/labordaten-in-der-medizininformatik-initiative Explanation of abbreviations for types of specimen and classes/subforms: Type of specimen: Bld &amp;#61; Blood BldA &amp;#61; arterial blood Ser &amp;#61; Serum Plas &amp;#61; Plasma RBC &amp;#61; Red blood cells PPP &amp;#61; Platelet poor plasma Urine sed &amp;#61; Urine sediment CSF &amp;#61; Cerebral spinal fluid Body fld &amp;#61; Body fluid Classes (Subforms): CHEM &amp;#61; Chemistry HEM/BC &amp;#61; Hematology/Blood Cell Count COAG &amp;#61; Coagulation study UA &amp;#61; Urinalysis CELLMARK &amp;#61; Cell markers CLIN &amp;#61; clinical not elsewhere classified DRUG/TOX &amp;#61; drug levels &amp; toxicology SERO &amp;#61; serology MICRO &amp;#61; Microbiology SPEC &amp;#61; Specimen characteristics" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/c-chronological-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-chronological-age" ]
+       ] ;
+       fhir:name [ fhir:v "C Chronological Age" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cd-age-of-person> ;
+         fhir:reference [ fhir:v "StructureDefinition/cd-age-of-person" ]
+       ] ;
+       fhir:name [ fhir:v "CD Age Of Person" ] ;
+       fhir:description [ fhir:v "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension" ]
        ] ;
        fhir:name [ fhir:v "CDE Age At Diagnosis Of Essential Hypertension" ] ;
@@ -570,7 +594,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-age> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-age> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-age" ]
        ] ;
        fhir:name [ fhir:v "CDE Age" ] ;
@@ -581,7 +605,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-birth-date" ]
        ] ;
        fhir:name [ fhir:v "CDE Birth Date" ] ;
@@ -592,7 +616,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-diastolic> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-blood-pressure-diastolic> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-blood-pressure-diastolic" ]
        ] ;
        fhir:name [ fhir:v "CDE Blood Pressure Diastolic" ] ;
@@ -603,7 +627,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-blood-pressure-systolic> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-blood-pressure-systolic> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-blood-pressure-systolic" ]
        ] ;
        fhir:name [ fhir:v "CDE Blood Pressure Systolic" ] ;
@@ -614,7 +638,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-height> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-height> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-body-height" ]
        ] ;
        fhir:name [ fhir:v "CDE Body Height" ] ;
@@ -625,7 +649,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-mass-index> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-mass-index> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-body-mass-index" ]
        ] ;
        fhir:name [ fhir:v "CDE Body Mass Index" ] ;
@@ -636,7 +660,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-body-weight> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-weight> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-body-weight" ]
        ] ;
        fhir:name [ fhir:v "CDE Body Weight" ] ;
@@ -647,7 +671,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Calcium In Serum Or Plasma Mass Concentration" ] ;
@@ -658,7 +682,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Calcium In Serum Or Plasma Mole Concentration" ] ;
@@ -669,7 +693,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Chloride In Serum Or Plasma Mole Concentration" ] ;
@@ -680,7 +704,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration" ]
        ] ;
        fhir:name [ fhir:v "CDE cholesterol Inserum Or Plasma Mole Conentration" ] ;
@@ -691,7 +715,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Creatinine In Serum Or Plasma Mole Concentration" ] ;
@@ -702,7 +726,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-current-age-calculated" ]
        ] ;
        fhir:name [ fhir:v "CDE Current Age Calculated" ] ;
@@ -713,7 +737,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-reported> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-reported> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-current-age-reported" ]
        ] ;
        fhir:name [ fhir:v "CDE Current Age Reported" ] ;
@@ -724,7 +748,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-date-of-diagnosis> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-date-of-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-date-of-diagnosis" ]
        ] ;
        fhir:name [ fhir:v "CDE Date Of Diagnosis" ] ;
@@ -735,7 +759,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-diabetes-mellitus-status-yes-or-no" ]
        ] ;
        fhir:name [ fhir:v "CDE diabetes Mellitus Status Yes Or No" ] ;
@@ -746,7 +770,18 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-diagnosis> ;
+         fhir:reference [ fhir:v "StructureDefinition/cde-diagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "CDE Diagnosis" ] ;
+       fhir:description [ fhir:v "Dieses CDE enthält eine 'Diagnose'" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-erythrocytes-in-blood-count-per-volume" ]
        ] ;
        fhir:name [ fhir:v "CDE Erythrocytes In Blood Count Per Volume" ] ;
@@ -757,7 +792,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-ethnicity> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-ethnicity> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-ethnicity" ]
        ] ;
        fhir:name [ fhir:v "CDE Ethnicity" ] ;
@@ -768,7 +803,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glasgow-coma-score> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-glasgow-coma-score> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-glasgow-coma-score" ]
        ] ;
        fhir:name [ fhir:v "CDE Glasgow Coma Score" ] ;
@@ -779,7 +814,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Glucose In Serum Or Plasma Mole Concentration" ] ;
@@ -790,7 +825,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-heart-rate-beats-per-minute> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-heart-rate-beats-per-minute> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-heart-rate-beats-per-minute" ]
        ] ;
        fhir:name [ fhir:v "CDE heart Rate Beats Per Minute" ] ;
@@ -801,7 +836,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hematocrit-of-blood> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-hematocrit-of-blood> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-hematocrit-of-blood" ]
        ] ;
        fhir:name [ fhir:v "CDE Hematocrit Of Blood" ] ;
@@ -812,7 +847,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-hemoglobin-in-blood-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Hemoglobin In Blood Mole Concentration" ] ;
@@ -823,7 +858,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-hip-circumference> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-hip-circumference> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-hip-circumference" ]
        ] ;
        fhir:name [ fhir:v "CDE Hip Circumference" ] ;
@@ -834,7 +869,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-leucocyctes-in-urine-dipstick-test" ]
        ] ;
        fhir:name [ fhir:v "CDE Leucocyctes In Urine Dipstick Test" ] ;
@@ -845,7 +880,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-leukocytes-in-blood-count-per-volume" ]
        ] ;
        fhir:name [ fhir:v "CDE Leukocytes In Blood Count Per Volume" ] ;
@@ -856,7 +891,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Magnesium In Serum Or Plasma Mole Concentration" ] ;
@@ -867,7 +902,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass" ]
        ] ;
        fhir:name [ fhir:v "CDE Mean Corpuscular Hemoglobin Level Entitic Mass" ] ;
@@ -878,7 +913,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-mean-corpuscular-volume-entitic-volume" ]
        ] ;
        fhir:name [ fhir:v "CDE Mean Corpuscular Volume Entitic Volume" ] ;
@@ -889,7 +924,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Phosphate In Serum Or Plasma Mole Concentration" ] ;
@@ -900,7 +935,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Potassium In Serum Or Plasma Mole Concentration" ] ;
@@ -911,7 +946,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-sex-assigned-at-birth> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-sex-assigned-at-birth" ]
        ] ;
        fhir:name [ fhir:v "CDE Sex Assigned At Birth" ] ;
@@ -922,7 +957,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Sodium In Serum Or Plasma Mole Concentration" ] ;
@@ -933,7 +968,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-thrombocytes-in-blood-count-per-volume" ]
        ] ;
        fhir:name [ fhir:v "CDE Thrombocytes In Blood Count Per Volume" ] ;
@@ -944,7 +979,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-age> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-cessation-age> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-age" ]
        ] ;
        fhir:name [ fhir:v "CDE tobacco Smoking Cessation Age" ] ;
@@ -955,7 +990,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-cessation-year> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-cessation-year> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-cessation-year" ]
        ] ;
        fhir:name [ fhir:v "CDE Tobacco Smoking Cessation Year" ] ;
@@ -966,7 +1001,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-pack-year> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-pack-year> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-pack-year" ]
        ] ;
        fhir:name [ fhir:v "CDE Tobacco Smoking Pack Year" ] ;
@@ -977,7 +1012,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-status-yes-or-no" ]
        ] ;
        fhir:name [ fhir:v "CDE tobacco Smoking Status Yes Or No" ] ;
@@ -988,7 +1023,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-tobacco-smoking-status> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-status> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-tobacco-smoking-status" ]
        ] ;
        fhir:name [ fhir:v "CDE Smoking Status" ] ;
@@ -999,7 +1034,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration" ]
        ] ;
        fhir:name [ fhir:v "CDE Triglyceride In Serum Or Plasma Mole Concentration" ] ;
@@ -1010,7 +1045,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-visit-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-visit-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-visit-date" ]
        ] ;
        fhir:name [ fhir:v "CDE Visit Date" ] ;
@@ -1021,7 +1056,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-waist-circumference> ;
          fhir:reference [ fhir:v "StructureDefinition/cde-waist-circumference" ]
        ] ;
        fhir:name [ fhir:v "CDE Waist Circumference" ] ;
@@ -1032,7 +1067,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-calcium-level" ]
        ] ;
        fhir:name [ fhir:v "CLS CMO Blood Calcium Level" ] ;
@@ -1043,7 +1078,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-chloride-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Chloride Level" ] ;
@@ -1054,7 +1089,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-cholesterol-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Cholesterol Level" ] ;
@@ -1065,7 +1100,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Electrolyte Measurement" ] ;
@@ -1076,7 +1111,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-glucose-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Glucose Level" ] ;
@@ -1087,7 +1122,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-magnesium-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-magnesium-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-magnesium-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Magnesium Level" ] ;
@@ -1098,7 +1133,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-phosphate-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-phosphate-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-phosphate-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Phosphate Level" ] ;
@@ -1109,7 +1144,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-potassium-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-potassium-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-potassium-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Potassium Level" ] ;
@@ -1120,7 +1155,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-pressure-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Pressure Measurement" ] ;
@@ -1131,7 +1166,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-sodium-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Sodium Level" ] ;
@@ -1142,7 +1177,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-triglyceride-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Blood Triglyceride Level" ] ;
@@ -1153,7 +1188,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-height> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-height> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-height" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Body Height" ] ;
@@ -1164,7 +1199,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-mass-index> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-mass-index> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-mass-index" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Body Mass Index" ] ;
@@ -1175,7 +1210,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-body-weight> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-weight> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-weight" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Body Weight" ] ;
@@ -1186,7 +1221,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-diastolic-blood-pressure" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Diastolic Blood Pressure" ] ;
@@ -1197,7 +1232,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-heart-rate> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-heart-rate> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-heart-rate" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Heart Rate" ]
@@ -1207,7 +1242,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hematocrit-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Hematocrit Measurement" ] ;
@@ -1218,7 +1253,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hemoglobin-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Hemoglobin Measurement" ] ;
@@ -1229,7 +1264,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-hip-circumference> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hip-circumference> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hip-circumference" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Hip Circumference" ] ;
@@ -1240,7 +1275,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration" ] ;
@@ -1251,7 +1286,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Level" ] ;
@@ -1262,7 +1297,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-volume" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Volume" ] ;
@@ -1273,7 +1308,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-platelet-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-platelet-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-platelet-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Platelet Measurement" ] ;
@@ -1284,7 +1319,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-red-blood-cell-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Red Blood Cell Measurement" ] ;
@@ -1295,7 +1330,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-systolic-blood-pressure" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Systolic Blood Pressure" ] ;
@@ -1306,7 +1341,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-urine-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-urine-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-urine-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Urine Measurement" ] ;
@@ -1317,7 +1352,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-waist-circumference> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-waist-circumference" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Waist Circumference" ] ;
@@ -1328,7 +1363,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-white-blood-cell-measurement" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO White Blood Cell Measurement" ] ;
@@ -1339,7 +1374,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-age-at-diagnosis" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO CMO Age At Diagnosis" ] ;
@@ -1350,7 +1385,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-age" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Age" ] ;
@@ -1361,7 +1396,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-birth-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-birth-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-birth-date" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Birth Date" ] ;
@@ -1372,7 +1407,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date-of-diagnosis" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Date Of Diagnosis" ] ;
@@ -1383,7 +1418,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Date" ] ;
@@ -1394,7 +1429,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-visit-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-visit-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-visit-date" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Visit Date" ] ;
@@ -1405,7 +1440,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-year-date> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-year-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-year-date" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO NCIT Year Date" ] ;
@@ -1416,7 +1451,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-snomed-blood-creatinine-level" ]
        ] ;
        fhir:name [ fhir:v "CLS OBO SNOMED Blood Creatinine Level" ] ;
@@ -1427,7 +1462,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-age-at-smoking-cessation" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Age At Smoking Cessation" ] ;
@@ -1438,7 +1473,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-demographic-history-detail> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-demographic-history-detail> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-demographic-history-detail" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Demographic History Detail" ] ;
@@ -1449,7 +1484,18 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-diagnosis> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-snomed-diagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "CLS SNOMED Diagnosis" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Diagnose'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Finding Of Tobacco Use And Exposure" ] ;
@@ -1460,7 +1506,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-pack-years> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-pack-years> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-pack-years" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Pack Years" ] ;
@@ -1471,7 +1517,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-patient-sex> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-snomed-patient-sex" ]
        ] ;
        fhir:name [ fhir:v "CLS SNOMED Patient Sex" ] ;
@@ -1482,7 +1528,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-patient> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/poi-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/poi-patient" ]
        ] ;
        fhir:name [ fhir:v "POI Patient" ] ;
@@ -1493,7 +1539,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-person> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/poi-person> ;
          fhir:reference [ fhir:v "StructureDefinition/poi-person" ]
        ] ;
        fhir:name [ fhir:v "POI Person" ] ;
@@ -1504,7 +1550,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/poi-research-subject> ;
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/poi-research-subject> ;
          fhir:reference [ fhir:v "StructureDefinition/poi-research-subject" ]
        ] ;
        fhir:name [ fhir:v "POI Research Subject" ] ;
@@ -1512,21 +1558,21 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509> ;
-         fhir:reference [ fhir:v "ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509" ]
+         fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/rv-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-age" ]
        ] ;
-       fhir:name [ fhir:v "valueSet_YesNoQualifier" ] ;
-       fhir:description [ fhir:v "valueSet_YesNoQualifier" ]
+       fhir:name [ fhir:v "RV Age" ] ;
+       fhir:description [ fhir:v "Das Alter einer Person in Jahren." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-administrative-gender> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender> ;
          fhir:reference [ fhir:v "ValueSet/vs-administrative-gender" ]
        ] ;
        fhir:name [ fhir:v "VS AdministrativeGender" ] ;
@@ -1537,7 +1583,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no> ;
          fhir:reference [ fhir:v "ValueSet/vs-binary-decision-yes-or-no" ]
        ] ;
        fhir:name [ fhir:v "VS Binary Decision Yes Or No" ] ;
@@ -1548,7 +1594,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender> ;
          fhir:reference [ fhir:v "ValueSet/vs-biological-gender" ]
        ] ;
        fhir:name [ fhir:v "VS Biological Gender" ] ;
@@ -1559,7 +1605,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups> ;
          fhir:reference [ fhir:v "ValueSet/vs-ethnic-groups" ]
        ] ;
        fhir:name [ fhir:v "VS Ethnic Groups" ] ;
@@ -1570,7 +1616,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-glasgow-coma-scale-for-adults> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults> ;
          fhir:reference [ fhir:v "ValueSet/vs-glasgow-coma-scale-for-adults" ]
        ] ;
        fhir:name [ fhir:v "VS Glasgow Coma Scale For Adults" ] ;
@@ -1581,7 +1627,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-length-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-length-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-length-units" ]
        ] ;
        fhir:name [ fhir:v "VS Length Units" ] ;
@@ -1592,7 +1638,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding> ;
          fhir:reference [ fhir:v "ValueSet/vs-leucocytes-diptest-finding" ]
        ] ;
        fhir:name [ fhir:v "VS Leucocytes Diptest Finding" ] ;
@@ -1603,7 +1649,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-mass-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "VS Mass Concentration Units" ] ;
@@ -1614,7 +1660,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-mass-units" ]
        ] ;
        fhir:name [ fhir:v "VS Mass Units" ] ;
@@ -1625,18 +1671,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed> ;
-         fhir:reference [ fhir:v "ValueSet/vs-missing-values-as-snomed" ]
-       ] ;
-       fhir:name [ fhir:v "VS Missing Values As Snomed" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für fehlende Werte." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-molar-concentration-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-molar-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "VS Molar Concentration Units" ] ;
@@ -1647,7 +1682,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-number-concentration-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-number-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "VS Number Concentration Units" ] ;
@@ -1658,7 +1693,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence> ;
          fhir:reference [ fhir:v "ValueSet/vs-qualifier-for-presence" ]
        ] ;
        fhir:name [ fhir:v "VS Qualifier For Presence" ] ;
@@ -1669,7 +1704,18 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain> ;
+         fhir:reference [ fhir:v "ValueSet/vs-sentinel-conceptual-domain" ]
+       ] ;
+       fhir:name [ fhir:v "VS Sentinel Conceptual Domain" ] ;
+       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status> ;
          fhir:reference [ fhir:v "ValueSet/vs-smoking-status" ]
        ] ;
        fhir:name [ fhir:v "VS Smoking Status" ] ;
@@ -1680,7 +1726,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-specimen-types> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types> ;
          fhir:reference [ fhir:v "ValueSet/vs-specimen-types" ]
        ] ;
        fhir:name [ fhir:v "VS Specimen Types" ] ;
@@ -1691,7 +1737,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-time-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-time-units" ]
        ] ;
        fhir:name [ fhir:v "VS Time Units" ] ;
@@ -1702,7 +1748,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-unity-units> ;
+         fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units> ;
          fhir:reference [ fhir:v "ValueSet/vs-unity-units" ]
        ] ;
        fhir:name [ fhir:v "VS Unity Units" ] ;
@@ -1841,6 +1887,226 @@
        fhir:value [ fhir:v "input-cache/txcache" ]
      ] )
   ] . # 
+
+<http://hl7.org/fhir/de/myig/Questionnaire/Top300Loinc> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/c-chronological-age> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cd-age-of-person> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-age> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-blood-pressure-diastolic> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-blood-pressure-systolic> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-height> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-mass-index> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-body-weight> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-reported> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-date-of-diagnosis> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-diagnosis> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-ethnicity> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-glasgow-coma-score> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-heart-rate-beats-per-minute> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-hematocrit-of-blood> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-hip-circumference> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-leukocytes-in-blood-count-per-volume> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-sex-assigned-at-birth> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-cessation-age> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-cessation-year> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-pack-year> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-status-yes-or-no> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-tobacco-smoking-status> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-visit-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-waist-circumference> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-calcium-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-cholesterol-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-glucose-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-magnesium-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-phosphate-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-potassium-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-pressure-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-triglyceride-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-height> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-mass-index> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-body-weight> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-heart-rate> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hematocrit-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hemoglobin-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-hip-circumference> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-platelet-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-urine-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-waist-circumference> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age-at-diagnosis> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-birth-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-date-of-diagnosis> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-visit-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-year-date> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-snomed-blood-creatinine-level> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-age-at-smoking-cessation> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-demographic-history-detail> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-diagnosis> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-pack-years> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-patient-sex> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/poi-patient> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/poi-person> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/poi-research-subject> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/StructureDefinition/rv-age> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-length-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-time-units> a fhir:de .
+
+<http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units> a fhir:de .
 
 # -------------------------------------------------------------------------------------
 

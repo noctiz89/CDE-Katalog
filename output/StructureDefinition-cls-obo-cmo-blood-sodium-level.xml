@@ -15,23 +15,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level"/>
+  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-sodium-level"/>
   <version value="0.2.0"/>
   <name value="CLS_OBO_CMO_BloodSodiumLevel"/>
   <title value="CLS OBO CMO Blood Sodium Level"/>
   <status value="draft"/>
-  <date value="2023-03-14T20:28:45+01:00"/>
+  <date value="2023-03-15T20:18:50+01:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -80,7 +80,7 @@
   <kind value="resource"/>
   <abstract value="true"/>
   <type value="Observation"/>
-  <baseDefinition value="http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"/>
+  <baseDefinition value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">

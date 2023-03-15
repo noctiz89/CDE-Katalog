@@ -3,7 +3,7 @@
   "id" : "fhir.cde-catalog",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -13,13 +13,13 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 1
   }],
-  "url" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog",
+  "url" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog",
   "version" : "0.2.0",
   "name" : "CDEKatalog",
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-14T20:28:45+01:00",
+  "date" : "2023-03-15T20:18:50+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -187,7 +187,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://somewhere.org/fhir/uv/myig/history.html"
+        "valueString" : "http://hl7.org/fhir/de/myig/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -484,7 +484,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://somewhere.org/fhir/uv/myig/history.html"
+        "valueString" : "http://hl7.org/fhir/de/myig/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -645,11 +645,35 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
+        "valueString" : "Questionnaire"
       }],
       "reference" : {
-        "reference" : "Bundle/h1"
-      }
+        "reference" : "Questionnaire/Top300Loinc"
+      },
+      "name" : "Top 300 Laboratory Value Dataset of the Medical Informatics Initiative Germany (MII) (Extended Version);",
+      "description" : "The Top 300 Dataset (Kerndatensatz Labor) was developed by the Medical Informatics Initiative Germany (MII) and contains frequency-sorted, LOINC-coded analyses of the university clinics in Göttingen, Gießen, Munich, Greifswald and Erlangen. This form shows a detailed description containing primary and secondary LOINC codes of the 300 most common laboratory parameters. For each of the 300 laboratory parameters an itemgroup was created with all accepted variants of the laboratory parameters as items (secondary LOINC codes), the first item being the preferred LOINC variant of the MII (primary LOINC code). The itemgroup title is based on the primary LOINC code. The list is divided into subforms by the associated classes of laboratory parameters. If more than one class, the parameters can be found in the MIXED subform. An overview of the preferred presentation can also be found in the MDM portal (Laboratory Tests (Overview)). https://www.medizininformatik-initiative.de/de/labordaten-in-der-medizininformatik-initiative Explanation of abbreviations for types of specimen and classes/subforms: Type of specimen: Bld &amp;#61; Blood BldA &amp;#61; arterial blood Ser &amp;#61; Serum Plas &amp;#61; Plasma RBC &amp;#61; Red blood cells PPP &amp;#61; Platelet poor plasma Urine sed &amp;#61; Urine sediment CSF &amp;#61; Cerebral spinal fluid Body fld &amp;#61; Body fluid Classes (Subforms): CHEM &amp;#61; Chemistry HEM/BC &amp;#61; Hematology/Blood Cell Count COAG &amp;#61; Coagulation study UA &amp;#61; Urinalysis CELLMARK &amp;#61; Cell markers CLIN &amp;#61; clinical not elsewhere classified DRUG/TOX &amp;#61; drug levels &amp; toxicology SERO &amp;#61; serology MICRO &amp;#61; Microbiology SPEC &amp;#61; Specimen characteristics"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/c-chronological-age"
+      },
+      "name" : "C Chronological Age",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cd-age-of-person"
+      },
+      "name" : "CD Age Of Person",
+      "description" : "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."
     },
     {
       "extension" : [{
@@ -837,6 +861,17 @@
       },
       "name" : "CDE diabetes Mellitus Status Yes Or No",
       "description" : "Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cde-diagnosis"
+      },
+      "name" : "CDE Diagnosis",
+      "description" : "Dieses CDE enthält eine 'Diagnose'"
     },
     {
       "extension" : [{
@@ -1547,6 +1582,17 @@
         "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/cls-snomed-diagnosis"
+      },
+      "name" : "CLS SNOMED Diagnosis",
+      "description" : "Dieses abstrakte Profil beschreibt die Kategorie 'Diagnose'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"
       },
       "name" : "CLS SNOMED Finding Of Tobacco Use And Exposure",
@@ -1610,13 +1656,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "ValueSet/2.16.840.1.113883.3.1937.99.61.76.11.2--20221103133509"
+        "reference" : "StructureDefinition/rv-age"
       },
-      "name" : "valueSet_YesNoQualifier",
-      "description" : "valueSet_YesNoQualifier"
+      "name" : "RV Age",
+      "description" : "Das Alter einer Person in Jahren."
     },
     {
       "extension" : [{
@@ -1723,17 +1769,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-missing-values-as-snomed"
-      },
-      "name" : "VS Missing Values As Snomed",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für fehlende Werte."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-molar-concentration-units"
       },
       "name" : "VS Molar Concentration Units",
@@ -1760,6 +1795,17 @@
       },
       "name" : "VS Qualifier For Presence",
       "description" : "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-sentinel-conceptual-domain"
+      },
+      "name" : "VS Sentinel Conceptual Domain",
+      "description" : "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."
     },
     {
       "extension" : [{

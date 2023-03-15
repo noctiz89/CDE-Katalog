@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
       }]
     }
   },
@@ -21,16 +21,16 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
       }]
     }
   }],
-  "url" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-waist-circumference",
+  "url" : "http://hl7.org/fhir/de/myig/StructureDefinition/cde-waist-circumference",
   "version" : "0.2.0",
   "name" : "CDE_WaistCircumference",
   "title" : "CDE Waist Circumference",
   "status" : "active",
-  "date" : "2023-03-14T20:28:45+01:00",
+  "date" : "2023-03-15T20:18:50+01:00",
   "publisher" : "HL7 International - [Some] Work Group",
   "contact" : [{
     "telecom" : [{
@@ -79,7 +79,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
+  "baseDefinition" : "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-waist-circumference",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{
@@ -5275,7 +5275,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "cm",
-        "valueSet" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units"
+        "valueSet" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -7085,7 +7085,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "cm",
-        "valueSet" : "http://somewhere.org/fhir/uv/myig/ValueSet/vs-mass-concentration-units"
+        "valueSet" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units"
       }
     }]
   }

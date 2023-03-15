@@ -12,15 +12,6 @@ Description: "Dieses CDE enthält das 'Alter'."
 * ^extension[=].valueCode = #oo
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * ^extension[=].valueCode = #trial-use
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/markdown"
-* ^extension[+].valueMarkdown = "TEST <h3>Test</h3>"
-// Hierarchy and Classification
-//* insert RS_ObservationCategorySlicingRules
-//* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)
-//* insert RS_CreateOneFurtherCategory(PropertyOrAttribute, $OBO, NCIT_C20189)
-//* insert RS_CreateOneFurtherCategory(PersonOrIndividualAttribute, $OBO, NCIT_C171087)
-//* insert RS_CreateOneFurtherCategory(PersonalAttribute, $OBO, NCIT_C19332)
-//* insert RS_CreateOneFurtherCategory(Age, $OBO, NCIT_C25150)
 
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 30525-0, "Age") // Age

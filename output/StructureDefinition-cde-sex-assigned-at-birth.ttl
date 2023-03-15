@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth> a fhir:StructureDefinition ;
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-sex-assigned-at-birth> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cde-sex-assigned-at-birth"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
@@ -31,18 +31,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-sex-assigned-at-birth"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cde-sex-assigned-at-birth"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CDE_SexAssignedAtBirth"] ; # 
   fhir:title [ fhir:v "CDE Sex Assigned At Birth"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-14T20:28:45+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -87,8 +87,8 @@
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:type [ fhir:v "Observation"^^xsd:anyURI] ; # 
   fhir:baseDefinition [
-     fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex"^^xsd:anyURI ;
-     fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-snomed-patient-sex>
+     fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-patient-sex"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-snomed-patient-sex>
   ] ; # 
   fhir:derivation [ fhir:v "constraint"] ; # 
   fhir:snapshot [
@@ -6985,8 +6985,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender>
+           fhir:v "http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender>
          ]
        ] ;
        fhir:mapping ( [
@@ -11679,8 +11679,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender>
+           fhir:v "http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender>
          ]
        ]
      ] [

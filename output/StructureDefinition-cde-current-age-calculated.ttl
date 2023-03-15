@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated> a fhir:StructureDefinition ;
+<http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cde-current-age-calculated"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
@@ -31,18 +31,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-current-age-calculated"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cde-current-age-calculated"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CDE_CurrentAgeCalculated"] ; # 
   fhir:title [ fhir:v "CDE Current Age Calculated"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-14T20:28:45+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -87,8 +87,8 @@
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:type [ fhir:v "Observation"^^xsd:anyURI] ; # 
   fhir:baseDefinition [
-     fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age"^^xsd:anyURI ;
-     fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cls-obo-ncit-age>
+     fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-ncit-age>
   ] ; # 
   fhir:derivation [ fhir:v "constraint"] ; # 
   fhir:snapshot [
@@ -5429,8 +5429,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "wk | a" ] ;
          fhir:valueSet [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units>
+           fhir:v "http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-time-units>
          ]
        ] ;
        fhir:mapping ( [
@@ -6593,8 +6593,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date>
+           fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date>
          ] )
        ] ) ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
@@ -7230,8 +7230,8 @@
          fhir:strength [ fhir:v "required" ] ;
          fhir:description [ fhir:v "wk | a" ] ;
          fhir:valueSet [
-           fhir:v "http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/vs-time-units>
+           fhir:v "http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/ValueSet/vs-time-units>
          ]
        ]
      ] [
@@ -7242,8 +7242,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date"^^xsd:anyURI ;
-           fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/cde-birth-date>
+           fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cde-birth-date>
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v "true"^^xsd:boolean ]

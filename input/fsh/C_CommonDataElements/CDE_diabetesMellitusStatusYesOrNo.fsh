@@ -3,7 +3,7 @@ Parent: Observation
 Id: cde-diabetes-mellitus-status-yes-or-no
 Title: "CDE diabetes Mellitus Status Yes Or No"
 Description: "Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'"
-* status = #experimental
+* status = #draft
 /*
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 73211009, "Diabetes Mellitus")
