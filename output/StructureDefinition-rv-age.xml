@@ -15,23 +15,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://fhir.org/de/StructureDefinition/rv-age"/>
+  <url value="http://hl7.org/de/StructureDefinition/rv-age"/>
   <version value="0.2.0"/>
   <name value="RV_Age"/>
   <title value="RV Age"/>
   <status value="active"/>
-  <date value="2023-03-16T15:14:40+01:00"/>
+  <date value="2023-03-16T17:46:04+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -80,7 +80,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://fhir.org/de/StructureDefinition/cd-age-of-person"/>
+  <baseDefinition value="http://hl7.org/de/StructureDefinition/cd-age-of-person"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -4483,7 +4483,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-sentinel-conceptual-domain"/>
       </binding>
       <mapping>
         <identity value="rim"/>

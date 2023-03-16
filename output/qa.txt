@@ -1,9 +1,9 @@
-﻿CDE-katalog : Validation Results
+﻿cde-katalog : Validation Results
 =========================================
 
-err = 1238, warn = 67, info = 2
+err = 1235, warn = 67, info = 2
 IG Publisher Version: 1.2.39 Out of date - current version is 1.2.49
-Generated Thu Mar 16 15:39:41 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://fhir.org/de)
+Generated Thu Mar 16 18:09:36 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
  Build Errors : 0 / 6 / 0
  D:\CDE-Katalog\fsh-generated\resources\Questionnaire-Top300Loinc : 1235 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-chronological-age : 0 / 0 / 1
@@ -114,7 +114,7 @@ Generated Thu Mar 16 15:39:41 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 9 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 0 / 1
  D:\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 1 / 1
- D:\CDE-Katalog\input\myig : 3 / 1 / 1
+ D:\CDE-Katalog\input\myig : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cde-katalog
@@ -1362,95 +1362,95 @@ ERROR: Questionnaire/Top300Loinc: Questionnaire.item[0].item[10].item[4].item[0]
 == fsh-generated\resources\StructureDefinition-c-chronological-age.json ==
 == fsh-generated\resources\StructureDefinition-cd-age-of-person.json ==
 == fsh-generated\resources\StructureDefinition-cde-age.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-blood-pressure-diastolic'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-blood-pressure-diastolic'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-blood-pressure-systolic'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-blood-pressure-systolic'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-height.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-mass-index.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-body-mass-index'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-mass-index'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-body-weight.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-body-weight'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-weight'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-cholesterol-inserum-or-plasma-mole-conentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-creatinine-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-current-age-calculated.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-current-age-calculated'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-current-age-calculated'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-current-age-reported.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-diabetes-mellitus-status-yes-or-no.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-diagnosis.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-diagnosis'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-diagnosis'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-heart-rate-beats-per-minute.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-heart-rate-beats-per-minute'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-heart-rate-beats-per-minute'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-hip-circumference.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-leucocyctes-in-urine-dipstick-test.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-volume-entitic-volume.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-sex-assigned-at-birth'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-sex-assigned-at-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-age.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-pack-year'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-pack-year'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.snapshot.element[160].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
 WARNING: StructureDefinition/cde-tobacco-smoking-status: StructureDefinition.differential.element[18].short: Wert sollte nicht mit Leerzeichen beginnen oder enden
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-triglyceride-in-serum-or-plasma-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cde-waist-circumference.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-calcium-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-chloride-level.json ==
 == fsh-generated\resources\StructureDefinition-cls-obo-cmo-blood-cholesterol-level.json ==
@@ -1495,14 +1495,14 @@ WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition
 == fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex.json ==
 == fsh-generated\resources\StructureDefinition-poi-patient.json ==
 INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-poi-person.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/poi-person'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-person'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
 INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-age.json ==
-WARNING: StructureDefinition.where(url = 'http://fhir.org/de/StructureDefinition/rv-age'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-age'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
@@ -1530,7 +1530,4 @@ WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[8]: 
 == fsh-generated\resources\ValueSet-vs-unity-units.json ==
 WARNING: ValueSet/vs-unity-units: ValueSet.compose[0].include[0].concept[0]: The code [lg] is not valid in the system http://unitsofmeasure.org
 == input\myig.xml ==
-ERROR: ImplementationGuide.where(url = 'http://fhir.org/de/ImplementationGuide/cde-catalog'): Conformance resource D:\CDE-Katalog\input\myig.xml - the canonical URL (http://fhir.org/de/ImplementationGuide/fhir.cde-catalog) does not match the URL (http://fhir.org/de/ImplementationGuide/cde-catalog)
-ERROR: ImplementationGuide.url: Resource id/url mismatch: fhir.cde-catalog/http://fhir.org/de/ImplementationGuide/cde-catalog
-WARNING: ImplementationGuide/fhir.cde-catalog: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: D:\CDE-Katalog\input\myig: URL Mismatch http://fhir.org/de/ImplementationGuide/fhir.cde-catalog vs http://fhir.org/de/ImplementationGuide/cde-catalog
+WARNING: ImplementationGuide/fhir.cde-katalog: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed

@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   },
@@ -21,16 +21,16 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   }],
-  "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year",
+  "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year",
   "version" : "0.2.0",
   "name" : "CDE_TobaccoSmokingCessationYear",
   "title" : "CDE Tobacco Smoking Cessation Year",
   "status" : "active",
-  "date" : "2023-03-16T15:14:40+01:00",
+  "date" : "2023-03-16T17:46:04+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -79,7 +79,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-year-date",
+  "baseDefinition" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-year-date",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{

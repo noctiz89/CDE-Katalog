@@ -1,770 +1,770 @@
 [
   {
-    "id" : "fhir.cde-catalog",
+    "id" : "fhir.cde-katalog",
     "type" : "ImplementationGuide",
-    "url" : "http://fhir.org/de/ImplementationGuide/cde-catalog",
+    "url" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog",
     "version" : "0.2.0",
-    "name" : "CDE-katalog"
+    "name" : "cde-katalog"
   },
   {
     "id" : "Top300Loinc",
     "type" : "Questionnaire",
-    "url" : "http://fhir.org/de/Questionnaire/Top300Loinc",
+    "url" : "http://hl7.org/de/Questionnaire/Top300Loinc",
     "version" : "0.2.0"
   },
   {
     "id" : "c-chronological-age",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/c-chronological-age",
+    "url" : "http://hl7.org/de/StructureDefinition/c-chronological-age",
     "version" : "0.2.0",
     "name" : "C_ChronologicalAge"
   },
   {
     "id" : "cd-age-of-person",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cd-age-of-person",
+    "url" : "http://hl7.org/de/StructureDefinition/cd-age-of-person",
     "version" : "0.2.0",
     "name" : "CD_AgeOfPerson"
   },
   {
     "id" : "cde-age",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-age",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-age",
     "version" : "0.2.0",
     "name" : "CDE_Age"
   },
   {
     "id" : "cde-age-at-diagnosis-of-essential-hypertension",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
     "version" : "0.2.0",
     "name" : "CDE_AgeAtDiagnosisOfEssentialHypertension"
   },
   {
     "id" : "cde-birth-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-birth-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-birth-date",
     "version" : "0.2.0",
     "name" : "CDE_BirthDate"
   },
   {
     "id" : "cde-blood-pressure-diastolic",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-blood-pressure-diastolic",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-blood-pressure-diastolic",
     "version" : "0.2.0",
     "name" : "CDE_BloodPressureDiastolic"
   },
   {
     "id" : "cde-blood-pressure-systolic",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-blood-pressure-systolic",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-blood-pressure-systolic",
     "version" : "0.2.0",
     "name" : "CDE_BloodPressureSystolic"
   },
   {
     "id" : "cde-body-height",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-body-height",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-body-height",
     "version" : "0.2.0",
     "name" : "CDE_BodyHeight"
   },
   {
     "id" : "cde-body-mass-index",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-body-mass-index",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-body-mass-index",
     "version" : "0.2.0",
     "name" : "CDE_BodyMassIndex"
   },
   {
     "id" : "cde-body-weight",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-body-weight",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-body-weight",
     "version" : "0.2.0",
     "name" : "CDE_BodyWeight"
   },
   {
     "id" : "cde-calcium-in-serum-or-plasma-mass-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
     "version" : "0.2.0",
     "name" : "CDE_CalciumInSerumOrPlasmaMassConcentration"
   },
   {
     "id" : "cde-calcium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_CalciumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-chloride-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_ChlorideInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-cholesterol-inserum-or-plasma-mole-conentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
     "version" : "0.2.0",
     "name" : "CDE_cholesterolInserumOrPlasmaMoleConentration"
   },
   {
     "id" : "cde-creatinine-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_CreatinineInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-current-age-calculated",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-current-age-calculated",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-current-age-calculated",
     "version" : "0.2.0",
     "name" : "CDE_CurrentAgeCalculated"
   },
   {
     "id" : "cde-current-age-reported",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-current-age-reported",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-current-age-reported",
     "version" : "0.2.0",
     "name" : "CDE_CurrentAgeReported"
   },
   {
     "id" : "cde-date-of-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-date-of-diagnosis",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-date-of-diagnosis",
     "version" : "0.2.0",
     "name" : "CDE_DateOfDiagnosis"
   },
   {
     "id" : "cde-diabetes-mellitus-status-yes-or-no",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
     "version" : "0.2.0",
     "name" : "CDE_diabetesMellitusStatusYesOrNo"
   },
   {
     "id" : "cde-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-diagnosis",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-diagnosis",
     "version" : "0.2.0",
     "name" : "CDE_Diagnosis"
   },
   {
     "id" : "cde-erythrocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
     "name" : "CDE_ErythrocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-ethnicity",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-ethnicity",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-ethnicity",
     "version" : "0.2.0",
     "name" : "CDE_Ethnicity"
   },
   {
     "id" : "cde-glasgow-coma-score",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-glasgow-coma-score",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-glasgow-coma-score",
     "version" : "0.2.0",
     "name" : "CDE_GlasgowComaScore"
   },
   {
     "id" : "cde-glucose-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_GlucoseInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-heart-rate-beats-per-minute",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-heart-rate-beats-per-minute",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-heart-rate-beats-per-minute",
     "version" : "0.2.0",
     "name" : "CDE_heartRateBeatsPerMinute"
   },
   {
     "id" : "cde-hematocrit-of-blood",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-hematocrit-of-blood",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-hematocrit-of-blood",
     "version" : "0.2.0",
     "name" : "CDE_HematocritOfBlood"
   },
   {
     "id" : "cde-hemoglobin-in-blood-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_HemoglobinInBloodMoleConcentration"
   },
   {
     "id" : "cde-hip-circumference",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-hip-circumference",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-hip-circumference",
     "version" : "0.2.0",
     "name" : "CDE_HipCircumference"
   },
   {
     "id" : "cde-leucocyctes-in-urine-dipstick-test",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
     "version" : "0.2.0",
     "name" : "CDE_LeucocyctesInUrineDipstickTest"
   },
   {
     "id" : "cde-leukocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
     "name" : "CDE_LeukocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-magnesium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_MagnesiumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-mean-corpuscular-hemoglobin-level-entitic-mass",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
     "version" : "0.2.0",
     "name" : "CDE_MeanCorpuscularHemoglobinLevelEntiticMass"
   },
   {
     "id" : "cde-mean-corpuscular-volume-entitic-volume",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
     "version" : "0.2.0",
     "name" : "CDE_MeanCorpuscularVolumeEntiticVolume"
   },
   {
     "id" : "cde-phosphate-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_PhosphateInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-potassium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_PotassiumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-sex-assigned-at-birth",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-sex-assigned-at-birth",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-sex-assigned-at-birth",
     "version" : "0.2.0",
     "name" : "CDE_SexAssignedAtBirth"
   },
   {
     "id" : "cde-sodium-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_SodiumInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-thrombocytes-in-blood-count-per-volume",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
     "version" : "0.2.0",
     "name" : "CDE_ThrombocytesInBloodCountPerVolume"
   },
   {
     "id" : "cde-tobacco-smoking-cessation-age",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age",
     "version" : "0.2.0",
     "name" : "CDE_tobaccoSmokingCessationAge"
   },
   {
     "id" : "cde-tobacco-smoking-cessation-year",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year",
     "version" : "0.2.0",
     "name" : "CDE_TobaccoSmokingCessationYear"
   },
   {
     "id" : "cde-tobacco-smoking-pack-year",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-pack-year",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-pack-year",
     "version" : "0.2.0",
     "name" : "CDE_TobaccoSmokingPackYear"
   },
   {
     "id" : "cde-tobacco-smoking-status",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-status",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status",
     "version" : "0.2.0",
     "name" : "CDE_TobaccoSmokingStatus"
   },
   {
     "id" : "cde-tobacco-smoking-status-yes-or-no",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
     "version" : "0.2.0",
     "name" : "CDE_tobaccoSmokingStatusYesOrNo"
   },
   {
     "id" : "cde-triglyceride-in-serum-or-plasma-mole-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
     "version" : "0.2.0",
     "name" : "CDE_TriglycerideInSerumOrPlasmaMoleConcentration"
   },
   {
     "id" : "cde-visit-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-visit-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-visit-date",
     "version" : "0.2.0",
     "name" : "CDE_VisitDate"
   },
   {
     "id" : "cde-waist-circumference",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cde-waist-circumference",
+    "url" : "http://hl7.org/de/StructureDefinition/cde-waist-circumference",
     "version" : "0.2.0",
     "name" : "CDE_WaistCircumference"
   },
   {
     "id" : "cls-obo-cmo-blood-calcium-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-calcium-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-calcium-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodCalciumLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-chloride-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-chloride-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-chloride-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodChlorideLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-cholesterol-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-cholesterol-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-cholesterol-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodCholesterolLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-electrolyte-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodElectrolyteMeasurement"
   },
   {
     "id" : "cls-obo-cmo-blood-glucose-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-glucose-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-glucose-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodGlucoseLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-magnesium-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-magnesium-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-magnesium-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodMagnesiumLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-phosphate-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-phosphate-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-phosphate-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodPhosphateLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-potassium-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-potassium-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-potassium-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodPotassiumLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-pressure-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-pressure-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-pressure-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodPressureMeasurement"
   },
   {
     "id" : "cls-obo-cmo-blood-sodium-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-sodium-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-sodium-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodSodiumLevel"
   },
   {
     "id" : "cls-obo-cmo-blood-triglyceride-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-triglyceride-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-triglyceride-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BloodTriglycerideLevel"
   },
   {
     "id" : "cls-obo-cmo-body-height",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-body-height",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-height",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BodyHeight"
   },
   {
     "id" : "cls-obo-cmo-body-mass-index",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-body-mass-index",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-mass-index",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BodyMassIndex"
   },
   {
     "id" : "cls-obo-cmo-body-weight",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-body-weight",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-weight",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_BodyWeight"
   },
   {
     "id" : "cls-obo-cmo-diastolic-blood-pressure",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_DiastolicBloodPressure"
   },
   {
     "id" : "cls-obo-cmo-heart-rate",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-heart-rate",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-heart-rate",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HeartRate"
   },
   {
     "id" : "cls-obo-cmo-hematocrit-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-hematocrit-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HematocritMeasurement"
   },
   {
     "id" : "cls-obo-cmo-hemoglobin-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-hemoglobin-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HemoglobinMeasurement"
   },
   {
     "id" : "cls-obo-cmo-hip-circumference",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-hip-circumference",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-hip-circumference",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_HipCircumference"
   },
   {
     "id" : "cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_MeanCorpuscularHemoglobinConcentration"
   },
   {
     "id" : "cls-obo-cmo-mean-corpuscular-hemoglobin-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_MeanCorpuscularHemoglobinLevel"
   },
   {
     "id" : "cls-obo-cmo-mean-corpuscular-volume",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_MeanCorpuscularVolume"
   },
   {
     "id" : "cls-obo-cmo-platelet-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-platelet-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-platelet-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_PlateletMeasurement"
   },
   {
     "id" : "cls-obo-cmo-red-blood-cell-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_RedBloodCellMeasurement"
   },
   {
     "id" : "cls-obo-cmo-systolic-blood-pressure",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_SystolicBloodPressure"
   },
   {
     "id" : "cls-obo-cmo-urine-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-urine-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-urine-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_UrineMeasurement"
   },
   {
     "id" : "cls-obo-cmo-waist-circumference",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-waist-circumference",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-waist-circumference",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_WaistCircumference"
   },
   {
     "id" : "cls-obo-cmo-white-blood-cell-measurement",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement",
     "version" : "0.2.0",
     "name" : "CLS_OBO_CMO_WhiteBloodCellMeasurement"
   },
   {
     "id" : "cls-obo-ncit-age",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-age",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_Age"
   },
   {
     "id" : "cls-obo-ncit-age-at-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_AgeAtDiagnosis"
   },
   {
     "id" : "cls-obo-ncit-birth-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-birth-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-birth-date",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_BirthDate"
   },
   {
     "id" : "cls-obo-ncit-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-date",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_Date"
   },
   {
     "id" : "cls-obo-ncit-date-of-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-date-of-diagnosis",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-date-of-diagnosis",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_DateOfDiagnosis"
   },
   {
     "id" : "cls-obo-ncit-visit-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-visit-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-visit-date",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_VisitDate"
   },
   {
     "id" : "cls-obo-ncit-year-date",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-year-date",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-year-date",
     "version" : "0.2.0",
     "name" : "CLS_OBO_NCIT_YearDate"
   },
   {
     "id" : "cls-obo-snomed-blood-creatinine-level",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
     "version" : "0.2.0",
     "name" : "CLS_OBO_SNOMED_BloodCreatinineLevel"
   },
   {
     "id" : "cls-snomed-age-at-smoking-cessation",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-age-at-smoking-cessation",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-age-at-smoking-cessation",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_AgeAtSmokingCessation"
   },
   {
     "id" : "cls-snomed-demographic-history-detail",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-demographic-history-detail",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-demographic-history-detail",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_DemographicHistoryDetail"
   },
   {
     "id" : "cls-snomed-diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-diagnosis",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-diagnosis",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_Diagnosis"
   },
   {
     "id" : "cls-snomed-finding-of-tobacco-use-and-exposure",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_FindingOfTobaccoUseAndExposure"
   },
   {
     "id" : "cls-snomed-pack-years",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-pack-years",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-pack-years",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_PackYears"
   },
   {
     "id" : "cls-snomed-patient-sex",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/cls-snomed-patient-sex",
+    "url" : "http://hl7.org/de/StructureDefinition/cls-snomed-patient-sex",
     "version" : "0.2.0",
     "name" : "CLS_SNOMED_PatientSex"
   },
   {
     "id" : "poi-patient",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/poi-patient",
+    "url" : "http://hl7.org/de/StructureDefinition/poi-patient",
     "version" : "0.2.0",
     "name" : "POI_Patient"
   },
   {
     "id" : "poi-person",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/poi-person",
+    "url" : "http://hl7.org/de/StructureDefinition/poi-person",
     "version" : "0.2.0",
     "name" : "POI_Person"
   },
   {
     "id" : "poi-research-subject",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/poi-research-subject",
+    "url" : "http://hl7.org/de/StructureDefinition/poi-research-subject",
     "version" : "0.2.0",
     "name" : "POI_ResearchSubject"
   },
   {
     "id" : "rv-age",
     "type" : "StructureDefinition",
-    "url" : "http://fhir.org/de/StructureDefinition/rv-age",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-age",
     "version" : "0.2.0",
     "name" : "RV_Age"
   },
   {
     "id" : "vs-administrative-gender",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-administrative-gender",
+    "url" : "http://hl7.org/de/ValueSet/vs-administrative-gender",
     "version" : "0.2.0",
     "name" : "VS_AdministrativeGender"
   },
   {
     "id" : "vs-binary-decision-yes-or-no",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-binary-decision-yes-or-no",
+    "url" : "http://hl7.org/de/ValueSet/vs-binary-decision-yes-or-no",
     "version" : "0.2.0",
     "name" : "VS_BinaryDecisionYesOrNo"
   },
   {
     "id" : "vs-biological-gender",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-biological-gender",
+    "url" : "http://hl7.org/de/ValueSet/vs-biological-gender",
     "version" : "0.2.0",
     "name" : "VS_BiologicalGender"
   },
   {
     "id" : "vs-ethnic-groups",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-ethnic-groups",
+    "url" : "http://hl7.org/de/ValueSet/vs-ethnic-groups",
     "version" : "0.2.0",
     "name" : "VS_EthnicGroups"
   },
   {
     "id" : "vs-glasgow-coma-scale-for-adults",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
+    "url" : "http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
     "version" : "0.2.0",
     "name" : "VS_GlasgowComaScaleForAdults"
   },
   {
     "id" : "vs-length-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-length-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-length-units",
     "version" : "0.2.0",
     "name" : "VS_LengthUnits"
   },
   {
     "id" : "vs-mass-concentration-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-mass-concentration-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-mass-concentration-units",
     "version" : "0.2.0",
     "name" : "VS_MassConcentrationUnits"
   },
   {
     "id" : "vs-mass-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-mass-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-mass-units",
     "version" : "0.2.0",
     "name" : "VS_MassUnits"
   },
   {
     "id" : "vs-molar-concentration-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-molar-concentration-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-molar-concentration-units",
     "version" : "0.2.0",
     "name" : "VS_MolarConcentrationUnits"
   },
   {
     "id" : "vs-number-concentration-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-number-concentration-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-number-concentration-units",
     "version" : "0.2.0",
     "name" : "VS_NumberConcentrationUnits"
   },
   {
     "id" : "vs-qualifier-for-presence",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-qualifier-for-presence",
+    "url" : "http://hl7.org/de/ValueSet/vs-qualifier-for-presence",
     "version" : "0.2.0",
     "name" : "VS_QualifierForPresence"
   },
   {
     "id" : "vs-sentinel-conceptual-domain",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain",
+    "url" : "http://hl7.org/de/ValueSet/vs-sentinel-conceptual-domain",
     "version" : "0.2.0",
     "name" : "VS_SentinelConceptualDomain"
   },
   {
     "id" : "vs-smoking-status",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-smoking-status",
+    "url" : "http://hl7.org/de/ValueSet/vs-smoking-status",
     "version" : "0.2.0",
     "name" : "VS_SmokingStatus"
   },
   {
     "id" : "vs-specimen-types",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-specimen-types",
+    "url" : "http://hl7.org/de/ValueSet/vs-specimen-types",
     "version" : "0.2.0",
     "name" : "VS_SpecimenTypes"
   },
   {
     "id" : "vs-time-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-time-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-time-units",
     "version" : "0.2.0",
     "name" : "VS_TimeUnits"
   },
   {
     "id" : "vs-unity-units",
     "type" : "ValueSet",
-    "url" : "http://fhir.org/de/ValueSet/vs-unity-units",
+    "url" : "http://hl7.org/de/ValueSet/vs-unity-units",
     "version" : "0.2.0",
     "name" : "VS_UnityUnits"
   }

@@ -21,12 +21,12 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "trial-use"
   }],
-  "url" : "http://fhir.org/de/StructureDefinition/cde-age",
+  "url" : "http://hl7.org/de/StructureDefinition/cde-age",
   "version" : "0.2.0",
   "name" : "CDE_Age",
   "title" : "CDE Age",
   "status" : "active",
-  "date" : "2023-03-16T15:14:40+01:00",
+  "date" : "2023-03-16T17:46:04+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -75,7 +75,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-age",
+  "baseDefinition" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{
@@ -5271,7 +5271,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "wk | a",
-        "valueSet" : "http://fhir.org/de/ValueSet/vs-time-units"
+        "valueSet" : "http://hl7.org/de/ValueSet/vs-time-units"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -7081,7 +7081,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "wk | a",
-        "valueSet" : "http://fhir.org/de/ValueSet/vs-time-units"
+        "valueSet" : "http://hl7.org/de/ValueSet/vs-time-units"
       }
     }]
   }

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> a fhir:StructureDefinition ;
+<http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cls-obo-cmo-mean-corpuscular-volume"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
          ]
        ] )
      ]
@@ -31,18 +31,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://fhir.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CLS_OBO_CMO_MeanCorpuscularVolume"] ; # 
   fhir:title [ fhir:v "CLS OBO CMO Mean Corpuscular Volume"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-16T15:14:40+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-16T17:46:04+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

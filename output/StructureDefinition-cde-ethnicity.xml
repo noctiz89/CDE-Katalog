@@ -72,23 +72,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://fhir.org/de/StructureDefinition/cde-ethnicity"/>
+  <url value="http://hl7.org/de/StructureDefinition/cde-ethnicity"/>
   <version value="0.2.0"/>
   <name value="CDE_Ethnicity"/>
   <title value="CDE Ethnicity"/>
   <status value="active"/>
-  <date value="2023-03-16T15:14:40+01:00"/>
+  <date value="2023-03-16T17:46:04+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -137,7 +137,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://fhir.org/de/StructureDefinition/cls-snomed-demographic-history-detail"/>
+  <baseDefinition value="http://hl7.org/de/StructureDefinition/cls-snomed-demographic-history-detail"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -6223,7 +6223,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-ethnic-groups"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -14379,7 +14379,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-ethnic-groups"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -14768,7 +14768,7 @@
       </type>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-ethnic-groups"/>
       </binding>
     </element>
     <element id="Observation.component.valueCodeableConcept.coding">
@@ -15118,7 +15118,7 @@
       <path value="Observation.component.code.coding"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-ethnic-groups"/>
       </binding>
     </element>
   </differential>

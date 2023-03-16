@@ -19,23 +19,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+        <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://fhir.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration"/>
+  <url value="http://hl7.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration"/>
   <version value="0.2.0"/>
   <name value="CDE_GlucoseInSerumOrPlasmaMoleConcentration"/>
   <title value="CDE Glucose In Serum Or Plasma Mole Concentration"/>
   <status value="active"/>
-  <date value="2023-03-16T15:14:40+01:00"/>
+  <date value="2023-03-16T17:46:04+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -84,7 +84,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-glucose-level"/>
+  <baseDefinition value="http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-glucose-level"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -5041,7 +5041,7 @@
       <binding>
         <strength value="required"/>
         <description value="umol/L | mmol/L"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-molar-concentration-units"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-molar-concentration-units"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -6751,7 +6751,7 @@
       <binding>
         <strength value="required"/>
         <description value="umol/L | mmol/L"/>
-        <valueSet value="http://fhir.org/de/ValueSet/vs-molar-concentration-units"/>
+        <valueSet value="http://hl7.org/de/ValueSet/vs-molar-concentration-units"/>
       </binding>
     </element>
   </differential>

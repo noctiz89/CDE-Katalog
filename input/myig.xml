@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R4/fhir-single.xsd">
-  <id value="fhir.cde-catalog"/>
+  <id value="fhir.cde-katalog"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative"/> 
   </extension> 
@@ -11,11 +11,11 @@
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+  <url value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
   <!-- default Canonical url: http://somewhere.org/fhir/uv/myig/ImplementationGuide/fhir.cde-catalog -->
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.2.0"/>
-  <name value="CDE-katalog"/>
+  <name value="cde-katalog"/>
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>

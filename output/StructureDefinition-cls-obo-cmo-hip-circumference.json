@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   },
@@ -21,16 +21,16 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   }],
-  "url" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-hip-circumference",
+  "url" : "http://hl7.org/de/StructureDefinition/cls-obo-cmo-hip-circumference",
   "version" : "0.2.0",
   "name" : "CLS_OBO_CMO_HipCircumference",
   "title" : "CLS OBO CMO Hip Circumference",
   "status" : "draft",
-  "date" : "2023-03-16T15:14:40+01:00",
+  "date" : "2023-03-16T17:46:04+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{

@@ -7,25 +7,25 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://fhir.org/de/StructureDefinition/rv-age",
+        "url": "http://hl7.org/de/StructureDefinition/rv-age",
         "title": "RV Age"
       }
     ],
     "Patient": [
       {
-        "url": "http://fhir.org/de/StructureDefinition/poi-patient",
+        "url": "http://hl7.org/de/StructureDefinition/poi-patient",
         "title": "POI Patient"
       }
     ],
     "Person": [
       {
-        "url": "http://fhir.org/de/StructureDefinition/poi-person",
+        "url": "http://hl7.org/de/StructureDefinition/poi-person",
         "title": "POI Person"
       }
     ],
     "ResearchSubject": [
       {
-        "url": "http://fhir.org/de/StructureDefinition/poi-research-subject",
+        "url": "http://hl7.org/de/StructureDefinition/poi-research-subject",
         "title": "POI Research Subject"
       }
     ]

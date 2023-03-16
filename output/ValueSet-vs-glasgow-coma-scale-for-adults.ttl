@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults> a fhir:ValueSet ;
+<http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "vs-glasgow-coma-scale-for-adults"] ; # 
   fhir:text [
@@ -19,19 +19,19 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "VS_GlasgowComaScaleForAdults"] ; # 
   fhir:title [ fhir:v "Present Qualifers (negativ until three plus)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-16T15:14:40+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-16T17:46:04+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

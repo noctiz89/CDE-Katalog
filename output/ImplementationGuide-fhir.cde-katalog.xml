@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="fhir.cde-catalog"/>
+  <id value="fhir.cde-katalog"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDE-katalog</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.org/de/ImplementationGuide/cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>cde-katalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/de/ImplementationGuide/fhir.cde-katalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -12,13 +12,13 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
+  <url value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
   <version value="0.2.0"/>
-  <name value="CDE-katalog"/>
+  <name value="cde-katalog"/>
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-16T15:14:40+01:00"/>
+  <date value="2023-03-16T17:46:04+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -146,7 +146,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.org/de/history.html"/>
+        <valueString value="http://hl7.org/de/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -362,7 +362,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://fhir.org/de/history.html"/>
+        <valueString value="http://hl7.org/de/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

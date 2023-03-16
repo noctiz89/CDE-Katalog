@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://fhir.org/de/StructureDefinition/cde-ethnicity> a fhir:StructureDefinition ;
+<http://hl7.org/de/StructureDefinition/cde-ethnicity> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cde-ethnicity"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
          ]
        ] )
      ]
@@ -31,18 +31,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://fhir.org/de/StructureDefinition/cde-ethnicity"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/StructureDefinition/cde-ethnicity"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CDE_Ethnicity"] ; # 
   fhir:title [ fhir:v "CDE Ethnicity"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-16T15:14:40+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-16T17:46:04+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -87,8 +87,8 @@
   fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
   fhir:type [ fhir:v "Observation"^^xsd:anyURI] ; # 
   fhir:baseDefinition [
-     fhir:v "http://fhir.org/de/StructureDefinition/cls-snomed-demographic-history-detail"^^xsd:anyURI ;
-     fhir:link <http://fhir.org/de/StructureDefinition/cls-snomed-demographic-history-detail>
+     fhir:v "http://hl7.org/de/StructureDefinition/cls-snomed-demographic-history-detail"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/de/StructureDefinition/cls-snomed-demographic-history-detail>
   ] ; # 
   fhir:derivation [ fhir:v "constraint"] ; # 
   fhir:snapshot [
@@ -6414,8 +6414,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://fhir.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ValueSet/vs-ethnic-groups>
+           fhir:v "http://hl7.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ValueSet/vs-ethnic-groups>
          ]
        ] ;
        fhir:mapping ( [
@@ -14640,8 +14640,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://fhir.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ValueSet/vs-ethnic-groups>
+           fhir:v "http://hl7.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ValueSet/vs-ethnic-groups>
          ]
        ] ;
        fhir:mapping ( [
@@ -15020,8 +15020,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://fhir.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ValueSet/vs-ethnic-groups>
+           fhir:v "http://hl7.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ValueSet/vs-ethnic-groups>
          ]
        ]
      ] [
@@ -15367,8 +15367,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://fhir.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
-           fhir:link <http://fhir.org/de/ValueSet/vs-ethnic-groups>
+           fhir:v "http://hl7.org/de/ValueSet/vs-ethnic-groups"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ValueSet/vs-ethnic-groups>
          ]
        ]
      ] )

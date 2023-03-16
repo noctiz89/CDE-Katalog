@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   },
@@ -21,16 +21,16 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
       }]
     }
   }],
-  "url" : "http://fhir.org/de/StructureDefinition/cde-current-age-reported",
+  "url" : "http://hl7.org/de/StructureDefinition/cde-current-age-reported",
   "version" : "0.2.0",
   "name" : "CDE_CurrentAgeReported",
   "title" : "CDE Current Age Reported",
   "status" : "active",
-  "date" : "2023-03-16T15:14:40+01:00",
+  "date" : "2023-03-16T17:46:04+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -79,7 +79,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://fhir.org/de/StructureDefinition/cls-obo-ncit-age",
+  "baseDefinition" : "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{
@@ -5275,7 +5275,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "wk | a",
-        "valueSet" : "http://fhir.org/de/ValueSet/vs-mass-concentration-units"
+        "valueSet" : "http://hl7.org/de/ValueSet/vs-mass-concentration-units"
       },
       "mapping" : [{
         "identity" : "rim",
@@ -7085,7 +7085,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "wk | a",
-        "valueSet" : "http://fhir.org/de/ValueSet/vs-mass-concentration-units"
+        "valueSet" : "http://hl7.org/de/ValueSet/vs-mass-concentration-units"
       }
     }]
   }
