@@ -1,5 +1,5 @@
 {
-  "package": "fhir.cde-catalog",
+  "package": "cde-katalog",
   "version": "0.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
@@ -7,25 +7,25 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/rv-age",
+        "url": "http://fhir.org/de/StructureDefinition/rv-age",
         "title": "RV Age"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-patient",
+        "url": "http://fhir.org/de/StructureDefinition/poi-patient",
         "title": "POI Patient"
       }
     ],
     "Person": [
       {
-        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-person",
+        "url": "http://fhir.org/de/StructureDefinition/poi-person",
         "title": "POI Person"
       }
     ],
     "ResearchSubject": [
       {
-        "url": "http://hl7.org/fhir/de/myig/StructureDefinition/poi-research-subject",
+        "url": "http://fhir.org/de/StructureDefinition/poi-research-subject",
         "title": "POI Research Subject"
       }
     ]
@@ -91,10 +91,6 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog": [
-      "Questionnaire.item.item.item.item.text",
-      "Questionnaire.item.item.item.text"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",
       "ImplementationGuide.definition.page.page",
@@ -108,6 +104,10 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "lang": [
+      "Questionnaire.item.item.item.item.text",
+      "Questionnaire.item.item.item.text"
     ]
   }
 }

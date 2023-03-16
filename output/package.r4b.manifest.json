@@ -1,6 +1,6 @@
 {
   "version" : "0.2.0",
-  "date" : "20230315201303",
+  "date" : "20230316150950",
   "notForPublication" : true,
-  "name" : "fhir.cde-catalog.r4b"
+  "name" : "cde-katalog.r4b"
 }

@@ -6,32 +6,23 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul/></div>"
   },
   "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1,
-    "_valueInteger" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
-      }]
-    }
-  },
-  {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
     "valueCode" : "informative",
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults",
+  "url" : "http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
   "version" : "0.2.0",
   "name" : "VS_GlasgowComaScaleForAdults",
-  "title" : "VS Glasgow Coma Scale For Adults",
-  "status" : "active",
-  "date" : "2023-03-15T20:18:50+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "title" : "Present Qualifers (negativ until three plus)",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2023-03-16T15:14:40+01:00",
+  "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
       "system" : "url",

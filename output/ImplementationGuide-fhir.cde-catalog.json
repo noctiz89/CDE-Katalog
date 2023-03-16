@@ -3,7 +3,7 @@
   "id" : "fhir.cde-catalog",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CDE-katalog</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.org/de/ImplementationGuide/cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -13,14 +13,14 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 1
   }],
-  "url" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog",
+  "url" : "http://fhir.org/de/ImplementationGuide/cde-catalog",
   "version" : "0.2.0",
-  "name" : "CDEKatalog",
+  "name" : "CDE-katalog",
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-15T20:18:50+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "date" : "2023-03-16T15:14:40+01:00",
+  "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
       "system" : "url",
@@ -34,7 +34,7 @@
       "code" : "001"
     }]
   }],
-  "packageId" : "fhir.cde-catalog",
+  "packageId" : "cde-katalog",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -187,7 +187,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.org/fhir/de/myig/history.html"
+        "valueString" : "http://fhir.org/de/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -484,7 +484,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.org/fhir/de/myig/history.html"
+        "valueString" : "http://fhir.org/de/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1672,7 +1672,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-administrative-gender"
       },
-      "name" : "VS AdministrativeGender",
+      "name" : "Administrative gender",
       "description" : "Dieses ValueSet enthält Codes für das administrative Geschlecht."
     },
     {
@@ -1683,7 +1683,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-binary-decision-yes-or-no"
       },
-      "name" : "VS Binary Decision Yes Or No",
+      "name" : "Binary decision (yes or no)",
       "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
     },
     {
@@ -1694,7 +1694,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-biological-gender"
       },
-      "name" : "VS Biological Gender",
+      "name" : "Biological sex types",
       "description" : "Dieses ValueSet enthält Snomed-Codes für das 'biologische Geschlecht'."
     },
     {
@@ -1705,7 +1705,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-ethnic-groups"
       },
-      "name" : "VS Ethnic Groups",
+      "name" : "Ethnic groups",
       "description" : "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."
     },
     {
@@ -1716,7 +1716,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-glasgow-coma-scale-for-adults"
       },
-      "name" : "VS Glasgow Coma Scale For Adults",
+      "name" : "Present Qualifers (negativ until three plus)",
       "description" : "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"
     },
     {
@@ -1727,19 +1727,8 @@
       "reference" : {
         "reference" : "ValueSet/vs-length-units"
       },
-      "name" : "VS Length Units",
+      "name" : "Common units for 'lenght'",
       "description" : "UCUM Codes für 'Länge'"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-leucocytes-diptest-finding"
-      },
-      "name" : "VS Leucocytes Diptest Finding",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für"
     },
     {
       "extension" : [{
@@ -1749,7 +1738,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-mass-concentration-units"
       },
-      "name" : "VS Mass Concentration Units",
+      "name" : "Common units for 'mass concentration'",
       "description" : "UCUM Codes für Massenkonzentration"
     },
     {
@@ -1760,7 +1749,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-mass-units"
       },
-      "name" : "VS Mass Units",
+      "name" : "Common units for 'mass'",
       "description" : "UCUM Codes für 'Masse'"
     },
     {
@@ -1771,7 +1760,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-molar-concentration-units"
       },
-      "name" : "VS Molar Concentration Units",
+      "name" : "Common units for 'mole concentration'",
       "description" : "UCUM Codes für Stoffmengenkonzentration"
     },
     {
@@ -1782,7 +1771,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-number-concentration-units"
       },
-      "name" : "VS Number Concentration Units",
+      "name" : "Common units for 'number concentration'",
       "description" : "UCUM Codes für 'Anzahl pro Volumen'."
     },
     {
@@ -1793,7 +1782,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-qualifier-for-presence"
       },
-      "name" : "VS Qualifier For Presence",
+      "name" : "Present Qualifers (negativ until three plus)",
       "description" : "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."
     },
     {
@@ -1804,7 +1793,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-sentinel-conceptual-domain"
       },
-      "name" : "VS Sentinel Conceptual Domain",
+      "name" : "Reasons for missing data (sentinel)",
       "description" : "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."
     },
     {
@@ -1815,7 +1804,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-smoking-status"
       },
-      "name" : "VS Smoking Status",
+      "name" : "Smoking Status Types",
       "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."
     },
     {
@@ -1826,7 +1815,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-specimen-types"
       },
-      "name" : "VS Specimen Types",
+      "name" : "Specimen Types (for Clinical Chemistry)",
       "description" : "LOINC Codes für 'Probenmaterial'"
     },
     {
@@ -1837,7 +1826,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-time-units"
       },
-      "name" : "VS Time Units",
+      "name" : "Common units for 'time span'",
       "description" : "UCUM Codes für 'Zeit'"
     },
     {
@@ -1848,7 +1837,7 @@
       "reference" : {
         "reference" : "ValueSet/vs-unity-units"
       },
-      "name" : "VS Unity Units",
+      "name" : "Common units for 'unity element'",
       "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
     }],
     "page" : {

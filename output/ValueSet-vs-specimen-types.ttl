@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types> a fhir:ValueSet ;
+<http://fhir.org/de/ValueSet/vs-specimen-types> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "vs-specimen-types"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LP7057-5/\">LP7057-5</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7067-4/\">LP7067-4</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7567-3/\">LP7567-3</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7479-1/\">LP7479-1</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7536-8/\">LP7536-8</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7494-0/\">LP7494-0</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7690-3/\">LP7690-3</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7156-5/\">LP7156-5</a></td><td/></tr><tr><td><a href=\"https://loinc.org/LP7238-1/\">LP7238-1</a></td><td/></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LP7057-5/\">LP7057-5</a></td><td>Blood</td></tr><tr><td><a href=\"https://loinc.org/LP7067-4/\">LP7067-4</a></td><td>Blood arterial</td></tr><tr><td><a href=\"https://loinc.org/LP7567-3/\">LP7567-3</a></td><td>Serum</td></tr><tr><td><a href=\"https://loinc.org/LP7479-1/\">LP7479-1</a></td><td>Plasma</td></tr><tr><td><a href=\"https://loinc.org/LP7536-8/\">LP7536-8</a></td><td>Red Blood Cells</td></tr><tr><td><a href=\"https://loinc.org/LP7494-0/\">LP7494-0</a></td><td>Platelet poor plasma</td></tr><tr><td><a href=\"https://loinc.org/LP7690-3/\">LP7690-3</a></td><td>Urine sediment</td></tr><tr><td><a href=\"https://loinc.org/LP7156-5/\">LP7156-5</a></td><td>Cerebral spinal fluid</td></tr><tr><td><a href=\"https://loinc.org/LP7238-1/\">LP7238-1</a></td><td>Body fluid</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
          ]
        ] )
      ]
@@ -31,19 +31,20 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://fhir.org/de/ValueSet/vs-specimen-types"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "VS_SpecimenTypes"] ; # 
-  fhir:title [ fhir:v "VS Specimen Types"] ; # 
+  fhir:title [ fhir:v "Specimen Types (for Clinical Chemistry)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-16T15:14:40+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
@@ -61,23 +62,32 @@
      fhir:include ( [
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
        fhir:concept ( [
-         fhir:code [ fhir:v "LP7057-5" ]
+         fhir:code [ fhir:v "LP7057-5" ] ;
+         fhir:display [ fhir:v "Blood" ]
        ] [
-         fhir:code [ fhir:v "LP7067-4" ]
+         fhir:code [ fhir:v "LP7067-4" ] ;
+         fhir:display [ fhir:v "Blood arterial" ]
        ] [
-         fhir:code [ fhir:v "LP7567-3" ]
+         fhir:code [ fhir:v "LP7567-3" ] ;
+         fhir:display [ fhir:v "Serum" ]
        ] [
-         fhir:code [ fhir:v "LP7479-1" ]
+         fhir:code [ fhir:v "LP7479-1" ] ;
+         fhir:display [ fhir:v "Plasma" ]
        ] [
-         fhir:code [ fhir:v "LP7536-8" ]
+         fhir:code [ fhir:v "LP7536-8" ] ;
+         fhir:display [ fhir:v "Red Blood Cells" ]
        ] [
-         fhir:code [ fhir:v "LP7494-0" ]
+         fhir:code [ fhir:v "LP7494-0" ] ;
+         fhir:display [ fhir:v "Platelet poor plasma" ]
        ] [
-         fhir:code [ fhir:v "LP7690-3" ]
+         fhir:code [ fhir:v "LP7690-3" ] ;
+         fhir:display [ fhir:v "Urine sediment" ]
        ] [
-         fhir:code [ fhir:v "LP7156-5" ]
+         fhir:code [ fhir:v "LP7156-5" ] ;
+         fhir:display [ fhir:v "Cerebral spinal fluid" ]
        ] [
-         fhir:code [ fhir:v "LP7238-1" ]
+         fhir:code [ fhir:v "LP7238-1" ] ;
+         fhir:display [ fhir:v "Body fluid" ]
        ] )
      ] )
   ] . # 

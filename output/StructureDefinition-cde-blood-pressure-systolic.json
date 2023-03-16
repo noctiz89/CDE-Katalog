@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
       }]
     }
   },
@@ -21,17 +21,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/de/myig/StructureDefinition/cde-blood-pressure-systolic",
+  "url" : "http://fhir.org/de/StructureDefinition/cde-blood-pressure-systolic",
   "version" : "0.2.0",
   "name" : "CDE_BloodPressureSystolic",
   "title" : "CDE Blood Pressure Systolic",
   "status" : "active",
-  "date" : "2023-03-15T20:18:50+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "date" : "2023-03-16T15:14:40+01:00",
+  "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
       "system" : "url",
@@ -79,7 +79,7 @@
   "kind" : "resource",
   "abstract" : false,
   "type" : "Observation",
-  "baseDefinition" : "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
+  "baseDefinition" : "http://fhir.org/de/StructureDefinition/cls-obo-cmo-systolic-blood-pressure",
   "derivation" : "constraint",
   "snapshot" : {
     "element" : [{

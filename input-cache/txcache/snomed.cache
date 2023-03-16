@@ -6,12 +6,12 @@
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "373067005",
-        "display" : "No"
-      },
-      {
         "code" : "373066001",
         "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
       }]
     }]
   }
@@ -22,8 +22,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:06afb26d-6808-4b76-a1be-1ef6dd57b344",
-    "timestamp" : "2023-03-06T08:44:03.633Z",
+    "identifier" : "urn:uuid:3cce8780-bbf0-463f-bf98-cc547dcd9dc8",
+    "timestamp" : "2023-03-16T11:06:32.765Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -38,13 +38,13 @@ e: {
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No"
+      "code" : "373066001",
+      "display" : "Yes"
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes"
+      "code" : "373067005",
+      "display" : "No"
     }]
   }
 },
@@ -78,8 +78,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:003823a3-1181-4ec2-8493-29d51be6c830",
-    "timestamp" : "2023-03-06T08:44:03.851Z",
+    "identifier" : "urn:uuid:909bffa8-25be-409d-8861-feac94aa9c5d",
+    "timestamp" : "2023-03-16T11:06:32.937Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -129,16 +129,20 @@ v: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "1631000175102",
-        "display" : "Der Patient wurde nicht gefragt."
+        "code" : "260385009",
+        "display" : "Negativ"
       },
       {
-        "code" : "261665006",
-        "display" : "Unbekannt"
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
       },
       {
-        "code" : "1220561009",
-        "display" : "Wird nicht aufgezeichnet/erfasst."
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
       }]
     }]
   }
@@ -149,8 +153,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:066643d3-8716-4f4a-b820-a141c5c4c2cf",
-    "timestamp" : "2023-03-06T08:44:04.664Z",
+    "identifier" : "urn:uuid:50169789-523e-4931-b3e0-1c780c0ae440",
+    "timestamp" : "2023-03-16T11:06:34.796Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -165,18 +169,93 @@ e: {
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "1631000175102",
-      "display" : "Der Patient wurde nicht gefragt."
+      "code" : "260385009",
+      "display" : "Negativ"
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "261665006",
-      "display" : "Unbekannt"
+      "code" : "441614007",
+      "display" : "Present one plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441517005",
+      "display" : "Present two plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441521003",
+      "display" : "Present three plus out of three plus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385660001",
+        "display" : "Not done"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Not recorded"
+      },
+      {
+        "code" : "443390004",
+        "display" : "Refused"
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:909463a3-8ed7-4d5c-905d-6372a6f4af85",
+    "timestamp" : "2023-03-16T11:06:34.999Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385660001",
+      "display" : "Not done"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1220561009",
-      "display" : "Wird nicht aufgezeichnet/erfasst."
+      "display" : "Not recorded"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443390004",
+      "display" : "Refused"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "261665006",
+      "display" : "Unknown"
     }]
   }
 },
@@ -214,8 +293,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:73a006c9-2b74-42ff-a3ba-3e8b18a0fda4",
-    "timestamp" : "2023-03-06T08:44:05.195Z",
+    "identifier" : "urn:uuid:56fa1bcb-8856-4e9a-a6a1-767beceb05cf",
+    "timestamp" : "2023-03-16T11:06:35.171Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -255,21 +334,21 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "373067005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "No (qualifier value)",
-  "code" : "373067005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "373066001"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Yes (qualifier value)",
   "code" : "373066001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "373067005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "No (qualifier value)",
+  "code" : "373067005",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -305,21 +384,51 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "1631000175102"
+  "code" : "260385009"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Patient not asked (contextual qualifier) (qualifier value)",
-  "code" : "1631000175102",
+  "display" : "Negative",
+  "code" : "260385009",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "261665006"
+  "code" : "441614007"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Unknown",
-  "code" : "261665006",
+  "display" : "Present + out of +++",
+  "code" : "441614007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441517005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Present ++ out of +++",
+  "code" : "441517005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441521003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Present three plus out of three plus",
+  "code" : "441521003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385660001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Not done (qualifier value)",
+  "code" : "385660001",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -330,6 +439,26 @@ v: {
 v: {
   "display" : "Not recorded (qualifier value)",
   "code" : "1220561009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "443390004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Refused (qualifier value)",
+  "code" : "443390004",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "261665006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Unknown",
+  "code" : "261665006",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -373,167 +502,6 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "228272008",
-  "display" : "Gesundheitsbezogenes Verhalten"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Health-related behavior",
-  "code" : "228272008",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Gesundheitsbezogenes Verhalten\" is not a valid display for the code {http://snomed.info/sct}228272008 - should be one of ['Health-related behavior', 'Health-related behavior (observable entity)'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "134436002",
-  "display" : "Gesundheitsbezogener Lebensstil"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Lifestyle",
-  "code" : "134436002",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Gesundheitsbezogener Lebensstil\" is not a valid display for the code {http://snomed.info/sct}134436002 - should be one of ['Lifestyle', 'Lifestyle (finding)'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "160476009",
-  "display" : "Soziale / Persönliche Details"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Social / personal history observable",
-  "code" : "160476009",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Soziale / Persönliche Details\" is not a valid display for the code {http://snomed.info/sct}160476009 - should be one of ['Social / personal history observable', 'Social and personal history', 'Social / personal history observable (observable entity)', 'Personal details', 'Social history', 'Social and personal circumstances', 'Personal and social circumstances', 'PH - Personal history', 'SH - Social history', 'Personal history'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "785671009"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Finding of substance level (finding)",
-  "code" : "785671009",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "424144002",
-  "display" : "Alter"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Current chronological age (observable entity)",
-  "code" : "424144002",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Alter\" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "184099003",
-  "display" : "Geburtsdatum"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Date of birth",
-  "code" : "184099003",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Geburtsdatum\" is not a valid display for the code {http://snomed.info/sct}184099003 - should be one of ['Date of birth', 'Date of birth (observable entity)', 'DOB - Date of birth'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "263495000",
-  "display" : "Geschlecht"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Gender",
-  "code" : "263495000",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Geschlecht\" is not a valid display for the code {http://snomed.info/sct}263495000 - should be one of ['Gender', 'Gender (observable entity)'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "371439000"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Specimen type (observable entity)",
-  "code" : "371439000",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "424144002",
-  "display" : "Diagnose"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Current chronological age (observable entity)",
-  "code" : "424144002",
-  "system" : "http://snomed.info/sct",
-  "severity" : "warning",
-  "error" : "The display \"Diagnose\" is not a valid display for the code {http://snomed.info/sct}424144002 - should be one of ['Current chronological age (observable entity)', 'Current chronological age', 'Age'] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "87612001"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood",
-  "code" : "87612001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "65216001"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Cerebrospinal fluid",
-  "code" : "65216001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "67922002"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Serum",
-  "code" : "67922002",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "50863008"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Plasma",
-  "code" : "50863008",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "78014005"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Urine",
-  "code" : "78014005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -541,12 +509,12 @@ v: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "373067005",
-        "display" : "No"
-      },
-      {
         "code" : "373066001",
         "display" : "Yes"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
       }]
     }]
   }
@@ -557,8 +525,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:a975a500-47b2-48d4-af6e-1686d57bcd7a",
-    "timestamp" : "2023-03-06T08:49:41.664Z",
+    "identifier" : "urn:uuid:f3b31324-d542-4abb-8285-124c587b91d4",
+    "timestamp" : "2023-03-16T11:21:55.952Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -569,13 +537,13 @@ e: {
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No"
+      "code" : "373066001",
+      "display" : "Yes"
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes"
+      "code" : "373067005",
+      "display" : "No"
     }]
   }
 },
@@ -609,8 +577,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:cc03a446-217a-4bda-81ef-ee5c38b110a9",
-    "timestamp" : "2023-03-06T08:49:41.882Z",
+    "identifier" : "urn:uuid:5cbafffa-ee0c-4d9e-b2e2-a97d35ba8e5d",
+    "timestamp" : "2023-03-16T11:21:56.249Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -663,8 +631,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:bb86dbaf-c3da-47b8-8b16-79d89134ccbd",
-    "timestamp" : "2023-03-06T08:49:42.117Z",
+    "identifier" : "urn:uuid:aa17a35e-8e42-46e8-af19-ef2ab473b983",
+    "timestamp" : "2023-03-16T11:21:56.515Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1885,16 +1853,20 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "1631000175102",
-        "display" : "Der Patient wurde nicht gefragt."
+        "code" : "260385009",
+        "display" : "Negativ"
       },
       {
-        "code" : "261665006",
-        "display" : "Unbekannt"
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
       },
       {
-        "code" : "1220561009",
-        "display" : "Wird nicht aufgezeichnet/erfasst."
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
       }]
     }]
   }
@@ -1905,8 +1877,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9017eba3-32e2-41b8-992f-f4e676de134f",
-    "timestamp" : "2023-03-06T08:49:43.523Z",
+    "identifier" : "urn:uuid:e079942d-9964-4e28-a7a2-2e9a9440755d",
+    "timestamp" : "2023-03-16T11:21:58.327Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -1917,18 +1889,89 @@ e: {
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "1631000175102",
-      "display" : "Der Patient wurde nicht gefragt."
+      "code" : "260385009",
+      "display" : "Negativ"
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "261665006",
-      "display" : "Unbekannt"
+      "code" : "441614007",
+      "display" : "Present one plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441517005",
+      "display" : "Present two plus out of three plus"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441521003",
+      "display" : "Present three plus out of three plus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385660001",
+        "display" : "Not done"
+      },
+      {
+        "code" : "1220561009",
+        "display" : "Not recorded"
+      },
+      {
+        "code" : "443390004",
+        "display" : "Refused"
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:45d86d60-5ff6-43a5-96d7-0948b73c53eb",
+    "timestamp" : "2023-03-16T11:21:58.561Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385660001",
+      "display" : "Not done"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "1220561009",
-      "display" : "Wird nicht aufgezeichnet/erfasst."
+      "display" : "Not recorded"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443390004",
+      "display" : "Refused"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "261665006",
+      "display" : "Unknown"
     }]
   }
 },
@@ -1966,8 +2009,8 @@ e: {
   "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:b62daef8-f6bf-4d89-8f29-e54148e37a69",
-    "timestamp" : "2023-03-06T08:49:44.226Z",
+    "identifier" : "urn:uuid:9730eea2-a858-4903-97c9-e270f150783c",
+    "timestamp" : "2023-03-16T11:21:58.780Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -2003,16 +2046,6 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "432213005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Date of diagnosis (observable entity)",
-  "code" : "432213005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "138875005"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
@@ -2028,6 +2061,46 @@ v: {
 v: {
   "display" : "Observable entity",
   "code" : "363787002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "105727008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Age AND/OR growth period",
+  "code" : "105727008",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "424144002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Current chronological age (observable entity)",
+  "code" : "424144002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "243814003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Interpretation of findings",
+  "code" : "243814003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "439401001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Diagnosis (observable entity)",
+  "code" : "439401001",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -2133,121 +2206,11 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "228272008"
+  "code" : "1221000175102"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Health-related behavior",
-  "code" : "228272008",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "134436002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Lifestyle",
-  "code" : "134436002",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "785671009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Finding of substance level (finding)",
-  "code" : "785671009",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "424144002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Current chronological age (observable entity)",
-  "code" : "424144002",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "184099003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Date of birth",
-  "code" : "184099003",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "263495000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Gender",
-  "code" : "263495000",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "371439000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Specimen type (observable entity)",
-  "code" : "371439000",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "87612001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Blood",
-  "code" : "87612001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "65216001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Cerebrospinal fluid",
-  "code" : "65216001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "67922002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Serum",
-  "code" : "67922002",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "50863008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Plasma",
-  "code" : "50863008",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "78014005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Urine",
-  "code" : "78014005",
+  "display" : "Age at smoking cessation (observable entity)",
+  "code" : "1221000175102",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
@@ -2278,1192 +2241,6 @@ v: {
 v: {
   "display" : "Pack years",
   "code" : "315609007",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes (qualifier value)"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No (qualifier value)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:b7b2eab5-5434-4869-a54f-9f3ff213330e",
-    "timestamp" : "2023-03-09T11:12:40.544Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes (qualifier value)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No (qualifier value)"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:64d578a2-55f2-4268-9014-abf476ad2eb7",
-    "timestamp" : "2023-03-09T11:12:40.732Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes (qualifier value)"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No (qualifier value)"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:75717787-2bcb-4c11-973f-6b5c0d4cccc7",
-    "timestamp" : "2023-03-09T12:08:57.059Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes (qualifier value)"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No (qualifier value)"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:82015a9d-9ba2-45c1-80df-14b7487318c6",
-    "timestamp" : "2023-03-09T12:08:57.449Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "373066001",
-      "display" : "Yes"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "373067005",
-      "display" : "No"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negative"
-      },
-      {
-        "code" : "394712000",
-        "display" : "+"
-      },
-      {
-        "code" : "394713005",
-        "display" : "++"
-      },
-      {
-        "code" : "394714004",
-        "display" : "+++"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:f2a9ae5c-f926-4ace-a32a-1915b658b24a",
-    "timestamp" : "2023-03-10T19:44:14.764Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260385009",
-      "display" : "Negative"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394712000",
-      "display" : "+"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394713005",
-      "display" : "++"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394714004",
-      "display" : "+++"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negativ"
-      },
-      {
-        "code" : "441614007",
-        "display" : "Present one plus out of three plus"
-      },
-      {
-        "code" : "441517005",
-        "display" : "Present two plus out of three plus"
-      },
-      {
-        "code" : "441521003",
-        "display" : "Present three plus out of three plus"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:7e815ae2-1a0d-45b9-a49e-33cea6f05d7e",
-    "timestamp" : "2023-03-10T19:44:15.045Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260385009",
-      "display" : "Negativ"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441614007",
-      "display" : "Present one plus out of three plus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441517005",
-      "display" : "Present two plus out of three plus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441521003",
-      "display" : "Present three plus out of three plus"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "260385009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Negative",
-  "code" : "260385009",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "394712000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Urine leukocyte test = +",
-  "code" : "394712000",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "394713005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Urine leukocyte test = ++",
-  "code" : "394713005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "394714004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Urine leukocyte test = +++",
-  "code" : "394714004",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "441614007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Present + out of +++",
-  "code" : "441614007",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "441517005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Present ++ out of +++",
-  "code" : "441517005",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "441521003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Present three plus out of three plus",
-  "code" : "441521003",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negative"
-      },
-      {
-        "code" : "394712000",
-        "display" : "+"
-      },
-      {
-        "code" : "394713005",
-        "display" : "++"
-      },
-      {
-        "code" : "394714004",
-        "display" : "+++"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:f5aa8347-c501-498b-a2fd-e587867b9b5d",
-    "timestamp" : "2023-03-10T19:55:14.466Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260385009",
-      "display" : "Negative"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394712000",
-      "display" : "+"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394713005",
-      "display" : "++"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "394714004",
-      "display" : "+++"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negativ"
-      },
-      {
-        "code" : "441614007",
-        "display" : "Present one plus out of three plus"
-      },
-      {
-        "code" : "441517005",
-        "display" : "Present two plus out of three plus"
-      },
-      {
-        "code" : "441521003",
-        "display" : "Present three plus out of three plus"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:370adf3e-f6c0-4aa7-a17e-bc7acbbae20e",
-    "timestamp" : "2023-03-10T19:55:15.201Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260385009",
-      "display" : "Negativ"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441614007",
-      "display" : "Present one plus out of three plus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441517005",
-      "display" : "Present two plus out of three plus"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "441521003",
-      "display" : "Present three plus out of three plus"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1221000175102"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Age at smoking cessation (observable entity)",
-  "code" : "1221000175102",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "248153007",
-        "display" : "Male"
-      },
-      {
-        "code" : "248152002",
-        "display" : "Female"
-      },
-      {
-        "code" : "32570691000036108",
-        "display" : "Intersex"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "372148003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '372148003'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#372148003) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negative"
-      },
-      {
-        "code" : "394712000",
-        "display" : "+"
-      },
-      {
-        "code" : "394713005",
-        "display" : "++"
-      },
-      {
-        "code" : "394714004",
-        "display" : "+++"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "1631000175102",
-        "display" : "Der Patient wurde nicht gefragt."
-      },
-      {
-        "code" : "261665006",
-        "display" : "Unbekannt"
-      },
-      {
-        "code" : "1220561009",
-        "display" : "Wird nicht aufgezeichnet/erfasst."
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negativ"
-      },
-      {
-        "code" : "441614007",
-        "display" : "Present one plus out of three plus"
-      },
-      {
-        "code" : "441517005",
-        "display" : "Present two plus out of three plus"
-      },
-      {
-        "code" : "441521003",
-        "display" : "Present three plus out of three plus"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "449868002",
-        "display" : "Smokes tobacco daily"
-      },
-      {
-        "code" : "428041000124106",
-        "display" : "Occasional tobacco smoker"
-      },
-      {
-        "code" : "8517006",
-        "display" : "Ex-smoker"
-      },
-      {
-        "code" : "8392000",
-        "display" : "Non-smoker"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "373066001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '373066001'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#373066001) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "248153007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '248153007'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#248153007) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "260385009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '260385009'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#260385009) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "1631000175102"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '1631000175102'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#1631000175102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "version" : "2023-01-31",
-  "code" : "449868002"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "severity" : "error",
-  "error" : "Local Error: Unable to resolve system http://snomed.info/sct. Server Error: Version '2023-01-31' of the code system 'http://snomed.info/sct' is not known (encountered paired with code = '449868002'). ValidVersions = [http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/11000172109/version/20221115,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20220731]; The code provided (http://snomed.info/sct#449868002) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)",
-  "class" : "CODESYSTEM_UNSUPPORTED"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "373066001",
-        "display" : "Yes"
-      },
-      {
-        "code" : "373067005",
-        "display" : "No"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-binary-decision-yes-or-no", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "248153007",
-        "display" : "Male"
-      },
-      {
-        "code" : "248152002",
-        "display" : "Female"
-      },
-      {
-        "code" : "32570691000036108",
-        "display" : "Intersex"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-biological-gender", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "is-a",
-        "value" : "372148003"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-ethnic-groups", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negative"
-      },
-      {
-        "code" : "394712000",
-        "display" : "+"
-      },
-      {
-        "code" : "394713005",
-        "display" : "++"
-      },
-      {
-        "code" : "394714004",
-        "display" : "+++"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-leucocytes-diptest-finding", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "1631000175102",
-        "display" : "Der Patient wurde nicht gefragt."
-      },
-      {
-        "code" : "261665006",
-        "display" : "Unbekannt"
-      },
-      {
-        "code" : "1220561009",
-        "display" : "Wird nicht aufgezeichnet/erfasst."
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-missing-values-as-snomed", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "260385009",
-        "display" : "Negativ"
-      },
-      {
-        "code" : "441614007",
-        "display" : "Present one plus out of three plus"
-      },
-      {
-        "code" : "441517005",
-        "display" : "Present two plus out of three plus"
-      },
-      {
-        "code" : "441521003",
-        "display" : "Present three plus out of three plus"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-qualifier-for-presence", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "2023-01-31",
-      "concept" : [{
-        "code" : "449868002",
-        "display" : "Smokes tobacco daily"
-      },
-      {
-        "code" : "428041000124106",
-        "display" : "Occasional tobacco smoker"
-      },
-      {
-        "code" : "8517006",
-        "display" : "Ex-smoker"
-      },
-      {
-        "code" : "8392000",
-        "display" : "Non-smoker"
-      }]
-    }]
-  }
-}}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "url": "http://somewhere.org/fhir/uv/myig/ValueSet/vs-smoking-status", "version": "0.2.0"}####
-e: {
-  "error" : "Error from server: Unable to provide support for code system http://snomed.info/sct version 2023-01-31 (known versions = http://snomed.info/sct/900000000000207008/version/20220731,http://snomed.info/sct/900000000000207008/version/20190731,http://snomed.info/sct/900000000000207008/version/20210731,http://snomed.info/sct/900000000000207008/version/20200731,http://snomed.info/sct/11000146104/version/20220930,http://snomed.info/sct/731000124108/version/20220901,http://snomed.info/sct/554471000005108/version/20220930,http://snomed.info/sct/45991000052106/version/20210531,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20220731,http://snomed.info/sct/11000172109/version/20221115)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "385660001",
-        "display" : "Not done"
-      },
-      {
-        "code" : "1220561009",
-        "display" : "Not recorded"
-      },
-      {
-        "code" : "443390004",
-        "display" : "Refused"
-      },
-      {
-        "code" : "261665006",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:35f89678-cd69-47f0-a56b-9e8f306c406e",
-    "timestamp" : "2023-03-14T20:23:07.060Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "excludeNested",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "385660001",
-      "display" : "Not done"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1220561009",
-      "display" : "Not recorded"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "443390004",
-      "display" : "Refused"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "261665006",
-      "display" : "Unknown"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "385660001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Not done (qualifier value)",
-  "code" : "385660001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "443390004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Refused (qualifier value)",
-  "code" : "443390004",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "inactive" : true,
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "385660001",
-        "display" : "Not done"
-      },
-      {
-        "code" : "1220561009",
-        "display" : "Not recorded"
-      },
-      {
-        "code" : "443390004",
-        "display" : "Refused"
-      },
-      {
-        "code" : "261665006",
-        "display" : "Unknown"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "language" : "en",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:580cbc16-ca6f-4293-815b-d446a8e6444e",
-    "timestamp" : "2023-03-14T20:32:03.685Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "385660001",
-      "display" : "Not done"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1220561009",
-      "display" : "Not recorded"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "443390004",
-      "display" : "Refused"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "261665006",
-      "display" : "Unknown"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "243814003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Interpretation of findings",
-  "code" : "243814003",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "439401001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Diagnosis (observable entity)",
-  "code" : "439401001",
-  "system" : "http://snomed.info/sct"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "105727008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
-v: {
-  "display" : "Age AND/OR growth period",
-  "code" : "105727008",
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------

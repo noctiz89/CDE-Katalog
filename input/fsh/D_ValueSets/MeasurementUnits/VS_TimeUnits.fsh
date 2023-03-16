@@ -2,6 +2,13 @@ ValueSet: VS_TimeUnits
 Id: vs-time-units
 Title: "VS Time Units"
 Description: "UCUM Codes für 'Zeit'"
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'time span'"
+////
 * include $UCUM#ps
 * include $UCUM#ns
 * include $UCUM#us

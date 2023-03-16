@@ -2,6 +2,13 @@ ValueSet: VS_LengthUnits
 Id: vs-length-units
 Title: "VS Length Units"
 Description: "UCUM Codes für 'Länge'"
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'lenght'"
+////
 * include $UCUM#fm
 * include $UCUM#pm
 * include $UCUM#nm

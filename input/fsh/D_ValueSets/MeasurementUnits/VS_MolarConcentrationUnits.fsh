@@ -2,6 +2,13 @@ ValueSet: VS_MolarConcentrationUnits
 Id: vs-molar-concentration-units
 Title: "VS Molar Concentration Units"
 Description: "UCUM Codes für Stoffmengenkonzentration"
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'mole concentration'"
+////
 * include $UCUM#umol/L
 * include $UCUM#mmol/L
 * include $UCUM#fmol/mL

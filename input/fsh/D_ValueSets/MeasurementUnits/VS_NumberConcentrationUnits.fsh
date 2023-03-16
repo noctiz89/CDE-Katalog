@@ -2,6 +2,13 @@ ValueSet: VS_NumberConcentrationUnits
 Id: vs-number-concentration-units
 Title: "VS Number Concentration Units"
 Description: "UCUM Codes für 'Anzahl pro Volumen'."
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'number concentration'"
+////
 * include $UCUM#uL
 * include $UCUM#{Cells}/uL
 * include $UCUM#{rbc}/uL

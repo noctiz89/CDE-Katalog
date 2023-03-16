@@ -3,29 +3,30 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="vs-specimen-types"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LP7057-5/">LP7057-5</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7067-4/">LP7067-4</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7567-3/">LP7567-3</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7479-1/">LP7479-1</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7536-8/">LP7536-8</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7494-0/">LP7494-0</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7690-3/">LP7690-3</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7156-5/">LP7156-5</a></td><td/></tr><tr><td><a href="https://loinc.org/LP7238-1/">LP7238-1</a></td><td/></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LP7057-5/">LP7057-5</a></td><td>Blood</td></tr><tr><td><a href="https://loinc.org/LP7067-4/">LP7067-4</a></td><td>Blood arterial</td></tr><tr><td><a href="https://loinc.org/LP7567-3/">LP7567-3</a></td><td>Serum</td></tr><tr><td><a href="https://loinc.org/LP7479-1/">LP7479-1</a></td><td>Plasma</td></tr><tr><td><a href="https://loinc.org/LP7536-8/">LP7536-8</a></td><td>Red Blood Cells</td></tr><tr><td><a href="https://loinc.org/LP7494-0/">LP7494-0</a></td><td>Platelet poor plasma</td></tr><tr><td><a href="https://loinc.org/LP7690-3/">LP7690-3</a></td><td>Urine sediment</td></tr><tr><td><a href="https://loinc.org/LP7156-5/">LP7156-5</a></td><td>Cerebral spinal fluid</td></tr><tr><td><a href="https://loinc.org/LP7238-1/">LP7238-1</a></td><td>Body fluid</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types"/>
+  <url value="http://fhir.org/de/ValueSet/vs-specimen-types"/>
   <version value="0.2.0"/>
   <name value="VS_SpecimenTypes"/>
-  <title value="VS Specimen Types"/>
+  <title value="Specimen Types (for Clinical Chemistry)"/>
   <status value="active"/>
-  <date value="2023-03-15T20:18:50+01:00"/>
-  <publisher value="HL7 International - [Some] Work Group"/>
+  <experimental value="false"/>
+  <date value="2023-03-16T15:14:40+01:00"/>
+  <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
       <system value="url"/>
@@ -44,30 +45,39 @@
       <system value="http://loinc.org"/>
       <concept>
         <code value="LP7057-5"/>
+        <display value="Blood"/>
       </concept>
       <concept>
         <code value="LP7067-4"/>
+        <display value="Blood arterial"/>
       </concept>
       <concept>
         <code value="LP7567-3"/>
+        <display value="Serum"/>
       </concept>
       <concept>
         <code value="LP7479-1"/>
+        <display value="Plasma"/>
       </concept>
       <concept>
         <code value="LP7536-8"/>
+        <display value="Red Blood Cells"/>
       </concept>
       <concept>
         <code value="LP7494-0"/>
+        <display value="Platelet poor plasma"/>
       </concept>
       <concept>
         <code value="LP7690-3"/>
+        <display value="Urine sediment"/>
       </concept>
       <concept>
         <code value="LP7156-5"/>
+        <display value="Cerebral spinal fluid"/>
       </concept>
       <concept>
         <code value="LP7238-1"/>
+        <display value="Body fluid"/>
       </concept>
     </include>
   </compose>

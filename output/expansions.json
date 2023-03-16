@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "86725c66-c08d-4f6e-ac3c-a8af1c70e0ea",
+  "id" : "d2679d85-544d-41f9-9242-ec138e472ccc",
   "meta" : {
-    "lastUpdated" : "2023-03-15T20:18:50.730+01:00"
+    "lastUpdated" : "2023-03-16T15:14:40.993+01:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-administrative-gender",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-administrative-gender",
@@ -20,7 +20,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -30,17 +30,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender",
+      "url" : "http://fhir.org/de/ValueSet/vs-administrative-gender",
       "version" : "0.2.0",
       "name" : "VS_AdministrativeGender",
-      "title" : "VS AdministrativeGender",
+      "title" : "Administrative gender",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -55,8 +56,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:07762522-eb37-45ae-ad88-41c64c1f3a66",
-        "timestamp" : "2023-03-15T20:32:33+01:00",
+        "identifier" : "urn:uuid:e3e9a716-6cc5-42d3-84db-183928f4a62f",
+        "timestamp" : "2023-03-16T15:28:30+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -94,7 +95,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-binary-decision-yes-or-no",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-binary-decision-yes-or-no",
@@ -108,7 +109,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -118,17 +119,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no",
+      "url" : "http://fhir.org/de/ValueSet/vs-binary-decision-yes-or-no",
       "version" : "0.2.0",
       "name" : "VS_BinaryDecisionYesOrNo",
-      "title" : "VS Binary Decision Yes Or No",
+      "title" : "Binary decision (yes or no)",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -143,8 +145,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:349eaea6-fc17-402a-9cba-a61038e476bc",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
+        "identifier" : "urn:uuid:709ebdf3-ba87-4f3b-8db9-051819229111",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -172,7 +174,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-biological-gender",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-biological-gender",
@@ -186,7 +188,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -196,17 +198,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender",
+      "url" : "http://fhir.org/de/ValueSet/vs-biological-gender",
       "version" : "0.2.0",
       "name" : "VS_BiologicalGender",
-      "title" : "VS Biological Gender",
+      "title" : "Biological sex types",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -221,8 +224,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fdcaf85d-afc8-4a09-af41-e6e5e9a01b94",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
+        "identifier" : "urn:uuid:11899a57-05c3-4228-8338-84061e3d4fcf",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -255,7 +258,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-ethnic-groups",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-ethnic-groups",
@@ -269,7 +272,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -279,17 +282,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups",
+      "url" : "http://fhir.org/de/ValueSet/vs-ethnic-groups",
       "version" : "0.2.0",
       "name" : "VS_EthnicGroups",
-      "title" : "VS Ethnic Groups",
+      "title" : "Ethnic groups",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -308,8 +312,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:769375ea-7ac3-4937-be14-dcfbcc293678",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
+        "identifier" : "urn:uuid:1b54a1be-f107-4305-9413-3ae3af86b0e6",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 240,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1527,7 +1531,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-glasgow-coma-scale-for-adults",
@@ -1536,32 +1540,23 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
       },
       "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1,
-        "_valueInteger" : {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
-          }]
-        }
-      },
-      {
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
         "valueCode" : "informative",
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults",
+      "url" : "http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
       "version" : "0.2.0",
       "name" : "VS_GlasgowComaScaleForAdults",
-      "title" : "VS Glasgow Coma Scale For Adults",
-      "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "title" : "Present Qualifers (negativ until three plus)",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -1576,8 +1571,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f7ca7fdb-6d61-4084-a0a4-c333037ba66d",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
+        "identifier" : "urn:uuid:9d2aac04-bd79-4d24-83d2-3b891289971c",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -1586,7 +1581,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-length-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-length-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-length-units",
@@ -1600,7 +1595,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -1610,17 +1605,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-length-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-length-units",
       "version" : "0.2.0",
       "name" : "VS_LengthUnits",
-      "title" : "VS Length Units",
+      "title" : "Common units for 'lenght'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -1635,8 +1631,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2ab95179-48ff-4db0-8932-7263f432921a",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
+        "identifier" : "urn:uuid:e3ca2063-dba6-4f78-a0e1-817ce3c6021b",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1699,95 +1695,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "vs-leucocytes-diptest-finding",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 4 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Juli 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260385009\"> </a>  <a href=\"http://snomed.info/id/260385009\">260385009</a></td><td>http://snomed.info/sct</td><td>Negative</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-394712000\"> </a>  <a href=\"http://snomed.info/id/394712000\">394712000</a></td><td>http://snomed.info/sct</td><td>+</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-394713005\"> </a>  <a href=\"http://snomed.info/id/394713005\">394713005</a></td><td>http://snomed.info/sct</td><td>++</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-394714004\"> </a>  <a href=\"http://snomed.info/id/394714004\">394714004</a></td><td>http://snomed.info/sct</td><td>+++</td></tr></table></div>"
-      },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1,
-        "_valueInteger" : {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
-          }]
-        }
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "informative",
-        "_valueCode" : {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
-          }]
-        }
-      }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding",
-      "version" : "0.2.0",
-      "name" : "VS_LeucocytesDiptestFinding",
-      "title" : "VS Leucocytes Diptest Finding",
-      "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/Special/committees/[something]"
-        }]
-      }],
-      "description" : "Dieses ValueSet enthält Snomed-Codes für ",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:1c497b49-1218-4c7c-9aaa-0805191080c3",
-        "timestamp" : "2023-03-15T20:32:34+01:00",
-        "total" : 4,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"
-        }],
-        "contains" : [{
-          "system" : "http://snomed.info/sct",
-          "code" : "260385009",
-          "display" : "Negative"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "394712000",
-          "display" : "+"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "394713005",
-          "display" : "++"
-        },
-        {
-          "system" : "http://snomed.info/sct",
-          "code" : "394714004",
-          "display" : "+++"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-mass-concentration-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-mass-concentration-units",
@@ -1801,7 +1709,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -1811,17 +1719,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-mass-concentration-units",
       "version" : "0.2.0",
       "name" : "VS_MassConcentrationUnits",
-      "title" : "VS Mass Concentration Units",
+      "title" : "Common units for 'mass concentration'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -1836,8 +1745,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7e549a81-18dd-4e30-b36e-d3271117647f",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:fa7cd863-9674-44c6-b45b-e5c42724153c",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1960,7 +1869,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-mass-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-mass-units",
@@ -1974,7 +1883,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -1984,17 +1893,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-mass-units",
       "version" : "0.2.0",
       "name" : "VS_MassUnits",
-      "title" : "VS Mass Units",
+      "title" : "Common units for 'mass'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2009,8 +1919,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6a9fae6c-a8b2-4727-ad7e-0cb7646a0dca",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:41cf0caf-b865-4b20-af2d-0e050e922c8e",
+        "timestamp" : "2023-03-16T15:28:31+01:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2078,7 +1988,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-molar-concentration-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-molar-concentration-units",
@@ -2092,7 +2002,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2102,17 +2012,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-molar-concentration-units",
       "version" : "0.2.0",
       "name" : "VS_MolarConcentrationUnits",
-      "title" : "VS Molar Concentration Units",
+      "title" : "Common units for 'mole concentration'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2127,8 +2038,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2e210ac5-66b6-45b6-92c4-2f40c5b00dc1",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:cdab951e-e8bd-4ee5-b9ba-6ca0316debd9",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2221,7 +2132,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-number-concentration-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-number-concentration-units",
@@ -2235,7 +2146,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2245,17 +2156,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-number-concentration-units",
       "version" : "0.2.0",
       "name" : "VS_NumberConcentrationUnits",
-      "title" : "VS Number Concentration Units",
+      "title" : "Common units for 'number concentration'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2270,8 +2182,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9f11de1b-9dbe-4396-bba7-2c81fea38340",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:ea61521a-45ff-4b51-bbb7-8ca07f6b11bb",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 20,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2389,7 +2301,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-qualifier-for-presence",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-qualifier-for-presence",
@@ -2403,7 +2315,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2413,17 +2325,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence",
+      "url" : "http://fhir.org/de/ValueSet/vs-qualifier-for-presence",
       "version" : "0.2.0",
       "name" : "VS_QualifierForPresence",
-      "title" : "VS Qualifier For Presence",
+      "title" : "Present Qualifers (negativ until three plus)",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2438,8 +2351,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:75acfa1d-5bd5-4e28-b104-55c694b5a73f",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:9b50cbf9-38e7-4bc5-acc2-a4443b8617fe",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2477,7 +2390,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-sentinel-conceptual-domain",
@@ -2491,7 +2404,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2501,17 +2414,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain",
+      "url" : "http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain",
       "version" : "0.2.0",
       "name" : "VS_SentinelConceptualDomain",
-      "title" : "VS Sentinel Conceptual Domain",
+      "title" : "Reasons for missing data (sentinel)",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2526,8 +2440,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3a17055f-c730-40c5-bffb-5948bb366faa",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:895d289b-42cb-49df-b4f9-92f4918252ac",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2565,7 +2479,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-smoking-status",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-smoking-status",
@@ -2579,7 +2493,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2589,17 +2503,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status",
+      "url" : "http://fhir.org/de/ValueSet/vs-smoking-status",
       "version" : "0.2.0",
       "name" : "VS_SmokingStatus",
-      "title" : "VS Smoking Status",
+      "title" : "Smoking Status Types",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2614,8 +2529,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b033d21b-769d-4aac-860f-c7d13fd39f1c",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:b99029b5-4c2b-4501-a5d8-bb09ef5642dc",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2653,7 +2568,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-specimen-types",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-specimen-types",
@@ -2667,7 +2582,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2677,17 +2592,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types",
+      "url" : "http://fhir.org/de/ValueSet/vs-specimen-types",
       "version" : "0.2.0",
       "name" : "VS_SpecimenTypes",
-      "title" : "VS Specimen Types",
+      "title" : "Specimen Types (for Clinical Chemistry)",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2702,8 +2618,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5ca6c3aa-98aa-44dd-b38a-a6a9ea0bf7b9",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:05330bc4-8d42-4421-85bd-9abd7cb1b144",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -2716,7 +2632,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-time-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-time-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-time-units",
@@ -2730,7 +2646,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2740,17 +2656,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-time-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-time-units",
       "version" : "0.2.0",
       "name" : "VS_TimeUnits",
-      "title" : "VS Time Units",
+      "title" : "Common units for 'time span'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2765,8 +2682,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3cceb08e-3734-4164-ba1b-4e067174b2e8",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:4be22c02-839c-4184-8735-fc4ab5077b36",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 13,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2849,7 +2766,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units",
+    "fullUrl" : "http://fhir.org/de/ValueSet/vs-unity-units",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vs-unity-units",
@@ -2863,7 +2780,7 @@
         "_valueInteger" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       },
@@ -2873,17 +2790,18 @@
         "_valueCode" : {
           "extension" : [{
             "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-            "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+            "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
           }]
         }
       }],
-      "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units",
+      "url" : "http://fhir.org/de/ValueSet/vs-unity-units",
       "version" : "0.2.0",
       "name" : "VS_UnityUnits",
-      "title" : "VS Unity Units",
+      "title" : "Common units for 'unity element'",
       "status" : "active",
-      "date" : "2023-03-15T20:18:50+01:00",
-      "publisher" : "HL7 International - [Some] Work Group",
+      "experimental" : false,
+      "date" : "2023-03-16T15:14:40+01:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -2898,8 +2816,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3bebca19-47f0-4bf7-b2ac-61acfbfee9dd",
-        "timestamp" : "2023-03-15T20:32:35+01:00",
+        "identifier" : "urn:uuid:0dd0c417-856c-4774-845f-689ba229903d",
+        "timestamp" : "2023-03-16T15:28:32+01:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",

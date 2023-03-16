@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
       }]
     }
   },
@@ -21,17 +21,18 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"
+        "valueCanonical" : "http://fhir.org/de/ImplementationGuide/cde-catalog"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units",
+  "url" : "http://fhir.org/de/ValueSet/vs-number-concentration-units",
   "version" : "0.2.0",
   "name" : "VS_NumberConcentrationUnits",
-  "title" : "VS Number Concentration Units",
+  "title" : "Common units for 'number concentration'",
   "status" : "active",
-  "date" : "2023-03-15T20:18:50+01:00",
-  "publisher" : "HL7 International - [Some] Work Group",
+  "experimental" : false,
+  "date" : "2023-03-16T15:14:40+01:00",
+  "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
       "system" : "url",

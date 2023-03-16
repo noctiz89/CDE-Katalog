@@ -2,6 +2,13 @@ ValueSet: VS_MassConcentrationUnits
 Id: vs-mass-concentration-units
 Title: "VS Mass Concentration Units"
 Description: "UCUM Codes für Massenkonzentration"
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'mass concentration'"
+////
 * include $UCUM#pg/mL	            
 * include $UCUM#ng/mL	            
 * include $UCUM#ng/mL{rbc}	        

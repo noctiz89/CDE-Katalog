@@ -35,24 +35,24 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+        <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"/>
+  <url value="http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"/>
   <version value="0.2.0"/>
   <name value="CLS_OBO_CMO_BloodElectrolyteMeasurement"/>
   <title value="CLS OBO CMO Blood Electrolyte Measurement"/>
   <status value="draft"/>
-  <date value="2023-03-15T20:18:50+01:00"/>
-  <publisher value="HL7 International - [Some] Work Group"/>
+  <date value="2023-03-16T15:14:40+01:00"/>
+  <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
       <system value="url"/>

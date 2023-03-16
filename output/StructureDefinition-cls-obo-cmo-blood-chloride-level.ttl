@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level> a fhir:StructureDefinition ;
+<http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-chloride-level> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "cls-obo-cmo-blood-chloride-level"] ; # 
   fhir:text [
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
          ]
        ] )
      ]
@@ -31,19 +31,19 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog>
+           fhir:v "http://fhir.org/de/ImplementationGuide/cde-catalog"^^xsd:anyURI ;
+           fhir:link <http://fhir.org/de/ImplementationGuide/cde-catalog>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-chloride-level"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-chloride-level"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CLS_OBO_CMO_BloodChlorideLevel"] ; # 
   fhir:title [ fhir:v "CLS OBO CMO Blood Chloride Level"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-15T20:18:50+01:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 International - [Some] Work Group"] ; # 
+  fhir:date [ fhir:v "2023-03-16T15:14:40+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
@@ -87,8 +87,8 @@
   fhir:abstract [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:type [ fhir:v "Observation"^^xsd:anyURI] ; # 
   fhir:baseDefinition [
-     fhir:v "http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/de/myig/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement>
+     fhir:v "http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"^^xsd:anyURI ;
+     fhir:link <http://fhir.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement>
   ] ; # 
   fhir:derivation [ fhir:v "constraint"] ; # 
   fhir:snapshot [

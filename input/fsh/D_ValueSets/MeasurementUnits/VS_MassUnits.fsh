@@ -2,6 +2,13 @@ ValueSet: VS_MassUnits
 Id: vs-mass-units
 Title: "VS Mass Units"
 Description: "UCUM Codes für 'Masse'"
+/// Minimum Metadata for "SharableValueset"
+* ^version = "4.0.1"
+* ^status = #active
+* ^experimental = false
+* ^publisher = "fhir.cde-katalog"
+* ^title = "Common units for 'mass'"
+////
 * include $UCUM#fg	            
 * include $UCUM#pg	            
 * include $UCUM#ng	            

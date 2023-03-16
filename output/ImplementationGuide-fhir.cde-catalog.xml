@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.cde-catalog"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDEKatalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CDE-katalog</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.org/de/ImplementationGuide/cde-catalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -12,14 +12,14 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+  <url value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
   <version value="0.2.0"/>
-  <name value="CDEKatalog"/>
+  <name value="CDE-katalog"/>
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-15T20:18:50+01:00"/>
-  <publisher value="HL7 International - [Some] Work Group"/>
+  <date value="2023-03-16T15:14:40+01:00"/>
+  <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
       <system value="url"/>
@@ -33,7 +33,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="fhir.cde-catalog"/>
+  <packageId value="cde-katalog"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -146,7 +146,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.org/fhir/de/myig/history.html"/>
+        <valueString value="http://fhir.org/de/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -362,7 +362,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.org/fhir/de/myig/history.html"/>
+        <valueString value="http://fhir.org/de/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1413,7 +1413,7 @@
       <reference>
         <reference value="ValueSet/vs-administrative-gender"/>
       </reference>
-      <name value="VS AdministrativeGender"/>
+      <name value="Administrative gender"/>
       <description value="Dieses ValueSet enthält Codes für das administrative Geschlecht."/>
     </resource>
     <resource>
@@ -1423,7 +1423,7 @@
       <reference>
         <reference value="ValueSet/vs-binary-decision-yes-or-no"/>
       </reference>
-      <name value="VS Binary Decision Yes Or No"/>
+      <name value="Binary decision (yes or no)"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
     </resource>
     <resource>
@@ -1433,7 +1433,7 @@
       <reference>
         <reference value="ValueSet/vs-biological-gender"/>
       </reference>
-      <name value="VS Biological Gender"/>
+      <name value="Biological sex types"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für das 'biologische Geschlecht'."/>
     </resource>
     <resource>
@@ -1443,7 +1443,7 @@
       <reference>
         <reference value="ValueSet/vs-ethnic-groups"/>
       </reference>
-      <name value="VS Ethnic Groups"/>
+      <name value="Ethnic groups"/>
       <description value="Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."/>
     </resource>
     <resource>
@@ -1453,7 +1453,7 @@
       <reference>
         <reference value="ValueSet/vs-glasgow-coma-scale-for-adults"/>
       </reference>
-      <name value="VS Glasgow Coma Scale For Adults"/>
+      <name value="Present Qualifers (negativ until three plus)"/>
       <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
     </resource>
     <resource>
@@ -1463,18 +1463,8 @@
       <reference>
         <reference value="ValueSet/vs-length-units"/>
       </reference>
-      <name value="VS Length Units"/>
+      <name value="Common units for 'lenght'"/>
       <description value="UCUM Codes für 'Länge'"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-leucocytes-diptest-finding"/>
-      </reference>
-      <name value="VS Leucocytes Diptest Finding"/>
-      <description value="Dieses ValueSet enthält Snomed-Codes für"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1483,7 +1473,7 @@
       <reference>
         <reference value="ValueSet/vs-mass-concentration-units"/>
       </reference>
-      <name value="VS Mass Concentration Units"/>
+      <name value="Common units for 'mass concentration'"/>
       <description value="UCUM Codes für Massenkonzentration"/>
     </resource>
     <resource>
@@ -1493,7 +1483,7 @@
       <reference>
         <reference value="ValueSet/vs-mass-units"/>
       </reference>
-      <name value="VS Mass Units"/>
+      <name value="Common units for 'mass'"/>
       <description value="UCUM Codes für 'Masse'"/>
     </resource>
     <resource>
@@ -1503,7 +1493,7 @@
       <reference>
         <reference value="ValueSet/vs-molar-concentration-units"/>
       </reference>
-      <name value="VS Molar Concentration Units"/>
+      <name value="Common units for 'mole concentration'"/>
       <description value="UCUM Codes für Stoffmengenkonzentration"/>
     </resource>
     <resource>
@@ -1513,7 +1503,7 @@
       <reference>
         <reference value="ValueSet/vs-number-concentration-units"/>
       </reference>
-      <name value="VS Number Concentration Units"/>
+      <name value="Common units for 'number concentration'"/>
       <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
     </resource>
     <resource>
@@ -1523,7 +1513,7 @@
       <reference>
         <reference value="ValueSet/vs-qualifier-for-presence"/>
       </reference>
-      <name value="VS Qualifier For Presence"/>
+      <name value="Present Qualifers (negativ until three plus)"/>
       <description value="Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."/>
     </resource>
     <resource>
@@ -1533,7 +1523,7 @@
       <reference>
         <reference value="ValueSet/vs-sentinel-conceptual-domain"/>
       </reference>
-      <name value="VS Sentinel Conceptual Domain"/>
+      <name value="Reasons for missing data (sentinel)"/>
       <description value="Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."/>
     </resource>
     <resource>
@@ -1543,7 +1533,7 @@
       <reference>
         <reference value="ValueSet/vs-smoking-status"/>
       </reference>
-      <name value="VS Smoking Status"/>
+      <name value="Smoking Status Types"/>
       <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
     </resource>
     <resource>
@@ -1553,7 +1543,7 @@
       <reference>
         <reference value="ValueSet/vs-specimen-types"/>
       </reference>
-      <name value="VS Specimen Types"/>
+      <name value="Specimen Types (for Clinical Chemistry)"/>
       <description value="LOINC Codes für 'Probenmaterial'"/>
     </resource>
     <resource>
@@ -1563,7 +1553,7 @@
       <reference>
         <reference value="ValueSet/vs-time-units"/>
       </reference>
-      <name value="VS Time Units"/>
+      <name value="Common units for 'time span'"/>
       <description value="UCUM Codes für 'Zeit'"/>
     </resource>
     <resource>
@@ -1573,7 +1563,7 @@
       <reference>
         <reference value="ValueSet/vs-unity-units"/>
       </reference>
-      <name value="VS Unity Units"/>
+      <name value="Common units for 'unity element'"/>
       <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
     </resource>
     <page>

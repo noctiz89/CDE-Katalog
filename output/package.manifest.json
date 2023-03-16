@@ -1,6 +1,6 @@
 {
   "version" : "0.2.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20230315201303",
-  "name" : "fhir.cde-catalog"
+  "date" : "20230316150950",
+  "name" : "cde-katalog"
 }

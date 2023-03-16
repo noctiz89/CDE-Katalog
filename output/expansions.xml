@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="86725c66-c08d-4f6e-ac3c-a8af1c70e0ea"/>
+  <id value="d2679d85-544d-41f9-9242-ec138e472ccc"/>
   <meta>
-    <lastUpdated value="2023-03-15T20:18:50.730+01:00"/>
+    <lastUpdated value="2023-03-16T15:14:40.993+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-administrative-gender"/>
     <resource>
       <ValueSet>
         <id value="vs-administrative-gender"/>
@@ -103,24 +103,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-administrative-gender"/>
+        <url value="http://fhir.org/de/ValueSet/vs-administrative-gender"/>
         <version value="0.2.0"/>
         <name value="VS_AdministrativeGender"/>
-        <title value="VS AdministrativeGender"/>
+        <title value="Administrative gender"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -135,8 +136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:07762522-eb37-45ae-ad88-41c64c1f3a66"/>
-          <timestamp value="2023-03-15T20:32:33+01:00"/>
+          <identifier value="urn:uuid:e3e9a716-6cc5-42d3-84db-183928f4a62f"/>
+          <timestamp value="2023-03-16T15:28:30+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -175,7 +176,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-binary-decision-yes-or-no"/>
     <resource>
       <ValueSet>
         <id value="vs-binary-decision-yes-or-no"/>
@@ -218,24 +219,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-binary-decision-yes-or-no"/>
+        <url value="http://fhir.org/de/ValueSet/vs-binary-decision-yes-or-no"/>
         <version value="0.2.0"/>
         <name value="VS_BinaryDecisionYesOrNo"/>
-        <title value="VS Binary Decision Yes Or No"/>
+        <title value="Binary decision (yes or no)"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -250,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:349eaea6-fc17-402a-9cba-a61038e476bc"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
+          <identifier value="urn:uuid:709ebdf3-ba87-4f3b-8db9-051819229111"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -280,7 +282,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-biological-gender"/>
     <resource>
       <ValueSet>
         <id value="vs-biological-gender"/>
@@ -331,24 +333,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-biological-gender"/>
+        <url value="http://fhir.org/de/ValueSet/vs-biological-gender"/>
         <version value="0.2.0"/>
         <name value="VS_BiologicalGender"/>
-        <title value="VS Biological Gender"/>
+        <title value="Biological sex types"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -363,8 +366,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fdcaf85d-afc8-4a09-af41-e6e5e9a01b94"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
+          <identifier value="urn:uuid:11899a57-05c3-4228-8338-84061e3d4fcf"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -398,7 +401,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
     <resource>
       <ValueSet>
         <id value="vs-ethnic-groups"/>
@@ -2345,24 +2348,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-ethnic-groups"/>
+        <url value="http://fhir.org/de/ValueSet/vs-ethnic-groups"/>
         <version value="0.2.0"/>
         <name value="VS_EthnicGroups"/>
-        <title value="VS Ethnic Groups"/>
+        <title value="Ethnic groups"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -2380,8 +2384,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:769375ea-7ac3-4937-be14-dcfbcc293678"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
+          <identifier value="urn:uuid:1b54a1be-f107-4305-9413-3ae3af86b0e6"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="240"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3600,7 +3604,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"/>
     <resource>
       <ValueSet>
         <id value="vs-glasgow-coma-scale-for-adults"/>
@@ -3623,27 +3627,21 @@
             </table>
           </div>
         </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
-            </extension>
-          </valueInteger>
-        </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-glasgow-coma-scale-for-adults"/>
+        <url value="http://fhir.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"/>
         <version value="0.2.0"/>
         <name value="VS_GlasgowComaScaleForAdults"/>
-        <title value="VS Glasgow Coma Scale For Adults"/>
-        <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <title value="Present Qualifers (negativ until three plus)"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -3658,8 +3656,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f7ca7fdb-6d61-4084-a0a4-c333037ba66d"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
+          <identifier value="urn:uuid:9d2aac04-bd79-4d24-83d2-3b891289971c"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -3669,7 +3667,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-length-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-length-units"/>
     <resource>
       <ValueSet>
         <id value="vs-length-units"/>
@@ -3759,24 +3757,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-length-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-length-units"/>
         <version value="0.2.0"/>
         <name value="VS_LengthUnits"/>
-        <title value="VS Length Units"/>
+        <title value="Common units for 'lenght'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -3791,8 +3790,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2ab95179-48ff-4db0-8932-7263f432921a"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
+          <identifier value="urn:uuid:e3ca2063-dba6-4f78-a0e1-817ce3c6021b"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3856,138 +3855,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding"/>
-    <resource>
-      <ValueSet>
-        <id value="vs-leucocytes-diptest-finding"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Juli 2022</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-260385009"> </a>  
-                  <a href="http://snomed.info/id/260385009">260385009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Negative</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-394712000"> </a>  
-                  <a href="http://snomed.info/id/394712000">394712000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>+</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-394713005"> </a>  
-                  <a href="http://snomed.info/id/394713005">394713005</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>++</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-394714004"> </a>  
-                  <a href="http://snomed.info/id/394714004">394714004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>+++</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
-            </extension>
-          </valueCode>
-        </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-leucocytes-diptest-finding"/>
-        <version value="0.2.0"/>
-        <name value="VS_LeucocytesDiptestFinding"/>
-        <title value="VS Leucocytes Diptest Finding"/>
-        <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
-          </telecom>
-        </contact>
-        <description value="Dieses ValueSet enthält Snomed-Codes für "/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:1c497b49-1218-4c7c-9aaa-0805191080c3"/>
-          <timestamp value="2023-03-15T20:32:34+01:00"/>
-          <total value="4"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="260385009"/>
-            <display value="Negative"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="394712000"/>
-            <display value="+"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="394713005"/>
-            <display value="++"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="394714004"/>
-            <display value="+++"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-mass-concentration-units"/>
     <resource>
       <ValueSet>
         <id value="vs-mass-concentration-units"/>
@@ -4161,24 +4029,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-mass-concentration-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-mass-concentration-units"/>
         <version value="0.2.0"/>
         <name value="VS_MassConcentrationUnits"/>
-        <title value="VS Mass Concentration Units"/>
+        <title value="Common units for 'mass concentration'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -4193,8 +4062,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7e549a81-18dd-4e30-b36e-d3271117647f"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:fa7cd863-9674-44c6-b45b-e5c42724153c"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4318,7 +4187,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-mass-units"/>
     <resource>
       <ValueSet>
         <id value="vs-mass-units"/>
@@ -4415,24 +4284,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-mass-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-mass-units"/>
         <version value="0.2.0"/>
         <name value="VS_MassUnits"/>
-        <title value="VS Mass Units"/>
+        <title value="Common units for 'mass'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -4447,8 +4317,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6a9fae6c-a8b2-4727-ad7e-0cb7646a0dca"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:41cf0caf-b865-4b20-af2d-0e050e922c8e"/>
+          <timestamp value="2023-03-16T15:28:31+01:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4517,7 +4387,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-molar-concentration-units"/>
     <resource>
       <ValueSet>
         <id value="vs-molar-concentration-units"/>
@@ -4649,24 +4519,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-molar-concentration-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-molar-concentration-units"/>
         <version value="0.2.0"/>
         <name value="VS_MolarConcentrationUnits"/>
-        <title value="VS Molar Concentration Units"/>
+        <title value="Common units for 'mole concentration'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -4681,8 +4552,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2e210ac5-66b6-45b6-92c4-2f40c5b00dc1"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:cdab951e-e8bd-4ee5-b9ba-6ca0316debd9"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4776,7 +4647,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-number-concentration-units"/>
     <resource>
       <ValueSet>
         <id value="vs-number-concentration-units"/>
@@ -4943,24 +4814,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-number-concentration-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-number-concentration-units"/>
         <version value="0.2.0"/>
         <name value="VS_NumberConcentrationUnits"/>
-        <title value="VS Number Concentration Units"/>
+        <title value="Common units for 'number concentration'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -4975,8 +4847,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9f11de1b-9dbe-4396-bba7-2c81fea38340"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:ea61521a-45ff-4b51-bbb7-8ca07f6b11bb"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5095,7 +4967,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-qualifier-for-presence"/>
     <resource>
       <ValueSet>
         <id value="vs-qualifier-for-presence"/>
@@ -5154,24 +5026,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-qualifier-for-presence"/>
+        <url value="http://fhir.org/de/ValueSet/vs-qualifier-for-presence"/>
         <version value="0.2.0"/>
         <name value="VS_QualifierForPresence"/>
-        <title value="VS Qualifier For Presence"/>
+        <title value="Present Qualifers (negativ until three plus)"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5186,8 +5059,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:75acfa1d-5bd5-4e28-b104-55c694b5a73f"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:9b50cbf9-38e7-4bc5-acc2-a4443b8617fe"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5226,7 +5099,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain"/>
     <resource>
       <ValueSet>
         <id value="vs-sentinel-conceptual-domain"/>
@@ -5285,24 +5158,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-sentinel-conceptual-domain"/>
+        <url value="http://fhir.org/de/ValueSet/vs-sentinel-conceptual-domain"/>
         <version value="0.2.0"/>
         <name value="VS_SentinelConceptualDomain"/>
-        <title value="VS Sentinel Conceptual Domain"/>
+        <title value="Reasons for missing data (sentinel)"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5317,8 +5191,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a17055f-c730-40c5-bffb-5948bb366faa"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:895d289b-42cb-49df-b4f9-92f4918252ac"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5357,7 +5231,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-smoking-status"/>
     <resource>
       <ValueSet>
         <id value="vs-smoking-status"/>
@@ -5416,24 +5290,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-smoking-status"/>
+        <url value="http://fhir.org/de/ValueSet/vs-smoking-status"/>
         <version value="0.2.0"/>
         <name value="VS_SmokingStatus"/>
-        <title value="VS Smoking Status"/>
+        <title value="Smoking Status Types"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5448,8 +5323,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b033d21b-769d-4aac-860f-c7d13fd39f1c"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:b99029b5-4c2b-4501-a5d8-bb09ef5642dc"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5488,7 +5363,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-specimen-types"/>
     <resource>
       <ValueSet>
         <id value="vs-specimen-types"/>
@@ -5514,24 +5389,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-specimen-types"/>
+        <url value="http://fhir.org/de/ValueSet/vs-specimen-types"/>
         <version value="0.2.0"/>
         <name value="VS_SpecimenTypes"/>
-        <title value="VS Specimen Types"/>
+        <title value="Specimen Types (for Clinical Chemistry)"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5546,8 +5422,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5ca6c3aa-98aa-44dd-b38a-a6a9ea0bf7b9"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:05330bc4-8d42-4421-85bd-9abd7cb1b144"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -5561,7 +5437,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-time-units"/>
     <resource>
       <ValueSet>
         <id value="vs-time-units"/>
@@ -5679,24 +5555,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-time-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-time-units"/>
         <version value="0.2.0"/>
         <name value="VS_TimeUnits"/>
-        <title value="VS Time Units"/>
+        <title value="Common units for 'time span'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5711,8 +5588,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3cceb08e-3734-4164-ba1b-4e067174b2e8"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:4be22c02-839c-4184-8735-fc4ab5077b36"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5796,7 +5673,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units"/>
+    <fullUrl value="http://fhir.org/de/ValueSet/vs-unity-units"/>
     <resource>
       <ValueSet>
         <id value="vs-unity-units"/>
@@ -5872,24 +5749,25 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueInteger>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
           <valueCode value="informative">
             <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/fhir/de/myig/ImplementationGuide/fhir.cde-catalog"/>
+              <valueCanonical value="http://fhir.org/de/ImplementationGuide/cde-catalog"/>
             </extension>
           </valueCode>
         </extension>
-        <url value="http://hl7.org/fhir/de/myig/ValueSet/vs-unity-units"/>
+        <url value="http://fhir.org/de/ValueSet/vs-unity-units"/>
         <version value="0.2.0"/>
         <name value="VS_UnityUnits"/>
-        <title value="VS Unity Units"/>
+        <title value="Common units for 'unity element'"/>
         <status value="active"/>
-        <date value="2023-03-15T20:18:50+01:00"/>
-        <publisher value="HL7 International - [Some] Work Group"/>
+        <experimental value="false"/>
+        <date value="2023-03-16T15:14:40+01:00"/>
+        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -5904,8 +5782,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3bebca19-47f0-4bf7-b2ac-61acfbfee9dd"/>
-          <timestamp value="2023-03-15T20:32:35+01:00"/>
+          <identifier value="urn:uuid:0dd0c417-856c-4774-845f-689ba229903d"/>
+          <timestamp value="2023-03-16T15:28:32+01:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
