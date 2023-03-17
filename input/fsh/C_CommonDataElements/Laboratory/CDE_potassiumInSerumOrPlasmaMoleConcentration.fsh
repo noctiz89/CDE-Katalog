@@ -1,5 +1,5 @@
 Profile: CDE_PotassiumInSerumOrPlasmaMoleConcentration
-Parent: cls-obo-cmo-blood-potassium-level
+Parent: cls-umls-potassium-level
 Id: cde-potassium-in-serum-or-plasma-mole-concentration
 Title: "CDE Potassium In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Kalium [Mol/Volumen] in Serum oder Plasma'."

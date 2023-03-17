@@ -1,5 +1,5 @@
 Profile: CDE_heartRateBeatsPerMinute
-Parent: cls-obo-cmo-heart-rate
+Parent: cls-umls-heart-rate
 Id: cde-heart-rate-beats-per-minute
 Title: "CDE heart Rate Beats Per Minute"
 Description: "Dieses CDE enthät die 'Herzfrequenz'."

@@ -1,5 +1,5 @@
 Profile: CDE_MeanCorpuscularVolumeEntiticVolume
-Parent: cls-obo-cmo-mean-corpuscular-volume
+Parent: cls-umls-mean-corpuscular-volume
 Id: cde-mean-corpuscular-volume-entitic-volume
 Title: "CDE Mean Corpuscular Volume Entitic Volume"
 Description: "Dieses CDE enthält den Messparameter 'Mittleres korpuskuläre Volumen [Entitische Volume]'."

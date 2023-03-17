@@ -7,8 +7,28 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/de/StructureDefinition/rv-age",
-        "title": "RV Age"
+        "url": "http://hl7.org/de/StructureDefinition/rv-age-in-years",
+        "title": "RV Age In Years"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-body-weight",
+        "title": "RV Body Weight"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine",
+        "title": "RV Creatinine"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-date-of-birth",
+        "title": "RV Date Of Birth"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-month-of-birth",
+        "title": "RV Month Of Birth"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-year-of-birth",
+        "title": "RV Year Of Birth"
       }
     ],
     "Patient": [

@@ -1,5 +1,5 @@
 Profile: CDE_BloodPressureSystolic
-Parent: cls-obo-cmo-systolic-blood-pressure
+Parent: cls-umls-systolic-blood-pressure
 Id: cde-blood-pressure-systolic
 Title: "CDE Blood Pressure Systolic"
 Description: "Dieses CDE enthät den 'systolischen Blutdruck'."

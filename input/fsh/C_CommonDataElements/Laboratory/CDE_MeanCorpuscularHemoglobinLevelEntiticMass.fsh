@@ -1,5 +1,5 @@
 Profile: CDE_MeanCorpuscularHemoglobinLevelEntiticMass
-Parent: cls-obo-cmo-mean-corpuscular-hemoglobin-level
+Parent: cls-umls-mean-corpuscular-hemoglobin-level
 Id: cde-mean-corpuscular-hemoglobin-level-entitic-mass
 Title: "CDE Mean Corpuscular Hemoglobin Level Entitic Mass"
 Description: "Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'."

@@ -1,5 +1,5 @@
 Profile: CDE_LeukocytesInBloodCountPerVolume
-Parent: cls-obo-cmo-white-blood-cell-measurement
+Parent: cls-umls-white-blood-cell-measurement
 Id: cde-leukocytes-in-blood-count-per-volume
 Title: "CDE Leukocytes In Blood Count Per Volume"
 Description: "Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."

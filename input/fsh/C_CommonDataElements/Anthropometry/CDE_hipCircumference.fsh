@@ -1,5 +1,5 @@
 Profile: CDE_HipCircumference
-Parent: cls-obo-cmo-hip-circumference
+Parent: cls-umls-hip-circumference
 Id: cde-hip-circumference
 Title: "CDE Hip Circumference"
 Description: "Dieses CDE enhält den 'Hüftumfang'."

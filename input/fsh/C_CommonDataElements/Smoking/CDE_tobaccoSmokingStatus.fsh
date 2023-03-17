@@ -55,7 +55,7 @@ Description: "Dieses CDE enthält den 'Raucherstatus'."
 * component[occasionalSmoker].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[occasionalSmoker].code ^alias[0] = "Gelegenheitsraucher"
 * component[occasionalSmoker].code ^alias[+] = "Occasional Smoker"
-* component[occasionalSmoker].code ^short = "Occasional Tobacco Smoker "
+* component[occasionalSmoker].code ^short = "Occasional Tobacco Smoker"
 * component[occasionalSmoker].code ^definition = "Consumption of cigarettes, cigars, pipes or chewing tobacco; in case of less than 1x/month)."
 * component[occasionalSmoker].code.coding ^slicing.discriminator.type = #value
 * component[occasionalSmoker].code.coding ^slicing.discriminator.path = "code"

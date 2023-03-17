@@ -3,7 +3,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="cde-thrombocytes-in-blood-count-per-volume"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-cde-thrombocytes-in-blood-count-per-volume-definitions.html#Observation">Observation</a><a name="Observation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-cls-obo-cmo-platelet-measurement.html">CLS_OBO_CMO_PlateletMeasurement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Measurements and simple assertions</span></td></tr>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-cde-thrombocytes-in-blood-count-per-volume-definitions.html#Observation">Observation</a><a name="Observation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-cls-umls-platelet-measurement.html">CLS_UMLS_PlateletMeasurement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Measurements and simple assertions</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-cde-thrombocytes-in-blood-count-per-volume-definitions.html#Observation.code">code</a><a name="Observation.code"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Type of observation (code / type)</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck111.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-cde-thrombocytes-in-blood-count-per-volume-definitions.html#Observation.code.coding">coding</a><a name="Observation.code.coding"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Code defined by a terminology system</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-cde-thrombocytes-in-blood-count-per-volume-definitions.html#Observation.code.coding.system">system</a><a name="Observation.code.coding.system"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">https://fhir.loinc.org</span></td></tr>
@@ -35,7 +35,7 @@
   <name value="CDE_ThrombocytesInBloodCountPerVolume"/>
   <title value="CDE Thrombocytes In Blood Count Per Volume"/>
   <status value="active"/>
-  <date value="2023-03-16T17:46:04+01:00"/>
+  <date value="2023-03-17T18:03:12+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -84,7 +84,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="Observation"/>
-  <baseDefinition value="http://hl7.org/de/StructureDefinition/cls-obo-cmo-platelet-measurement"/>
+  <baseDefinition value="http://hl7.org/de/StructureDefinition/cls-umls-platelet-measurement"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="Observation">
@@ -860,15 +860,15 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory">
+    <element id="Observation.category:PlateletsHEMBC">
       <path value="Observation.category"/>
-      <sliceName value="Laboratory"/>
+      <sliceName value="PlateletsHEMBC"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="*"/>
       <base>
         <path value="Observation.category"/>
         <min value="0"/>
@@ -920,7 +920,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.id">
+    <element id="Observation.category:PlateletsHEMBC.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -943,7 +943,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.extension">
+    <element id="Observation.category:PlateletsHEMBC.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1000,7 +1000,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding">
+    <element id="Observation.category:PlateletsHEMBC.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -1055,7 +1055,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.id">
+    <element id="Observation.category:PlateletsHEMBC.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1078,7 +1078,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.extension">
+    <element id="Observation.category:PlateletsHEMBC.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1135,7 +1135,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.system">
+    <element id="Observation.category:PlateletsHEMBC.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -1151,7 +1151,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1179,7 +1179,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.version">
+    <element id="Observation.category:PlateletsHEMBC.coding.version">
       <path value="Observation.category.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -1221,7 +1221,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.code">
+    <element id="Observation.category:PlateletsHEMBC.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -1237,7 +1237,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="laboratory"/>
+      <fixedCode value="C0942474"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1265,7 +1265,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.display">
+    <element id="Observation.category:PlateletsHEMBC.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1317,7 +1317,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.coding.userSelected">
+    <element id="Observation.category:PlateletsHEMBC.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1366,7 +1366,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:Laboratory.text">
+    <element id="Observation.category:PlateletsHEMBC.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1418,15 +1418,15 @@
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement">
+    <element id="Observation.category:PlateletMeanVolume">
       <path value="Observation.category"/>
-      <sliceName value="ClinicalMeasurement"/>
+      <sliceName value="PlateletMeanVolume"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="*"/>
       <base>
         <path value="Observation.category"/>
         <min value="0"/>
@@ -1478,7 +1478,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.id">
+    <element id="Observation.category:PlateletMeanVolume.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1501,7 +1501,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.extension">
+    <element id="Observation.category:PlateletMeanVolume.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1558,7 +1558,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding">
+    <element id="Observation.category:PlateletMeanVolume.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -1613,7 +1613,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.id">
+    <element id="Observation.category:PlateletMeanVolume.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -1636,7 +1636,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.extension">
+    <element id="Observation.category:PlateletMeanVolume.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1693,7 +1693,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.system">
+    <element id="Observation.category:PlateletMeanVolume.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -1709,7 +1709,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://purl.obolibrary.org/obo"/>
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1737,7 +1737,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.version">
+    <element id="Observation.category:PlateletMeanVolume.coding.version">
       <path value="Observation.category.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -1779,7 +1779,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.code">
+    <element id="Observation.category:PlateletMeanVolume.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -1795,7 +1795,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="CMO_0000000"/>
+      <fixedCode value="C0944136"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1823,7 +1823,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.display">
+    <element id="Observation.category:PlateletMeanVolume.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1875,7 +1875,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.coding.userSelected">
+    <element id="Observation.category:PlateletMeanVolume.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1924,7 +1924,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:ClinicalMeasurement.text">
+    <element id="Observation.category:PlateletMeanVolume.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -1976,15 +1976,15 @@
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement">
+    <element id="Observation.category:PlateletDistributionWidth">
       <path value="Observation.category"/>
-      <sliceName value="BloodMeasurement"/>
+      <sliceName value="PlateletDistributionWidth"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="*"/>
       <base>
         <path value="Observation.category"/>
         <min value="0"/>
@@ -2036,7 +2036,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.id">
+    <element id="Observation.category:PlateletDistributionWidth.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2059,7 +2059,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.extension">
+    <element id="Observation.category:PlateletDistributionWidth.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2116,7 +2116,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding">
+    <element id="Observation.category:PlateletDistributionWidth.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -2171,7 +2171,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.id">
+    <element id="Observation.category:PlateletDistributionWidth.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2194,7 +2194,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.extension">
+    <element id="Observation.category:PlateletDistributionWidth.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2251,7 +2251,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.system">
+    <element id="Observation.category:PlateletDistributionWidth.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -2267,7 +2267,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://purl.obolibrary.org/obo"/>
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -2295,7 +2295,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.version">
+    <element id="Observation.category:PlateletDistributionWidth.coding.version">
       <path value="Observation.category.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -2337,7 +2337,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.code">
+    <element id="Observation.category:PlateletDistributionWidth.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -2353,7 +2353,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="CMO_0000035"/>
+      <fixedCode value="C1147891"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -2381,7 +2381,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.display">
+    <element id="Observation.category:PlateletDistributionWidth.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2433,7 +2433,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.coding.userSelected">
+    <element id="Observation.category:PlateletDistributionWidth.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2482,7 +2482,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodMeasurement.text">
+    <element id="Observation.category:PlateletDistributionWidth.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2534,15 +2534,15 @@
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets">
       <path value="Observation.category"/>
-      <sliceName value="BloodCellMeasurement"/>
+      <sliceName value="PlateletsReticulatedPer100Platelets"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="*"/>
       <base>
         <path value="Observation.category"/>
         <min value="0"/>
@@ -2594,7 +2594,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.id">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2617,7 +2617,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.extension">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2674,7 +2674,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -2729,7 +2729,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.id">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -2752,7 +2752,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.extension">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2809,7 +2809,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.system">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -2825,7 +2825,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://purl.obolibrary.org/obo"/>
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -2853,7 +2853,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.version">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.version">
       <path value="Observation.category.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -2895,7 +2895,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.code">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -2911,7 +2911,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="CMO_0000036"/>
+      <fixedCode value="C2359896"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -2939,7 +2939,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.display">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -2991,7 +2991,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.coding.userSelected">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3040,7 +3040,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:BloodCellMeasurement.text">
+    <element id="Observation.category:PlateletsReticulatedPer100Platelets.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3092,15 +3092,15 @@
         <map value="fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement">
+    <element id="Observation.category:PlateletsLargePerPlatelets">
       <path value="Observation.category"/>
-      <sliceName value="PlateletMeasurement"/>
+      <sliceName value="PlateletsLargePerPlatelets"/>
       <short value="Classification of  type of observation"/>
       <definition value="A code that classifies the general type of observation being made."/>
       <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
       <requirements value="Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
-      <max value="1"/>
+      <max value="*"/>
       <base>
         <path value="Observation.category"/>
         <min value="0"/>
@@ -3152,7 +3152,7 @@
         <map value=".outboundRelationship[typeCode=&quot;COMP].target[classCode=&quot;LIST&quot;, moodCode=&quot;EVN&quot;].code"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.id">
+    <element id="Observation.category:PlateletsLargePerPlatelets.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -3175,7 +3175,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.extension">
+    <element id="Observation.category:PlateletsLargePerPlatelets.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3232,7 +3232,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding">
       <path value="Observation.category.coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -3287,7 +3287,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.id">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -3310,7 +3310,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.extension">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.extension">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3367,7 +3367,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.system">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.system">
       <path value="Observation.category.coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -3383,7 +3383,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://purl.obolibrary.org/obo"/>
+      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -3411,7 +3411,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.version">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.version">
       <path value="Observation.category.coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -3453,7 +3453,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.code">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.code">
       <path value="Observation.category.coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -3469,7 +3469,7 @@
       <type>
         <code value="code"/>
       </type>
-      <fixedCode value="CMO_0000921"/>
+      <fixedCode value="C1953883"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -3497,7 +3497,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.display">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3549,7 +3549,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.coding.userSelected">
+    <element id="Observation.category:PlateletsLargePerPlatelets.coding.userSelected">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>
@@ -3598,7 +3598,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Observation.category:PlateletMeasurement.text">
+    <element id="Observation.category:PlateletsLargePerPlatelets.text">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative"/>
       </extension>

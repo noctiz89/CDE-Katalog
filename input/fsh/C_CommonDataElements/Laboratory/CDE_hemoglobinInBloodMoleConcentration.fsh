@@ -1,5 +1,5 @@
 Profile: CDE_HemoglobinInBloodMoleConcentration
-Parent: cls-obo-cmo-hemoglobin-measurement
+Parent: cls-umls-hemoglobin-measurement
 Id: cde-hemoglobin-in-blood-mole-concentration
 Title: "CDE Hemoglobin In Blood Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Hämoglobin [Mol/Volumen] in Blut'."

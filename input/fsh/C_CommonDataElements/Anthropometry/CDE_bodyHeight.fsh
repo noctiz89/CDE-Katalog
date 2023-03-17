@@ -1,5 +1,5 @@
 Profile: CDE_BodyHeight
-Parent: cls-obo-cmo-body-height
+Parent: cls-umls-body-height
 Id: cde-body-height
 Title: "CDE Body Height"
 Description: "Dieses CDE enthält die 'Körpergröße'."

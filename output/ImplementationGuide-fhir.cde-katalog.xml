@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-16T17:46:04+01:00"/>
+  <date value="2023-03-17T18:03:12+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -492,20 +492,180 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/c-chronological-age"/>
+        <reference value="StructureDefinition/c-age"/>
       </reference>
-      <name value="C Chronological Age"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'."/>
+      <name value="C Age"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Alter'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cd-age-of-person"/>
+        <reference value="StructureDefinition/c-creatinine"/>
       </reference>
-      <name value="CD Age Of Person"/>
+      <name value="C Creatinine"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Kreatinin (Substanz)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-current-chronological-age"/>
+      </reference>
+      <name value="C Current Chronological Age"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'aktuelles chronologisches Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-date-of-birth"/>
+      </reference>
+      <name value="C Date Of Birth"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Geburtsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-diagnosis"/>
+      </reference>
+      <name value="C Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-ethnicity"/>
+      </reference>
+      <name value="C Ehnicity"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Ethnizität'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-finding-of-substance-level"/>
+      </reference>
+      <name value="C Finding Of Substance Level"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Feststellung des Substanzgehalts'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-height"/>
+      </reference>
+      <name value="C Height"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Größe'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-number"/>
+      </reference>
+      <name value="C Number"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Anzahl'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-person"/>
+      </reference>
+      <name value="C Person"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Person'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-quantity"/>
+      </reference>
+      <name value="C Quantity"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Quantität'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-sex"/>
+      </reference>
+      <name value="C Sex"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Geschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-specimen"/>
+      </reference>
+      <name value="C Specimen"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Probe'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-weight"/>
+      </reference>
+      <name value="C Weight"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Gewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cd-age"/>
+      </reference>
+      <name value="CD Age"/>
       <description value="Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cd-body-weight"/>
+      </reference>
+      <name value="CD Body Weight"/>
+      <description value="Das Körpergewicht einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cd-creatinine-mole-concentration"/>
+      </reference>
+      <name value="CD Creatinine Mole Concentration"/>
+      <description value="Der Laborparameter 'Kreatinin [Mol/Volumen]' einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cd-date-of-birth"/>
+      </reference>
+      <name value="CD Date Of Birth"/>
+      <description value="Das Geburtsdatum bezieht sich auf den Tag, Monat und Jahr an dem eine Person geboren wurde."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -952,288 +1112,9 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-calcium-level"/>
-      </reference>
-      <name value="CLS CMO Blood Calcium Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-chloride-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Chloride Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-cholesterol-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Cholesterol Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Electrolyte Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Elektrolyt Messungen im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-glucose-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Glucose Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-magnesium-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Magnesium Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-phosphate-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Phosphate Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-potassium-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Potassium Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-pressure-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Pressure Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-sodium-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Sodium Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-blood-triglyceride-level"/>
-      </reference>
-      <name value="CLS OBO CMO Blood Triglyceride Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-body-height"/>
-      </reference>
-      <name value="CLS OBO CMO Body Height"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-body-mass-index"/>
-      </reference>
-      <name value="CLS OBO CMO Body Mass Index"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-body-weight"/>
-      </reference>
-      <name value="CLS OBO CMO Body Weight"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-diastolic-blood-pressure"/>
-      </reference>
-      <name value="CLS OBO CMO Diastolic Blood Pressure"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-heart-rate"/>
-      </reference>
-      <name value="CLS OBO CMO Heart Rate"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-hematocrit-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Hematocrit Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-hemoglobin-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Hemoglobin Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-hip-circumference"/>
-      </reference>
-      <name value="CLS OBO CMO Hip Circumference"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration"/>
-      </reference>
-      <name value="CLS OBO CMO Mean Corpuscular Hemoglobin Concentration"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level"/>
-      </reference>
-      <name value="CLS OBO CMO Mean Corpuscular Hemoglobin Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-mean-corpuscular-volume"/>
-      </reference>
-      <name value="CLS OBO CMO Mean Corpuscular Volume"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-platelet-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Platelet Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-red-blood-cell-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Red Blood Cell Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-systolic-blood-pressure"/>
-      </reference>
-      <name value="CLS OBO CMO Systolic Blood Pressure"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-urine-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO Urine Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-waist-circumference"/>
-      </reference>
-      <name value="CLS OBO CMO Waist Circumference"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-cmo-white-blood-cell-measurement"/>
-      </reference>
-      <name value="CLS OBO CMO White Blood Cell Measurement"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cls-obo-ncit-age-at-diagnosis"/>
       </reference>
-      <name value="CLS OBO CMO Age At Diagnosis"/>
+      <name value="CLS UMLS Age At Diagnosis"/>
       <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'."/>
     </resource>
     <resource>
@@ -1261,36 +1142,6 @@
         <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/cls-obo-ncit-date-of-diagnosis"/>
-      </reference>
-      <name value="CLS OBO NCIT Date Of Diagnosis"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-ncit-date"/>
-      </reference>
-      <name value="CLS OBO NCIT Date"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/cls-obo-ncit-visit-date"/>
-      </reference>
-      <name value="CLS OBO NCIT Visit Date"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Besuchsdatum'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource:abstract"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/cls-obo-ncit-year-date"/>
       </reference>
       <name value="CLS OBO NCIT Year Date"/>
@@ -1303,8 +1154,8 @@
       <reference>
         <reference value="StructureDefinition/cls-obo-snomed-blood-creatinine-level"/>
       </reference>
-      <name value="CLS OBO SNOMED Blood Creatinine Level"/>
-      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel im Blut'."/>
+      <name value="CLS OBO SNOMED Creatinine Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1371,6 +1222,334 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/cls-umls-anthropoemetry"/>
+      </reference>
+      <name value="CLS UMLS Anthropoemetry"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Anthropoemetrie'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-blood-pressure-measurement"/>
+      </reference>
+      <name value="CLS UMLS Pressure Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-height"/>
+      </reference>
+      <name value="CLS UMLS Body Height"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-mass-index"/>
+      </reference>
+      <name value="CLS UMLS Body Mass Index"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-weight"/>
+      </reference>
+      <name value="CLS UMLS Body Weight"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-calcium-level"/>
+      </reference>
+      <name value="CLS UMLS Calcium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-chloride-level"/>
+      </reference>
+      <name value="CLS UMLS Chloride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-cholesterol-level"/>
+      </reference>
+      <name value="CLS UMLS Cholesterol Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-date-of-diagnosis"/>
+      </reference>
+      <name value="CLS UMLS Date Of Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-dateof-event"/>
+      </reference>
+      <name value="CLS UMLS Date Of Event"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum von einem Event'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-diastolic-blood-pressure"/>
+      </reference>
+      <name value="CLS UMLS Diastolic Blood Pressure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-electrolyte-measurement"/>
+      </reference>
+      <name value="CLS UMLS Electrolyte Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung von Elektrolyten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-glucose-level"/>
+      </reference>
+      <name value="CLS UMLS Glucose Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-heart-rate"/>
+      </reference>
+      <name value="CLS UMLS Heart Rate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hematocrit-measurement"/>
+      </reference>
+      <name value="CLS UMLS Hematocrit Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hemoglobin-measurement"/>
+      </reference>
+      <name value="CLS UMLS Hemoglobin Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hip-circumference"/>
+      </reference>
+      <name value="CLS UMLS Hip Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-laboratory"/>
+      </reference>
+      <name value="CLS UMLS Laboratory"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-magnesium-level"/>
+      </reference>
+      <name value="CLS UMLS Magnesium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-concentration"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Hemoglobin Concentration"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-level"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Hemoglobin Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-volume"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Volume"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-phosphate-level"/>
+      </reference>
+      <name value="CLS UMLS Phosphate Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-platelet-measurement"/>
+      </reference>
+      <name value="CLS UMLS Platelet Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-potassium-level"/>
+      </reference>
+      <name value="CLS UMLS Potassium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-red-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS UMLS Red Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-sodium-level"/>
+      </reference>
+      <name value="CLS UMLS Sodium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-systolic-blood-pressure"/>
+      </reference>
+      <name value="CLS UMLS Systolic Blood Pressure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-triglyceride-level"/>
+      </reference>
+      <name value="CLS UMLS Triglyceride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-urine-measurement"/>
+      </reference>
+      <name value="CLS UMLS Urine Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-visit-date"/>
+      </reference>
+      <name value="CLS UMLS Visit Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Visite'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-waist-circumference"/>
+      </reference>
+      <name value="CLS UMLS Waist Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-white-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS UMLS White Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/poi-patient"/>
       </reference>
       <name value="POI Patient"/>
@@ -1401,10 +1580,60 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/rv-age"/>
+        <reference value="StructureDefinition/rv-age-in-years"/>
       </reference>
-      <name value="RV Age"/>
-      <description value="Das Alter einer Person in Jahren."/>
+      <name value="RV Age In Years"/>
+      <description value="Das Alter eines Patienten in Jahren."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-body-weight"/>
+      </reference>
+      <name value="RV Body Weight"/>
+      <description value="Das Körpergewicht eines Patienten in Kilogramm."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-creatinine"/>
+      </reference>
+      <name value="RV Creatinine"/>
+      <description value="Der"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-date-of-birth"/>
+      </reference>
+      <name value="RV Date Of Birth"/>
+      <description value="Das Geburtsdatum eines Patienten."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-month-of-birth"/>
+      </reference>
+      <name value="RV Month Of Birth"/>
+      <description value="Der Geburtsmonat eines Patienten."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-year-of-birth"/>
+      </reference>
+      <name value="RV Year Of Birth"/>
+      <description value="Das Geburtsjahr eines Patienten."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

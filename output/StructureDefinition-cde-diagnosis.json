@@ -30,7 +30,7 @@
   "name" : "CDE_Diagnosis",
   "title" : "CDE Diagnosis",
   "status" : "active",
-  "date" : "2023-03-16T17:46:04+01:00",
+  "date" : "2023-03-17T18:03:12+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -900,7 +900,7 @@
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
       "min" : 1,
-      "max" : "1",
+      "max" : "*",
       "base" : {
         "path" : "Observation.category",
         "min" : 0,
@@ -1485,7 +1485,7 @@
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
       "min" : 1,
-      "max" : "1",
+      "max" : "*",
       "base" : {
         "path" : "Observation.category",
         "min" : 0,
@@ -2070,7 +2070,7 @@
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
       "min" : 1,
-      "max" : "1",
+      "max" : "*",
       "base" : {
         "path" : "Observation.category",
         "min" : 0,
@@ -2655,7 +2655,7 @@
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
       "min" : 1,
-      "max" : "1",
+      "max" : "*",
       "base" : {
         "path" : "Observation.category",
         "min" : 0,
@@ -3240,7 +3240,7 @@
       "comment" : "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.",
       "requirements" : "Used for filtering what observations are retrieved and displayed.",
       "min" : 1,
-      "max" : "1",
+      "max" : "*",
       "base" : {
         "path" : "Observation.category",
         "min" : 0,

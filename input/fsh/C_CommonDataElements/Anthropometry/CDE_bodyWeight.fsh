@@ -1,5 +1,5 @@
 Profile: CDE_BodyWeight
-Parent: cls-obo-cmo-body-weight
+Parent: cls-umls-body-weight
 Id: cde-body-weight
 Title: "CDE Body Weight"
 Description: "Dieses CDE enthält das 'Körpergewicht'."

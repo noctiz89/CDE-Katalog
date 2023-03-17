@@ -1,0 +1,104 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://fhir.loinc.org/vs",
+      "concept" : [{
+        "code" : "LP7057-5",
+        "display" : "Blood"
+      },
+      {
+        "code" : "LP7067-4",
+        "display" : "Blood arterial"
+      },
+      {
+        "code" : "LP7567-3",
+        "display" : "Serum"
+      },
+      {
+        "code" : "LP7479-1",
+        "display" : "Plasma"
+      },
+      {
+        "code" : "LP7536-8",
+        "display" : "Red Blood Cells"
+      },
+      {
+        "code" : "LP7494-0",
+        "display" : "Platelet poor plasma"
+      },
+      {
+        "code" : "LP7690-3",
+        "display" : "Urine sediment"
+      },
+      {
+        "code" : "LP7156-5",
+        "display" : "Cerebral spinal fluid"
+      },
+      {
+        "code" : "LP7238-1",
+        "display" : "Body fluid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org/vs"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://fhir.loinc.org/vs",
+      "concept" : [{
+        "code" : "LP7057-5",
+        "display" : "Blood"
+      },
+      {
+        "code" : "LP7067-4",
+        "display" : "Blood arterial"
+      },
+      {
+        "code" : "LP7567-3",
+        "display" : "Serum"
+      },
+      {
+        "code" : "LP7479-1",
+        "display" : "Plasma"
+      },
+      {
+        "code" : "LP7536-8",
+        "display" : "Red Blood Cells"
+      },
+      {
+        "code" : "LP7494-0",
+        "display" : "Platelet poor plasma"
+      },
+      {
+        "code" : "LP7690-3",
+        "display" : "Urine sediment"
+      },
+      {
+        "code" : "LP7156-5",
+        "display" : "Cerebral spinal fluid"
+      },
+      {
+        "code" : "LP7238-1",
+        "display" : "Body fluid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org/vs"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.org/de/ValueSet/vs-specimen-types", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org/vs"
+}
+-------------------------------------------------------------------------------------

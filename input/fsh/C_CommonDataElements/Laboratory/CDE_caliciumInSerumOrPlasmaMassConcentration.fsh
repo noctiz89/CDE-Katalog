@@ -1,5 +1,5 @@
 Profile: CDE_CalciumInSerumOrPlasmaMassConcentration
-Parent: cls-obo-cmo-blood-calcium-level
+Parent: cls-umls-calcium-level
 Id: cde-calcium-in-serum-or-plasma-mass-concentration
 Title: "CDE Calcium In Serum Or Plasma Mass Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Kalzium [Mass/Volumen] in Serum oder Plasma'."

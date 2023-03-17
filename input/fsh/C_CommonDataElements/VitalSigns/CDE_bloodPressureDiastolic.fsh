@@ -1,5 +1,5 @@
 Profile: CDE_BloodPressureDiastolic
-Parent: cls-obo-cmo-diastolic-blood-pressure
+Parent: cls-umls-diastolic-blood-pressure
 Id: cde-blood-pressure-diastolic
 Title: "CDE Blood Pressure Diastolic"
 Description: "Dieses CDE enthät den 'diastolischen Blutdruck'."

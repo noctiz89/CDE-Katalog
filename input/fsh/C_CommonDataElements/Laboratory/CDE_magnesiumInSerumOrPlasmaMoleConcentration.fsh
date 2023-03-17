@@ -1,5 +1,5 @@
 Profile: CDE_MagnesiumInSerumOrPlasmaMoleConcentration
-Parent: cls-obo-cmo-blood-magnesium-level
+Parent: cls-umls-magnesium-level
 Id: cde-magnesium-in-serum-or-plasma-mole-concentration
 Title: "CDE Magnesium In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'."

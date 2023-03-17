@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="33d66f96-0f82-438b-a947-0134f1fb048d"/>
+  <id value="c62d4755-bbeb-4b0f-988a-ebb8b9a79027"/>
   <meta>
-    <lastUpdated value="2023-03-16T17:46:04.331+01:00"/>
+    <lastUpdated value="2023-03-17T18:03:12.989+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -120,7 +120,7 @@
         <title value="Administrative gender"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -136,8 +136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9c9e5460-e70b-4106-a143-e6c60decab19"/>
-          <timestamp value="2023-03-16T17:59:24+01:00"/>
+          <identifier value="urn:uuid:99062d75-fa82-44f6-9935-ddd1a2776364"/>
+          <timestamp value="2023-03-17T18:16:58+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -236,7 +236,7 @@
         <title value="Binary decision (yes or no)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -252,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fee2dc9f-2873-44fc-939b-8531fc39115d"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:fdfb89b7-9650-48c3-b0f0-20e4d4e74aee"/>
+          <timestamp value="2023-03-17T18:16:58+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -350,7 +350,7 @@
         <title value="Biological sex types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -366,8 +366,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:afdf5642-454c-4af1-b5ec-6977f6bb47a0"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:fc694fc7-97c3-42dc-b651-f0203887fbcc"/>
+          <timestamp value="2023-03-17T18:16:58+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2365,7 +2365,7 @@
         <title value="Ethnic groups"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -2384,8 +2384,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:6da9a77d-9306-49f1-b052-e147cddd0be0"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:723a4b2b-6ba0-4cd4-8f86-70048d7491c8"/>
+          <timestamp value="2023-03-17T18:16:58+01:00"/>
           <total value="240"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3640,7 +3640,7 @@
         <title value="Present Qualifers (negativ until three plus)"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -3656,8 +3656,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d21411e6-579d-4562-9f43-09b348e54d7a"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:c7bcf5ce-a2e9-4650-89f1-d8dc8a5586f1"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -3774,7 +3774,7 @@
         <title value="Common units for 'lenght'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -3790,8 +3790,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c981990e-e694-40a0-b5f7-fd67905e84e4"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:da6e263a-0237-4655-8563-f58fd0d2c126"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4046,7 +4046,7 @@
         <title value="Common units for 'mass concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4062,8 +4062,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f7876eb4-74c1-40a8-89bb-099702122bf7"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:c1fa1a75-57fa-4ca5-b644-0f570ea65743"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4301,7 +4301,7 @@
         <title value="Common units for 'mass'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4317,8 +4317,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:537bb274-b16a-4260-a162-aa3d1516d516"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:e5f47104-27fc-40d5-a0b5-bf0191b7138d"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4536,7 +4536,7 @@
         <title value="Common units for 'mole concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4552,8 +4552,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4abc23ea-bb25-4a5d-8cdd-6e08a2acc0ef"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:f0a2c8df-b8ae-4aa8-bfd5-094c49b0727b"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4831,7 +4831,7 @@
         <title value="Common units for 'number concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4847,8 +4847,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3d9bdeaf-cd34-4f5c-b584-22e80c02a8ce"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:86e7d9f5-dfc3-42ed-b4d5-1420f520d95a"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="20"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5043,7 +5043,7 @@
         <title value="Present Qualifers (negativ until three plus)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5059,8 +5059,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d61c8975-1e6e-4259-a809-61873f11bee1"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:f482cc6c-452a-486c-b26c-984c30ea8993"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5175,7 +5175,7 @@
         <title value="Reasons for missing data (sentinel)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5191,8 +5191,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8ba3e785-2b96-4b74-8ad3-118e73f7526f"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:47f48118-d45a-428f-a92b-7cbc355cb32a"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5307,7 +5307,7 @@
         <title value="Smoking Status Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5323,8 +5323,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b8136d62-bed8-4d64-9a1d-926c6b4839cf"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:6ee82cd6-3309-4dce-84fb-8bb898a3651d"/>
+          <timestamp value="2023-03-17T18:16:59+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5358,80 +5358,6 @@
             <code value="8392000"/>
             <display value="Non-smoker"/>
           </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/de/ValueSet/vs-specimen-types"/>
-    <resource>
-      <ValueSet>
-        <id value="vs-specimen-types"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
-            </extension>
-          </valueInteger>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
-            </extension>
-          </valueCode>
-        </extension>
-        <url value="http://hl7.org/de/ValueSet/vs-specimen-types"/>
-        <version value="0.2.0"/>
-        <name value="VS_SpecimenTypes"/>
-        <title value="Specimen Types (for Clinical Chemistry)"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
-        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
-          </telecom>
-        </contact>
-        <description value="LOINC Codes für 'Probenmaterial'"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:a9df6ad7-0c81-4c2d-9104-1bae3ab5faa9"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
         </expansion>
       </ValueSet>
     </resource>
@@ -5572,7 +5498,7 @@
         <title value="Common units for 'time span'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5588,8 +5514,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:69051543-616e-4d5c-97c3-f931d0e89c22"/>
-          <timestamp value="2023-03-16T17:59:25+01:00"/>
+          <identifier value="urn:uuid:b3a81a75-da06-41ab-8c28-620e2d132003"/>
+          <timestamp value="2023-03-17T18:17:00+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5766,7 +5692,7 @@
         <title value="Common units for 'unity element'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-16T17:46:04+01:00"/>
+        <date value="2023-03-17T18:03:12+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5782,8 +5708,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:54123052-0865-4a0e-a9b6-cc2b56cce66a"/>
-          <timestamp value="2023-03-16T17:59:26+01:00"/>
+          <identifier value="urn:uuid:707f3156-fd34-46ae-ab7a-efb170aeb316"/>
+          <timestamp value="2023-03-17T18:17:00+01:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>

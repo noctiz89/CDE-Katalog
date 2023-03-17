@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_Diagnosis"] ; # 
   fhir:title [ fhir:v "CDE Diagnosis"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-16T17:46:04+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-17T18:03:12+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -933,7 +933,7 @@
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
        fhir:requirements [ fhir:v "Used for filtering what observations are retrieved and displayed." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Observation.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -1503,7 +1503,7 @@
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
        fhir:requirements [ fhir:v "Used for filtering what observations are retrieved and displayed." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Observation.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -2073,7 +2073,7 @@
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
        fhir:requirements [ fhir:v "Used for filtering what observations are retrieved and displayed." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Observation.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -2643,7 +2643,7 @@
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
        fhir:requirements [ fhir:v "Used for filtering what observations are retrieved and displayed." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Observation.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -3213,7 +3213,7 @@
        fhir:comment [ fhir:v "In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set." ] ;
        fhir:requirements [ fhir:v "Used for filtering what observations are retrieved and displayed." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
-       fhir:max [ fhir:v "1" ] ;
+       fhir:max [ fhir:v "*" ] ;
        fhir:base [
          fhir:path [ fhir:v "Observation.category" ] ;
          fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;

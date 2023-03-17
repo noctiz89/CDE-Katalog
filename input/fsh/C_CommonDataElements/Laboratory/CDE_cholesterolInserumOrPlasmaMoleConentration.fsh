@@ -1,5 +1,5 @@
 Profile: CDE_cholesterolInserumOrPlasmaMoleConentration
-Parent: cls-obo-cmo-blood-cholesterol-level
+Parent: cls-umls-cholesterol-level
 Id: cde-cholesterol-inserum-or-plasma-mole-conentration
 Title: "CDE cholesterol Inserum Or Plasma Mole Conentration"
 Description: "Dieses CDE enthält den Messparameter 'Cholsterin [Mol/Volumen] in Serum oder Plasma'."

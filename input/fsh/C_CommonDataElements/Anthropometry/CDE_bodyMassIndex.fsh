@@ -1,5 +1,5 @@
 Profile: CDE_BodyMassIndex
-Parent: cls-obo-cmo-body-mass-index
+Parent: cls-umls-body-mass-index
 Id: cde-body-mass-index
 Title: "CDE Body Mass Index"
 Description: "Dieses CDE enthält den 'Body Mass Index (BMI) [Verhältnis]'."

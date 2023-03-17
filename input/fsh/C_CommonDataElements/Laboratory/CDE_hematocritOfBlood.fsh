@@ -1,5 +1,5 @@
 Profile: CDE_HematocritOfBlood
-Parent: cls-obo-cmo-hematocrit-measurement
+Parent: cls-umls-hematocrit-measurement
 Id: cde-hematocrit-of-blood
 Title: "CDE Hematocrit Of Blood"
 Description: "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'."

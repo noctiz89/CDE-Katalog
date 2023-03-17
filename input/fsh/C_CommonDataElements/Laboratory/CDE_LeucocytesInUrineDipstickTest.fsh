@@ -1,5 +1,5 @@
 Profile: CDE_LeucocyctesInUrineDipstickTest
-Parent: cls-obo-cmo-urine-measurement
+Parent: cls-umls-urine-measurement
 Id: cde-leucocyctes-in-urine-dipstick-test
 Title: "CDE Leucocyctes In Urine Dipstick Test"
 Description: "Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'."

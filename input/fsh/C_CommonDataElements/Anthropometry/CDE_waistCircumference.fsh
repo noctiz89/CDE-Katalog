@@ -1,5 +1,5 @@
 Profile: CDE_WaistCircumference
-Parent: cls-obo-cmo-waist-circumference
+Parent: cls-umls-waist-circumference
 Id: cde-waist-circumference
 Title: "CDE Waist Circumference"
 Description: "Dieses CDE enhält den 'Taillenumfang'."

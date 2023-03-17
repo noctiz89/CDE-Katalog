@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-16T17:46:04+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-17T18:03:12+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -561,22 +561,198 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/c-chronological-age> ;
-         fhir:reference [ fhir:v "StructureDefinition/c-chronological-age" ]
+         fhir:link <http://hl7.org/de/StructureDefinition/c-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-age" ]
        ] ;
-       fhir:name [ fhir:v "C Chronological Age" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'." ]
+       fhir:name [ fhir:v "C Age" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Alter'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cd-age-of-person> ;
-         fhir:reference [ fhir:v "StructureDefinition/cd-age-of-person" ]
+         fhir:link <http://hl7.org/de/StructureDefinition/c-creatinine> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-creatinine" ]
        ] ;
-       fhir:name [ fhir:v "CD Age Of Person" ] ;
+       fhir:name [ fhir:v "C Creatinine" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Kreatinin (Substanz)'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-current-chronological-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-current-chronological-age" ]
+       ] ;
+       fhir:name [ fhir:v "C Current Chronological Age" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'aktuelles chronologisches Alter'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-date-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-date-of-birth" ]
+       ] ;
+       fhir:name [ fhir:v "C Date Of Birth" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Geburtsdatum'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-diagnosis> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-diagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "C Diagnosis" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Diagnose'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-ethnicity> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-ethnicity" ]
+       ] ;
+       fhir:name [ fhir:v "C Ehnicity" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Ethnizität'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-finding-of-substance-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-finding-of-substance-level" ]
+       ] ;
+       fhir:name [ fhir:v "C Finding Of Substance Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Feststellung des Substanzgehalts'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-height> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-height" ]
+       ] ;
+       fhir:name [ fhir:v "C Height" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Größe'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-number> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-number" ]
+       ] ;
+       fhir:name [ fhir:v "C Number" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Anzahl'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-person> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-person" ]
+       ] ;
+       fhir:name [ fhir:v "C Person" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Person'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-quantity> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-quantity" ]
+       ] ;
+       fhir:name [ fhir:v "C Quantity" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Quantität'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-sex> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-sex" ]
+       ] ;
+       fhir:name [ fhir:v "C Sex" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Geschlecht'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-specimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-specimen" ]
+       ] ;
+       fhir:name [ fhir:v "C Specimen" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Probe'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/c-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/c-weight" ]
+       ] ;
+       fhir:name [ fhir:v "C Weight" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das Konzept 'Gewicht'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cd-age> ;
+         fhir:reference [ fhir:v "StructureDefinition/cd-age" ]
+       ] ;
+       fhir:name [ fhir:v "CD Age" ] ;
        fhir:description [ fhir:v "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cd-body-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/cd-body-weight" ]
+       ] ;
+       fhir:name [ fhir:v "CD Body Weight" ] ;
+       fhir:description [ fhir:v "Das Körpergewicht einer Person." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cd-creatinine-mole-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cd-creatinine-mole-concentration" ]
+       ] ;
+       fhir:name [ fhir:v "CD Creatinine Mole Concentration" ] ;
+       fhir:description [ fhir:v "Der Laborparameter 'Kreatinin [Mol/Volumen]' einer Person." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cd-date-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/cd-date-of-birth" ]
+       ] ;
+       fhir:name [ fhir:v "CD Date Of Birth" ] ;
+       fhir:description [ fhir:v "Das Geburtsdatum bezieht sich auf den Tag, Monat und Jahr an dem eine Person geboren wurde." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1067,317 +1243,10 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-calcium-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-calcium-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS CMO Blood Calcium Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-chloride-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-chloride-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Chloride Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-cholesterol-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-cholesterol-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Cholesterol Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-electrolyte-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Electrolyte Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Elektrolyt Messungen im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-glucose-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-glucose-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Glucose Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-magnesium-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-magnesium-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Magnesium Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-phosphate-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-phosphate-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Phosphate Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-potassium-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-potassium-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Potassium Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-pressure-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-pressure-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Pressure Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-sodium-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-sodium-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Sodium Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-blood-triglyceride-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-blood-triglyceride-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Blood Triglyceride Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-height> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-height" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Body Height" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-mass-index> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-mass-index" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Body Mass Index" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-body-weight> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-body-weight" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Body Weight" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-diastolic-blood-pressure> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-diastolic-blood-pressure" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Diastolic Blood Pressure" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel im Blut'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-heart-rate> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-heart-rate" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Heart Rate" ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-hematocrit-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hematocrit-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Hematocrit Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-hemoglobin-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hemoglobin-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Hemoglobin Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-hip-circumference> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-hip-circumference" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Hip Circumference" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-concentration" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Concentration" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-hemoglobin-level" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Hemoglobin Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-mean-corpuscular-volume> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-mean-corpuscular-volume" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Mean Corpuscular Volume" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-platelet-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-platelet-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Platelet Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-red-blood-cell-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-red-blood-cell-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Red Blood Cell Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-systolic-blood-pressure> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-systolic-blood-pressure" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Systolic Blood Pressure" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-urine-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-urine-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Urine Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-waist-circumference> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-waist-circumference" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Waist Circumference" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-cmo-white-blood-cell-measurement> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-cmo-white-blood-cell-measurement" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO CMO White Blood Cell Measurement" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-ncit-age-at-diagnosis> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-age-at-diagnosis" ]
        ] ;
-       fhir:name [ fhir:v "CLS OBO CMO Age At Diagnosis" ] ;
+       fhir:name [ fhir:v "CLS UMLS Age At Diagnosis" ] ;
        fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'." ]
      ] [
        fhir:extension ( [
@@ -1407,39 +1276,6 @@
          fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-ncit-date-of-diagnosis> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date-of-diagnosis" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO NCIT Date Of Diagnosis" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-ncit-date> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-date" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO NCIT Date" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-ncit-visit-date> ;
-         fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-visit-date" ]
-       ] ;
-       fhir:name [ fhir:v "CLS OBO NCIT Visit Date" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Besuchsdatum'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-ncit-year-date> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-ncit-year-date" ]
        ] ;
@@ -1454,8 +1290,8 @@
          fhir:link <http://hl7.org/de/StructureDefinition/cls-obo-snomed-blood-creatinine-level> ;
          fhir:reference [ fhir:v "StructureDefinition/cls-obo-snomed-blood-creatinine-level" ]
        ] ;
-       fhir:name [ fhir:v "CLS OBO SNOMED Blood Creatinine Level" ] ;
-       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel im Blut'." ]
+       fhir:name [ fhir:v "CLS OBO SNOMED Creatinine Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1528,6 +1364,367 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-anthropoemetry> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-anthropoemetry" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Anthropoemetry" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Anthropoemetrie'" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-blood-pressure-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-blood-pressure-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Pressure Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-body-height> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-body-height" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Body Height" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-body-mass-index> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-body-mass-index" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Body Mass Index" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-body-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-body-weight" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Body Weight" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-calcium-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-calcium-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Calcium Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-chloride-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-chloride-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Chloride Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-cholesterol-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-cholesterol-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Cholesterol Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-date-of-diagnosis> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-date-of-diagnosis" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Date Of Diagnosis" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-dateof-event> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-dateof-event" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Date Of Event" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum von einem Event'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-diastolic-blood-pressure> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-diastolic-blood-pressure" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Diastolic Blood Pressure" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-electrolyte-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-electrolyte-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Electrolyte Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung von Elektrolyten'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-glucose-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-glucose-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Glucose Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-heart-rate> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-heart-rate" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Heart Rate" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-hematocrit-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-hematocrit-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Hematocrit Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-hemoglobin-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-hemoglobin-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Hemoglobin Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-hip-circumference> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-hip-circumference" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Hip Circumference" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-laboratory> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-laboratory" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Laboratory" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-magnesium-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-magnesium-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Magnesium Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-concentration> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-concentration" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Mean Corpuscular Hemoglobin Concentration" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Mean Corpuscular Hemoglobin Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-volume> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-mean-corpuscular-volume" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Mean Corpuscular Volume" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-phosphate-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-phosphate-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Phosphate Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-platelet-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-platelet-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Platelet Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-potassium-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-potassium-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Potassium Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-red-blood-cell-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-red-blood-cell-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Red Blood Cell Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-sodium-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-sodium-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Sodium Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-systolic-blood-pressure> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-systolic-blood-pressure" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Systolic Blood Pressure" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-triglyceride-level> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-triglyceride-level" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Triglyceride Level" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-urine-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-urine-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Urine Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-visit-date> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-visit-date" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Visit Date" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Visite'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-waist-circumference> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-waist-circumference" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS Waist Circumference" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/cls-umls-white-blood-cell-measurement> ;
+         fhir:reference [ fhir:v "StructureDefinition/cls-umls-white-blood-cell-measurement" ]
+       ] ;
+       fhir:name [ fhir:v "CLS UMLS White Blood Cell Measurement" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/poi-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/poi-patient" ]
        ] ;
@@ -1561,11 +1758,66 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/rv-age> ;
-         fhir:reference [ fhir:v "StructureDefinition/rv-age" ]
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-age-in-years" ]
        ] ;
-       fhir:name [ fhir:v "RV Age" ] ;
-       fhir:description [ fhir:v "Das Alter einer Person in Jahren." ]
+       fhir:name [ fhir:v "RV Age In Years" ] ;
+       fhir:description [ fhir:v "Das Alter eines Patienten in Jahren." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-body-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-body-weight" ]
+       ] ;
+       fhir:name [ fhir:v "RV Body Weight" ] ;
+       fhir:description [ fhir:v "Das Körpergewicht eines Patienten in Kilogramm." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-creatinine> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-creatinine" ]
+       ] ;
+       fhir:name [ fhir:v "RV Creatinine" ] ;
+       fhir:description [ fhir:v "Der" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-date-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-date-of-birth" ]
+       ] ;
+       fhir:name [ fhir:v "RV Date Of Birth" ] ;
+       fhir:description [ fhir:v "Das Geburtsdatum eines Patienten." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-month-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-month-of-birth" ]
+       ] ;
+       fhir:name [ fhir:v "RV Month Of Birth" ] ;
+       fhir:description [ fhir:v "Der Geburtsmonat eines Patienten." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-year-of-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-year-of-birth" ]
+       ] ;
+       fhir:name [ fhir:v "RV Year Of Birth" ] ;
+       fhir:description [ fhir:v "Das Geburtsjahr eines Patienten." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

@@ -1,5 +1,5 @@
 Profile: CDE_VisitDate
-Parent: cls-obo-ncit-visit-date
+Parent: cls-umls-visit-date
 Id: cde-visit-date
 Title: "CDE Visit Date"
 Description: "Dieses CDE enhält das 'Datum der Untersuchung'."

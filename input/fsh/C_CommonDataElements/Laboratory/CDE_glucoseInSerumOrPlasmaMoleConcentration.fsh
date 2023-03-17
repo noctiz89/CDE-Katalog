@@ -1,5 +1,5 @@
 Profile: CDE_GlucoseInSerumOrPlasmaMoleConcentration
-Parent: cls-obo-cmo-blood-glucose-level
+Parent: cls-umls-glucose-level
 Id: cde-glucose-in-serum-or-plasma-mole-concentration
 Title: "CDE Glucose In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Glukose [Mol/Volumen] in Serum oder Plasma'."

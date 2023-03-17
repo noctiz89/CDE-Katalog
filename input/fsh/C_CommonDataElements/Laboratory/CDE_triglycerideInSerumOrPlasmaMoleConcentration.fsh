@@ -1,5 +1,5 @@
 Profile: CDE_TriglycerideInSerumOrPlasmaMoleConcentration
-Parent: cls-obo-cmo-blood-triglyceride-level
+Parent: cls-umls-triglyceride-level
 Id: cde-triglyceride-in-serum-or-plasma-mole-concentration
 Title: "CDE Triglyceride In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Triglyceride [Mol/Volumen] in Serum oder Plasma'."

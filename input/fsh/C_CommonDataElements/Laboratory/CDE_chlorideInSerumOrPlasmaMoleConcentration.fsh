@@ -1,5 +1,5 @@
 Profile: CDE_ChlorideInSerumOrPlasmaMoleConcentration
-Parent: cls-obo-cmo-blood-chloride-level
+Parent: cls-umls-chloride-level
 Id: cde-chloride-in-serum-or-plasma-mole-concentration
 Title: "CDE Chloride In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Chlorid [Mol/Volumen] in Serum oder Plasma'."
