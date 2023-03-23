@@ -1,7 +1,7 @@
 ValueSet: VS_UnityUnits
 Id: vs-unity-units
 Title: "VS Unity Units"
-Description: "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active
@@ -9,11 +9,8 @@ Description: "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
 * ^publisher = "fhir.cde-katalog"
 * ^title = "Common units for 'unity element'"
 ////
-* include $UCUM#[lg]
-* include $UCUM#10*6/{Specimen}
 * include $UCUM#/{tot}
 * include $UCUM#10*3  
-* include $UCUM#10*3.{RBC}
 * include $UCUM#10*5  
 * include $UCUM#10*6
 * include $UCUM#10*8

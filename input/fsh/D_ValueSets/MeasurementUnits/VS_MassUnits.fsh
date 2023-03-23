@@ -1,7 +1,7 @@
 ValueSet: VS_MassUnits
 Id: vs-mass-units
 Title: "VS Mass Units"
-Description: "UCUM Codes für 'Masse'"
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Masse' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

@@ -1,7 +1,7 @@
 ValueSet: VS_MolarConcentrationUnits
 Id: vs-molar-concentration-units
 Title: "VS Molar Concentration Units"
-Description: "UCUM Codes für Stoffmengenkonzentration"
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Stoffmengenkonzentration' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

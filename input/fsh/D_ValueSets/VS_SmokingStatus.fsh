@@ -1,7 +1,7 @@
 ValueSet: VS_SmokingStatus
 Id: vs-smoking-status
 Title: "VS Smoking Status"
-Description: "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."
+Description: "Dieses Valueset enthält SNOMED-Codes, um das 'Rauchverhalten' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

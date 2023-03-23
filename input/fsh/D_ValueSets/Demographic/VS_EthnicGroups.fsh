@@ -1,7 +1,7 @@
 ValueSet: VS_EthnicGroups
 Id: vs-ethnic-groups
 Title: "VS Ethnic Groups"
-Description: "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."
+Description: "Diese ValueSet enthält SNOMED-Codes für 'ethnische Gruppen'."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

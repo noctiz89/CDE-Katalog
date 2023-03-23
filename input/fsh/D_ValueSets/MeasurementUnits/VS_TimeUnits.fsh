@@ -1,7 +1,7 @@
 ValueSet: VS_TimeUnits
 Id: vs-time-units
 Title: "VS Time Units"
-Description: "UCUM Codes für 'Zeit'"
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Zeit' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

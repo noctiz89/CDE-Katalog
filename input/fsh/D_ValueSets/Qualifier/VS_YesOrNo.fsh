@@ -1,7 +1,7 @@
 ValueSet: VS_BinaryDecisionYesOrNo
 Id: vs-binary-decision-yes-or-no
 Title: "VS Binary Decision Yes Or No"
-Description: "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
+Description: "Dieses ValueSet enthält SNOMED-Codes für Ja oder Nein."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

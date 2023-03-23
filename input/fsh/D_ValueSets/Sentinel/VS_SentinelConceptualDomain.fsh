@@ -1,7 +1,7 @@
 ValueSet: VS_SentinelConceptualDomain
 Id: vs-sentinel-conceptual-domain
 Title: "VS Sentinel Conceptual Domain"
-Description: "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."
+Description: "Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien)."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

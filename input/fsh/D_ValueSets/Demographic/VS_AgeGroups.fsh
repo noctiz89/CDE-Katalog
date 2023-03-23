@@ -1,7 +1,7 @@
 ValueSet: VS_AgeGroups
 Id: vs-age-groups
 Title: "VS Age Groups"
-Description: "Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'."
+Description: "Dieses ValueSet enthält LOINC-Codes für unterschiedliche 'Altersgruppen'."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active

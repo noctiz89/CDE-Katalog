@@ -1,7 +1,7 @@
 ValueSet: VS_MassConcentrationUnits
 Id: vs-mass-concentration-units
 Title: "VS Mass Concentration Units"
-Description: "UCUM Codes für Massenkonzentration"
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Massenkonzentration' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active
@@ -10,17 +10,14 @@ Description: "UCUM Codes für Massenkonzentration"
 * ^title = "Common units for 'mass concentration'"
 ////
 * include $UCUM#pg/mL	            
-* include $UCUM#ng/mL	            
-* include $UCUM#ng/mL{rbc}	        
+* include $UCUM#ng/mL	             
 * include $UCUM#ug/mL	            
 * include $UCUM#mg/mL	            
 * include $UCUM#g/mL	            
 * include $UCUM#pg/dL	            
 * include $UCUM#ng/dL	            
-* include $UCUM#ug/dL	            
-* include $UCUM#ug/dL{rbc}	        
+* include $UCUM#ug/dL	               
 * include $UCUM#mg/dL	            
-* include $UCUM#mg{Phenylketones}/dL
 * include $UCUM#g/dL	            
 * include $UCUM#ng/L	            
 * include $UCUM#pg/L	            

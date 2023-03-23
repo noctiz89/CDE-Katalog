@@ -1,7 +1,7 @@
 ValueSet: VS_NumberConcentrationUnits
 Id: vs-number-concentration-units
 Title: "VS Number Concentration Units"
-Description: "UCUM Codes für 'Anzahl pro Volumen'."
+Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Anzahl pro Volumen' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active
@@ -10,19 +10,13 @@ Description: "UCUM Codes für 'Anzahl pro Volumen'."
 * ^title = "Common units for 'number concentration'"
 ////
 * include $UCUM#uL
-* include $UCUM#{Cells}/uL
-* include $UCUM#{rbc}/uL
 * include $UCUM#10*3/uL
 * include $UCUM#10*6/uL
 * include $UCUM#10*9/uL
 * include $UCUM#/mL
-* include $UCUM#{Spermatozoa}/mL
-* include $UCUM#{Copies}/mL
 * include $UCUM#10*3/mL    
-* include $UCUM#10*3{Copies}/mL
 * include $UCUM#10*6/mL
 * include $UCUM#10*9/mL        
-* include $UCUM#{cfu}/mL
 * include $UCUM#/dL       
 * include $UCUM#/L
 * include $UCUM#10*3/L

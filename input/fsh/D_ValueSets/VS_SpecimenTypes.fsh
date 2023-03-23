@@ -1,7 +1,7 @@
 ValueSet: VS_SpecimenTypes
 Id: vs-specimen-types
 Title: "VS Specimen Types"
-Description: "LOINC Codes für 'Probenmaterial'"
+Description: "Dieses Valueset enhält LOINC-Codes, um den 'Probenmaterial-Typ' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"
 * ^status = #active
