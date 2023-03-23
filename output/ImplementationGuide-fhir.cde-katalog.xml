@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-23T11:27:05+01:00"/>
+  <date value="2023-03-23T14:41:29+01:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -1800,36 +1800,6 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/poi-patient"/>
-      </reference>
-      <name value="POI Patient"/>
-      <description value="Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/poi-person"/>
-      </reference>
-      <name value="POI Person"/>
-      <description value="Dieses Profil beschreibt eine Person von Interesse als Person."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/poi-research-subject"/>
-      </reference>
-      <name value="POI Research Subject"/>
-      <description value="Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/rv-administrative-gender"/>
       </reference>
       <name value="RV Administrative Gender"/>
@@ -1953,7 +1923,7 @@
         <reference value="ValueSet/vs-age-groups"/>
       </reference>
       <name value="Age groups"/>
-      <description value="Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'."/>
+      <description value="Dieses ValueSet enthält LOINC-Codes für unterschiedliche 'Altersgruppen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1963,7 +1933,7 @@
         <reference value="ValueSet/vs-binary-decision-yes-or-no"/>
       </reference>
       <name value="Binary decision (yes or no)"/>
-      <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes für Ja oder Nein."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1983,17 +1953,7 @@
         <reference value="ValueSet/vs-ethnic-groups"/>
       </reference>
       <name value="Ethnic groups"/>
-      <description value="Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-glasgow-coma-scale-for-adults"/>
-      </reference>
-      <name value="Present Qualifers (negativ until three plus)"/>
-      <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
+      <description value="Diese ValueSet enthält SNOMED-Codes für 'ethnische Gruppen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2003,7 +1963,7 @@
         <reference value="ValueSet/vs-length-units"/>
       </reference>
       <name value="Common units for 'lenght'"/>
-      <description value="UCUM Codes für 'Länge'"/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2013,7 +1973,7 @@
         <reference value="ValueSet/vs-mass-concentration-units"/>
       </reference>
       <name value="Common units for 'mass concentration'"/>
-      <description value="UCUM Codes für Massenkonzentration"/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Massenkonzentration' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2023,7 +1983,7 @@
         <reference value="ValueSet/vs-mass-units"/>
       </reference>
       <name value="Common units for 'mass'"/>
-      <description value="UCUM Codes für 'Masse'"/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Masse' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2033,7 +1993,7 @@
         <reference value="ValueSet/vs-molar-concentration-units"/>
       </reference>
       <name value="Common units for 'mole concentration'"/>
-      <description value="UCUM Codes für Stoffmengenkonzentration"/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Stoffmengenkonzentration' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2043,7 +2003,7 @@
         <reference value="ValueSet/vs-number-concentration-units"/>
       </reference>
       <name value="Common units for 'number concentration'"/>
-      <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Anzahl pro Volumen' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2053,7 +2013,7 @@
         <reference value="ValueSet/vs-qualifier-for-presence"/>
       </reference>
       <name value="Present Qualifers (negativ until three plus)"/>
-      <description value="Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes, die das Vorhandensein eines Zustands oder einer zu testenden Substanz anzeigen."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2063,7 +2023,7 @@
         <reference value="ValueSet/vs-sentinel-conceptual-domain"/>
       </reference>
       <name value="Reasons for missing data (sentinel)"/>
-      <description value="Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien)."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2073,7 +2033,7 @@
         <reference value="ValueSet/vs-smoking-status"/>
       </reference>
       <name value="Smoking Status Types"/>
-      <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
+      <description value="Dieses Valueset enthält SNOMED-Codes, um das 'Rauchverhalten' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2083,7 +2043,7 @@
         <reference value="ValueSet/vs-specimen-types"/>
       </reference>
       <name value="Specimen Types (for Clinical Chemistry)"/>
-      <description value="LOINC Codes für 'Probenmaterial'"/>
+      <description value="Dieses Valueset enhält LOINC-Codes, um den 'Probenmaterial-Typ' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2093,7 +2053,7 @@
         <reference value="ValueSet/vs-time-units"/>
       </reference>
       <name value="Common units for 'time span'"/>
-      <description value="UCUM Codes für 'Zeit'"/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Zeit' zu beschreiben."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2103,7 +2063,7 @@
         <reference value="ValueSet/vs-unity-units"/>
       </reference>
       <name value="Common units for 'unity element'"/>
-      <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
+      <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben."/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">

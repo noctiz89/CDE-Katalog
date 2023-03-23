@@ -1,7 +1,6 @@
 ValueSet: VS_LengthUnits
 Id: vs-length-units
 Title: "VS Length Units"
-Description: "UCUM Codes für 'Länge'"
 Description: "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben."
 /// Minimum Metadata for "SharableValueset"
 * ^version = "4.0.1"

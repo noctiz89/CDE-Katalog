@@ -31,7 +31,7 @@
   "title" : "Common units for 'lenght'",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-03-23T11:27:05+01:00",
+  "date" : "2023-03-23T14:41:29+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -39,7 +39,7 @@
       "value" : "http://hl7.org/Special/committees/[something]"
     }]
   }],
-  "description" : "UCUM Codes für 'Länge'",
+  "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",

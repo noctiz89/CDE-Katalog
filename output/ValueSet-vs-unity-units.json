@@ -3,7 +3,7 @@
   "id" : "vs-unity-units",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>[lg]</td><td/></tr><tr><td>10*6/{Specimen}</td><td>10*6/{Specimen}</td></tr><tr><td>/{tot}</td><td>/{tot}</td></tr><tr><td>10*3</td><td>10*3</td></tr><tr><td>10*3.{RBC}</td><td>10*3.{RBC}</td></tr><tr><td>10*5</td><td>10*5</td></tr><tr><td>10*6</td><td>10*6</td></tr><tr><td>10*8</td><td>10*8</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>/{tot}</td><td>/{tot}</td></tr><tr><td>10*3</td><td>10*3</td></tr><tr><td>10*5</td><td>10*5</td></tr><tr><td>10*6</td><td>10*6</td></tr><tr><td>10*8</td><td>10*8</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -31,7 +31,7 @@
   "title" : "Common units for 'unity element'",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-03-23T11:27:05+01:00",
+  "date" : "2023-03-23T14:41:29+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -39,7 +39,7 @@
       "value" : "http://hl7.org/Special/committees/[something]"
     }]
   }],
-  "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element').",
+  "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -50,19 +50,10 @@
     "include" : [{
       "system" : "http://unitsofmeasure.org",
       "concept" : [{
-        "code" : "[lg]"
-      },
-      {
-        "code" : "10*6/{Specimen}"
-      },
-      {
         "code" : "/{tot}"
       },
       {
         "code" : "10*3"
-      },
-      {
-        "code" : "10*3.{RBC}"
       },
       {
         "code" : "10*5"

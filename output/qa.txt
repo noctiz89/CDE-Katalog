@@ -1,9 +1,9 @@
 ﻿cde-katalog : Validation Results
 =========================================
 
-err = 4, warn = 73, info = 2
+err = 4, warn = 69, info = 0
 IG Publisher Version: 1.3.1
-Generated Thu Mar 23 11:54:02 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+Generated Thu Mar 23 15:10:14 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
  Build Errors : 0 / 7 / 0
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Questionnaire-Top300Loinc : 2 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-age : 0 / 0 / 1
@@ -137,9 +137,6 @@ Generated Thu Mar 23 11:54:02 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-gender : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-blood : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-years : 0 / 1 / 1
@@ -156,7 +153,6 @@ Generated Thu Mar 23 11:54:02 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-units : 0 / 0 / 1
@@ -167,7 +163,7 @@ Generated Thu Mar 23 11:54:02 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 2 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\input\myig : 2 / 1 / 1
 </table>
 == n/a ==
@@ -358,14 +354,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 == fsh-generated\resources\StructureDefinition-cv-gender.json ==
 == fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-blood.json ==
 == fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine.json ==
-== fsh-generated\resources\StructureDefinition-poi-patient.json ==
-INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-poi-person.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-person'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
-INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-administrative-gender.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-administrative-gender'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes.json ==
@@ -395,7 +383,6 @@ WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to prov
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
-== fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
 == fsh-generated\resources\ValueSet-vs-length-units.json ==
 == fsh-generated\resources\ValueSet-vs-mass-concentration-units.json ==
 == fsh-generated\resources\ValueSet-vs-mass-units.json ==
@@ -409,7 +396,6 @@ WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0]: Unknown Sys
 WARNING: ValueSet.where(id = 'vs-specimen-types'): Error from server: Unable to provide support for code system https://fhir.loinc.org
 == fsh-generated\resources\ValueSet-vs-time-units.json ==
 == fsh-generated\resources\ValueSet-vs-unity-units.json ==
-WARNING: ValueSet/vs-unity-units: ValueSet.compose[0].include[0].concept[0]: The code [lg] is not valid in the system http://unitsofmeasure.org
 == input\myig.xml ==
 WARNING: ImplementationGuide/fhir.cde-katalog: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: ImplementationGuide/fhir.cde-katalog: ImplementationGuide.definition.extension[4].extension[0].value.ofType(string): Der angegebene Wert ("showsource") ist nicht im ValueSet 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), und ein Code aus diesem Valueset ist erforderlich) (error message = Unbekannter Code http://hl7.org/fhir/tools/CodeSystem/ig-parameters#showsource in http://hl7.org/fhir/tools/CodeSystem/ig-parameters)

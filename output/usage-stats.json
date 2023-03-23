@@ -7,6 +7,530 @@
   "profiles": {
     "Observation": [
       {
+        "url": "http://hl7.org/de/StructureDefinition/c-age",
+        "title": "C Age"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-anthropometry",
+        "title": "C Anthropometry"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-biological-sex",
+        "title": "C Biological Sex"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-blood",
+        "title": "C Blood"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-body-height",
+        "title": "C Body Height"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-body-weight",
+        "title": "C Body Weight"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-clinical-diagnosis",
+        "title": "C Clinical Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-count",
+        "title": "C Count"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-creatinine",
+        "title": "C Creatinine"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-current-chronological-age",
+        "title": "C Current Chronological Age"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-date-of-birth",
+        "title": "C Date Of Birth"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-enumeration",
+        "title": "C Enumeration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-ethnicity",
+        "title": "C Ehnicity"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-female",
+        "title": "C Female"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-finding-of-creatinine-level",
+        "title": "C Finding Of Creatinine Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-finding-of-substance-level",
+        "title": "C Finding Of Substance Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-gender",
+        "title": "C Gender"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-glucose",
+        "title": "C Glucose"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-gregorian-calendar-date",
+        "title": "C Gregorian Calendar Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-health-related-behavior",
+        "title": "C Health Related Behavior"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-intersex",
+        "title": "C Intersex"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-interval-scale",
+        "title": "C Interval Scale"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-male",
+        "title": "C Male"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-nominal-scale",
+        "title": "C Nominal Scale"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-ordinal-scale",
+        "title": "C Ordinal Scale"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-persons",
+        "title": "C Persons"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-quantity",
+        "title": "C Quantity"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-ratio-scale",
+        "title": "C Ratio Scale"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-scale-type",
+        "title": "C Scale Type"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-serum-or-plasma",
+        "title": "C Serum Or Plasma"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-specimen-type",
+        "title": "C Specimen Type"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-speciment-collection-date",
+        "title": "C Speciment Collection Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/c-urine",
+        "title": "C Urine"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-age",
+        "title": "CDE Age"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension",
+        "title": "CDE Age At Diagnosis Of Essential Hypertension"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-birth-date",
+        "title": "CDE Birth Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-blood-pressure-diastolic",
+        "title": "CDE Blood Pressure Diastolic"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-blood-pressure-systolic",
+        "title": "CDE Blood Pressure Systolic"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-body-height",
+        "title": "CDE Body Height"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-body-mass-index",
+        "title": "CDE Body Mass Index"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-body-weight",
+        "title": "CDE Body Weight"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration",
+        "title": "CDE Calcium In Serum Or Plasma Mass Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Calcium In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Chloride In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration",
+        "title": "CDE cholesterol Inserum Or Plasma Mole Conentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Creatinine In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-current-age-calculated",
+        "title": "CDE Current Age Calculated"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-current-age-reported",
+        "title": "CDE Current Age Reported"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-date-of-diagnosis",
+        "title": "CDE Date Of Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no",
+        "title": "CDE diabetes Mellitus Status Yes Or No"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-diagnosis",
+        "title": "CDE Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume",
+        "title": "CDE Erythrocytes In Blood Count Per Volume"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-ethnicity",
+        "title": "CDE Ethnicity"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-glasgow-coma-score",
+        "title": "CDE Glasgow Coma Score"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Glucose In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-heart-rate-beats-per-minute",
+        "title": "CDE heart Rate Beats Per Minute"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-hematocrit-of-blood",
+        "title": "CDE Hematocrit Of Blood"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration",
+        "title": "CDE Hemoglobin In Blood Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-hip-circumference",
+        "title": "CDE Hip Circumference"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test",
+        "title": "CDE Leucocyctes In Urine Dipstick Test"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume",
+        "title": "CDE Leukocytes In Blood Count Per Volume"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Magnesium In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass",
+        "title": "CDE Mean Corpuscular Hemoglobin Level Entitic Mass"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume",
+        "title": "CDE Mean Corpuscular Volume Entitic Volume"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Phosphate In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Potassium In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-sex-assigned-at-birth",
+        "title": "CDE Sex Assigned At Birth"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Sodium In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume",
+        "title": "CDE Thrombocytes In Blood Count Per Volume"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age",
+        "title": "CDE tobacco Smoking Cessation Age"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year",
+        "title": "CDE Tobacco Smoking Cessation Year"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-pack-year",
+        "title": "CDE Tobacco Smoking Pack Year"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status",
+        "title": "CDE Smoking Status"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no",
+        "title": "CDE tobacco Smoking Status Yes Or No"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration",
+        "title": "CDE Triglyceride In Serum Or Plasma Mole Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-visit-date",
+        "title": "CDE Visit Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cde-waist-circumference",
+        "title": "CDE Waist Circumference"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age",
+        "title": "CLS OBO NCIT Age"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-obo-ncit-age-at-diagnosis",
+        "title": "CLS UMLS Age At Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-obo-ncit-birth-date",
+        "title": "CLS OBO NCIT Birth Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-obo-ncit-year-date",
+        "title": "CLS OBO NCIT Year Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-obo-snomed-blood-creatinine-level",
+        "title": "CLS OBO SNOMED Creatinine Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-age-at-smoking-cessation",
+        "title": "CLS SNOMED Age At Smoking Cessation"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-demographic-history-detail",
+        "title": "CLS SNOMED Demographic History Detail"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-diagnosis",
+        "title": "CLS SNOMED Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure",
+        "title": "CLS SNOMED Finding Of Tobacco Use And Exposure"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-pack-years",
+        "title": "CLS SNOMED Pack Years"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-snomed-patient-sex",
+        "title": "CLS SNOMED Patient Sex"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-anthropoemetry",
+        "title": "CLS UMLS Anthropoemetry"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-blood-pressure-measurement",
+        "title": "CLS UMLS Pressure Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-body-height",
+        "title": "CLS UMLS Body Height"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-body-mass-index",
+        "title": "CLS UMLS Body Mass Index"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-body-weight",
+        "title": "CLS UMLS Body Weight"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-calcium-level",
+        "title": "CLS UMLS Calcium Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-chloride-level",
+        "title": "CLS UMLS Chloride Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-cholesterol-level",
+        "title": "CLS UMLS Cholesterol Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-date-of-diagnosis",
+        "title": "CLS UMLS Date Of Diagnosis"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-dateof-event",
+        "title": "CLS UMLS Date Of Event"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-diastolic-blood-pressure",
+        "title": "CLS UMLS Diastolic Blood Pressure"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-electrolyte-measurement",
+        "title": "CLS UMLS Electrolyte Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-glucose-level",
+        "title": "CLS UMLS Glucose Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-heart-rate",
+        "title": "CLS UMLS Heart Rate"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-hematocrit-measurement",
+        "title": "CLS UMLS Hematocrit Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-hemoglobin-measurement",
+        "title": "CLS UMLS Hemoglobin Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-hip-circumference",
+        "title": "CLS UMLS Hip Circumference"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-laboratory",
+        "title": "CLS UMLS Laboratory"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-magnesium-level",
+        "title": "CLS UMLS Magnesium Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-concentration",
+        "title": "CLS UMLS Mean Corpuscular Hemoglobin Concentration"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-level",
+        "title": "CLS UMLS Mean Corpuscular Hemoglobin Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-mean-corpuscular-volume",
+        "title": "CLS UMLS Mean Corpuscular Volume"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-phosphate-level",
+        "title": "CLS UMLS Phosphate Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-platelet-measurement",
+        "title": "CLS UMLS Platelet Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-potassium-level",
+        "title": "CLS UMLS Potassium Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-red-blood-cell-measurement",
+        "title": "CLS UMLS Red Blood Cell Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-sodium-level",
+        "title": "CLS UMLS Sodium Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-systolic-blood-pressure",
+        "title": "CLS UMLS Systolic Blood Pressure"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-triglyceride-level",
+        "title": "CLS UMLS Triglyceride Level"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-urine-measurement",
+        "title": "CLS UMLS Urine Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-visit-date",
+        "title": "CLS UMLS Visit Date"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-waist-circumference",
+        "title": "CLS UMLS Waist Circumference"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cls-umls-white-blood-cell-measurement",
+        "title": "CLS UMLS White Blood Cell Measurement"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-age-counted",
+        "title": "CV Age Counted"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-biological-sex",
+        "title": "CV Biological Sex"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-body-height",
+        "title": "CV Body Height"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-body-weight",
+        "title": "CV Body Weight"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-creatinine-concentration-in-blood",
+        "title": "CV Creatinine Concentration In Blood"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-creatinine-concentration-in-urine",
+        "title": "CV Creatinine Concentration In Urine"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-date-of-birth",
+        "title": "CV Date Of Birth"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-gender",
+        "title": "CV Gender"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-glucose-concentration-in-blood",
+        "title": "CV Glucose Concentration In Blood"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/cv-glucose-concentration-in-urine",
+        "title": "CV Glucose Concentration In Urine"
+      },
+      {
         "url": "http://hl7.org/de/StructureDefinition/rv-administrative-gender",
         "title": "RV Administrative Gender"
       },
@@ -50,24 +574,6 @@
         "url": "http://hl7.org/de/StructureDefinition/rv-year-of-birth",
         "title": "RV Year Of Birth"
       }
-    ],
-    "Patient": [
-      {
-        "url": "http://hl7.org/de/StructureDefinition/poi-patient",
-        "title": "POI Patient"
-      }
-    ],
-    "Person": [
-      {
-        "url": "http://hl7.org/de/StructureDefinition/poi-person",
-        "title": "POI Person"
-      }
-    ],
-    "ResearchSubject": [
-      {
-        "url": "http://hl7.org/de/StructureDefinition/poi-research-subject",
-        "title": "POI Research Subject"
-      }
     ]
   },
   "usage": {
@@ -95,9 +601,6 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
-      "StructureDefinition.snapshot.element"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
@@ -108,9 +611,6 @@
       "Questionnaire",
       "StructureDefinition",
       "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
       "StructureDefinition.snapshot.element"

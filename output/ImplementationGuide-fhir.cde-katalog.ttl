@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-23T14:41:29+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -2000,39 +2000,6 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/poi-patient> ;
-         fhir:reference [ fhir:v "StructureDefinition/poi-patient" ]
-       ] ;
-       fhir:name [ fhir:v "POI Patient" ] ;
-       fhir:description [ fhir:v "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/poi-person> ;
-         fhir:reference [ fhir:v "StructureDefinition/poi-person" ]
-       ] ;
-       fhir:name [ fhir:v "POI Person" ] ;
-       fhir:description [ fhir:v "Dieses Profil beschreibt eine Person von Interesse als Person." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/StructureDefinition/poi-research-subject> ;
-         fhir:reference [ fhir:v "StructureDefinition/poi-research-subject" ]
-       ] ;
-       fhir:name [ fhir:v "POI Research Subject" ] ;
-       fhir:description [ fhir:v "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/rv-administrative-gender> ;
          fhir:reference [ fhir:v "StructureDefinition/rv-administrative-gender" ]
        ] ;
@@ -2169,7 +2136,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-age-groups" ]
        ] ;
        fhir:name [ fhir:v "Age groups" ] ;
-       fhir:description [ fhir:v "Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'." ]
+       fhir:description [ fhir:v "Dieses ValueSet enthält LOINC-Codes für unterschiedliche 'Altersgruppen'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2180,7 +2147,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-binary-decision-yes-or-no" ]
        ] ;
        fhir:name [ fhir:v "Binary decision (yes or no)" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein." ]
+       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes für Ja oder Nein." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2202,18 +2169,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-ethnic-groups" ]
        ] ;
        fhir:name [ fhir:v "Ethnic groups" ] ;
-       fhir:description [ fhir:v "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'." ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults> ;
-         fhir:reference [ fhir:v "ValueSet/vs-glasgow-coma-scale-for-adults" ]
-       ] ;
-       fhir:name [ fhir:v "Present Qualifers (negativ until three plus)" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene" ]
+       fhir:description [ fhir:v "Diese ValueSet enthält SNOMED-Codes für 'ethnische Gruppen'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2224,7 +2180,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-length-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'lenght'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für 'Länge'" ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2235,7 +2191,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-mass-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'mass concentration'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für Massenkonzentration" ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Massenkonzentration' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2246,7 +2202,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-mass-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'mass'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für 'Masse'" ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Masse' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2257,7 +2213,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-molar-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'mole concentration'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für Stoffmengenkonzentration" ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Stoffmengenkonzentration' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2268,7 +2224,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-number-concentration-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'number concentration'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für 'Anzahl pro Volumen'." ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Anzahl pro Volumen' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2279,7 +2235,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-qualifier-for-presence" ]
        ] ;
        fhir:name [ fhir:v "Present Qualifers (negativ until three plus)" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt." ]
+       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes, die das Vorhandensein eines Zustands oder einer zu testenden Substanz anzeigen." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2290,7 +2246,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-sentinel-conceptual-domain" ]
        ] ;
        fhir:name [ fhir:v "Reasons for missing data (sentinel)" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien." ]
+       fhir:description [ fhir:v "Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien)." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2301,7 +2257,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-smoking-status" ]
        ] ;
        fhir:name [ fhir:v "Smoking Status Types" ] ;
-       fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus." ]
+       fhir:description [ fhir:v "Dieses Valueset enthält SNOMED-Codes, um das 'Rauchverhalten' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2312,7 +2268,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-specimen-types" ]
        ] ;
        fhir:name [ fhir:v "Specimen Types (for Clinical Chemistry)" ] ;
-       fhir:description [ fhir:v "LOINC Codes für 'Probenmaterial'" ]
+       fhir:description [ fhir:v "Dieses Valueset enhält LOINC-Codes, um den 'Probenmaterial-Typ' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2323,7 +2279,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-time-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'time span'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für 'Zeit'" ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Zeit' zu beschreiben." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2334,7 +2290,7 @@
          fhir:reference [ fhir:v "ValueSet/vs-unity-units" ]
        ] ;
        fhir:name [ fhir:v "Common units for 'unity element'" ] ;
-       fhir:description [ fhir:v "UCUM Codes für Gesamtheit (auch 'Eins-Element')." ]
+       fhir:description [ fhir:v "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben." ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

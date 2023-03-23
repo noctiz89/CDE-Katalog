@@ -930,27 +930,6 @@
     "name" : "CV_GlucoseConcentrationInUrine"
   },
   {
-    "id" : "poi-patient",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/de/StructureDefinition/poi-patient",
-    "version" : "0.2.0",
-    "name" : "POI_Patient"
-  },
-  {
-    "id" : "poi-person",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/de/StructureDefinition/poi-person",
-    "version" : "0.2.0",
-    "name" : "POI_Person"
-  },
-  {
-    "id" : "poi-research-subject",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/de/StructureDefinition/poi-research-subject",
-    "version" : "0.2.0",
-    "name" : "POI_ResearchSubject"
-  },
-  {
     "id" : "rv-administrative-gender",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/de/StructureDefinition/rv-administrative-gender",
@@ -1061,13 +1040,6 @@
     "url" : "http://hl7.org/de/ValueSet/vs-ethnic-groups",
     "version" : "0.2.0",
     "name" : "VS_EthnicGroups"
-  },
-  {
-    "id" : "vs-glasgow-coma-scale-for-adults",
-    "type" : "ValueSet",
-    "url" : "http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults",
-    "version" : "0.2.0",
-    "name" : "VS_GlasgowComaScaleForAdults"
   },
   {
     "id" : "vs-length-units",

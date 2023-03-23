@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-23T11:27:05+01:00",
+  "date" : "2023-03-23T14:41:29+01:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -2098,39 +2098,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/poi-patient"
-      },
-      "name" : "POI Patient",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/poi-person"
-      },
-      "name" : "POI Person",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Person."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/poi-research-subject"
-      },
-      "name" : "POI Research Subject",
-      "description" : "Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/rv-administrative-gender"
       },
       "name" : "RV Administrative Gender",
@@ -2266,7 +2233,7 @@
         "reference" : "ValueSet/vs-age-groups"
       },
       "name" : "Age groups",
-      "description" : "Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'."
+      "description" : "Dieses ValueSet enthält LOINC-Codes für unterschiedliche 'Altersgruppen'."
     },
     {
       "extension" : [{
@@ -2277,7 +2244,7 @@
         "reference" : "ValueSet/vs-binary-decision-yes-or-no"
       },
       "name" : "Binary decision (yes or no)",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."
+      "description" : "Dieses ValueSet enthält SNOMED-Codes für Ja oder Nein."
     },
     {
       "extension" : [{
@@ -2299,18 +2266,7 @@
         "reference" : "ValueSet/vs-ethnic-groups"
       },
       "name" : "Ethnic groups",
-      "description" : "Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-glasgow-coma-scale-for-adults"
-      },
-      "name" : "Present Qualifers (negativ until three plus)",
-      "description" : "Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"
+      "description" : "Diese ValueSet enthält SNOMED-Codes für 'ethnische Gruppen'."
     },
     {
       "extension" : [{
@@ -2321,7 +2277,7 @@
         "reference" : "ValueSet/vs-length-units"
       },
       "name" : "Common units for 'lenght'",
-      "description" : "UCUM Codes für 'Länge'"
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2332,7 +2288,7 @@
         "reference" : "ValueSet/vs-mass-concentration-units"
       },
       "name" : "Common units for 'mass concentration'",
-      "description" : "UCUM Codes für Massenkonzentration"
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Massenkonzentration' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2343,7 +2299,7 @@
         "reference" : "ValueSet/vs-mass-units"
       },
       "name" : "Common units for 'mass'",
-      "description" : "UCUM Codes für 'Masse'"
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Masse' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2354,7 +2310,7 @@
         "reference" : "ValueSet/vs-molar-concentration-units"
       },
       "name" : "Common units for 'mole concentration'",
-      "description" : "UCUM Codes für Stoffmengenkonzentration"
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Stoffmengenkonzentration' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2365,7 +2321,7 @@
         "reference" : "ValueSet/vs-number-concentration-units"
       },
       "name" : "Common units for 'number concentration'",
-      "description" : "UCUM Codes für 'Anzahl pro Volumen'."
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Anzahl pro Volumen' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2376,7 +2332,7 @@
         "reference" : "ValueSet/vs-qualifier-for-presence"
       },
       "name" : "Present Qualifers (negativ until three plus)",
-      "description" : "Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."
+      "description" : "Dieses ValueSet enthält SNOMED-Codes, die das Vorhandensein eines Zustands oder einer zu testenden Substanz anzeigen."
     },
     {
       "extension" : [{
@@ -2387,7 +2343,7 @@
         "reference" : "ValueSet/vs-sentinel-conceptual-domain"
       },
       "name" : "Reasons for missing data (sentinel)",
-      "description" : "Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."
+      "description" : "Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien)."
     },
     {
       "extension" : [{
@@ -2398,7 +2354,7 @@
         "reference" : "ValueSet/vs-smoking-status"
       },
       "name" : "Smoking Status Types",
-      "description" : "Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."
+      "description" : "Dieses Valueset enthält SNOMED-Codes, um das 'Rauchverhalten' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2409,7 +2365,7 @@
         "reference" : "ValueSet/vs-specimen-types"
       },
       "name" : "Specimen Types (for Clinical Chemistry)",
-      "description" : "LOINC Codes für 'Probenmaterial'"
+      "description" : "Dieses Valueset enhält LOINC-Codes, um den 'Probenmaterial-Typ' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2420,7 +2376,7 @@
         "reference" : "ValueSet/vs-time-units"
       },
       "name" : "Common units for 'time span'",
-      "description" : "UCUM Codes für 'Zeit'"
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Zeit' zu beschreiben."
     },
     {
       "extension" : [{
@@ -2431,7 +2387,7 @@
         "reference" : "ValueSet/vs-unity-units"
       },
       "name" : "Common units for 'unity element'",
-      "description" : "UCUM Codes für Gesamtheit (auch 'Eins-Element')."
+      "description" : "Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben."
     }],
     "page" : {
       "extension" : [{

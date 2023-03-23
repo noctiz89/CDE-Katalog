@@ -2932,3 +2932,787 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "pg/mL"
+      },
+      {
+        "code" : "ng/mL"
+      },
+      {
+        "code" : "ug/mL"
+      },
+      {
+        "code" : "mg/mL"
+      },
+      {
+        "code" : "g/mL"
+      },
+      {
+        "code" : "pg/dL"
+      },
+      {
+        "code" : "ng/dL"
+      },
+      {
+        "code" : "ug/dL"
+      },
+      {
+        "code" : "mg/dL"
+      },
+      {
+        "code" : "g/dL"
+      },
+      {
+        "code" : "ng/L"
+      },
+      {
+        "code" : "pg/L"
+      },
+      {
+        "code" : "ug/L"
+      },
+      {
+        "code" : "mg/L"
+      },
+      {
+        "code" : "g/L"
+      },
+      {
+        "code" : "kg/L"
+      },
+      {
+        "code" : "mg/m3"
+      },
+      {
+        "code" : "kg/m3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b2ecfc8a-6a93-432d-9551-1add8f4dbce9",
+    "timestamp" : "2023-03-23T13:45:32.730Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/mL",
+      "display" : "pg/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/mL",
+      "display" : "ng/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/mL",
+      "display" : "ug/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/mL",
+      "display" : "mg/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/mL",
+      "display" : "g/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/dL",
+      "display" : "pg/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/dL",
+      "display" : "ng/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/dL",
+      "display" : "ug/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/dL",
+      "display" : "mg/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/dL",
+      "display" : "g/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/L",
+      "display" : "ng/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/L",
+      "display" : "pg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/L",
+      "display" : "ug/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/L",
+      "display" : "mg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/L",
+      "display" : "g/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg/L",
+      "display" : "kg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/m3",
+      "display" : "mg/m3"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg/m3",
+      "display" : "kg/m3"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "uL"
+      },
+      {
+        "code" : "10*3/uL"
+      },
+      {
+        "code" : "10*6/uL"
+      },
+      {
+        "code" : "10*9/uL"
+      },
+      {
+        "code" : "/mL"
+      },
+      {
+        "code" : "10*3/mL"
+      },
+      {
+        "code" : "10*6/mL"
+      },
+      {
+        "code" : "10*9/mL"
+      },
+      {
+        "code" : "/dL"
+      },
+      {
+        "code" : "/L"
+      },
+      {
+        "code" : "10*3/L"
+      },
+      {
+        "code" : "10*6/L"
+      },
+      {
+        "code" : "10*12/L"
+      },
+      {
+        "code" : "10*9/L"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:620bfe3b-ca4e-47a8-bfe3-9421de571399",
+    "timestamp" : "2023-03-23T13:45:33.027Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "uL",
+      "display" : "uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/uL",
+      "display" : "10*3/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/uL",
+      "display" : "10*6/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/uL",
+      "display" : "10*9/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/mL",
+      "display" : "/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/mL",
+      "display" : "10*3/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/mL",
+      "display" : "10*6/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/mL",
+      "display" : "10*9/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/dL",
+      "display" : "/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/L",
+      "display" : "/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/L",
+      "display" : "10*3/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/L",
+      "display" : "10*6/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*12/L",
+      "display" : "10*12/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/L",
+      "display" : "10*9/L"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "/{tot}"
+      },
+      {
+        "code" : "10*3"
+      },
+      {
+        "code" : "10*5"
+      },
+      {
+        "code" : "10*6"
+      },
+      {
+        "code" : "10*8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4f0a638c-d1e4-43bf-a3c4-bb362b7e3bdd",
+    "timestamp" : "2023-03-23T13:45:33.339Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/{tot}",
+      "display" : "/{tot}"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3",
+      "display" : "10*3"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*5",
+      "display" : "10*5"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6",
+      "display" : "10*6"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*8",
+      "display" : "10*8"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "pg/mL"
+      },
+      {
+        "code" : "ng/mL"
+      },
+      {
+        "code" : "ug/mL"
+      },
+      {
+        "code" : "mg/mL"
+      },
+      {
+        "code" : "g/mL"
+      },
+      {
+        "code" : "pg/dL"
+      },
+      {
+        "code" : "ng/dL"
+      },
+      {
+        "code" : "ug/dL"
+      },
+      {
+        "code" : "mg/dL"
+      },
+      {
+        "code" : "g/dL"
+      },
+      {
+        "code" : "ng/L"
+      },
+      {
+        "code" : "pg/L"
+      },
+      {
+        "code" : "ug/L"
+      },
+      {
+        "code" : "mg/L"
+      },
+      {
+        "code" : "g/L"
+      },
+      {
+        "code" : "kg/L"
+      },
+      {
+        "code" : "mg/m3"
+      },
+      {
+        "code" : "kg/m3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f16a3459-44c1-4056-b310-bcdbf2e86f2a",
+    "timestamp" : "2023-03-23T13:56:46.934Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/mL",
+      "display" : "pg/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/mL",
+      "display" : "ng/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/mL",
+      "display" : "ug/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/mL",
+      "display" : "mg/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/mL",
+      "display" : "g/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/dL",
+      "display" : "pg/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/dL",
+      "display" : "ng/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/dL",
+      "display" : "ug/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/dL",
+      "display" : "mg/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/dL",
+      "display" : "g/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ng/L",
+      "display" : "ng/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "pg/L",
+      "display" : "pg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ug/L",
+      "display" : "ug/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/L",
+      "display" : "mg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "g/L",
+      "display" : "g/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg/L",
+      "display" : "kg/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "mg/m3",
+      "display" : "mg/m3"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg/m3",
+      "display" : "kg/m3"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "uL"
+      },
+      {
+        "code" : "10*3/uL"
+      },
+      {
+        "code" : "10*6/uL"
+      },
+      {
+        "code" : "10*9/uL"
+      },
+      {
+        "code" : "/mL"
+      },
+      {
+        "code" : "10*3/mL"
+      },
+      {
+        "code" : "10*6/mL"
+      },
+      {
+        "code" : "10*9/mL"
+      },
+      {
+        "code" : "/dL"
+      },
+      {
+        "code" : "/L"
+      },
+      {
+        "code" : "10*3/L"
+      },
+      {
+        "code" : "10*6/L"
+      },
+      {
+        "code" : "10*12/L"
+      },
+      {
+        "code" : "10*9/L"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ee11e6ad-a597-424b-b53b-e4462ba694a7",
+    "timestamp" : "2023-03-23T13:56:48.559Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "uL",
+      "display" : "uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/uL",
+      "display" : "10*3/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/uL",
+      "display" : "10*6/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/uL",
+      "display" : "10*9/uL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/mL",
+      "display" : "/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/mL",
+      "display" : "10*3/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/mL",
+      "display" : "10*6/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/mL",
+      "display" : "10*9/mL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/dL",
+      "display" : "/dL"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/L",
+      "display" : "/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3/L",
+      "display" : "10*3/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6/L",
+      "display" : "10*6/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*12/L",
+      "display" : "10*12/L"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*9/L",
+      "display" : "10*9/L"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "/{tot}"
+      },
+      {
+        "code" : "10*3"
+      },
+      {
+        "code" : "10*5"
+      },
+      {
+        "code" : "10*6"
+      },
+      {
+        "code" : "10*8"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:54935cae-a917-459f-b7ee-5e15389321c4",
+    "timestamp" : "2023-03-23T13:56:49.309Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://unitsofmeasure.org|2.0.1"
+    }],
+    "contains" : [{
+      "system" : "http://unitsofmeasure.org",
+      "code" : "/{tot}",
+      "display" : "/{tot}"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*3",
+      "display" : "10*3"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*5",
+      "display" : "10*5"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*6",
+      "display" : "10*6"
+    },
+    {
+      "system" : "http://unitsofmeasure.org",
+      "code" : "10*8",
+      "display" : "10*8"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

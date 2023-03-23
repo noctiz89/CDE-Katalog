@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CLS_SNOMED_AgeAtSmokingCessation"] ; # 
   fhir:title [ fhir:v "CLS SNOMED Age At Smoking Cessation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-23T14:41:29+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

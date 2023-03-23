@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9448316e-9dc7-4003-9b14-f6212ace7769"/>
+  <id value="389df318-b79b-48db-acba-59ededff74dd"/>
   <meta>
-    <lastUpdated value="2023-03-23T11:27:05.195+01:00"/>
+    <lastUpdated value="2023-03-23T14:41:29.513+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -120,7 +120,7 @@
         <title value="Administrative gender"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -136,8 +136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7b95411b-0aa4-48ce-bab2-3f279886ddcc"/>
-          <timestamp value="2023-03-23T11:42:01+01:00"/>
+          <identifier value="urn:uuid:8bf085c6-ef87-43ed-8dd9-bb8175163316"/>
+          <timestamp value="2023-03-23T14:56:43+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -236,7 +236,7 @@
         <title value="Binary decision (yes or no)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -244,7 +244,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
+        <description value="Dieses ValueSet enthält SNOMED-Codes für Ja oder Nein."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -252,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:339cce9f-3744-4ba3-8392-25dcc8bb90d3"/>
-          <timestamp value="2023-03-23T11:42:02+01:00"/>
+          <identifier value="urn:uuid:adda24af-cbcd-477c-9f91-95a9be0a2316"/>
+          <timestamp value="2023-03-23T14:56:44+01:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -350,7 +350,7 @@
         <title value="Biological sex types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -366,8 +366,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f0790977-d247-4bff-9579-037600f97561"/>
-          <timestamp value="2023-03-23T11:42:02+01:00"/>
+          <identifier value="urn:uuid:60d1811f-26e8-47f6-a7c0-dbb68c4416e7"/>
+          <timestamp value="2023-03-23T14:56:44+01:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2365,7 +2365,7 @@
         <title value="Ethnic groups"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -2373,7 +2373,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."/>
+        <description value="Diese ValueSet enthält SNOMED-Codes für 'ethnische Gruppen'."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2384,8 +2384,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:8ebdbfec-07b2-4985-a601-9e7ba0b1bf1b"/>
-          <timestamp value="2023-03-23T11:42:02+01:00"/>
+          <identifier value="urn:uuid:65f565dc-43ad-4e20-be87-149bb4ee720a"/>
+          <timestamp value="2023-03-23T14:56:44+01:00"/>
           <total value="240"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3604,69 +3604,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"/>
-    <resource>
-      <ValueSet>
-        <id value="vs-glasgow-coma-scale-for-adults"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative">
-            <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-              <valueCanonical value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
-            </extension>
-          </valueCode>
-        </extension>
-        <url value="http://hl7.org/de/ValueSet/vs-glasgow-coma-scale-for-adults"/>
-        <version value="0.2.0"/>
-        <name value="VS_GlasgowComaScaleForAdults"/>
-        <title value="Present Qualifers (negativ until three plus)"/>
-        <status value="draft"/>
-        <experimental value="true"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
-        <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hl7.org/Special/committees/[something]"/>
-          </telecom>
-        </contact>
-        <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:add8e3de-cccc-4e77-8a39-a223bfa3b550"/>
-          <timestamp value="2023-03-23T11:42:02+01:00"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="http://hl7.org/de/ValueSet/vs-length-units"/>
     <resource>
       <ValueSet>
@@ -3774,7 +3711,7 @@
         <title value="Common units for 'lenght'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -3782,7 +3719,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für 'Länge'"/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Länge' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3790,8 +3727,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b76d78b6-9e70-4222-990b-56085bf1c5ed"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:15e17e64-e6d3-4e39-8dd1-1ae4e2c23daa"/>
+          <timestamp value="2023-03-23T14:56:44+01:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3862,7 +3799,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 21 concepts</p>
+            <p>This value set contains 18 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
             <table class="codes">
               <tr>
@@ -3889,13 +3826,6 @@
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>ng/mL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-ng-mL-rbc-"> </a>  ng/mL{rbc}
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>ng/mL{rbc}</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -3941,24 +3871,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-ug-dL-rbc-"> </a>  ug/dL{rbc}
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>ug/dL{rbc}</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---unitsofmeasure.org-mg-dL"> </a>  mg/dL
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>mg/dL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-mg-Phenylketones--dL"> </a>  mg{Phenylketones}/dL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>mg{Phenylketones}/dL</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -4046,7 +3962,7 @@
         <title value="Common units for 'mass concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4054,7 +3970,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für Massenkonzentration"/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Massenkonzentration' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4062,9 +3978,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c4be9d0-0e05-4f37-8ef9-46b724129c0e"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
-          <total value="21"/>
+          <identifier value="urn:uuid:d560e7c4-c55a-4de0-bef6-a937f02f9ab9"/>
+          <timestamp value="2023-03-23T14:56:44+01:00"/>
+          <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -4086,11 +4002,6 @@
             <system value="http://unitsofmeasure.org"/>
             <code value="ng/mL"/>
             <display value="ng/mL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="ng/mL{rbc}"/>
-            <display value="ng/mL{rbc}"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
@@ -4124,18 +4035,8 @@
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
-            <code value="ug/dL{rbc}"/>
-            <display value="ug/dL{rbc}"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
             <code value="mg/dL"/>
             <display value="mg/dL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="mg{Phenylketones}/dL"/>
-            <display value="mg{Phenylketones}/dL"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
@@ -4301,7 +4202,7 @@
         <title value="Common units for 'mass'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4309,7 +4210,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für 'Masse'"/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Masse' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4317,8 +4218,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a3c3cded-f003-4fdc-b0f6-d1a21a45972b"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:88212631-ea3f-4c93-bcc2-8110e83b0491"/>
+          <timestamp value="2023-03-23T14:56:45+01:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4536,7 +4437,7 @@
         <title value="Common units for 'mole concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4544,7 +4445,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für Stoffmengenkonzentration"/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Stoffmengenkonzentration' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4552,8 +4453,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c0edf3aa-acbd-4b96-87fc-1e1bc954fdf2"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:63d99818-9181-45af-a49a-f71197dca6f4"/>
+          <timestamp value="2023-03-23T14:56:45+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4654,7 +4555,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 20 concepts</p>
+            <p>This value set contains 14 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
             <table class="codes">
               <tr>
@@ -4674,20 +4575,6 @@
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>uL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org--Cells--uL"> </a>  {Cells}/uL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>{Cells}/uL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org--rbc--uL"> </a>  {rbc}/uL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>{rbc}/uL</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -4719,31 +4606,10 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org--Spermatozoa--mL"> </a>  {Spermatozoa}/mL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>{Spermatozoa}/mL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org--Copies--mL"> </a>  {Copies}/mL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>{Copies}/mL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---unitsofmeasure.org-10-3-mL"> </a>  10*3/mL
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>10*3/mL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-10-3-Copies--mL"> </a>  10*3{Copies}/mL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>10*3{Copies}/mL</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -4758,13 +4624,6 @@
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>10*9/mL</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org--cfu--mL"> </a>  {cfu}/mL
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>{cfu}/mL</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -4831,7 +4690,7 @@
         <title value="Common units for 'number concentration'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -4839,7 +4698,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Anzahl pro Volumen' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4847,9 +4706,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a83e1833-5a01-44e3-87c7-67ce92f1fe69"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
-          <total value="20"/>
+          <identifier value="urn:uuid:0e86a407-6231-44b5-9d17-29cdb1e85156"/>
+          <timestamp value="2023-03-23T14:56:46+01:00"/>
+          <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -4866,16 +4725,6 @@
             <system value="http://unitsofmeasure.org"/>
             <code value="uL"/>
             <display value="uL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{Cells}/uL"/>
-            <display value="{Cells}/uL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{rbc}/uL"/>
-            <display value="{rbc}/uL"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
@@ -4899,23 +4748,8 @@
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
-            <code value="{Spermatozoa}/mL"/>
-            <display value="{Spermatozoa}/mL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{Copies}/mL"/>
-            <display value="{Copies}/mL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
             <code value="10*3/mL"/>
             <display value="10*3/mL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="10*3{Copies}/mL"/>
-            <display value="10*3{Copies}/mL"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
@@ -4926,11 +4760,6 @@
             <system value="http://unitsofmeasure.org"/>
             <code value="10*9/mL"/>
             <display value="10*9/mL"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="{cfu}/mL"/>
-            <display value="{cfu}/mL"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
@@ -5043,7 +4872,7 @@
         <title value="Present Qualifers (negativ until three plus)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5051,7 +4880,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."/>
+        <description value="Dieses ValueSet enthält SNOMED-Codes, die das Vorhandensein eines Zustands oder einer zu testenden Substanz anzeigen."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5059,8 +4888,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0231c0a4-d86b-49e6-8544-331f52f49dd7"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:25f025a9-286e-41c4-bcc0-2a91dc004c18"/>
+          <timestamp value="2023-03-23T14:56:46+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5175,7 +5004,7 @@
         <title value="Reasons for missing data (sentinel)"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5183,7 +5012,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."/>
+        <description value="Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien)."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5191,8 +5020,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da0c8f1c-e2a1-4194-bf76-227483163b5a"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:8eb5f885-ab62-412c-aef0-7c76f0ae93b9"/>
+          <timestamp value="2023-03-23T14:56:46+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5307,7 +5136,7 @@
         <title value="Smoking Status Types"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5315,7 +5144,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
+        <description value="Dieses Valueset enthält SNOMED-Codes, um das 'Rauchverhalten' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5323,8 +5152,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:38fe76f1-13f9-40b7-ad73-fa6c20798550"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:201760fb-0c75-4836-b275-563f03e125bb"/>
+          <timestamp value="2023-03-23T14:56:46+01:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5498,7 +5327,7 @@
         <title value="Common units for 'time span'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5506,7 +5335,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für 'Zeit'"/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Zeit' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5514,8 +5343,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0a8d40d2-f556-44fe-9423-c9623cdfd73d"/>
-          <timestamp value="2023-03-23T11:42:03+01:00"/>
+          <identifier value="urn:uuid:e6e52e5d-d51a-493b-814c-0652a38d635f"/>
+          <timestamp value="2023-03-23T14:56:47+01:00"/>
           <total value="13"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5606,7 +5435,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
+            <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on UCUM version 2.0.1</p>
             <table class="codes">
               <tr>
@@ -5622,13 +5451,6 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-10-6--Specimen-"> </a>  10*6/{Specimen}
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>10*6/{Specimen}</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
                   <a name="http---unitsofmeasure.org---tot-"> </a>  /{tot}
                 </td>
                 <td>http://unitsofmeasure.org</td>
@@ -5640,13 +5462,6 @@
                 </td>
                 <td>http://unitsofmeasure.org</td>
                 <td>10*3</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---unitsofmeasure.org-10-3.-RBC-"> </a>  10*3.{RBC}
-                </td>
-                <td>http://unitsofmeasure.org</td>
-                <td>10*3.{RBC}</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -5692,7 +5507,7 @@
         <title value="Common units for 'unity element'"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-03-23T11:27:05+01:00"/>
+        <date value="2023-03-23T14:41:29+01:00"/>
         <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
         <contact>
           <telecom>
@@ -5700,7 +5515,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
+        <description value="Dieses Valueset enthält UCUM-Codes für Maßeinheiten, um eine 'Gesamtheit (Eins-Element)' zu beschreiben."/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5708,9 +5523,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a8e37a8e-6487-478a-9c32-f5abf28da284"/>
-          <timestamp value="2023-03-23T11:42:04+01:00"/>
-          <total value="7"/>
+          <identifier value="urn:uuid:b9ad7ad3-8485-4e67-808e-759b54f46238"/>
+          <timestamp value="2023-03-23T14:56:47+01:00"/>
+          <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -5725,11 +5540,6 @@
           </parameter>
           <contains>
             <system value="http://unitsofmeasure.org"/>
-            <code value="10*6/{Specimen}"/>
-            <display value="10*6/{Specimen}"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
             <code value="/{tot}"/>
             <display value="/{tot}"/>
           </contains>
@@ -5737,11 +5547,6 @@
             <system value="http://unitsofmeasure.org"/>
             <code value="10*3"/>
             <display value="10*3"/>
-          </contains>
-          <contains>
-            <system value="http://unitsofmeasure.org"/>
-            <code value="10*3.{RBC}"/>
-            <display value="10*3.{RBC}"/>
           </contains>
           <contains>
             <system value="http://unitsofmeasure.org"/>
