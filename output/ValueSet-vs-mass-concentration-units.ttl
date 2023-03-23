@@ -1,0 +1,111 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/ValueSet/vs-mass-concentration-units> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-mass-concentration-units"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>pg/mL</td><td>pg/mL</td></tr><tr><td>ng/mL</td><td>ng/mL</td></tr><tr><td>ng/mL{rbc}</td><td>ng/mL{rbc}</td></tr><tr><td>ug/mL</td><td>ug/mL</td></tr><tr><td>mg/mL</td><td>mg/mL</td></tr><tr><td>g/mL</td><td>g/mL</td></tr><tr><td>pg/dL</td><td>pg/dL</td></tr><tr><td>ng/dL</td><td>ng/dL</td></tr><tr><td>ug/dL</td><td>ug/dL</td></tr><tr><td>ug/dL{rbc}</td><td>ug/dL{rbc}</td></tr><tr><td>mg/dL</td><td>mg/dL</td></tr><tr><td>mg{Phenylketones}/dL</td><td>mg{Phenylketones}/dL</td></tr><tr><td>g/dL</td><td>g/dL</td></tr><tr><td>ng/L</td><td>ng/L</td></tr><tr><td>pg/L</td><td>pg/L</td></tr><tr><td>ug/L</td><td>ug/L</td></tr><tr><td>mg/L</td><td>mg/L</td></tr><tr><td>g/L</td><td>g/L</td></tr><tr><td>kg/L</td><td>kg/L</td></tr><tr><td>mg/m3</td><td>mg/m3</td></tr><tr><td>kg/m3</td><td>kg/m3</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-mass-concentration-units"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_MassConcentrationUnits"] ; # 
+  fhir:title [ fhir:v "Common units for 'mass concentration'"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "UCUM Codes für Massenkonzentration"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "pg/mL" ]
+       ] [
+         fhir:code [ fhir:v "ng/mL" ]
+       ] [
+         fhir:code [ fhir:v "ng/mL{rbc}" ]
+       ] [
+         fhir:code [ fhir:v "ug/mL" ]
+       ] [
+         fhir:code [ fhir:v "mg/mL" ]
+       ] [
+         fhir:code [ fhir:v "g/mL" ]
+       ] [
+         fhir:code [ fhir:v "pg/dL" ]
+       ] [
+         fhir:code [ fhir:v "ng/dL" ]
+       ] [
+         fhir:code [ fhir:v "ug/dL" ]
+       ] [
+         fhir:code [ fhir:v "ug/dL{rbc}" ]
+       ] [
+         fhir:code [ fhir:v "mg/dL" ]
+       ] [
+         fhir:code [ fhir:v "mg{Phenylketones}/dL" ]
+       ] [
+         fhir:code [ fhir:v "g/dL" ]
+       ] [
+         fhir:code [ fhir:v "ng/L" ]
+       ] [
+         fhir:code [ fhir:v "pg/L" ]
+       ] [
+         fhir:code [ fhir:v "ug/L" ]
+       ] [
+         fhir:code [ fhir:v "mg/L" ]
+       ] [
+         fhir:code [ fhir:v "g/L" ]
+       ] [
+         fhir:code [ fhir:v "kg/L" ]
+       ] [
+         fhir:code [ fhir:v "mg/m3" ]
+       ] [
+         fhir:code [ fhir:v "kg/m3" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

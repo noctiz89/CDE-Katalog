@@ -1,0 +1,114 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vs-number-concentration-units",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>uL</td><td>uL</td></tr><tr><td>{Cells}/uL</td><td>{Cells}/uL</td></tr><tr><td>{rbc}/uL</td><td>{rbc}/uL</td></tr><tr><td>10*3/uL</td><td>10*3/uL</td></tr><tr><td>10*6/uL</td><td>10*6/uL</td></tr><tr><td>10*9/uL</td><td>10*9/uL</td></tr><tr><td>/mL</td><td>/mL</td></tr><tr><td>{Spermatozoa}/mL</td><td>{Spermatozoa}/mL</td></tr><tr><td>{Copies}/mL</td><td>{Copies}/mL</td></tr><tr><td>10*3/mL</td><td>10*3/mL</td></tr><tr><td>10*3{Copies}/mL</td><td>10*3{Copies}/mL</td></tr><tr><td>10*6/mL</td><td>10*6/mL</td></tr><tr><td>10*9/mL</td><td>10*9/mL</td></tr><tr><td>{cfu}/mL</td><td>{cfu}/mL</td></tr><tr><td>/dL</td><td>/dL</td></tr><tr><td>/L</td><td>/L</td></tr><tr><td>10*3/L</td><td>10*3/L</td></tr><tr><td>10*6/L</td><td>10*6/L</td></tr><tr><td>10*12/L</td><td>10*12/L</td></tr><tr><td>10*9/L</td><td>10*9/L</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "informative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/de/ValueSet/vs-number-concentration-units",
+  "version" : "0.2.0",
+  "name" : "VS_NumberConcentrationUnits",
+  "title" : "Common units for 'number concentration'",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-03-23T11:27:05+01:00",
+  "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.org/Special/committees/[something]"
+    }]
+  }],
+  "description" : "UCUM Codes für 'Anzahl pro Volumen'.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "uL"
+      },
+      {
+        "code" : "{Cells}/uL"
+      },
+      {
+        "code" : "{rbc}/uL"
+      },
+      {
+        "code" : "10*3/uL"
+      },
+      {
+        "code" : "10*6/uL"
+      },
+      {
+        "code" : "10*9/uL"
+      },
+      {
+        "code" : "/mL"
+      },
+      {
+        "code" : "{Spermatozoa}/mL"
+      },
+      {
+        "code" : "{Copies}/mL"
+      },
+      {
+        "code" : "10*3/mL"
+      },
+      {
+        "code" : "10*3{Copies}/mL"
+      },
+      {
+        "code" : "10*6/mL"
+      },
+      {
+        "code" : "10*9/mL"
+      },
+      {
+        "code" : "{cfu}/mL"
+      },
+      {
+        "code" : "/dL"
+      },
+      {
+        "code" : "/L"
+      },
+      {
+        "code" : "10*3/L"
+      },
+      {
+        "code" : "10*6/L"
+      },
+      {
+        "code" : "10*12/L"
+      },
+      {
+        "code" : "10*9/L"
+      }]
+    }]
+  }
+}

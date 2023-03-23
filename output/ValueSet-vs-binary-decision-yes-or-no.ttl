@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/ValueSet/vs-binary-decision-yes-or-no> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-binary-decision-yes-or-no"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/373066001\">373066001</a></td><td>Yes</td></tr><tr><td><a href=\"http://snomed.info/id/373067005\">373067005</a></td><td>No</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-binary-decision-yes-or-no"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_BinaryDecisionYesOrNo"] ; # 
+  fhir:title [ fhir:v "Binary decision (yes or no)"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "373066001" ] ;
+         fhir:display [ fhir:v "Yes" ]
+       ] [
+         fhir:code [ fhir:v "373067005" ] ;
+         fhir:display [ fhir:v "No" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

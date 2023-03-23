@@ -102,3 +102,98 @@ e: {
   "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://fhir.loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://fhir.loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.org/de/ValueSet/vs-age-groups", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://fhir.loinc.org"
+}
+-------------------------------------------------------------------------------------

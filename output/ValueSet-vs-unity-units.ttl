@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/ValueSet/vs-unity-units> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-unity-units"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>[lg]</td><td/></tr><tr><td>10*6/{Specimen}</td><td>10*6/{Specimen}</td></tr><tr><td>/{tot}</td><td>/{tot}</td></tr><tr><td>10*3</td><td>10*3</td></tr><tr><td>10*3.{RBC}</td><td>10*3.{RBC}</td></tr><tr><td>10*5</td><td>10*5</td></tr><tr><td>10*6</td><td>10*6</td></tr><tr><td>10*8</td><td>10*8</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-unity-units"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_UnityUnits"] ; # 
+  fhir:title [ fhir:v "Common units for 'unity element'"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "UCUM Codes für Gesamtheit (auch 'Eins-Element')."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "[lg]" ]
+       ] [
+         fhir:code [ fhir:v "10*6/{Specimen}" ]
+       ] [
+         fhir:code [ fhir:v "/{tot}" ]
+       ] [
+         fhir:code [ fhir:v "10*3" ]
+       ] [
+         fhir:code [ fhir:v "10*3.{RBC}" ]
+       ] [
+         fhir:code [ fhir:v "10*5" ]
+       ] [
+         fhir:code [ fhir:v "10*6" ]
+       ] [
+         fhir:code [ fhir:v "10*8" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

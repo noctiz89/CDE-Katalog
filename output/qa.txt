@@ -1,0 +1,416 @@
+﻿cde-katalog : Validation Results
+=========================================
+
+err = 4, warn = 73, info = 2
+IG Publisher Version: 1.3.1
+Generated Thu Mar 23 11:54:02 CET 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+ Build Errors : 0 / 7 / 0
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Questionnaire-Top300Loinc : 2 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-age : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-anthropometry : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-biological-sex : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-blood : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-body-weight : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-clinical-diagnosis : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-count : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-creatinine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-current-chronological-age : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-date-of-birth : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-enumeration : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-ethnicity : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-female : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-finding-of-creatinine-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-finding-of-substance-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-gender : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-glucose : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-gregorian-calendar-date : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-health-related-behavior : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-intersex : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-interval-scale : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-male : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-nominal-scale : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-ordinal-scale : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-persons : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-quantity : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-ratio-scale : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-scale-type : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-serum-or-plasma : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-specimen-type : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-speciment-collection-date : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-urine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-birth-date : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-height : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-mass-index : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-body-weight : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-cholesterol-inserum-or-plasma-mole-conentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-creatinine-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-calculated : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-current-age-reported : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-diabetes-mellitus-status-yes-or-no : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-diagnosis : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-ethnicity : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-heart-rate-beats-per-minute : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-hip-circumference : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leucocyctes-in-urine-dipstick-test : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-volume-entitic-volume : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-age : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-triglyceride-in-serum-or-plasma-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-visit-date : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cde-waist-circumference : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-age : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-age-at-diagnosis : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-obo-snomed-blood-creatinine-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-age-at-smoking-cessation : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-diagnosis : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-pack-years : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-anthropoemetry : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-blood-pressure-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-body-mass-index : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-body-weight : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-calcium-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-chloride-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-cholesterol-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-date-of-diagnosis : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-dateof-event : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-diastolic-blood-pressure : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-electrolyte-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-glucose-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-heart-rate : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-hematocrit-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-hemoglobin-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-hip-circumference : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-laboratory : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-magnesium-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-hemoglobin-concentration : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-hemoglobin-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-volume : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-phosphate-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-platelet-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-potassium-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-red-blood-cell-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-sodium-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-systolic-blood-pressure : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-triglyceride-level : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-urine-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-visit-date : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-waist-circumference : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-white-blood-cell-measurement : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-age-counted : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-biological-sex : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-body-weight : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-blood : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-urine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-date-of-birth : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-gender : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-blood : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-patient : 0 / 1 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-person : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-poi-research-subject : 0 / 1 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-administrative-gender : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-years : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-biological-sex : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-height : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-weight : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-date-of-birth : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-glucose-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-year-of-birth : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-age-groups : 0 / 2 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-length-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-concentration-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-mass-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-molar-concentration-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-number-concentration-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-qualifier-for-presence : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-sentinel-conceptual-domain : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 2 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\input\myig : 2 / 1 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cde-katalog
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-umls-heart-rate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-umls-laboratory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Questionnaire-Top300Loinc.json ==
+ERROR: Questionnaire/Top300Loinc: Questionnaire.item[0].item[6].item[0].text.extension[0]: Extension.url muss eine absolute URL sein.
+ERROR: Questionnaire/Top300Loinc: Questionnaire.item[0].item[6].item[0].item[0].text.extension[0]: Extension.url muss eine absolute URL sein.
+== fsh-generated\resources\StructureDefinition-c-age.json ==
+== fsh-generated\resources\StructureDefinition-c-anthropometry.json ==
+== fsh-generated\resources\StructureDefinition-c-biological-sex.json ==
+== fsh-generated\resources\StructureDefinition-c-blood.json ==
+== fsh-generated\resources\StructureDefinition-c-body-height.json ==
+== fsh-generated\resources\StructureDefinition-c-body-weight.json ==
+== fsh-generated\resources\StructureDefinition-c-clinical-diagnosis.json ==
+== fsh-generated\resources\StructureDefinition-c-count.json ==
+== fsh-generated\resources\StructureDefinition-c-creatinine.json ==
+== fsh-generated\resources\StructureDefinition-c-current-chronological-age.json ==
+== fsh-generated\resources\StructureDefinition-c-date-of-birth.json ==
+== fsh-generated\resources\StructureDefinition-c-enumeration.json ==
+== fsh-generated\resources\StructureDefinition-c-ethnicity.json ==
+== fsh-generated\resources\StructureDefinition-c-female.json ==
+== fsh-generated\resources\StructureDefinition-c-finding-of-creatinine-level.json ==
+== fsh-generated\resources\StructureDefinition-c-finding-of-substance-level.json ==
+== fsh-generated\resources\StructureDefinition-c-gender.json ==
+== fsh-generated\resources\StructureDefinition-c-glucose.json ==
+== fsh-generated\resources\StructureDefinition-c-gregorian-calendar-date.json ==
+== fsh-generated\resources\StructureDefinition-c-health-related-behavior.json ==
+== fsh-generated\resources\StructureDefinition-c-intersex.json ==
+== fsh-generated\resources\StructureDefinition-c-interval-scale.json ==
+== fsh-generated\resources\StructureDefinition-c-male.json ==
+== fsh-generated\resources\StructureDefinition-c-nominal-scale.json ==
+== fsh-generated\resources\StructureDefinition-c-ordinal-scale.json ==
+== fsh-generated\resources\StructureDefinition-c-persons.json ==
+== fsh-generated\resources\StructureDefinition-c-quantity.json ==
+== fsh-generated\resources\StructureDefinition-c-ratio-scale.json ==
+== fsh-generated\resources\StructureDefinition-c-scale-type.json ==
+== fsh-generated\resources\StructureDefinition-c-serum-or-plasma.json ==
+== fsh-generated\resources\StructureDefinition-c-specimen-type.json ==
+== fsh-generated\resources\StructureDefinition-c-speciment-collection-date.json ==
+== fsh-generated\resources\StructureDefinition-c-urine.json ==
+== fsh-generated\resources\StructureDefinition-cde-age.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-age'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-age-at-diagnosis-of-essential-hypertension.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-birth-date.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-birth-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-blood-pressure-diastolic.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-blood-pressure-diastolic'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-blood-pressure-systolic.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-blood-pressure-systolic'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-height.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-mass-index.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-mass-index'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-body-weight.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-body-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mass-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-calcium-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-chloride-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-cholesterol-inserum-or-plasma-mole-conentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-creatinine-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-current-age-calculated.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-current-age-calculated'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-current-age-reported.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-current-age-reported'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-date-of-diagnosis.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-date-of-diagnosis'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-diabetes-mellitus-status-yes-or-no.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-diabetes-mellitus-status-yes-or-no'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-diagnosis.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-diagnosis'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-erythrocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-erythrocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-ethnicity.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-ethnicity'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-glasgow-coma-score.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-glasgow-coma-score'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-glucose-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-heart-rate-beats-per-minute.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-heart-rate-beats-per-minute'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hematocrit-of-blood.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hematocrit-of-blood'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hemoglobin-in-blood-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hemoglobin-in-blood-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-hip-circumference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-hip-circumference'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-leucocyctes-in-urine-dipstick-test.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-leucocyctes-in-urine-dipstick-test'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-leukocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-leukocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-magnesium-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-hemoglobin-level-entitic-mass.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-mean-corpuscular-volume-entitic-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-mean-corpuscular-volume-entitic-volume'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-phosphate-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-potassium-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-sex-assigned-at-birth.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-sex-assigned-at-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-sodium-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-thrombocytes-in-blood-count-per-volume.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-thrombocytes-in-blood-count-per-volume'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-age.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-age'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-cessation-year.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-cessation-year'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-pack-year.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-pack-year'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-tobacco-smoking-status-yes-or-no.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-tobacco-smoking-status-yes-or-no'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-triglyceride-in-serum-or-plasma-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-visit-date.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-visit-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cde-waist-circumference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cde-waist-circumference'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-age.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-age-at-diagnosis.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-birth-date.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-ncit-year-date.json ==
+== fsh-generated\resources\StructureDefinition-cls-obo-snomed-blood-creatinine-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-age-at-smoking-cessation.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-demographic-history-detail.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-diagnosis.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-finding-of-tobacco-use-and-exposure.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-pack-years.json ==
+== fsh-generated\resources\StructureDefinition-cls-snomed-patient-sex.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-anthropoemetry.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cls-umls-anthropoemetry'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cls-umls-blood-pressure-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-body-height.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-body-mass-index.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-body-weight.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-calcium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-chloride-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-cholesterol-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-date-of-diagnosis.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-dateof-event.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-diastolic-blood-pressure.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-electrolyte-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-glucose-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-heart-rate.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-hematocrit-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-hemoglobin-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-hip-circumference.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-laboratory.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-magnesium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-hemoglobin-concentration.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-hemoglobin-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-mean-corpuscular-volume.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-phosphate-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-platelet-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-potassium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-red-blood-cell-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-sodium-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-systolic-blood-pressure.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-triglyceride-level.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-urine-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-visit-date.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-waist-circumference.json ==
+== fsh-generated\resources\StructureDefinition-cls-umls-white-blood-cell-measurement.json ==
+== fsh-generated\resources\StructureDefinition-cv-age-counted.json ==
+== fsh-generated\resources\StructureDefinition-cv-biological-sex.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cv-biological-sex'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-cv-body-height.json ==
+== fsh-generated\resources\StructureDefinition-cv-body-weight.json ==
+== fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-blood.json ==
+== fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-urine.json ==
+== fsh-generated\resources\StructureDefinition-cv-date-of-birth.json ==
+== fsh-generated\resources\StructureDefinition-cv-gender.json ==
+== fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-blood.json ==
+== fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine.json ==
+== fsh-generated\resources\StructureDefinition-poi-patient.json ==
+INFORMATION: StructureDefinition/poi-patient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-patient'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-poi-person.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-person'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-poi-research-subject.json ==
+INFORMATION: StructureDefinition/poi-research-subject: StructureDefinition.snapshot.element[11].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/poi-research-subject'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-administrative-gender.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-administrative-gender'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-age-in-age-Classes'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-age-in-years.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-age-in-years'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-biological-sex.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-biological-sex'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-body-height.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-body-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-body-weight.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-body-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-date-of-birth.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-date-of-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-glucose-mole-concentration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-glucose-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-year-of-birth.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-year-of-birth'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
+== fsh-generated\resources\ValueSet-vs-age-groups.json ==
+WARNING: ValueSet/vs-age-groups: ValueSet.compose[0].include[0]: Unknown System 'https://fhir.loinc.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://fhir.loinc.org. Server Error: The code system 'https://fhir.loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://fhir.loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to provide support for code system https://fhir.loinc.org
+== fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
+== fsh-generated\resources\ValueSet-vs-biological-gender.json ==
+== fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
+== fsh-generated\resources\ValueSet-vs-glasgow-coma-scale-for-adults.json ==
+== fsh-generated\resources\ValueSet-vs-length-units.json ==
+== fsh-generated\resources\ValueSet-vs-mass-concentration-units.json ==
+== fsh-generated\resources\ValueSet-vs-mass-units.json ==
+== fsh-generated\resources\ValueSet-vs-molar-concentration-units.json ==
+== fsh-generated\resources\ValueSet-vs-number-concentration-units.json ==
+== fsh-generated\resources\ValueSet-vs-qualifier-for-presence.json ==
+== fsh-generated\resources\ValueSet-vs-sentinel-conceptual-domain.json ==
+== fsh-generated\resources\ValueSet-vs-smoking-status.json ==
+== fsh-generated\resources\ValueSet-vs-specimen-types.json ==
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0]: Unknown System 'https://fhir.loinc.org' specified, so Concepts and Filters can't be checked (Details: Code System URI "https://fhir.loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann)
+WARNING: ValueSet.where(id = 'vs-specimen-types'): Error from server: Unable to provide support for code system https://fhir.loinc.org
+== fsh-generated\resources\ValueSet-vs-time-units.json ==
+== fsh-generated\resources\ValueSet-vs-unity-units.json ==
+WARNING: ValueSet/vs-unity-units: ValueSet.compose[0].include[0].concept[0]: The code [lg] is not valid in the system http://unitsofmeasure.org
+== input\myig.xml ==
+WARNING: ImplementationGuide/fhir.cde-katalog: ImplementationGuide: Rule ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/fhir.cde-katalog: ImplementationGuide.definition.extension[4].extension[0].value.ofType(string): Der angegebene Wert ("showsource") ist nicht im ValueSet 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), und ein Code aus diesem Valueset ist erforderlich) (error message = Unbekannter Code http://hl7.org/fhir/tools/CodeSystem/ig-parameters#showsource in http://hl7.org/fhir/tools/CodeSystem/ig-parameters)
+ERROR: ImplementationGuide/fhir.cde-katalog: ImplementationGuide.definition.extension[31].extension[0].value.ofType(code): Der angegebene Wert ("showsource") ist nicht im ValueSet 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|0.1.0), und ein Code aus diesem Valueset ist erforderlich) (error message = Unbekannter Code http://hl7.org/fhir/tools/CodeSystem/ig-parameters#showsource in http://hl7.org/fhir/tools/CodeSystem/ig-parameters)

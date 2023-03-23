@@ -1,0 +1,93 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/ValueSet/vs-age-groups> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-age-groups"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>https://fhir.loinc.org</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>LA10403-6</td><td>Newborn</td></tr><tr><td>LA19747-7</td><td>Infant</td></tr><tr><td>LA9949-4</td><td>Child</td></tr><tr><td>LA19748-5</td><td>Pre-school</td></tr><tr><td>LA19749-3</td><td>Adolescent</td></tr><tr><td>LA13524-6</td><td>Adult</td></tr><tr><td>LA19750-1</td><td>Middle aged</td></tr><tr><td>LA19751-9</td><td>Aged</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-age-groups"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_AgeGroups"] ; # 
+  fhir:title [ fhir:v "Age groups"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://fhir.loinc.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "LA10403-6" ] ;
+         fhir:display [ fhir:v "Newborn" ]
+       ] [
+         fhir:code [ fhir:v "LA19747-7" ] ;
+         fhir:display [ fhir:v "Infant" ]
+       ] [
+         fhir:code [ fhir:v "LA9949-4" ] ;
+         fhir:display [ fhir:v "Child" ]
+       ] [
+         fhir:code [ fhir:v "LA19748-5" ] ;
+         fhir:display [ fhir:v "Pre-school" ]
+       ] [
+         fhir:code [ fhir:v "LA19749-3" ] ;
+         fhir:display [ fhir:v "Adolescent" ]
+       ] [
+         fhir:code [ fhir:v "LA13524-6" ] ;
+         fhir:display [ fhir:v "Adult" ]
+       ] [
+         fhir:code [ fhir:v "LA19750-1" ] ;
+         fhir:display [ fhir:v "Middle aged" ]
+       ] [
+         fhir:code [ fhir:v "LA19751-9" ] ;
+         fhir:display [ fhir:v "Aged" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

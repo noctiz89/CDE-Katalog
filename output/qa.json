@@ -1,0 +1,12 @@
+{
+  "url" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog",
+  "name" : "cde-katalog",
+  "package-id" : "cde-katalog",
+  "ig-ver" : "0.2.0",
+  "date" : "Thu, 23 Mar, 2023 11:27:05 +0100",
+  "errs" : 4,
+  "warnings" : 73,
+  "hints" : 2,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-draft-final (3)"
+}

@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="fhir.cde-katalog"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>cde-katalog</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/de/ImplementationGuide/fhir.cde-katalog</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
+</div></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"/>
+  <version value="0.2.0"/>
+  <name value="cde-katalog"/>
+  <title value="Common Data Element Katalog"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-03-23T11:27:05+01:00"/>
+  <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A brief description of what MyIG is about (probably the same text as in your readme)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="cde-katalog"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="5.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2023+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="templates\liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="showsource"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/de/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2023+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="templates\liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="showsource"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/de/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Top300Loinc"/>
+      </reference>
+      <name value="Top 300 Laboratory Value Dataset of the Medical Informatics Initiative Germany (MII) (Extended Version);"/>
+      <description value="The Top 300 Dataset (Kerndatensatz Labor) was developed by the Medical Informatics Initiative Germany (MII) and contains frequency-sorted, LOINC-coded analyses of the university clinics in Göttingen, Gießen, Munich, Greifswald and Erlangen. This form shows a detailed description containing primary and secondary LOINC codes of the 300 most common laboratory parameters. For each of the 300 laboratory parameters an itemgroup was created with all accepted variants of the laboratory parameters as items (secondary LOINC codes), the first item being the preferred LOINC variant of the MII (primary LOINC code). The itemgroup title is based on the primary LOINC code. The list is divided into subforms by the associated classes of laboratory parameters. If more than one class, the parameters can be found in the MIXED subform. An overview of the preferred presentation can also be found in the MDM portal (Laboratory Tests (Overview)). https://www.medizininformatik-initiative.de/de/labordaten-in-der-medizininformatik-initiative Explanation of abbreviations for types of specimen and classes/subforms: Type of specimen: Bld &amp;amp;#61; Blood BldA &amp;amp;#61; arterial blood Ser &amp;amp;#61; Serum Plas &amp;amp;#61; Plasma RBC &amp;amp;#61; Red blood cells PPP &amp;amp;#61; Platelet poor plasma Urine sed &amp;amp;#61; Urine sediment CSF &amp;amp;#61; Cerebral spinal fluid Body fld &amp;amp;#61; Body fluid Classes (Subforms): CHEM &amp;amp;#61; Chemistry HEM/BC &amp;amp;#61; Hematology/Blood Cell Count COAG &amp;amp;#61; Coagulation study UA &amp;amp;#61; Urinalysis CELLMARK &amp;amp;#61; Cell markers CLIN &amp;amp;#61; clinical not elsewhere classified DRUG/TOX &amp;amp;#61; drug levels &amp;amp; toxicology SERO &amp;amp;#61; serology MICRO &amp;amp;#61; Microbiology SPEC &amp;amp;#61; Specimen characteristics"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-age"/>
+      </reference>
+      <name value="C Age"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-anthropometry"/>
+      </reference>
+      <name value="C Anthropometry"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Anthropometrie'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-biological-sex"/>
+      </reference>
+      <name value="C Biological Sex"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Biologisches Geschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-blood"/>
+      </reference>
+      <name value="C Blood"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-body-height"/>
+      </reference>
+      <name value="C Body Height"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Körpergröße'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-body-weight"/>
+      </reference>
+      <name value="C Body Weight"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Körpergewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-clinical-diagnosis"/>
+      </reference>
+      <name value="C Clinical Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Klinische Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-count"/>
+      </reference>
+      <name value="C Count"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Anzahl'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-creatinine"/>
+      </reference>
+      <name value="C Creatinine"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Kreatinin (Substanz)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-current-chronological-age"/>
+      </reference>
+      <name value="C Current Chronological Age"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Aktuelles chronologisches Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-date-of-birth"/>
+      </reference>
+      <name value="C Date Of Birth"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Geburtsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-enumeration"/>
+      </reference>
+      <name value="C Enumeration"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Auflistung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-ethnicity"/>
+      </reference>
+      <name value="C Ehnicity"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Ethnizität'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-female"/>
+      </reference>
+      <name value="C Female"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Weiblich'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-finding-of-creatinine-level"/>
+      </reference>
+      <name value="C Finding Of Creatinine Level"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Bestimmung des Kreatininspiegels'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-finding-of-substance-level"/>
+      </reference>
+      <name value="C Finding Of Substance Level"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Bestimmung des Substanzniveaus'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-gender"/>
+      </reference>
+      <name value="C Gender"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Geschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-glucose"/>
+      </reference>
+      <name value="C Glucose"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Glukose (Substanz)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-gregorian-calendar-date"/>
+      </reference>
+      <name value="C Gregorian Calendar Date"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Gregorianisches Kalenderdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-health-related-behavior"/>
+      </reference>
+      <name value="C Health Related Behavior"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Gesundheitsbezogenes Verhalten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-intersex"/>
+      </reference>
+      <name value="C Intersex"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Intersexuell'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-interval-scale"/>
+      </reference>
+      <name value="C Interval Scale"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Intervallskala'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-male"/>
+      </reference>
+      <name value="C Male"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Männlich'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-nominal-scale"/>
+      </reference>
+      <name value="C Nominal Scale"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Nominalskala'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-ordinal-scale"/>
+      </reference>
+      <name value="C Ordinal Scale"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Ordinalskala'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-persons"/>
+      </reference>
+      <name value="C Persons"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Personen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-quantity"/>
+      </reference>
+      <name value="C Quantity"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Quantität'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-ratio-scale"/>
+      </reference>
+      <name value="C Ratio Scale"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Rationalskala'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-scale-type"/>
+      </reference>
+      <name value="C Scale Type"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Skalentyp'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-serum-or-plasma"/>
+      </reference>
+      <name value="C Serum Or Plasma"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-specimen-type"/>
+      </reference>
+      <name value="C Specimen Type"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Art der Probe'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-speciment-collection-date"/>
+      </reference>
+      <name value="C Speciment Collection Date"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Datum der Probenentnahme'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/c-urine"/>
+      </reference>
+      <name value="C Urine"/>
+      <description value="Dieses abstrakte Profil beschreibt das Konzept 'Urin'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-age-at-diagnosis-of-essential-hypertension"/>
+      </reference>
+      <name value="CDE Age At Diagnosis Of Essential Hypertension"/>
+      <description value="Dieses CDE enthält das 'Alter zum Zeitpunkt der Diagnose Essenzielle (primäre) Hypertonie'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-age"/>
+      </reference>
+      <name value="CDE Age"/>
+      <description value="Dieses CDE enthält das 'Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-birth-date"/>
+      </reference>
+      <name value="CDE Birth Date"/>
+      <description value="Dieses CDE enthält das 'Geburtsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-blood-pressure-diastolic"/>
+      </reference>
+      <name value="CDE Blood Pressure Diastolic"/>
+      <description value="Dieses CDE enthät den 'diastolischen Blutdruck'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-blood-pressure-systolic"/>
+      </reference>
+      <name value="CDE Blood Pressure Systolic"/>
+      <description value="Dieses CDE enthät den 'systolischen Blutdruck'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-body-height"/>
+      </reference>
+      <name value="CDE Body Height"/>
+      <description value="Dieses CDE enthält die 'Körpergröße'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-body-mass-index"/>
+      </reference>
+      <name value="CDE Body Mass Index"/>
+      <description value="Dieses CDE enthält den 'Body Mass Index (BMI) [Verhältnis]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-body-weight"/>
+      </reference>
+      <name value="CDE Body Weight"/>
+      <description value="Dieses CDE enthält das 'Körpergewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-calcium-in-serum-or-plasma-mass-concentration"/>
+      </reference>
+      <name value="CDE Calcium In Serum Or Plasma Mass Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalzium [Mass/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-calcium-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Calcium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-chloride-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Chloride In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Chlorid [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-cholesterol-inserum-or-plasma-mole-conentration"/>
+      </reference>
+      <name value="CDE cholesterol Inserum Or Plasma Mole Conentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Cholsterin [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-creatinine-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Creatinine In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kreatinin [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-current-age-calculated"/>
+      </reference>
+      <name value="CDE Current Age Calculated"/>
+      <description value="Dieses CDE enthält das 'aktuelle Alter - berechnet'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-current-age-reported"/>
+      </reference>
+      <name value="CDE Current Age Reported"/>
+      <description value="Dieses CDE enthält das 'aktuelle Alter - berichtet'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-date-of-diagnosis"/>
+      </reference>
+      <name value="CDE Date Of Diagnosis"/>
+      <description value="Dieses CDE enthält das 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-diabetes-mellitus-status-yes-or-no"/>
+      </reference>
+      <name value="CDE diabetes Mellitus Status Yes Or No"/>
+      <description value="Dieses CDE enthält den 'Status für eine Diabetes Mellitus Erkrankung'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-diagnosis"/>
+      </reference>
+      <name value="CDE Diagnosis"/>
+      <description value="Dieses CDE enthält eine 'Diagnose'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-erythrocytes-in-blood-count-per-volume"/>
+      </reference>
+      <name value="CDE Erythrocytes In Blood Count Per Volume"/>
+      <description value="Dieses CDE enthält den Messparameter 'Erytrhozyten [Anzahl/Volumen] in Blut"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-ethnicity"/>
+      </reference>
+      <name value="CDE Ethnicity"/>
+      <description value="Dieses CDE enthält die 'Ethnizität'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-glasgow-coma-score"/>
+      </reference>
+      <name value="CDE Glasgow Coma Score"/>
+      <description value="Dieses CDE enthält den Glasgow Coma Score (GCS)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-glucose-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Glucose In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Glukose [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-heart-rate-beats-per-minute"/>
+      </reference>
+      <name value="CDE heart Rate Beats Per Minute"/>
+      <description value="Dieses CDE enthät die 'Herzfrequenz'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-hematocrit-of-blood"/>
+      </reference>
+      <name value="CDE Hematocrit Of Blood"/>
+      <description value="Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-hemoglobin-in-blood-mole-concentration"/>
+      </reference>
+      <name value="CDE Hemoglobin In Blood Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Hämoglobin [Mol/Volumen] in Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-hip-circumference"/>
+      </reference>
+      <name value="CDE Hip Circumference"/>
+      <description value="Dieses CDE enhält den 'Hüftumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-leucocyctes-in-urine-dipstick-test"/>
+      </reference>
+      <name value="CDE Leucocyctes In Urine Dipstick Test"/>
+      <description value="Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-leukocytes-in-blood-count-per-volume"/>
+      </reference>
+      <name value="CDE Leukocytes In Blood Count Per Volume"/>
+      <description value="Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-magnesium-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Magnesium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Magnesium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-mean-corpuscular-hemoglobin-level-entitic-mass"/>
+      </reference>
+      <name value="CDE Mean Corpuscular Hemoglobin Level Entitic Mass"/>
+      <description value="Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-mean-corpuscular-volume-entitic-volume"/>
+      </reference>
+      <name value="CDE Mean Corpuscular Volume Entitic Volume"/>
+      <description value="Dieses CDE enthält den Messparameter 'Mittleres korpuskuläre Volumen [Entitische Volume]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-phosphate-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Phosphate In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-potassium-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Potassium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Kalium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-sex-assigned-at-birth"/>
+      </reference>
+      <name value="CDE Sex Assigned At Birth"/>
+      <description value="Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-sodium-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Sodium In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-thrombocytes-in-blood-count-per-volume"/>
+      </reference>
+      <name value="CDE Thrombocytes In Blood Count Per Volume"/>
+      <description value="Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-cessation-age"/>
+      </reference>
+      <name value="CDE tobacco Smoking Cessation Age"/>
+      <description value="Dieses CDE enthält das 'Alter' in dem eine Person mit dem Rauchen aufgehört hat."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-cessation-year"/>
+      </reference>
+      <name value="CDE Tobacco Smoking Cessation Year"/>
+      <description value="Dieses CDE enhält das 'Jahr in dem mit Rauchen aufgehört wurde'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-pack-year"/>
+      </reference>
+      <name value="CDE Tobacco Smoking Pack Year"/>
+      <description value="Dieses CDE enthält den 'Packungsjahr'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-status-yes-or-no"/>
+      </reference>
+      <name value="CDE tobacco Smoking Status Yes Or No"/>
+      <description value="Dieses CDE enthält den 'Raucherstatus'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-tobacco-smoking-status"/>
+      </reference>
+      <name value="CDE Smoking Status"/>
+      <description value="Dieses CDE enthält den 'Raucherstatus'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-triglyceride-in-serum-or-plasma-mole-concentration"/>
+      </reference>
+      <name value="CDE Triglyceride In Serum Or Plasma Mole Concentration"/>
+      <description value="Dieses CDE enthält den Messparameter 'Triglyceride [Mol/Volumen] in Serum oder Plasma'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-visit-date"/>
+      </reference>
+      <name value="CDE Visit Date"/>
+      <description value="Dieses CDE enhält das 'Datum der Untersuchung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cde-waist-circumference"/>
+      </reference>
+      <name value="CDE Waist Circumference"/>
+      <description value="Dieses CDE enhält den 'Taillenumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-age-at-diagnosis"/>
+      </reference>
+      <name value="CLS UMLS Age At Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter bei Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-age"/>
+      </reference>
+      <name value="CLS OBO NCIT Age"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-birth-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Birth Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Geburtsdatum'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-ncit-year-date"/>
+      </reference>
+      <name value="CLS OBO NCIT Year Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Jahr (Temporal Qualifier)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-obo-snomed-blood-creatinine-level"/>
+      </reference>
+      <name value="CLS OBO SNOMED Creatinine Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kreatininspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-age-at-smoking-cessation"/>
+      </reference>
+      <name value="CLS SNOMED Age At Smoking Cessation"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Alter beim Rauchstopp'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-demographic-history-detail"/>
+      </reference>
+      <name value="CLS SNOMED Demographic History Detail"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Detail der demografischen Geschichte'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-diagnosis"/>
+      </reference>
+      <name value="CLS SNOMED Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-finding-of-tobacco-use-and-exposure"/>
+      </reference>
+      <name value="CLS SNOMED Finding Of Tobacco Use And Exposure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Ermittlung des Tabakkonsums und der Exposition'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-pack-years"/>
+      </reference>
+      <name value="CLS SNOMED Pack Years"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Packungsjahre'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-snomed-patient-sex"/>
+      </reference>
+      <name value="CLS SNOMED Patient Sex"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Patientengeschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-anthropoemetry"/>
+      </reference>
+      <name value="CLS UMLS Anthropoemetry"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Anthropoemetrie'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-blood-pressure-measurement"/>
+      </reference>
+      <name value="CLS UMLS Pressure Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Blutdruck-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-height"/>
+      </reference>
+      <name value="CLS UMLS Body Height"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergröße'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-mass-index"/>
+      </reference>
+      <name value="CLS UMLS Body Mass Index"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Body Mass Index (BMI)'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-body-weight"/>
+      </reference>
+      <name value="CLS UMLS Body Weight"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Körpergewicht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-calcium-level"/>
+      </reference>
+      <name value="CLS UMLS Calcium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-chloride-level"/>
+      </reference>
+      <name value="CLS UMLS Chloride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Chloridspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-cholesterol-level"/>
+      </reference>
+      <name value="CLS UMLS Cholesterol Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Cholesterinspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-date-of-diagnosis"/>
+      </reference>
+      <name value="CLS UMLS Date Of Diagnosis"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Diagnose'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-dateof-event"/>
+      </reference>
+      <name value="CLS UMLS Date Of Event"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum von einem Event'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-diastolic-blood-pressure"/>
+      </reference>
+      <name value="CLS UMLS Diastolic Blood Pressure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kalziumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-electrolyte-measurement"/>
+      </reference>
+      <name value="CLS UMLS Electrolyte Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung von Elektrolyten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-glucose-level"/>
+      </reference>
+      <name value="CLS UMLS Glucose Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Glukosespiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-heart-rate"/>
+      </reference>
+      <name value="CLS UMLS Heart Rate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hematocrit-measurement"/>
+      </reference>
+      <name value="CLS UMLS Hematocrit Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämatokrit-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hemoglobin-measurement"/>
+      </reference>
+      <name value="CLS UMLS Hemoglobin Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hämoglobin-Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-hip-circumference"/>
+      </reference>
+      <name value="CLS UMLS Hip Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Hüftumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-laboratory"/>
+      </reference>
+      <name value="CLS UMLS Laboratory"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-magnesium-level"/>
+      </reference>
+      <name value="CLS UMLS Magnesium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Magnesiumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-concentration"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Hemoglobin Concentration"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Hämoglobin Konzentration'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-hemoglobin-level"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Hemoglobin Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittleres korpuskuläres Hämoglobin Level'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-mean-corpuscular-volume"/>
+      </reference>
+      <name value="CLS UMLS Mean Corpuscular Volume"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Mittlere korpuskuläre Volumen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-phosphate-level"/>
+      </reference>
+      <name value="CLS UMLS Phosphate Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Phosphatspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-platelet-measurement"/>
+      </reference>
+      <name value="CLS UMLS Platelet Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der Thrombozyten'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-potassium-level"/>
+      </reference>
+      <name value="CLS UMLS Potassium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Kaliumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-red-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS UMLS Red Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Messung der roten Blutkörperchen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-sodium-level"/>
+      </reference>
+      <name value="CLS UMLS Sodium Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Natriumspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-systolic-blood-pressure"/>
+      </reference>
+      <name value="CLS UMLS Systolic Blood Pressure"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Systolischer Blutdruck'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-triglyceride-level"/>
+      </reference>
+      <name value="CLS UMLS Triglyceride Level"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Triglyceridspiegel'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-urine-measurement"/>
+      </reference>
+      <name value="CLS UMLS Urine Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Urin Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-visit-date"/>
+      </reference>
+      <name value="CLS UMLS Visit Date"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Datum der Visite'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-waist-circumference"/>
+      </reference>
+      <name value="CLS UMLS Waist Circumference"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Taillenumfang'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cls-umls-white-blood-cell-measurement"/>
+      </reference>
+      <name value="CLS UMLS White Blood Cell Measurement"/>
+      <description value="Dieses abstrakte Profil beschreibt die Kategorie 'Weiße Blutkörperchen Messung'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-age-counted"/>
+      </reference>
+      <name value="CV Age Counted"/>
+      <description value="Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-biological-sex"/>
+      </reference>
+      <name value="CV Biological Sex"/>
+      <description value="Das biologische Geschlecht einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-body-height"/>
+      </reference>
+      <name value="CV Body Height"/>
+      <description value="Die Körpergröße einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-body-weight"/>
+      </reference>
+      <name value="CV Body Weight"/>
+      <description value="Das Körpergewicht einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-creatinine-concentration-in-blood"/>
+      </reference>
+      <name value="CV Creatinine Concentration In Blood"/>
+      <description value="Die Konzentration von 'Kreatinin' im Blut von einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-creatinine-concentration-in-urine"/>
+      </reference>
+      <name value="CV Creatinine Concentration In Urine"/>
+      <description value="Die Konzentration von 'Kreatinin' im Urin von einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-date-of-birth"/>
+      </reference>
+      <name value="CV Date Of Birth"/>
+      <description value="Das Geburtsdatum bezieht sich auf den Tag, Monat und Jahr an dem eine Person geboren wurde."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-gender"/>
+      </reference>
+      <name value="CV Gender"/>
+      <description value="Das Geschlecht einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-glucose-concentration-in-blood"/>
+      </reference>
+      <name value="CV Glucose Concentration In Blood"/>
+      <description value="Die Konzentration von 'Glucose' im Blut von einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cv-glucose-concentration-in-urine"/>
+      </reference>
+      <name value="CV Glucose Concentration In Urine"/>
+      <description value="Die Konzentration von 'Glukose' im Urin von einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/poi-patient"/>
+      </reference>
+      <name value="POI Patient"/>
+      <description value="Dieses Profil beschreibt eine Person von Interesse als Patient oder Patientin."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/poi-person"/>
+      </reference>
+      <name value="POI Person"/>
+      <description value="Dieses Profil beschreibt eine Person von Interesse als Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/poi-research-subject"/>
+      </reference>
+      <name value="POI Research Subject"/>
+      <description value="Dieses Profil beschreibt eine Person von Interesse als Proband oder Probandin."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-administrative-gender"/>
+      </reference>
+      <name value="RV Administrative Gender"/>
+      <description value="Das administrative Geschlecht beschreibt, wie eine Person behördlich oder verwaltungsmäßig behandelt werden möchte. (Anwendung z.B. zur Bettenverteilung in Krankenhäusern oder Wahl des Anredepronomen)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-age-in-age-Classes"/>
+      </reference>
+      <name value="RV Age In Age Classes"/>
+      <description value="Das Alter einer Person in Altersklassen."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-age-in-years"/>
+      </reference>
+      <name value="RV Age In Years"/>
+      <description value="Das Alter einer Person in Jahren."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-biological-sex"/>
+      </reference>
+      <name value="RV Biological Sex"/>
+      <description value="Das biologische Geschlecht bezieht sich auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-body-height"/>
+      </reference>
+      <name value="RV Body Height"/>
+      <description value="Die Körpergröße einer Person."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-body-weight"/>
+      </reference>
+      <name value="RV Body Weight"/>
+      <description value="Das Körpergewicht eines Patienten in Kilogramm."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-creatinine-mass-concentration"/>
+      </reference>
+      <name value="RV Creatinine Mass Concentration"/>
+      <description value="Die Konzetration von 'Kreatinin [Masse/Volumen]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-creatinine-mole-concentration"/>
+      </reference>
+      <name value="RV Creatinine Mole Concentration"/>
+      <description value="Die Konzetration von 'Kreatinin [Mol/Volumen]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-date-of-birth"/>
+      </reference>
+      <name value="RV Date Of Birth"/>
+      <description value="Das Geburtsdatum eines Patienten."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-glucose-mole-concentration"/>
+      </reference>
+      <name value="RV Glucose Mole Concentration"/>
+      <description value="Die Konzetration von 'Glukose [Mol/Volumen]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-year-of-birth"/>
+      </reference>
+      <name value="RV Year Of Birth"/>
+      <description value="Das Geburtsjahr eines Patienten."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-administrative-gender"/>
+      </reference>
+      <name value="Administrative gender"/>
+      <description value="Dieses ValueSet enthält Codes für das administrative Geschlecht."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-age-groups"/>
+      </reference>
+      <name value="Age groups"/>
+      <description value="Diese ValueSet enhält LOINC-Codes für 'Altersgruppen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-binary-decision-yes-or-no"/>
+      </reference>
+      <name value="Binary decision (yes or no)"/>
+      <description value="Dieses ValueSet enthält Snomed-Codes für Ja oder Nein."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-biological-gender"/>
+      </reference>
+      <name value="Biological sex types"/>
+      <description value="Dieses ValueSet enthält Snomed-Codes für das 'biologische Geschlecht'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-ethnic-groups"/>
+      </reference>
+      <name value="Ethnic groups"/>
+      <description value="Diese ValueSet enhält SNOMED-Codes für 'ethnische Gruppen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-glasgow-coma-scale-for-adults"/>
+      </reference>
+      <name value="Present Qualifers (negativ until three plus)"/>
+      <description value="Dieses ValueSet enthält LOINC-Codes für den Glasgow Coma Scale (GCS) für Erwachsene"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-length-units"/>
+      </reference>
+      <name value="Common units for 'lenght'"/>
+      <description value="UCUM Codes für 'Länge'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-mass-concentration-units"/>
+      </reference>
+      <name value="Common units for 'mass concentration'"/>
+      <description value="UCUM Codes für Massenkonzentration"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-mass-units"/>
+      </reference>
+      <name value="Common units for 'mass'"/>
+      <description value="UCUM Codes für 'Masse'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-molar-concentration-units"/>
+      </reference>
+      <name value="Common units for 'mole concentration'"/>
+      <description value="UCUM Codes für Stoffmengenkonzentration"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-number-concentration-units"/>
+      </reference>
+      <name value="Common units for 'number concentration'"/>
+      <description value="UCUM Codes für 'Anzahl pro Volumen'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-qualifier-for-presence"/>
+      </reference>
+      <name value="Present Qualifers (negativ until three plus)"/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes der das Vorhandensein des Zustands oder der zu testenden Substanz anzeigt."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-sentinel-conceptual-domain"/>
+      </reference>
+      <name value="Reasons for missing data (sentinel)"/>
+      <description value="Dieses ValueSet enthält SNOMED-Codes für Sentinel-Kategorien."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-smoking-status"/>
+      </reference>
+      <name value="Smoking Status Types"/>
+      <description value="Dieses ValueSet enthält Snomed-Codes für den Raucherstatus."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-specimen-types"/>
+      </reference>
+      <name value="Specimen Types (for Clinical Chemistry)"/>
+      <description value="LOINC Codes für 'Probenmaterial'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-time-units"/>
+      </reference>
+      <name value="Common units for 'time span'"/>
+      <description value="UCUM Codes für 'Zeit'"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-unity-units"/>
+      </reference>
+      <name value="Common units for 'unity element'"/>
+      <description value="UCUM Codes für Gesamtheit (auch 'Eins-Element')."/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="informative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Inhaltsverzeichnis"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="CDE-Katalog"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="background.html"/>
+        </extension>
+        <nameUrl value="background.html"/>
+        <title value="Hintergrund"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="trial-use"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="spec.html"/>
+        </extension>
+        <nameUrl value="spec.html"/>
+        <title value="Detaillierte Spezifikation"/>
+        <generation value="markdown"/>
+        <page>
+          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+            <valueCode value="trial-use"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+            <valueInteger value="1"/>
+          </extension>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="spec2.html"/>
+          </extension>
+          <nameUrl value="spec2.html"/>
+          <title value="Anmerkungen zu CDEs"/>
+          <generation value="markdown"/>
+        </page>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Hilfreiche Downloads"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="changes.html"/>
+        </extension>
+        <nameUrl value="changes.html"/>
+        <title value="IG Change History"/>
+        <generation value="html"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input\history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

@@ -1,0 +1,109 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/ValueSet/vs-number-concentration-units> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vs-number-concentration-units"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>uL</td><td>uL</td></tr><tr><td>{Cells}/uL</td><td>{Cells}/uL</td></tr><tr><td>{rbc}/uL</td><td>{rbc}/uL</td></tr><tr><td>10*3/uL</td><td>10*3/uL</td></tr><tr><td>10*6/uL</td><td>10*6/uL</td></tr><tr><td>10*9/uL</td><td>10*9/uL</td></tr><tr><td>/mL</td><td>/mL</td></tr><tr><td>{Spermatozoa}/mL</td><td>{Spermatozoa}/mL</td></tr><tr><td>{Copies}/mL</td><td>{Copies}/mL</td></tr><tr><td>10*3/mL</td><td>10*3/mL</td></tr><tr><td>10*3{Copies}/mL</td><td>10*3{Copies}/mL</td></tr><tr><td>10*6/mL</td><td>10*6/mL</td></tr><tr><td>10*9/mL</td><td>10*9/mL</td></tr><tr><td>{cfu}/mL</td><td>{cfu}/mL</td></tr><tr><td>/dL</td><td>/dL</td></tr><tr><td>/L</td><td>/L</td></tr><tr><td>10*3/L</td><td>10*3/L</td></tr><tr><td>10*6/L</td><td>10*6/L</td></tr><tr><td>10*12/L</td><td>10*12/L</td></tr><tr><td>10*9/L</td><td>10*9/L</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "1"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "informative" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/de/ImplementationGuide/fhir.cde-katalog>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/de/ValueSet/vs-number-concentration-units"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "VS_NumberConcentrationUnits"] ; # 
+  fhir:title [ fhir:v "Common units for 'number concentration'"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-23T11:27:05+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "UCUM Codes für 'Anzahl pro Volumen'."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "uL" ]
+       ] [
+         fhir:code [ fhir:v "{Cells}/uL" ]
+       ] [
+         fhir:code [ fhir:v "{rbc}/uL" ]
+       ] [
+         fhir:code [ fhir:v "10*3/uL" ]
+       ] [
+         fhir:code [ fhir:v "10*6/uL" ]
+       ] [
+         fhir:code [ fhir:v "10*9/uL" ]
+       ] [
+         fhir:code [ fhir:v "/mL" ]
+       ] [
+         fhir:code [ fhir:v "{Spermatozoa}/mL" ]
+       ] [
+         fhir:code [ fhir:v "{Copies}/mL" ]
+       ] [
+         fhir:code [ fhir:v "10*3/mL" ]
+       ] [
+         fhir:code [ fhir:v "10*3{Copies}/mL" ]
+       ] [
+         fhir:code [ fhir:v "10*6/mL" ]
+       ] [
+         fhir:code [ fhir:v "10*9/mL" ]
+       ] [
+         fhir:code [ fhir:v "{cfu}/mL" ]
+       ] [
+         fhir:code [ fhir:v "/dL" ]
+       ] [
+         fhir:code [ fhir:v "/L" ]
+       ] [
+         fhir:code [ fhir:v "10*3/L" ]
+       ] [
+         fhir:code [ fhir:v "10*6/L" ]
+       ] [
+         fhir:code [ fhir:v "10*12/L" ]
+       ] [
+         fhir:code [ fhir:v "10*9/L" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
