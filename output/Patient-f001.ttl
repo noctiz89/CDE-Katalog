@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/de/Patient/f001> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "f001"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Max M. Mustermann </b> male, DoB: 1996-01-01</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">Musterstraße 1 Musterstadt 12345 DE </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Languages spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes: {urn:ietf:bcp:47 de-DE}\">Deutsch</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li><a href=\"tel:+49123456789\">+49 123 456789</a></li><li><a href=\"mailto:max.mustermann@example.com\">max.mustermann@example.com</a></li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Mustermann" ] ;
+     fhir:given ( [ fhir:v "Max" ] [ fhir:v "M." ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1996-01-01"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Musterstraße 1" ] ) ;
+     fhir:city [ fhir:v "Musterstadt" ] ;
+     fhir:postalCode [ fhir:v "12345" ] ;
+     fhir:country [ fhir:v "DE" ]
+  ] ) ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "+49 123 456789" ] ;
+       fhir:use [ fhir:v "home" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "max.mustermann@example.com" ]
+     ] )
+  ] ) ; # 
+  fhir:communication ( [
+     fhir:language [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "de-DE" ] ;
+         fhir:display [ fhir:v "Deutsch (Deutschland)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Deutsch" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -2,93 +2,6 @@
 <hr/><a name="l1"> </a>
 <p>#1</p>
 <pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;pg/mL&quot;},{&quot;code&quot;:&quot;ng/mL&quot;},{&quot;code&quot;:&quot;ug/mL&quot;},{&quot;code&quot;:&quot;mg/mL&quot;},{&quot;code&quot;:&quot;g/mL&quot;},{&quot;code&quot;:&quot;pg/dL&quot;},{&quot;code&quot;:&quot;ng/dL&quot;},{&quot;code&quot;:&quot;ug/dL&quot;},{&quot;code&quot;:&quot;mg/dL&quot;},{&quot;code&quot;:&quot;g/dL&quot;},{&quot;code&quot;:&quot;ng/L&quot;},{&quot;code&quot;:&quot;pg/L&quot;},{&quot;code&quot;:&quot;ug/L&quot;},{&quot;code&quot;:&quot;mg/L&quot;},{&quot;code&quot;:&quot;g/L&quot;},{&quot;code&quot;:&quot;kg/L&quot;},{&quot;code&quot;:&quot;mg/m3&quot;},{&quot;code&quot;:&quot;kg/m3&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1773
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:45:32 GMT
-last-modified:Thu, 23 Mar 2023 13:45:32 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2144223
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:b2ecfc8a-6a93-432d-9551-1add8f4dbce9&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:45:32.730Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/mL&quot;,&quot;display&quot; : &quot;pg/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/mL&quot;,&quot;display&quot; : &quot;ng/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/mL&quot;,&quot;display&quot; : &quot;ug/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/mL&quot;,&quot;display&quot; : &quot;mg/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/mL&quot;,&quot;display&quot; : &quot;g/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/dL&quot;,&quot;display&quot; : &quot;pg/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/dL&quot;,&quot;display&quot; : &quot;ng/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/dL&quot;,&quot;display&quot; : &quot;ug/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/dL&quot;,&quot;display&quot; : &quot;mg/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/dL&quot;,&quot;display&quot; : &quot;g/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/L&quot;,&quot;display&quot; : &quot;ng/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/L&quot;,&quot;display&quot; : &quot;pg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/L&quot;,&quot;display&quot; : &quot;ug/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/L&quot;,&quot;display&quot; : &quot;mg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/L&quot;,&quot;display&quot; : &quot;g/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;kg/L&quot;,&quot;display&quot; : &quot;kg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/m3&quot;,&quot;display&quot; : &quot;mg/m3&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;kg/m3&quot;,&quot;display&quot; : &quot;kg/m3&quot;}]}}
-</pre>
-<hr/><a name="l2"> </a>
-<p>#2</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;uL&quot;},{&quot;code&quot;:&quot;10*3/uL&quot;},{&quot;code&quot;:&quot;10*6/uL&quot;},{&quot;code&quot;:&quot;10*9/uL&quot;},{&quot;code&quot;:&quot;/mL&quot;},{&quot;code&quot;:&quot;10*3/mL&quot;},{&quot;code&quot;:&quot;10*6/mL&quot;},{&quot;code&quot;:&quot;10*9/mL&quot;},{&quot;code&quot;:&quot;/dL&quot;},{&quot;code&quot;:&quot;/L&quot;},{&quot;code&quot;:&quot;10*3/L&quot;},{&quot;code&quot;:&quot;10*6/L&quot;},{&quot;code&quot;:&quot;10*12/L&quot;},{&quot;code&quot;:&quot;10*9/L&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1493
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:45:33 GMT
-last-modified:Thu, 23 Mar 2023 13:45:33 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2144224
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:620bfe3b-ca4e-47a8-bfe3-9421de571399&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:45:33.027Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;uL&quot;,&quot;display&quot; : &quot;uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/uL&quot;,&quot;display&quot; : &quot;10*3/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/uL&quot;,&quot;display&quot; : &quot;10*6/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/uL&quot;,&quot;display&quot; : &quot;10*9/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/mL&quot;,&quot;display&quot; : &quot;/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/mL&quot;,&quot;display&quot; : &quot;10*3/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/mL&quot;,&quot;display&quot; : &quot;10*6/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/mL&quot;,&quot;display&quot; : &quot;10*9/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/dL&quot;,&quot;display&quot; : &quot;/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/L&quot;,&quot;display&quot; : &quot;/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/L&quot;,&quot;display&quot; : &quot;10*3/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/L&quot;,&quot;display&quot; : &quot;10*6/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*12/L&quot;,&quot;display&quot; : &quot;10*12/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/L&quot;,&quot;display&quot; : &quot;10*9/L&quot;}]}}
-</pre>
-<hr/><a name="l3"> </a>
-<p>#3</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;/{tot}&quot;},{&quot;code&quot;:&quot;10*3&quot;},{&quot;code&quot;:&quot;10*5&quot;},{&quot;code&quot;:&quot;10*6&quot;},{&quot;code&quot;:&quot;10*8&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:771
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:45:33 GMT
-last-modified:Thu, 23 Mar 2023 13:45:33 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2144225
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:4f0a638c-d1e4-43bf-a3c4-bb362b7e3bdd&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:45:33.339Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/{tot}&quot;,&quot;display&quot; : &quot;/{tot}&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3&quot;,&quot;display&quot; : &quot;10*3&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*5&quot;,&quot;display&quot; : &quot;10*5&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6&quot;,&quot;display&quot; : &quot;10*6&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*8&quot;,&quot;display&quot; : &quot;10*8&quot;}]}}
-</pre>
-<hr/><a name="l4"> </a>
-<p>#4</p>
-<pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
@@ -106,104 +19,17 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:391
 content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:45:34 GMT
-last-modified:Thu, 23 Mar 2023 13:45:34 GMT
+date:Mon, 27 Mar 2023 12:38:57 GMT
+last-modified:Mon, 27 Mar 2023 12:38:57 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2144227
+x-request-id:5-2444601
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'https://fhir.loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://fhir.loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
-<hr/><a name="l5"> </a>
-<p>#5</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;pg/mL&quot;},{&quot;code&quot;:&quot;ng/mL&quot;},{&quot;code&quot;:&quot;ug/mL&quot;},{&quot;code&quot;:&quot;mg/mL&quot;},{&quot;code&quot;:&quot;g/mL&quot;},{&quot;code&quot;:&quot;pg/dL&quot;},{&quot;code&quot;:&quot;ng/dL&quot;},{&quot;code&quot;:&quot;ug/dL&quot;},{&quot;code&quot;:&quot;mg/dL&quot;},{&quot;code&quot;:&quot;g/dL&quot;},{&quot;code&quot;:&quot;ng/L&quot;},{&quot;code&quot;:&quot;pg/L&quot;},{&quot;code&quot;:&quot;ug/L&quot;},{&quot;code&quot;:&quot;mg/L&quot;},{&quot;code&quot;:&quot;g/L&quot;},{&quot;code&quot;:&quot;kg/L&quot;},{&quot;code&quot;:&quot;mg/m3&quot;},{&quot;code&quot;:&quot;kg/m3&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1724
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:56:46 GMT
-last-modified:Thu, 23 Mar 2023 13:56:46 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146715
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:f16a3459-44c1-4056-b310-bcdbf2e86f2a&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:56:46.934Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/mL&quot;,&quot;display&quot; : &quot;pg/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/mL&quot;,&quot;display&quot; : &quot;ng/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/mL&quot;,&quot;display&quot; : &quot;ug/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/mL&quot;,&quot;display&quot; : &quot;mg/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/mL&quot;,&quot;display&quot; : &quot;g/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/dL&quot;,&quot;display&quot; : &quot;pg/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/dL&quot;,&quot;display&quot; : &quot;ng/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/dL&quot;,&quot;display&quot; : &quot;ug/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/dL&quot;,&quot;display&quot; : &quot;mg/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/dL&quot;,&quot;display&quot; : &quot;g/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ng/L&quot;,&quot;display&quot; : &quot;ng/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;pg/L&quot;,&quot;display&quot; : &quot;pg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;ug/L&quot;,&quot;display&quot; : &quot;ug/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/L&quot;,&quot;display&quot; : &quot;mg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;g/L&quot;,&quot;display&quot; : &quot;g/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;kg/L&quot;,&quot;display&quot; : &quot;kg/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;mg/m3&quot;,&quot;display&quot; : &quot;mg/m3&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;kg/m3&quot;,&quot;display&quot; : &quot;kg/m3&quot;}]}}
-</pre>
-<hr/><a name="l6"> </a>
-<p>#6</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;uL&quot;},{&quot;code&quot;:&quot;10*3/uL&quot;},{&quot;code&quot;:&quot;10*6/uL&quot;},{&quot;code&quot;:&quot;10*9/uL&quot;},{&quot;code&quot;:&quot;/mL&quot;},{&quot;code&quot;:&quot;10*3/mL&quot;},{&quot;code&quot;:&quot;10*6/mL&quot;},{&quot;code&quot;:&quot;10*9/mL&quot;},{&quot;code&quot;:&quot;/dL&quot;},{&quot;code&quot;:&quot;/L&quot;},{&quot;code&quot;:&quot;10*3/L&quot;},{&quot;code&quot;:&quot;10*6/L&quot;},{&quot;code&quot;:&quot;10*12/L&quot;},{&quot;code&quot;:&quot;10*9/L&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1444
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:56:48 GMT
-last-modified:Thu, 23 Mar 2023 13:56:48 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146716
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:ee11e6ad-a597-424b-b53b-e4462ba694a7&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:56:48.559Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;uL&quot;,&quot;display&quot; : &quot;uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/uL&quot;,&quot;display&quot; : &quot;10*3/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/uL&quot;,&quot;display&quot; : &quot;10*6/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/uL&quot;,&quot;display&quot; : &quot;10*9/uL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/mL&quot;,&quot;display&quot; : &quot;/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/mL&quot;,&quot;display&quot; : &quot;10*3/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/mL&quot;,&quot;display&quot; : &quot;10*6/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/mL&quot;,&quot;display&quot; : &quot;10*9/mL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/dL&quot;,&quot;display&quot; : &quot;/dL&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/L&quot;,&quot;display&quot; : &quot;/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3/L&quot;,&quot;display&quot; : &quot;10*3/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6/L&quot;,&quot;display&quot; : &quot;10*6/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*12/L&quot;,&quot;display&quot; : &quot;10*12/L&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*9/L&quot;,&quot;display&quot; : &quot;10*9/L&quot;}]}}
-</pre>
-<hr/><a name="l7"> </a>
-<p>#7</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;},{&quot;name&quot;:&quot;includeDefinition&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;excludeNested&quot;,&quot;valueBoolean&quot;:false},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;inactive&quot;:true,&quot;include&quot;:[{&quot;system&quot;:&quot;http://unitsofmeasure.org&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;/{tot}&quot;},{&quot;code&quot;:&quot;10*3&quot;},{&quot;code&quot;:&quot;10*5&quot;},{&quot;code&quot;:&quot;10*6&quot;},{&quot;code&quot;:&quot;10*8&quot;}]}]}}},{&quot;name&quot;:&quot;_limit&quot;,&quot;valueString&quot;:&quot;1000&quot;},{&quot;name&quot;:&quot;_incomplete&quot;,&quot;valueString&quot;:&quot;true&quot;}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:722
-content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:56:49 GMT
-last-modified:Thu, 23 Mar 2023 13:56:49 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146717
-
-{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;language&quot; : &quot;en&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:54935cae-a917-459f-b7ee-5e15389321c4&quot;,&quot;timestamp&quot; : &quot;2023-03-23T13:56:49.309Z&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;limitedExpansion&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://unitsofmeasure.org|2.0.1&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;/{tot}&quot;,&quot;display&quot; : &quot;/{tot}&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*3&quot;,&quot;display&quot; : &quot;10*3&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*5&quot;,&quot;display&quot; : &quot;10*5&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*6&quot;,&quot;display&quot; : &quot;10*6&quot;},{&quot;system&quot; : &quot;http://unitsofmeasure.org&quot;,&quot;code&quot; : &quot;10*8&quot;,&quot;display&quot; : &quot;10*8&quot;}]}}
-</pre>
-<hr/><a name="l8"> </a>
-<p>#8</p>
+<hr/><a name="l2"> </a>
+<p>#2</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -222,17 +48,17 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:429
 content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:57:23 GMT
-last-modified:Thu, 23 Mar 2023 13:57:23 GMT
+date:Mon, 27 Mar 2023 12:50:12 GMT
+last-modified:Mon, 27 Mar 2023 12:50:12 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146786
+x-request-id:5-2444964
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://terminology.hl7.org/CodeSystem/umls' is not known (encountered paired with code = 'C0003188'); The code provided (http://terminology.hl7.org/CodeSystem/umls#C0003188) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
-<hr/><a name="l9"> </a>
-<p>#9</p>
+<hr/><a name="l3"> </a>
+<p>#3</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -251,17 +77,17 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:411
 content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:57:23 GMT
-last-modified:Thu, 23 Mar 2023 13:57:23 GMT
+date:Mon, 27 Mar 2023 12:50:12 GMT
+last-modified:Mon, 27 Mar 2023 12:50:12 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146787
+x-request-id:5-2444965
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://purl.obolibrary.org/obo' is not known (encountered paired with code = 'NCIT_C20189'); The code provided (http://purl.obolibrary.org/obo#NCIT_C20189) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
-<hr/><a name="l10"> </a>
-<p>#10</p>
+<hr/><a name="l4"> </a>
+<p>#4</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -280,12 +106,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:451
 content-type:application/fhir+json
-date:Thu, 23 Mar 2023 13:57:23 GMT
-last-modified:Thu, 23 Mar 2023 13:57:23 GMT
+date:Mon, 27 Mar 2023 12:50:13 GMT
+last-modified:Mon, 27 Mar 2023 12:50:12 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2146788
+x-request-id:5-2444966
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://terminology.hl7.org/NamingSystem/v3-nciThesaurus' is not known (encountered paired with code = 'C77811'); The code provided (http://terminology.hl7.org/NamingSystem/v3-nciThesaurus#C77811) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>

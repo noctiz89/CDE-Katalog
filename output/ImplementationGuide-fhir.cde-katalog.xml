@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-23T14:41:29+01:00"/>
+  <date value="2023-03-27T14:34:38+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -477,6 +477,44 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv0001"/>
+      </reference>
+      <name value="Example Observation - iv0001"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv0002"/>
+      </reference>
+      <name value="Example Observation - iv0002"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv0003"/>
+      </reference>
+      <name value="Example Observation - iv0003"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/f001"/>
+      </reference>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
