@@ -8,9 +8,9 @@ Description: "Das biologische Geschlecht einer Person."
 
 // SUBSTANTIAL Conceptual Domain
 * component.valueCodeableConcept 0..1 MS
-* component.valueCodeableConcept from VS_BiologicalGender (required) ///.coding from ...?
+* component.valueCodeableConcept from VS_BiologicalGender (required) // includes 3 sexes (male, female, intersex)
 
-
+// 
 * insert RS_CreateOneFurtherCategory(NominalScale, $UMLS, C1711339)
 
 // Observation.value[x].CodeableConcept not allowed!

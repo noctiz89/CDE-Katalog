@@ -571,6 +571,10 @@
         "title": "RV Glucose Mole Concentration"
       },
       {
+        "url": "http://hl7.org/de/StructureDefinition/rv-sex-assigned-at-birth",
+        "title": "RV Sex Assigned At Birth"
+      },
+      {
         "url": "http://hl7.org/de/StructureDefinition/rv-year-of-birth",
         "title": "RV Year Of Birth"
       }

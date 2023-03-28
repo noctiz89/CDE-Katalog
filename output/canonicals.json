@@ -1000,6 +1000,13 @@
     "name" : "RV_GlucoseMoleConcentration"
   },
   {
+    "id" : "rv-sex-assigned-at-birth",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-sex-assigned-at-birth",
+    "version" : "0.2.0",
+    "name" : "RV_SexAssignedAtBirth"
+  },
+  {
     "id" : "rv-year-of-birth",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/de/StructureDefinition/rv-year-of-birth",

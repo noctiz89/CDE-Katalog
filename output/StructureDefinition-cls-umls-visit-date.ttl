@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CLS_UMLS_VisitDate"] ; # 
   fhir:title [ fhir:v "CLS UMLS Visit Date"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-28T16:37:13+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-28T22:15:03+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

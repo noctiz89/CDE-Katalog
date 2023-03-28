@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-28T16:37:13+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-28T22:15:03+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -2115,7 +2115,7 @@
          fhir:reference [ fhir:v "StructureDefinition/cv-gender" ]
        ] ;
        fhir:name [ fhir:v "CV Gender" ] ;
-       fhir:description [ fhir:v "Das Geschlecht einer Person." ]
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt die 'Geschlechtskategorie, als Merkmal von Personen'." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2141,7 +2141,7 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/rv-administrative-gender> ;
@@ -2174,14 +2174,14 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
        ] ) ;
        fhir:reference [
          fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex> ;
          fhir:reference [ fhir:v "StructureDefinition/rv-biological-sex" ]
        ] ;
        fhir:name [ fhir:v "RV Biological Sex" ] ;
-       fhir:description [ fhir:v "Das biologische Geschlecht bezieht sich auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)." ]
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', bezogen auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2248,6 +2248,17 @@
        ] ;
        fhir:name [ fhir:v "RV Glucose Mole Concentration" ] ;
        fhir:description [ fhir:v "Die Konzetration von 'Glukose [Mol/Volumen]'." ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource:abstract" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-sex-assigned-at-birth> ;
+         fhir:reference [ fhir:v "StructureDefinition/rv-sex-assigned-at-birth" ]
+       ] ;
+       fhir:name [ fhir:v "RV Sex Assigned At Birth" ] ;
+       fhir:description [ fhir:v "Dieses abstrakte Profil beschreibt das 'Geschlecht, zugewiesen bei Geburt', häufig bezogen auf die äußeren Geschlechtsmerkmale." ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

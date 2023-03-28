@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-28T16:37:13+02:00"/>
+  <date value="2023-03-28T22:15:03+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -1879,7 +1879,7 @@
         <reference value="StructureDefinition/cv-gender"/>
       </reference>
       <name value="CV Gender"/>
-      <description value="Das Geschlecht einer Person."/>
+      <description value="Dieses abstrakte Profil beschreibt die 'Geschlechtskategorie, als Merkmal von Personen'."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1903,7 +1903,7 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/rv-administrative-gender"/>
@@ -1933,13 +1933,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="StructureDefinition:resource:abstract"/>
       </extension>
       <reference>
         <reference value="StructureDefinition/rv-biological-sex"/>
       </reference>
       <name value="RV Biological Sex"/>
-      <description value="Das biologische Geschlecht bezieht sich auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."/>
+      <description value="Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', bezogen auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2000,6 +2000,16 @@
       </reference>
       <name value="RV Glucose Mole Concentration"/>
       <description value="Die Konzetration von 'Glukose [Mol/Volumen]'."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/rv-sex-assigned-at-birth"/>
+      </reference>
+      <name value="RV Sex Assigned At Birth"/>
+      <description value="Dieses abstrakte Profil beschreibt das 'Geschlecht, zugewiesen bei Geburt', häufig bezogen auf die äußeren Geschlechtsmerkmale."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

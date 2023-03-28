@@ -7,5 +7,5 @@ Description: "Dieses abstrakte Profil beschreibt das Konzept 'Biologisches Gesch
 * ^abstract = true
 // Hierarchy and Classification
 * insert RS_ObservationCategorySlicingRules
-//* insert RS_CreateOneFurtherCategory(BiologicalSex, $UMLS, C1522384)
-* insert RS_CreateOneFurtherCategory(BiologicalSex, $SCT, 734000001)
+* insert RS_CreateOneFurtherCategory(BiologicalSex_UMLS, $UMLS, C1522384)
+* insert RS_CreateOneFurtherCategory(BiologicalSex_SNOMED, $SCT, 734000001)

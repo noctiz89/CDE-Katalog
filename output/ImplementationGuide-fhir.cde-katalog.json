@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-28T16:37:13+02:00",
+  "date" : "2023-03-28T22:15:03+02:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -2185,7 +2185,7 @@
         "reference" : "StructureDefinition/cv-gender"
       },
       "name" : "CV Gender",
-      "description" : "Das Geschlecht einer Person."
+      "description" : "Dieses abstrakte Profil beschreibt die 'Geschlechtskategorie, als Merkmal von Personen'."
     },
     {
       "extension" : [{
@@ -2212,7 +2212,7 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
         "reference" : "StructureDefinition/rv-administrative-gender"
@@ -2245,13 +2245,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "StructureDefinition:resource:abstract"
       }],
       "reference" : {
         "reference" : "StructureDefinition/rv-biological-sex"
       },
       "name" : "RV Biological Sex",
-      "description" : "Das biologische Geschlecht bezieht sich auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."
+      "description" : "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', bezogen auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."
     },
     {
       "extension" : [{
@@ -2318,6 +2318,17 @@
       },
       "name" : "RV Glucose Mole Concentration",
       "description" : "Die Konzetration von 'Glukose [Mol/Volumen]'."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/rv-sex-assigned-at-birth"
+      },
+      "name" : "RV Sex Assigned At Birth",
+      "description" : "Dieses abstrakte Profil beschreibt das 'Geschlecht, zugewiesen bei Geburt', häufig bezogen auf die äußeren Geschlechtsmerkmale."
     },
     {
       "extension" : [{

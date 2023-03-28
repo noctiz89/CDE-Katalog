@@ -1,4 +1,4 @@
-RuleSet: ObservationComponentSlicingRules
+RuleSet: RS_TEST
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
