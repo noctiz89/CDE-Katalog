@@ -1,0 +1,199 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org",
+      "concept" : [{
+        "code" : "LP7057-5",
+        "display" : "Blood"
+      },
+      {
+        "code" : "LP7067-4",
+        "display" : "Blood arterial"
+      },
+      {
+        "code" : "LP7567-3",
+        "display" : "Serum"
+      },
+      {
+        "code" : "LP7479-1",
+        "display" : "Plasma"
+      },
+      {
+        "code" : "LP7536-8",
+        "display" : "Red Blood Cells"
+      },
+      {
+        "code" : "LP7494-0",
+        "display" : "Platelet poor plasma"
+      },
+      {
+        "code" : "LP7690-3",
+        "display" : "Urine sediment"
+      },
+      {
+        "code" : "LP7156-5",
+        "display" : "Cerebral spinal fluid"
+      },
+      {
+        "code" : "LP7238-1",
+        "display" : "Body fluid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.org/de/ValueSet/vs-age-groups", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://loinc.org",
+      "concept" : [{
+        "code" : "LP7057-5",
+        "display" : "Blood"
+      },
+      {
+        "code" : "LP7067-4",
+        "display" : "Blood arterial"
+      },
+      {
+        "code" : "LP7567-3",
+        "display" : "Serum"
+      },
+      {
+        "code" : "LP7479-1",
+        "display" : "Plasma"
+      },
+      {
+        "code" : "LP7536-8",
+        "display" : "Red Blood Cells"
+      },
+      {
+        "code" : "LP7494-0",
+        "display" : "Platelet poor plasma"
+      },
+      {
+        "code" : "LP7690-3",
+        "display" : "Urine sediment"
+      },
+      {
+        "code" : "LP7156-5",
+        "display" : "Cerebral spinal fluid"
+      },
+      {
+        "code" : "LP7238-1",
+        "display" : "Body fluid"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://hl7.org/de/ValueSet/vs-specimen-types", "version": "0.2.0"}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://loinc.org"
+}
+-------------------------------------------------------------------------------------

@@ -1,12 +1,13 @@
 // CDE Semantic Model Implementation
 //Alias:  $EFO =  http://www.ebi.ac.uk/efo
 Alias:  $UMLS = http://terminology.hl7.org/CodeSystem/umls
+//Alias:  $UMLS = https://uts-ws.nlm.nih.gov/rest/content/current/CUI
 Alias:  $EFO = https://www.ebi.ac.uk/ols4 /// neue version 
 Alias:  $NCIT = http://terminology.hl7.org/NamingSystem/v3-nciThesaurus
 Alias:  $OBO = http://purl.obolibrary.org/obo
 
 // External Code Systems
-Alias:  $LOINC = https://fhir.loinc.org
+Alias:  $LOINC = https://loinc.org
 //Alias:  $SCT = http://snomed.info/sct/900000000000207008 // (ist eigentlich der URI für Internatinale Version, aber schmeeißt java exceptions fehler)
 //Alias:  $SCT = http://snomed.info/sct/900000000000207008/version/20230131
 Alias:  $SCT = http://snomed.info/sct

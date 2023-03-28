@@ -9,13 +9,16 @@ Description: "Das biologische Geschlecht bezieht sich auf die sexuelle Fortpflan
 * insert RS_CreateDataElementConcept($SCT, 734000001, "Biological Sex") 
 
 // SUBSTANTIAL VALUE DOMAIN (VD) via Observation.component
-* component 1..1 MS
+* component 0..1 MS
 * component ^slicing.discriminator.type = #value
 // * component ^slicing.discriminator.path = "code.coding.code"
 * component ^slicing.discriminator.path = "$this.valueInteger"
 * component ^slicing.rules = #open
 * component ^slicing.description = "Slice basiert auf component.code.coding.code #value"
 * component ^slicing.ordered = false
+// Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
+* component.valueCodeableConcept 1..1 MS
+* component.valueCodeableConcept from VS_BiologicalGender (required)
 * component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "Biological Sex"
 * component contains
     male 0..1 and

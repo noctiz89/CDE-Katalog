@@ -21,5 +21,7 @@ Description: "Das biologische Geschlecht einer Person."
 //* component.valueCodeableConcept.text = "Standardisierung / Harmonisierung auf SNOMED-Codes"
 
 // SENTINEL Conceptual Domain
-* dataAbsentReason 0..1 MS
-* dataAbsentReason from VS_SentinelConceptualDomain (required)
+//* dataAbsentReason 0..1 MS
+//* dataAbsentReason from VS_SentinelConceptualDomain (required)
+* component.dataAbsentReason 0..1 MS
+* component.dataAbsentReason from VS_SentinelConceptualDomain (required)

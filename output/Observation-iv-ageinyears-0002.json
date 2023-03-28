@@ -1,0 +1,53 @@
+{
+  "resourceType" : "Observation",
+  "id" : "iv-ageinyears-0002",
+  "meta" : {
+    "profile" : ["http://hl7.org/de/StructureDefinition/rv-age-in-years"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"iv-ageinyears-0002\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;iv-ageinyears-0002&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rv-age-in-years.html\">RV Age In Years</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Age (qualifier value) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#397669002)</span>, Current chronological age (observable entity) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#424144002)</span>, Person <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#125676002)</span>, Quantity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#246205007)</span></p><p><b>code</b>: Age <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (loinc.org#30525-0)</span></p><p><b>subject</b>: <a href=\"IV_TestPatient\">IV_TestPatient</a></p><p><b>effective</b>: 2021-03-27</p><p><b>value</b>: 26 Jahre<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code a = 'a')</span></p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "397669002"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "424144002"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "125676002"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "246205007"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "https://loinc.org",
+      "code" : "30525-0"
+    }],
+    "text" : "Age"
+  },
+  "subject" : {
+    "reference" : "IV_TestPatient"
+  },
+  "effectiveDateTime" : "2021-03-27",
+  "valueQuantity" : {
+    "value" : 26,
+    "unit" : "Jahre",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "a"
+  }
+}

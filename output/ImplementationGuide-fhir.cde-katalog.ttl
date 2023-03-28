@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-27T14:34:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-28T14:13:32+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -550,10 +550,10 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/Observation/iv0001> ;
-         fhir:reference [ fhir:v "Observation/iv0001" ]
+         fhir:link <http://hl7.org/de/Observation/iv-ageinyears-0001> ;
+         fhir:reference [ fhir:v "Observation/iv-ageinyears-0001" ]
        ] ;
-       fhir:name [ fhir:v "Example Observation - iv0001" ] ;
+       fhir:name [ fhir:v "Example Observation - iv-ageinyears-0001" ] ;
        fhir:example [
          fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
          fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>
@@ -564,10 +564,10 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/Observation/iv0002> ;
-         fhir:reference [ fhir:v "Observation/iv0002" ]
+         fhir:link <http://hl7.org/de/Observation/iv-ageinyears-0002> ;
+         fhir:reference [ fhir:v "Observation/iv-ageinyears-0002" ]
        ] ;
-       fhir:name [ fhir:v "Example Observation - iv0002" ] ;
+       fhir:name [ fhir:v "Example Observation - iv-ageinyears-0002" ] ;
        fhir:example [
          fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
          fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>
@@ -578,13 +578,83 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/Observation/iv0003> ;
-         fhir:reference [ fhir:v "Observation/iv0003" ]
+         fhir:link <http://hl7.org/de/Observation/iv-ageinyears-0003> ;
+         fhir:reference [ fhir:v "Observation/iv-ageinyears-0003" ]
        ] ;
-       fhir:name [ fhir:v "Example Observation - iv0003" ] ;
+       fhir:name [ fhir:v "Example Observation - iv-ageinyears-0003" ] ;
        fhir:example [
          fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
          fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-ageinyears-0004> ;
+         fhir:reference [ fhir:v "Observation/iv-ageinyears-0004" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-ageinyears-0004" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-biologicalsex-001> ;
+         fhir:reference [ fhir:v "Observation/iv-biologicalsex-001" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-biologicalsex-001" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-biological-sex"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-biologicalsex-002> ;
+         fhir:reference [ fhir:v "Observation/iv-biologicalsex-002" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-biologicalsex-002" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-biological-sex"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-biologicalsex-003> ;
+         fhir:reference [ fhir:v "Observation/iv-biologicalsex-003" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-biologicalsex-003" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-biological-sex"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-biologicalsex-004> ;
+         fhir:reference [ fhir:v "Observation/iv-biologicalsex-004" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-biologicalsex-004" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-biological-sex"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex>
        ]
      ] [
        fhir:extension ( [

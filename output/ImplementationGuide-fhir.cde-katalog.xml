@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-03-27T14:34:38+02:00"/>
+  <date value="2023-03-28T14:13:32+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -482,9 +482,9 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/iv0001"/>
+        <reference value="Observation/iv-ageinyears-0001"/>
       </reference>
-      <name value="Example Observation - iv0001"/>
+      <name value="Example Observation - iv-ageinyears-0001"/>
       <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
     </resource>
     <resource>
@@ -492,9 +492,9 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/iv0002"/>
+        <reference value="Observation/iv-ageinyears-0002"/>
       </reference>
-      <name value="Example Observation - iv0002"/>
+      <name value="Example Observation - iv-ageinyears-0002"/>
       <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
     </resource>
     <resource>
@@ -502,10 +502,60 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/iv0003"/>
+        <reference value="Observation/iv-ageinyears-0003"/>
       </reference>
-      <name value="Example Observation - iv0003"/>
+      <name value="Example Observation - iv-ageinyears-0003"/>
       <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-ageinyears-0004"/>
+      </reference>
+      <name value="Example Observation - iv-ageinyears-0004"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-biologicalsex-001"/>
+      </reference>
+      <name value="Example Observation - iv-biologicalsex-001"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-biological-sex"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-biologicalsex-002"/>
+      </reference>
+      <name value="Example Observation - iv-biologicalsex-002"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-biological-sex"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-biologicalsex-003"/>
+      </reference>
+      <name value="Example Observation - iv-biologicalsex-003"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-biological-sex"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-biologicalsex-004"/>
+      </reference>
+      <name value="Example Observation - iv-biologicalsex-004"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-biological-sex"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

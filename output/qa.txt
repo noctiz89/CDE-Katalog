@@ -1,13 +1,18 @@
 ﻿cde-katalog : Validation Results
 =========================================
 
-err = 8, warn = 72, info = 3
-IG Publisher Version: 1.3.1 Out of date - current version is 1.3.2
-Generated Mon Mar 27 15:01:00 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
- Build Errors : 4 / 11 / 0
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv0001 : 1 / 0 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv0002 : 1 / 0 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv0003 : 1 / 0 / 2
+err = 41, warn = 76, info = 5
+IG Publisher Version: 1.3.1 Out of date - current version is 1.3.3
+Generated Tue Mar 28 14:40:47 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+ Build Errors : 9 / 16 / 0
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 2 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 2 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 2 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 2 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-001 : 7 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-002 : 7 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-003 : 7 / 0 / 3
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-004 : 7 / 0 / 2
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Patient-f001 : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Questionnaire-Top300Loinc : 2 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-c-age : 0 / 0 / 1
@@ -144,7 +149,7 @@ Generated Mon Mar 27 15:01:00 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-administrative-gender : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-years : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-biological-sex : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-biological-sex : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-height : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-weight : 0 / 1 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration : 0 / 1 / 1
@@ -172,29 +177,79 @@ Generated Mon Mar 27 15:01:00 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be cde-katalog
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv0001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv0002.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv0003.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0002.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0003.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0004.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-002.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-003.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-004.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Patient/f001.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/f001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-umls-heart-rate.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/cls-umls-laboratory.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv0001.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1406: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
-ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv0002.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1406: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
-ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv0003.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1406: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-ageinyears-0001.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1425: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-ageinyears-0002.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1425: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-ageinyears-0003.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1425: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-ageinyears-0004.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1425: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-biologicalsex-001.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1311: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-biologicalsex-002.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1311: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-biologicalsex-003.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1311: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
+ERROR: D:\CDE-Katalog\CDE-Katalog\output\Observation-iv-biologicalsex-004.html#/html/body/div/div/div/div/div/div/p/a at Line 228, column 1317: The link 'IV_TestPatient' for "IV_TestPatient" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated\resources\Observation-iv0001.json ==
-INFORMATION: Observation/iv0001: Observation.code.coding[0]: Code System URI "https://fhir.loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv0001: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
-== fsh-generated\resources\Observation-iv0002.json ==
-INFORMATION: Observation/iv0002: Observation.code.coding[0]: Code System URI "https://fhir.loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv0002: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
-== fsh-generated\resources\Observation-iv0003.json ==
-INFORMATION: Observation/iv0003: Observation.code.coding[0]: Code System URI "https://fhir.loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv0003: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+== fsh-generated\resources\Observation-iv-ageinyears-0001.json ==
+ERROR: Observation/iv-ageinyears-0001: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+ERROR: Observation/iv-ageinyears-0001: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+== fsh-generated\resources\Observation-iv-ageinyears-0002.json ==
+ERROR: Observation/iv-ageinyears-0002: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+ERROR: Observation/iv-ageinyears-0002: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+== fsh-generated\resources\Observation-iv-ageinyears-0003.json ==
+ERROR: Observation/iv-ageinyears-0003: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+ERROR: Observation/iv-ageinyears-0003: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+== fsh-generated\resources\Observation-iv-ageinyears-0004.json ==
+ERROR: Observation/iv-ageinyears-0004: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+ERROR: Observation/iv-ageinyears-0004: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+== fsh-generated\resources\Observation-iv-biologicalsex-001.json ==
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:female, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:intersex, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+INFORMATION: Observation/iv-biologicalsex-001: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Observation/iv-biologicalsex-001: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0].value.ofType(integer): Dieses Element stimmt mit keinem bekannten Slice  defined in the profile http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 überein, und das Slicing ist CLOSED: Observation.component[0].value.ofType(integer): Stimmt nicht mit Slice "valueCodeableConcept" überein
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Observation.component.value[x]:valueCodeableConcept: mindestens erforderlich = 1, aber nur gefunden 0
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0].value.ofType(integer): The Profile 'http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0' definition allows for the type CodeableConcept but found type integer
+== fsh-generated\resources\Observation-iv-biologicalsex-002.json ==
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:female, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:intersex, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+INFORMATION: Observation/iv-biologicalsex-002: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Observation/iv-biologicalsex-002: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0].value.ofType(integer): Dieses Element stimmt mit keinem bekannten Slice  defined in the profile http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 überein, und das Slicing ist CLOSED: Observation.component[0].value.ofType(integer): Stimmt nicht mit Slice "valueCodeableConcept" überein
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Observation.component.value[x]:valueCodeableConcept: mindestens erforderlich = 1, aber nur gefunden 0
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0].value.ofType(integer): The Profile 'http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0' definition allows for the type CodeableConcept but found type integer
+== fsh-generated\resources\Observation-iv-biologicalsex-003.json ==
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:female, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:intersex, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+INFORMATION: Observation/iv-biologicalsex-003: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Observation/iv-biologicalsex-003: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0].value.ofType(integer): Dieses Element stimmt mit keinem bekannten Slice  defined in the profile http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 überein, und das Slicing ist CLOSED: Observation.component[0].value.ofType(integer): Stimmt nicht mit Slice "valueCodeableConcept" überein
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Observation.component.value[x]:valueCodeableConcept: mindestens erforderlich = 1, aber nur gefunden 0
+INFORMATION: Observation/iv-biologicalsex-003: Observation.component[0].code.coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0].value.ofType(integer): The Profile 'http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0' definition allows for the type CodeableConcept but found type integer
+== fsh-generated\resources\Observation-iv-biologicalsex-004.json ==
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:female, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:intersex, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
+INFORMATION: Observation/iv-biologicalsex-004: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+ERROR: Observation/iv-biologicalsex-004: Observation.subject: Ressource "IV_TestPatient" nicht auffindbar
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0].value.ofType(integer): Dieses Element stimmt mit keinem bekannten Slice  defined in the profile http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 überein, und das Slicing ist CLOSED: Observation.component[0].value.ofType(integer): Stimmt nicht mit Slice "valueCodeableConcept" überein
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Observation.component.value[x]:valueCodeableConcept: mindestens erforderlich = 1, aber nur gefunden 0
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0].value.ofType(integer): The Profile 'http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0' definition allows for the type CodeableConcept but found type integer
 == fsh-generated\resources\Patient-f001.json ==
 == fsh-generated\resources\Questionnaire-Top300Loinc.json ==
 ERROR: Questionnaire/Top300Loinc: Questionnaire.item[0].item[6].item[0].text.extension[0]: Extension.url muss eine absolute URL sein.
@@ -382,7 +437,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-age-in-age-Classes'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-age-in-years.json ==
 == fsh-generated\resources\StructureDefinition-rv-biological-sex.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-biological-sex'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-body-height.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-body-height'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-body-weight.json ==
@@ -399,8 +453,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-year-of-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 == fsh-generated\resources\ValueSet-vs-age-groups.json ==
-WARNING: ValueSet/vs-age-groups: ValueSet.compose[0].include[0]: Unknown System 'https://fhir.loinc.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://fhir.loinc.org. Server Error: The code system 'https://fhir.loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://fhir.loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
-WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to provide support for code system https://fhir.loinc.org
+WARNING: ValueSet/vs-age-groups: ValueSet.compose[0].include[0]: Unknown System 'https://loinc.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://loinc.org. Server Error: The code system 'https://loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
+WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to provide support for code system https://loinc.org
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
@@ -413,8 +467,8 @@ WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to prov
 == fsh-generated\resources\ValueSet-vs-sentinel-conceptual-domain.json ==
 == fsh-generated\resources\ValueSet-vs-smoking-status.json ==
 == fsh-generated\resources\ValueSet-vs-specimen-types.json ==
-WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0]: Unknown System 'https://fhir.loinc.org' specified, so Concepts and Filters can't be checked (Details: Code System URI "https://fhir.loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann)
-WARNING: ValueSet.where(id = 'vs-specimen-types'): Error from server: Unable to provide support for code system https://fhir.loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0]: Unknown System 'https://loinc.org' specified, so Concepts and Filters can't be checked (Details: Code System URI "https://loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann)
+WARNING: ValueSet.where(id = 'vs-specimen-types'): Error from server: Unable to provide support for code system https://loinc.org
 == fsh-generated\resources\ValueSet-vs-time-units.json ==
 == fsh-generated\resources\ValueSet-vs-unity-units.json ==
 == input\myig.xml ==

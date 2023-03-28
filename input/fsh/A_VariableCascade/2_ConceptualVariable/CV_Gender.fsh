@@ -12,5 +12,5 @@ Description: "Das Geschlecht einer Person."
 * insert RS_CreateOneFurtherCategory(NominalScale, $UMLS, C1711339)
 
 // SENTINEL Conceptual Domain
-* dataAbsentReason 0..1 MS
-* dataAbsentReason from VS_SentinelConceptualDomain (required)
+* component.dataAbsentReason 0..1 MS
+* component.dataAbsentReason from VS_SentinelConceptualDomain (required)
