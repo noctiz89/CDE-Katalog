@@ -1,11 +1,9 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.CDE-KATALOG\null - JSON Representation - FHIR v4.0.1</title>
+    <title>FHIR.CDE-KATALOG\ - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.168"}
-    h3,h4,h5,h6{--heading-prefix:"6.168"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.170"}
+    h3,h4,h5,h6{--heading-prefix:"6.170"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -139,11 +137,11 @@
 
           <span style="float:right;">
 
-            <a href="Patient-f001.xml.html">&lt;prev</a> | 
+            <a href="Patient-f001testpatientM.ttl.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="Patient-f001.ttl.html">next&gt;</a>
+          | <a href="Patient-f002testpatientW.xml.html">next&gt;</a>
 
           </span>
 
@@ -157,9 +155,10 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://hl7.org/de/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Common Data Element Katalog - Local Development build (v0.2.0). See the <a href="http://hl7.org/de/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
+  
 
 
 
@@ -170,29 +169,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="Patient-f001.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Patient-f001.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">JSON</a>
+      <a href="Patient-f002testpatientW.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Patient-f001.ttl.html">TTL</a>
+      <a href="Patient-f002testpatientW.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="Patient-f002testpatientW.ttl.html">TTL</a>
     </li>
   
 
@@ -201,10 +200,11 @@
 </ul>
 
 
-<a name="root"> </a>
+  <a name="root"> </a>
 
 
-<h2 id="root">: null - JSON Representation</h2>
+  <h2 id="root">Patient: </h2>
+
   <table class="colsi">
     <tr>
 
@@ -219,73 +219,17 @@
   </table>
 
 
-<p><a href="Patient-f001.json" no-download="true">Raw json</a> | <a href="Patient-f001.json" download>Download</a></p>
+  
+
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient">resourceType</a>" : "Patient",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "f001",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;Max M. Mustermann &lt;/b&gt; male, DoB: 1996-01-01&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Detail:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Musterstraße 1 Musterstadt 12345 DE &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Languages spoken\&quot;&gt;Language:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes: {urn:ietf:bcp:47 de-DE}\&quot;&gt;Deutsch&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Patient contact\&quot;&gt;Contact&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;tel:+49123456789\&quot;&gt;+49 123 456789&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;mailto:max.mustermann@example.com\&quot;&gt;max.mustermann@example.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-  },
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Mustermann",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
-        "Max",
-        "M."
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a>" : "male",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a>" : "1996-01-01",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a>" : [
-        "Musterstraße 1"
-      ],
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a>" : "Musterstadt",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a>" : "12345",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a>" : "DE"
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.telecom">telecom</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "+49 123 456789",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "home"
-        },
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "max.mustermann@example.com"
-        }
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication">communication</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.language">language</a>" : {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:ietf:bcp:47",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "de-DE",
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Deutsch (Deutschland)"
-          }
-        ],
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Deutsch"
-      }
-    }
-  ]
-}</code></pre>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Maxmine M. Musterfrau </b> female, DoB: 1992-01-01</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail:</td><td colspan="3">Musterstraße 1 Musterstadt 12345 DE </td></tr><tr><td style="background-color: #f3f5da" title="Languages spoken">Language:</td><td colspan="3"><span title="Codes: {urn:ietf:bcp:47 de-DE}">Deutsch</span></td></tr><tr><td style="background-color: #f3f5da" title="Patient contact">Contact</td><td colspan="3"><ul><li><a href="tel:+49123456789">+49 123 456789</a></li><li><a href="mailto:max.musterfrau@example.com">max.musterfrau@example.com</a></li></ul></td></tr></table></div>
 
+  
 
   <!-- insert notes if present -->
   
@@ -318,7 +262,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="Patient-f001.xml.html">&lt;prev</a>
+                <a href="Patient-f001testpatientM.ttl.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -326,7 +270,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="Patient-f001.ttl.html">next&gt;</a>
+                <a href="Patient-f002testpatientW.xml.html">next&gt;</a>
 
               </td>
             </tr>
@@ -336,7 +280,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - CDE Katalog Arbeitsgruppe</a>.  Package cde-katalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 28, 2023 14:13+0200">2023-03-28</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - CDE Katalog Arbeitsgruppe</a>.  Package cde-katalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 28, 2023 16:37+0200">2023-03-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

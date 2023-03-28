@@ -1,0 +1,52 @@
+{
+  "resourceType" : "Observation",
+  "id" : "iv-biologicalsex-005",
+  "meta" : {
+    "profile" : ["http://hl7.org/de/StructureDefinition/rv-biological-sex"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"iv-biologicalsex-005\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;iv-biologicalsex-005&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-rv-biological-sex.html\">RV Biological Sex</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Gender <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#263495000)</span>, Person <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#125676002)</span>, C1711339 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-umls.html\">Unified Medical Language System</a>#C1711339)</span></p><p><b>code</b>: Biological Sex <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#734000001)</span></p><p><b>subject</b>: <a href=\"Patient-f002testpatientW.html\">Patient/f002testpatientW</a> &quot; MUSTERFRAU&quot;</p><p><b>effective</b>: 2023-02-01</p><p><b>value</b>: W</p><h3>Components</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td>Weiblich <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#248152002)</span></td><td>2</td></tr></table></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "263495000"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "125676002"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/umls",
+      "code" : "C1711339"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "734000001"
+    }],
+    "text" : "Biological Sex"
+  },
+  "subject" : {
+    "reference" : "Patient/f002testpatientW"
+  },
+  "effectiveDateTime" : "2023-02-01",
+  "valueString" : "W",
+  "component" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "248152002",
+        "display" : "Weiblich"
+      }]
+    },
+    "valueInteger" : 2
+  }]
+}

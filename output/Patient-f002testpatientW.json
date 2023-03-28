@@ -1,0 +1,42 @@
+{
+  "resourceType" : "Patient",
+  "id" : "f002testpatientW",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Maxmine M. Musterfrau </b> female, DoB: 1992-01-01</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">Musterstraße 1 Musterstadt 12345 DE </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Languages spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes: {urn:ietf:bcp:47 de-DE}\">Deutsch</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li><a href=\"tel:+49123456789\">+49 123 456789</a></li><li><a href=\"mailto:max.musterfrau@example.com\">max.musterfrau@example.com</a></li></ul></td></tr></table></div>"
+  },
+  "name" : [{
+    "family" : "Musterfrau",
+    "given" : ["Maxmine",
+    "M."]
+  }],
+  "gender" : "female",
+  "birthDate" : "1992-01-01",
+  "address" : [{
+    "line" : ["Musterstraße 1"],
+    "city" : "Musterstadt",
+    "postalCode" : "12345",
+    "country" : "DE"
+  }],
+  "contact" : [{
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "+49 123 456789",
+      "use" : "home"
+    },
+    {
+      "system" : "email",
+      "value" : "max.musterfrau@example.com"
+    }]
+  }],
+  "communication" : [{
+    "language" : {
+      "coding" : [{
+        "system" : "urn:ietf:bcp:47",
+        "code" : "de-DE",
+        "display" : "Deutsch (Deutschland)"
+      }],
+      "text" : "Deutsch"
+    }
+  }]
+}

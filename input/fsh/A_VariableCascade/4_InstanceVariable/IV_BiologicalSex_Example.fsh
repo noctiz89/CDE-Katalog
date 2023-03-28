@@ -45,3 +45,15 @@ Description:  "Geschlecht eines Patienten."
 * component.code.coding = $SCT#2667000 // Absent (qualifier value)
 * component.valueInteger = -998
 * component.dataAbsentReason.coding = $SCT#385660001
+
+Instance: iv-biologicalsex-005
+InstanceOf: RV_BiologicalSex
+Usage: #example
+Title: "Biologisches Geschlecht"
+Description:  "Geschlecht eines Patienten."
+* status = #final
+* subject = Reference(f002testpatientW)
+* valueString = "W"
+* effectiveDateTime = "2023-02-01"
+* component.code.coding = $SCT#248152002 "Weiblich"
+* component.valueInteger = 2

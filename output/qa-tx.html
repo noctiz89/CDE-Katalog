@@ -8,35 +8,6 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;2667000&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:338
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:15:31 GMT
-last-modified:Tue, 28 Mar 2023 12:15:31 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540227
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Absent&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;2667000&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l2"> </a>
-<p>#2</p>
-<pre>
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
 {&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://terminology.hl7.org/CodeSystem/umls&quot;,&quot;code&quot;:&quot;C1711339&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
@@ -48,17 +19,17 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:429
 content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:15:31 GMT
-last-modified:Tue, 28 Mar 2023 12:15:31 GMT
+date:Tue, 28 Mar 2023 14:39:22 GMT
+last-modified:Tue, 28 Mar 2023 14:39:22 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540228
+x-request-id:5-2552876
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://terminology.hl7.org/CodeSystem/umls' is not known (encountered paired with code = 'C1711339'); The code provided (http://terminology.hl7.org/CodeSystem/umls#C1711339) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
-<hr/><a name="l3"> </a>
-<p>#3</p>
+<hr/><a name="l2"> </a>
+<p>#2</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -77,162 +48,46 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:381
 content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:17:30 GMT
-last-modified:Tue, 28 Mar 2023 12:17:30 GMT
+date:Tue, 28 Mar 2023 14:41:21 GMT
+last-modified:Tue, 28 Mar 2023 14:41:21 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540324
+x-request-id:5-2553018
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'https://loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
+<hr/><a name="l3"> </a>
+<p>#3</p>
+<pre>
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;248152002&quot;,&quot;display&quot;:&quot;Weiblich&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:524
+content-type:application/fhir+json
+date:Tue, 28 Mar 2023 14:43:16 GMT
+last-modified:Tue, 28 Mar 2023 14:43:16 GMT
+pragma:no-cache
+server:nginx
+x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
+x-request-id:5-2553086
+
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Female&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;248152002&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The display \&quot;Weiblich\&quot; is not a valid display for the code {http://snomed.info/sct}248152002 - should be one of ['Female', 'Female (finding)']&quot;}]}
+</pre>
 <hr/><a name="l4"> </a>
 <p>#4</p>
-<pre>
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;2667000&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:338
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:19:37 GMT
-last-modified:Tue, 28 Mar 2023 12:19:37 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540414
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Absent&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;2667000&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l5"> </a>
-<p>#5</p>
-<pre>
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;1220561009&quot;,&quot;display&quot;:&quot;Not recorded&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:365
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:19:37 GMT
-last-modified:Tue, 28 Mar 2023 12:19:37 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540415
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Not recorded (qualifier value)&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;1220561009&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l6"> </a>
-<p>#6</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;385660001&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;url&quot;:&quot;http://hl7.org/de/ValueSet/vs-sentinel-conceptual-domain--0&quot;,&quot;version&quot;:&quot;0.2.0&quot;,&quot;status&quot;:&quot;active&quot;,&quot;compose&quot;:{&quot;include&quot;:[{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;385660001&quot;,&quot;display&quot;:&quot;Not done&quot;},{&quot;code&quot;:&quot;1220561009&quot;,&quot;display&quot;:&quot;Not recorded&quot;},{&quot;code&quot;:&quot;443390004&quot;,&quot;display&quot;:&quot;Refused&quot;},{&quot;code&quot;:&quot;261665006&quot;,&quot;display&quot;:&quot;Unknown&quot;}]}]}}},{&quot;name&quot;:&quot;cache-id&quot;,&quot;valueString&quot;:&quot;1f9c61b9-8311-49b7-8b86-2a249a0ac694&quot;},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:244
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:19:40 GMT
-last-modified:Tue, 28 Mar 2023 12:19:39 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540418
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Not done&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;385660001&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l7"> </a>
-<p>#7</p>
-<pre>
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;385660001&quot;}},{&quot;name&quot;:&quot;valueSetMode&quot;,&quot;valueString&quot;:&quot;NO_MEMBERSHIP_CHECK&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;valueSet&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;ValueSet&quot;,&quot;id&quot;:&quot;vs-sentinel-conceptual-domain&quot;,&quot;text&quot;:{&quot;status&quot;:&quot;generated&quot;,&quot;div&quot;:&quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/385660001\&quot;&gt;385660001&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not done&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/1220561009\&quot;&gt;1220561009&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Not recorded&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/443390004\&quot;&gt;443390004&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Refused&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=\&quot;http://snomed.info/id/261665006\&quot;&gt;261665006&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unknown&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;},&quot;extension&quot;:[{&quot;url&quot;:&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;,&quot;valueInteger&quot;:1,&quot;_valueInteger&quot;:{&quot;extension&quot;:[{&quot;url&quot;:&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;,&quot;valueCanonical&quot;:&quot;http://hl7.org/de/ImplementationGuide/fhir.cde-katalog&quot;}]}},{&quot;url&quot;:&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;,&quot;valueCode&quot;:&quot;informative&quot;,&quot;_valueCode&quot;:{&quot;extension&quot;:[{&quot;url&quot;:&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;,&quot;valueCanonical&quot;:&quot;http://hl7.org/de/ImplementationGuide/fhir.cde-katalog&quot;}]}}],&quot;url&quot;:&quot;http://hl7.org/de/ValueSet/vs-sentinel-conceptual-domain&quot;,&quot;version&quot;:&quot;0.2.0&quot;,&quot;name&quot;:&quot;VS_SentinelConceptualDomain&quot;,&quot;title&quot;:&quot;Reasons for missing data (sentinel)&quot;,&quot;status&quot;:&quot;active&quot;,&quot;experimental&quot;:false,&quot;date&quot;:&quot;2023-03-28T14:13:32+02:00&quot;,&quot;publisher&quot;:&quot;HL7 International - CDE Katalog Arbeitsgruppe&quot;,&quot;contact&quot;:[{&quot;telecom&quot;:[{&quot;system&quot;:&quot;url&quot;,&quot;value&quot;:&quot;http://hl7.org/Special/committees/[something]&quot;}]}],&quot;description&quot;:&quot;Dieses ValueSet enthält SNOMED-Codes für fehlende Werte (Sentinel-Kategorien).&quot;,&quot;jurisdiction&quot;:[{&quot;coding&quot;:[{&quot;system&quot;:&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;,&quot;code&quot;:&quot;001&quot;}]}],&quot;compose&quot;:{&quot;include&quot;:[{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;concept&quot;:[{&quot;code&quot;:&quot;385660001&quot;,&quot;display&quot;:&quot;Not done&quot;},{&quot;code&quot;:&quot;1220561009&quot;,&quot;display&quot;:&quot;Not recorded&quot;},{&quot;code&quot;:&quot;443390004&quot;,&quot;display&quot;:&quot;Refused&quot;},{&quot;code&quot;:&quot;261665006&quot;,&quot;display&quot;:&quot;Unknown&quot;}]}]}}},{&quot;name&quot;:&quot;cache-id&quot;,&quot;valueString&quot;:&quot;1f9c61b9-8311-49b7-8b86-2a249a0ac694&quot;},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:360
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:19:40 GMT
-last-modified:Tue, 28 Mar 2023 12:19:40 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540419
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Not done (qualifier value)&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;385660001&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l8"> </a>
-<p>#8</p>
-<pre>
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://snomed.info/sct&quot;,&quot;code&quot;:&quot;385660001&quot;}},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:360
-content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:19:40 GMT
-last-modified:Tue, 28 Mar 2023 12:19:40 GMT
-pragma:no-cache
-server:nginx
-x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2540420
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Not done (qualifier value)&quot;},{&quot;name&quot; : &quot;system&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueString&quot; : &quot;385660001&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20220731&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true}]}
-</pre>
-<hr/><a name="l9"> </a>
-<p>#9</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -251,17 +106,17 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:411
 content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:29:25 GMT
-last-modified:Tue, 28 Mar 2023 12:29:25 GMT
+date:Tue, 28 Mar 2023 14:52:24 GMT
+last-modified:Tue, 28 Mar 2023 14:52:24 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2541149
+x-request-id:5-2553565
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://purl.obolibrary.org/obo' is not known (encountered paired with code = 'NCIT_C20189'); The code provided (http://purl.obolibrary.org/obo#NCIT_C20189) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
-<hr/><a name="l10"> </a>
-<p>#10</p>
+<hr/><a name="l5"> </a>
+<p>#5</p>
 <pre>
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
@@ -280,12 +135,12 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:451
 content-type:application/fhir+json
-date:Tue, 28 Mar 2023 12:29:26 GMT
-last-modified:Tue, 28 Mar 2023 12:29:25 GMT
+date:Tue, 28 Mar 2023 14:52:25 GMT
+last-modified:Tue, 28 Mar 2023 14:52:25 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:5-2541151
+x-request-id:5-2553566
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://terminology.hl7.org/NamingSystem/v3-nciThesaurus' is not known (encountered paired with code = 'C77811'); The code provided (http://terminology.hl7.org/NamingSystem/v3-nciThesaurus#C77811) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>

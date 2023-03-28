@@ -18,38 +18,50 @@
   <a name="technical"> </a>
   <h3>Technische Details</h3>
   <p>
-    To do...
+    Bereits als FHIR-Profile implementierte CDEs auf der Grundlage von ISO/IEC-11179-3 und der DDI Variablenkaskade.
   </p>
 
   <a name="templates"> </a>
   <table>
     <thead>
       <tr>
-        <th>Spalte 1 Head</th>
-        <th>Spalte 2 Head</th>
-        <th>Spalte 3 Head</th>
+        <th>Concept (C)</th>
+        <th>Conceptual Variable (CV)</th>
+        <th>Represented Variable (RV)</th>
+        <th>Instance Variable (RV)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td> Spalte 1 - Zeile 1 </td>
+        <td><a href="StructureDefinition-c-current-chronological-age.html">C Current Chronological Age</a></td>
+        <td><a href="StructureDefinition-cv-age-counted.html">CV Age Counted</a></td>
+        <td><a href="StructureDefinition-rv-age-in-years.html">RV Age In Years</a></td>
         <td>
-          Spalte 2 - Zeile 1
-        </td>
-        <td>Spalte 3 - Zeile 1</td>
+          <a href="Observation-iv-ageinyears-0001.html">iv-ageinyears-0001</a>
+          <a href="Observation-iv-ageinyears-0002.html">iv-ageinyears-0002</a>
+          <a href="Observation-iv-ageinyears-0003.html">iv-ageinyears-0003</a>
+          <a href="Observation-iv-ageinyears-0004.html">iv-ageinyears-0004</a>
+          </td>
       </tr>
       <tr>
-        <td>Spalte 1 - Zeile 2</td>
-        <td>
-          Spalte 2 - Zeile 2
-        </td>
-        <td>Spalte 3 - Zeile 2</td>
+        <td><a href="StructureDefinition-c-gender.html">C Gender</a></td>
+        <td><a href="StructureDefinition-cv-gender.html">CV Gender</a></td>
+        <td><a href="StructureDefinition-rv-biological-sex.html">RV Biological Sex</a></td>
+        <td>Spalte 4 - Zeile 2</td>
       </tr>
       <tr>
         <td>usw.</td>
-        <td>
-          usw.
-        </td>
+        <td>usw.</td>
+        <td>usw.</td>
+      </tr>
+      <tr>
+        <td>usw.</td>
+        <td>usw.</td>
+        <td>usw.</td>
+      </tr>
+      <tr>
+        <td>usw.</td>
+        <td>usw.</td>
         <td>usw.</td>
       </tr>
     </tbody>

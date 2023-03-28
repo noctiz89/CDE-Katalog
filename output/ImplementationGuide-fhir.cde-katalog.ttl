@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-28T14:13:32+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-28T16:37:13+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -659,11 +659,34 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-biologicalsex-005> ;
+         fhir:reference [ fhir:v "Observation/iv-biologicalsex-005" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-biologicalsex-005" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-biological-sex"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-biological-sex>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/de/Patient/f001> ;
-         fhir:reference [ fhir:v "Patient/f001" ]
+         fhir:link <http://hl7.org/de/Patient/f001testpatientM> ;
+         fhir:reference [ fhir:v "Patient/f001testpatientM" ]
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Patient/f002testpatientW> ;
+         fhir:reference [ fhir:v "Patient/f002testpatientW" ]
        ]
      ] [
        fhir:extension ( [
