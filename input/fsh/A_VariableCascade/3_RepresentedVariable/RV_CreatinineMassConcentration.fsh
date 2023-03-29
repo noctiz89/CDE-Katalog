@@ -3,6 +3,8 @@ Parent: CV_CreatinineConcentrationInBlood
 Id: rv-creatinine-mass-concentration
 Title: "RV Creatinine Mass Concentration"
 Description: "Die Konzetration von 'Kreatinin [Masse/Volumen]'."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)
