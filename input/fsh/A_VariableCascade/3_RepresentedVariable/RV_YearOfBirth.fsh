@@ -3,6 +3,8 @@ Parent: CV_DateOfBirth
 Id: rv-year-of-birth
 Title: "RV Year Of Birth"
 Description: "Das Geburtsjahr eines Patienten."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)

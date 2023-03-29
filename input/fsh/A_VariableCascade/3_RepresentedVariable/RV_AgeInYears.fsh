@@ -3,6 +3,8 @@ Parent: CV_AgeCounted
 Id: rv-age-in-years
 Title: "RV Age In Years"
 Description: "Das Alter einer Person in Jahren."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)

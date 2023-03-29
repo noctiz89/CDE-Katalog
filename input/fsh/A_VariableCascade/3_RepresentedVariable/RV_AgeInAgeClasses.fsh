@@ -3,7 +3,8 @@ Parent: CV_AgeCounted
 Id: rv-age-in-age-Classes
 Title: "RV Age In Age Classes"
 Description: "Das Alter einer Person in Altersklassen."
-
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient) //leider geht nur Patient, ich möchte es eigentlich ganz allgemein auf Person / menschliches Individuum

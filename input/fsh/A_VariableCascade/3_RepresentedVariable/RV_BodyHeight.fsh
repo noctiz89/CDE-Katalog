@@ -3,6 +3,8 @@ Parent: CV_BodyHeight
 Id: rv-body-height
 Title: "RV Body Height"
 Description: "Die Körpergröße einer Person."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)

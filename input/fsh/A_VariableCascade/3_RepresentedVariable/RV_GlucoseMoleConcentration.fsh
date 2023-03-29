@@ -3,6 +3,8 @@ Parent: CV_GlucoseConcentrationInBlood
 Id: rv-glucose-mole-concentration
 Title: "RV Glucose Mole Concentration"
 Description: "Die Konzetration von 'Glukose [Mol/Volumen]'."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)

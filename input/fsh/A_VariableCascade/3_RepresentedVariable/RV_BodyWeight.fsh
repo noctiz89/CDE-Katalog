@@ -3,6 +3,8 @@ Parent: CV_BodyWeight
 Id: rv-body-weight
 Title: "RV Body Weight"
 Description: "Das Körpergewicht eines Patienten in Kilogramm."
+* ^status = #active
+* ^abstract = true
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)
