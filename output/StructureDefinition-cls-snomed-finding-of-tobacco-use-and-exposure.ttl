@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CLS_SNOMED_FindingOfTobaccoUseAndExposure"] ; # 
   fhir:title [ fhir:v "CLS SNOMED Finding Of Tobacco Use And Exposure"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-28T22:15:03+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-28T23:17:42+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

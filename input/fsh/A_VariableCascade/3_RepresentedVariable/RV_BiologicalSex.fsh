@@ -15,18 +15,7 @@ Description: "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', b
 * component.valueCodeableConcept 1..1 MS
 * component.valueCodeableConcept from VS_BiologicalGender (required) // könnte auch auf CV-Ebene definiert werden, und dort als alle "Geschlechtertypen"
 // SUBSTANTIAL VALUE DOMAIN (VD) via Observation.component
-
-* insert RS_ObservationComponentSlicingRules //replace Line 17-22
-/*
-* component 0..1 MS
-* component ^slicing.discriminator.type = #value
-* component ^slicing.discriminator.path = "$this.valueInteger"
-* component ^slicing.rules = #open
-* component ^slicing.description = "Slice basiert auf component.code.coding.code #value"
-* component ^slicing.ordered = false
-*/
-
-//* component.valueCodeableConcept[valueCodeableConcept] ^sliceName = "Biological Sex"
+* insert RS_ObservationComponentSlicingRules
 * component contains
     male 0..1 and
     female 0..1 //and
@@ -34,17 +23,8 @@ Description: "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', b
 // Categorial Concept: "Male"
 * component[male].code ^alias[0] = "Masculine"
 * component[male].code ^alias[+] = "Männlich"
+
 * insert RS_ObservationComponentCodingSlicingRules(male, "Male sex", "Biological male sex")
-/*
-* component[male].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
-* component[male].code ^short = "Male sex"
-* component[male].code ^definition = "Biological male sex"
-* component[male].code.coding ^slicing.discriminator[0].type = #value
-* component[male].code.coding ^slicing.discriminator[=].path = "$this.system"
-* component[male].code.coding ^slicing.discriminator[=].path = "$this.code"
-* component[male].code.coding ^slicing.rules = #open
-* component[male].code.coding ^slicing.ordered = false
-*/
 * component[male].code.coding contains
     maleSNOMEDCode 0..1 MS and
     maleUMLSCode 0..1 MS
@@ -68,15 +48,8 @@ Description: "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', b
 * component[female].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[female].code ^alias[0] = "Feminine"
 * component[female].code ^alias[+] = "Weiblich"
+
 * insert RS_ObservationComponentCodingSlicingRules(female, "Female sex", "Biological female sex")
-/*
-* component[female].code ^short = "Female sex"
-* component[female].code ^definition = "Biological female sex"
-* component[female].code.coding ^slicing.discriminator.type = #value
-* component[female].code.coding ^slicing.discriminator.path = "code"
-* component[female].code.coding ^slicing.rules = #open
-* component[female].code.coding ^slicing.ordered = false
-*/
 * component[female].code.coding contains
     femaleSNOMEDCode 0..1 MS and
     femaleUMLSCode 0..1 MS
