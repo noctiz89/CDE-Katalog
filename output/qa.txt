@@ -1,14 +1,14 @@
 ﻿cde-katalog : Validation Results
 =========================================
 
-err = 39, warn = 78, info = 11
+err = 39, warn = 69, info = 15
 IG Publisher Version: 1.3.1 Out of date - current version is 1.3.3
-Generated Tue Mar 28 23:46:19 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+Generated Wed Mar 29 14:15:28 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
  Build Errors : 6 / 18 / 0
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 1 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 1 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 1 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 1 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 1 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 1 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 1 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 1 / 0 / 2
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-001 : 6 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-002 : 6 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-003 : 6 / 0 / 4
@@ -139,7 +139,7 @@ Generated Tue Mar 28 23:46:19 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-waist-circumference : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cls-umls-white-blood-cell-measurement : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-age-counted : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-biological-sex : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-biological-sex : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-body-height : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-body-weight : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-blood : 0 / 0 / 1
@@ -149,17 +149,19 @@ Generated Tue Mar 28 23:46:19 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-blood : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-administrative-gender : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-age-in-years : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-biological-sex : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-height : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-weight : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-date-of-birth : 0 / 1 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-glucose-mole-concentration : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-height : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-body-weight : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration-in-serum-or-plasma : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration-in-urine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration-in-serum-or-plasma : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration-in-urine : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-date-of-birth : 0 / 0 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-glucose-mole-concentration : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-sex-assigned-at-birth : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-year-of-birth : 0 / 1 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-year-of-birth : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-age-groups : 0 / 2 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 0 / 1
@@ -204,12 +206,16 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\Observation-iv-ageinyears-0001.json ==
+INFORMATION: Observation/iv-ageinyears-0001: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 ERROR: Observation/iv-ageinyears-0001: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
 == fsh-generated\resources\Observation-iv-ageinyears-0002.json ==
+INFORMATION: Observation/iv-ageinyears-0002: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 ERROR: Observation/iv-ageinyears-0002: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
 == fsh-generated\resources\Observation-iv-ageinyears-0003.json ==
+INFORMATION: Observation/iv-ageinyears-0003: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 ERROR: Observation/iv-ageinyears-0003: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
 == fsh-generated\resources\Observation-iv-ageinyears-0004.json ==
+INFORMATION: Observation/iv-ageinyears-0004: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 ERROR: Observation/iv-ageinyears-0004: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
 == fsh-generated\resources\Observation-iv-biologicalsex-001.json ==
 ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
@@ -430,7 +436,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 == fsh-generated\resources\StructureDefinition-cls-umls-white-blood-cell-measurement.json ==
 == fsh-generated\resources\StructureDefinition-cv-age-counted.json ==
 == fsh-generated\resources\StructureDefinition-cv-biological-sex.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/cv-biological-sex'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-cv-body-height.json ==
 == fsh-generated\resources\StructureDefinition-cv-body-weight.json ==
 == fsh-generated\resources\StructureDefinition-cv-creatinine-concentration-in-blood.json ==
@@ -441,24 +446,18 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 == fsh-generated\resources\StructureDefinition-cv-glucose-concentration-in-urine.json ==
 == fsh-generated\resources\StructureDefinition-rv-administrative-gender.json ==
 == fsh-generated\resources\StructureDefinition-rv-age-in-age-Classes.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-age-in-age-Classes'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-age-in-years.json ==
 == fsh-generated\resources\StructureDefinition-rv-biological-sex.json ==
 == fsh-generated\resources\StructureDefinition-rv-body-height.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-body-height'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-body-weight.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-body-weight'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration-in-serum-or-plasma.json ==
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mass-concentration-in-urine.json ==
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration-in-serum-or-plasma.json ==
+== fsh-generated\resources\StructureDefinition-rv-creatinine-mole-concentration-in-urine.json ==
 == fsh-generated\resources\StructureDefinition-rv-date-of-birth.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-date-of-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-glucose-mole-concentration.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-glucose-mole-concentration'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-rv-sex-assigned-at-birth.json ==
 == fsh-generated\resources\StructureDefinition-rv-year-of-birth.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/rv-year-of-birth'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 == fsh-generated\resources\ValueSet-vs-age-groups.json ==
 WARNING: ValueSet/vs-age-groups: ValueSet.compose[0].include[0]: Unknown System 'https://loinc.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://loinc.org. Server Error: The code system 'https://loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))

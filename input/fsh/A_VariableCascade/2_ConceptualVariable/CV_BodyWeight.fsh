@@ -9,7 +9,7 @@ Description: "Das Körpergewicht einer Person."
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 
 // SUBSTANTIAL Conceptual Domain
-
+    //auf RV-Ebene definiert
 
 // SENTINEL Conceptual Domain
 * dataAbsentReason 0..1 MS

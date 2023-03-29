@@ -555,12 +555,20 @@
         "title": "RV Body Weight"
       },
       {
-        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration",
-        "title": "RV Creatinine Mass Concentration"
+        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration-in-serum-or-plasma",
+        "title": "RV Creatinine Mass Concentration In Serum Or Plasma"
       },
       {
-        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration",
-        "title": "RV Creatinine Mole Concentration"
+        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration-in-urine",
+        "title": "RV Creatinine Mass Concentration In Urine"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration-in-serum-or-plasma",
+        "title": "RV Creatinine Mole Concentration In Serum Or Plasma"
+      },
+      {
+        "url": "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration-in-urine",
+        "title": "RV Creatinine Mole Concentration In Urine"
       },
       {
         "url": "http://hl7.org/de/StructureDefinition/rv-date-of-birth",

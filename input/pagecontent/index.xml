@@ -25,15 +25,18 @@
   <table>
     <thead>
       <tr>
-        <th>Concept (C)</th>
-        <th>Conceptual Variable (CV)</th>
-        <th>Represented Variable (RV)</th>
-        <th>Instance Variable (RV)</th>
+        <th>Concepts (C)</th>
+        <th>Conceptual Variables (CV)</th>
+        <th>Represented Variables (RV)</th>
+        <th>Instance Variables (RV)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a href="StructureDefinition-c-current-chronological-age.html">C Current Chronological Age</a></td>
+        <td>
+          <a href="StructureDefinition-c-age.html">C Age (1)</a>
+          <a href="StructureDefinition-c-current-chronological-age.html">C Current Chronological Age (2)</a>
+        </td>
         <td><a href="StructureDefinition-cv-age-counted.html">CV Age Counted</a></td>
         <td><a href="StructureDefinition-rv-age-in-years.html">RV Age In Years</a></td>
         <td>
@@ -44,23 +47,73 @@
           </td>
       </tr>
       <tr>
+        <td>Siehe oben.</td>
+        <td>Siehe oben.</td>
+        <td><a href="StructureDefinition-rv-age-in-age-Classes.html">RV Age In Classes</a></td>
+        <td>-</td>
+      </tr>
+      <tr>
         <td><a href="StructureDefinition-c-gender.html">C Gender</a></td>
         <td><a href="StructureDefinition-cv-gender.html">CV Gender</a></td>
         <td><a href="StructureDefinition-rv-biological-sex.html">RV Biological Sex</a></td>
-        <td>Spalte 4 - Zeile 2</td>
+        <td>
+          <a href="Observation-iv-biologicalsex-001.html">iv-biologicalsex-001</a>
+          <a href="Observation-iv-biologicalsex-002.html">iv-biologicalsex-002</a>
+          <a href="Observation-iv-biologicalsex-003.html">iv-biologicalsex-003</a>
+          <a href="Observation-iv-biologicalsex-004.html">iv-biologicalsex-004</a>
+          <a href="Observation-iv-biologicalsex-005.html">iv-biologicalsex-005</a>
+        </td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Siehe oben.</td>
+        <td>Siehe oben.</td>
+        <td><a href="StructureDefinition-rv-administrative-gender.html">RV Administrative Gender</a></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Siehe oben.</td>
+        <td>Siehe oben.</td>
+        <td><a href="StructureDefinition-rv-sex-assigned-at-birth.html">RV Sex Assigned At Birth</a></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-c-anthropometry.html">C Anthropometry (1)</a>
+          <a href="StructureDefinition-c-body-height.html">C Body Height (2)</a>
+        </td>
+        <td><a href="StructureDefinition-cv-body-height.html">CV Body Height</a></td>
+        <td><a href="StructureDefinition-rv-body-height.html">RV Body Height</a></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>
+          <a href="StructureDefinition-c-anthropometry.html">C Anthropometry (1)</a>
+          <a href="StructureDefinition-c-body-weight.html">C Body Weight (2)</a>
+        </td>
+        <td><a href="StructureDefinition-cv-body-weight.html">CV Body Weight</a></td>
+        <td><a href="StructureDefinition-rv-body-weight.html">RV Body Weight</a></td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td><a href="StructureDefinition-c-finding-of-creatinine-level.html">C Finding Of Creatinine Level</a></td>
+        <td><a href="StructureDefinition-cv-creatinine-concentration-in-blood.html">CV Creatinine Concentration In Blood</a></td>
+        <td>
+          <a href="StructureDefinition-rv-creatinine-mass-concentration-in-serum-or-plasma.html">RV Creatinine Mass Concentration In Serum Or Plasma</a>
+          <a href="StructureDefinition-rv-creatinine-mole-concentration-in-serum-or-plasma.html">RV Creatinine Mole Concentration In Serum Or Plasma</a>
+        </td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>Siehe oben.</td>
+        <td><a href="StructureDefinition-cv-creatinine-concentration-in-urine.html">CV Creatinine Concentration In Urine</a></td>
+        <td>
+          <a href="StructureDefinition-rv-creatinine-mass-concentration-in-urine.html">RV Creatinine Mass Concentration In Urine</a>
+          <a href="StructureDefinition-rv-creatinine-mole-concentration-in-urine.html">RV Creatinine Mole Concentration In Urine</a>
+        </td>
+        <td>-</td>
       </tr>
       <tr>
         <td>usw.</td>
-        <td>usw.</td>
-        <td>usw.</td>
-      </tr>
-      <tr>
         <td>usw.</td>
         <td>usw.</td>
         <td>usw.</td>

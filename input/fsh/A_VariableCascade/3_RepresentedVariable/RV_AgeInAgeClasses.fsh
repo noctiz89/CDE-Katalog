@@ -36,6 +36,9 @@ Description: "Das Alter einer Person in Altersklassen."
 * component[newborn].code.coding[newborn_UMLS].system = $UMLS (exactly)
 * component[newborn].code.coding[newborn_UMLS].version 1..1
 * component[newborn].code.coding[newborn_UMLS] ^sliceName = "newborn_UMLS"
+// valueInteger für Newborn (1)
+* component[newborn].valueInteger.value 1..1 MS 
+* component[newborn].valueInteger.value = 1 (exactly)
 
 * insert RS_ObservationComponentCodingSlicingRules(infant, "Infant", "Age Group 'Infant'")
 * component[infant].code.coding contains

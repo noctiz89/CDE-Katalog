@@ -10,8 +10,8 @@ Description: "Die Konzentration von 'Kreatinin' im Urin von einer Person."
 * insert RS_CreateOneFurtherCategory(Urine, $LOINC, LP7681-2)
 
 // SUBSTANTIAL Conceptual Domain
-* insert RS_CreateOneFurtherCategory(Quantity, $SCT, 246205007)
-
+    //auf RV-Ebene definiert
+    
 // SENTINEL Conceptual Domain
 * dataAbsentReason 0..1 MS
 * dataAbsentReason from VS_SentinelConceptualDomain (required)

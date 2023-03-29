@@ -10,7 +10,7 @@ Description: "Die Konzentration von 'Kreatinin' im Blut von einer Person."
 * insert RS_CreateOneFurtherCategory(Blood, $LOINC, LP7057-5)
 
 // SUBSTANTIAL Conceptual Domain
-
+    //auf RV-Ebene definiert
 
 // SENTINEL Conceptual Domain
 * dataAbsentReason 0..1 MS

@@ -972,18 +972,32 @@
     "name" : "RV_BodyWeight"
   },
   {
-    "id" : "rv-creatinine-mass-concentration",
+    "id" : "rv-creatinine-mass-concentration-in-serum-or-plasma",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration-in-serum-or-plasma",
     "version" : "0.2.0",
-    "name" : "RV_CreatinineMassConcentration"
+    "name" : "RV_CreatinineMassConcentrationInSerumOrPlasma"
   },
   {
-    "id" : "rv-creatinine-mole-concentration",
+    "id" : "rv-creatinine-mass-concentration-in-urine",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mass-concentration-in-urine",
     "version" : "0.2.0",
-    "name" : "RV_CreatinineMoleConcentration"
+    "name" : "RV_CreatinineMassConcentrationUrine"
+  },
+  {
+    "id" : "rv-creatinine-mole-concentration-in-serum-or-plasma",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration-in-serum-or-plasma",
+    "version" : "0.2.0",
+    "name" : "RV_CreatinineMoleConcentrationInSerumOrPlasma"
+  },
+  {
+    "id" : "rv-creatinine-mole-concentration-in-urine",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-creatinine-mole-concentration-in-urine",
+    "version" : "0.2.0",
+    "name" : "RV_CreatinineMoleConcentrationUrine"
   },
   {
     "id" : "rv-date-of-birth",

@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="iv-ageinyears-0001"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;iv-ageinyears-0001&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rv-age-in-years.html">RV Age In Years</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Age (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#397669002)</span>, Current chronological age (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#424144002)</span>, Person <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#125676002)</span>, Quantity <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#246205007)</span></p><p><b>code</b>: Age <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (loinc.org#30525-0)</span></p><p><b>subject</b>: <a href="Patient-f001testpatientM.html">Patient/f001testpatientM</a> &quot; MUSTERMANN&quot;</p><p><b>effective</b>: 2023-03-27</p><p><b>value</b>: 27 Jahre<span style="background: LightGoldenRodYellow"> (Details: UCUM code a = 'a')</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="iv-ageinyears-0001"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;iv-ageinyears-0001&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-rv-age-in-years.html">RV Age In Years</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Age (qualifier value) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#397669002)</span>, Current chronological age (observable entity) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#424144002)</span>, Person <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#125676002)</span>, C0750480 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-umls.html">Unified Medical Language System</a>#C0750480)</span>, Quantity <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#246205007)</span></p><p><b>code</b>: Age <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (loinc.org#30525-0)</span></p><p><b>subject</b>: <a href="Patient-f001testpatientM.html">Patient/f001testpatientM</a> &quot; MUSTERMANN&quot;</p><p><b>effective</b>: 2023-03-27</p><p><b>value</b>: 27 Jahre<span style="background: LightGoldenRodYellow"> (Details: UCUM code a = 'a')</span></p></div>
   </text>
   <status value="final"/>
   <category>
@@ -25,6 +25,12 @@
     <coding>
       <system value="http://snomed.info/sct"/>
       <code value="125676002"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/umls"/>
+      <code value="C0750480"/>
     </coding>
   </category>
   <category>

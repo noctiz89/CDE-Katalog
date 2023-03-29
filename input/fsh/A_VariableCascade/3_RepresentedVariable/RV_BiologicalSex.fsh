@@ -5,9 +5,6 @@ Title: "RV Biological Sex"
 Description: "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', bezogen auf die sexuelle Fortpflanzungsfähigkeit einer Person. Männliche Individuen bilden Spermien (bewegliche Gameten) und weiblich Individuen bilden Eizellen (statische Gameten)."
 * ^status = #active
 * ^abstract = true 
-// Hierarchy and Classification
-// * insert RS_ObservationCategorySlicingRules
-
 // Data Element Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 734000001, "Biological Sex") 
 

@@ -10,6 +10,7 @@ Description: "Das Geburtsdatum bezieht sich auf den Tag, Monat und Jahr an dem e
 
 // SUBSTANTIAL Conceptual Domain
 * insert RS_CreateOneFurtherCategory(DateOfBirth, $SCT, 184099003)
+* value[x] only dateTime
 
 // SENTINEL Conceptual Domain
 * dataAbsentReason 0..1 MS
