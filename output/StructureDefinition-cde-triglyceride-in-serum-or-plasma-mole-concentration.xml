@@ -35,7 +35,7 @@
   <name value="CDE_TriglycerideInSerumOrPlasmaMoleConcentration"/>
   <title value="CDE Triglyceride In Serum Or Plasma Mole Concentration"/>
   <status value="draft"/>
-  <date value="2023-03-30T13:05:19+02:00"/>
+  <date value="2023-03-30T15:07:01+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -1150,7 +1150,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
+      <fixedUri value="http://www.nlm.nih.gov/research/umls/"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
@@ -1714,7 +1714,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://terminology.hl7.org/CodeSystem/umls"/>
+      <fixedUri value="http://www.nlm.nih.gov/research/umls/"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>
