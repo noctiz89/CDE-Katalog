@@ -4,7 +4,7 @@ Id: cv-body-weight
 Title: "CV Body Weight"
 Description: "Das Körpergewicht einer Person."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 

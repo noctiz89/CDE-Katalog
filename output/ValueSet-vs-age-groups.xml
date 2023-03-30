@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="vs-age-groups"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>https://loinc.org</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>LA10403-6</td><td>Newborn</td></tr><tr><td>LA19747-7</td><td>Infant</td></tr><tr><td>LA9949-4</td><td>Child</td></tr><tr><td>LA19748-5</td><td>Pre-school</td></tr><tr><td>LA19749-3</td><td>Adolescent</td></tr><tr><td>LA13524-6</td><td>Adult</td></tr><tr><td>LA19750-1</td><td>Middle aged</td></tr><tr><td>LA19751-9</td><td>Aged</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/LA10403-6/">LA10403-6</a></td><td>Newborn</td></tr><tr><td><a href="https://loinc.org/LA19747-7/">LA19747-7</a></td><td>Infant</td></tr><tr><td><a href="https://loinc.org/LA9949-4/">LA9949-4</a></td><td>Child</td></tr><tr><td><a href="https://loinc.org/LA19748-5/">LA19748-5</a></td><td>Pre-school</td></tr><tr><td><a href="https://loinc.org/LA19749-3/">LA19749-3</a></td><td>Adolescent</td></tr><tr><td><a href="https://loinc.org/LA13524-6/">LA13524-6</a></td><td>Adult</td></tr><tr><td><a href="https://loinc.org/LA19750-1/">LA19750-1</a></td><td>Middle aged</td></tr><tr><td><a href="https://loinc.org/LA19751-9/">LA19751-9</a></td><td>Aged</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
@@ -25,7 +25,7 @@
   <title value="Age groups"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-29T13:43:15+02:00"/>
+  <date value="2023-03-30T02:04:17+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -42,7 +42,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="https://loinc.org"/>
+      <system value="http://loinc.org"/>
       <concept>
         <code value="LA10403-6"/>
         <display value="Newborn"/>

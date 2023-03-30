@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "C_Ehnicity"] ; # 
   fhir:title [ fhir:v "C Ehnicity"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-29T13:43:15+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-30T02:04:17+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

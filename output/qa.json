@@ -3,10 +3,10 @@
   "name" : "cde-katalog",
   "package-id" : "cde-katalog",
   "ig-ver" : "0.2.0",
-  "date" : "Wed, 29 Mar, 2023 13:43:15 +0200",
-  "errs" : 39,
-  "warnings" : 69,
-  "hints" : 15,
+  "date" : "Thu, 30 Mar, 2023 02:04:17 +0200",
+  "errs" : 35,
+  "warnings" : 74,
+  "hints" : 23,
   "version" : "4.0.1",
   "tool" : "5.0.0-draft-final (3)"
 }

@@ -18688,3 +18688,330 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:5a67e323-2f9c-4fab-92a7-d76b2f081e32",
+    "timestamp" : "2023-03-30T00:08:56.965Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA10403-6",
+      "display" : "Newborn"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19747-7",
+      "display" : "Infant"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9949-4",
+      "display" : "Child"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19748-5",
+      "display" : "Pre-school"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19749-3",
+      "display" : "Adolescent"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA13524-6",
+      "display" : "Adult"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19750-1",
+      "display" : "Middle aged"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19751-9",
+      "display" : "Aged"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA10403-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Newborn",
+  "code" : "LA10403-6",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA19747-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Infant",
+  "code" : "LA19747-7",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA9949-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Child",
+  "code" : "LA9949-4",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA19748-5"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Pre-school",
+  "code" : "LA19748-5",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA19749-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Adolescent",
+  "code" : "LA19749-3",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA13524-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Adult",
+  "code" : "LA13524-6",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA19750-1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Middle aged",
+  "code" : "LA19750-1",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA19751-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Aged",
+  "code" : "LA19751-9",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "30525-0"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Age",
+  "code" : "30525-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA10403-6",
+        "display" : "Newborn"
+      },
+      {
+        "code" : "LA19747-7",
+        "display" : "Infant"
+      },
+      {
+        "code" : "LA9949-4",
+        "display" : "Child"
+      },
+      {
+        "code" : "LA19748-5",
+        "display" : "Pre-school"
+      },
+      {
+        "code" : "LA19749-3",
+        "display" : "Adolescent"
+      },
+      {
+        "code" : "LA13524-6",
+        "display" : "Adult"
+      },
+      {
+        "code" : "LA19750-1",
+        "display" : "Middle aged"
+      },
+      {
+        "code" : "LA19751-9",
+        "display" : "Aged"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f7b84e2b-43fa-4ef1-aefb-c92ec801081c",
+    "timestamp" : "2023-03-30T00:21:30.604Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueUri" : "http://loinc.org|2.73"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA10403-6",
+      "display" : "Newborn"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19747-7",
+      "display" : "Infant"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA9949-4",
+      "display" : "Child"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19748-5",
+      "display" : "Pre-school"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19749-3",
+      "display" : "Adolescent"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA13524-6",
+      "display" : "Adult"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19750-1",
+      "display" : "Middle aged"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA19751-9",
+      "display" : "Aged"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LP7681-2"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Local Error: Resolved system http://loinc.org (v3.0.1), but the definition is not complete. Server Error: The code \"LP7681-2\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LP7681-2) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA15920-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Former smoker",
+  "code" : "LA15920-4",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA18978-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Never smoker",
+  "code" : "LA18978-9",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------

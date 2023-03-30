@@ -4,7 +4,7 @@ Id: cv-age-counted
 Title: "CV Age Counted"
 Description: "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 
@@ -15,7 +15,6 @@ Description: "Das chronologische Alter bezieht sich auf das Alter einer Person i
     Problem: FHIR unterstützt Maßeinheiten ausschließlich bei Quantity, d.h. Dezimalzahlen.
     Bei dem Alter sollen Jahre / Monate usw. nur ganzzahlig addiert werden (Integer).
     */
-    
 // SENTINEL Conceptual Domain
 * dataAbsentReason 0..1 MS
 * dataAbsentReason from VS_SentinelConceptualDomain (required)

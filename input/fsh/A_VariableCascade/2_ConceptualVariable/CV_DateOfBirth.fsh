@@ -4,7 +4,7 @@ Id: cv-date-of-birth
 Title: "CV Date Of Birth"
 Description: "Das Geburtsdatum bezieht sich auf den Tag, Monat und Jahr an dem eine Person geboren wurde."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 

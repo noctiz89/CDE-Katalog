@@ -4,7 +4,7 @@ Id: cv-biological-sex
 Title: "CV Biological Sex"
 Description: "Das biologische Geschlecht einer Person."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 

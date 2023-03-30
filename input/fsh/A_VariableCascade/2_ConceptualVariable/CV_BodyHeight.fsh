@@ -4,7 +4,7 @@ Id: cv-body-height
 Title: "CV Body Height"
 Description: "Die Körpergröße einer Person."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 

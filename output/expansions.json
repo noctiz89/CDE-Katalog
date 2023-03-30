@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "f60db095-4c59-4d91-b033-1962dadf91fd",
+  "id" : "d96346f6-793f-45d6-83a0-fcb3914d5a80",
   "meta" : {
-    "lastUpdated" : "2023-03-29T13:43:15.291+02:00"
+    "lastUpdated" : "2023-03-30T02:04:17.582+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -40,7 +40,7 @@
       "title" : "Administrative gender",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -56,8 +56,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:937fbbdc-6735-47bc-8238-20ca2b44c52e",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:744f27ef-2ffa-42fa-b5fc-0cb5a15e016c",
+        "timestamp" : "2023-03-30T02:21:28+02:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -90,6 +90,115 @@
           "system" : "http://hl7.org/fhir/administrative-gender",
           "code" : "unknown",
           "display" : "Unknown"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/de/ValueSet/vs-age-groups",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-age-groups",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 8 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on Loinc v2.73</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA10403-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA10403-6/\">LA10403-6</a></td><td>http://loinc.org</td><td>Newborn</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA19747-7\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA19747-7/\">LA19747-7</a></td><td>http://loinc.org</td><td>Infant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA9949-4\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA9949-4/\">LA9949-4</a></td><td>http://loinc.org</td><td>Child</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA19748-5\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA19748-5/\">LA19748-5</a></td><td>http://loinc.org</td><td>Pre-school</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA19749-3\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA19749-3/\">LA19749-3</a></td><td>http://loinc.org</td><td>Adolescent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA13524-6\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA13524-6/\">LA13524-6</a></td><td>http://loinc.org</td><td>Adult</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA19750-1\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA19750-1/\">LA19750-1</a></td><td>http://loinc.org</td><td>Middle aged</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-LA19751-9\"> </a>\u00a0\u00a0<a href=\"https://loinc.org/LA19751-9/\">LA19751-9</a></td><td>http://loinc.org</td><td>Aged</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+          }]
+        }
+      }],
+      "url" : "http://hl7.org/de/ValueSet/vs-age-groups",
+      "version" : "0.2.0",
+      "name" : "VS_AgeGroups",
+      "title" : "Age groups",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-03-30T02:04:17+02:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "Dieses ValueSet enthält LOINC-Codes für unterschiedliche 'Altersgruppen'.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:f1d93fde-b2ab-490c-b2bb-0fe6defde9db",
+        "timestamp" : "2023-03-30T02:21:29+02:00",
+        "total" : 8,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://loinc.org|2.73"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA10403-6",
+          "display" : "Newborn"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA19747-7",
+          "display" : "Infant"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA9949-4",
+          "display" : "Child"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA19748-5",
+          "display" : "Pre-school"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA19749-3",
+          "display" : "Adolescent"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA13524-6",
+          "display" : "Adult"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA19750-1",
+          "display" : "Middle aged"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA19751-9",
+          "display" : "Aged"
         }]
       }
     }
@@ -129,7 +238,7 @@
       "title" : "Binary decision (yes or no)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -145,8 +254,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:10929ab0-da4c-41bb-a8dc-82d0c7354018",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:0da3ca9a-93e5-43a1-8394-567940f2726a",
+        "timestamp" : "2023-03-30T02:21:29+02:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -208,7 +317,7 @@
       "title" : "Biological sex types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -224,8 +333,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7cde00ef-b061-40e0-8d26-e5e3822dbab6",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:e471bfce-ae76-449a-85df-3095ec03c1d3",
+        "timestamp" : "2023-03-30T02:21:29+02:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -292,7 +401,7 @@
       "title" : "Ethnic groups",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -312,8 +421,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:3be389df-821d-49fb-afc8-9e0d7d7eba34",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:292f7076-4152-49dc-8ab4-76ff08e1e0fc",
+        "timestamp" : "2023-03-30T02:21:29+02:00",
         "total" : 240,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1565,7 +1674,7 @@
       "title" : "Common units for 'lenght'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -1581,8 +1690,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ac9544a9-c1a8-4666-9a6d-0e30dcbcb408",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:ea1030dc-4227-467b-a093-c8791a99af92",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1679,7 +1788,7 @@
       "title" : "Common units for 'mass concentration'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -1695,8 +1804,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4587a851-b1e2-43a2-a017-52a671dab6a4",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:77830286-5c26-4933-805a-b474de47d7a7",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1838,7 +1947,7 @@
       "title" : "Common units for 'mass'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -1854,8 +1963,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9304fb81-caca-4004-b37f-6195709e5c35",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:2f7c4e65-9a1c-4e0e-ad61-80809da62d85",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 10,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1957,7 +2066,7 @@
       "title" : "Common units for 'mole concentration'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -1973,8 +2082,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4d9fbf87-8bf4-49ff-8c92-4940bcdaac42",
-        "timestamp" : "2023-03-29T14:01:14+02:00",
+        "identifier" : "urn:uuid:3531d29e-05f8-4e8f-8965-38a9931f73c6",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2101,7 +2210,7 @@
       "title" : "Common units for 'number concentration'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2117,8 +2226,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f01ce8db-c756-4c65-a9ae-728c01ccde27",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:b0f70cd7-f507-4b6c-954a-c44e750f85a9",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2240,7 +2349,7 @@
       "title" : "Present Qualifers (negativ until three plus)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2256,8 +2365,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8b0ccf6b-722d-42fd-b0db-4bbc4277725c",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:99985c3b-ad0f-40b0-885e-3324755582e3",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2329,7 +2438,7 @@
       "title" : "Reasons for missing data (sentinel)",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2345,8 +2454,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f7d01956-c43d-4ff7-8228-6931b8b3e230",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:df02093b-2f9d-4f9f-a66a-161565ca544e",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2418,7 +2527,7 @@
       "title" : "Smoking Status Types",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2434,8 +2543,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e8e2c65c-457a-4cd0-b7ab-4314b030f5bb",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:4e69bac9-1783-48fa-ad8c-3e39380b4674",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2468,6 +2577,70 @@
           "system" : "http://snomed.info/sct",
           "code" : "8392000",
           "display" : "Non-smoker"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/de/ValueSet/vs-specimen-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vs-specimen-types",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1,
+        "_valueInteger" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+          }]
+        }
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative",
+        "_valueCode" : {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/de/ImplementationGuide/fhir.cde-katalog"
+          }]
+        }
+      }],
+      "url" : "http://hl7.org/de/ValueSet/vs-specimen-types",
+      "version" : "0.2.0",
+      "name" : "VS_SpecimenTypes",
+      "title" : "Specimen Types (for Clinical Chemistry)",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-03-30T02:04:17+02:00",
+      "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "Dieses Valueset enhält LOINC-Codes, um den 'Probenmaterial-Typ' zu beschreiben.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:687040f7-019a-4cc6-ad94-ff204d299754",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
         }]
       }
     }
@@ -2507,7 +2680,7 @@
       "title" : "Common units for 'time span'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2523,8 +2696,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8fd88533-979e-46c9-8ea9-0792bf97248e",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:deaf6085-51c3-4347-83ee-7c3e7f59a881",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 13,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2641,7 +2814,7 @@
       "title" : "Common units for 'unity element'",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-03-29T13:43:15+02:00",
+      "date" : "2023-03-30T02:04:17+02:00",
       "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
       "contact" : [{
         "telecom" : [{
@@ -2657,8 +2830,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:adea000b-cad4-4c15-8b2c-add156a46d0f",
-        "timestamp" : "2023-03-29T14:01:15+02:00",
+        "identifier" : "urn:uuid:660e6900-a299-47b2-9107-dc3f0b79f0cd",
+        "timestamp" : "2023-03-30T02:21:30+02:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",

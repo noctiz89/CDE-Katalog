@@ -4,7 +4,7 @@ Id: cv-glucose-concentration-in-blood
 Title: "CV Glucose Concentration In Blood"
 Description: "Die Konzentration von 'Glucose' im Blut von einer Person."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 * insert RS_CreateOneFurtherCategory(Blood, $LOINC, LP7057-5)

@@ -4,7 +4,7 @@ Id: cv-creatinine-concentration-in-urine
 Title: "CV Creatinine Concentration In Urine"
 Description: "Die Konzentration von 'Kreatinin' im Urin von einer Person."
 * ^status = #active
-* ^abstract = true /// ??
+* ^abstract = true
 // UnitType
 * insert RS_CreateOneFurtherCategory(Persons, $SCT, 125676002)
 * insert RS_CreateOneFurtherCategory(Urine, $LOINC, LP7681-2)

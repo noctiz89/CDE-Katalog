@@ -1,14 +1,14 @@
 ﻿cde-katalog : Validation Results
 =========================================
 
-err = 39, warn = 69, info = 15
-IG Publisher Version: 1.3.1 Out of date - current version is 1.3.3
-Generated Wed Mar 29 14:15:28 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+err = 35, warn = 74, info = 23
+IG Publisher Version: 1.3.1 Out of date - current version is 1.3.4
+Generated Thu Mar 30 02:35:43 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
  Build Errors : 6 / 18 / 0
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 1 / 0 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 1 / 0 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 1 / 0 / 2
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 1 / 0 / 2
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 0 / 0 / 4
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 0 / 0 / 4
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 0 / 0 / 4
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-001 : 6 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-002 : 6 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-003 : 6 / 0 / 4
@@ -163,7 +163,7 @@ Generated Wed Mar 29 14:15:28 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-sex-assigned-at-birth : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\StructureDefinition-rv-year-of-birth : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-administrative-gender : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-age-groups : 0 / 2 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-age-groups : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-biological-gender : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-ethnic-groups : 0 / 0 / 1
@@ -175,7 +175,7 @@ Generated Wed Mar 29 14:15:28 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-qualifier-for-presence : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-sentinel-conceptual-domain : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-smoking-status : 0 / 0 / 1
- D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 2 / 1
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-specimen-types : 0 / 9 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-time-units : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\ValueSet-vs-unity-units : 0 / 0 / 1
  D:\CDE-Katalog\CDE-Katalog\input\myig : 2 / 1 / 1
@@ -206,17 +206,21 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated\resources\Observation-iv-ageinyears-0001.json ==
-INFORMATION: Observation/iv-ageinyears-0001: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv-ageinyears-0001: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+INFORMATION: Observation/iv-ageinyears-0001: Observation.category[0].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0001: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0001: Observation.category[5].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-ageinyears-0002.json ==
-INFORMATION: Observation/iv-ageinyears-0002: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv-ageinyears-0002: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+INFORMATION: Observation/iv-ageinyears-0002: Observation.category[0].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0002: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0002: Observation.category[5].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-ageinyears-0003.json ==
-INFORMATION: Observation/iv-ageinyears-0003: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv-ageinyears-0003: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+INFORMATION: Observation/iv-ageinyears-0003: Observation.category[0].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0003: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0003: Observation.category[5].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-ageinyears-0004.json ==
-INFORMATION: Observation/iv-ageinyears-0004: Observation.category[3].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
-ERROR: Observation/iv-ageinyears-0004: Observation.code.coding[0]: The system URL 'https://loinc.org' wrongly starts with https: not http:
+INFORMATION: Observation/iv-ageinyears-0004: Observation.category[0].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0004: Observation.category[2].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0004: Observation.category[5].coding[0]: Code System URI "http://terminology.hl7.org/CodeSystem/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-001.json ==
 ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:male, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
 ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: valueInteger in profile http://hl7.org/de/StructureDefinition/rv-biological-sex on element Observation.component:female, looking in profile http://hl7.org/de/StructureDefinition/rv-biological-sex (@char 1)
@@ -460,8 +464,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/de/StructureDefinition/
 == fsh-generated\resources\StructureDefinition-rv-year-of-birth.json ==
 == fsh-generated\resources\ValueSet-vs-administrative-gender.json ==
 == fsh-generated\resources\ValueSet-vs-age-groups.json ==
-WARNING: ValueSet/vs-age-groups: ValueSet.compose[0].include[0]: Unknown System 'https://loinc.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://loinc.org. Server Error: The code system 'https://loinc.org' is not known (encountered paired with code = 'LA10403-6'); The code provided (https://loinc.org#LA10403-6) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4))
-WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to provide support for code system https://loinc.org
 == fsh-generated\resources\ValueSet-vs-binary-decision-yes-or-no.json ==
 == fsh-generated\resources\ValueSet-vs-biological-gender.json ==
 == fsh-generated\resources\ValueSet-vs-ethnic-groups.json ==
@@ -474,8 +476,15 @@ WARNING: ValueSet.where(id = 'vs-age-groups'): Error from server: Unable to prov
 == fsh-generated\resources\ValueSet-vs-sentinel-conceptual-domain.json ==
 == fsh-generated\resources\ValueSet-vs-smoking-status.json ==
 == fsh-generated\resources\ValueSet-vs-specimen-types.json ==
-WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0]: Unknown System 'https://loinc.org' specified, so Concepts and Filters can't be checked (Details: Code System URI "https://loinc.org" ist unbekannt, so dass der Code nicht validiert werden kann)
-WARNING: ValueSet.where(id = 'vs-specimen-types'): Error from server: Unable to provide support for code system https://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[0]: The code LP7057-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[1]: The code LP7067-4 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[2]: The code LP7567-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[3]: The code LP7479-1 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[4]: The code LP7536-8 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[5]: The code LP7494-0 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[6]: The code LP7690-3 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[7]: The code LP7156-5 is not valid in the system http://loinc.org
+WARNING: ValueSet/vs-specimen-types: ValueSet.compose[0].include[0].concept[8]: The code LP7238-1 is not valid in the system http://loinc.org
 == fsh-generated\resources\ValueSet-vs-time-units.json ==
 == fsh-generated\resources\ValueSet-vs-unity-units.json ==
 == input\myig.xml ==
