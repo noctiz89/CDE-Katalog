@@ -3,6 +3,7 @@ Parent: cls-umls-urine-measurement
 Id: cde-leucocyctes-in-urine-dipstick-test
 Title: "CDE Leucocyctes In Urine Dipstick Test"
 Description: "Dieses CDE enthält den Messparameter 'Leukozyten [Anwesenheit] in Urin gemessen mit Messtäbchen'."
+* ^status = #draft
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($SCT, 275741008, "Leukocytes in urine") //Stoffmengenkonzentration
 // Value_Domain (VD) via Observation.valueQuantity

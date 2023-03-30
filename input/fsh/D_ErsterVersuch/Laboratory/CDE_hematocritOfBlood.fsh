@@ -3,6 +3,7 @@ Parent: cls-umls-hematocrit-measurement
 Id: cde-hematocrit-of-blood
 Title: "CDE Hematocrit Of Blood"
 Description: "Dieses CDE enthält den Messparameter 'Hämoglobin von Blut'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

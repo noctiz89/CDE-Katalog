@@ -3,6 +3,7 @@ Parent: cls-umls-potassium-level
 Id: cde-potassium-in-serum-or-plasma-mole-concentration
 Title: "CDE Potassium In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Kalium [Mol/Volumen] in Serum oder Plasma'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

@@ -3,6 +3,7 @@ Parent: cls-umls-body-mass-index
 Id: cde-body-mass-index
 Title: "CDE Body Mass Index"
 Description: "Dieses CDE enthält den 'Body Mass Index (BMI) [Verhältnis]'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

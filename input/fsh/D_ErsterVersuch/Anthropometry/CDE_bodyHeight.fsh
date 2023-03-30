@@ -3,6 +3,7 @@ Parent: cls-umls-body-height
 Id: cde-body-height
 Title: "CDE Body Height"
 Description: "Dieses CDE enthält die 'Körpergröße'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

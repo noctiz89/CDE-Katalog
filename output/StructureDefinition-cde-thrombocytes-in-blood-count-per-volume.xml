@@ -34,8 +34,8 @@
   <version value="0.2.0"/>
   <name value="CDE_ThrombocytesInBloodCountPerVolume"/>
   <title value="CDE Thrombocytes In Blood Count Per Volume"/>
-  <status value="active"/>
-  <date value="2023-03-30T02:04:17+02:00"/>
+  <status value="draft"/>
+  <date value="2023-03-30T13:05:19+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>

@@ -3,6 +3,7 @@ Parent: cls-umls-white-blood-cell-measurement
 Id: cde-leukocytes-in-blood-count-per-volume
 Title: "CDE Leukocytes In Blood Count Per Volume"
 Description: "Dieses CDE enthält den Messparameter 'Leukozyten [Anzahl/Volumen] in Blut'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

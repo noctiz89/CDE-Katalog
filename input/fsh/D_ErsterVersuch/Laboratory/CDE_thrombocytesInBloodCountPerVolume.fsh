@@ -3,6 +3,7 @@ Parent: cls-umls-platelet-measurement
 Id: cde-thrombocytes-in-blood-count-per-volume
 Title: "CDE Thrombocytes In Blood Count Per Volume"
 Description: "Dieses CDE enthält den Messparameter 'Thrombozyten [Anzahl/Volumen] in Blut'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

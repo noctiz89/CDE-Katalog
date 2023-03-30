@@ -1270,7 +1270,7 @@
   <url value="http://hl7.org/de/Questionnaire/Top300Loinc"/>
   <version value="0.2.0"/>
   <title value="Top 300 Laboratory Value Dataset of the Medical Informatics Initiative Germany (MII) (Extended Version);"/>
-  <status value="active"/>
+  <status value="draft"/>
   <date value="2019-05-07T13:10:40+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
@@ -14471,11 +14471,7 @@
       <repeats value="false"/>
       <item>
         <linkId value="1.7.1"/>
-        <text value="Oxygen inhaled">
-          <extension url="lang">
-            <valueString value="en"/>
-          </extension>
-        </text>
+        <text value="Oxygen inhaled"/>
         <type value="group"/>
         <required value="false"/>
         <repeats value="false"/>
@@ -14489,11 +14485,7 @@
             <system value="http://loinc.org"/>
             <code value="3150-0"/>
           </code>
-          <text value="Inhaled oxygen concentration">
-            <extension url="lang">
-              <valueString value="en"/>
-            </extension>
-          </text>
+          <text value="Inhaled oxygen concentration"/>
           <type value="decimal"/>
           <required value="false"/>
         </item>

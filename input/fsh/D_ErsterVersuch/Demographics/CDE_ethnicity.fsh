@@ -3,6 +3,7 @@ Parent: cls-snomed-demographic-history-detail
 Id: cde-ethnicity
 Title: "CDE Ethnicity"
 Description: "Dieses CDE enthält die 'Ethnizität'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

@@ -3,6 +3,7 @@ Parent: cls-umls-hip-circumference
 Id: cde-hip-circumference
 Title: "CDE Hip Circumference"
 Description: "Dieses CDE enhält den 'Hüftumfang'."
+* ^status = #draft
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

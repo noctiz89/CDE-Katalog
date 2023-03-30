@@ -3,6 +3,7 @@ Parent: cls-umls-waist-circumference
 Id: cde-waist-circumference
 Title: "CDE Waist Circumference"
 Description: "Dieses CDE enhält den 'Taillenumfang'."
+* ^status = #draft
 // Hierarchy and Classification
 // * insert RS_ObservationCategorySlicingRules
 // * insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

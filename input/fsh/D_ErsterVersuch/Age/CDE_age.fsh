@@ -3,6 +3,7 @@ Parent: cls-obo-ncit-age
 Id: cde-age
 Title: "CDE Age"
 Description: "Dieses CDE enthält das 'Alter'."
+* ^status = #draft
 // Text Summary
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-summary"
 * ^extension[=].valueMarkdown = "#### Complete Summary of the Mandatory Requirements\r\r"

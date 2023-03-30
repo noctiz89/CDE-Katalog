@@ -944,6 +944,13 @@
     "name" : "RV_AgeInAgeClasses"
   },
   {
+    "id" : "rv-age-in-months",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/de/StructureDefinition/rv-age-in-months",
+    "version" : "0.2.0",
+    "name" : "RV_AgeInMonths"
+  },
+  {
     "id" : "rv-age-in-years",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/de/StructureDefinition/rv-age-in-years",

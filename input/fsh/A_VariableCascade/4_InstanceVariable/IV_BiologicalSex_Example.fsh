@@ -4,7 +4,7 @@ Usage: #example
 Title: "Biologisches Geschlecht"
 Description:  "Geschlecht eines Patienten."
 * status = #final
-* subject = Reference(IV_TestPatient)
+* subject = Reference(f001testpatientM)
 * effectiveDateTime = "2023-03-27"
 * valueString = "MALE"
 * component.valueInteger = 1
@@ -16,7 +16,7 @@ Usage: #example
 Title: "Biologisches Geschlecht"
 Description:  "Geschlecht eines Patienten."
 * status = #final
-* subject = Reference(IV_TestPatient)
+* subject = Reference(f001testpatientM)
 * effectiveDateTime = "2023-03-27"
 * valueInteger = 2
 * component.valueInteger = 1
@@ -28,7 +28,7 @@ Usage: #example
 Title: "Biologisches Geschlecht"
 Description:  "Geschlecht eines Patienten."
 * status = #final
-* subject = Reference(IV_TestPatient)
+* subject = Reference(f001testpatientM)
 * effectiveDateTime = "2019-06-06"
 * valueString = "M"
 * component.valueInteger = 1
@@ -40,7 +40,7 @@ Usage: #example
 Title: "Biologisches Geschlecht"
 Description:  "Geschlecht eines Patienten."
 * status = #preliminary
-* subject = Reference(IV_TestPatient)
+* subject = Reference(f001testpatientM)
 * effectiveDateTime = "2019-06-06"
 * component.code.coding = $SCT#2667000 // Absent (qualifier value)
 * component.valueInteger = -998

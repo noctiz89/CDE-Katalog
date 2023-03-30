@@ -2,7 +2,7 @@ Profile: CV_AgeCounted
 Parent: C_CurrentChronologicalAge // Determinierbares Konzept (Hauptkonzept)
 Id: cv-age-counted
 Title: "CV Age Counted"
-Description: "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."
+Description: "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Zeiteinheiten seit ihrer Geburt."
 * ^status = #active
 * ^abstract = true
 // UnitType

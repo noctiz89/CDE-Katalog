@@ -3,6 +3,7 @@ Parent: cls-obo-ncit-age
 Id: cde-current-age-calculated
 Title: "CDE Current Age Calculated"
 Description: "Dieses CDE enthält das 'aktuelle Alter - berechnet'."
+* ^status = #draft
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

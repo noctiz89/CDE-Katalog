@@ -3,6 +3,7 @@ Parent: cls-umls-visit-date
 Id: cde-visit-date
 Title: "CDE Visit Date"
 Description: "Dieses CDE enhält das 'Datum der Untersuchung'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

@@ -3,6 +3,7 @@ Parent: cls-umls-phosphate-level
 Id: cde-phosphate-in-serum-or-plasma-mole-concentration
 Title: "CDE Phosphate In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

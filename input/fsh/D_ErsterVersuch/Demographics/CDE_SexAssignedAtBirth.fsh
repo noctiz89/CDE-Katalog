@@ -3,6 +3,7 @@ Parent: cls-snomed-patient-sex
 Id: cde-sex-assigned-at-birth
 Title: "CDE Sex Assigned At Birth"
 Description: "Dieses CDE enthält das 'bei Geburt zugewiesene Geschlecht'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

@@ -19,7 +19,7 @@
   "title" : "Common Data Element Katalog",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-03-30T02:04:17+02:00",
+  "date" : "2023-03-30T13:05:19+02:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -85,17 +85,6 @@
       "extension" : [{
         "url" : "code",
         "valueString" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "showsource"
       },
       {
         "url" : "value",
@@ -382,17 +371,6 @@
       "extension" : [{
         "url" : "code",
         "valueCode" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "showsource"
       },
       {
         "url" : "value",
@@ -2108,7 +2086,7 @@
         "reference" : "StructureDefinition/cv-age-counted"
       },
       "name" : "CV Age Counted",
-      "description" : "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Kalenderjahre seit ihrer Geburt."
+      "description" : "Das chronologische Alter bezieht sich auf das Alter einer Person in Bezug auf die Anzahl der vergangenen Zeiteinheiten seit ihrer Geburt."
     },
     {
       "extension" : [{
@@ -2230,6 +2208,17 @@
       },
       "name" : "RV Age In Age Classes",
       "description" : "Das Alter einer Person in Altersklassen."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource:abstract"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/rv-age-in-months"
+      },
+      "name" : "RV Age In Months",
+      "description" : "Das Alter einer Person in Monaten."
     },
     {
       "extension" : [{

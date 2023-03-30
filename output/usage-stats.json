@@ -539,6 +539,10 @@
         "title": "RV Age In Age Classes"
       },
       {
+        "url": "http://hl7.org/de/StructureDefinition/rv-age-in-months",
+        "title": "RV Age In Months"
+      },
+      {
         "url": "http://hl7.org/de/StructureDefinition/rv-age-in-years",
         "title": "RV Age In Years"
       },
@@ -656,10 +660,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "lang": [
-      "Questionnaire.item.item.item.item.text",
-      "Questionnaire.item.item.item.text"
     ]
   }
 }

@@ -3,6 +3,7 @@ Parent: cls-obo-ncit-birth-date
 Id: cde-birth-date
 Title: "CDE Birth Date"
 Description: "Dieses CDE enthält das 'Geburtsdatum'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(SocialHistory, $ObsCat, social-history)

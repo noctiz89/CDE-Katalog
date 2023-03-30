@@ -3,6 +3,7 @@ Parent: cls-snomed-pack-years
 Id: cde-tobacco-smoking-pack-year
 Title: "CDE Tobacco Smoking Pack Year"
 Description: "Dieses CDE enthält den 'Packungsjahr'."
+* ^status = #draft
 //DEF: Zahl der pro Tag gerauchten Zigaretten mit der Zahl der Raucherjahre multipliziert.
 
 // Data_Element_Concept (DEC) via Observation.code

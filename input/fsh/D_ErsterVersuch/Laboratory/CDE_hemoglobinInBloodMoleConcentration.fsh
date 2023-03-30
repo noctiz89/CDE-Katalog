@@ -3,6 +3,7 @@ Parent: cls-umls-hemoglobin-measurement
 Id: cde-hemoglobin-in-blood-mole-concentration
 Title: "CDE Hemoglobin In Blood Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Hämoglobin [Mol/Volumen] in Blut'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

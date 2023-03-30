@@ -3,6 +3,7 @@ Parent: cls-obo-snomed-blood-creatinine-level
 Id: cde-creatinine-in-serum-or-plasma-mole-concentration
 Title: "CDE Creatinine In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Kreatinin [Mol/Volumen] in Serum oder Plasma'."
+* ^status = #draft
 // Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

@@ -3,6 +3,7 @@ Parent: cls-umls-calcium-level
 Id: cde-calcium-in-serum-or-plasma-mole-concentration
 Title: "CDE Calcium In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Kalzium [Mol/Volumen] in Serum oder Plasma'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

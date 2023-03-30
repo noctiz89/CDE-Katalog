@@ -3,6 +3,7 @@ Parent: cls-umls-body-weight
 Id: cde-body-weight
 Title: "CDE Body Weight"
 Description: "Dieses CDE enthält das 'Körpergewicht'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

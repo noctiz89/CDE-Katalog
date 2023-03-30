@@ -3,6 +3,7 @@ Parent: cls-umls-sodium-level
 Id: cde-sodium-in-serum-or-plasma-mole-concentration
 Title: "CDE Sodium In Serum Or Plasma Mole Concentration"
 Description: "Dieses CDE enthält den Messparameter 'Natrium [Mol/Volumen] in Serum oder Plasma'."
+* ^status = #draft
 //// Hierarchy and Classification
 //* insert RS_ObservationCategorySlicingRules
 //* insert RS_CreateOneFurtherCategory(Laboratory, $ObsCat, laboratory)

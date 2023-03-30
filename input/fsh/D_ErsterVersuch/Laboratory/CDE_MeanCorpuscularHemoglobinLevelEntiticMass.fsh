@@ -3,6 +3,7 @@ Parent: cls-umls-mean-corpuscular-hemoglobin-level
 Id: cde-mean-corpuscular-hemoglobin-level-entitic-mass
 Title: "CDE Mean Corpuscular Hemoglobin Level Entitic Mass"
 Description: "Dieses CDE enhält das 'Mittlere korpuskuläre Hämoglobin [Entitische Masse]'."
+* ^status = #draft
 // Data_Element_Concept (DEC) via Observation.code
 * insert RS_CreateDataElementConcept($LOINC, 28539-5, "Erythrocyte mean corpuscular hemoglobin") //blood pressure systolic
 // Value_Domain (VD) via Observation.valueQuantity
