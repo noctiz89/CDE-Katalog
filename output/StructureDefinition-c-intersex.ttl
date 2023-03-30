@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "C_Intersex"] ; # 
   fhir:title [ fhir:v "C Intersex"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-03-30T17:28:47+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-30T20:16:43+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -1229,7 +1229,7 @@
        fhir:type ( [
          fhir:code [ fhir:v "uri"^^xsd:anyURI ]
        ] ) ;
-       fhir:fixed [ fhir:v "http://www.nlm.nih.gov/research/umls/"^^xsd:anyURI ] ;
+       fhir:fixed [ fhir:v "http://www.nlm.nih.gov/research/umls"^^xsd:anyURI ] ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
@@ -2383,7 +2383,7 @@
        fhir:type ( [
          fhir:code [ fhir:v "uri"^^xsd:anyURI ]
        ] ) ;
-       fhir:fixed [ fhir:v "http://www.nlm.nih.gov/research/umls/"^^xsd:anyURI ] ;
+       fhir:fixed [ fhir:v "http://www.nlm.nih.gov/research/umls"^^xsd:anyURI ] ;
        fhir:condition ( [ fhir:v "ele-1" ] ) ;
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;

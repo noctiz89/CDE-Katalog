@@ -1,7 +1,7 @@
 // CDE Semantic Model Implementation
 //Alias:  $EFO =  http://www.ebi.ac.uk/efo
 //Alias:  $UMLS = http://terminology.hl7.org/CodeSystem/umls
-Alias:  $UMLS = http://www.nlm.nih.gov/research/umls/
+Alias:  $UMLS = http://www.nlm.nih.gov/research/umls
 Alias:  $EFO = http://www.ebi.ac.uk/ols4 /// neue version 
 Alias:  $NCIT = http://terminology.hl7.org/NamingSystem/v3-nciThesaurus
 Alias:  $OBO = http://purl.obolibrary.org/obo

@@ -31,7 +31,7 @@
   <name value="CV_BodyWeight"/>
   <title value="CV Body Weight"/>
   <status value="active"/>
-  <date value="2023-03-30T17:28:47+02:00"/>
+  <date value="2023-03-30T20:16:43+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -1146,7 +1146,7 @@
       <type>
         <code value="uri"/>
       </type>
-      <fixedUri value="http://www.nlm.nih.gov/research/umls/"/>
+      <fixedUri value="http://www.nlm.nih.gov/research/umls"/>
       <condition value="ele-1"/>
       <constraint>
         <key value="ele-1"/>

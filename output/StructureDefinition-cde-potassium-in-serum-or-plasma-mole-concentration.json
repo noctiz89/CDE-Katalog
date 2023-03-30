@@ -30,7 +30,7 @@
   "name" : "CDE_PotassiumInSerumOrPlasmaMoleConcentration",
   "title" : "CDE Potassium In Serum Or Plasma Mole Concentration",
   "status" : "draft",
-  "date" : "2023-03-30T17:28:47+02:00",
+  "date" : "2023-03-30T20:16:43+02:00",
   "publisher" : "HL7 International - CDE Katalog Arbeitsgruppe",
   "contact" : [{
     "telecom" : [{
@@ -1202,7 +1202,7 @@
       "type" : [{
         "code" : "uri"
       }],
-      "fixedUri" : "http://www.nlm.nih.gov/research/umls/",
+      "fixedUri" : "http://www.nlm.nih.gov/research/umls",
       "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
@@ -1795,7 +1795,7 @@
       "type" : [{
         "code" : "uri"
       }],
-      "fixedUri" : "http://www.nlm.nih.gov/research/umls/",
+      "fixedUri" : "http://www.nlm.nih.gov/research/umls",
       "condition" : ["ele-1"],
       "constraint" : [{
         "key" : "ele-1",
