@@ -20,3 +20,4 @@ RuleSet: RS_ObservationCategorySlicingRules
 * category ^slicing.rules = #open // {#open/#closed/#openAtEnd}
 * category ^slicing.ordered = false // {true/false}
 * category ^slicing.description = "Slice based on the coding.code & coding.system to allow multiple classifications of data elements."
+*/
