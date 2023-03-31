@@ -2,7 +2,6 @@ Instance: iv-ageinyears-0001
 InstanceOf: RV_AgeInYears
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
@@ -13,7 +12,6 @@ Instance: iv-ageinyears-0002
 InstanceOf: RV_AgeInYears
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
@@ -24,7 +22,6 @@ Instance: iv-ageinyears-0003
 InstanceOf: RV_AgeInYears
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
@@ -35,7 +32,6 @@ Instance: iv-ageinyears-0004
 InstanceOf: RV_AgeInYears
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)

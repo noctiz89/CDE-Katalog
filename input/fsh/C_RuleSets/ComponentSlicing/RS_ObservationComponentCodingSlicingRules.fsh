@@ -1,4 +1,5 @@
 RuleSet: RS_ObservationComponentCodingSlicingRules(component, shortString, definition)
+* component.code.coding 1..* MS
 * component[{component}].code ^comment = "Zusätzliche Codes, die diesen Code übersetzen oder abbilden, sind erlaubt. Beispielsweise ein granularerer LOINC-Code oder Code, der lokal in einem System verwendet wird."
 * component[{component}].code ^short = {shortString}
 * component[{component}].code ^definition = {definition}

@@ -13,9 +13,15 @@ Description: "Dieses abstrakte Profil beschreibt 'Geschlechtskategorie' als Merk
 
 // SUBSTANTIAL Conceptual Domain
 * valueCodeableConcept 0..0 // categorical features are defined in Observation.component
-* component.valueCodeableConcept 0..1 MS
+* component.value[x] only CodeableConcept or integer
 * component.valueCodeableConcept from VS_BiologicalGender (required)
 
 // SENTINEL Conceptual Domain via Observation.component.dataAbsentReason
-* component.dataAbsentReason 0..1 MS // dataAbsentReason is mandatory, if no value
+* component.dataAbsentReason 0..1 MS ?! // dataAbsentReason is mandatory, if no value
+/*
+    Wenn kein Wert für Geschlecht vorhanden ist, wäre es wünschenswert, dass component.code.coding wie folgt dargestellt wird:
+    * component.code.coding = $SCT#2667000 // Absent (qualifier value)
+    - dies wurde bisher in der InstanceVariable
+
+*/
 * component.dataAbsentReason from VS_SentinelConceptualDomain (required) // includes prevalent sentinels: "not done", "Not done", "Not recorded", "Refused", "Unknown"

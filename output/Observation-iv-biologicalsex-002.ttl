@@ -62,7 +62,8 @@
        fhir:coding ( [
          a sct:248153007 ;
          fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "248153007" ]
+         fhir:code [ fhir:v "248153007" ] ;
+         fhir:display [ fhir:v "Male" ]
        ] )
      ] ;
      fhir:value [ fhir:v "1"^^xsd:integer ]

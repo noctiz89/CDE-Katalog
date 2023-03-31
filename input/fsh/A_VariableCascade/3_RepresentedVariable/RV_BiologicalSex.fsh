@@ -9,14 +9,18 @@ Description: "Dieses abstrakte Profil beschreibt das 'biologische Geschlecht', b
 * insert RS_CreateDataElementConcept($SCT, 734000001, "Biological Sex") 
 
 // Harmoniersierung / Standardisierung aller möglichen Codings durch die Vorgabe eines ValueSets.
+* component.valueInteger 1..1 MS
+// Regel, dass component.valueInteger nur 1 oder 2 sein darf fehlt noch.
 * component.valueCodeableConcept 1..1 MS
 * component.valueCodeableConcept from VS_BiologicalGender (required) // könnte auch auf CV-Ebene definiert werden, und dort als alle "Geschlechtertypen"
+
 // SUBSTANTIAL VALUE DOMAIN (VD) via Observation.component
 * insert RS_ObservationComponentSlicingRules
 * component contains
     male 0..1 and
     female 0..1 //and
     //intersex 0..1
+
 // Categorial Concept: "Male"
 * component[male].code ^alias[0] = "Masculine"
 * component[male].code ^alias[+] = "Männlich"

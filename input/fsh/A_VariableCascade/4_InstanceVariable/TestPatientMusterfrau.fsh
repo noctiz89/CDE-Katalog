@@ -1,7 +1,7 @@
 Instance: f002testpatientW
 InstanceOf: Patient
 Usage: #example
-Title: "IV Test Patient"
+Title: "f002testpatient W"
 Description: "Example of female patient"
 * name.family = "Musterfrau"
 * name.given[0] = "Maxmine"

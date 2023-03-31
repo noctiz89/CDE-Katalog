@@ -1,8 +1,7 @@
 Instance: iv-ageinmonth-0001
-InstanceOf: RV_AgeInMonth
+InstanceOf: RV_AgeInMonths
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
@@ -10,10 +9,9 @@ Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * effectiveDateTime = "2023-03-27"
 
 Instance: iv-ageinmonth-0002
-InstanceOf: RV_AgeInMonth
+InstanceOf: RV_AgeInMonths
 Usage: #example
 Title: "Patientenalter in Jahren"
-Description:  "Alter eines Patienten zu unterschiedlichen Zeitpunkten erfasst."
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)

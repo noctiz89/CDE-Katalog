@@ -2598,3 +2598,25 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "248153007",
+  "display" : "Male"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Male",
+  "code" : "248153007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "248152002",
+  "display" : "Female"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Female",
+  "code" : "248152002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
