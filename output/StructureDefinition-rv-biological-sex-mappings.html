@@ -303,6 +303,7 @@ OR
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>&lt; 363787002 |Observable entity| OR 
 &lt; 386053000 |Evaluation procedure|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>363714003 |Interprets| &lt; 441742003 |Evaluation finding|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueInteger)</td><td>363714003 |Interprets| &lt; 441742003 |Evaluation finding|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueCodeableConcept)</td><td>363714003 |Interprets| &lt; 441742003 |Evaluation finding|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>&lt; 260245000 |Findings values|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component (male)</td><td></td> </tr>
@@ -396,6 +397,7 @@ OR
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>CE/CNE/CWE subset one of the sets of component 1-3 or 4-6, C*E.1-8, C*E.10-22</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>C*E.9. But note many systems use C*E.2 for this</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>OBX.2, OBX.5, OBX.6</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueInteger)</td><td>OBX.2, OBX.5, OBX.6</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueCodeableConcept)</td><td>OBX.2, OBX.5, OBX.6</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataAbsentReason</td><td>CE/CNE/CWE, N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>CE/CNE/CWE, OBX-8</td> </tr>
@@ -556,6 +558,7 @@ OR
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coding</td><td>n/a, CV, union(., ./translation)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text</td><td>n/a, ./originalText[mediaType/code=&quot;text/plain&quot;]/data</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>n/a, value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueInteger)</td><td>n/a, value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueCodeableConcept)</td><td>n/a, value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dataAbsentReason</td><td>n/a, CD, value.nullFlavor</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>n/a, CD, interpretationCode</td> </tr>
@@ -662,6 +665,7 @@ OR
  <tr><td>&nbsp;&nbsp;&nbsp;device</td><td>424226004 |Using device|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>363714003 |Interprets|</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueInteger)</td><td>363714003 |Interprets|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueCodeableConcept)</td><td>363714003 |Interprets|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interpretation</td><td>363713009 |Has interpretation|</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;component (male)</td><td></td> </tr>
@@ -750,7 +754,7 @@ OR
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - CDE Katalog Arbeitsgruppe</a>.  Package cde-katalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 31, 2023 11:28+0200">2023-03-31</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/[something]">HL7 International - CDE Katalog Arbeitsgruppe</a>.  Package cde-katalog#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 31, 2023 15:03+0200">2023-03-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

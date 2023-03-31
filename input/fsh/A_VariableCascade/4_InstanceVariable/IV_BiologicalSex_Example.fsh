@@ -40,7 +40,7 @@ Title: "Biologisches Geschlecht"
 * effectiveDateTime = "2019-06-06"
 * valueInteger = -998
 * component.code.coding = $SCT#2667000 // Absent (qualifier value)
-* component.valueInteger = -998
+* component.valueInteger = -998 //das soll eigentlich nicht möglich sein, mit dem CDE sollen nicht die repäsentierenden Values aller Studien gesammelt werden
 * component.dataAbsentReason.coding = $SCT#385660001
 
 Instance: iv-biologicalsex-005

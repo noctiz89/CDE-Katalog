@@ -8,3 +8,4 @@ RuleSet: RS_ObservationComponentCodingSlicingRules(component, shortString, defin
 * component[{component}].code.coding ^slicing.discriminator[=].path = "$this.code"
 * component[{component}].code.coding ^slicing.rules = #open
 * component[{component}].code.coding ^slicing.ordered = false
+* component[{component}].code.coding ^slicing.description = "Slice basiert auf $this.system und $this.code"

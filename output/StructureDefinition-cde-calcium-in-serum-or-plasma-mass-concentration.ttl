@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_CalciumInSerumOrPlasmaMassConcentration"] ; # 
   fhir:title [ fhir:v "CDE Calcium In Serum Or Plasma Mass Concentration"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-31T11:28:30+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-31T15:03:50+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

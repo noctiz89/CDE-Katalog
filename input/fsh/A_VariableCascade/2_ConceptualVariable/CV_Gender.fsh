@@ -12,8 +12,8 @@ Description: "Dieses abstrakte Profil beschreibt 'Geschlechtskategorie' als Merk
 * insert RS_CreateOneFurtherCategory(NominalScale, $UMLS, C1711339) // it is also possible to define the intended datatype at RV level
 
 // SUBSTANTIAL Conceptual Domain
-* valueCodeableConcept 0..0 // categorical features are defined in Observation.component
-* component.value[x] only CodeableConcept or integer
+* valueCodeableConcept 0..0 // value[x] kann zur Repräsentation in einem bestimmten Datensatz verwendet werden
+* component.valueCodeableConcept 0..1 // categorical features are defined in Observation.component
 * component.valueCodeableConcept from VS_BiologicalGender (required)
 
 // SENTINEL Conceptual Domain via Observation.component.dataAbsentReason
