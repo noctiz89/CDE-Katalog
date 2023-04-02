@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "CDE_HematocritOfBlood"] ; # 
   fhir:title [ fhir:v "CDE Hematocrit Of Blood"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-31T15:03:50+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-02T11:40:39+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

@@ -41,7 +41,7 @@ Title: "Biologisches Geschlecht"
 * valueInteger = -998
 * component.code.coding = $SCT#2667000 // Absent (qualifier value)
 * component.valueInteger = -998 //das soll eigentlich nicht möglich sein, mit dem CDE sollen nicht die repäsentierenden Values aller Studien gesammelt werden
-* component.dataAbsentReason.coding = $SCT#385660001
+* component.dataAbsentReason.coding = $SCT#385660001 "Not done"
 
 Instance: iv-biologicalsex-005
 InstanceOf: RV_BiologicalSex

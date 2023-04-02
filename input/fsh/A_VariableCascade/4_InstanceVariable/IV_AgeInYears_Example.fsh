@@ -15,7 +15,7 @@ Title: "Patientenalter in Jahren"
 * status = #final
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
-* valueQuantity = 26 'a' "Jahre"
+//* valueQuantity = 26 'a' "Jahre"
 * effectiveDateTime = "2021-03-27"
 
 Instance: iv-ageinyears-0003
@@ -36,6 +36,16 @@ Title: "Patientenalter in Jahren"
 * code = $LOINC#30525-0
 * subject = Reference(f001testpatientM)
 * component.code.coding = $SCT#2667000 // Absent (qualifier value)
-* component.valueInteger = -998
-* component.dataAbsentReason.coding = $SCT#1220561009 "Not recorded"
+* component.dataAbsentReason.coding = $SCT#443390004 "Refused"
 * effectiveDateTime = "2019-03-27"
+
+Instance: iv-ageinyears-0005
+InstanceOf: RV_AgeInYears
+Usage: #example
+Title: "Patientenalter in Jahren"
+* status = #preliminary
+* code = $LOINC#30525-0
+* subject = Reference(f001testpatientM)
+* component.code.coding = $SCT#2667000 // Absent (qualifier value)
+* component.dataAbsentReason.coding = $SCT#385660001 "Not done"
+* effectiveDateTime = "2019-01-01"

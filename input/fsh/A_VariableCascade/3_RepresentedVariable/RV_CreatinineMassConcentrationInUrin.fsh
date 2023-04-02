@@ -11,7 +11,7 @@ Description: "Die Konzetration von 'Kreatinin [Masse/Volumen] in Urin'."
 * specimen 1..1 MS
 * specimen only Reference(Specimen)
 
-// INTENDED DATA TYPE
+// INTENDED DATA TYPE FAMILY
 * insert RS_CreateOneFurtherCategory(Quantity, $SCT, 246205007)
 
 // Data_Element_Concept (DEC)

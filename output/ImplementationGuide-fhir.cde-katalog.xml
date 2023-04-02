@@ -18,7 +18,7 @@
   <title value="Common Data Element Katalog"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-03-31T15:03:50+02:00"/>
+  <date value="2023-04-02T11:40:39+02:00"/>
   <publisher value="HL7 International - CDE Katalog Arbeitsgruppe"/>
   <contact>
     <telecom>
@@ -519,6 +519,16 @@
         <reference value="Observation/iv-ageinyears-0004"/>
       </reference>
       <name value="Example Observation - iv-ageinyears-0004"/>
+      <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/iv-ageinyears-0005"/>
+      </reference>
+      <name value="Example Observation - iv-ageinyears-0005"/>
       <exampleCanonical value="http://hl7.org/de/StructureDefinition/rv-age-in-years"/>
     </resource>
     <resource>

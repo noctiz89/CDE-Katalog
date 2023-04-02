@@ -9,7 +9,7 @@ Description: "Das Körpergewicht eines Patienten in Kilogramm."
 * subject 1..1 MS
 * subject only Reference(Patient)
 
-// INTENDED DATA TYPE
+// INTENDED DATA TYPE FAMILY
 * insert RS_CreateOneFurtherCategory(Quantity, $SCT, 246205007)
 
 // DEC Data Element Concept

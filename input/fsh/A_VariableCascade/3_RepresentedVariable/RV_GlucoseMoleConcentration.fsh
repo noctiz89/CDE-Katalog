@@ -14,7 +14,7 @@ Description: "Die Konzetration von 'Glukose [Mol/Volumen]'."
 * insert RS_CreateOneFurtherCategory(Plasma, $LOINC, LP7479-1)
 * insert RS_CreateOneFurtherCategory(Serum, $LOINC, LP7567-3)
 
-// INTENDED DATA TYPE
+// INTENDED DATA TYPE FAMILY
 * insert RS_CreateOneFurtherCategory(Quantity, $SCT, 246205007)
 
 // Data_Element_Concept (DEC)

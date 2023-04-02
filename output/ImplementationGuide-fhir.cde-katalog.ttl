@@ -25,7 +25,7 @@
   fhir:title [ fhir:v "Common Data Element Katalog"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-03-31T15:03:50+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-02T11:40:39+02:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - CDE Katalog Arbeitsgruppe"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -606,6 +606,20 @@
          fhir:reference [ fhir:v "Observation/iv-ageinyears-0004" ]
        ] ;
        fhir:name [ fhir:v "Example Observation - iv-ageinyears-0004" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/de/Observation/iv-ageinyears-0005> ;
+         fhir:reference [ fhir:v "Observation/iv-ageinyears-0005" ]
+       ] ;
+       fhir:name [ fhir:v "Example Observation - iv-ageinyears-0005" ] ;
        fhir:example [
          fhir:v "http://hl7.org/de/StructureDefinition/rv-age-in-years"^^xsd:anyURI ;
          fhir:link <http://hl7.org/de/StructureDefinition/rv-age-in-years>

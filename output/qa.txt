@@ -1,16 +1,17 @@
 ﻿cde-katalog : Validation Results
 =========================================
 
-err = 13, warn = 75, info = 29
+err = 13, warn = 76, info = 32
 IG Publisher Version: 1.3.1 Out of date - current version is 1.3.4
-Generated Fri Mar 31 15:38:39 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
- Build Errors : 2 / 20 / 0
+Generated Sun Apr 02 12:12:27 CEST 2023. FHIR version 4.0.1 for cde-katalog#0.2.0 (canonical = http://hl7.org/de)
+ Build Errors : 2 / 21 / 0
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinmonth-0001 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinmonth-0002 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0001 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0002 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0003 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0004 : 0 / 0 / 4
+ D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-ageinyears-0005 : 0 / 0 / 4
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-001 : 2 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-002 : 2 / 0 / 3
  D:\CDE-Katalog\CDE-Katalog\fsh-generated\resources\Observation-iv-biologicalsex-003 : 2 / 0 / 4
@@ -191,6 +192,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0002.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0003.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0004.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-ageinyears-0005.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-002.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/iv-biologicalsex-003.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -230,30 +232,34 @@ INFORMATION: Observation/iv-ageinyears-0003: Observation.category[5].coding[0]: 
 INFORMATION: Observation/iv-ageinyears-0004: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-ageinyears-0004: Observation.category[2].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-ageinyears-0004: Observation.category[5].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+== fsh-generated\resources\Observation-iv-ageinyears-0005.json ==
+INFORMATION: Observation/iv-ageinyears-0005: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0005: Observation.category[2].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
+INFORMATION: Observation/iv-ageinyears-0005: Observation.category[5].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-001.json ==
-ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
-ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-001: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
 INFORMATION: Observation/iv-biologicalsex-001: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-001: Observation.category[3].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-002.json ==
-ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
-ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-002: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
 INFORMATION: Observation/iv-biologicalsex-002: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-002: Observation.category[3].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-003.json ==
-ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
-ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-003: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
 INFORMATION: Observation/iv-biologicalsex-003: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-003: Observation.category[3].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-003: Observation.component[0].code.coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-004.json ==
-ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
-ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-004: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
 INFORMATION: Observation/iv-biologicalsex-004: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-004: Observation.category[3].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Observation-iv-biologicalsex-005.json ==
-ERROR: Observation/iv-biologicalsex-005: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
-ERROR: Observation/iv-biologicalsex-005: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [$this.code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-005: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:male übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
+ERROR: Observation/iv-biologicalsex-005: Observation.component[0]: Slicing cannot be evaluated: Konnte nicht mit dem Diskriminator (1) für Slice [code] in Profil Observation.component:female übereinstimmen - der Diskriminator http://hl7.org/de/StructureDefinition/rv-biological-sex|0.2.0 hat keinen fixed Value, kein Binding oder existence assertions
 INFORMATION: Observation/iv-biologicalsex-005: Observation.category[0].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 INFORMATION: Observation/iv-biologicalsex-005: Observation.category[3].coding[0]: Code System URI "http://www.nlm.nih.gov/research/umls" ist unbekannt, so dass der Code nicht validiert werden kann
 == fsh-generated\resources\Patient-f001testpatientM.json ==

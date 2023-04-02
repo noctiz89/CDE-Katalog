@@ -8,13 +8,12 @@ Description: "Das Alter einer Person in Jahren."
 // UNIVERSE:
 * subject 1..1 MS
 * subject only Reference(Patient)
-
-// INTENDED DATA TYPE
+* effective[x] only dateTime
+* effectiveDateTime 1..1 MS
+// INTENDED DATA TYPE FAMILY
 * insert RS_CreateOneFurtherCategory(Quantity, $SCT, 246205007)
-
 // DEC Data Element Concept
 * insert RS_CreateDataElementConcept($LOINC, 30525-0, "Age") // Age
-
 // SUBSTANTIAL VALUE DOMAIN
 * insert RS_CreateValueQuantity_SingleUnit(a)
-* valueQuantity.value ^short = "Jahre"
+* valueQuantity.value ^short = "Jahr(e)"
